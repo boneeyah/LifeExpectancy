@@ -124,13 +124,14 @@ summary(LifeExp)
 #####################################################################################
 #                        Scatter plots for checking linearity                       #
 #####################################################################################
-num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
-MLR_num_LE = LifeExp[, num_cols]
-pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=MLR_num_LE, col="blue")
-pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=MLR_num_LE, col="blue")
-pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=MLR_num_LE, col="blue")
-pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=MLR_num_LE, col="blue")
-pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=MLR_num_LE, col="blue")
+LifeExp$Status = as.factor(LifeExp$Status)
+#num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+#MLR_num_LE = LifeExp[, num_cols]
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
 ```
 ### Observations
 We can observe linear relationship between Life Expectancy and the following variables
@@ -184,10 +185,10 @@ corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'blac
 ### Observations
 * Under five death and infant death are perfectly correlated. They are describing the same thing. One of the variable is redundant.
 * GDP and percentage expenditure are perfectly correlated. They are describing the same thing. One of the variable is redundant.
-* Life Expectancy and Adult Mortality are highly correlated
+* Life Expectancy and Adult Mortality are highly negatively correlated
 * Life Expectancy and HIV.AIDS are moderately correlated
 * Life Expectancy and BMI are moderately correlated
-* Life Expectancy and Scooling are highly correlated
+* Life Expectancy and Schooling are highly correlated
 * Life Expectancy and Income Composition of Resources are highly correlated
 
 ## Uni-variate analysis
