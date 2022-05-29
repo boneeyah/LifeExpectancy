@@ -1,0 +1,441 @@
+---
+title: "Tamas_Toth_MSDS_6372_Project1"
+author: "Tamas Toth"
+date: '2022-05-27'
+output:
+  #html_document:
+    #theme: cerulean
+    #highlight: textmate
+  github_document:
+  toc: FALSE
+  toc_depth: 3
+  fig_width: 7
+  fig_height: 5
+  dev: "png"
+  df_print: "default"
+  includes: NULL
+  md_extensions: NULL
+  hard_line_breaks: TRUE
+  pandoc_args: NULL
+  html_preview: TRUE
+  keep_html: TRUE
+always_allow_html: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#### Loading the necessary R libraries for the analysis
+```{r message = FALSE}
+# Load the necessary libraries
+library(knitr)
+library(rmarkdown)
+library(ggpubr)
+library(dplyr)
+library(tidyr)
+library(plyr)
+library(ggplot2)
+library(tidyverse)
+library(ggthemes)
+library(e1071)
+library(class)
+library(caret)
+library(stringr)
+library(sjPlot)
+library(data.table)
+library(reshape2)
+library(corrplot)
+library(naivebayes)
+library(car)
+library(egg)
+```
+```{r message = FALSE}
+# Turn off scientific notation
+options(scipen = 100, digits = 4)
+```
+#### Read the data
+```{r,fig.align='center',out.extra='angle=90', message = FALSE}
+#Read the data
+setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
+LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+# take a sample of 15 from the dataframe
+LifeExp_sample = sample_n(LifeExp, 5)
+knitr::kable(LifeExp_sample, "html")
+```
+
+#### Address the missing values in each column (NA as well as empty strings).
+```{r}
+# Address the missing values in each column (NA as well as empty strings).
+missing_df = as.data.frame(sapply(LifeExp, function(x) sum(is.na(x))))
+colnames(missing_df) = c("variable missing")
+knitr::kable(missing_df, "html")
+empty_string_df = as.data.frame(sapply(LifeExp, function(x) sum(x == "")))
+colnames(empty_string_df) = c("variable empty")
+knitr::kable(empty_string_df, "html")
+```
+
+```{r}
+#set random seed
+set.seed(329)
+```
+
+```{r, warning=FALSE}
+# Function to Identify different characteristics of the data frame 
+# Getting a concise summary of the dataframe: str()
+# Listing the column labels of the dataframe: colnames()
+# Size of the dataset: dim()
+# # Verify if there is any negative values in the dataset
+dfinfo = function(df_name)
+  {
+  df_structure = str(df_name)
+  df_colnames = colnames(df_name)
+  df_dimensions = dim(df_name)
+  df_neg = print(paste("Negative values in the Data Frame:", 
+                       sapply(df_name, function(x) sum(x < 0))))
+  outparam = list(df_structure, df_colnames, df_dimensions, df_neg)
+  return (outparam)
+}
+```
+```{r}
+dfinfo(LifeExp)
+```
+
+
+#### Generate summary statistics
+```{r}
+# Generate summary statistics
+summary(LifeExp)
+```
+
+### Observations:
+* The dataset is comprised of 2938 observations and 22 variables
+* There are numerical and categorical variables (Country and Status) in the dataset
+* Column names have spaces and special characters that has been replaced by R with "."
+* There are missing values or empty strings in the dataset
+* ????? duplicated records????????
+* 'Life.expectancy' is the dependent variable - There are 10 missing observations in the dependent variable
+* We need to predict Salary however there is no salary variable in the dataset but MonthlyIncome variable seems to be sufficient for this purpose.
+
+
+### Scatterplots
+```{r Linear regression}
+#####################################################################################
+#                        Scatter plots for checking linearity                       #
+#####################################################################################
+num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+MLR_num_LE = LifeExp[, num_cols]
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=MLR_num_LE, col="blue")
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=MLR_num_LE, col="blue")
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=MLR_num_LE, col="blue")
+pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=MLR_num_LE, col="blue")
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=MLR_num_LE, col="blue")
+```
+### Observations
+We can observe linear relationship between Life Expectancy and the following variables
+
+* Income composition of resources
+* Schooling
+* Log(HIV.AIDS)
+* Log(GDP)
+* Log(percentage.expenditure)
+* BMI
+* Year
+* Adult.Mortality
+
+
+## Fixing the missing values by replacing with median
+```{r median imputation}
+# Drop missing values from the dependent variable
+LifeExp = LifeExp[!(is.na(LifeExp$Life.expectancy)),]
+
+na_list = colnames(LifeExp)[apply(LifeExp, 2, anyNA)]
+# LifeExp_db = apply(LifeExp[,colnames(LifeExp) %in% na_list],2,median,na.rm =  TRUE)
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Alcohol = replace(Alcohol,is.na(Alcohol), median(Alcohol, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Hepatitis.B = replace(Hepatitis.B,is.na(Hepatitis.B), median(Hepatitis.B, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(BMI = replace(BMI,is.na(BMI), median(BMI, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Polio = replace(Polio,is.na(Polio), median(Polio, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Total.expenditure = replace(Total.expenditure,is.na(Total.expenditure), median(Total.expenditure, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Diphtheria = replace(Diphtheria,is.na(Diphtheria), median(Diphtheria, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(GDP = replace(GDP,is.na(GDP), median(GDP, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Population = replace(Population,is.na(Population), median(Population, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(thinness..1.19.years = replace(thinness..1.19.years,is.na(thinness..1.19.years), median(thinness..1.19.years, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(thinness.5.9.years = replace(thinness.5.9.years,is.na(thinness.5.9.years), median(thinness.5.9.years, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Income.composition.of.resources = replace(Income.composition.of.resources,is.na(Income.composition.of.resources), median(Income.composition.of.resources, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% mutate(Schooling = replace(Schooling,is.na(Schooling), median(Schooling, na.rm = TRUE)))
+
+# convert the tibble to data frame
+LifeExp = as.data.frame(LifeExp)
+```
+
+### Full Correlation Matrix for Linear Regression (Life.expectancy)
+```{r fig.dim = c(14, 12), fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#      Full Correlation Matrix for Linear Regression (Life.expectancy)              #
+#####################################################################################
+# Filter for data to be included
+num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+LifeExpcorr = LifeExp[,num_cols]
+corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
+         cl.pos = 'n', col = COL2('BrBG'))
+```
+
+### Observations
+* Under five death and infant death are perfectly correlated. They are describing the same thing. One of the variable is redundant.
+* GDP and percentage expenditure are perfectly correlated. They are describing the same thing. One of the variable is redundant.
+* Life Expectancy and Adult Mortality are highly correlated
+* Life Expectancy and HIV.AIDS are moderately correlated
+* Life Expectancy and BMI are moderately correlated
+* Life Expectancy and Scooling are highly correlated
+* Life Expectancy and Income Composition of Resources are highly correlated
+
+## Uni-variate analysis
+```{r,fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#                               Uni-variate analysis                                #
+#####################################################################################
+# Let's plot the summary statistics
+# Univariate analysis
+num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+num_cols_exclude = c('Year')
+num_cols_plots = noquote(unlist(num_cols[!( num_cols %in% num_cols_exclude)]))
+nrows = length(num_cols_plots)
+for (i in num_cols_plots)
+{
+box_p = LifeExp %>%
+  ggplot(aes(x="", y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  coord_flip() + theme_classic() + xlab("") +
+  theme(axis.text.y=element_blank(),
+        axis.ticks.y=element_blank()) +
+  ylab(i)
+hist_p = LifeExp %>%
+  ggplot() +
+  geom_histogram(aes(x = .data[[i]], y = (..count..)/sum(..count..)),
+                 position = "identity", bins = 30, 
+                 fill = "sandybrown", color = "black") +
+  ylab("Relative Frequency") +
+  theme_classic() + xlab(i) + ggtitle(paste(i, "- Univariate Analysis")) + 
+  theme(plot.title = element_text(hjust = 0.5))
+egg::ggarrange(hist_p, box_p, heights = 2:1) 
+}
+
+```
+
+```{r transform variables in the dataframe}
+#####################################################################################
+#                                     Data Preparation                              #
+#####################################################################################
+
+### Transform variables
+LifeExp = mutate(LifeExp, log.HIV.AIDS = ifelse(HIV.AIDS==0, log(HIV.AIDS+1), log(HIV.AIDS)))
+LifeExp = mutate(LifeExp, log.GDP = ifelse(GDP==0, log(GDP+1), log(GDP)))
+LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expenditure==0, log(percentage.expenditure+1), log(percentage.expenditure)))
+
+
+### Transform countries to continents
+library(countrycode)
+LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
+LifeExp$Continent = as.factor(LifeExp$Continent)
+LifeExp$Status = as.factor(LifeExp$Status)
+
+drop = c('HIV.AIDS', 'GDP', 'percentage.expenditure', 'Country')
+LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
+
+```
+
+
+
+```{r train test set}
+#####################################################################################
+#                    Split the Data to Train and Test sets (85%-15%)               #
+#####################################################################################
+index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
+train = LifeExp[index,]
+test = LifeExp[-index,]
+```
+
+
+
+#####################################################################################
+#                                        Modeling                                   #
+#####################################################################################
+
+```{r Model building}
+#Prediction function
+predict.regsubsets =function (object , newdata ,id ,...){
+  form=as.formula (object$call [[2]])
+  mat=model.matrix(form ,newdata )
+  coefi=coef(object ,id=id)
+  xvars=names(coefi)
+  mat[,xvars]%*%coefi
+}
+
+#####################################################################################
+#                                       Lasso                                       #
+#####################################################################################
+library(glmnet)
+x=model.matrix(Life.expectancy~.,train)[,-1]
+y=train$Life.expectancy
+xtest = model.matrix(Life.expectancy~.,test)[,-1]
+ytest = test$Life.expectancy
+
+grid=10^seq(10,-2, length =100)
+lasso.mod=glmnet(x,y,alpha=1, lambda =grid)
+cv.out=cv.glmnet(x,y,alpha=1)
+plot(cv.out)
+
+bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
+lasso.pred=predict(lasso.mod ,s=bestlambda ,newx=xtest)
+
+testMSE_LASSO<-mean((ytest-lasso.pred)^2)
+testMSE_LASSO
+coef(lasso.mod,s=bestlambda)
+
+lasso_residuals = (ytest - lasso.pred)
+hist(lasso_residuals, main = "Histogram of Residuals")
+plot(lasso_residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+
+# Metrics RMSE; R-squared; MAE
+postResample(pred = lasso.pred, obs = ytest)
+
+#####################################################################################
+#                                  Forward Selection                                #
+#####################################################################################
+library(leaps)
+mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=22)
+testASE<-c()
+for (i in 1:22){
+  predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
+  testASE[i] = mean((test$Life.expectancy-predictions)^2)
+}
+par(mfrow=c(1,1))
+plot(1:22,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+index<-which(testASE==min(testASE))
+points(index,testASE[index],col="red",pch=10)
+rss<-summary(mlr.fwd)$rss
+lines(1:22,rss/dim(train)[1],lty=3,col="blue")  
+
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=22)
+coef(mlr.fwd.final,17)
+summary(mlr.fwd.final)
+
+# Metrics RMSE; R-squared; MAE
+postResample(pred = predictions, obs = ytest)
+
+
+#####################################################################################
+#                               Backward Elimination                                #
+#####################################################################################
+
+mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=24)
+testASE<-c()
+for (i in 1:24){
+  predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
+  testASE[i] = mean((test$Life.expectancy-predictions)^2)
+}
+par(mfrow=c(1,1))
+plot(1:24,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+index<-which(testASE==min(testASE))
+points(index,testASE[index],col="red",pch=10)
+rss<-summary(mlr.bck)$rss
+lines(1:24,rss/dim(train)[1],lty=3,col="blue")  
+
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=24)
+coef(mlr.bck.final,17)
+
+# Metrics RMSE; R-squared; MAE
+postResample(pred = predictions, obs = ytest)
+
+
+#####################################################################################
+#                                  Ridge regression                                 #
+#####################################################################################
+x=model.matrix(Life.expectancy~.,train)[,-1]
+y=train$Life.expectancy
+xtest = model.matrix(Life.expectancy~.,test)[,-1]
+ytest = test$Life.expectancy
+
+grid=10^seq(10,-2, length =100)
+ridge.mod=glmnet(x,y,alpha=0, lambda =grid, family = 'gaussian') # alpha is 0 for Ridge
+cv.out=cv.glmnet(x,y,alpha=0)
+plot(cv.out)
+
+bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
+ridge.pred=predict(ridge.mod ,s=bestlambda ,newx=xtest)
+
+testMSE_RIDGE<-mean((ytest-ridge.pred)^2)
+testMSE_RIDGE
+coef(ridge.mod,s=bestlambda)
+
+# Metrics RMSE; R-squared; MAE
+postResample(pred = ridge.pred, obs = ytest)
+
+
+#####################################################################################
+#                            Elastic Net Regression                                 #
+#####################################################################################
+
+library(glmnetUtils)
+cva.out = cva.glmnet(x,y)
+plot(cva.out)
+
+alpha = cva.out$alpha
+mse = sapply(cva.out$modlist, function(mod) {min(mod$cvm)})
+lambdaMin <- sapply(cva.out$modlist, `[[`, "lambda.min")
+min_mse <- which.min(mse)
+cva.min = data.frame(alpha = alpha[min_mse], lambdaMin = lambdaMin[min_mse], mse = mse[min_mse])
+cva.min
+
+elastic.mod = glmnet(x,y, alpha = cva.min$alpha, lambda = cva.min$lambdaMin)
+elastic.pred=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=xtest)
+elastic.pred_coef=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=xtest, type = "coef")
+
+testMSE_ELASTIC<-mean((ytest-elastic.pred)^2)
+testMSE_ELASTIC
+
+# Metrics RMSE; R-squared; MAE
+postResample(pred = elastic.pred, obs = ytest)
+
+#####################################################################################
+#                                      Manual MLR                                   #
+#####################################################################################
+# 5-fold cross validation
+cv <- trainControl(
+  method = "cv", 
+  number = 5,
+  savePredictions = TRUE
+)
+
+MLRT = train(
+  Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality,
+  data = train,
+  method = "lm",
+  trControl = cv)
+
+### Visualize VIF
+MLR_VIF = vif(MLRT$finalModel)
+barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+
+# Predicting
+train_pred = predict(MLRT, train)
+test_pred = predict(MLRT, test)
+
+# Scoring the final model on Training and Validation set
+summary(MLRT$finalModel)
+residuals = resid(MLRT$finalModel)
+postResample(pred = train_pred, obs = train$Life.expectancy)
+postResample(pred = test_pred, obs = test$Life.expectancy)
+
+### Checking Multiple Liner Regression model assumptions
+fit = lm(Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality, train)
+confint(fit)
+hist(residuals, main = "Histogram of Residuals")
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+plot(fit, which = 2)
+plot(fit, which = 4)
+```
