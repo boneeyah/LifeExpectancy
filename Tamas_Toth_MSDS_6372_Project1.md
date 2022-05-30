@@ -119,211 +119,7 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Bahamas
-</td>
-<td style="text-align:right;">
-2009
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-74.6
-</td>
-<td style="text-align:right;">
-168
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-9.29
-</td>
-<td style="text-align:right;">
-0.00
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-6.7
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-7.43
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-2.5
-</td>
-<td style="text-align:right;">
-2.5
-</td>
-<td style="text-align:right;">
-0.791
-</td>
-<td style="text-align:right;">
-12.6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Slovenia
-</td>
-<td style="text-align:right;">
-2011
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-79.8
-</td>
-<td style="text-align:right;">
-84
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-10.61
-</td>
-<td style="text-align:right;">
-3343.03
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-22
-</td>
-<td style="text-align:right;">
-57.6
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-9.80
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-24985
-</td>
-<td style="text-align:right;">
-252843
-</td>
-<td style="text-align:right;">
-1.6
-</td>
-<td style="text-align:right;">
-1.6
-</td>
-<td style="text-align:right;">
-0.876
-</td>
-<td style="text-align:right;">
-17.0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Italy
-</td>
-<td style="text-align:right;">
-2002
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-80.0
-</td>
-<td style="text-align:right;">
-72
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-9.25
-</td>
-<td style="text-align:right;">
-2883.33
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-9385
-</td>
-<td style="text-align:right;">
-56.4
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-8.23
-</td>
-<td style="text-align:right;">
-93
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-22197
-</td>
-<td style="text-align:right;">
-57597
-</td>
-<td style="text-align:right;">
-0.5
-</td>
-<td style="text-align:right;">
-0.5
-</td>
-<td style="text-align:right;">
-0.836
-</td>
-<td style="text-align:right;">
-15.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Myanmar
+Iran (Islamic Republic of)
 </td>
 <td style="text-align:right;">
 2014
@@ -332,66 +128,66 @@ Myanmar
 Developing
 </td>
 <td style="text-align:right;">
-66.4
+75.4
 </td>
 <td style="text-align:right;">
-21
+83
 </td>
 <td style="text-align:right;">
-40
+19
 </td>
 <td style="text-align:right;">
 0.01
 </td>
 <td style="text-align:right;">
-45.34
+0.00
 </td>
 <td style="text-align:right;">
-88
+99
 </td>
 <td style="text-align:right;">
-122
+99
 </td>
 <td style="text-align:right;">
-22.9
+58.5
 </td>
 <td style="text-align:right;">
-52
+22
 </td>
 <td style="text-align:right;">
-88
+99
 </td>
 <td style="text-align:right;">
-2.28
+6.89
 </td>
 <td style="text-align:right;">
-88
+99
 </td>
 <td style="text-align:right;">
-0.3
+0.1
 </td>
 <td style="text-align:right;">
-1263
+NA
 </td>
 <td style="text-align:right;">
-51924182
+NA
 </td>
 <td style="text-align:right;">
-12.9
+8.3
 </td>
 <td style="text-align:right;">
-13.1
+8.4
 </td>
 <td style="text-align:right;">
-0.547
+0.770
 </td>
 <td style="text-align:right;">
-9.1
+14.9
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Uruguay
+Venezuela (Bolivarian Republic of)
 </td>
 <td style="text-align:right;">
 2009
@@ -400,61 +196,265 @@ Uruguay
 Developing
 </td>
 <td style="text-align:right;">
-76.6
+73.6
 </td>
 <td style="text-align:right;">
-118
+166
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+7.59
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+84
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-6.67
+58.8
 </td>
 <td style="text-align:right;">
-1871.74
+10
 </td>
 <td style="text-align:right;">
-95
+75
 </td>
 <td style="text-align:right;">
-0
+5.81
 </td>
 <td style="text-align:right;">
-6.7
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-8.78
-</td>
-<td style="text-align:right;">
-95
+84
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-9415
+NA
 </td>
 <td style="text-align:right;">
-3362755
+NA
+</td>
+<td style="text-align:right;">
+1.6
 </td>
 <td style="text-align:right;">
 1.5
 </td>
 <td style="text-align:right;">
-1.5
+0.754
 </td>
 <td style="text-align:right;">
-0.774
+14.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sweden
 </td>
 <td style="text-align:right;">
-15.5
+2003
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+82.0
+</td>
+<td style="text-align:right;">
+69
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6.90
+</td>
+<td style="text-align:right;">
+5067.41
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+54.4
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+9.31
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+36961.4
+</td>
+<td style="text-align:right;">
+8958229
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+0.882
+</td>
+<td style="text-align:right;">
+15.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Burkina Faso
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+54.3
+</td>
+<td style="text-align:right;">
+32
+</td>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+4.73
+</td>
+<td style="text-align:right;">
+64.24
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:right;">
+125
+</td>
+<td style="text-align:right;">
+14.6
+</td>
+<td style="text-align:right;">
+86
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+6.58
+</td>
+<td style="text-align:right;">
+86
+</td>
+<td style="text-align:right;">
+2.0
+</td>
+<td style="text-align:right;">
+422.6
+</td>
+<td style="text-align:right;">
+13829177
+</td>
+<td style="text-align:right;">
+1.0
+</td>
+<td style="text-align:right;">
+9.6
+</td>
+<td style="text-align:right;">
+0.325
+</td>
+<td style="text-align:right;">
+4.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Angola
+</td>
+<td style="text-align:right;">
+2011
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+51.0
+</td>
+<td style="text-align:right;">
+361
+</td>
+<td style="text-align:right;">
+75
+</td>
+<td style="text-align:right;">
+8.06
+</td>
+<td style="text-align:right;">
+239.89
+</td>
+<td style="text-align:right;">
+72
+</td>
+<td style="text-align:right;">
+1449
+</td>
+<td style="text-align:right;">
+21.0
+</td>
+<td style="text-align:right;">
+115
+</td>
+<td style="text-align:right;">
+73
+</td>
+<td style="text-align:right;">
+3.38
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+2.5
+</td>
+<td style="text-align:right;">
+4299.1
+</td>
+<td style="text-align:right;">
+24218565
+</td>
+<td style="text-align:right;">
+8.9
+</td>
+<td style="text-align:right;">
+8.8
+</td>
+<td style="text-align:right;">
+0.495
+</td>
+<td style="text-align:right;">
+9.4
 </td>
 </tr>
 </tbody>
@@ -1114,6 +1114,7 @@ LifeExp = LifeExp %>% group_by(Country) %>% mutate(Schooling = replace(Schooling
 
 # convert the tibble to data frame
 LifeExp = as.data.frame(LifeExp)
+LifeExpKNN = LifeExp
 ```
 
 ### Full Correlation Matrix for Linear Regression (Life.expectancy)
@@ -2086,24 +2087,24 @@ plot(fit.fwd.lm3, which = 4)
 #                               Backward Elimination                                #
 #####################################################################################
 
-mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=24)
+mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=22)
 testASE<-c()
-for (i in 1:24){
+for (i in 1:22){
   predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:24,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:22,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.bck)$rss
-lines(1:24,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:22,rss/dim(train)[1],lty=3,col="blue")  
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-17.png)<!-- -->
 
 ``` r
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=24)
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=22)
 coef(mlr.bck.final,17)
 ```
 
@@ -2132,7 +2133,7 @@ postResample(pred = predictions, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.3265   0.8644   2.5175
+    ##   3.3266   0.8644   2.5177
 
 ``` r
 ##### Result is the same as the forward model therefore does not need to fit another linear model ###### 
@@ -2448,3 +2449,94 @@ plot(fit, which = 4)
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-24.png)<!-- -->
+
+``` r
+#####################################################################################
+#                                      Objective 2                                  #
+#                   Model with complexity (adding interaction terms)                #
+#####################################################################################
+```
+
+``` r
+#####################################################################################
+#                                      Objective 2                                  #
+#                                     KNN - regression                              #
+#####################################################################################
+# Check for zero variance
+caret::nearZeroVar(LifeExpKNN %>% select(where(is.numeric)), saveMetrics = TRUE) %>% 
+  tibble::rownames_to_column() %>% 
+  filter(nzv)
+```
+
+    ## [1] rowname       freqRatio     percentUnique zeroVar       nzv          
+    ## <0 rows> (or 0-length row.names)
+
+``` r
+cat("No variable with zero variance in the selected list of variables.") 
+```
+
+    ## No variable with zero variance in the selected list of variables.
+
+``` r
+# Scale the numerical variables as KNN is sensitive to that
+LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
+
+### KNN Data Preparation
+index<-sample(1:dim(LifeExpKNN)[1],round(dim(LifeExpKNN)[1]*0.85),replace=F)
+KNNtrain = LifeExpKNN[index,]
+KNNtest = LifeExpKNN[-index,]
+
+x=KNNtrain[,-4]
+y=KNNtrain$Life.expectancy
+xtest = KNNtest[,-4]
+ytest = KNNtest$Life.expectancy
+
+# Search for optimal k
+k_grid = expand.grid(k = seq(2, 25, by = 1))
+
+# Model Training
+KNNRegressor = train(
+  Life.expectancy~.,
+  data = KNNtrain,
+  method = "knn",
+  preProcess = c("center", "scale"), 
+  tuneGrid = k_grid,
+  trControl = cv
+  )
+
+KNNRegressor$finalModel
+```
+
+    ## 3-nearest neighbor regression model
+
+``` r
+prediction_train = predict(KNNRegressor, KNNtrain)
+prediction_test = predict(KNNRegressor, KNNtest)
+
+x = 1:length(KNNtest$Life.expectancy)
+plot(x, KNNtest$Life.expectancy, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction")
+lines(x, prediction_test, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20KNN-1.png)<!-- -->
+
+### Visualize ‘k’ and the most important features
+
+``` r
+# Visualize 'k' and the most important features
+ggplot(KNNRegressor) + ggtitle("Optimal k value for the highest accuracy") +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-1.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+KNNvarImp = varImp(KNNRegressor)
+plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-2.png" angle=90 style="display: block; margin: auto;" />

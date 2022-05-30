@@ -548,7 +548,7 @@ plot(fit, which = 4)
 
 ```
 
-```{r Objective 2 interaction}
+```{r Objective 2 KNN}
 #####################################################################################
 #                                      Objective 2                                  #
 #                                     KNN - regression                              #
@@ -606,5 +606,5 @@ grid()
 ggplot(KNNRegressor) + ggtitle("Optimal k value for the highest accuracy") +
   theme(plot.title = element_text(hjust = 0.5))
 KNNvarImp = varImp(KNNRegressor)
-plot(KNNvarImp, top = 5, main='Top 5 reason of resignation (KNN)')
+plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
