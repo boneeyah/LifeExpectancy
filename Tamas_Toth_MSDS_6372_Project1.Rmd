@@ -168,6 +168,7 @@ LifeExp = LifeExp %>% group_by(Country) %>% mutate(Schooling = replace(Schooling
 
 # convert the tibble to data frame
 LifeExp = as.data.frame(LifeExp)
+LifeExpKNN = LifeExp
 ```
 
 ### Full Correlation Matrix for Linear Regression (Life.expectancy)
@@ -426,20 +427,20 @@ plot(fit.fwd.lm3, which = 4)
 #                               Backward Elimination                                #
 #####################################################################################
 
-mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=24)
+mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=22)
 testASE<-c()
-for (i in 1:24){
+for (i in 1:22){
   predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:24,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:22,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.bck)$rss
-lines(1:24,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:22,rss/dim(train)[1],lty=3,col="blue")  
 
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=24)
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=22)
 coef(mlr.bck.final,17)
 
 # Metrics RMSE; R-squared; MAE
@@ -538,4 +539,72 @@ plot(residuals, main = "Residuals plot")
 abline(h=0, col="blue")
 plot(fit, which = 2)
 plot(fit, which = 4)
+```
+```{r Objective 2 interaction}
+#####################################################################################
+#                                      Objective 2                                  #
+#                   Model with complexity (adding interaction terms)                #
+#####################################################################################
+
+```
+
+```{r Objective 2 interaction}
+#####################################################################################
+#                                      Objective 2                                  #
+#                                     KNN - regression                              #
+#####################################################################################
+# Check for zero variance
+caret::nearZeroVar(LifeExpKNN %>% select(where(is.numeric)), saveMetrics = TRUE) %>% 
+  tibble::rownames_to_column() %>% 
+  filter(nzv)
+cat("No variable with zero variance in the selected list of variables.") 
+
+# Scale the numerical variables as KNN is sensitive to that
+LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
+
+### KNN Data Preparation
+index<-sample(1:dim(LifeExpKNN)[1],round(dim(LifeExpKNN)[1]*0.85),replace=F)
+KNNtrain = LifeExpKNN[index,]
+KNNtest = LifeExpKNN[-index,]
+
+x=KNNtrain[,-4]
+y=KNNtrain$Life.expectancy
+xtest = KNNtest[,-4]
+ytest = KNNtest$Life.expectancy
+
+# Search for optimal k
+k_grid = expand.grid(k = seq(2, 25, by = 1))
+
+# Model Training
+KNNRegressor = train(
+  Life.expectancy~.,
+  data = KNNtrain,
+  method = "knn",
+  preProcess = c("center", "scale"), 
+  tuneGrid = k_grid,
+  trControl = cv
+  )
+
+KNNRegressor$finalModel
+
+prediction_train = predict(KNNRegressor, KNNtrain)
+prediction_test = predict(KNNRegressor, KNNtest)
+
+x = 1:length(KNNtest$Life.expectancy)
+plot(x, KNNtest$Life.expectancy, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction")
+lines(x, prediction_test, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+
+```
+
+### Visualize 'k' and the most important features
+```{r, fig.align='center',out.extra='angle=90'}
+# Visualize 'k' and the most important features
+ggplot(KNNRegressor) + ggtitle("Optimal k value for the highest accuracy") +
+  theme(plot.title = element_text(hjust = 0.5))
+KNNvarImp = varImp(KNNRegressor)
+plot(KNNvarImp, top = 5, main='Top 5 reason of resignation (KNN)')
 ```
