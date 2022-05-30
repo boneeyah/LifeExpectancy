@@ -302,6 +302,54 @@ abline(h=0, col="blue")
 # Metrics RMSE; R-squared; MAE
 postResample(pred = lasso.pred, obs = ytest)
 
+##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
+fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + infant.deaths + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+summary(fit.lasso.lm)
+
+### Visualize VIF
+fit.lasso.lm_VIF = vif(fit.lasso.lm)
+barplot(fit.lasso.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+
+# We can see that LASSO did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (infant.death).
+
+##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
+fit.lasso.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+summary(fit.lasso.lm2)
+
+### re-run Visualize VIF
+fit.lasso.lm_VIF2 = vif(fit.lasso.lm2)
+barplot(fit.lasso.lm_VIF2, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+
+##### Fit Linear Model based on LASSO regularization and removed multicollinearity####
+fit.lasso.lm3 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + Status + Continent, data = train)
+
+#### Hypothesis testing ####
+summary(fit.lasso.lm3)
+# At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
+# Alcohol, Measles, BMI, Total.expenditure.
+
+# Predicting
+train_pred = predict(fit.lasso.lm3, train)
+test_pred = predict(fit.lasso.lm3, test)
+
+# Scoring the final model on Training and Test set
+residuals = resid(fit.lasso.lm3)
+postResample(pred = train_pred, obs = train$Life.expectancy)
+postResample(pred = test_pred, obs = test$Life.expectancy)
+sm = summary(fit.lasso.lm3)
+mse = mean(sm$residuals^2)
+
+### Checking Multiple Liner Regression model assumptions
+confint(fit.lasso.lm3)
+hist(residuals, main = "Histogram of Residuals")
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+plot(fit.lasso.lm3, which = 2)
+plot(fit.lasso.lm3, which = 4)
+
+
 #####################################################################################
 #                                  Forward Selection                                #
 #####################################################################################
@@ -323,8 +371,55 @@ mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=2
 coef(mlr.fwd.final,17)
 summary(mlr.fwd.final)
 
+
 # Metrics RMSE; R-squared; MAE
 postResample(pred = predictions, obs = ytest)
+
+##### Fit Linear Model based on FOrward Selection without factors to measure VIF####
+fit.fwd.lm = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Hepatitis.B+under.five.deaths+Polio+Diphtheria+thinness.5.9.years+Income.composition.of.resources +Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+
+### Visualize VIF
+fit.fwd.lm_VIF = vif(fit.fwd.lm)
+barplot(fit.fwd.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+
+# We can see that Forward Selection did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (under.five.deaths).
+
+##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
+fit.fwd.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+summary(fit.fwd.lm2)
+
+### re-run Visualize VIF
+fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
+barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+
+##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity####
+fit.fwd.lm3 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + Status + Continent, data = train)
+
+#### Hypothesis testing ####
+summary(fit.fwd.lm3)
+# At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
+# Alcohol, Measles, BMI, Total.expenditure.
+
+# Predicting
+train_pred = predict(fit.fwd.lm3, train)
+test_pred = predict(fit.fwd.lm3, test)
+
+# Scoring the final model on Training and Test set
+residuals = resid(fit.fwd.lm3)
+postResample(pred = train_pred, obs = train$Life.expectancy)
+postResample(pred = test_pred, obs = test$Life.expectancy)
+sm = summary(fit.fwd.lm3)
+mse = mean(sm$residuals^2)
+
+### Checking Multiple Liner Regression model assumptions
+confint(fit.fwd.lm3)
+hist(residuals, main = "Histogram of Residuals")
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+plot(fit.fwd.lm3, which = 2)
+plot(fit.fwd.lm3, which = 4)
 
 
 #####################################################################################
@@ -350,6 +445,7 @@ coef(mlr.bck.final,17)
 # Metrics RMSE; R-squared; MAE
 postResample(pred = predictions, obs = ytest)
 
+##### Result is the same as the forward model therefore does not need to fit another linear model ###### 
 
 #####################################################################################
 #                                  Ridge regression                                 #
@@ -420,6 +516,9 @@ MLRT = train(
 MLR_VIF = vif(MLRT$finalModel)
 barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
+
+### Hypothesis testing
+summary(MLRT$finalModel)
 
 # Predicting
 train_pred = predict(MLRT, train)
