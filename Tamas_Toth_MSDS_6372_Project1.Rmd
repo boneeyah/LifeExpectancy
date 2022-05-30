@@ -58,8 +58,8 @@ options(scipen = 100, digits = 4)
 #### Read the data
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
-setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+#setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
+LifeExp = read.csv(file = 'Life Expectancy Data.csv',header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -145,6 +145,41 @@ We can observe linear relationship between Life Expectancy and the following var
 * Year
 * Adult.Mortality
 
+#adding region column to do regional imputation
+```{r}
+###rename ivory coast and remove parenthesis from country names
+LifeExp$Country <- replace(LifeExp$Country,LifeExp$Country == "CÃ´te d'Ivoire","Ivory Coast")
+LifeExp$Country <-  str_replace(LifeExp$Country,"\\(.*\\)","")
+LifeExp$Country <- trimws(LifeExp$Country,"right")
+
+
+### add region using rworldmap package
+regions <- rworldmap::countryRegions
+regions <- regions[,c(2,6)]
+colnames(regions) <- c("Country","Region")
+regions$Country <- replace(regions$Country, regions$Country == "The Bahamas", "Bahamas")
+regions$Country <- replace(regions$Country, regions$Country == "Brunei", "Brunei Darussalam")
+regions$Country <- replace(regions$Country, regions$Country == "Cape Verde", "Cabo Verde")
+regions$Country <- replace(regions$Country, regions$Country == "Republic of the Congo", "Congo")
+regions$Country <- replace(regions$Country, regions$Country == "Czech Republic", "Czechia")
+regions$Country <- replace(regions$Country, regions$Country == "North Korea", "Democratic People's Republic of Korea")
+regions$Country <- replace(regions$Country, regions$Country == "Guinea Bissau", "Guinea-Bissau")
+regions$Country <- replace(regions$Country, regions$Country == "Laos","Lao People's Democratic Republic")
+regions$Country <- replace(regions$Country, regions$Country == "Federated States of Micronesia", "Micronesia")
+regions$Country <- replace(regions$Country, regions$Country == "South Korea", "Republic of Korea")
+regions$Country <- replace(regions$Country, regions$Country == "Moldova", "Republic of Moldova")
+regions$Country <- replace(regions$Country, regions$Country == "Russia", "Russian Federation")
+regions$Country <- replace(regions$Country, regions$Country == "Republic of Serbia", "Serbia")
+regions$Country <- replace(regions$Country, regions$Country == "Syria", "Syrian Arab Republic")
+regions$Country <- replace(regions$Country, regions$Country == "Macedonia", "The former Yugoslav republic of Macedonia")
+regions$Country <- replace(regions$Country, regions$Country == "East Timor", "Timor-Leste")
+regions$Country <- replace(regions$Country, regions$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
+regions$Country <- replace(regions$Country, regions$Country == "Vietnam", "Viet Nam")
+
+LifeExp <-  join(LifeExp,regions,by = "Country", type = 'left')
+LifeExp$Region <- as.factor(LifeExp$Region)
+```
+
 
 ## Fixing the missing values by replacing with median
 ```{r median imputation}
@@ -153,19 +188,32 @@ LifeExp = LifeExp[!(is.na(LifeExp$Life.expectancy)),]
 
 na_list = colnames(LifeExp)[apply(LifeExp, 2, anyNA)]
 # LifeExp_db = apply(LifeExp[,colnames(LifeExp) %in% na_list],2,median,na.rm =  TRUE)
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Alcohol = replace(Alcohol,is.na(Alcohol), median(Alcohol, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Hepatitis.B = replace(Hepatitis.B,is.na(Hepatitis.B), median(Hepatitis.B, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(BMI = replace(BMI,is.na(BMI), median(BMI, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Polio = replace(Polio,is.na(Polio), median(Polio, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Total.expenditure = replace(Total.expenditure,is.na(Total.expenditure), median(Total.expenditure, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Diphtheria = replace(Diphtheria,is.na(Diphtheria), median(Diphtheria, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(GDP = replace(GDP,is.na(GDP), median(GDP, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Population = replace(Population,is.na(Population), median(Population, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(thinness..1.19.years = replace(thinness..1.19.years,is.na(thinness..1.19.years), median(thinness..1.19.years, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(thinness.5.9.years = replace(thinness.5.9.years,is.na(thinness.5.9.years), median(thinness.5.9.years, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Income.composition.of.resources = replace(Income.composition.of.resources,is.na(Income.composition.of.resources), median(Income.composition.of.resources, na.rm = TRUE)))
-LifeExp = LifeExp %>% group_by(Country) %>% mutate(Schooling = replace(Schooling,is.na(Schooling), median(Schooling, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Alcohol = replace(Alcohol,is.na(Alcohol), median(Alcohol, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Hepatitis.B = replace(Hepatitis.B,is.na(Hepatitis.B), median(Hepatitis.B, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(BMI = replace(BMI,is.na(BMI), median(BMI, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Polio = replace(Polio,is.na(Polio), median(Polio, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Total.expenditure = replace(Total.expenditure,is.na(Total.expenditure), median(Total.expenditure, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Diphtheria = replace(Diphtheria,is.na(Diphtheria), median(Diphtheria, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(GDP = replace(GDP,is.na(GDP), median(GDP, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Population = replace(Population,is.na(Population), median(Population, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(thinness..1.19.years = replace(thinness..1.19.years,is.na(thinness..1.19.years), median(thinness..1.19.years, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(thinness.5.9.years = replace(thinness.5.9.years,is.na(thinness.5.9.years), median(thinness.5.9.years, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Income.composition.of.resources = replace(Income.composition.of.resources,is.na(Income.composition.of.resources), median(Income.composition.of.resources, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Country) %>% dplyr::mutate(Schooling = replace(Schooling,is.na(Schooling), median(Schooling, na.rm = TRUE)))
 
+#repeat grouping by Region for countries which have only NAs
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Alcohol = replace(Alcohol,is.na(Alcohol), median(Alcohol, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Hepatitis.B = replace(Hepatitis.B,is.na(Hepatitis.B), median(Hepatitis.B, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(BMI = replace(BMI,is.na(BMI), median(BMI, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Polio = replace(Polio,is.na(Polio), median(Polio, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Total.expenditure = replace(Total.expenditure,is.na(Total.expenditure), median(Total.expenditure, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Diphtheria = replace(Diphtheria,is.na(Diphtheria), median(Diphtheria, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(GDP = replace(GDP,is.na(GDP), median(GDP, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Population = replace(Population,is.na(Population), median(Population, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(thinness..1.19.years = replace(thinness..1.19.years,is.na(thinness..1.19.years), median(thinness..1.19.years, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(thinness.5.9.years = replace(thinness.5.9.years,is.na(thinness.5.9.years), median(thinness.5.9.years, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Income.composition.of.resources = replace(Income.composition.of.resources,is.na(Income.composition.of.resources), median(Income.composition.of.resources, na.rm = TRUE)))
+LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Schooling = replace(Schooling,is.na(Schooling), median(Schooling, na.rm = TRUE)))
 # convert the tibble to data frame
 LifeExp = as.data.frame(LifeExp)
 ```
@@ -354,20 +402,20 @@ plot(fit.lasso.lm3, which = 4)
 #                                  Forward Selection                                #
 #####################################################################################
 library(leaps)
-mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=22)
+mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=23)
 testASE<-c()
-for (i in 1:22){
+for (i in 1:24){
   predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:22,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:24,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.fwd)$rss
-lines(1:22,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:24,rss/dim(train)[1],lty=3,col="blue")  
 
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=22)
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=23)
 coef(mlr.fwd.final,17)
 summary(mlr.fwd.final)
 
