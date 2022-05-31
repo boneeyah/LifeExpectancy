@@ -21,7 +21,7 @@ output:
   keep_html: TRUE
 always_allow_html: true
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -336,7 +336,7 @@ LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "coun
 LifeExp$Continent = as.factor(LifeExp$Continent)
 LifeExp$Status = as.factor(LifeExp$Status)
 
-drop = c('HIV.AIDS', 'percentage.expenditure', 'Country',)
+drop = c('Country')#,'HIV.AIDS', 'percentage.expenditure')
 LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
 
 ```
@@ -449,21 +449,21 @@ plot(fit.lasso.lm3, which = 4)
 #                                  Forward Selection                                #
 #####################################################################################
 library(leaps)
-mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=23)
+mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=43)
 testASE<-c()
-for (i in 1:23){
+for (i in 1:43){
   predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:24,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:43,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.fwd)$rss
-lines(1:24,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:44,rss/dim(train)[1],lty=3,col="blue")  
 
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=23)
-coef(mlr.fwd.final,24)
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=43)
+coef(mlr.fwd.final,35)
 summary(mlr.fwd.final)
 
 
@@ -521,21 +521,21 @@ plot(fit.fwd.lm3, which = 4)
 #                               Backward Elimination                                #
 #####################################################################################
 
-mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=24)
+mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=43)
 testASE<-c()
-for (i in 1:24){
+for (i in 1:43){
   predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:24,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:43,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.bck)$rss
-lines(1:24,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:44,rss/dim(train)[1],lty=3,col="blue")  
 
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=24)
-coef(mlr.bck.final,17)
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=43)
+coef(mlr.bck.final,39)
 
 # Metrics RMSE; R-squared; MAE
 postResample(pred = predictions, obs = ytest)
