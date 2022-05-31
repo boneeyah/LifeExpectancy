@@ -216,6 +216,52 @@ LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Income.composition.of.r
 LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Schooling = replace(Schooling,is.na(Schooling), median(Schooling, na.rm = TRUE)))
 # convert the tibble to data frame
 LifeExp = as.data.frame(LifeExp)
+
+#impute USA values
+#USA GDP
+US_GDP <- read.csv('API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
+colnames(US_GDP) <- US_GDP[3,]
+US_GDP <- rename(US_GDP,c("Country Name"="Country"))
+US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
+US_GDP <- US_GDP %>% pivot_longer(!Country,names_to = "Year",values_to = "GDP2")
+US_GDP$Country <- replace(US_GDP$Country, US_GDP$Country == "United States", "United States of America")
+US_GDP$Year <- as.integer(US_GDP$Year)
+
+LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
+LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
+
+#US Schooling
+US_Scho <- read.csv("Expected years of schooling (years).csv",skip = 6,header = FALSE)
+colnames(US_Scho) <- US_Scho[1,]
+US_Scho$Country <- trimws(US_Scho$Country, which = "both")
+US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
+US_Scho <- US_Scho[,c(2,13:28)]
+US_Scho <- US_Scho %>% pivot_longer(!Country,names_to = "Year",values_to = "Schooling2")
+US_Scho$Year <- as.integer(US_Scho$Year)
+US_Scho$Schooling2 <- as.numeric(US_Scho$Schooling2)
+US_Scho$Country <- replace(US_Scho$Country, US_Scho$Country == "United States", "United States of America")
+
+
+LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
+LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
+
+#US income composition
+US_Inc <- read.csv('Income index.csv',skip = 5, header = FALSE)
+colnames(US_Inc) <- US_Inc[1,]
+US_Inc$Country <- trimws(US_Inc$Country,which = "both")
+US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
+US_Inc <- US_Inc[,c(2,13:28)]
+US_Inc <- US_Inc %>%  pivot_longer(!Country,names_to = "Year", values_to = "comp2")
+US_Inc$Year <- as.integer(US_Inc$Year)
+US_Inc$comp2 <- as.numeric(US_Inc$comp2)
+US_Inc$Country <- replace(US_Inc$Country,US_Inc$Country == "United States", "United States of America")
+
+LifeExp <- left_join(LifeExp,US_Inc,by=c("Country","Year"))
+LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(LifeExp$Country == "United States of America", LifeExp$comp2,LifeExp$Income.composition.of.resources))
+
+#drop new variables
+drop = c("GDP2","Schooling2","comp2")
+LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 ```
 
 ### Full Correlation Matrix for Linear Regression (Life.expectancy)
@@ -404,7 +450,7 @@ plot(fit.lasso.lm3, which = 4)
 library(leaps)
 mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=23)
 testASE<-c()
-for (i in 1:24){
+for (i in 1:23){
   predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
@@ -416,7 +462,7 @@ rss<-summary(mlr.fwd)$rss
 lines(1:24,rss/dim(train)[1],lty=3,col="blue")  
 
 mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=23)
-coef(mlr.fwd.final,17)
+coef(mlr.fwd.final,24)
 summary(mlr.fwd.final)
 
 
