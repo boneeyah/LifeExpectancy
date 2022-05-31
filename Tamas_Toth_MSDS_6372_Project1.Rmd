@@ -59,7 +59,7 @@ options(scipen = 100, digits = 4)
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'Life Expectancy Data.csv',header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -146,7 +146,7 @@ We can observe linear relationship between Life Expectancy and the following var
 * Adult.Mortality
 
 #adding region column to do regional imputation
-```{r}
+```{r adding region column}
 ###rename ivory coast and remove parenthesis from country names
 LifeExp$Country <- replace(LifeExp$Country,LifeExp$Country == "CÃ´te d'Ivoire","Ivory Coast")
 LifeExp$Country <-  str_replace(LifeExp$Country,"\\(.*\\)","")
