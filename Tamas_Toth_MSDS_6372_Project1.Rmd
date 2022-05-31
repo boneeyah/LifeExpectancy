@@ -152,7 +152,6 @@ LifeExp$Country <- replace(LifeExp$Country,LifeExp$Country == "CÃ´te d'Ivoire"
 LifeExp$Country <-  str_replace(LifeExp$Country,"\\(.*\\)","")
 LifeExp$Country <- trimws(LifeExp$Country,"right")
 
-
 ### add region using rworldmap package
 regions <- rworldmap::countryRegions
 regions <- regions[,c(2,6)]
@@ -176,7 +175,9 @@ regions$Country <- replace(regions$Country, regions$Country == "East Timor", "Ti
 regions$Country <- replace(regions$Country, regions$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
 regions$Country <- replace(regions$Country, regions$Country == "Vietnam", "Viet Nam")
 
+
 LifeExp <-  join(LifeExp,regions,by = "Country", type = 'left')
+LifeExp$Country <- replace(LifeExp$Country, LifeExp$Country == "Micronesia", "Micronesia (Federated States of)")
 LifeExp$Region <- as.factor(LifeExp$Region)
 ```
 
@@ -260,7 +261,7 @@ LifeExp <- left_join(LifeExp,US_Inc,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(LifeExp$Country == "United States of America", LifeExp$comp2,LifeExp$Income.composition.of.resources))
 
 #drop new variables
-drop = c("GDP2","Schooling2","comp2")
+drop = c("GDP2","Schooling2","comp2", "Population")
 LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 ```
 
@@ -335,7 +336,7 @@ LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "coun
 LifeExp$Continent = as.factor(LifeExp$Continent)
 LifeExp$Status = as.factor(LifeExp$Status)
 
-drop = c('HIV.AIDS', 'GDP', 'percentage.expenditure', 'Country')
+drop = c('HIV.AIDS', 'percentage.expenditure', 'Country',)
 LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
 
 ```
