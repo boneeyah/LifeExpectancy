@@ -265,8 +265,24 @@ US_Inc$Country <- replace(US_Inc$Country,US_Inc$Country == "United States", "Uni
 LifeExp <- left_join(LifeExp,US_Inc,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(LifeExp$Country == "United States of America", LifeExp$comp2,LifeExp$Income.composition.of.resources))
 
+#Add population from external source
+#data from UN in thousands 
+pop_all <- read.csv('WPP2019_TotalPopulationBySex.csv')
+pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
+
+#clean country names to match before merge
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Bolivia (Plurinational State of)", "Bolivia")
+pop_all$Country <- replace(pop_all$Country,pop_all$Country == "Côte d'Ivoire", "Ivory Coast")
+pop_all$Country <- replace(pop_all$Country,pop_all$Country == "Dem. People's Republic of Korea","Democratic People's Republic of Korea")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Iran (Islamic Republic of)", "Iran")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Micronesia (Fed. States of)", "Micronesia (Federated States of)")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Eswatini", "Swaziland")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "North Macedonia", "The former Yugoslav republic of Macedonia")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Venezuela (Bolivarian Republic of)", "Venezuela")
+LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Population = Population2)
 #drop new variables
-drop = c("GDP2","Schooling2","comp2", "Population")
+drop = c("GDP2","Schooling2","comp2", "Population2")
 LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 LifeExpKNN = LifeExp
 ```
