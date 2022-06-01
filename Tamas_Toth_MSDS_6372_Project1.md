@@ -124,28 +124,300 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Jamaica
+Solomon Islands
 </td>
 <td style="text-align:right;">
-2006
+2014
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-74.0
+68.8
 </td>
 <td style="text-align:right;">
-15
+183
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.01
+</td>
+<td style="text-align:right;">
+3.718
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+49.7
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+5.50
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+29.65
+</td>
+<td style="text-align:right;">
+57554
+</td>
+<td style="text-align:right;">
+1.1
+</td>
+<td style="text-align:right;">
+1.2
+</td>
+<td style="text-align:right;">
+0.512
+</td>
+<td style="text-align:right;">
+9.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Malawi
+</td>
+<td style="text-align:right;">
+2004
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+45.1
+</td>
+<td style="text-align:right;">
+615
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+1.11
+</td>
+<td style="text-align:right;">
+58.136
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+1116
+</td>
+<td style="text-align:right;">
+15.5
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+7.82
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+23.4
+</td>
+<td style="text-align:right;">
+274.23
+</td>
+<td style="text-align:right;">
+1267638
+</td>
+<td style="text-align:right;">
+7.5
+</td>
+<td style="text-align:right;">
+7.4
+</td>
+<td style="text-align:right;">
+0.366
+</td>
+<td style="text-align:right;">
+10.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mali
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+52.0
+</td>
+<td style="text-align:right;">
+299
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+0.54
+</td>
+<td style="text-align:right;">
+6.660
+</td>
+<td style="text-align:right;">
+79
+</td>
+<td style="text-align:right;">
+232
+</td>
+<td style="text-align:right;">
+17.0
+</td>
+<td style="text-align:right;">
+106
+</td>
+<td style="text-align:right;">
+67
+</td>
+<td style="text-align:right;">
+6.25
+</td>
+<td style="text-align:right;">
+63
+</td>
+<td style="text-align:right;">
+2.2
+</td>
+<td style="text-align:right;">
+391.79
+</td>
+<td style="text-align:right;">
+125128
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+1.2
+</td>
+<td style="text-align:right;">
+0.318
+</td>
+<td style="text-align:right;">
+5.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Israel
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+81.5
+</td>
+<td style="text-align:right;">
+63
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-3.63
+2.55
 </td>
 <td style="text-align:right;">
-194.09
+508.664
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+62.6
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+7.46
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+27795.88
+</td>
+<td style="text-align:right;">
+74856
+</td>
+<td style="text-align:right;">
+1.2
+</td>
+<td style="text-align:right;">
+1.1
+</td>
+<td style="text-align:right;">
+0.876
+</td>
+<td style="text-align:right;">
+15.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Grenada
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+73.1
+</td>
+<td style="text-align:right;">
+146
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+8.07
+</td>
+<td style="text-align:right;">
+866.000
 </td>
 <td style="text-align:right;">
 97
@@ -154,312 +426,40 @@ Developing
 0
 </td>
 <td style="text-align:right;">
-47.2
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-4.22
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-1.5
-</td>
-<td style="text-align:right;">
-4313.17
-</td>
-<td style="text-align:right;">
-276279
-</td>
-<td style="text-align:right;">
-1.9
-</td>
-<td style="text-align:right;">
-1.7
-</td>
-<td style="text-align:right;">
-0.709
-</td>
-<td style="text-align:right;">
-12.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Lithuania
-</td>
-<td style="text-align:right;">
-2006
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-76.0
-</td>
-<td style="text-align:right;">
-229
+45.6
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-12.70
+98
 </td>
 <td style="text-align:right;">
-116.50
+6.36
 </td>
 <td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-58.7
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-94
-</td>
-<td style="text-align:right;">
-6.20
-</td>
-<td style="text-align:right;">
-94
+97
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-924.64
-</td>
-<td style="text-align:right;">
-326999
-</td>
-<td style="text-align:right;">
-3.0
-</td>
-<td style="text-align:right;">
-3.0
-</td>
-<td style="text-align:right;">
-0.807
-</td>
-<td style="text-align:right;">
-16.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Liberia
-</td>
-<td style="text-align:right;">
-2000
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-51.9
-</td>
-<td style="text-align:right;">
-39
-</td>
-<td style="text-align:right;">
-14
-</td>
-<td style="text-align:right;">
-4.46
-</td>
-<td style="text-align:right;">
-12.20
+7583.19
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-5977
+3.8
 </td>
 <td style="text-align:right;">
-2.2
+3.8
 </td>
 <td style="text-align:right;">
-20
+0.744
 </td>
 <td style="text-align:right;">
-56
-</td>
-<td style="text-align:right;">
-5.91
-</td>
-<td style="text-align:right;">
-46
-</td>
-<td style="text-align:right;">
-3.1
-</td>
-<td style="text-align:right;">
-183.41
-</td>
-<td style="text-align:right;">
-2884522
-</td>
-<td style="text-align:right;">
-9.2
-</td>
-<td style="text-align:right;">
-9.2
-</td>
-<td style="text-align:right;">
-0.338
-</td>
-<td style="text-align:right;">
-8.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Solomon Islands
-</td>
-<td style="text-align:right;">
-2005
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-67.4
-</td>
-<td style="text-align:right;">
-24
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0.90
-</td>
-<td style="text-align:right;">
-25.31
-</td>
-<td style="text-align:right;">
-83
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-42.1
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-7.83
-</td>
-<td style="text-align:right;">
-89
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-88.87
-</td>
-<td style="text-align:right;">
-469885
-</td>
-<td style="text-align:right;">
-1.3
-</td>
-<td style="text-align:right;">
-1.3
-</td>
-<td style="text-align:right;">
-0.465
-</td>
-<td style="text-align:right;">
-8.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Burkina Faso
-</td>
-<td style="text-align:right;">
-2008
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-56.1
-</td>
-<td style="text-align:right;">
-288
-</td>
-<td style="text-align:right;">
-45
-</td>
-<td style="text-align:right;">
-4.50
-</td>
-<td style="text-align:right;">
-107.80
-</td>
-<td style="text-align:right;">
-93
-</td>
-<td style="text-align:right;">
-395
-</td>
-<td style="text-align:right;">
-15.6
-</td>
-<td style="text-align:right;">
-80
-</td>
-<td style="text-align:right;">
-92
-</td>
-<td style="text-align:right;">
-6.77
-</td>
-<td style="text-align:right;">
-93
-</td>
-<td style="text-align:right;">
-1.5
-</td>
-<td style="text-align:right;">
-569.76
-</td>
-<td style="text-align:right;">
-14689726
-</td>
-<td style="text-align:right;">
-9.5
-</td>
-<td style="text-align:right;">
-9.1
-</td>
-<td style="text-align:right;">
-0.345
-</td>
-<td style="text-align:right;">
-5.4
+15.8
 </td>
 </tr>
 </tbody>
@@ -2305,7 +2305,7 @@ summary(mlr.fwd.final)
     ## 41  ( 1 ) " "                  "*"                  "*"          
     ## 42  ( 1 ) " "                  "*"                  "*"          
     ## 43  ( 1 ) " "                  "*"                  "*"          
-    ## 44  ( 1 ) "*"                  "*"                  "*"          
+    ## 44  ( 1 ) " "                  "*"                  "*"          
     ##           RegionMeso-America RegionNorth Africa RegionNW Pacific and East Asia
     ## 1  ( 1 )  " "                " "                " "                           
     ## 2  ( 1 )  " "                " "                " "                           
@@ -2485,7 +2485,7 @@ summary(mlr.fwd.final)
     ## 41  ( 1 ) "*"                  "*"                  " "                       
     ## 42  ( 1 ) "*"                  "*"                  " "                       
     ## 43  ( 1 ) "*"                  "*"                  " "                       
-    ## 44  ( 1 ) "*"                  "*"                  " "                       
+    ## 44  ( 1 ) "*"                  "*"                  "*"                       
     ##           log.HIV.AIDS log.GDP log.percentage.expenditure ContinentAmericas
     ## 1  ( 1 )  "*"          " "     " "                        " "              
     ## 2  ( 1 )  "*"          " "     " "                        " "              
@@ -2864,7 +2864,7 @@ coef(mlr.bck.final,39)
 ```
 
     ##                     (Intercept)                            Year 
-    ##                  -131.239736684                     0.093562430 
+    ##                  -131.239736685                     0.093562430 
     ##                StatusDeveloping                 Adult.Mortality 
     ##                    -0.800031015                    -0.011068913 
     ##                   infant.deaths                         Alcohol 
