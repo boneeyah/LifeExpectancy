@@ -124,279 +124,279 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Afghanistan
+Solomon Islands
 </td>
 <td style="text-align:right;">
-2007
+2014
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-57.5
+68.8
 </td>
 <td style="text-align:right;">
-295
-</td>
-<td style="text-align:right;">
-82
-</td>
-<td style="text-align:right;">
-0.02
-</td>
-<td style="text-align:right;">
-10.910
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-1141
-</td>
-<td style="text-align:right;">
-15.2
-</td>
-<td style="text-align:right;">
-113
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-6.73
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-369.84
-</td>
-<td style="text-align:right;">
-26616792
-</td>
-<td style="text-align:right;">
-19.0
-</td>
-<td style="text-align:right;">
-19.1
-</td>
-<td style="text-align:right;">
-0.415
-</td>
-<td style="text-align:right;">
-8.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Qatar
-</td>
-<td style="text-align:right;">
-2005
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-76.6
-</td>
-<td style="text-align:right;">
-84
+183
 </td>
 <td style="text-align:right;">
 0
-</td>
-<td style="text-align:right;">
-1.18
-</td>
-<td style="text-align:right;">
-4582.476
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-74
-</td>
-<td style="text-align:right;">
-65.1
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-3.10
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-51488.50
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-4.8
-</td>
-<td style="text-align:right;">
-4.5
-</td>
-<td style="text-align:right;">
-0.830
-</td>
-<td style="text-align:right;">
-13.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bangladesh
-</td>
-<td style="text-align:right;">
-2000
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-65.3
-</td>
-<td style="text-align:right;">
-173
-</td>
-<td style="text-align:right;">
-231
 </td>
 <td style="text-align:right;">
 0.01
 </td>
 <td style="text-align:right;">
-3.696
+3.718
 </td>
 <td style="text-align:right;">
-NA
+88
 </td>
 <td style="text-align:right;">
-5098
+0
 </td>
 <td style="text-align:right;">
-1.4
+49.7
 </td>
 <td style="text-align:right;">
-316
+0
 </td>
 <td style="text-align:right;">
-83
+94
 </td>
 <td style="text-align:right;">
-2.33
+5.50
 </td>
 <td style="text-align:right;">
-82
+88
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-45.63
+29.65
 </td>
 <td style="text-align:right;">
-131581243
+57554
 </td>
 <td style="text-align:right;">
-2.9
+1.1
 </td>
 <td style="text-align:right;">
-21.5
+1.2
 </td>
 <td style="text-align:right;">
-0.459
+0.512
 </td>
 <td style="text-align:right;">
-7.3
+9.6
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Myanmar
+Malawi
 </td>
 <td style="text-align:right;">
-2008
+2004
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-59.2
+45.1
 </td>
 <td style="text-align:right;">
-296
+615
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+1.11
+</td>
+<td style="text-align:right;">
+58.136
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+1116
+</td>
+<td style="text-align:right;">
+15.5
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+7.82
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+23.4
+</td>
+<td style="text-align:right;">
+274.23
+</td>
+<td style="text-align:right;">
+1267638
+</td>
+<td style="text-align:right;">
+7.5
+</td>
+<td style="text-align:right;">
+7.4
+</td>
+<td style="text-align:right;">
+0.366
+</td>
+<td style="text-align:right;">
+10.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mali
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+52.0
+</td>
+<td style="text-align:right;">
+299
 </td>
 <td style="text-align:right;">
 59
 </td>
 <td style="text-align:right;">
-0.30
+0.54
 </td>
 <td style="text-align:right;">
-9.530
+6.660
 </td>
 <td style="text-align:right;">
-85
+79
 </td>
 <td style="text-align:right;">
-333
+232
 </td>
 <td style="text-align:right;">
-18.3
+17.0
+</td>
+<td style="text-align:right;">
+106
+</td>
+<td style="text-align:right;">
+67
+</td>
+<td style="text-align:right;">
+6.25
+</td>
+<td style="text-align:right;">
+63
+</td>
+<td style="text-align:right;">
+2.2
+</td>
+<td style="text-align:right;">
+391.79
+</td>
+<td style="text-align:right;">
+125128
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+1.2
+</td>
+<td style="text-align:right;">
+0.318
+</td>
+<td style="text-align:right;">
+5.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Israel
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+81.5
+</td>
+<td style="text-align:right;">
+63
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+2.55
+</td>
+<td style="text-align:right;">
+508.664
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+62.6
+</td>
+<td style="text-align:right;">
+1
 </td>
 <td style="text-align:right;">
 96
 </td>
 <td style="text-align:right;">
-85
+7.46
 </td>
 <td style="text-align:right;">
-1.87
+96
 </td>
 <td style="text-align:right;">
-85
+0.1
 </td>
 <td style="text-align:right;">
-0.6
+27795.88
 </td>
 <td style="text-align:right;">
-643.95
+74856
 </td>
 <td style="text-align:right;">
-49479752
+1.2
 </td>
 <td style="text-align:right;">
-13.2
+1.1
 </td>
 <td style="text-align:right;">
-13.4
+0.876
 </td>
 <td style="text-align:right;">
-0.493
-</td>
-<td style="text-align:right;">
-8.2
+15.6
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-South Sudan
+Grenada
 </td>
 <td style="text-align:right;">
 2012
@@ -405,61 +405,61 @@ South Sudan
 Developing
 </td>
 <td style="text-align:right;">
-56.0
+73.1
 </td>
 <td style="text-align:right;">
-347
+146
 </td>
 <td style="text-align:right;">
-26
+0
+</td>
+<td style="text-align:right;">
+8.07
+</td>
+<td style="text-align:right;">
+866.000
+</td>
+<td style="text-align:right;">
+97
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+45.6
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+6.36
+</td>
+<td style="text-align:right;">
+97
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+7583.19
 </td>
 <td style="text-align:right;">
 NA
-</td>
-<td style="text-align:right;">
-38.338
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-1952
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-40
-</td>
-<td style="text-align:right;">
-64
-</td>
-<td style="text-align:right;">
-2.77
-</td>
-<td style="text-align:right;">
-59
 </td>
 <td style="text-align:right;">
 3.8
 </td>
 <td style="text-align:right;">
-958.46
+3.8
 </td>
 <td style="text-align:right;">
-1818258
+0.744
 </td>
 <td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-0.419
-</td>
-<td style="text-align:right;">
-4.9
+15.8
 </td>
 </tr>
 </tbody>
@@ -1292,112 +1292,6 @@ egg::ggarrange(hist_p, box_p, heights = 2:1)
 ```
 
 <img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-18.png" angle=90 style="display: block; margin: auto;" />
-
-### Categorical data plots
-
-``` r
-#####################################################################################
-#                               Categorical data plots                              #
-#####################################################################################
-num_var = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
-cat_cols = LifeExp %>% dplyr::select(where(is.factor)) %>% colnames()
-num_ex = c('Year')
-num_var_plots = noquote(unlist(num_var[!( num_var %in% num_ex)]))
-# Plot all categorical variables
-for (c in cat_cols)
-{
-  cat_plot = LifeExp %>% ggplot(aes(x= .data[[c]], group = 1)) + 
-    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
-    geom_text(aes( label = scales::percent(..prop..),
-                   y= ..prop.. ), stat= "count", vjust = -.5) +
-    labs(y = "Percent") +
-    scale_y_continuous(labels = scales::percent) + theme(legend.position = "none") +
-    ggtitle(paste(c, "Categorical Analysis")) + 
-    theme(plot.title = element_text(hjust = 0.5)) + 
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # +
-    #scale_fill_brewer(palette="Oranges")
-    egg::ggarrange(cat_plot, ncol=2) 
-}
-```
-
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-2.png" angle=90 style="display: block; margin: auto;" />
-
-## Bi-variate analysis with Status variable
-
-``` r
-#####################################################################################
-#                     Bi-variate analysis with Status variable                      #
-#####################################################################################
-for (i in num_var_plots)
-{
-multibox = LifeExp %>%
-  ggplot(aes(x=Status, y = .data[[i]])) +
-  geom_boxplot(fill = "sandybrown", color = "black") + 
-  xlab("Status") +
-  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
-  ggtitle(paste(i, "vs Status bi-variate analysis")) +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  scale_fill_brewer(palette = "Oranges")  
-egg::ggarrange(multibox, ncol=2)
-}
-```
-
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-18.png" angle=90 style="display: block; margin: auto;" />
-
-## Bi-variate analysis with Region variable
-
-``` r
-#####################################################################################
-#                     Bi-variate analysis with Region variable                   #
-#####################################################################################
-for (i in num_var_plots)
-{
-multibox = LifeExp %>%
-  ggplot(aes(x=Region, y = .data[[i]])) +
-  geom_boxplot(fill = "sandybrown", color = "black") + 
-  xlab("Region") +
-  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
-  ggtitle(paste(i, "vs Region bi-variate analysis")) +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-    scale_fill_brewer(palette = "Oranges")  
-egg::ggarrange(multibox, ncol=2)
-}
-```
-
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-18.png" angle=90 style="display: block; margin: auto;" />
-\## Overall life expectancy over time
-
-``` r
-#####################################################################################
-#                          Overall life expectancy over time                        #
-#####################################################################################
-
-mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
-mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
-
-#Overall life expectancy
-ggplot(data=mean_LifeExp, aes(x=Year, y=meanle)) +
-  geom_line()+
-  geom_point() +
-   ggtitle("Mean life expactancy by year") +
-  theme(plot.title = element_text(hjust = 0.5))+
-   xlab("Year") + ylab("Average Life Expectancy")
-```
-
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-14-1.png" angle=90 style="display: block; margin: auto;" />
-
-``` r
-#Overall life expectancy by Region
-ggplot(data=mean_LifeExp_reg, aes(x=Year, y=meanle, group = Region)) +
-  geom_line(aes(color=Region))+
-  geom_point(aes(color=Region)) +
-  ggtitle("Mean life expactancy by year by region") +
-theme(plot.title = element_text(hjust = 0.5)) +
-  xlab("Year") + ylab("Average Life Expectancy")
-```
-
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-14-2.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #####################################################################################
@@ -2411,7 +2305,7 @@ summary(mlr.fwd.final)
     ## 41  ( 1 ) " "                  "*"                  "*"          
     ## 42  ( 1 ) " "                  "*"                  "*"          
     ## 43  ( 1 ) " "                  "*"                  "*"          
-    ## 44  ( 1 ) "*"                  "*"                  "*"          
+    ## 44  ( 1 ) " "                  "*"                  "*"          
     ##           RegionMeso-America RegionNorth Africa RegionNW Pacific and East Asia
     ## 1  ( 1 )  " "                " "                " "                           
     ## 2  ( 1 )  " "                " "                " "                           
@@ -2591,7 +2485,7 @@ summary(mlr.fwd.final)
     ## 41  ( 1 ) "*"                  "*"                  " "                       
     ## 42  ( 1 ) "*"                  "*"                  " "                       
     ## 43  ( 1 ) "*"                  "*"                  " "                       
-    ## 44  ( 1 ) "*"                  "*"                  " "                       
+    ## 44  ( 1 ) "*"                  "*"                  "*"                       
     ##           log.HIV.AIDS log.GDP log.percentage.expenditure ContinentAmericas
     ## 1  ( 1 )  "*"          " "     " "                        " "              
     ## 2  ( 1 )  "*"          " "     " "                        " "              
@@ -2970,7 +2864,7 @@ coef(mlr.bck.final,39)
 ```
 
     ##                     (Intercept)                            Year 
-    ##                  -131.239736684                     0.093562430 
+    ##                  -131.239736685                     0.093562430 
     ##                StatusDeveloping                 Adult.Mortality 
     ##                    -0.800031015                    -0.011068913 
     ##                   infant.deaths                         Alcohol 
@@ -3438,11 +3332,11 @@ ggplot(KNNRegressor) + ggtitle("Optimal k value for the highest accuracy") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-1.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-1.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 KNNvarImp = varImp(KNNRegressor)
 plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-2.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-2.png" angle=90 style="display: block; margin: auto;" />
