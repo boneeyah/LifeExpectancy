@@ -28,6 +28,10 @@ library(naivebayes)
 library(car)
 library(egg)
 library(rworldmap)
+library(Hmisc)
+library(DataExplorer)
+library(selectiveInference)
+library(dlookr)
 ```
 
 ``` r
@@ -120,143 +124,7 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Trinidad and Tobago
-</td>
-<td style="text-align:right;">
-2009
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-71.0
-</td>
-<td style="text-align:right;">
-183
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-6.37
-</td>
-<td style="text-align:right;">
-128.09
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-41.1
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-6.47
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-0.2
-</td>
-<td style="text-align:right;">
-1459
-</td>
-<td style="text-align:right;">
-1321618
-</td>
-<td style="text-align:right;">
-6.0
-</td>
-<td style="text-align:right;">
-6.4
-</td>
-<td style="text-align:right;">
-0.773
-</td>
-<td style="text-align:right;">
-12.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Netherlands
-</td>
-<td style="text-align:right;">
-2007
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-82.0
-</td>
-<td style="text-align:right;">
-68
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-9.53
-</td>
-<td style="text-align:right;">
-9689.73
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-10
-</td>
-<td style="text-align:right;">
-57.3
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-9.36
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-51241
-</td>
-<td style="text-align:right;">
-16381696
-</td>
-<td style="text-align:right;">
-1.0
-</td>
-<td style="text-align:right;">
-1.0
-</td>
-<td style="text-align:right;">
-0.899
-</td>
-<td style="text-align:right;">
-16.6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Brunei Darussalam
+Jamaica
 </td>
 <td style="text-align:right;">
 2006
@@ -265,28 +133,96 @@ Brunei Darussalam
 Developing
 </td>
 <td style="text-align:right;">
-76.3
+74.0
 </td>
 <td style="text-align:right;">
-93
+15
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+3.63
+</td>
+<td style="text-align:right;">
+194.09
+</td>
+<td style="text-align:right;">
+97
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-0.67
+47.2
 </td>
 <td style="text-align:right;">
-24.98
+1
 </td>
 <td style="text-align:right;">
 99
 </td>
 <td style="text-align:right;">
+4.22
+</td>
+<td style="text-align:right;">
+95
+</td>
+<td style="text-align:right;">
+1.5
+</td>
+<td style="text-align:right;">
+4313.17
+</td>
+<td style="text-align:right;">
+276279
+</td>
+<td style="text-align:right;">
+1.9
+</td>
+<td style="text-align:right;">
+1.7
+</td>
+<td style="text-align:right;">
+0.709
+</td>
+<td style="text-align:right;">
+12.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lithuania
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+76.0
+</td>
+<td style="text-align:right;">
+229
+</td>
+<td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-32.2
+12.70
+</td>
+<td style="text-align:right;">
+116.50
+</td>
+<td style="text-align:right;">
+95
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+58.7
 </td>
 <td style="text-align:right;">
 0
@@ -295,167 +231,235 @@ Developing
 94
 </td>
 <td style="text-align:right;">
-2.24
+6.20
 </td>
 <td style="text-align:right;">
-97
+94
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-399
+924.64
 </td>
 <td style="text-align:right;">
-NA
+326999
 </td>
 <td style="text-align:right;">
-6.3
+3.0
 </td>
 <td style="text-align:right;">
-5.8
+3.0
 </td>
 <td style="text-align:right;">
-0.837
+0.807
 </td>
 <td style="text-align:right;">
-14.3
+16.4
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Saint Vincent and the Grenadines
+Liberia
 </td>
 <td style="text-align:right;">
-2015
+2000
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-73.2
+51.9
 </td>
 <td style="text-align:right;">
-156
+39
 </td>
 <td style="text-align:right;">
-0
+14
 </td>
 <td style="text-align:right;">
-NA
+4.46
 </td>
 <td style="text-align:right;">
-0.00
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-54.1
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-97
+12.20
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-98
+5977
 </td>
 <td style="text-align:right;">
-0.1
+2.2
 </td>
 <td style="text-align:right;">
-NA
+20
 </td>
 <td style="text-align:right;">
-NA
+56
 </td>
 <td style="text-align:right;">
-3.5
+5.91
 </td>
 <td style="text-align:right;">
-3.4
+46
 </td>
 <td style="text-align:right;">
-0.720
+3.1
 </td>
 <td style="text-align:right;">
-13.3
+183.41
+</td>
+<td style="text-align:right;">
+2884522
+</td>
+<td style="text-align:right;">
+9.2
+</td>
+<td style="text-align:right;">
+9.2
+</td>
+<td style="text-align:right;">
+0.338
+</td>
+<td style="text-align:right;">
+8.7
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Tunisia
+Solomon Islands
 </td>
 <td style="text-align:right;">
-2011
+2005
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-74.8
+67.4
 </td>
 <td style="text-align:right;">
-13
+24
 </td>
 <td style="text-align:right;">
-3
+0
 </td>
 <td style="text-align:right;">
-1.29
+0.90
 </td>
 <td style="text-align:right;">
-623.21
+25.31
 </td>
 <td style="text-align:right;">
-98
+83
 </td>
 <td style="text-align:right;">
-11
+0
 </td>
 <td style="text-align:right;">
-57.4
+42.1
 </td>
 <td style="text-align:right;">
-3
+0
 </td>
 <td style="text-align:right;">
-98
+9
 </td>
 <td style="text-align:right;">
-7.15
+7.83
 </td>
 <td style="text-align:right;">
-98
+89
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-4257
+88.87
 </td>
 <td style="text-align:right;">
-1761467
+469885
 </td>
 <td style="text-align:right;">
-6.4
+1.3
 </td>
 <td style="text-align:right;">
-6.3
+1.3
 </td>
 <td style="text-align:right;">
-0.714
+0.465
 </td>
 <td style="text-align:right;">
-14.5
+8.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Burkina Faso
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+56.1
+</td>
+<td style="text-align:right;">
+288
+</td>
+<td style="text-align:right;">
+45
+</td>
+<td style="text-align:right;">
+4.50
+</td>
+<td style="text-align:right;">
+107.80
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+395
+</td>
+<td style="text-align:right;">
+15.6
+</td>
+<td style="text-align:right;">
+80
+</td>
+<td style="text-align:right;">
+92
+</td>
+<td style="text-align:right;">
+6.77
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+1.5
+</td>
+<td style="text-align:right;">
+569.76
+</td>
+<td style="text-align:right;">
+14689726
+</td>
+<td style="text-align:right;">
+9.5
+</td>
+<td style="text-align:right;">
+9.1
+</td>
+<td style="text-align:right;">
+0.345
+</td>
+<td style="text-align:right;">
+5.4
 </td>
 </tr>
 </tbody>
@@ -1221,7 +1225,7 @@ LifeExpKNN = LifeExp
 #      Full Correlation Matrix for Linear Regression (Life.expectancy)              #
 #####################################################################################
 # Filter for data to be included
-num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
 LifeExpcorr = LifeExp[,num_cols]
 corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
          cl.pos = 'n', col = COL2('BrBG'))
@@ -1229,12 +1233,24 @@ corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'blac
 
 <img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-1.png" angle=90 style="display: block; margin: auto;" />
 
+``` r
+plot_correlate(LifeExp)
+```
+
+    ## Warning: 'plot_correlate' is deprecated.
+    ## Use 'plot.correlate' instead.
+    ## See help("Deprecated")
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-2.png" angle=90 style="display: block; margin: auto;" />
+
 ### Observations
 
 -   Under five death and infant death are perfectly correlated. They are
     describing the same thing. One of the variable is redundant.
 -   GDP and percentage expenditure are perfectly correlated. They are
     describing the same thing. One of the variable is redundant.
+-   Schooling and Income Composition of Resources have a strong positive
+    correlation
 -   Life Expectancy and Adult Mortality are highly negatively correlated
 -   Life Expectancy and HIV.AIDS are moderately correlated
 -   Life Expectancy and BMI are moderately correlated
@@ -1250,7 +1266,7 @@ corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'blac
 #####################################################################################
 # Let's plot the summary statistics
 # Univariate analysis
-num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
 num_cols_exclude = c('Year')
 num_cols_plots = noquote(unlist(num_cols[!( num_cols %in% num_cols_exclude)]))
 nrows = length(num_cols_plots)
@@ -1307,6 +1323,117 @@ train = LifeExp[index,]
 test = LifeExp[-index,]
 ```
 
+``` r
+#####################################################################################
+#                             EDA on Train sets                                    #
+#####################################################################################
+
+describe(train)
+```
+
+    ## # A tibble: 22 × 26
+    ##    described_variabl…     n    na   mean     sd se_mean    IQR skewness kurtosis
+    ##    <chr>              <int> <int>  <dbl>  <dbl>   <dbl>  <dbl>    <dbl>    <dbl>
+    ##  1 Year                2489     0 2.01e3 4.59e0 9.20e-2   7    -0.00819   -1.20 
+    ##  2 Life.expectancy     2489     0 6.91e1 9.61e0 1.93e-1  12.7  -0.629     -0.253
+    ##  3 Adult.Mortality     2489     0 1.65e2 1.25e2 2.51e+0 155     1.16       1.66 
+    ##  4 infant.deaths       2489     0 3.18e1 1.22e2 2.44e+0  23     9.33     105.   
+    ##  5 Alcohol             2489     0 4.56e0 4.04e0 8.09e-2   6.71  0.621     -0.748
+    ##  6 percentage.expend…  2489     0 7.16e2 1.96e3 3.92e+1 419.    4.80      28.7  
+    ##  7 Hepatitis.B         2489     0 8.02e1 2.45e1 4.91e-1  21    -1.82       2.44 
+    ##  8 Measles             2489     0 2.54e3 1.18e4 2.37e+2 410     9.27     111.   
+    ##  9 BMI                 2489     0 3.80e1 2.00e1 4.01e-1  36.7  -0.227     -1.32 
+    ## 10 under.five.deaths   2489     0 4.41e1 1.66e2 3.33e+0  30     9.09     101.   
+    ## # … with 12 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>, p05 <dbl>,
+    ## #   p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>, p50 <dbl>,
+    ## #   p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>, p95 <dbl>,
+    ## #   p99 <dbl>, p100 <dbl>
+
+## Observations
+
+\*\* A High degree of skewness can be identified in Infant Deaths \*\* A
+High degree of skewness can be identified in Measles \*\* A High degree
+of skewness can be identified in under.five.deaths \*\* A High degree of
+skewness can be identified in Population
+
+``` r
+normality(train) 
+```
+
+    ## # A tibble: 22 × 4
+    ##    vars                   statistic  p_value sample
+    ##    <chr>                      <dbl>    <dbl>  <dbl>
+    ##  1 Year                       0.948 7.20e-29   2489
+    ##  2 Life.expectancy            0.956 9.84e-27   2489
+    ##  3 Adult.Mortality            0.916 4.81e-35   2489
+    ##  4 infant.deaths              0.239 2.12e-72   2489
+    ##  5 Alcohol                    0.908 2.33e-36   2489
+    ##  6 percentage.expenditure     0.399 9.65e-68   2489
+    ##  7 Hepatitis.B                0.723 1.44e-53   2489
+    ##  8 Measles                    0.212 4.17e-73   2489
+    ##  9 BMI                        0.926 2.73e-33   2489
+    ## 10 under.five.deaths          0.247 3.40e-72   2489
+    ## # … with 12 more rows
+
+``` r
+#Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
+
+#Find Features that are not normally distributed 
+
+train %>%
+  normality() %>%
+  filter(p_value < 0.05) %>%
+  arrange(abs(p_value))
+```
+
+    ## # A tibble: 22 × 4
+    ##    vars                   statistic  p_value sample
+    ##    <chr>                      <dbl>    <dbl>  <dbl>
+    ##  1 Measles                    0.212 4.17e-73   2489
+    ##  2 infant.deaths              0.239 2.12e-72   2489
+    ##  3 under.five.deaths          0.247 3.40e-72   2489
+    ##  4 HIV.AIDS                   0.359 5.46e-69   2489
+    ##  5 percentage.expenditure     0.399 9.65e-68   2489
+    ##  6 GDP                        0.543 1.47e-62   2489
+    ##  7 Diphtheria                 0.690 1.58e-55   2489
+    ##  8 Polio                      0.692 2.12e-55   2489
+    ##  9 log.HIV.AIDS               0.712 3.11e-54   2489
+    ## 10 Hepatitis.B                0.723 1.44e-53   2489
+    ## # … with 12 more rows
+
+``` r
+# Verify non normality and transformation options of the variability 
+plot_normality(train)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-1.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-2.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-3.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-4.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-5.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-6.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-7.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-8.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-9.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-10.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-11.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-12.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-13.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-14.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-15.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-16.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-17.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-18.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-19.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-20.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-21.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-22.png)<!-- -->
+
+## Observations
+
+\*\* The p-value of the Population is less than 0.0001 signifying it is
+non normally and should be transformed if utilized in the following
+models.  
+\*\* The p-value of the Measles is less than 0.0001 signifying it is non
+normally and should be transformed if utilized in the following models.
+\*\* The p-value of the infant.deaths is less than 0.0001 signifying it
+is non normally and should be transformed if utilized in the following
+models. \*\* The p-value of the under.five.deaths is less than 0.0001
+signifying it is non normally and should be transformed if utilized in
+the following models. \*\* The p-value of the Hepatitis.B is less than
+0.0001 signifying it is non normally and should be transformed if
+utilized in the following models. \*\* The p-value of the Diphtheria is
+less than 0.0001 signifying it is non normally and should be transformed
+if utilized in the following models. \*\* The p-value of the Polio is
+less than 0.0001 signifying it is non normally and should be transformed
+if utilized in the following models. \*\* The p-value of the
+log.HIV.AIDS is less than 0.0001 signifying it is non normally and
+should be transformed if utilized in the following models. \*\* The
+p-value of the thinness.5.9.years is less than 0.0001 signifying it is
+non normally and should be transformed if utilized in the following
+models. \*\* The p-value of the thinness..1.19.years is less than 0.0001
+signifying it is non normally and should be transformed if utilized in
+the following models.
+
 ##################################################################################### 
 
 # Modeling
@@ -1327,20 +1454,6 @@ predict.regsubsets =function (object , newdata ,id ,...){
 #                                       Lasso                                       #
 #####################################################################################
 library(glmnet)
-```
-
-    ## Loading required package: Matrix
-
-    ## 
-    ## Attaching package: 'Matrix'
-
-    ## The following objects are masked from 'package:tidyr':
-    ## 
-    ##     expand, pack, unpack
-
-    ## Loaded glmnet 4.1-4
-
-``` r
 x=model.matrix(Life.expectancy~.,train)[,-1]
 y=train$Life.expectancy
 xtest = model.matrix(Life.expectancy~.,test)[,-1]
@@ -1370,52 +1483,52 @@ coef(lasso.mod,s=bestlambda)
 
     ## 48 x 1 sparse Matrix of class "dgCMatrix"
     ##                                             s1
-    ## (Intercept)                     -131.503183962
-    ## Year                               0.093084508
-    ## StatusDeveloping                  -0.921723973
-    ## Adult.Mortality                   -0.011242327
+    ## (Intercept)                     -130.681803403
+    ## Year                               0.092671721
+    ## StatusDeveloping                  -0.918150949
+    ## Adult.Mortality                   -0.011254070
     ## infant.deaths                      .          
-    ## Alcohol                           -0.028983720
-    ## percentage.expenditure             0.000021964
+    ## Alcohol                           -0.027440284
+    ## percentage.expenditure             0.000022150
     ## Hepatitis.B                        .          
-    ## Measles                           -0.000008858
-    ## BMI                                0.006023832
-    ## under.five.deaths                 -0.001440382
-    ## Polio                              0.021639016
-    ## Total.expenditure                 -0.014645046
-    ## Diphtheria                         0.023183784
-    ## HIV.AIDS                          -0.143255041
-    ## GDP                                0.000001702
+    ## Measles                           -0.000008764
+    ## BMI                                0.006043653
+    ## under.five.deaths                 -0.001439040
+    ## Polio                              0.021601927
+    ## Total.expenditure                 -0.013616481
+    ## Diphtheria                         0.023179633
+    ## HIV.AIDS                          -0.143044587
+    ## GDP                                0.000001651
     ## thinness..1.19.years               .          
-    ## thinness.5.9.years                -0.038808619
-    ## Income.composition.of.resources    4.455724833
-    ## Schooling                          0.487190096
-    ## RegionAustralia and New Zealand    4.255531613
-    ## RegionCanada                       3.485148809
-    ## RegionCaribbean                    1.257183414
-    ## RegionCentral Africa              -1.018757040
-    ## RegionCentral Asia                -3.372529977
-    ## RegionCentral Europe               1.788054796
+    ## thinness.5.9.years                -0.038911002
+    ## Income.composition.of.resources    4.461773689
+    ## Schooling                          0.486773138
+    ## RegionAustralia and New Zealand    4.216713636
+    ## RegionCanada                       3.456209772
+    ## RegionCaribbean                    1.249773727
+    ## RegionCentral Africa              -1.014557501
+    ## RegionCentral Asia                -3.360908286
+    ## RegionCentral Europe               1.763767162
     ## RegionEastern Africa               .          
     ## RegionEastern Europe               .          
-    ## RegionMashriq                      0.178680815
-    ## RegionMeso-America                 1.772026336
-    ## RegionNorth Africa                 0.871080138
-    ## RegionNW Pacific and East Asia     0.921599165
+    ## RegionMashriq                      0.171912087
+    ## RegionMeso-America                 1.766367649
+    ## RegionNorth Africa                 0.856697648
+    ## RegionNW Pacific and East Asia     0.907931205
     ## RegionSouth America                .          
-    ## RegionSouth Asia                  -0.346461184
+    ## RegionSouth Asia                  -0.335227120
     ## RegionSouth Pacific                .          
-    ## RegionSoutheast Asia               0.039363112
-    ## RegionSouthern Africa             -1.920709823
-    ## RegionUS                           0.020635199
-    ## RegionWestern Africa              -2.866422845
-    ## RegionWestern Europe               5.109228366
-    ## RegionWestern Indian Ocean        -0.260972223
-    ## log.HIV.AIDS                      -1.629831964
-    ## log.GDP                            0.101513383
-    ## log.percentage.expenditure         0.129268731
-    ## ContinentAmericas                  2.589077037
-    ## ContinentAsia                      1.437516209
+    ## RegionSoutheast Asia               0.038523364
+    ## RegionSouthern Africa             -1.914286934
+    ## RegionUS                           0.006416786
+    ## RegionWestern Africa              -2.862602854
+    ## RegionWestern Europe               5.082035845
+    ## RegionWestern Indian Ocean        -0.258232846
+    ## log.HIV.AIDS                      -1.633137413
+    ## log.GDP                            0.102354552
+    ## log.percentage.expenditure         0.128893259
+    ## ContinentAmericas                  2.574306571
+    ## ContinentAsia                      1.425398345
     ## ContinentEurope                    .          
     ## ContinentOceania                   .
 
@@ -1439,7 +1552,7 @@ postResample(pred = lasso.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0920   0.8833   2.3363
+    ##   3.0919   0.8833   2.3356
 
 ``` r
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
@@ -2923,7 +3036,7 @@ cva.min
 ```
 
     ##   alpha lambdaMin   mse
-    ## 1 0.216  0.004349 10.69
+    ## 1 0.216  0.004773 10.69
 
 ``` r
 elastic.mod = glmnet(x,y, alpha = cva.min$alpha, lambda = cva.min$lambdaMin)
@@ -2942,7 +3055,7 @@ postResample(pred = elastic.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0920   0.8834   2.3387
+    ##   3.0919   0.8834   2.3388
 
 ``` r
 #####################################################################################
@@ -3150,7 +3263,7 @@ plot(fit, which = 4)
 #                                     KNN - regression                              #
 #####################################################################################
 # Check for zero variance
-caret::nearZeroVar(LifeExpKNN %>% select(where(is.numeric)), saveMetrics = TRUE) %>% 
+caret::nearZeroVar(LifeExpKNN %>% dplyr::select(where(is.numeric)), saveMetrics = TRUE) %>% 
   tibble::rownames_to_column() %>% 
   filter(nzv)
 ```
@@ -3193,7 +3306,7 @@ KNNRegressor = train(
 KNNRegressor$finalModel
 ```
 
-    ## 3-nearest neighbor regression model
+    ## 2-nearest neighbor regression model
 
 ``` r
 prediction_train = predict(KNNRegressor, KNNtrain)

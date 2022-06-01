@@ -277,7 +277,7 @@ LifeExpKNN = LifeExp
 #      Full Correlation Matrix for Linear Regression (Life.expectancy)              #
 #####################################################################################
 # Filter for data to be included
-num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
 LifeExpcorr = LifeExp[,num_cols]
 corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
          cl.pos = 'n', col = COL2('BrBG'))
@@ -303,7 +303,7 @@ plot_correlate(LifeExp)
 #####################################################################################
 # Let's plot the summary statistics
 # Univariate analysis
-num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
 num_cols_exclude = c('Year')
 num_cols_plots = noquote(unlist(num_cols[!( num_cols %in% num_cols_exclude)]))
 nrows = length(num_cols_plots)
@@ -707,7 +707,7 @@ plot(fit, which = 4)
 #                                     KNN - regression                              #
 #####################################################################################
 # Check for zero variance
-caret::nearZeroVar(LifeExpKNN %>% select(where(is.numeric)), saveMetrics = TRUE) %>% 
+caret::nearZeroVar(LifeExpKNN %>% dplyr::select(where(is.numeric)), saveMetrics = TRUE) %>% 
   tibble::rownames_to_column() %>% 
   filter(nzv)
 cat("No variable with zero variance in the selected list of variables.") 
