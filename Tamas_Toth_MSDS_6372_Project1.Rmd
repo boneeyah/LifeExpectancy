@@ -51,6 +51,10 @@ library(naivebayes)
 library(car)
 library(egg)
 library(rworldmap)
+library(Hmisc)
+library(DataExplorer)
+library(selectiveInference)
+library(dlookr)
 ```
 ```{r message = FALSE}
 # Turn off scientific notation
@@ -277,11 +281,15 @@ num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 LifeExpcorr = LifeExp[,num_cols]
 corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
          cl.pos = 'n', col = COL2('BrBG'))
+
+plot_correlate(LifeExp)
+
 ```
 
 ### Observations
 * Under five death and infant death are perfectly correlated. They are describing the same thing. One of the variable is redundant.
 * GDP and percentage expenditure are perfectly correlated. They are describing the same thing. One of the variable is redundant.
+* Schooling and Income Composition of Resources have a strong positive correlation
 * Life Expectancy and Adult Mortality are highly negatively correlated
 * Life Expectancy and HIV.AIDS are moderately correlated
 * Life Expectancy and BMI are moderately correlated
@@ -353,6 +361,53 @@ index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
 train = LifeExp[index,]
 test = LifeExp[-index,]
 ```
+
+
+
+```{r EDA on Training Data}
+#####################################################################################
+#                             EDA on Train sets                                    #
+#####################################################################################
+
+describe(train)
+```
+
+## Observations
+
+** A High degree of skewness can be identified in Infant Deaths
+** A High degree of skewness can be identified in Measles
+** A High degree of skewness can be identified in under.five.deaths	
+** A High degree of skewness can be identified in Population
+
+
+```{r normality}
+normality(train) 
+#Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
+
+#Find Features that are not normally distributed 
+
+train %>%
+  normality() %>%
+  filter(p_value < 0.05) %>%
+  arrange(abs(p_value))
+
+# Verify non normality and transformation options of the variability 
+plot_normality(train)
+
+```
+
+## Observations
+
+** The p-value of the Population is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.	
+** The p-value of the Measles is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the infant.deaths is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the under.five.deaths is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the Hepatitis.B is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the Diphtheria is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the Polio is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the log.HIV.AIDS is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the thinness.5.9.years is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
+** The p-value of the thinness..1.19.years is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
 
 
 
