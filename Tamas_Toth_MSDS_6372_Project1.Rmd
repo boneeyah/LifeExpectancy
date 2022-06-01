@@ -21,7 +21,7 @@ output:
   keep_html: TRUE
 always_allow_html: true
 editor_options: 
-  chunk_output_type: inline
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -344,6 +344,190 @@ egg::ggarrange(hist_p, box_p, heights = 2:1)
 }
 
 ```
+
+### Categorical data plots
+```{r,fig.align='center',out.extra='angle=90', fig.dim = c(8, 6)}
+#####################################################################################
+#                               Categorical data plots                              #
+#####################################################################################
+num_var = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+cat_cols = LifeExp %>% dplyr::select(where(is.factor)) %>% colnames()
+num_ex = c('Year')
+num_var_plots = noquote(unlist(num_var[!( num_var %in% num_ex)]))
+# Plot all categorical variables
+for (c in cat_cols)
+{
+  cat_plot = LifeExp %>% ggplot(aes(x= .data[[c]], group = 1)) + 
+    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
+    geom_text(aes( label = scales::percent(..prop..),
+                   y= ..prop.. ), stat= "count", vjust = -.5) +
+    labs(y = "Percent") +
+    scale_y_continuous(labels = scales::percent) + theme(legend.position = "none") +
+    ggtitle(paste(c, "Categorical Analysis")) + 
+    theme(plot.title = element_text(hjust = 0.5)) + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # +
+    #scale_fill_brewer(palette="Oranges")
+    egg::ggarrange(cat_plot, ncol=2) 
+}
+```
+
+## Bi-variate analysis with Status variable
+```{r,fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#                     Bi-variate analysis with Status variable                      #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Status, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Status") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Status bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+
+## Bi-variate analysis with Region variable
+```{r,fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#                     Bi-variate analysis with Region variable                   #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Region, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Region") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Region bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+    scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+## Overall life expectancy over time
+```{r,fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#                          Overall life expectancy over time                        #
+#####################################################################################
+
+mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+
+#Overall life expectancy
+ggplot(data=mean_LifeExp, aes(x=Year, y=meanle)) +
+  geom_line()+
+  geom_point() +
+   ggtitle("Mean life expactancy by year") +
+  theme(plot.title = element_text(hjust = 0.5))+
+   xlab("Year") + ylab("Average Life Expectancy")
+  
+
+#Overall life expectancy by Region
+ggplot(data=mean_LifeExp_reg, aes(x=Year, y=meanle, group = Region)) +
+  geom_line(aes(color=Region))+
+  geom_point(aes(color=Region)) +
+  ggtitle("Mean life expactancy by year by region") +
+theme(plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("Average Life Expectancy")
+```
+
+
+### Categorical data plots
+```{r,fig.align='center',out.extra='angle=90', fig.dim = c(8, 6)}
+#####################################################################################
+#                               Categorical data plots                              #
+#####################################################################################
+num_var = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+cat_cols = LifeExp %>% dplyr::select(where(is.factor)) %>% colnames()
+num_ex = c('Year')
+num_var_plots = noquote(unlist(num_var[!( num_var %in% num_ex)]))
+# Plot all categorical variables
+for (c in cat_cols)
+{
+  cat_plot = LifeExp %>% ggplot(aes(x= .data[[c]], group = 1)) + 
+    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
+    geom_text(aes( label = scales::percent(..prop..),
+                   y= ..prop.. ), stat= "count", vjust = -.5) +
+    labs(y = "Percent") +
+    scale_y_continuous(labels = scales::percent) + theme(legend.position = "none") +
+    ggtitle(paste(c, "Categorical Analysis")) + 
+    theme(plot.title = element_text(hjust = 0.5)) + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # +
+    #scale_fill_brewer(palette="Oranges")
+    egg::ggarrange(cat_plot, ncol=2) 
+}
+```
+
+## Bi-variate analysis with Status variable
+```{r,fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#                     Bi-variate analysis with Status variable                      #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Status, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Status") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Status bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+
+## Bi-variate analysis with Region variable
+```{r,fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#                     Bi-variate analysis with Region variable                   #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Region, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Region") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Region bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+    scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+## Overall life expectancy over time
+```{r,fig.align='center',out.extra='angle=90'}
+#####################################################################################
+#                          Overall life expectancy over time                        #
+#####################################################################################
+
+mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+
+#Overall life expectancy
+ggplot(data=mean_LifeExp, aes(x=Year, y=meanle)) +
+  geom_line()+
+  geom_point() +
+   ggtitle("Mean life expactancy by year") +
+  theme(plot.title = element_text(hjust = 0.5))+
+   xlab("Year") + ylab("Average Life Expectancy")
+  
+
+#Overall life expectancy by Region
+ggplot(data=mean_LifeExp_reg, aes(x=Year, y=meanle, group = Region)) +
+  geom_line(aes(color=Region))+
+  geom_point(aes(color=Region)) +
+  ggtitle("Mean life expactancy by year by region") +
+theme(plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("Average Life Expectancy")
+```
+
 
 ```{r transform variables in the dataframe}
 #####################################################################################
