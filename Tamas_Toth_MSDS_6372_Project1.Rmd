@@ -55,6 +55,7 @@ library(Hmisc)
 library(DataExplorer)
 library(selectiveInference)
 library(dlookr)
+library(forecast) #for getting RMSE comparing actual value to predicted value
 ```
 ```{r message = FALSE}
 # Turn off scientific notation
@@ -958,6 +959,28 @@ plot(fit, which = 4)
 #                                      Objective 2                                  #
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
+```
+
+```{r creating binary categorical variables}
+#resplit here for now
+index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
+train = LifeExp[index,]
+test = LifeExp[-index,]
+#duplicate dataframe
+LifeExp2 <- LifeExp
+#create cat variables for HIV and Meas as binary No/Yes
+LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIVcat = if_else(LifeExp2$HIV.AIDS>0.1,1,0),
+                                       Meascat= if_else(LifeExp2$Measles>0,1,0))
+LifeExp2$Meascat <- as.factor(LifeExp2$Meascat)
+LifeExp2$HIVcat <- as.factor(LifeExp2$HIVcat)
+#retrain/fit/test/predict and measure accuracy
+train_cus <- LifeExp2[index,]
+test_cu <- LifeExp2[index,]
+fit.custom <- lm(Life.expectancy ~Year + Status + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + Region + Meascat:Measles + HIVcat:log.HIV.AIDS +HIVcat +Meascat,data = train_cus)
+#RMSE performs slightly better. 
+
+train_cus_pred <- predict(fit.custom,test_cu)
+accuracy(train_cus_pred,test_cu$Life.expectancy)
 ```
 
 ```{r Objective 2 KNN}
