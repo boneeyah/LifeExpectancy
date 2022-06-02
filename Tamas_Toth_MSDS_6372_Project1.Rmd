@@ -572,7 +572,7 @@ LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expendi
 #LifeExp$Continent = as.factor(LifeExp$Continent)
 #LifeExp$Status = as.factor(LifeExp$Status)
 
-drop = c('Country','HIV.AIDS', 'percentage.expenditure', 'GDP', 'Population')
+drop = c('Country','HIV.AIDS', 'percentage.expenditure', 'GDP')
 LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
 
 ```
@@ -681,7 +681,7 @@ abline(h=0, col="blue")
 postResample(pred = lasso.pred, obs = ytest)
 
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP, data = train)
+fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP + Population, data = train)
 summary(fit.lasso.lm)
 
 ### Visualize VIF
@@ -711,7 +711,7 @@ abline(v=10, col="red")
 
 ##### Continent and Region are correlated, dropped Continent for now, because the lasso coef was closer to 0###
 
-fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP, data = train)
+fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP+Population, data = train)
 
 #### Hypothesis testing ####
 summary(fit.lasso.lm3)
@@ -750,29 +750,30 @@ grid()
 #                                  Forward Selection                                #
 #####################################################################################
 library(leaps)
-mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=44)
+mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=41)
 testASE<-c()
-for (i in 1:44){
+for (i in 1:41){
   predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:44,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.fwd)$rss
-lines(1:45,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:41,rss/dim(train)[1],lty=3,col="blue")  
 
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=29)
-coef(mlr.fwd.final,29)
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=41)
+coef(mlr.fwd.final,37)
 summary(mlr.fwd.final)
 
 
 # Metrics RMSE; R-squared; MAE
 postResample(pred = predictions, obs = ytest)
 
-##### Fit Linear Model based on FOrward Selection without factors to measure VIF####
-fit.fwd.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Measles + under.five.deaths + Polio + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+##### Fit Linear Model based on Forward Selection without factors to measure VIF####
+fit.fwd.lm = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+BMI+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+
 
 ### Visualize VIF
 fit.fwd.lm_VIF = vif(fit.fwd.lm)
@@ -780,30 +781,24 @@ barplot(fit.fwd.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(
 abline(v=10, col="red")
 
 
-############################################################################
-# same as before, no longer have perfect correlation for num vars          #
-# will comment out second model for now but leave in just in case          #
-############################################################################
-
-
 # We can see that Forward Selection did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (under.five.deaths).
 
-##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-#fit.fwd.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
-#summary(fit.fwd.lm2)
+##### Fit Linear Model based on FWD selection without factors to measure VIF####
+fit.fwd.lm2 = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+BMI+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+summary(fit.fwd.lm2)
 
 ### re-run Visualize VIF
-#fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
-#barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-#abline(v=10, col="red")
+fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
+barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
 
-##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity####
-fit.fwd.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + Measles + under.five.deaths + Polio + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity and categorical variables####
+fit.fwd.lm3 = lm(Life.expectancy ~ Year+Adult.Mortality+Region+Status+infant.deaths+Alcohol+Measles+BMI+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
 
 #### Hypothesis testing ####
 summary(fit.fwd.lm3)
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
-# Alcohol, Measles, BMI, Total.expenditure.
+# thinness.5.9.years, Measles, BMI, Total.expenditure.
 
 # Predicting
 train_pred = predict(fit.fwd.lm3, train)
@@ -837,31 +832,34 @@ grid()
 #                               Backward Elimination                                #
 #####################################################################################
 
-mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=44)
+mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=41)
 testASE<-c()
-for (i in 1:44){
+for (i in 1:41){
 
   predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
 
-plot(1:44,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.bck)$rss
-lines(1:45,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:41,rss/dim(train)[1],lty=3,col="blue")  
 
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=44)
-coef(mlr.bck.final,42)
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=41)
+coef(mlr.bck.final,35)
 
+summary(mlr.bck.final)
 
 # Metrics RMSE; R-squared; MAE
 postResample(pred = predictions, obs = ytest)
 
 ##different result now, will repeat steps from earlier model
 
-fit.bck.lm <- lm(Life.expectancy ~Year + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP,data = train)
+fit.bck.lm <- lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure,data = train)
+
+summary(fit.bck.lm)
 
 ### Visualize VIF
 fit.bck.lm_VIF = vif(fit.bck.lm)
@@ -869,14 +867,14 @@ barplot(fit.bck.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(
 abline(v=10, col="red")
 
 #two are correlated and giving a high VIF it's under.five and infant.deaths
-fit.bck.lm2 <- lm(Life.expectancy ~Year + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP,data = train)
+fit.bck.lm2 <- lm(Life.expectancy ~ Year+Adult.Mortality+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure,data = train)
 
 fit.bck.lm2_VIF <- vif(fit.bck.lm2)
 barplot(fit.bck.lm2_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 
 ##fit model with categorical variables and removed colinearity
-fit.bck.lm3 <- lm(Life.expectancy ~Year + Status + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + Region,data = train)
+fit.bck.lm3 <- lm(Life.expectancy ~ Year+Adult.Mortality+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure + Status + Region,data = train)
 
 
 #### Hypothesis testing ####
@@ -981,9 +979,10 @@ cv <- trainControl(
 )
 
 MLRT = train(
-  Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality + infant.deaths,
+  Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths,
   data = train,
   method = "lm",
+   preProcess = c("center", "scale"),
   trControl = cv)
 
 ### Visualize VIF
@@ -1005,7 +1004,7 @@ postResample(pred = train_pred, obs = train$Life.expectancy)
 postResample(pred = test_pred, obs = test$Life.expectancy)
 
 ### Checking Multiple Liner Regression model assumptions
-fit = lm(Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality + infant.deaths, train)
+fit = lm(Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths, data = train)
 confint(fit)
 hist(residuals, main = "Histogram of Residuals")
 plot(residuals, main = "Residuals plot") 
@@ -1030,6 +1029,14 @@ grid()
 #                                      Objective 2                                  #
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
+fit_interaction = lm(Life.expectancy ~ Status + Region + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, train)
+summary(fit_interaction)
+confint(fit_interaction)
+hist(residuals, main = "Histogram of Residuals")
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+plot(fit_interaction, which = 2)
+plot(fit_interaction, which = 4)
 ```
 
 ```{r Objective 2 KNN}
@@ -1044,15 +1051,15 @@ caret::nearZeroVar(LifeExpKNN %>% dplyr::select(where(is.numeric)), saveMetrics 
 cat("No variable with zero variance in the selected list of variables.") 
 
 # Scale the numerical variables as KNN is sensitive to that
-LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
+#LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
 
 ### KNN Data Preparation
 index<-sample(1:dim(LifeExpKNN)[1],round(dim(LifeExpKNN)[1]*0.85),replace=F)
 KNNtrain = LifeExpKNN[index,]
 KNNtest = LifeExpKNN[-index,]
-x=KNNtrain[,-4]
+x=KNNtrain[,c(-4, -23)]
 y=KNNtrain$Life.expectancy
-xtest = KNNtest[,-4]
+xtest = KNNtest[,c(-4,-23)]
 ytest = KNNtest$Life.expectancy
 
 # Search for optimal k
@@ -1061,7 +1068,7 @@ k_grid = expand.grid(k = seq(2, 25, by = 1))
 # Model Training
 KNNRegressor = train(
   Life.expectancy~.,
-  data = KNNtrain,
+  data = KNNtrain[,-23],
   method = "knn",
   preProcess = c("center", "scale"), 
   tuneGrid = k_grid,
@@ -1069,8 +1076,16 @@ KNNRegressor = train(
   )
 
 KNNRegressor$finalModel
-prediction_train = predict(KNNRegressor, KNNtrain)
-prediction_test = predict(KNNRegressor, KNNtest)
+
+KNNRegressor$pred
+prediction_train = predict(KNNRegressor, KNNtrain[,-23])
+prediction_test = predict(KNNRegressor, KNNtest[,-23])
+
+#print(paste("RMSE:", KNNRegressor$resample$RMSE[1]))
+#print(paste("R-squared:",KNNRegressor$resample$Rsquared[1]))
+#print(paste("MAE:",KNNRegressor$resample$MAE[1]))
+
+mse.knn  = mean((prediction_test - ytest)^2) 
 
 
 x = 1:length(KNNtest$Life.expectancy)
