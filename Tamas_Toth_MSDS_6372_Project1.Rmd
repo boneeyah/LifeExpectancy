@@ -130,6 +130,19 @@ summary(LifeExp)
 #####################################################################################
 #                        Scatter plots for checking linearity                       #
 #####################################################################################
+
+################### Linear - Linear ###################
+LifeExp$Status = as.factor(LifeExp$Status)
+#num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+#MLR_num_LE = LifeExp[, num_cols]
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~HIV.AIDS+GDP+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+
+
+################### Linear - Log transformation ###################
 LifeExp$Status = as.factor(LifeExp$Status)
 #num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 #MLR_num_LE = LifeExp[, num_cols]
@@ -138,6 +151,19 @@ pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=
 pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
 pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
 pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+
+################### Log - Log transformation ###################
+LifeExp$Status = as.factor(LifeExp$Status)
+#num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+#MLR_num_LE = LifeExp[, num_cols]
+pairs(log(Life.expectancy)~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+
+
+
 ```
 ### Observations
 We can observe linear relationship between Life Expectancy and the following variables
@@ -559,13 +585,11 @@ LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expendi
 
 
 ### Transform countries to continents
-library(countrycode)
-LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
-LifeExp$Continent = as.factor(LifeExp$Continent)
-LifeExp$Status = as.factor(LifeExp$Status)
+#library(countrycode)
+#LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
+#LifeExp$Continent = as.factor(LifeExp$Continent)
+#LifeExp$Status = as.factor(LifeExp$Status)
 
-#drop = c('Country')#,'HIV.AIDS', 'percentage.expenditure')
-#LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
 
 ```
 
@@ -673,7 +697,7 @@ abline(h=0, col="blue")
 postResample(pred = lasso.pred, obs = ytest)
 
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP, data = train)
+fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP, data = train)
 summary(fit.lasso.lm)
 
 ### Visualize VIF
@@ -703,7 +727,7 @@ abline(v=10, col="red")
 
 ##### Continent and Region are correlated, dropped Continent for now, because the lasso coef was closer to 0###
 
-fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP, data = train)
+fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP, data = train)
 
 #### Hypothesis testing ####
 summary(fit.lasso.lm3)
@@ -729,6 +753,14 @@ abline(h=0, col="blue")
 plot(fit.lasso.lm3, which = 2)
 plot(fit.lasso.lm3, which = 4)
 
+##### Visualize prediction vs actual
+x_lasso = 1:dim(xtest)[1]
+plot(x_lasso, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (LASSO)", ylab="Life expectancy")
+lines(x_lasso, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
 
 #####################################################################################
 #                                  Forward Selection                                #
@@ -808,6 +840,14 @@ abline(h=0, col="blue")
 plot(fit.fwd.lm3, which = 2)
 plot(fit.fwd.lm3, which = 4)
 
+##### Visualize prediction vs actual
+x_fwd = 1:dim(xtest)[1]
+plot(x_fwd, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (FWD selection)", ylab="Life expectancy")
+lines(x_fwd, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
 
 #####################################################################################
 #                               Backward Elimination                                #
@@ -902,6 +942,15 @@ coef(ridge.mod,s=bestlambda)
 # Metrics RMSE; R-squared; MAE
 postResample(pred = ridge.pred, obs = ytest)
 
+##### Visualize prediction vs actual
+x_ridge = 1:dim(xtest)[1]
+plot(x_fwd, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (Ridge Regression)", ylab="Life expectancy")
+lines(x_fwd, ridge.pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+
 
 #####################################################################################
 #                            Elastic Net Regression                                 #
@@ -928,8 +977,17 @@ testMSE_ELASTIC
 # Metrics RMSE; R-squared; MAE
 postResample(pred = elastic.pred, obs = ytest)
 
+##### Visualize prediction vs actual
+x_eNET = 1:dim(xtest)[1]
+plot(x_eNET, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (ElasticNet Regression)", ylab="Life expectancy")
+lines(x_fwd, elastic.pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+
 #####################################################################################
-#                                      Manual MLR                                   #
+#                                      Manual MLR - Tamas                           #
 #####################################################################################
 # 5-fold cross validation
 cv <- trainControl(
@@ -939,7 +997,7 @@ cv <- trainControl(
 )
 
 MLRT = train(
-  Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality,
+  Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality + infant.deaths,
   data = train,
   method = "lm",
   trControl = cv)
@@ -956,21 +1014,33 @@ summary(MLRT$finalModel)
 train_pred = predict(MLRT, train)
 test_pred = predict(MLRT, test)
 
-# Scoring the final model on Training and Validation set
+# Scoring the final model on Training and Test set
 summary(MLRT$finalModel)
 residuals = resid(MLRT$finalModel)
 postResample(pred = train_pred, obs = train$Life.expectancy)
 postResample(pred = test_pred, obs = test$Life.expectancy)
 
 ### Checking Multiple Liner Regression model assumptions
-fit = lm(Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality, train)
+fit = lm(Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality + infant.deaths, train)
 confint(fit)
 hist(residuals, main = "Histogram of Residuals")
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 plot(fit, which = 2)
 plot(fit, which = 4)
+
+
+##### Visualize prediction vs actual
+x_TMLR = 1:dim(xtest)[1]
+plot(x_TMLR, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (Manual MLR)", ylab="Life expectancy")
+lines(x_fwd, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
 ```
+
+
 ```{r Objective 2 interaction}
 #####################################################################################
 #                                      Objective 2                                  #
