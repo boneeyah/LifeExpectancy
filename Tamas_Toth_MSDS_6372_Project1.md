@@ -124,211 +124,75 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Brazil
+Australia
 </td>
 <td style="text-align:right;">
-2005
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-72.7
-</td>
-<td style="text-align:right;">
-163
-</td>
-<td style="text-align:right;">
-75
-</td>
-<td style="text-align:right;">
-6.97
-</td>
-<td style="text-align:right;">
-23.76
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-47.8
-</td>
-<td style="text-align:right;">
-85
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-8.27
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-477.2
-</td>
-<td style="text-align:right;">
-186917361
-</td>
-<td style="text-align:right;">
-3.2
-</td>
-<td style="text-align:right;">
-3.1
-</td>
-<td style="text-align:right;">
-0.694
-</td>
-<td style="text-align:right;">
-13.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Switzerland
-</td>
-<td style="text-align:right;">
-2005
+2014
 </td>
 <td style="text-align:left;">
 Developed
 </td>
 <td style="text-align:right;">
-81.1
-</td>
-<td style="text-align:right;">
-66
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-10.15
-</td>
-<td style="text-align:right;">
-10055.35
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-60
-</td>
-<td style="text-align:right;">
-53.2
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-94
-</td>
-<td style="text-align:right;">
-1.86
-</td>
-<td style="text-align:right;">
-94
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-54797.5
-</td>
-<td style="text-align:right;">
-7437115
-</td>
-<td style="text-align:right;">
-0.6
-</td>
-<td style="text-align:right;">
-0.4
-</td>
-<td style="text-align:right;">
-0.899
-</td>
-<td style="text-align:right;">
-15.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Italy
-</td>
-<td style="text-align:right;">
-2012
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-82.0
+82.7
 </td>
 <td style="text-align:right;">
 6
 </td>
 <td style="text-align:right;">
-2
+1
 </td>
 <td style="text-align:right;">
-7.49
+9.71
 </td>
 <td style="text-align:right;">
-4793.90
+10769.4
 </td>
 <td style="text-align:right;">
-96
+91
 </td>
 <td style="text-align:right;">
-376
+340
 </td>
 <td style="text-align:right;">
-62.1
+66.1
 </td>
 <td style="text-align:right;">
-2
+1
 </td>
 <td style="text-align:right;">
-96
+92
 </td>
 <td style="text-align:right;">
-9.28
+9.42
 </td>
 <td style="text-align:right;">
-97
+92
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-34814.1
+62215
 </td>
 <td style="text-align:right;">
-59539717
-</td>
-<td style="text-align:right;">
-0.5
+2346694
 </td>
 <td style="text-align:right;">
 0.6
 </td>
 <td style="text-align:right;">
-0.877
+0.6
 </td>
 <td style="text-align:right;">
-16.6
+0.936
+</td>
+<td style="text-align:right;">
+20.4
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Samoa
+Saint Vincent and the Grenadines
 </td>
 <td style="text-align:right;">
 2015
@@ -337,10 +201,10 @@ Samoa
 Developing
 </td>
 <td style="text-align:right;">
-74.0
+73.2
 </td>
 <td style="text-align:right;">
-125
+156
 </td>
 <td style="text-align:right;">
 0
@@ -349,117 +213,253 @@ Developing
 NA
 </td>
 <td style="text-align:right;">
-0.00
+0.0
 </td>
 <td style="text-align:right;">
-59
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-74.7
+98
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-61
+54.1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+97
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-66
+98
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-4149.4
+NA
 </td>
 <td style="text-align:right;">
-193759
+NA
 </td>
 <td style="text-align:right;">
-0.2
+3.5
 </td>
 <td style="text-align:right;">
-0.1
+3.4
 </td>
 <td style="text-align:right;">
-0.702
+0.720
 </td>
 <td style="text-align:right;">
-12.9
+13.3
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Thailand
+Lithuania
 </td>
 <td style="text-align:right;">
-2006
+2000
 </td>
 <td style="text-align:left;">
-Developing
+Developed
 </td>
 <td style="text-align:right;">
-73.0
+71.6
 </td>
 <td style="text-align:right;">
-168
+2
 </td>
 <td style="text-align:right;">
-13
+0
 </td>
 <td style="text-align:right;">
-6.18
+9.87
 </td>
 <td style="text-align:right;">
-433.92
+373.3
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+56.9
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+92
+</td>
+<td style="text-align:right;">
+6.46
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+3297
+</td>
+<td style="text-align:right;">
+3499536
+</td>
+<td style="text-align:right;">
+3.4
+</td>
+<td style="text-align:right;">
+3.4
+</td>
+<td style="text-align:right;">
+0.745
+</td>
+<td style="text-align:right;">
+14.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Singapore
+</td>
+<td style="text-align:right;">
+2011
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+82.2
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1.80
+</td>
+<td style="text-align:right;">
+638.0
 </td>
 <td style="text-align:right;">
 96
 </td>
 <td style="text-align:right;">
-3588
+148
 </td>
 <td style="text-align:right;">
-23.6
+32.1
 </td>
 <td style="text-align:right;">
-15
+0
 </td>
 <td style="text-align:right;">
-98
+96
 </td>
 <td style="text-align:right;">
-3.49
+3.93
 </td>
 <td style="text-align:right;">
-98
+96
 </td>
 <td style="text-align:right;">
-0.5
+0.1
 </td>
 <td style="text-align:right;">
-3369.0
+53167
 </td>
 <td style="text-align:right;">
-65824164
+NA
 </td>
 <td style="text-align:right;">
-8.7
+2.1
 </td>
 <td style="text-align:right;">
-8.9
+2.1
 </td>
 <td style="text-align:right;">
-0.686
+0.911
 </td>
 <td style="text-align:right;">
-12.4
+15.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+South Sudan
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+55.0
+</td>
+<td style="text-align:right;">
+359
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0.0
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+41
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+4.0
+</td>
+<td style="text-align:right;">
+1562
+</td>
+<td style="text-align:right;">
+167192
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.0
 </td>
 </tr>
 </tbody>
@@ -1053,6 +1053,8 @@ summary(LifeExp)
 #####################################################################################
 #                        Scatter plots for checking linearity                       #
 #####################################################################################
+
+################### Linear - Linear ###################
 LifeExp$Status = as.factor(LifeExp$Status)
 #num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 #MLR_num_LE = LifeExp[, num_cols]
@@ -1074,7 +1076,7 @@ pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-3.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~HIV.AIDS+GDP+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-4.png)<!-- -->
@@ -1084,6 +1086,74 @@ pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooli
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-5.png)<!-- -->
+
+``` r
+################### Linear - Log transformation ###################
+LifeExp$Status = as.factor(LifeExp$Status)
+#num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+#MLR_num_LE = LifeExp[, num_cols]
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-6.png)<!-- -->
+
+``` r
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-7.png)<!-- -->
+
+``` r
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-8.png)<!-- -->
+
+``` r
+pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-9.png)<!-- -->
+
+``` r
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-10.png)<!-- -->
+
+``` r
+################### Log - Log transformation ###################
+LifeExp$Status = as.factor(LifeExp$Status)
+#num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
+#MLR_num_LE = LifeExp[, num_cols]
+pairs(log(Life.expectancy)~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-11.png)<!-- -->
+
+``` r
+pairs(log(Life.expectancy)~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-12.png)<!-- -->
+
+``` r
+pairs(log(Life.expectancy)~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-13.png)<!-- -->
+
+``` r
+pairs(log(Life.expectancy)~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-14.png)<!-- -->
+
+``` r
+pairs(log(Life.expectancy)~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-15.png)<!-- -->
 \### Observations We can observe linear relationship between Life
 Expectancy and the following variables
 
@@ -1228,8 +1298,23 @@ pop_all$Country <- replace(pop_all$Country, pop_all$Country == "North Macedonia"
 pop_all$Country <- replace(pop_all$Country, pop_all$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
 pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Venezuela (Bolivarian Republic of)", "Venezuela")
 LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Population = Population2)
+
+#replace adult.mortality since there are clear mistakes with the data that could
+#not be resolved with transformation of the variable
+adlt_mort <- read.csv('Adult_mort.csv',header = TRUE)
+adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Venezuela (Bolivarian Republic of)","Venezuela")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Iran (Islamic Republic of)", "Iran")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Eswatini", "Swaziland")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "The former Yugoslav Republic of Macedonia", "The former Yugoslav republic of Macedonia")
+
+LifeExp <- left_join(LifeExp,adlt_mort, by=c("Country","Year"))
+LifeExp <- LifeExp %>% 
+  dplyr::mutate("Adult.Mortality" = Adult.Mort2)
 #drop new variables
-drop = c("GDP2","Schooling2","comp2", "Population2")
+drop = c("GDP2","Schooling2","comp2", "Population2","Adult.Mort2")
 LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 LifeExpKNN = LifeExp
 ```
@@ -1533,12 +1618,13 @@ LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expendi
 
 
 ### Transform countries to continents
-library(countrycode)
-LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
-LifeExp$Continent = as.factor(LifeExp$Continent)
-LifeExp$Status = as.factor(LifeExp$Status)
+#library(countrycode)
+#LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
+#LifeExp$Continent = as.factor(LifeExp$Continent)
+#LifeExp$Status = as.factor(LifeExp$Status)
 
-drop = c('Country')#,'HIV.AIDS', 'percentage.expenditure')
+
+drop = c('HIV.AIDS', 'percentage.expenditure', 'GDP')#keeping country in
 LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
 ```
 
@@ -1559,20 +1645,30 @@ test = LifeExp[-index,]
 describe(train)
 ```
 
-    ## # A tibble: 23 × 26
-    ##    described_variabl…     n    na   mean     sd se_mean    IQR skewness kurtosis
-    ##    <chr>              <int> <int>  <dbl>  <dbl>   <dbl>  <dbl>    <dbl>    <dbl>
-    ##  1 Year                2489     0 2.01e3 4.59e0 9.20e-2   7    -0.00819   -1.20 
-    ##  2 Life.expectancy     2489     0 6.91e1 9.61e0 1.93e-1  12.7  -0.629     -0.253
-    ##  3 Adult.Mortality     2489     0 1.65e2 1.25e2 2.51e+0 155     1.16       1.66 
-    ##  4 infant.deaths       2489     0 3.18e1 1.22e2 2.44e+0  23     9.33     105.   
-    ##  5 Alcohol             2489     0 4.56e0 4.04e0 8.09e-2   6.71  0.621     -0.748
-    ##  6 percentage.expend…  2489     0 7.16e2 1.96e3 3.92e+1 419.    4.80      28.7  
-    ##  7 Hepatitis.B         2489     0 8.02e1 2.45e1 4.91e-1  21    -1.82       2.44 
-    ##  8 Measles             2489     0 2.54e3 1.18e4 2.37e+2 410     9.27     111.   
-    ##  9 BMI                 2489     0 3.80e1 2.00e1 4.01e-1  36.7  -0.227     -1.32 
-    ## 10 under.five.deaths   2489     0 4.41e1 1.66e2 3.33e+0  30     9.09     101.   
-    ## # … with 13 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>, p05 <dbl>,
+    ## # A tibble: 20 × 26
+    ##    described_variables     n    na      mean        sd  se_mean     IQR skewness
+    ##    <chr>               <int> <int>     <dbl>     <dbl>    <dbl>   <dbl>    <dbl>
+    ##  1 Year                 2489     0   2.01e+3   4.59e+0  9.20e-2 7   e+0 -0.00819
+    ##  2 Life.expectancy      2489     0   6.91e+1   9.61e+0  1.93e-1 1.27e+1 -0.629  
+    ##  3 Adult.Mortality      2489     0   1.96e+2   1.16e+2  2.33e+0 1.46e+2  1.33   
+    ##  4 infant.deaths        2489     0   3.18e+1   1.22e+2  2.44e+0 2.3 e+1  9.33   
+    ##  5 Alcohol              2489     0   4.56e+0   4.04e+0  8.09e-2 6.71e+0  0.621  
+    ##  6 Hepatitis.B          2489     0   8.02e+1   2.45e+1  4.91e-1 2.1 e+1 -1.82   
+    ##  7 Measles              2489     0   2.54e+3   1.18e+4  2.37e+2 4.1 e+2  9.27   
+    ##  8 BMI                  2489     0   3.80e+1   2.00e+1  4.01e-1 3.67e+1 -0.227  
+    ##  9 under.five.deaths    2489     0   4.41e+1   1.66e+2  3.33e+0 3   e+1  9.09   
+    ## 10 Polio                2489     0   8.23e+1   2.35e+1  4.71e-1 2   e+1 -2.06   
+    ## 11 Total.expenditure    2489     0   5.91e+0   2.46e+0  4.93e-2 3.18e+0  0.595  
+    ## 12 Diphtheria           2489     0   8.22e+1   2.36e+1  4.74e-1 1.9 e+1 -2.06   
+    ## 13 Population           2489     0   3.83e+7   1.43e+8  2.87e+6 2.30e+7  7.98   
+    ## 14 thinness..1.19.yea…  2489     0   4.92e+0   4.45e+0  8.92e-2 5.6 e+0  1.70   
+    ## 15 thinness.5.9.years   2489     0   4.93e+0   4.53e+0  9.08e-2 5.6 e+0  1.78   
+    ## 16 Income.composition…  2489     0   6.28e-1   2.09e-1  4.19e-3 2.88e-1 -1.08   
+    ## 17 Schooling            2489     0   1.20e+1   3.35e+0  6.71e-2 4.3 e+0 -0.570  
+    ## 18 log.HIV.AIDS         2489     0  -1.21e+0   1.62e+0  3.26e-2 2.08e+0  1.27   
+    ## 19 log.GDP              2489     0   7.47e+0   1.79e+0  3.60e-2 2.29e+0 -0.196  
+    ## 20 log.percentage.exp…  2489     0   3.92e+0   2.75e+0  5.52e-2 4.59e+0 -0.0746 
+    ## # … with 18 more variables: kurtosis <dbl>, p00 <dbl>, p01 <dbl>, p05 <dbl>,
     ## #   p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>, p50 <dbl>,
     ## #   p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>, p95 <dbl>,
     ## #   p99 <dbl>, p100 <dbl>
@@ -1588,20 +1684,29 @@ skewness can be identified in Population
 normality(train) 
 ```
 
-    ## # A tibble: 23 × 4
-    ##    vars                   statistic  p_value sample
-    ##    <chr>                      <dbl>    <dbl>  <dbl>
-    ##  1 Year                       0.948 7.20e-29   2489
-    ##  2 Life.expectancy            0.956 9.84e-27   2489
-    ##  3 Adult.Mortality            0.916 4.81e-35   2489
-    ##  4 infant.deaths              0.239 2.12e-72   2489
-    ##  5 Alcohol                    0.908 2.33e-36   2489
-    ##  6 percentage.expenditure     0.399 9.65e-68   2489
-    ##  7 Hepatitis.B                0.723 1.44e-53   2489
-    ##  8 Measles                    0.212 4.17e-73   2489
-    ##  9 BMI                        0.926 2.73e-33   2489
-    ## 10 under.five.deaths          0.247 3.40e-72   2489
-    ## # … with 13 more rows
+    ## # A tibble: 20 × 4
+    ##    vars                            statistic  p_value sample
+    ##    <chr>                               <dbl>    <dbl>  <dbl>
+    ##  1 Year                                0.948 7.20e-29   2489
+    ##  2 Life.expectancy                     0.956 9.84e-27   2489
+    ##  3 Adult.Mortality                     0.890 7.28e-39   2489
+    ##  4 infant.deaths                       0.239 2.12e-72   2489
+    ##  5 Alcohol                             0.908 2.33e-36   2489
+    ##  6 Hepatitis.B                         0.723 1.44e-53   2489
+    ##  7 Measles                             0.212 4.17e-73   2489
+    ##  8 BMI                                 0.926 2.73e-33   2489
+    ##  9 under.five.deaths                   0.247 3.40e-72   2489
+    ## 10 Polio                               0.692 2.12e-55   2489
+    ## 11 Total.expenditure                   0.978 3.71e-19   2489
+    ## 12 Diphtheria                          0.690 1.58e-55   2489
+    ## 13 Population                          0.226 9.42e-73   2489
+    ## 14 thinness..1.19.years                0.841 1.64e-44   2489
+    ## 15 thinness.5.9.years                  0.836 5.27e-45   2489
+    ## 16 Income.composition.of.resources     0.916 4.14e-35   2489
+    ## 17 Schooling                           0.980 5.30e-18   2489
+    ## 18 log.HIV.AIDS                        0.712 3.11e-54   2489
+    ## 19 log.GDP                             0.992 1.21e-10   2489
+    ## 20 log.percentage.expenditure          0.940 1.09e-30   2489
 
 ``` r
 #Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
@@ -1614,27 +1719,36 @@ train %>%
   arrange(abs(p_value))
 ```
 
-    ## # A tibble: 23 × 4
-    ##    vars                   statistic  p_value sample
-    ##    <chr>                      <dbl>    <dbl>  <dbl>
-    ##  1 Measles                    0.212 4.17e-73   2489
-    ##  2 Population                 0.226 9.42e-73   2489
-    ##  3 infant.deaths              0.239 2.12e-72   2489
-    ##  4 under.five.deaths          0.247 3.40e-72   2489
-    ##  5 HIV.AIDS                   0.359 5.46e-69   2489
-    ##  6 percentage.expenditure     0.399 9.65e-68   2489
-    ##  7 GDP                        0.543 1.47e-62   2489
-    ##  8 Diphtheria                 0.690 1.58e-55   2489
-    ##  9 Polio                      0.692 2.12e-55   2489
-    ## 10 log.HIV.AIDS               0.712 3.11e-54   2489
-    ## # … with 13 more rows
+    ## # A tibble: 20 × 4
+    ##    vars                            statistic  p_value sample
+    ##    <chr>                               <dbl>    <dbl>  <dbl>
+    ##  1 Measles                             0.212 4.17e-73   2489
+    ##  2 Population                          0.226 9.42e-73   2489
+    ##  3 infant.deaths                       0.239 2.12e-72   2489
+    ##  4 under.five.deaths                   0.247 3.40e-72   2489
+    ##  5 Diphtheria                          0.690 1.58e-55   2489
+    ##  6 Polio                               0.692 2.12e-55   2489
+    ##  7 log.HIV.AIDS                        0.712 3.11e-54   2489
+    ##  8 Hepatitis.B                         0.723 1.44e-53   2489
+    ##  9 thinness.5.9.years                  0.836 5.27e-45   2489
+    ## 10 thinness..1.19.years                0.841 1.64e-44   2489
+    ## 11 Adult.Mortality                     0.890 7.28e-39   2489
+    ## 12 Alcohol                             0.908 2.33e-36   2489
+    ## 13 Income.composition.of.resources     0.916 4.14e-35   2489
+    ## 14 BMI                                 0.926 2.73e-33   2489
+    ## 15 log.percentage.expenditure          0.940 1.09e-30   2489
+    ## 16 Year                                0.948 7.20e-29   2489
+    ## 17 Life.expectancy                     0.956 9.84e-27   2489
+    ## 18 Total.expenditure                   0.978 3.71e-19   2489
+    ## 19 Schooling                           0.980 5.30e-18   2489
+    ## 20 log.GDP                             0.992 1.21e-10   2489
 
 ``` r
 # Verify non normality and transformation options of the variability 
 plot_normality(train)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-1.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-2.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-3.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-4.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-5.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-6.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-7.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-8.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-9.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-10.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-11.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-12.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-13.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-14.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-15.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-16.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-17.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-18.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-19.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-20.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-21.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-22.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-23.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-1.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-2.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-3.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-4.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-5.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-6.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-7.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-8.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-9.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-10.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-11.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-12.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-13.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-14.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-15.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-16.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-17.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-18.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-19.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-20.png)<!-- -->
 
 ## Observations
 
@@ -1682,9 +1796,9 @@ predict.regsubsets =function (object , newdata ,id ,...){
 #                                       Lasso                                       #
 #####################################################################################
 library(glmnet)
-x=model.matrix(Life.expectancy~.,train)[,-1]
+x=model.matrix(Life.expectancy~.,dplyr::select(train, -c(Country)))[,-1]
 y=train$Life.expectancy
-xtest = model.matrix(Life.expectancy~.,test)[,-1]
+xtest = model.matrix(Life.expectancy~.,dplyr::select(test, -c(Country)))[,-1]
 ytest = test$Life.expectancy
 
 grid=10^seq(10,-2, length =100)
@@ -1703,63 +1817,56 @@ testMSE_LASSO<-mean((ytest-lasso.pred)^2)
 testMSE_LASSO
 ```
 
-    ## [1] 9.56
+    ## [1] 5.785
 
 ``` r
 coef(lasso.mod,s=bestlambda)
 ```
 
-    ## 49 x 1 sparse Matrix of class "dgCMatrix"
-    ##                                               s1
-    ## (Intercept)                     -120.14327346318
-    ## Year                               0.08750529491
-    ## StatusDeveloping                  -0.94632375192
-    ## Adult.Mortality                   -0.01112238578
-    ## infant.deaths                      .            
-    ## Alcohol                           -0.03079196830
-    ## percentage.expenditure             0.00004106166
-    ## Hepatitis.B                        0.00000078399
-    ## Measles                           -0.00001786203
-    ## BMI                                0.00616366644
-    ## under.five.deaths                 -0.00334059322
-    ## Polio                              0.02102923336
-    ## Total.expenditure                 -0.01929565325
-    ## Diphtheria                         0.02205563345
-    ## HIV.AIDS                          -0.14729822668
-    ## GDP                                .            
-    ## Population                         0.00000000372
-    ## thinness..1.19.years               .            
-    ## thinness.5.9.years                -0.04223255378
-    ## Income.composition.of.resources    4.34871417174
-    ## Schooling                          0.49399422121
-    ## RegionAustralia and New Zealand    4.19352305715
-    ## RegionCanada                       3.49560169034
-    ## RegionCaribbean                    1.36797908786
-    ## RegionCentral Africa              -0.95436529961
-    ## RegionCentral Asia                -3.36511760547
-    ## RegionCentral Europe               1.80754934977
-    ## RegionEastern Africa               .            
-    ## RegionEastern Europe               .            
-    ## RegionMashriq                      0.18153042423
-    ## RegionMeso-America                 1.85640652781
-    ## RegionNorth Africa                 0.87052427119
-    ## RegionNW Pacific and East Asia     .            
-    ## RegionSouth America                .            
-    ## RegionSouth Asia                  -0.34653278637
-    ## RegionSouth Pacific                .            
-    ## RegionSoutheast Asia               .            
-    ## RegionSouthern Africa             -1.89355097364
-    ## RegionUS                          -0.45974958846
-    ## RegionWestern Africa              -2.73932758290
-    ## RegionWestern Europe               5.06571615217
-    ## RegionWestern Indian Ocean        -0.22048042099
-    ## log.HIV.AIDS                      -1.60288207592
-    ## log.GDP                            0.11070598425
-    ## log.percentage.expenditure         0.12191491203
-    ## ContinentAmericas                  2.49409765176
-    ## ContinentAsia                      1.44743164878
-    ## ContinentEurope                    .            
-    ## ContinentOceania                   .
+    ## 42 x 1 sparse Matrix of class "dgCMatrix"
+    ##                                              s1
+    ## (Intercept)                     -3.401951953113
+    ## Year                             0.037485856200
+    ## StatusDeveloping                -0.522039409402
+    ## Adult.Mortality                 -0.054995178028
+    ## infant.deaths                    .             
+    ## Alcohol                          0.080086273795
+    ## Hepatitis.B                     -0.003115687533
+    ## Measles                         -0.000013760424
+    ## BMI                              0.008097390283
+    ## under.five.deaths               -0.001713115240
+    ## Polio                            0.012506630609
+    ## Total.expenditure                .             
+    ## Diphtheria                       0.015004548822
+    ## Population                       0.000000001205
+    ## thinness..1.19.years             .             
+    ## thinness.5.9.years              -0.026353939908
+    ## Income.composition.of.resources  1.546160287654
+    ## Schooling                        0.363479334512
+    ## RegionAustralia and New Zealand  1.333643265534
+    ## RegionCanada                     2.517041603860
+    ## RegionCaribbean                  1.694647987773
+    ## RegionCentral Africa            -1.487862215079
+    ## RegionCentral Asia              -1.951575427993
+    ## RegionCentral Europe             0.549681721992
+    ## RegionEastern Africa            -0.506402776816
+    ## RegionEastern Europe             0.826832241108
+    ## RegionMashriq                    0.149783824029
+    ## RegionMeso-America               2.352279570552
+    ## RegionNorth Africa              -0.343461677283
+    ## RegionNW Pacific and East Asia   0.583843997706
+    ## RegionSouth America              1.060102946791
+    ## RegionSouth Asia                 0.009680848053
+    ## RegionSouth Pacific             -0.367620696267
+    ## RegionSoutheast Asia             0.326752076442
+    ## RegionSouthern Africa           -0.597508312634
+    ## RegionUS                         0.594495423058
+    ## RegionWestern Africa            -3.408660818045
+    ## RegionWestern Europe             2.049993700242
+    ## RegionWestern Indian Ocean       .             
+    ## log.HIV.AIDS                     .             
+    ## log.GDP                          0.056693232392
+    ## log.percentage.expenditure       0.033068883749
 
 ``` r
 lasso_residuals = (ytest - lasso.pred)
@@ -1781,11 +1888,11 @@ postResample(pred = lasso.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0919   0.8832   2.3310
+    ##   2.4051   0.9293   1.6097
 
 ``` r
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP, data = train)
+fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP + Population, data = train)
 summary(fit.lasso.lm)
 ```
 
@@ -1794,58 +1901,58 @@ summary(fit.lasso.lm)
     ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Alcohol + 
     ##     log.percentage.expenditure + Hepatitis.B + Measles + BMI + 
     ##     under.five.deaths + Polio + Total.expenditure + Diphtheria + 
-    ##     log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + 
-    ##     Schooling + log.GDP, data = train)
+    ##     log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + log.GDP + Population, data = train)
     ## 
     ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -18.869  -2.023  -0.043   1.966  16.346 
+    ##    Min     1Q Median     3Q    Max 
+    ## -13.27  -1.60  -0.32   1.32  11.26 
     ## 
     ## Coefficients:
-    ##                                         Estimate       Std. Error t value
-    ## (Intercept)                     -65.816869664578  34.568489373985   -1.90
-    ## Year                              0.059213650381   0.017286016352    3.43
-    ## Adult.Mortality                  -0.014947631507   0.000785990378  -19.02
-    ## Alcohol                           0.114313628030   0.024244207641    4.72
-    ## log.percentage.expenditure        0.200532992556   0.033167260950    6.05
-    ## Hepatitis.B                      -0.005040358472   0.003759889757   -1.34
-    ## Measles                          -0.000027043682   0.000007612304   -3.55
-    ## BMI                               0.010138195221   0.004828773006    2.10
-    ## under.five.deaths                -0.002844508349   0.000702763055   -4.05
-    ## Polio                             0.016561770548   0.004389774026    3.77
-    ## Total.expenditure                 0.032548163639   0.032382693943    1.01
-    ## Diphtheria                        0.023298365019   0.004729613285    4.93
-    ## log.HIV.AIDS                     -2.409272907985   0.068385919287  -35.23
-    ## Population                        0.000000003919   0.000000000765    5.13
-    ## thinness.5.9.years               -0.092905779016   0.022832000254   -4.07
-    ## Income.composition.of.resources   6.006774382857   0.631112751439    9.52
-    ## Schooling                         0.468967192787   0.043943061997   10.67
-    ## log.GDP                           0.267173823302   0.060277170365    4.43
+    ##                                        Estimate      Std. Error t value
+    ## (Intercept)                     68.422595689040 24.532517269246    2.79
+    ## Year                             0.000553126549  0.012250646708    0.05
+    ## Adult.Mortality                 -0.057622493171  0.001017733807  -56.62
+    ## Alcohol                          0.169800518212  0.017162154499    9.89
+    ## log.percentage.expenditure       0.058697255908  0.023600423318    2.49
+    ## Hepatitis.B                     -0.006796749701  0.002656148911   -2.56
+    ## Measles                         -0.000022290343  0.000005369275   -4.15
+    ## BMI                              0.013735831853  0.003411399966    4.03
+    ## under.five.deaths               -0.002162879653  0.000496443247   -4.36
+    ## Polio                            0.011550014066  0.003101699007    3.72
+    ## Total.expenditure                0.035533999683  0.022874815088    1.55
+    ## Diphtheria                       0.017552642765  0.003342848682    5.25
+    ## log.HIV.AIDS                    -0.103410897551  0.066878314747   -1.55
+    ## thinness.5.9.years              -0.041544541369  0.016154888508   -2.57
+    ## Income.composition.of.resources  2.371116747278  0.451755265105    5.25
+    ## Schooling                        0.411291020655  0.031061799686   13.24
+    ## log.GDP                          0.143103868672  0.042636380275    3.36
+    ## Population                       0.000000002284  0.000000000541    4.22
     ##                                             Pr(>|t|)    
-    ## (Intercept)                                  0.05703 .  
-    ## Year                                         0.00062 ***
+    ## (Intercept)                                   0.0053 ** 
+    ## Year                                          0.9640    
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                 0.0000025504 ***
-    ## log.percentage.expenditure              0.0000000017 ***
-    ## Hepatitis.B                                  0.18019    
-    ## Measles                                      0.00039 ***
-    ## BMI                                          0.03587 *  
-    ## under.five.deaths                       0.0000533344 ***
-    ## Polio                                        0.00017 ***
-    ## Total.expenditure                            0.31494    
-    ## Diphtheria                              0.0000008945 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## Population                              0.0000003188 ***
-    ## thinness.5.9.years                      0.0000486747 ***
-    ## Income.composition.of.resources < 0.0000000000000002 ***
+    ## Alcohol                         < 0.0000000000000002 ***
+    ## log.percentage.expenditure                    0.0129 *  
+    ## Hepatitis.B                                   0.0106 *  
+    ## Measles                                   0.00003416 ***
+    ## BMI                                       0.00005833 ***
+    ## under.five.deaths                         0.00001374 ***
+    ## Polio                                         0.0002 ***
+    ## Total.expenditure                             0.1205    
+    ## Diphtheria                                0.00000016 ***
+    ## log.HIV.AIDS                                  0.1222    
+    ## thinness.5.9.years                            0.0102 *  
+    ## Income.composition.of.resources           0.00000017 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                                 0.0000097249 ***
+    ## log.GDP                                       0.0008 ***
+    ## Population                                0.00002507 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.65 on 2471 degrees of freedom
-    ## Multiple R-squared:  0.857,  Adjusted R-squared:  0.856 
-    ## F-statistic:  868 on 17 and 2471 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.58 on 2471 degrees of freedom
+    ## Multiple R-squared:  0.928,  Adjusted R-squared:  0.928 
+    ## F-statistic: 1.88e+03 on 17 and 2471 DF,  p-value: <0.0000000000000002
 
 ``` r
 ### Visualize VIF
@@ -1878,7 +1985,7 @@ abline(v=10, col="red")
 
 ##### Continent and Region are correlated, dropped Continent for now, because the lasso coef was closer to 0###
 
-fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP, data = train)
+fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP+Population, data = train)
 
 #### Hypothesis testing ####
 summary(fit.lasso.lm3)
@@ -1889,102 +1996,102 @@ summary(fit.lasso.lm3)
     ## lm(formula = Life.expectancy ~ Year + Status + Adult.Mortality + 
     ##     Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + 
     ##     BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + 
-    ##     log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + 
-    ##     Schooling + Region + log.GDP, data = train)
+    ##     log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + Region + log.GDP + Population, data = train)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -22.869  -1.771  -0.131   1.744  13.539 
+    ## -13.104  -1.296  -0.268   1.032   9.430 
     ## 
     ## Coefficients:
-    ##                                          Estimate        Std. Error t value
-    ## (Intercept)                     -158.518141271197   32.256218233928   -4.91
-    ## Year                               0.107192375808    0.016191817726    6.62
-    ## StatusDeveloping                  -0.982396312017    0.316224032880   -3.11
-    ## Adult.Mortality                   -0.011607620459    0.000733370080  -15.83
-    ## Alcohol                           -0.085416957638    0.028166237860   -3.03
-    ## log.percentage.expenditure         0.139464108677    0.031483008520    4.43
-    ## Hepatitis.B                        0.001300631368    0.003500240494    0.37
-    ## Measles                           -0.000018869502    0.000006882617   -2.74
-    ## BMI                                0.004166567053    0.004973746437    0.84
-    ## under.five.deaths                 -0.003230876609    0.000662746115   -4.87
-    ## Polio                              0.020009346889    0.003947823309    5.07
-    ## Total.expenditure                 -0.046788699417    0.032771545941   -1.43
-    ## Diphtheria                         0.021798719709    0.004300703992    5.07
-    ## log.HIV.AIDS                      -1.928057600167    0.100287433983  -19.23
-    ## Population                         0.000000003842    0.000000000767    5.01
-    ## thinness.5.9.years                -0.038372298937    0.028565663934   -1.34
-    ## Income.composition.of.resources    4.462168222963    0.591340160357    7.55
-    ## Schooling                          0.451031129200    0.042270421830   10.67
-    ## RegionAustralia and New Zealand    4.059784446712    0.914320028060    4.44
-    ## RegionCanada                       5.711923573954    1.023759209028    5.58
-    ## RegionCaribbean                    3.312337176041    0.523162904267    6.33
-    ## RegionCentral Africa              -1.776454253756    0.595331457536   -2.98
-    ## RegionCentral Asia                -3.008543156088    0.585485933254   -5.14
-    ## RegionCentral Europe               1.298366208665    0.524247266394    2.48
-    ## RegionEastern Africa              -0.756149823605    0.623967226208   -1.21
-    ## RegionEastern Europe              -0.093339039134    0.583120160348   -0.16
-    ## RegionMashriq                      0.470067651943    0.554696021886    0.85
-    ## RegionMeso-America                 3.615843206096    0.546870369209    6.61
-    ## RegionNorth Africa                -0.227061402146    0.513523490805   -0.44
-    ## RegionNW Pacific and East Asia     0.505237103571    0.632239949647    0.80
-    ## RegionSouth America                1.745711725045    0.522250010747    3.34
-    ## RegionSouth Asia                  -0.309558588540    0.560764248895   -0.55
-    ## RegionSouth Pacific               -1.125515132316    0.546171760555   -2.06
-    ## RegionSoutheast Asia               0.340871540898    0.488903198757    0.70
-    ## RegionSouthern Africa             -3.892959693272    0.675133901725   -5.77
-    ## RegionUS                           1.410211257693    1.138763643111    1.24
-    ## RegionWestern Africa              -3.473772477607    0.563851688343   -6.16
-    ## RegionWestern Europe               4.699230811539    0.557054689372    8.44
-    ## RegionWestern Indian Ocean        -1.380873681729    0.622072961442   -2.22
-    ## log.GDP                            0.120531331302    0.058932618337    2.05
+    ##                                         Estimate       Std. Error t value
+    ## (Intercept)                     -10.408635504422  23.409406213752   -0.44
+    ## Year                              0.040840547666   0.011730641421    3.48
+    ## StatusDeveloping                 -0.503704431631   0.227872062273   -2.21
+    ## Adult.Mortality                  -0.055096169594   0.001048800655  -52.53
+    ## Alcohol                           0.071267849120   0.020541436985    3.47
+    ## log.percentage.expenditure        0.034648411258   0.022760591545    1.52
+    ## Hepatitis.B                      -0.003784339576   0.002522119851   -1.50
+    ## Measles                          -0.000014514661   0.000004948570   -2.93
+    ## BMI                               0.008600247697   0.003581847425    2.40
+    ## under.five.deaths                -0.001906315028   0.000477691611   -3.99
+    ## Polio                             0.013050327456   0.002845558159    4.59
+    ## Total.expenditure                -0.013314635178   0.023601576067   -0.56
+    ## Diphtheria                        0.015526906898   0.003098873569    5.01
+    ## log.HIV.AIDS                      0.061831314508   0.083344864946    0.74
+    ## thinness.5.9.years               -0.021003018709   0.020549969595   -1.02
+    ## Income.composition.of.resources   1.535449812048   0.430095417387    3.57
+    ## Schooling                         0.358345975794   0.030486866000   11.75
+    ## RegionAustralia and New Zealand   2.014548819515   0.659267468344    3.06
+    ## RegionCanada                      3.109464661493   0.738829262820    4.21
+    ## RegionCaribbean                   2.144115100185   0.377363230481    5.68
+    ## RegionCentral Africa             -1.282628019408   0.428670548492   -2.99
+    ## RegionCentral Asia               -1.589966403203   0.421306484774   -3.77
+    ## RegionCentral Europe              1.092180867245   0.377369417957    2.89
+    ## RegionEastern Africa             -0.283677769569   0.448092631596   -0.63
+    ## RegionEastern Europe              1.357070803980   0.420485064509    3.23
+    ## RegionMashriq                     0.608476744021   0.399289997429    1.52
+    ## RegionMeso-America                2.818275058158   0.393636784622    7.16
+    ## RegionNorth Africa               -0.047612827386   0.369317398709   -0.13
+    ## RegionNW Pacific and East Asia    1.085034484763   0.454969929266    2.38
+    ## RegionSouth America               1.549694986698   0.375600479812    4.13
+    ## RegionSouth Asia                  0.435886766858   0.403832526938    1.08
+    ## RegionSouth Pacific               0.005503228775   0.393669897481    0.01
+    ## RegionSoutheast Asia              0.722119639965   0.351835314814    2.05
+    ## RegionSouthern Africa            -0.449122829782   0.490529908915   -0.92
+    ## RegionUS                          1.332805767662   0.819734953162    1.63
+    ## RegionWestern Africa             -3.166267411431   0.405709175308   -7.80
+    ## RegionWestern Europe              2.604189473518   0.403202006221    6.46
+    ## RegionWestern Indian Ocean        0.348694884175   0.448714751480    0.78
+    ## log.GDP                           0.065534995518   0.042387028373    1.55
+    ## Population                        0.000000001341   0.000000000555    2.42
     ##                                             Pr(>|t|)    
-    ## (Intercept)                        0.000000949662338 ***
-    ## Year                               0.000000000043938 ***
-    ## StatusDeveloping                             0.00191 ** 
+    ## (Intercept)                                  0.65662    
+    ## Year                                         0.00051 ***
+    ## StatusDeveloping                             0.02716 *  
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                      0.00245 ** 
-    ## log.percentage.expenditure         0.000009845681775 ***
-    ## Hepatitis.B                                  0.71024    
-    ## Measles                                      0.00616 ** 
-    ## BMI                                          0.40227    
-    ## under.five.deaths                  0.000001157819982 ***
-    ## Polio                              0.000000431026503 ***
-    ## Total.expenditure                            0.15350    
-    ## Diphtheria                         0.000000430602347 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## Population                         0.000000592223096 ***
-    ## thinness.5.9.years                           0.17930    
-    ## Income.composition.of.resources    0.000000000000063 ***
+    ## Alcohol                                      0.00053 ***
+    ## log.percentage.expenditure                   0.12806    
+    ## Hepatitis.B                                  0.13362    
+    ## Measles                                      0.00339 ** 
+    ## BMI                                          0.01642 *  
+    ## under.five.deaths                 0.0000678191154477 ***
+    ## Polio                             0.0000047408282172 ***
+    ## Total.expenditure                            0.57271    
+    ## Diphtheria                        0.0000005816254876 ***
+    ## log.HIV.AIDS                                 0.45824    
+    ## thinness.5.9.years                           0.30686    
+    ## Income.composition.of.resources              0.00036 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## RegionAustralia and New Zealand    0.000009385241543 ***
-    ## RegionCanada                       0.000000026794682 ***
-    ## RegionCaribbean                    0.000000000288111 ***
-    ## RegionCentral Africa                         0.00287 ** 
-    ## RegionCentral Asia                 0.000000298728457 ***
-    ## RegionCentral Europe                         0.01333 *  
-    ## RegionEastern Africa                         0.22569    
-    ## RegionEastern Europe                         0.87284    
-    ## RegionMashriq                                0.39684    
-    ## RegionMeso-America                 0.000000000046420 ***
-    ## RegionNorth Africa                           0.65841    
-    ## RegionNW Pacific and East Asia               0.42430    
-    ## RegionSouth America                          0.00084 ***
-    ## RegionSouth Asia                             0.58098    
-    ## RegionSouth Pacific                          0.03943 *  
-    ## RegionSoutheast Asia                         0.48573    
-    ## RegionSouthern Africa              0.000000009127720 ***
-    ## RegionUS                                     0.21570    
-    ## RegionWestern Africa               0.000000000843629 ***
-    ## RegionWestern Europe            < 0.0000000000000002 ***
-    ## RegionWestern Indian Ocean                   0.02652 *  
-    ## log.GDP                                      0.04094 *  
+    ## RegionAustralia and New Zealand              0.00227 ** 
+    ## RegionCanada                      0.0000266174560567 ***
+    ## RegionCaribbean                   0.0000000149040874 ***
+    ## RegionCentral Africa                         0.00280 ** 
+    ## RegionCentral Asia                           0.00016 ***
+    ## RegionCentral Europe                         0.00383 ** 
+    ## RegionEastern Africa                         0.52674    
+    ## RegionEastern Europe                         0.00127 ** 
+    ## RegionMashriq                                0.12766    
+    ## RegionMeso-America                0.0000000000010652 ***
+    ## RegionNorth Africa                           0.89743    
+    ## RegionNW Pacific and East Asia               0.01716 *  
+    ## RegionSouth America               0.0000381594777841 ***
+    ## RegionSouth Asia                             0.28053    
+    ## RegionSouth Pacific                          0.98885    
+    ## RegionSoutheast Asia                         0.04023 *  
+    ## RegionSouthern Africa                        0.35997    
+    ## RegionUS                                     0.10410    
+    ## RegionWestern Africa              0.0000000000000088 ***
+    ## RegionWestern Europe              0.0000000001268822 ***
+    ## RegionWestern Indian Ocean                   0.43718    
+    ## log.GDP                                      0.12221    
+    ## Population                                   0.01569 *  
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.25 on 2449 degrees of freedom
-    ## Multiple R-squared:  0.887,  Adjusted R-squared:  0.885 
-    ## F-statistic:  493 on 39 and 2449 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.34 on 2449 degrees of freedom
+    ## Multiple R-squared:  0.941,  Adjusted R-squared:  0.941 
+    ## F-statistic: 1.01e+03 on 39 and 2449 DF,  p-value: <0.0000000000000002
 
 ``` r
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
@@ -2000,14 +2107,14 @@ postResample(pred = train_pred, obs = train$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.2282   0.8871   2.3780
+    ##   2.3240   0.9415   1.6428
 
 ``` r
 postResample(pred = test_pred, obs = test$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.1113   0.8824   2.3810
+    ##   2.4010   0.9296   1.6144
 
 ``` r
 sm = summary(fit.lasso.lm3)
@@ -2017,47 +2124,47 @@ mse = mean(sm$residuals^2)
 confint(fit.lasso.lm3)
 ```
 
-    ##                                             2.5 %           97.5 %
-    ## (Intercept)                     -221.770428082547 -95.265854459848
-    ## Year                               0.075441304079   0.138943447536
-    ## StatusDeveloping                  -1.602490492907  -0.362302131127
-    ## Adult.Mortality                   -0.013045710142  -0.010169530777
-    ## Alcohol                           -0.140649066456  -0.030184848821
-    ## log.percentage.expenditure         0.077728034405   0.201200182948
-    ## Hepatitis.B                       -0.005563106161   0.008164368897
-    ## Measles                           -0.000032365854  -0.000005373150
-    ## BMI                               -0.005586617089   0.013919751196
-    ## under.five.deaths                 -0.004530477418  -0.001931275799
-    ## Polio                              0.012267929391   0.027750764387
-    ## Total.expenditure                 -0.111051509399   0.017474110565
-    ## Diphtheria                         0.013365326792   0.030232112626
-    ## log.HIV.AIDS                      -2.124714551452  -1.731400648882
-    ## Population                         0.000000002337   0.000000005346
-    ## thinness.5.9.years                -0.094387655573   0.017643057698
-    ## Income.composition.of.resources    3.302589714574   5.621746731352
-    ## Schooling                          0.368141658840   0.533920599560
-    ## RegionAustralia and New Zealand    2.266864017143   5.852704876281
-    ## RegionCanada                       3.704400229290   7.719446918619
-    ## RegionCaribbean                    2.286449707469   4.338224644614
-    ## RegionCentral Africa              -2.943859428994  -0.609049078519
-    ## RegionCentral Asia                -4.156641916632  -1.860444395545
-    ## RegionCentral Europe               0.270352378478   2.326380038852
-    ## RegionEastern Africa              -1.979707826182   0.467408178972
-    ## RegionEastern Europe              -1.236798677221   1.050120598953
-    ## RegionMashriq                     -0.617654151493   1.557789455379
-    ## RegionMeso-America                 2.543466984216   4.688219427976
-    ## RegionNorth Africa                -1.234046625559   0.779923821268
-    ## RegionNW Pacific and East Asia    -0.734543156428   1.745017363571
-    ## RegionSouth America                0.721614379615   2.769809070475
-    ## RegionSouth Asia                  -1.409179779326   0.790062602245
-    ## RegionSouth Pacific               -2.196521429345  -0.054508835288
-    ## RegionSoutheast Asia              -0.617834936300   1.299578018096
-    ## RegionSouthern Africa             -5.216852124750  -2.569067261795
-    ## RegionUS                          -0.822828091248   3.643250606634
-    ## RegionWestern Africa              -4.579447930677  -2.368097024537
-    ## RegionWestern Europe               3.606883818899   5.791577804178
-    ## RegionWestern Indian Ocean        -2.600717157779  -0.161030205678
-    ## log.GDP                            0.004968407881   0.236094254723
+    ##                                             2.5 %          97.5 %
+    ## (Intercept)                     -56.3129155777194 35.495644568875
+    ## Year                              0.0178375443290  0.063843551003
+    ## StatusDeveloping                 -0.9505463067282 -0.056862556533
+    ## Adult.Mortality                  -0.0571527975401 -0.053039541648
+    ## Alcohol                           0.0309874649088  0.111548233332
+    ## log.percentage.expenditure       -0.0099835866401  0.079280409157
+    ## Hepatitis.B                      -0.0087300479360  0.001161368784
+    ## Measles                          -0.0000242184763 -0.000004810847
+    ## BMI                               0.0015764844328  0.015624010961
+    ## under.five.deaths                -0.0028430363306 -0.000969593725
+    ## Polio                             0.0074703782046  0.018630276707
+    ## Total.expenditure                -0.0595957474823  0.032966477126
+    ## Diphtheria                        0.0094502230675  0.021603590729
+    ## log.HIV.AIDS                     -0.1016023919345  0.225265020951
+    ## thinness.5.9.years               -0.0613001347986  0.019294097380
+    ## Income.composition.of.resources   0.6920614613264  2.378838162770
+    ## Schooling                         0.2985632703863  0.418128681202
+    ## RegionAustralia and New Zealand   0.7217694028243  3.307328236205
+    ## RegionCanada                      1.6606698865576  4.558259436428
+    ## RegionCaribbean                   1.4041310415033  2.884099158867
+    ## RegionCentral Africa             -2.1232222975148 -0.442033741301
+    ## RegionCentral Asia               -2.4161202448334 -0.763812561573
+    ## RegionCentral Europe              0.3521846753378  1.832177059152
+    ## RegionEastern Africa             -1.1623574537845  0.595001914647
+    ## RegionEastern Europe              0.5325277125578  2.181613895402
+    ## RegionMashriq                    -0.1745042382850  1.391457726327
+    ## RegionMeso-America                2.0463796481064  3.590170468210
+    ## RegionNorth Africa               -0.7718195480302  0.676593893258
+    ## RegionNW Pacific and East Asia    0.1928688797387  1.977200089788
+    ## RegionSouth America               0.8131675641939  2.286222409202
+    ## RegionSouth Asia                 -0.3560018120325  1.227775345748
+    ## RegionSouth Pacific              -0.7664571133800  0.777463570930
+    ## RegionSoutheast Asia              0.0321941167196  1.412045163211
+    ## RegionSouthern Africa            -1.4110191768134  0.512773517249
+    ## RegionUS                         -0.2746396554399  2.940251190763
+    ## RegionWestern Africa             -3.9618359722736 -2.370698850589
+    ## RegionWestern Europe              1.8135373035885  3.394841643448
+    ## RegionWestern Indian Ocean       -0.5312047355290  1.228594503879
+    ## log.GDP                          -0.0175831324744  0.148653123510
+    ## Population                        0.0000000002535  0.000000002429
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
@@ -2085,77 +2192,128 @@ plot(fit.lasso.lm3, which = 4)
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-8.png)<!-- -->
 
 ``` r
-#####################################################################################
-#                                  Forward Selection                                #
-#####################################################################################
-library(leaps)
-mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=44)
-```
-
-    ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
-    ## force.in, : 3 linear dependencies found
-
-    ## Reordering variables and trying again:
-
-``` r
-testASE<-c()
-for (i in 1:44){
-  predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
-  testASE[i] = mean((test$Life.expectancy-predictions)^2)
-}
-par(mfrow=c(1,1))
-plot(1:44,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
-index<-which(testASE==min(testASE))
-points(index,testASE[index],col="red",pch=10)
-rss<-summary(mlr.fwd)$rss
-lines(1:45,rss/dim(train)[1],lty=3,col="blue")  
+##### Visualize prediction vs actual
+x_lasso = 1:dim(xtest)[1]
+plot(x_lasso, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (LASSO)", ylab="Life expectancy")
+lines(x_lasso, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-9.png)<!-- -->
 
 ``` r
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=29)
+#####################################################################################
+#                                  Forward Selection                                #
+#####################################################################################
+library(leaps)
+mlr.fwd=regsubsets(Life.expectancy~.,data=dplyr::select(train, -c(Country)),method="forward",nvmax=41)
+testASE<-c()
+for (i in 1:41){
+  predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
+  testASE[i] = mean((test$Life.expectancy-predictions)^2)
+}
+par(mfrow=c(1,1))
+plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+index<-which(testASE==min(testASE))
+points(index,testASE[index],col="red",pch=10)
+rss<-summary(mlr.fwd)$rss
+lines(1:41,rss/dim(train)[1],lty=3,col="blue")  
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-10.png)<!-- -->
+
+``` r
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=41)
 ```
 
     ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
-    ## force.in, : 3 linear dependencies found
+    ## force.in, : 22 linear dependencies found
 
     ## Reordering variables and trying again:
 
 ``` r
-coef(mlr.fwd.final,29)
+coef(mlr.fwd.final,37)
 ```
 
-    ##                     (Intercept)                            Year 
-    ##               -127.908493368914                  0.091274334529 
-    ##                StatusDeveloping                 Adult.Mortality 
-    ##                 -0.930348336007                 -0.010529755464 
-    ##                         Alcohol                         Measles 
-    ##                 -0.052985867888                 -0.000019235711 
-    ##               under.five.deaths                           Polio 
-    ##                 -0.003597935171                  0.021059641698 
-    ##                      Diphtheria                        HIV.AIDS 
-    ##                  0.020544905673                 -0.134491381357 
-    ##                      Population              thinness.5.9.years 
-    ##                  0.000000004138                 -0.075021425467 
-    ## Income.composition.of.resources                       Schooling 
-    ##                  4.404625784218                  0.488791773413 
-    ## RegionAustralia and New Zealand                    RegionCanada 
-    ##                  4.389381627531                  2.417687476177 
-    ##            RegionCentral Africa              RegionCentral Asia 
-    ##                 -0.854655075325                 -3.352281595088 
-    ##            RegionCentral Europe              RegionNorth Africa 
-    ##                  2.133936855638                  1.091403645714 
-    ##             RegionSouth America           RegionSouthern Africa 
-    ##                 -1.662071000598                 -2.080372230434 
-    ##                        RegionUS            RegionWestern Africa 
-    ##                 -2.682942123018                 -2.530676410145 
-    ##            RegionWestern Europe                    log.HIV.AIDS 
-    ##                  5.401462746037                 -1.607077118451 
-    ##                         log.GDP      log.percentage.expenditure 
-    ##                  0.166899529709                  0.119892288665 
-    ##                   ContinentAsia               ContinentAmericas 
-    ##                  1.775117393340                  4.293057384888
+    ##                                  (Intercept) 
+    ##                              53.212470313501 
+    ##                                CountryAngola 
+    ##                              -7.738138000690 
+    ##                              CountryBarbados 
+    ##                               0.061805712659 
+    ##                                CountryBelize 
+    ##                              -0.755858303466 
+    ##                                CountryBhutan 
+    ##                               3.200214877074 
+    ##                               CountryBurundi 
+    ##                              -3.147119009700 
+    ##                              CountryCameroon 
+    ##                              -2.470840084176 
+    ##                                  CountryChad 
+    ##                              -3.741089999057 
+    ## CountryDemocratic People's Republic of Korea 
+    ##                              -5.067570009495 
+    ##      CountryDemocratic Republic of the Congo 
+    ##                              -4.431838504577 
+    ##                     CountryEquatorial Guinea 
+    ##                              -2.116347377659 
+    ##                               CountryEritrea 
+    ##                               1.812432220093 
+    ##                                 CountryHaiti 
+    ##                               0.476038888071 
+    ##                                 CountryJapan 
+    ##                               3.638418381871 
+    ##                              CountryKiribati 
+    ##                              -4.914607260790 
+    ##                                CountryKuwait 
+    ##                              -1.360936626895 
+    ##      CountryLao People's Democratic Republic 
+    ##                              -4.038595026844 
+    ##                                CountryMalawi 
+    ##                              -2.847760931069 
+    ##                      CountryPapua New Guinea 
+    ##                               0.323496236536 
+    ##                     CountryRepublic of Korea 
+    ##                               6.089504513053 
+    ##                             CountrySingapore 
+    ##                               5.011601511203 
+    ##                               CountrySomalia 
+    ##                              -9.564647433683 
+    ##                            CountryTajikistan 
+    ##                              -1.788587078085 
+    ##           CountryUnited Republic of Tanzania 
+    ##                              -0.301034927657 
+    ##                            CountryUzbekistan 
+    ##                              -2.242694449088 
+    ##                              CountryViet Nam 
+    ##                               4.607730922861 
+    ##                              CountryZimbabwe 
+    ##                              -1.411233106242 
+    ##                                infant.deaths 
+    ##                              -0.005631551060 
+    ##                                  Hepatitis.B 
+    ##                               0.001941699412 
+    ##                                   Population 
+    ##                               0.000000003285 
+    ##              Income.composition.of.resources 
+    ##                               8.538178327620 
+    ##                                    Schooling 
+    ##                               0.716026005398 
+    ##                                 log.HIV.AIDS 
+    ##                              -2.992032972166 
+    ##                             StatusDeveloping 
+    ##                              -1.662377254837 
+    ##                         RegionEastern Africa 
+    ##                               1.637970514734 
+    ##                             RegionSouth Asia 
+    ##                              -1.205747235078 
+    ##                         RegionSoutheast Asia 
+    ##                              -1.252685609292 
+    ##                        RegionSouthern Africa 
+    ##                              -1.638965199476
 
 ``` r
 summary(mlr.fwd.final)
@@ -2163,200 +2321,2969 @@ summary(mlr.fwd.final)
 
     ## Subset selection object
     ## Call: regsubsets.formula(Life.expectancy ~ ., data = LifeExp, method = "forward", 
-    ##     nvmax = 29)
-    ## 48 Variables  (and intercept)
-    ##                                 Forced in Forced out
-    ## Year                                FALSE      FALSE
-    ## StatusDeveloping                    FALSE      FALSE
-    ## Adult.Mortality                     FALSE      FALSE
-    ## infant.deaths                       FALSE      FALSE
-    ## Alcohol                             FALSE      FALSE
-    ## percentage.expenditure              FALSE      FALSE
-    ## Hepatitis.B                         FALSE      FALSE
-    ## Measles                             FALSE      FALSE
-    ## BMI                                 FALSE      FALSE
-    ## under.five.deaths                   FALSE      FALSE
-    ## Polio                               FALSE      FALSE
-    ## Total.expenditure                   FALSE      FALSE
-    ## Diphtheria                          FALSE      FALSE
-    ## HIV.AIDS                            FALSE      FALSE
-    ## GDP                                 FALSE      FALSE
-    ## Population                          FALSE      FALSE
-    ## thinness..1.19.years                FALSE      FALSE
-    ## thinness.5.9.years                  FALSE      FALSE
-    ## Income.composition.of.resources     FALSE      FALSE
-    ## Schooling                           FALSE      FALSE
-    ## RegionAustralia and New Zealand     FALSE      FALSE
-    ## RegionCanada                        FALSE      FALSE
-    ## RegionCaribbean                     FALSE      FALSE
-    ## RegionCentral Africa                FALSE      FALSE
-    ## RegionCentral Asia                  FALSE      FALSE
-    ## RegionCentral Europe                FALSE      FALSE
-    ## RegionEastern Africa                FALSE      FALSE
-    ## RegionEastern Europe                FALSE      FALSE
-    ## RegionMashriq                       FALSE      FALSE
-    ## RegionMeso-America                  FALSE      FALSE
-    ## RegionNorth Africa                  FALSE      FALSE
-    ## RegionNW Pacific and East Asia      FALSE      FALSE
-    ## RegionSouth America                 FALSE      FALSE
-    ## RegionSouth Asia                    FALSE      FALSE
-    ## RegionSouth Pacific                 FALSE      FALSE
-    ## RegionSoutheast Asia                FALSE      FALSE
-    ## RegionSouthern Africa               FALSE      FALSE
-    ## RegionUS                            FALSE      FALSE
-    ## RegionWestern Africa                FALSE      FALSE
-    ## RegionWestern Europe                FALSE      FALSE
-    ## RegionWestern Indian Ocean          FALSE      FALSE
-    ## log.HIV.AIDS                        FALSE      FALSE
-    ## log.GDP                             FALSE      FALSE
-    ## log.percentage.expenditure          FALSE      FALSE
-    ## ContinentAsia                       FALSE      FALSE
-    ## ContinentAmericas                   FALSE      FALSE
-    ## ContinentEurope                     FALSE      FALSE
-    ## ContinentOceania                    FALSE      FALSE
-    ## 1 subsets of each size up to 30
+    ##     nvmax = 41)
+    ## 223 Variables  (and intercept)
+    ##                                                             Forced in
+    ## CountryAlbania                                                  FALSE
+    ## CountryAlgeria                                                  FALSE
+    ## CountryAngola                                                   FALSE
+    ## CountryAntigua and Barbuda                                      FALSE
+    ## CountryArgentina                                                FALSE
+    ## CountryArmenia                                                  FALSE
+    ## CountryAustralia                                                FALSE
+    ## CountryAustria                                                  FALSE
+    ## CountryAzerbaijan                                               FALSE
+    ## CountryBahamas                                                  FALSE
+    ## CountryBahrain                                                  FALSE
+    ## CountryBangladesh                                               FALSE
+    ## CountryBarbados                                                 FALSE
+    ## CountryBelarus                                                  FALSE
+    ## CountryBelgium                                                  FALSE
+    ## CountryBelize                                                   FALSE
+    ## CountryBenin                                                    FALSE
+    ## CountryBhutan                                                   FALSE
+    ## CountryBolivia                                                  FALSE
+    ## CountryBosnia and Herzegovina                                   FALSE
+    ## CountryBotswana                                                 FALSE
+    ## CountryBrazil                                                   FALSE
+    ## CountryBrunei Darussalam                                        FALSE
+    ## CountryBulgaria                                                 FALSE
+    ## CountryBurkina Faso                                             FALSE
+    ## CountryBurundi                                                  FALSE
+    ## CountryCabo Verde                                               FALSE
+    ## CountryCambodia                                                 FALSE
+    ## CountryCameroon                                                 FALSE
+    ## CountryCanada                                                   FALSE
+    ## CountryCentral African Republic                                 FALSE
+    ## CountryChad                                                     FALSE
+    ## CountryChile                                                    FALSE
+    ## CountryChina                                                    FALSE
+    ## CountryColombia                                                 FALSE
+    ## CountryComoros                                                  FALSE
+    ## CountryCongo                                                    FALSE
+    ## CountryCosta Rica                                               FALSE
+    ## CountryCroatia                                                  FALSE
+    ## CountryCuba                                                     FALSE
+    ## CountryCyprus                                                   FALSE
+    ## CountryCzechia                                                  FALSE
+    ## CountryDemocratic People's Republic of Korea                    FALSE
+    ## CountryDemocratic Republic of the Congo                         FALSE
+    ## CountryDenmark                                                  FALSE
+    ## CountryDjibouti                                                 FALSE
+    ## CountryDominican Republic                                       FALSE
+    ## CountryEcuador                                                  FALSE
+    ## CountryEgypt                                                    FALSE
+    ## CountryEl Salvador                                              FALSE
+    ## CountryEquatorial Guinea                                        FALSE
+    ## CountryEritrea                                                  FALSE
+    ## CountryEstonia                                                  FALSE
+    ## CountryEthiopia                                                 FALSE
+    ## CountryFiji                                                     FALSE
+    ## CountryFinland                                                  FALSE
+    ## CountryFrance                                                   FALSE
+    ## CountryGabon                                                    FALSE
+    ## CountryGambia                                                   FALSE
+    ## CountryGeorgia                                                  FALSE
+    ## CountryGermany                                                  FALSE
+    ## CountryGhana                                                    FALSE
+    ## CountryGreece                                                   FALSE
+    ## CountryGrenada                                                  FALSE
+    ## CountryGuatemala                                                FALSE
+    ## CountryGuinea                                                   FALSE
+    ## CountryGuinea-Bissau                                            FALSE
+    ## CountryGuyana                                                   FALSE
+    ## CountryHaiti                                                    FALSE
+    ## CountryHonduras                                                 FALSE
+    ## CountryHungary                                                  FALSE
+    ## CountryIceland                                                  FALSE
+    ## CountryIndia                                                    FALSE
+    ## CountryIndonesia                                                FALSE
+    ## CountryIran                                                     FALSE
+    ## CountryIraq                                                     FALSE
+    ## CountryIreland                                                  FALSE
+    ## CountryIsrael                                                   FALSE
+    ## CountryItaly                                                    FALSE
+    ## CountryIvory Coast                                              FALSE
+    ## CountryJamaica                                                  FALSE
+    ## CountryJapan                                                    FALSE
+    ## CountryJordan                                                   FALSE
+    ## CountryKazakhstan                                               FALSE
+    ## CountryKenya                                                    FALSE
+    ## CountryKiribati                                                 FALSE
+    ## CountryKuwait                                                   FALSE
+    ## CountryKyrgyzstan                                               FALSE
+    ## CountryLao People's Democratic Republic                         FALSE
+    ## CountryLatvia                                                   FALSE
+    ## CountryLebanon                                                  FALSE
+    ## CountryLesotho                                                  FALSE
+    ## CountryLiberia                                                  FALSE
+    ## CountryLibya                                                    FALSE
+    ## CountryLithuania                                                FALSE
+    ## CountryLuxembourg                                               FALSE
+    ## CountryMadagascar                                               FALSE
+    ## CountryMalawi                                                   FALSE
+    ## CountryMalaysia                                                 FALSE
+    ## CountryMaldives                                                 FALSE
+    ## CountryMali                                                     FALSE
+    ## CountryMalta                                                    FALSE
+    ## CountryMauritania                                               FALSE
+    ## CountryMauritius                                                FALSE
+    ## CountryMexico                                                   FALSE
+    ## CountryMicronesia (Federated States of)                         FALSE
+    ## CountryMongolia                                                 FALSE
+    ## CountryMontenegro                                               FALSE
+    ## CountryMorocco                                                  FALSE
+    ## CountryMozambique                                               FALSE
+    ## CountryMyanmar                                                  FALSE
+    ## CountryNamibia                                                  FALSE
+    ## CountryNepal                                                    FALSE
+    ## CountryNetherlands                                              FALSE
+    ## CountryNew Zealand                                              FALSE
+    ## CountryNicaragua                                                FALSE
+    ## CountryNiger                                                    FALSE
+    ## CountryNigeria                                                  FALSE
+    ## CountryNorway                                                   FALSE
+    ## CountryOman                                                     FALSE
+    ## CountryPakistan                                                 FALSE
+    ## CountryPanama                                                   FALSE
+    ## CountryPapua New Guinea                                         FALSE
+    ## CountryParaguay                                                 FALSE
+    ## CountryPeru                                                     FALSE
+    ## CountryPhilippines                                              FALSE
+    ## CountryPoland                                                   FALSE
+    ## CountryPortugal                                                 FALSE
+    ## CountryQatar                                                    FALSE
+    ## CountryRepublic of Korea                                        FALSE
+    ## CountryRepublic of Moldova                                      FALSE
+    ## CountryRomania                                                  FALSE
+    ## CountryRussian Federation                                       FALSE
+    ## CountryRwanda                                                   FALSE
+    ## CountrySaint Lucia                                              FALSE
+    ## CountrySaint Vincent and the Grenadines                         FALSE
+    ## CountrySamoa                                                    FALSE
+    ## CountrySao Tome and Principe                                    FALSE
+    ## CountrySaudi Arabia                                             FALSE
+    ## CountrySenegal                                                  FALSE
+    ## CountrySerbia                                                   FALSE
+    ## CountrySeychelles                                               FALSE
+    ## CountrySierra Leone                                             FALSE
+    ## CountrySingapore                                                FALSE
+    ## CountrySlovakia                                                 FALSE
+    ## CountrySlovenia                                                 FALSE
+    ## CountrySolomon Islands                                          FALSE
+    ## CountrySomalia                                                  FALSE
+    ## CountrySouth Africa                                             FALSE
+    ## CountrySouth Sudan                                              FALSE
+    ## CountrySpain                                                    FALSE
+    ## CountrySri Lanka                                                FALSE
+    ## CountrySudan                                                    FALSE
+    ## CountrySuriname                                                 FALSE
+    ## CountrySwaziland                                                FALSE
+    ## CountrySweden                                                   FALSE
+    ## CountrySwitzerland                                              FALSE
+    ## CountrySyrian Arab Republic                                     FALSE
+    ## CountryTajikistan                                               FALSE
+    ## CountryThailand                                                 FALSE
+    ## CountryThe former Yugoslav republic of Macedonia                FALSE
+    ## CountryTimor-Leste                                              FALSE
+    ## CountryTogo                                                     FALSE
+    ## CountryTonga                                                    FALSE
+    ## CountryTrinidad and Tobago                                      FALSE
+    ## CountryTunisia                                                  FALSE
+    ## CountryTurkey                                                   FALSE
+    ## CountryTurkmenistan                                             FALSE
+    ## CountryUganda                                                   FALSE
+    ## CountryUkraine                                                  FALSE
+    ## CountryUnited Arab Emirates                                     FALSE
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland     FALSE
+    ## CountryUnited Republic of Tanzania                              FALSE
+    ## CountryUnited States of America                                 FALSE
+    ## CountryUruguay                                                  FALSE
+    ## CountryUzbekistan                                               FALSE
+    ## CountryVanuatu                                                  FALSE
+    ## CountryVenezuela                                                FALSE
+    ## CountryViet Nam                                                 FALSE
+    ## CountryYemen                                                    FALSE
+    ## CountryZambia                                                   FALSE
+    ## CountryZimbabwe                                                 FALSE
+    ## Year                                                            FALSE
+    ## Adult.Mortality                                                 FALSE
+    ## infant.deaths                                                   FALSE
+    ## Alcohol                                                         FALSE
+    ## Hepatitis.B                                                     FALSE
+    ## Measles                                                         FALSE
+    ## BMI                                                             FALSE
+    ## under.five.deaths                                               FALSE
+    ## Polio                                                           FALSE
+    ## Total.expenditure                                               FALSE
+    ## Diphtheria                                                      FALSE
+    ## Population                                                      FALSE
+    ## thinness..1.19.years                                            FALSE
+    ## thinness.5.9.years                                              FALSE
+    ## Income.composition.of.resources                                 FALSE
+    ## Schooling                                                       FALSE
+    ## log.HIV.AIDS                                                    FALSE
+    ## log.GDP                                                         FALSE
+    ## log.percentage.expenditure                                      FALSE
+    ## StatusDeveloping                                                FALSE
+    ## RegionAustralia and New Zealand                                 FALSE
+    ## RegionCanada                                                    FALSE
+    ## RegionCaribbean                                                 FALSE
+    ## RegionCentral Africa                                            FALSE
+    ## RegionCentral Asia                                              FALSE
+    ## RegionCentral Europe                                            FALSE
+    ## RegionEastern Africa                                            FALSE
+    ## RegionEastern Europe                                            FALSE
+    ## RegionMashriq                                                   FALSE
+    ## RegionMeso-America                                              FALSE
+    ## RegionNorth Africa                                              FALSE
+    ## RegionNW Pacific and East Asia                                  FALSE
+    ## RegionSouth America                                             FALSE
+    ## RegionSouth Asia                                                FALSE
+    ## RegionSouth Pacific                                             FALSE
+    ## RegionSoutheast Asia                                            FALSE
+    ## RegionSouthern Africa                                           FALSE
+    ## RegionUS                                                        FALSE
+    ## RegionWestern Africa                                            FALSE
+    ## RegionWestern Europe                                            FALSE
+    ## RegionWestern Indian Ocean                                      FALSE
+    ##                                                             Forced out
+    ## CountryAlbania                                                   FALSE
+    ## CountryAlgeria                                                   FALSE
+    ## CountryAngola                                                    FALSE
+    ## CountryAntigua and Barbuda                                       FALSE
+    ## CountryArgentina                                                 FALSE
+    ## CountryArmenia                                                   FALSE
+    ## CountryAustralia                                                 FALSE
+    ## CountryAustria                                                   FALSE
+    ## CountryAzerbaijan                                                FALSE
+    ## CountryBahamas                                                   FALSE
+    ## CountryBahrain                                                   FALSE
+    ## CountryBangladesh                                                FALSE
+    ## CountryBarbados                                                  FALSE
+    ## CountryBelarus                                                   FALSE
+    ## CountryBelgium                                                   FALSE
+    ## CountryBelize                                                    FALSE
+    ## CountryBenin                                                     FALSE
+    ## CountryBhutan                                                    FALSE
+    ## CountryBolivia                                                   FALSE
+    ## CountryBosnia and Herzegovina                                    FALSE
+    ## CountryBotswana                                                  FALSE
+    ## CountryBrazil                                                    FALSE
+    ## CountryBrunei Darussalam                                         FALSE
+    ## CountryBulgaria                                                  FALSE
+    ## CountryBurkina Faso                                              FALSE
+    ## CountryBurundi                                                   FALSE
+    ## CountryCabo Verde                                                FALSE
+    ## CountryCambodia                                                  FALSE
+    ## CountryCameroon                                                  FALSE
+    ## CountryCanada                                                    FALSE
+    ## CountryCentral African Republic                                  FALSE
+    ## CountryChad                                                      FALSE
+    ## CountryChile                                                     FALSE
+    ## CountryChina                                                     FALSE
+    ## CountryColombia                                                  FALSE
+    ## CountryComoros                                                   FALSE
+    ## CountryCongo                                                     FALSE
+    ## CountryCosta Rica                                                FALSE
+    ## CountryCroatia                                                   FALSE
+    ## CountryCuba                                                      FALSE
+    ## CountryCyprus                                                    FALSE
+    ## CountryCzechia                                                   FALSE
+    ## CountryDemocratic People's Republic of Korea                     FALSE
+    ## CountryDemocratic Republic of the Congo                          FALSE
+    ## CountryDenmark                                                   FALSE
+    ## CountryDjibouti                                                  FALSE
+    ## CountryDominican Republic                                        FALSE
+    ## CountryEcuador                                                   FALSE
+    ## CountryEgypt                                                     FALSE
+    ## CountryEl Salvador                                               FALSE
+    ## CountryEquatorial Guinea                                         FALSE
+    ## CountryEritrea                                                   FALSE
+    ## CountryEstonia                                                   FALSE
+    ## CountryEthiopia                                                  FALSE
+    ## CountryFiji                                                      FALSE
+    ## CountryFinland                                                   FALSE
+    ## CountryFrance                                                    FALSE
+    ## CountryGabon                                                     FALSE
+    ## CountryGambia                                                    FALSE
+    ## CountryGeorgia                                                   FALSE
+    ## CountryGermany                                                   FALSE
+    ## CountryGhana                                                     FALSE
+    ## CountryGreece                                                    FALSE
+    ## CountryGrenada                                                   FALSE
+    ## CountryGuatemala                                                 FALSE
+    ## CountryGuinea                                                    FALSE
+    ## CountryGuinea-Bissau                                             FALSE
+    ## CountryGuyana                                                    FALSE
+    ## CountryHaiti                                                     FALSE
+    ## CountryHonduras                                                  FALSE
+    ## CountryHungary                                                   FALSE
+    ## CountryIceland                                                   FALSE
+    ## CountryIndia                                                     FALSE
+    ## CountryIndonesia                                                 FALSE
+    ## CountryIran                                                      FALSE
+    ## CountryIraq                                                      FALSE
+    ## CountryIreland                                                   FALSE
+    ## CountryIsrael                                                    FALSE
+    ## CountryItaly                                                     FALSE
+    ## CountryIvory Coast                                               FALSE
+    ## CountryJamaica                                                   FALSE
+    ## CountryJapan                                                     FALSE
+    ## CountryJordan                                                    FALSE
+    ## CountryKazakhstan                                                FALSE
+    ## CountryKenya                                                     FALSE
+    ## CountryKiribati                                                  FALSE
+    ## CountryKuwait                                                    FALSE
+    ## CountryKyrgyzstan                                                FALSE
+    ## CountryLao People's Democratic Republic                          FALSE
+    ## CountryLatvia                                                    FALSE
+    ## CountryLebanon                                                   FALSE
+    ## CountryLesotho                                                   FALSE
+    ## CountryLiberia                                                   FALSE
+    ## CountryLibya                                                     FALSE
+    ## CountryLithuania                                                 FALSE
+    ## CountryLuxembourg                                                FALSE
+    ## CountryMadagascar                                                FALSE
+    ## CountryMalawi                                                    FALSE
+    ## CountryMalaysia                                                  FALSE
+    ## CountryMaldives                                                  FALSE
+    ## CountryMali                                                      FALSE
+    ## CountryMalta                                                     FALSE
+    ## CountryMauritania                                                FALSE
+    ## CountryMauritius                                                 FALSE
+    ## CountryMexico                                                    FALSE
+    ## CountryMicronesia (Federated States of)                          FALSE
+    ## CountryMongolia                                                  FALSE
+    ## CountryMontenegro                                                FALSE
+    ## CountryMorocco                                                   FALSE
+    ## CountryMozambique                                                FALSE
+    ## CountryMyanmar                                                   FALSE
+    ## CountryNamibia                                                   FALSE
+    ## CountryNepal                                                     FALSE
+    ## CountryNetherlands                                               FALSE
+    ## CountryNew Zealand                                               FALSE
+    ## CountryNicaragua                                                 FALSE
+    ## CountryNiger                                                     FALSE
+    ## CountryNigeria                                                   FALSE
+    ## CountryNorway                                                    FALSE
+    ## CountryOman                                                      FALSE
+    ## CountryPakistan                                                  FALSE
+    ## CountryPanama                                                    FALSE
+    ## CountryPapua New Guinea                                          FALSE
+    ## CountryParaguay                                                  FALSE
+    ## CountryPeru                                                      FALSE
+    ## CountryPhilippines                                               FALSE
+    ## CountryPoland                                                    FALSE
+    ## CountryPortugal                                                  FALSE
+    ## CountryQatar                                                     FALSE
+    ## CountryRepublic of Korea                                         FALSE
+    ## CountryRepublic of Moldova                                       FALSE
+    ## CountryRomania                                                   FALSE
+    ## CountryRussian Federation                                        FALSE
+    ## CountryRwanda                                                    FALSE
+    ## CountrySaint Lucia                                               FALSE
+    ## CountrySaint Vincent and the Grenadines                          FALSE
+    ## CountrySamoa                                                     FALSE
+    ## CountrySao Tome and Principe                                     FALSE
+    ## CountrySaudi Arabia                                              FALSE
+    ## CountrySenegal                                                   FALSE
+    ## CountrySerbia                                                    FALSE
+    ## CountrySeychelles                                                FALSE
+    ## CountrySierra Leone                                              FALSE
+    ## CountrySingapore                                                 FALSE
+    ## CountrySlovakia                                                  FALSE
+    ## CountrySlovenia                                                  FALSE
+    ## CountrySolomon Islands                                           FALSE
+    ## CountrySomalia                                                   FALSE
+    ## CountrySouth Africa                                              FALSE
+    ## CountrySouth Sudan                                               FALSE
+    ## CountrySpain                                                     FALSE
+    ## CountrySri Lanka                                                 FALSE
+    ## CountrySudan                                                     FALSE
+    ## CountrySuriname                                                  FALSE
+    ## CountrySwaziland                                                 FALSE
+    ## CountrySweden                                                    FALSE
+    ## CountrySwitzerland                                               FALSE
+    ## CountrySyrian Arab Republic                                      FALSE
+    ## CountryTajikistan                                                FALSE
+    ## CountryThailand                                                  FALSE
+    ## CountryThe former Yugoslav republic of Macedonia                 FALSE
+    ## CountryTimor-Leste                                               FALSE
+    ## CountryTogo                                                      FALSE
+    ## CountryTonga                                                     FALSE
+    ## CountryTrinidad and Tobago                                       FALSE
+    ## CountryTunisia                                                   FALSE
+    ## CountryTurkey                                                    FALSE
+    ## CountryTurkmenistan                                              FALSE
+    ## CountryUganda                                                    FALSE
+    ## CountryUkraine                                                   FALSE
+    ## CountryUnited Arab Emirates                                      FALSE
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland      FALSE
+    ## CountryUnited Republic of Tanzania                               FALSE
+    ## CountryUnited States of America                                  FALSE
+    ## CountryUruguay                                                   FALSE
+    ## CountryUzbekistan                                                FALSE
+    ## CountryVanuatu                                                   FALSE
+    ## CountryVenezuela                                                 FALSE
+    ## CountryViet Nam                                                  FALSE
+    ## CountryYemen                                                     FALSE
+    ## CountryZambia                                                    FALSE
+    ## CountryZimbabwe                                                  FALSE
+    ## Year                                                             FALSE
+    ## Adult.Mortality                                                  FALSE
+    ## infant.deaths                                                    FALSE
+    ## Alcohol                                                          FALSE
+    ## Hepatitis.B                                                      FALSE
+    ## Measles                                                          FALSE
+    ## BMI                                                              FALSE
+    ## under.five.deaths                                                FALSE
+    ## Polio                                                            FALSE
+    ## Total.expenditure                                                FALSE
+    ## Diphtheria                                                       FALSE
+    ## Population                                                       FALSE
+    ## thinness..1.19.years                                             FALSE
+    ## thinness.5.9.years                                               FALSE
+    ## Income.composition.of.resources                                  FALSE
+    ## Schooling                                                        FALSE
+    ## log.HIV.AIDS                                                     FALSE
+    ## log.GDP                                                          FALSE
+    ## log.percentage.expenditure                                       FALSE
+    ## StatusDeveloping                                                 FALSE
+    ## RegionAustralia and New Zealand                                  FALSE
+    ## RegionCanada                                                     FALSE
+    ## RegionCaribbean                                                  FALSE
+    ## RegionCentral Africa                                             FALSE
+    ## RegionCentral Asia                                               FALSE
+    ## RegionCentral Europe                                             FALSE
+    ## RegionEastern Africa                                             FALSE
+    ## RegionEastern Europe                                             FALSE
+    ## RegionMashriq                                                    FALSE
+    ## RegionMeso-America                                               FALSE
+    ## RegionNorth Africa                                               FALSE
+    ## RegionNW Pacific and East Asia                                   FALSE
+    ## RegionSouth America                                              FALSE
+    ## RegionSouth Asia                                                 FALSE
+    ## RegionSouth Pacific                                              FALSE
+    ## RegionSoutheast Asia                                             FALSE
+    ## RegionSouthern Africa                                            FALSE
+    ## RegionUS                                                         FALSE
+    ## RegionWestern Africa                                             FALSE
+    ## RegionWestern Europe                                             FALSE
+    ## RegionWestern Indian Ocean                                       FALSE
+    ## 1 subsets of each size up to 42
     ## Selection Algorithm: forward
-    ##           Year StatusDeveloping Adult.Mortality infant.deaths Alcohol
-    ## 1  ( 1 )  " "  " "              " "             " "           " "    
-    ## 2  ( 1 )  " "  " "              " "             " "           " "    
-    ## 3  ( 1 )  " "  " "              "*"             " "           " "    
-    ## 4  ( 1 )  " "  " "              "*"             " "           " "    
-    ## 5  ( 1 )  " "  " "              "*"             " "           " "    
-    ## 6  ( 1 )  " "  " "              "*"             " "           " "    
-    ## 7  ( 1 )  " "  " "              "*"             " "           " "    
-    ## 8  ( 1 )  " "  " "              "*"             " "           " "    
-    ## 9  ( 1 )  " "  " "              "*"             " "           " "    
-    ## 10  ( 1 ) " "  " "              "*"             " "           " "    
-    ## 11  ( 1 ) " "  " "              "*"             " "           " "    
-    ## 12  ( 1 ) " "  " "              "*"             " "           " "    
-    ## 13  ( 1 ) " "  "*"              "*"             " "           " "    
-    ## 14  ( 1 ) " "  "*"              "*"             " "           " "    
-    ## 15  ( 1 ) " "  "*"              "*"             " "           " "    
-    ## 16  ( 1 ) " "  "*"              "*"             " "           " "    
-    ## 17  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 18  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 19  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 20  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 21  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 22  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 23  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 24  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 25  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 26  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 27  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 28  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 29  ( 1 ) "*"  "*"              "*"             " "           "*"    
-    ## 30  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ##           percentage.expenditure Hepatitis.B Measles BMI under.five.deaths
-    ## 1  ( 1 )  " "                    " "         " "     " " " "              
-    ## 2  ( 1 )  " "                    " "         " "     " " " "              
-    ## 3  ( 1 )  " "                    " "         " "     " " " "              
-    ## 4  ( 1 )  " "                    " "         " "     " " " "              
-    ## 5  ( 1 )  " "                    " "         " "     " " " "              
-    ## 6  ( 1 )  " "                    " "         " "     " " " "              
-    ## 7  ( 1 )  " "                    " "         " "     " " " "              
-    ## 8  ( 1 )  " "                    " "         " "     " " " "              
-    ## 9  ( 1 )  " "                    " "         " "     " " " "              
-    ## 10  ( 1 ) " "                    " "         " "     " " " "              
-    ## 11  ( 1 ) " "                    " "         " "     " " " "              
-    ## 12  ( 1 ) " "                    " "         " "     " " " "              
-    ## 13  ( 1 ) " "                    " "         " "     " " " "              
-    ## 14  ( 1 ) " "                    " "         " "     " " " "              
-    ## 15  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 16  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 17  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 18  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 19  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 20  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 21  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 22  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 23  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 24  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 25  ( 1 ) " "                    " "         "*"     " " "*"              
-    ## 26  ( 1 ) " "                    " "         "*"     " " "*"              
-    ## 27  ( 1 ) " "                    " "         "*"     " " "*"              
-    ## 28  ( 1 ) " "                    " "         "*"     " " "*"              
-    ## 29  ( 1 ) " "                    " "         "*"     " " "*"              
-    ## 30  ( 1 ) " "                    " "         "*"     " " "*"              
-    ##           Polio Total.expenditure Diphtheria HIV.AIDS GDP Population
-    ## 1  ( 1 )  " "   " "               " "        " "      " " " "       
-    ## 2  ( 1 )  " "   " "               " "        " "      " " " "       
-    ## 3  ( 1 )  " "   " "               " "        " "      " " " "       
-    ## 4  ( 1 )  " "   " "               " "        " "      " " " "       
-    ## 5  ( 1 )  " "   " "               " "        " "      " " " "       
-    ## 6  ( 1 )  " "   " "               " "        " "      " " " "       
-    ## 7  ( 1 )  " "   " "               "*"        " "      " " " "       
-    ## 8  ( 1 )  " "   " "               "*"        " "      " " " "       
-    ## 9  ( 1 )  " "   " "               "*"        " "      " " " "       
-    ## 10  ( 1 ) " "   " "               "*"        "*"      " " " "       
-    ## 11  ( 1 ) " "   " "               "*"        "*"      " " " "       
-    ## 12  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 13  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 14  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 15  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 16  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 17  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 18  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 19  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 20  ( 1 ) "*"   " "               "*"        "*"      " " " "       
-    ## 21  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 22  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 23  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 24  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 25  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 26  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 27  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 28  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 29  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ## 30  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
-    ##           thinness..1.19.years thinness.5.9.years
-    ## 1  ( 1 )  " "                  " "               
-    ## 2  ( 1 )  " "                  " "               
-    ## 3  ( 1 )  " "                  " "               
-    ## 4  ( 1 )  " "                  " "               
-    ## 5  ( 1 )  " "                  " "               
-    ## 6  ( 1 )  " "                  " "               
-    ## 7  ( 1 )  " "                  " "               
-    ## 8  ( 1 )  " "                  " "               
-    ## 9  ( 1 )  " "                  " "               
-    ## 10  ( 1 ) " "                  " "               
-    ## 11  ( 1 ) " "                  " "               
-    ## 12  ( 1 ) " "                  " "               
-    ## 13  ( 1 ) " "                  " "               
-    ## 14  ( 1 ) " "                  " "               
-    ## 15  ( 1 ) " "                  " "               
-    ## 16  ( 1 ) " "                  " "               
-    ## 17  ( 1 ) " "                  " "               
-    ## 18  ( 1 ) " "                  " "               
-    ## 19  ( 1 ) " "                  " "               
-    ## 20  ( 1 ) " "                  " "               
-    ## 21  ( 1 ) " "                  " "               
-    ## 22  ( 1 ) " "                  " "               
-    ## 23  ( 1 ) " "                  " "               
-    ## 24  ( 1 ) " "                  "*"               
-    ## 25  ( 1 ) " "                  "*"               
-    ## 26  ( 1 ) " "                  "*"               
-    ## 27  ( 1 ) " "                  "*"               
-    ## 28  ( 1 ) " "                  "*"               
-    ## 29  ( 1 ) " "                  "*"               
-    ## 30  ( 1 ) " "                  "*"               
+    ##           CountryAlbania CountryAlgeria CountryAngola
+    ## 1  ( 1 )  " "            " "            " "          
+    ## 2  ( 1 )  " "            " "            " "          
+    ## 3  ( 1 )  " "            " "            " "          
+    ## 4  ( 1 )  " "            " "            "*"          
+    ## 5  ( 1 )  " "            " "            "*"          
+    ## 6  ( 1 )  " "            " "            "*"          
+    ## 7  ( 1 )  " "            " "            "*"          
+    ## 8  ( 1 )  " "            " "            "*"          
+    ## 9  ( 1 )  " "            " "            "*"          
+    ## 10  ( 1 ) " "            " "            "*"          
+    ## 11  ( 1 ) " "            " "            "*"          
+    ## 12  ( 1 ) " "            " "            "*"          
+    ## 13  ( 1 ) " "            " "            "*"          
+    ## 14  ( 1 ) " "            " "            "*"          
+    ## 15  ( 1 ) " "            " "            "*"          
+    ## 16  ( 1 ) " "            " "            "*"          
+    ## 17  ( 1 ) " "            " "            "*"          
+    ## 18  ( 1 ) " "            " "            "*"          
+    ## 19  ( 1 ) " "            " "            "*"          
+    ## 20  ( 1 ) " "            " "            "*"          
+    ## 21  ( 1 ) " "            " "            "*"          
+    ## 22  ( 1 ) " "            " "            "*"          
+    ## 23  ( 1 ) " "            " "            "*"          
+    ## 24  ( 1 ) " "            " "            "*"          
+    ## 25  ( 1 ) " "            " "            "*"          
+    ## 26  ( 1 ) " "            " "            "*"          
+    ## 27  ( 1 ) " "            " "            "*"          
+    ## 28  ( 1 ) " "            " "            "*"          
+    ## 29  ( 1 ) " "            " "            "*"          
+    ## 30  ( 1 ) " "            " "            "*"          
+    ## 31  ( 1 ) " "            " "            "*"          
+    ## 32  ( 1 ) " "            " "            "*"          
+    ## 33  ( 1 ) " "            " "            "*"          
+    ## 34  ( 1 ) " "            " "            "*"          
+    ## 35  ( 1 ) " "            " "            "*"          
+    ## 36  ( 1 ) " "            " "            "*"          
+    ## 37  ( 1 ) " "            " "            "*"          
+    ## 38  ( 1 ) " "            " "            "*"          
+    ## 39  ( 1 ) " "            " "            "*"          
+    ## 40  ( 1 ) " "            " "            "*"          
+    ## 41  ( 1 ) " "            " "            "*"          
+    ## 42  ( 1 ) " "            " "            "*"          
+    ##           CountryAntigua and Barbuda CountryArgentina CountryArmenia
+    ## 1  ( 1 )  " "                        " "              " "           
+    ## 2  ( 1 )  " "                        " "              " "           
+    ## 3  ( 1 )  " "                        " "              " "           
+    ## 4  ( 1 )  " "                        " "              " "           
+    ## 5  ( 1 )  " "                        " "              " "           
+    ## 6  ( 1 )  " "                        " "              " "           
+    ## 7  ( 1 )  " "                        " "              " "           
+    ## 8  ( 1 )  " "                        " "              " "           
+    ## 9  ( 1 )  " "                        " "              " "           
+    ## 10  ( 1 ) " "                        " "              " "           
+    ## 11  ( 1 ) " "                        " "              " "           
+    ## 12  ( 1 ) " "                        " "              " "           
+    ## 13  ( 1 ) " "                        " "              " "           
+    ## 14  ( 1 ) " "                        " "              " "           
+    ## 15  ( 1 ) " "                        " "              " "           
+    ## 16  ( 1 ) " "                        " "              " "           
+    ## 17  ( 1 ) " "                        " "              " "           
+    ## 18  ( 1 ) " "                        " "              " "           
+    ## 19  ( 1 ) " "                        " "              " "           
+    ## 20  ( 1 ) " "                        " "              " "           
+    ## 21  ( 1 ) " "                        " "              " "           
+    ## 22  ( 1 ) " "                        " "              " "           
+    ## 23  ( 1 ) " "                        " "              " "           
+    ## 24  ( 1 ) " "                        " "              " "           
+    ## 25  ( 1 ) " "                        " "              " "           
+    ## 26  ( 1 ) " "                        " "              " "           
+    ## 27  ( 1 ) " "                        " "              " "           
+    ## 28  ( 1 ) " "                        " "              " "           
+    ## 29  ( 1 ) " "                        " "              " "           
+    ## 30  ( 1 ) " "                        " "              " "           
+    ## 31  ( 1 ) " "                        " "              " "           
+    ## 32  ( 1 ) " "                        " "              " "           
+    ## 33  ( 1 ) " "                        " "              " "           
+    ## 34  ( 1 ) " "                        " "              " "           
+    ## 35  ( 1 ) " "                        " "              " "           
+    ## 36  ( 1 ) " "                        " "              " "           
+    ## 37  ( 1 ) " "                        " "              " "           
+    ## 38  ( 1 ) " "                        " "              " "           
+    ## 39  ( 1 ) " "                        " "              " "           
+    ## 40  ( 1 ) " "                        " "              " "           
+    ## 41  ( 1 ) " "                        " "              " "           
+    ## 42  ( 1 ) " "                        " "              " "           
+    ##           CountryAustralia CountryAustria CountryAzerbaijan CountryBahamas
+    ## 1  ( 1 )  " "              " "            " "               " "           
+    ## 2  ( 1 )  " "              " "            " "               " "           
+    ## 3  ( 1 )  " "              " "            " "               " "           
+    ## 4  ( 1 )  " "              " "            " "               " "           
+    ## 5  ( 1 )  " "              " "            " "               " "           
+    ## 6  ( 1 )  " "              " "            " "               " "           
+    ## 7  ( 1 )  " "              " "            " "               " "           
+    ## 8  ( 1 )  " "              " "            " "               " "           
+    ## 9  ( 1 )  " "              " "            " "               " "           
+    ## 10  ( 1 ) " "              " "            " "               " "           
+    ## 11  ( 1 ) " "              " "            " "               " "           
+    ## 12  ( 1 ) " "              " "            " "               " "           
+    ## 13  ( 1 ) " "              " "            " "               " "           
+    ## 14  ( 1 ) " "              " "            " "               " "           
+    ## 15  ( 1 ) " "              " "            " "               " "           
+    ## 16  ( 1 ) " "              " "            " "               " "           
+    ## 17  ( 1 ) " "              " "            " "               " "           
+    ## 18  ( 1 ) " "              " "            " "               " "           
+    ## 19  ( 1 ) " "              " "            " "               " "           
+    ## 20  ( 1 ) " "              " "            " "               " "           
+    ## 21  ( 1 ) " "              " "            " "               " "           
+    ## 22  ( 1 ) " "              " "            " "               " "           
+    ## 23  ( 1 ) " "              " "            " "               " "           
+    ## 24  ( 1 ) " "              " "            " "               " "           
+    ## 25  ( 1 ) " "              " "            " "               " "           
+    ## 26  ( 1 ) " "              " "            " "               " "           
+    ## 27  ( 1 ) " "              " "            " "               " "           
+    ## 28  ( 1 ) " "              " "            " "               " "           
+    ## 29  ( 1 ) " "              " "            " "               " "           
+    ## 30  ( 1 ) " "              " "            " "               " "           
+    ## 31  ( 1 ) " "              " "            " "               " "           
+    ## 32  ( 1 ) " "              " "            " "               " "           
+    ## 33  ( 1 ) " "              " "            " "               " "           
+    ## 34  ( 1 ) " "              " "            " "               " "           
+    ## 35  ( 1 ) " "              " "            " "               " "           
+    ## 36  ( 1 ) " "              " "            " "               " "           
+    ## 37  ( 1 ) " "              " "            " "               " "           
+    ## 38  ( 1 ) " "              " "            " "               " "           
+    ## 39  ( 1 ) " "              " "            " "               " "           
+    ## 40  ( 1 ) " "              " "            " "               " "           
+    ## 41  ( 1 ) " "              " "            " "               " "           
+    ## 42  ( 1 ) " "              " "            " "               " "           
+    ##           CountryBahrain CountryBangladesh CountryBarbados CountryBelarus
+    ## 1  ( 1 )  " "            " "               " "             " "           
+    ## 2  ( 1 )  " "            " "               " "             " "           
+    ## 3  ( 1 )  " "            " "               " "             " "           
+    ## 4  ( 1 )  " "            " "               " "             " "           
+    ## 5  ( 1 )  " "            " "               " "             " "           
+    ## 6  ( 1 )  " "            " "               " "             " "           
+    ## 7  ( 1 )  " "            " "               " "             " "           
+    ## 8  ( 1 )  " "            " "               " "             " "           
+    ## 9  ( 1 )  " "            " "               " "             " "           
+    ## 10  ( 1 ) " "            " "               " "             " "           
+    ## 11  ( 1 ) " "            " "               " "             " "           
+    ## 12  ( 1 ) " "            " "               " "             " "           
+    ## 13  ( 1 ) " "            " "               " "             " "           
+    ## 14  ( 1 ) " "            " "               " "             " "           
+    ## 15  ( 1 ) " "            " "               " "             " "           
+    ## 16  ( 1 ) " "            " "               " "             " "           
+    ## 17  ( 1 ) " "            " "               " "             " "           
+    ## 18  ( 1 ) " "            " "               " "             " "           
+    ## 19  ( 1 ) " "            " "               "*"             " "           
+    ## 20  ( 1 ) " "            " "               "*"             " "           
+    ## 21  ( 1 ) " "            " "               "*"             " "           
+    ## 22  ( 1 ) " "            " "               "*"             " "           
+    ## 23  ( 1 ) " "            " "               "*"             " "           
+    ## 24  ( 1 ) " "            " "               "*"             " "           
+    ## 25  ( 1 ) " "            " "               "*"             " "           
+    ## 26  ( 1 ) " "            " "               "*"             " "           
+    ## 27  ( 1 ) " "            " "               "*"             " "           
+    ## 28  ( 1 ) " "            " "               "*"             " "           
+    ## 29  ( 1 ) " "            " "               "*"             " "           
+    ## 30  ( 1 ) " "            " "               "*"             " "           
+    ## 31  ( 1 ) " "            " "               "*"             " "           
+    ## 32  ( 1 ) " "            " "               "*"             " "           
+    ## 33  ( 1 ) " "            " "               "*"             " "           
+    ## 34  ( 1 ) " "            " "               "*"             " "           
+    ## 35  ( 1 ) " "            " "               "*"             " "           
+    ## 36  ( 1 ) " "            " "               "*"             " "           
+    ## 37  ( 1 ) " "            " "               "*"             " "           
+    ## 38  ( 1 ) " "            " "               "*"             " "           
+    ## 39  ( 1 ) " "            " "               "*"             " "           
+    ## 40  ( 1 ) " "            " "               "*"             " "           
+    ## 41  ( 1 ) " "            " "               "*"             " "           
+    ## 42  ( 1 ) " "            " "               "*"             " "           
+    ##           CountryBelgium CountryBelize CountryBenin CountryBhutan
+    ## 1  ( 1 )  " "            " "           " "          " "          
+    ## 2  ( 1 )  " "            " "           " "          " "          
+    ## 3  ( 1 )  " "            " "           " "          " "          
+    ## 4  ( 1 )  " "            " "           " "          " "          
+    ## 5  ( 1 )  " "            " "           " "          " "          
+    ## 6  ( 1 )  " "            " "           " "          " "          
+    ## 7  ( 1 )  " "            " "           " "          " "          
+    ## 8  ( 1 )  " "            " "           " "          " "          
+    ## 9  ( 1 )  " "            " "           " "          " "          
+    ## 10  ( 1 ) " "            " "           " "          " "          
+    ## 11  ( 1 ) " "            " "           " "          " "          
+    ## 12  ( 1 ) " "            " "           " "          " "          
+    ## 13  ( 1 ) " "            " "           " "          " "          
+    ## 14  ( 1 ) " "            " "           " "          " "          
+    ## 15  ( 1 ) " "            " "           " "          " "          
+    ## 16  ( 1 ) " "            " "           " "          " "          
+    ## 17  ( 1 ) " "            " "           " "          " "          
+    ## 18  ( 1 ) " "            " "           " "          "*"          
+    ## 19  ( 1 ) " "            " "           " "          "*"          
+    ## 20  ( 1 ) " "            "*"           " "          "*"          
+    ## 21  ( 1 ) " "            "*"           " "          "*"          
+    ## 22  ( 1 ) " "            "*"           " "          "*"          
+    ## 23  ( 1 ) " "            "*"           " "          "*"          
+    ## 24  ( 1 ) " "            "*"           " "          "*"          
+    ## 25  ( 1 ) " "            "*"           " "          "*"          
+    ## 26  ( 1 ) " "            "*"           " "          "*"          
+    ## 27  ( 1 ) " "            "*"           " "          "*"          
+    ## 28  ( 1 ) " "            "*"           " "          "*"          
+    ## 29  ( 1 ) " "            "*"           " "          "*"          
+    ## 30  ( 1 ) " "            "*"           " "          "*"          
+    ## 31  ( 1 ) " "            "*"           " "          "*"          
+    ## 32  ( 1 ) " "            "*"           " "          "*"          
+    ## 33  ( 1 ) " "            "*"           " "          "*"          
+    ## 34  ( 1 ) " "            "*"           " "          "*"          
+    ## 35  ( 1 ) " "            "*"           " "          "*"          
+    ## 36  ( 1 ) " "            "*"           " "          "*"          
+    ## 37  ( 1 ) " "            "*"           " "          "*"          
+    ## 38  ( 1 ) " "            "*"           " "          "*"          
+    ## 39  ( 1 ) " "            "*"           " "          "*"          
+    ## 40  ( 1 ) " "            "*"           " "          "*"          
+    ## 41  ( 1 ) " "            "*"           " "          "*"          
+    ## 42  ( 1 ) " "            "*"           " "          "*"          
+    ##           CountryBolivia CountryBosnia and Herzegovina CountryBotswana
+    ## 1  ( 1 )  " "            " "                           " "            
+    ## 2  ( 1 )  " "            " "                           " "            
+    ## 3  ( 1 )  " "            " "                           " "            
+    ## 4  ( 1 )  " "            " "                           " "            
+    ## 5  ( 1 )  " "            " "                           " "            
+    ## 6  ( 1 )  " "            " "                           " "            
+    ## 7  ( 1 )  " "            " "                           " "            
+    ## 8  ( 1 )  " "            " "                           " "            
+    ## 9  ( 1 )  " "            " "                           " "            
+    ## 10  ( 1 ) " "            " "                           " "            
+    ## 11  ( 1 ) " "            " "                           " "            
+    ## 12  ( 1 ) " "            " "                           " "            
+    ## 13  ( 1 ) " "            " "                           " "            
+    ## 14  ( 1 ) " "            " "                           " "            
+    ## 15  ( 1 ) " "            " "                           " "            
+    ## 16  ( 1 ) " "            " "                           " "            
+    ## 17  ( 1 ) " "            " "                           " "            
+    ## 18  ( 1 ) " "            " "                           " "            
+    ## 19  ( 1 ) " "            " "                           " "            
+    ## 20  ( 1 ) " "            " "                           " "            
+    ## 21  ( 1 ) " "            " "                           " "            
+    ## 22  ( 1 ) " "            " "                           " "            
+    ## 23  ( 1 ) " "            " "                           " "            
+    ## 24  ( 1 ) " "            " "                           " "            
+    ## 25  ( 1 ) " "            " "                           " "            
+    ## 26  ( 1 ) " "            " "                           " "            
+    ## 27  ( 1 ) " "            " "                           " "            
+    ## 28  ( 1 ) " "            " "                           " "            
+    ## 29  ( 1 ) " "            " "                           " "            
+    ## 30  ( 1 ) " "            " "                           " "            
+    ## 31  ( 1 ) " "            " "                           " "            
+    ## 32  ( 1 ) " "            " "                           " "            
+    ## 33  ( 1 ) " "            " "                           " "            
+    ## 34  ( 1 ) " "            " "                           " "            
+    ## 35  ( 1 ) " "            " "                           " "            
+    ## 36  ( 1 ) " "            " "                           " "            
+    ## 37  ( 1 ) " "            " "                           " "            
+    ## 38  ( 1 ) " "            " "                           " "            
+    ## 39  ( 1 ) " "            " "                           " "            
+    ## 40  ( 1 ) " "            " "                           " "            
+    ## 41  ( 1 ) " "            " "                           " "            
+    ## 42  ( 1 ) " "            " "                           " "            
+    ##           CountryBrazil CountryBrunei Darussalam CountryBulgaria
+    ## 1  ( 1 )  " "           " "                      " "            
+    ## 2  ( 1 )  " "           " "                      " "            
+    ## 3  ( 1 )  " "           " "                      " "            
+    ## 4  ( 1 )  " "           " "                      " "            
+    ## 5  ( 1 )  " "           " "                      " "            
+    ## 6  ( 1 )  " "           " "                      " "            
+    ## 7  ( 1 )  " "           " "                      " "            
+    ## 8  ( 1 )  " "           " "                      " "            
+    ## 9  ( 1 )  " "           " "                      " "            
+    ## 10  ( 1 ) " "           " "                      " "            
+    ## 11  ( 1 ) " "           " "                      " "            
+    ## 12  ( 1 ) " "           " "                      " "            
+    ## 13  ( 1 ) " "           " "                      " "            
+    ## 14  ( 1 ) " "           " "                      " "            
+    ## 15  ( 1 ) " "           " "                      " "            
+    ## 16  ( 1 ) " "           " "                      " "            
+    ## 17  ( 1 ) " "           " "                      " "            
+    ## 18  ( 1 ) " "           " "                      " "            
+    ## 19  ( 1 ) " "           " "                      " "            
+    ## 20  ( 1 ) " "           " "                      " "            
+    ## 21  ( 1 ) " "           " "                      " "            
+    ## 22  ( 1 ) " "           " "                      " "            
+    ## 23  ( 1 ) " "           " "                      " "            
+    ## 24  ( 1 ) " "           " "                      " "            
+    ## 25  ( 1 ) " "           " "                      " "            
+    ## 26  ( 1 ) " "           " "                      " "            
+    ## 27  ( 1 ) " "           " "                      " "            
+    ## 28  ( 1 ) " "           " "                      " "            
+    ## 29  ( 1 ) " "           " "                      " "            
+    ## 30  ( 1 ) " "           " "                      " "            
+    ## 31  ( 1 ) " "           " "                      " "            
+    ## 32  ( 1 ) " "           " "                      " "            
+    ## 33  ( 1 ) " "           " "                      " "            
+    ## 34  ( 1 ) " "           " "                      " "            
+    ## 35  ( 1 ) " "           " "                      " "            
+    ## 36  ( 1 ) " "           " "                      " "            
+    ## 37  ( 1 ) " "           " "                      " "            
+    ## 38  ( 1 ) " "           " "                      " "            
+    ## 39  ( 1 ) " "           " "                      " "            
+    ## 40  ( 1 ) " "           " "                      " "            
+    ## 41  ( 1 ) " "           " "                      " "            
+    ## 42  ( 1 ) " "           " "                      " "            
+    ##           CountryBurkina Faso CountryBurundi CountryCabo Verde CountryCambodia
+    ## 1  ( 1 )  " "                 " "            " "               " "            
+    ## 2  ( 1 )  " "                 " "            " "               " "            
+    ## 3  ( 1 )  " "                 " "            " "               " "            
+    ## 4  ( 1 )  " "                 " "            " "               " "            
+    ## 5  ( 1 )  " "                 " "            " "               " "            
+    ## 6  ( 1 )  " "                 " "            " "               " "            
+    ## 7  ( 1 )  " "                 " "            " "               " "            
+    ## 8  ( 1 )  " "                 " "            " "               " "            
+    ## 9  ( 1 )  " "                 " "            " "               " "            
+    ## 10  ( 1 ) " "                 " "            " "               " "            
+    ## 11  ( 1 ) " "                 " "            " "               " "            
+    ## 12  ( 1 ) " "                 " "            " "               " "            
+    ## 13  ( 1 ) " "                 " "            " "               " "            
+    ## 14  ( 1 ) " "                 " "            " "               " "            
+    ## 15  ( 1 ) " "                 " "            " "               " "            
+    ## 16  ( 1 ) " "                 " "            " "               " "            
+    ## 17  ( 1 ) " "                 " "            " "               " "            
+    ## 18  ( 1 ) " "                 " "            " "               " "            
+    ## 19  ( 1 ) " "                 " "            " "               " "            
+    ## 20  ( 1 ) " "                 " "            " "               " "            
+    ## 21  ( 1 ) " "                 " "            " "               " "            
+    ## 22  ( 1 ) " "                 " "            " "               " "            
+    ## 23  ( 1 ) " "                 " "            " "               " "            
+    ## 24  ( 1 ) " "                 " "            " "               " "            
+    ## 25  ( 1 ) " "                 " "            " "               " "            
+    ## 26  ( 1 ) " "                 " "            " "               " "            
+    ## 27  ( 1 ) " "                 " "            " "               " "            
+    ## 28  ( 1 ) " "                 " "            " "               " "            
+    ## 29  ( 1 ) " "                 " "            " "               " "            
+    ## 30  ( 1 ) " "                 " "            " "               " "            
+    ## 31  ( 1 ) " "                 " "            " "               " "            
+    ## 32  ( 1 ) " "                 " "            " "               " "            
+    ## 33  ( 1 ) " "                 " "            " "               " "            
+    ## 34  ( 1 ) " "                 " "            " "               " "            
+    ## 35  ( 1 ) " "                 " "            " "               " "            
+    ## 36  ( 1 ) " "                 "*"            " "               " "            
+    ## 37  ( 1 ) " "                 "*"            " "               " "            
+    ## 38  ( 1 ) " "                 "*"            " "               " "            
+    ## 39  ( 1 ) " "                 "*"            " "               " "            
+    ## 40  ( 1 ) " "                 "*"            " "               " "            
+    ## 41  ( 1 ) " "                 "*"            " "               " "            
+    ## 42  ( 1 ) " "                 "*"            " "               " "            
+    ##           CountryCameroon CountryCanada CountryCentral African Republic
+    ## 1  ( 1 )  " "             " "           " "                            
+    ## 2  ( 1 )  " "             " "           " "                            
+    ## 3  ( 1 )  " "             " "           " "                            
+    ## 4  ( 1 )  " "             " "           " "                            
+    ## 5  ( 1 )  " "             " "           " "                            
+    ## 6  ( 1 )  " "             " "           " "                            
+    ## 7  ( 1 )  " "             " "           " "                            
+    ## 8  ( 1 )  " "             " "           " "                            
+    ## 9  ( 1 )  " "             " "           " "                            
+    ## 10  ( 1 ) " "             " "           " "                            
+    ## 11  ( 1 ) " "             " "           " "                            
+    ## 12  ( 1 ) " "             " "           " "                            
+    ## 13  ( 1 ) " "             " "           " "                            
+    ## 14  ( 1 ) " "             " "           " "                            
+    ## 15  ( 1 ) " "             " "           " "                            
+    ## 16  ( 1 ) " "             " "           " "                            
+    ## 17  ( 1 ) " "             " "           " "                            
+    ## 18  ( 1 ) " "             " "           " "                            
+    ## 19  ( 1 ) " "             " "           " "                            
+    ## 20  ( 1 ) " "             " "           " "                            
+    ## 21  ( 1 ) " "             " "           " "                            
+    ## 22  ( 1 ) " "             " "           " "                            
+    ## 23  ( 1 ) " "             " "           " "                            
+    ## 24  ( 1 ) " "             " "           " "                            
+    ## 25  ( 1 ) " "             " "           " "                            
+    ## 26  ( 1 ) " "             " "           " "                            
+    ## 27  ( 1 ) " "             " "           " "                            
+    ## 28  ( 1 ) " "             " "           " "                            
+    ## 29  ( 1 ) " "             " "           " "                            
+    ## 30  ( 1 ) " "             " "           " "                            
+    ## 31  ( 1 ) " "             " "           " "                            
+    ## 32  ( 1 ) " "             " "           " "                            
+    ## 33  ( 1 ) " "             " "           " "                            
+    ## 34  ( 1 ) " "             " "           " "                            
+    ## 35  ( 1 ) "*"             " "           " "                            
+    ## 36  ( 1 ) "*"             " "           " "                            
+    ## 37  ( 1 ) "*"             " "           " "                            
+    ## 38  ( 1 ) "*"             " "           " "                            
+    ## 39  ( 1 ) "*"             " "           " "                            
+    ## 40  ( 1 ) "*"             " "           " "                            
+    ## 41  ( 1 ) "*"             " "           " "                            
+    ## 42  ( 1 ) "*"             " "           " "                            
+    ##           CountryChad CountryChile CountryChina CountryColombia CountryComoros
+    ## 1  ( 1 )  " "         " "          " "          " "             " "           
+    ## 2  ( 1 )  " "         " "          " "          " "             " "           
+    ## 3  ( 1 )  " "         " "          " "          " "             " "           
+    ## 4  ( 1 )  " "         " "          " "          " "             " "           
+    ## 5  ( 1 )  " "         " "          " "          " "             " "           
+    ## 6  ( 1 )  " "         " "          " "          " "             " "           
+    ## 7  ( 1 )  " "         " "          " "          " "             " "           
+    ## 8  ( 1 )  " "         " "          " "          " "             " "           
+    ## 9  ( 1 )  " "         " "          " "          " "             " "           
+    ## 10  ( 1 ) " "         " "          " "          " "             " "           
+    ## 11  ( 1 ) " "         " "          " "          " "             " "           
+    ## 12  ( 1 ) " "         " "          " "          " "             " "           
+    ## 13  ( 1 ) " "         " "          " "          " "             " "           
+    ## 14  ( 1 ) " "         " "          " "          " "             " "           
+    ## 15  ( 1 ) " "         " "          " "          " "             " "           
+    ## 16  ( 1 ) " "         " "          " "          " "             " "           
+    ## 17  ( 1 ) " "         " "          " "          " "             " "           
+    ## 18  ( 1 ) " "         " "          " "          " "             " "           
+    ## 19  ( 1 ) " "         " "          " "          " "             " "           
+    ## 20  ( 1 ) " "         " "          " "          " "             " "           
+    ## 21  ( 1 ) " "         " "          " "          " "             " "           
+    ## 22  ( 1 ) " "         " "          " "          " "             " "           
+    ## 23  ( 1 ) " "         " "          " "          " "             " "           
+    ## 24  ( 1 ) " "         " "          " "          " "             " "           
+    ## 25  ( 1 ) " "         " "          " "          " "             " "           
+    ## 26  ( 1 ) " "         " "          " "          " "             " "           
+    ## 27  ( 1 ) " "         " "          " "          " "             " "           
+    ## 28  ( 1 ) " "         " "          " "          " "             " "           
+    ## 29  ( 1 ) " "         " "          " "          " "             " "           
+    ## 30  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 31  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 32  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 33  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 34  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 35  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 36  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 37  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 38  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 39  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 40  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 41  ( 1 ) "*"         " "          " "          " "             " "           
+    ## 42  ( 1 ) "*"         " "          " "          " "             " "           
+    ##           CountryCongo CountryCosta Rica CountryCroatia CountryCuba
+    ## 1  ( 1 )  " "          " "               " "            " "        
+    ## 2  ( 1 )  " "          " "               " "            " "        
+    ## 3  ( 1 )  " "          " "               " "            " "        
+    ## 4  ( 1 )  " "          " "               " "            " "        
+    ## 5  ( 1 )  " "          " "               " "            " "        
+    ## 6  ( 1 )  " "          " "               " "            " "        
+    ## 7  ( 1 )  " "          " "               " "            " "        
+    ## 8  ( 1 )  " "          " "               " "            " "        
+    ## 9  ( 1 )  " "          " "               " "            " "        
+    ## 10  ( 1 ) " "          " "               " "            " "        
+    ## 11  ( 1 ) " "          " "               " "            " "        
+    ## 12  ( 1 ) " "          " "               " "            " "        
+    ## 13  ( 1 ) " "          " "               " "            " "        
+    ## 14  ( 1 ) " "          " "               " "            " "        
+    ## 15  ( 1 ) " "          " "               " "            " "        
+    ## 16  ( 1 ) " "          " "               " "            " "        
+    ## 17  ( 1 ) " "          " "               " "            " "        
+    ## 18  ( 1 ) " "          " "               " "            " "        
+    ## 19  ( 1 ) " "          " "               " "            " "        
+    ## 20  ( 1 ) " "          " "               " "            " "        
+    ## 21  ( 1 ) " "          " "               " "            " "        
+    ## 22  ( 1 ) " "          " "               " "            " "        
+    ## 23  ( 1 ) " "          " "               " "            " "        
+    ## 24  ( 1 ) " "          " "               " "            " "        
+    ## 25  ( 1 ) " "          " "               " "            " "        
+    ## 26  ( 1 ) " "          " "               " "            " "        
+    ## 27  ( 1 ) " "          " "               " "            " "        
+    ## 28  ( 1 ) " "          " "               " "            " "        
+    ## 29  ( 1 ) " "          " "               " "            " "        
+    ## 30  ( 1 ) " "          " "               " "            " "        
+    ## 31  ( 1 ) " "          " "               " "            " "        
+    ## 32  ( 1 ) " "          " "               " "            " "        
+    ## 33  ( 1 ) " "          " "               " "            " "        
+    ## 34  ( 1 ) " "          " "               " "            " "        
+    ## 35  ( 1 ) " "          " "               " "            " "        
+    ## 36  ( 1 ) " "          " "               " "            " "        
+    ## 37  ( 1 ) " "          " "               " "            " "        
+    ## 38  ( 1 ) " "          " "               " "            " "        
+    ## 39  ( 1 ) " "          " "               " "            " "        
+    ## 40  ( 1 ) " "          " "               " "            " "        
+    ## 41  ( 1 ) " "          " "               " "            " "        
+    ## 42  ( 1 ) " "          " "               " "            " "        
+    ##           CountryCyprus CountryCzechia
+    ## 1  ( 1 )  " "           " "           
+    ## 2  ( 1 )  " "           " "           
+    ## 3  ( 1 )  " "           " "           
+    ## 4  ( 1 )  " "           " "           
+    ## 5  ( 1 )  " "           " "           
+    ## 6  ( 1 )  " "           " "           
+    ## 7  ( 1 )  " "           " "           
+    ## 8  ( 1 )  " "           " "           
+    ## 9  ( 1 )  " "           " "           
+    ## 10  ( 1 ) " "           " "           
+    ## 11  ( 1 ) " "           " "           
+    ## 12  ( 1 ) " "           " "           
+    ## 13  ( 1 ) " "           " "           
+    ## 14  ( 1 ) " "           " "           
+    ## 15  ( 1 ) " "           " "           
+    ## 16  ( 1 ) " "           " "           
+    ## 17  ( 1 ) " "           " "           
+    ## 18  ( 1 ) " "           " "           
+    ## 19  ( 1 ) " "           " "           
+    ## 20  ( 1 ) " "           " "           
+    ## 21  ( 1 ) " "           " "           
+    ## 22  ( 1 ) " "           " "           
+    ## 23  ( 1 ) " "           " "           
+    ## 24  ( 1 ) " "           " "           
+    ## 25  ( 1 ) " "           " "           
+    ## 26  ( 1 ) " "           " "           
+    ## 27  ( 1 ) " "           " "           
+    ## 28  ( 1 ) " "           " "           
+    ## 29  ( 1 ) " "           " "           
+    ## 30  ( 1 ) " "           " "           
+    ## 31  ( 1 ) " "           " "           
+    ## 32  ( 1 ) " "           " "           
+    ## 33  ( 1 ) " "           " "           
+    ## 34  ( 1 ) " "           " "           
+    ## 35  ( 1 ) " "           " "           
+    ## 36  ( 1 ) " "           " "           
+    ## 37  ( 1 ) " "           " "           
+    ## 38  ( 1 ) " "           " "           
+    ## 39  ( 1 ) " "           " "           
+    ## 40  ( 1 ) " "           " "           
+    ## 41  ( 1 ) " "           " "           
+    ## 42  ( 1 ) " "           " "           
+    ##           CountryDemocratic People's Republic of Korea
+    ## 1  ( 1 )  " "                                         
+    ## 2  ( 1 )  " "                                         
+    ## 3  ( 1 )  " "                                         
+    ## 4  ( 1 )  " "                                         
+    ## 5  ( 1 )  " "                                         
+    ## 6  ( 1 )  " "                                         
+    ## 7  ( 1 )  " "                                         
+    ## 8  ( 1 )  " "                                         
+    ## 9  ( 1 )  " "                                         
+    ## 10  ( 1 ) " "                                         
+    ## 11  ( 1 ) " "                                         
+    ## 12  ( 1 ) " "                                         
+    ## 13  ( 1 ) " "                                         
+    ## 14  ( 1 ) " "                                         
+    ## 15  ( 1 ) " "                                         
+    ## 16  ( 1 ) " "                                         
+    ## 17  ( 1 ) " "                                         
+    ## 18  ( 1 ) " "                                         
+    ## 19  ( 1 ) " "                                         
+    ## 20  ( 1 ) " "                                         
+    ## 21  ( 1 ) " "                                         
+    ## 22  ( 1 ) " "                                         
+    ## 23  ( 1 ) " "                                         
+    ## 24  ( 1 ) " "                                         
+    ## 25  ( 1 ) " "                                         
+    ## 26  ( 1 ) " "                                         
+    ## 27  ( 1 ) " "                                         
+    ## 28  ( 1 ) " "                                         
+    ## 29  ( 1 ) " "                                         
+    ## 30  ( 1 ) " "                                         
+    ## 31  ( 1 ) " "                                         
+    ## 32  ( 1 ) "*"                                         
+    ## 33  ( 1 ) "*"                                         
+    ## 34  ( 1 ) "*"                                         
+    ## 35  ( 1 ) "*"                                         
+    ## 36  ( 1 ) "*"                                         
+    ## 37  ( 1 ) "*"                                         
+    ## 38  ( 1 ) "*"                                         
+    ## 39  ( 1 ) "*"                                         
+    ## 40  ( 1 ) "*"                                         
+    ## 41  ( 1 ) "*"                                         
+    ## 42  ( 1 ) "*"                                         
+    ##           CountryDemocratic Republic of the Congo CountryDenmark
+    ## 1  ( 1 )  " "                                     " "           
+    ## 2  ( 1 )  " "                                     " "           
+    ## 3  ( 1 )  " "                                     " "           
+    ## 4  ( 1 )  " "                                     " "           
+    ## 5  ( 1 )  " "                                     " "           
+    ## 6  ( 1 )  " "                                     " "           
+    ## 7  ( 1 )  " "                                     " "           
+    ## 8  ( 1 )  "*"                                     " "           
+    ## 9  ( 1 )  "*"                                     " "           
+    ## 10  ( 1 ) "*"                                     " "           
+    ## 11  ( 1 ) "*"                                     " "           
+    ## 12  ( 1 ) "*"                                     " "           
+    ## 13  ( 1 ) "*"                                     " "           
+    ## 14  ( 1 ) "*"                                     " "           
+    ## 15  ( 1 ) "*"                                     " "           
+    ## 16  ( 1 ) "*"                                     " "           
+    ## 17  ( 1 ) "*"                                     " "           
+    ## 18  ( 1 ) "*"                                     " "           
+    ## 19  ( 1 ) "*"                                     " "           
+    ## 20  ( 1 ) "*"                                     " "           
+    ## 21  ( 1 ) "*"                                     " "           
+    ## 22  ( 1 ) "*"                                     " "           
+    ## 23  ( 1 ) "*"                                     " "           
+    ## 24  ( 1 ) "*"                                     " "           
+    ## 25  ( 1 ) "*"                                     " "           
+    ## 26  ( 1 ) "*"                                     " "           
+    ## 27  ( 1 ) "*"                                     " "           
+    ## 28  ( 1 ) "*"                                     " "           
+    ## 29  ( 1 ) "*"                                     " "           
+    ## 30  ( 1 ) "*"                                     " "           
+    ## 31  ( 1 ) "*"                                     " "           
+    ## 32  ( 1 ) "*"                                     " "           
+    ## 33  ( 1 ) "*"                                     " "           
+    ## 34  ( 1 ) "*"                                     " "           
+    ## 35  ( 1 ) "*"                                     " "           
+    ## 36  ( 1 ) "*"                                     " "           
+    ## 37  ( 1 ) "*"                                     " "           
+    ## 38  ( 1 ) "*"                                     " "           
+    ## 39  ( 1 ) "*"                                     " "           
+    ## 40  ( 1 ) "*"                                     " "           
+    ## 41  ( 1 ) "*"                                     " "           
+    ## 42  ( 1 ) "*"                                     " "           
+    ##           CountryDjibouti CountryDominican Republic CountryEcuador CountryEgypt
+    ## 1  ( 1 )  " "             " "                       " "            " "         
+    ## 2  ( 1 )  " "             " "                       " "            " "         
+    ## 3  ( 1 )  " "             " "                       " "            " "         
+    ## 4  ( 1 )  " "             " "                       " "            " "         
+    ## 5  ( 1 )  " "             " "                       " "            " "         
+    ## 6  ( 1 )  " "             " "                       " "            " "         
+    ## 7  ( 1 )  " "             " "                       " "            " "         
+    ## 8  ( 1 )  " "             " "                       " "            " "         
+    ## 9  ( 1 )  " "             " "                       " "            " "         
+    ## 10  ( 1 ) " "             " "                       " "            " "         
+    ## 11  ( 1 ) " "             " "                       " "            " "         
+    ## 12  ( 1 ) " "             " "                       " "            " "         
+    ## 13  ( 1 ) " "             " "                       " "            " "         
+    ## 14  ( 1 ) " "             " "                       " "            " "         
+    ## 15  ( 1 ) " "             " "                       " "            " "         
+    ## 16  ( 1 ) " "             " "                       " "            " "         
+    ## 17  ( 1 ) " "             " "                       " "            " "         
+    ## 18  ( 1 ) " "             " "                       " "            " "         
+    ## 19  ( 1 ) " "             " "                       " "            " "         
+    ## 20  ( 1 ) " "             " "                       " "            " "         
+    ## 21  ( 1 ) " "             " "                       " "            " "         
+    ## 22  ( 1 ) " "             " "                       " "            " "         
+    ## 23  ( 1 ) " "             " "                       " "            " "         
+    ## 24  ( 1 ) " "             " "                       " "            " "         
+    ## 25  ( 1 ) " "             " "                       " "            " "         
+    ## 26  ( 1 ) " "             " "                       " "            " "         
+    ## 27  ( 1 ) " "             " "                       " "            " "         
+    ## 28  ( 1 ) " "             " "                       " "            " "         
+    ## 29  ( 1 ) " "             " "                       " "            " "         
+    ## 30  ( 1 ) " "             " "                       " "            " "         
+    ## 31  ( 1 ) " "             " "                       " "            " "         
+    ## 32  ( 1 ) " "             " "                       " "            " "         
+    ## 33  ( 1 ) " "             " "                       " "            " "         
+    ## 34  ( 1 ) " "             " "                       " "            " "         
+    ## 35  ( 1 ) " "             " "                       " "            " "         
+    ## 36  ( 1 ) " "             " "                       " "            " "         
+    ## 37  ( 1 ) " "             " "                       " "            " "         
+    ## 38  ( 1 ) " "             " "                       " "            " "         
+    ## 39  ( 1 ) " "             " "                       " "            " "         
+    ## 40  ( 1 ) " "             " "                       " "            " "         
+    ## 41  ( 1 ) " "             " "                       " "            " "         
+    ## 42  ( 1 ) " "             " "                       " "            " "         
+    ##           CountryEl Salvador CountryEquatorial Guinea CountryEritrea
+    ## 1  ( 1 )  " "                " "                      " "           
+    ## 2  ( 1 )  " "                " "                      " "           
+    ## 3  ( 1 )  " "                " "                      " "           
+    ## 4  ( 1 )  " "                " "                      " "           
+    ## 5  ( 1 )  " "                " "                      " "           
+    ## 6  ( 1 )  " "                " "                      " "           
+    ## 7  ( 1 )  " "                " "                      " "           
+    ## 8  ( 1 )  " "                " "                      " "           
+    ## 9  ( 1 )  " "                " "                      " "           
+    ## 10  ( 1 ) " "                " "                      " "           
+    ## 11  ( 1 ) " "                " "                      " "           
+    ## 12  ( 1 ) " "                " "                      " "           
+    ## 13  ( 1 ) " "                " "                      " "           
+    ## 14  ( 1 ) " "                " "                      " "           
+    ## 15  ( 1 ) " "                " "                      " "           
+    ## 16  ( 1 ) " "                " "                      "*"           
+    ## 17  ( 1 ) " "                " "                      "*"           
+    ## 18  ( 1 ) " "                " "                      "*"           
+    ## 19  ( 1 ) " "                " "                      "*"           
+    ## 20  ( 1 ) " "                " "                      "*"           
+    ## 21  ( 1 ) " "                " "                      "*"           
+    ## 22  ( 1 ) " "                " "                      "*"           
+    ## 23  ( 1 ) " "                " "                      "*"           
+    ## 24  ( 1 ) " "                " "                      "*"           
+    ## 25  ( 1 ) " "                "*"                      "*"           
+    ## 26  ( 1 ) " "                "*"                      "*"           
+    ## 27  ( 1 ) " "                "*"                      "*"           
+    ## 28  ( 1 ) " "                "*"                      "*"           
+    ## 29  ( 1 ) " "                "*"                      "*"           
+    ## 30  ( 1 ) " "                "*"                      "*"           
+    ## 31  ( 1 ) " "                "*"                      "*"           
+    ## 32  ( 1 ) " "                "*"                      "*"           
+    ## 33  ( 1 ) " "                "*"                      "*"           
+    ## 34  ( 1 ) " "                "*"                      "*"           
+    ## 35  ( 1 ) " "                "*"                      "*"           
+    ## 36  ( 1 ) " "                "*"                      "*"           
+    ## 37  ( 1 ) " "                "*"                      "*"           
+    ## 38  ( 1 ) " "                "*"                      "*"           
+    ## 39  ( 1 ) " "                "*"                      "*"           
+    ## 40  ( 1 ) " "                "*"                      "*"           
+    ## 41  ( 1 ) " "                "*"                      "*"           
+    ## 42  ( 1 ) " "                "*"                      "*"           
+    ##           CountryEstonia CountryEthiopia CountryFiji CountryFinland
+    ## 1  ( 1 )  " "            " "             " "         " "           
+    ## 2  ( 1 )  " "            " "             " "         " "           
+    ## 3  ( 1 )  " "            " "             " "         " "           
+    ## 4  ( 1 )  " "            " "             " "         " "           
+    ## 5  ( 1 )  " "            " "             " "         " "           
+    ## 6  ( 1 )  " "            " "             " "         " "           
+    ## 7  ( 1 )  " "            " "             " "         " "           
+    ## 8  ( 1 )  " "            " "             " "         " "           
+    ## 9  ( 1 )  " "            " "             " "         " "           
+    ## 10  ( 1 ) " "            " "             " "         " "           
+    ## 11  ( 1 ) " "            " "             " "         " "           
+    ## 12  ( 1 ) " "            " "             " "         " "           
+    ## 13  ( 1 ) " "            " "             " "         " "           
+    ## 14  ( 1 ) " "            " "             " "         " "           
+    ## 15  ( 1 ) " "            " "             " "         " "           
+    ## 16  ( 1 ) " "            " "             " "         " "           
+    ## 17  ( 1 ) " "            " "             " "         " "           
+    ## 18  ( 1 ) " "            " "             " "         " "           
+    ## 19  ( 1 ) " "            " "             " "         " "           
+    ## 20  ( 1 ) " "            " "             " "         " "           
+    ## 21  ( 1 ) " "            " "             " "         " "           
+    ## 22  ( 1 ) " "            " "             " "         " "           
+    ## 23  ( 1 ) " "            " "             " "         " "           
+    ## 24  ( 1 ) " "            " "             " "         " "           
+    ## 25  ( 1 ) " "            " "             " "         " "           
+    ## 26  ( 1 ) " "            " "             " "         " "           
+    ## 27  ( 1 ) " "            " "             " "         " "           
+    ## 28  ( 1 ) " "            " "             " "         " "           
+    ## 29  ( 1 ) " "            " "             " "         " "           
+    ## 30  ( 1 ) " "            " "             " "         " "           
+    ## 31  ( 1 ) " "            " "             " "         " "           
+    ## 32  ( 1 ) " "            " "             " "         " "           
+    ## 33  ( 1 ) " "            " "             " "         " "           
+    ## 34  ( 1 ) " "            " "             " "         " "           
+    ## 35  ( 1 ) " "            " "             " "         " "           
+    ## 36  ( 1 ) " "            " "             " "         " "           
+    ## 37  ( 1 ) " "            " "             " "         " "           
+    ## 38  ( 1 ) " "            " "             " "         " "           
+    ## 39  ( 1 ) " "            " "             " "         " "           
+    ## 40  ( 1 ) " "            " "             " "         " "           
+    ## 41  ( 1 ) " "            " "             " "         " "           
+    ## 42  ( 1 ) " "            " "             " "         " "           
+    ##           CountryFrance CountryGabon CountryGambia CountryGeorgia
+    ## 1  ( 1 )  " "           " "          " "           " "           
+    ## 2  ( 1 )  " "           " "          " "           " "           
+    ## 3  ( 1 )  " "           " "          " "           " "           
+    ## 4  ( 1 )  " "           " "          " "           " "           
+    ## 5  ( 1 )  " "           " "          " "           " "           
+    ## 6  ( 1 )  " "           " "          " "           " "           
+    ## 7  ( 1 )  " "           " "          " "           " "           
+    ## 8  ( 1 )  " "           " "          " "           " "           
+    ## 9  ( 1 )  " "           " "          " "           " "           
+    ## 10  ( 1 ) " "           " "          " "           " "           
+    ## 11  ( 1 ) " "           " "          " "           " "           
+    ## 12  ( 1 ) " "           " "          " "           " "           
+    ## 13  ( 1 ) " "           " "          " "           " "           
+    ## 14  ( 1 ) " "           " "          " "           " "           
+    ## 15  ( 1 ) " "           " "          " "           " "           
+    ## 16  ( 1 ) " "           " "          " "           " "           
+    ## 17  ( 1 ) " "           " "          " "           " "           
+    ## 18  ( 1 ) " "           " "          " "           " "           
+    ## 19  ( 1 ) " "           " "          " "           " "           
+    ## 20  ( 1 ) " "           " "          " "           " "           
+    ## 21  ( 1 ) " "           " "          " "           " "           
+    ## 22  ( 1 ) " "           " "          " "           " "           
+    ## 23  ( 1 ) " "           " "          " "           " "           
+    ## 24  ( 1 ) " "           " "          " "           " "           
+    ## 25  ( 1 ) " "           " "          " "           " "           
+    ## 26  ( 1 ) " "           " "          " "           " "           
+    ## 27  ( 1 ) " "           " "          " "           " "           
+    ## 28  ( 1 ) " "           " "          " "           " "           
+    ## 29  ( 1 ) " "           " "          " "           " "           
+    ## 30  ( 1 ) " "           " "          " "           " "           
+    ## 31  ( 1 ) " "           " "          " "           " "           
+    ## 32  ( 1 ) " "           " "          " "           " "           
+    ## 33  ( 1 ) " "           " "          " "           " "           
+    ## 34  ( 1 ) " "           " "          " "           " "           
+    ## 35  ( 1 ) " "           " "          " "           " "           
+    ## 36  ( 1 ) " "           " "          " "           " "           
+    ## 37  ( 1 ) " "           " "          " "           " "           
+    ## 38  ( 1 ) " "           " "          " "           " "           
+    ## 39  ( 1 ) " "           " "          " "           " "           
+    ## 40  ( 1 ) " "           " "          " "           " "           
+    ## 41  ( 1 ) " "           " "          " "           " "           
+    ## 42  ( 1 ) " "           " "          " "           " "           
+    ##           CountryGermany CountryGhana CountryGreece CountryGrenada
+    ## 1  ( 1 )  " "            " "          " "           " "           
+    ## 2  ( 1 )  " "            " "          " "           " "           
+    ## 3  ( 1 )  " "            " "          " "           " "           
+    ## 4  ( 1 )  " "            " "          " "           " "           
+    ## 5  ( 1 )  " "            " "          " "           " "           
+    ## 6  ( 1 )  " "            " "          " "           " "           
+    ## 7  ( 1 )  " "            " "          " "           " "           
+    ## 8  ( 1 )  " "            " "          " "           " "           
+    ## 9  ( 1 )  " "            " "          " "           " "           
+    ## 10  ( 1 ) " "            " "          " "           " "           
+    ## 11  ( 1 ) " "            " "          " "           " "           
+    ## 12  ( 1 ) " "            " "          " "           " "           
+    ## 13  ( 1 ) " "            " "          " "           " "           
+    ## 14  ( 1 ) " "            " "          " "           " "           
+    ## 15  ( 1 ) " "            " "          " "           " "           
+    ## 16  ( 1 ) " "            " "          " "           " "           
+    ## 17  ( 1 ) " "            " "          " "           " "           
+    ## 18  ( 1 ) " "            " "          " "           " "           
+    ## 19  ( 1 ) " "            " "          " "           " "           
+    ## 20  ( 1 ) " "            " "          " "           " "           
+    ## 21  ( 1 ) " "            " "          " "           " "           
+    ## 22  ( 1 ) " "            " "          " "           " "           
+    ## 23  ( 1 ) " "            " "          " "           " "           
+    ## 24  ( 1 ) " "            " "          " "           " "           
+    ## 25  ( 1 ) " "            " "          " "           " "           
+    ## 26  ( 1 ) " "            " "          " "           " "           
+    ## 27  ( 1 ) " "            " "          " "           " "           
+    ## 28  ( 1 ) " "            " "          " "           " "           
+    ## 29  ( 1 ) " "            " "          " "           " "           
+    ## 30  ( 1 ) " "            " "          " "           " "           
+    ## 31  ( 1 ) " "            " "          " "           " "           
+    ## 32  ( 1 ) " "            " "          " "           " "           
+    ## 33  ( 1 ) " "            " "          " "           " "           
+    ## 34  ( 1 ) " "            " "          " "           " "           
+    ## 35  ( 1 ) " "            " "          " "           " "           
+    ## 36  ( 1 ) " "            " "          " "           " "           
+    ## 37  ( 1 ) " "            " "          " "           " "           
+    ## 38  ( 1 ) " "            " "          " "           " "           
+    ## 39  ( 1 ) " "            " "          " "           " "           
+    ## 40  ( 1 ) " "            " "          " "           " "           
+    ## 41  ( 1 ) " "            "*"          " "           " "           
+    ## 42  ( 1 ) " "            "*"          " "           " "           
+    ##           CountryGuatemala CountryGuinea CountryGuinea-Bissau CountryGuyana
+    ## 1  ( 1 )  " "              " "           " "                  " "          
+    ## 2  ( 1 )  " "              " "           " "                  " "          
+    ## 3  ( 1 )  " "              " "           " "                  " "          
+    ## 4  ( 1 )  " "              " "           " "                  " "          
+    ## 5  ( 1 )  " "              " "           " "                  " "          
+    ## 6  ( 1 )  " "              " "           " "                  " "          
+    ## 7  ( 1 )  " "              " "           " "                  " "          
+    ## 8  ( 1 )  " "              " "           " "                  " "          
+    ## 9  ( 1 )  " "              " "           " "                  " "          
+    ## 10  ( 1 ) " "              " "           " "                  " "          
+    ## 11  ( 1 ) " "              " "           " "                  " "          
+    ## 12  ( 1 ) " "              " "           " "                  " "          
+    ## 13  ( 1 ) " "              " "           " "                  " "          
+    ## 14  ( 1 ) " "              " "           " "                  " "          
+    ## 15  ( 1 ) " "              " "           " "                  " "          
+    ## 16  ( 1 ) " "              " "           " "                  " "          
+    ## 17  ( 1 ) " "              " "           " "                  " "          
+    ## 18  ( 1 ) " "              " "           " "                  " "          
+    ## 19  ( 1 ) " "              " "           " "                  " "          
+    ## 20  ( 1 ) " "              " "           " "                  " "          
+    ## 21  ( 1 ) " "              " "           " "                  " "          
+    ## 22  ( 1 ) " "              " "           " "                  " "          
+    ## 23  ( 1 ) " "              " "           " "                  " "          
+    ## 24  ( 1 ) " "              " "           " "                  " "          
+    ## 25  ( 1 ) " "              " "           " "                  " "          
+    ## 26  ( 1 ) " "              " "           " "                  " "          
+    ## 27  ( 1 ) " "              " "           " "                  " "          
+    ## 28  ( 1 ) " "              " "           " "                  " "          
+    ## 29  ( 1 ) " "              " "           " "                  " "          
+    ## 30  ( 1 ) " "              " "           " "                  " "          
+    ## 31  ( 1 ) " "              " "           " "                  " "          
+    ## 32  ( 1 ) " "              " "           " "                  " "          
+    ## 33  ( 1 ) " "              " "           " "                  " "          
+    ## 34  ( 1 ) " "              " "           " "                  " "          
+    ## 35  ( 1 ) " "              " "           " "                  " "          
+    ## 36  ( 1 ) " "              " "           " "                  " "          
+    ## 37  ( 1 ) " "              " "           " "                  " "          
+    ## 38  ( 1 ) " "              " "           " "                  " "          
+    ## 39  ( 1 ) " "              " "           " "                  " "          
+    ## 40  ( 1 ) " "              " "           " "                  " "          
+    ## 41  ( 1 ) " "              " "           " "                  " "          
+    ## 42  ( 1 ) " "              " "           " "                  " "          
+    ##           CountryHaiti CountryHonduras CountryHungary CountryIceland
+    ## 1  ( 1 )  " "          " "             " "            " "           
+    ## 2  ( 1 )  " "          " "             " "            " "           
+    ## 3  ( 1 )  " "          " "             " "            " "           
+    ## 4  ( 1 )  " "          " "             " "            " "           
+    ## 5  ( 1 )  " "          " "             " "            " "           
+    ## 6  ( 1 )  " "          " "             " "            " "           
+    ## 7  ( 1 )  " "          " "             " "            " "           
+    ## 8  ( 1 )  " "          " "             " "            " "           
+    ## 9  ( 1 )  " "          " "             " "            " "           
+    ## 10  ( 1 ) " "          " "             " "            " "           
+    ## 11  ( 1 ) " "          " "             " "            " "           
+    ## 12  ( 1 ) " "          " "             " "            " "           
+    ## 13  ( 1 ) " "          " "             " "            " "           
+    ## 14  ( 1 ) " "          " "             " "            " "           
+    ## 15  ( 1 ) " "          " "             " "            " "           
+    ## 16  ( 1 ) " "          " "             " "            " "           
+    ## 17  ( 1 ) " "          " "             " "            " "           
+    ## 18  ( 1 ) " "          " "             " "            " "           
+    ## 19  ( 1 ) " "          " "             " "            " "           
+    ## 20  ( 1 ) " "          " "             " "            " "           
+    ## 21  ( 1 ) " "          " "             " "            " "           
+    ## 22  ( 1 ) " "          " "             " "            " "           
+    ## 23  ( 1 ) " "          " "             " "            " "           
+    ## 24  ( 1 ) " "          " "             " "            " "           
+    ## 25  ( 1 ) " "          " "             " "            " "           
+    ## 26  ( 1 ) " "          " "             " "            " "           
+    ## 27  ( 1 ) "*"          " "             " "            " "           
+    ## 28  ( 1 ) "*"          " "             " "            " "           
+    ## 29  ( 1 ) "*"          " "             " "            " "           
+    ## 30  ( 1 ) "*"          " "             " "            " "           
+    ## 31  ( 1 ) "*"          " "             " "            " "           
+    ## 32  ( 1 ) "*"          " "             " "            " "           
+    ## 33  ( 1 ) "*"          " "             " "            " "           
+    ## 34  ( 1 ) "*"          " "             " "            " "           
+    ## 35  ( 1 ) "*"          " "             " "            " "           
+    ## 36  ( 1 ) "*"          " "             " "            " "           
+    ## 37  ( 1 ) "*"          " "             " "            " "           
+    ## 38  ( 1 ) "*"          " "             " "            " "           
+    ## 39  ( 1 ) "*"          " "             " "            " "           
+    ## 40  ( 1 ) "*"          " "             " "            " "           
+    ## 41  ( 1 ) "*"          " "             " "            " "           
+    ## 42  ( 1 ) "*"          " "             " "            " "           
+    ##           CountryIndia CountryIndonesia CountryIran CountryIraq CountryIreland
+    ## 1  ( 1 )  " "          " "              " "         " "         " "           
+    ## 2  ( 1 )  " "          " "              " "         " "         " "           
+    ## 3  ( 1 )  " "          " "              " "         " "         " "           
+    ## 4  ( 1 )  " "          " "              " "         " "         " "           
+    ## 5  ( 1 )  " "          " "              " "         " "         " "           
+    ## 6  ( 1 )  " "          " "              " "         " "         " "           
+    ## 7  ( 1 )  " "          " "              " "         " "         " "           
+    ## 8  ( 1 )  " "          " "              " "         " "         " "           
+    ## 9  ( 1 )  " "          " "              " "         " "         " "           
+    ## 10  ( 1 ) " "          " "              " "         " "         " "           
+    ## 11  ( 1 ) " "          " "              " "         " "         " "           
+    ## 12  ( 1 ) " "          " "              " "         " "         " "           
+    ## 13  ( 1 ) " "          " "              " "         " "         " "           
+    ## 14  ( 1 ) " "          " "              " "         " "         " "           
+    ## 15  ( 1 ) " "          " "              " "         " "         " "           
+    ## 16  ( 1 ) " "          " "              " "         " "         " "           
+    ## 17  ( 1 ) " "          " "              " "         " "         " "           
+    ## 18  ( 1 ) " "          " "              " "         " "         " "           
+    ## 19  ( 1 ) " "          " "              " "         " "         " "           
+    ## 20  ( 1 ) " "          " "              " "         " "         " "           
+    ## 21  ( 1 ) " "          " "              " "         " "         " "           
+    ## 22  ( 1 ) " "          " "              " "         " "         " "           
+    ## 23  ( 1 ) " "          " "              " "         " "         " "           
+    ## 24  ( 1 ) " "          " "              " "         " "         " "           
+    ## 25  ( 1 ) " "          " "              " "         " "         " "           
+    ## 26  ( 1 ) " "          " "              " "         " "         " "           
+    ## 27  ( 1 ) " "          " "              " "         " "         " "           
+    ## 28  ( 1 ) " "          " "              " "         " "         " "           
+    ## 29  ( 1 ) " "          " "              " "         " "         " "           
+    ## 30  ( 1 ) " "          " "              " "         " "         " "           
+    ## 31  ( 1 ) " "          " "              " "         " "         " "           
+    ## 32  ( 1 ) " "          " "              " "         " "         " "           
+    ## 33  ( 1 ) " "          " "              " "         " "         " "           
+    ## 34  ( 1 ) " "          " "              " "         " "         " "           
+    ## 35  ( 1 ) " "          " "              " "         " "         " "           
+    ## 36  ( 1 ) " "          " "              " "         " "         " "           
+    ## 37  ( 1 ) " "          " "              " "         " "         " "           
+    ## 38  ( 1 ) " "          " "              " "         " "         " "           
+    ## 39  ( 1 ) " "          " "              " "         " "         " "           
+    ## 40  ( 1 ) " "          " "              " "         " "         " "           
+    ## 41  ( 1 ) " "          " "              " "         " "         " "           
+    ## 42  ( 1 ) " "          " "              " "         " "         " "           
+    ##           CountryIsrael CountryItaly CountryIvory Coast CountryJamaica
+    ## 1  ( 1 )  " "           " "          " "                " "           
+    ## 2  ( 1 )  " "           " "          " "                " "           
+    ## 3  ( 1 )  " "           " "          " "                " "           
+    ## 4  ( 1 )  " "           " "          " "                " "           
+    ## 5  ( 1 )  " "           " "          " "                " "           
+    ## 6  ( 1 )  " "           " "          " "                " "           
+    ## 7  ( 1 )  " "           " "          " "                " "           
+    ## 8  ( 1 )  " "           " "          " "                " "           
+    ## 9  ( 1 )  " "           " "          " "                " "           
+    ## 10  ( 1 ) " "           " "          " "                " "           
+    ## 11  ( 1 ) " "           " "          " "                " "           
+    ## 12  ( 1 ) " "           " "          " "                " "           
+    ## 13  ( 1 ) " "           " "          " "                " "           
+    ## 14  ( 1 ) " "           " "          " "                " "           
+    ## 15  ( 1 ) " "           " "          " "                " "           
+    ## 16  ( 1 ) " "           " "          " "                " "           
+    ## 17  ( 1 ) " "           " "          " "                " "           
+    ## 18  ( 1 ) " "           " "          " "                " "           
+    ## 19  ( 1 ) " "           " "          " "                " "           
+    ## 20  ( 1 ) " "           " "          " "                " "           
+    ## 21  ( 1 ) " "           " "          " "                " "           
+    ## 22  ( 1 ) " "           " "          " "                " "           
+    ## 23  ( 1 ) " "           " "          " "                " "           
+    ## 24  ( 1 ) " "           " "          " "                " "           
+    ## 25  ( 1 ) " "           " "          " "                " "           
+    ## 26  ( 1 ) " "           " "          " "                " "           
+    ## 27  ( 1 ) " "           " "          " "                " "           
+    ## 28  ( 1 ) " "           " "          " "                " "           
+    ## 29  ( 1 ) " "           " "          " "                " "           
+    ## 30  ( 1 ) " "           " "          " "                " "           
+    ## 31  ( 1 ) " "           " "          " "                " "           
+    ## 32  ( 1 ) " "           " "          " "                " "           
+    ## 33  ( 1 ) " "           " "          " "                " "           
+    ## 34  ( 1 ) " "           " "          " "                " "           
+    ## 35  ( 1 ) " "           " "          " "                " "           
+    ## 36  ( 1 ) " "           " "          " "                " "           
+    ## 37  ( 1 ) " "           " "          " "                " "           
+    ## 38  ( 1 ) " "           " "          " "                " "           
+    ## 39  ( 1 ) " "           " "          " "                " "           
+    ## 40  ( 1 ) " "           " "          " "                " "           
+    ## 41  ( 1 ) " "           " "          " "                " "           
+    ## 42  ( 1 ) " "           " "          " "                " "           
+    ##           CountryJapan CountryJordan CountryKazakhstan CountryKenya
+    ## 1  ( 1 )  " "          " "           " "               " "         
+    ## 2  ( 1 )  " "          " "           " "               " "         
+    ## 3  ( 1 )  " "          " "           " "               " "         
+    ## 4  ( 1 )  " "          " "           " "               " "         
+    ## 5  ( 1 )  " "          " "           " "               " "         
+    ## 6  ( 1 )  " "          " "           " "               " "         
+    ## 7  ( 1 )  " "          " "           " "               " "         
+    ## 8  ( 1 )  " "          " "           " "               " "         
+    ## 9  ( 1 )  " "          " "           " "               " "         
+    ## 10  ( 1 ) " "          " "           " "               " "         
+    ## 11  ( 1 ) " "          " "           " "               " "         
+    ## 12  ( 1 ) " "          " "           " "               " "         
+    ## 13  ( 1 ) " "          " "           " "               " "         
+    ## 14  ( 1 ) " "          " "           " "               " "         
+    ## 15  ( 1 ) " "          " "           " "               " "         
+    ## 16  ( 1 ) " "          " "           " "               " "         
+    ## 17  ( 1 ) " "          " "           " "               " "         
+    ## 18  ( 1 ) " "          " "           " "               " "         
+    ## 19  ( 1 ) " "          " "           " "               " "         
+    ## 20  ( 1 ) " "          " "           " "               " "         
+    ## 21  ( 1 ) " "          " "           " "               " "         
+    ## 22  ( 1 ) " "          " "           " "               " "         
+    ## 23  ( 1 ) " "          " "           " "               " "         
+    ## 24  ( 1 ) " "          " "           " "               " "         
+    ## 25  ( 1 ) " "          " "           " "               " "         
+    ## 26  ( 1 ) "*"          " "           " "               " "         
+    ## 27  ( 1 ) "*"          " "           " "               " "         
+    ## 28  ( 1 ) "*"          " "           " "               " "         
+    ## 29  ( 1 ) "*"          " "           " "               " "         
+    ## 30  ( 1 ) "*"          " "           " "               " "         
+    ## 31  ( 1 ) "*"          " "           " "               " "         
+    ## 32  ( 1 ) "*"          " "           " "               " "         
+    ## 33  ( 1 ) "*"          " "           " "               " "         
+    ## 34  ( 1 ) "*"          " "           " "               " "         
+    ## 35  ( 1 ) "*"          " "           " "               " "         
+    ## 36  ( 1 ) "*"          " "           " "               " "         
+    ## 37  ( 1 ) "*"          " "           " "               " "         
+    ## 38  ( 1 ) "*"          " "           " "               " "         
+    ## 39  ( 1 ) "*"          " "           " "               " "         
+    ## 40  ( 1 ) "*"          " "           " "               " "         
+    ## 41  ( 1 ) "*"          " "           " "               " "         
+    ## 42  ( 1 ) "*"          " "           " "               " "         
+    ##           CountryKiribati CountryKuwait CountryKyrgyzstan
+    ## 1  ( 1 )  " "             " "           " "              
+    ## 2  ( 1 )  " "             " "           " "              
+    ## 3  ( 1 )  " "             " "           " "              
+    ## 4  ( 1 )  " "             " "           " "              
+    ## 5  ( 1 )  " "             " "           " "              
+    ## 6  ( 1 )  " "             " "           " "              
+    ## 7  ( 1 )  " "             " "           " "              
+    ## 8  ( 1 )  " "             " "           " "              
+    ## 9  ( 1 )  " "             " "           " "              
+    ## 10  ( 1 ) " "             " "           " "              
+    ## 11  ( 1 ) " "             " "           " "              
+    ## 12  ( 1 ) " "             " "           " "              
+    ## 13  ( 1 ) " "             " "           " "              
+    ## 14  ( 1 ) " "             " "           " "              
+    ## 15  ( 1 ) " "             " "           " "              
+    ## 16  ( 1 ) " "             " "           " "              
+    ## 17  ( 1 ) " "             " "           " "              
+    ## 18  ( 1 ) " "             " "           " "              
+    ## 19  ( 1 ) " "             " "           " "              
+    ## 20  ( 1 ) " "             " "           " "              
+    ## 21  ( 1 ) " "             " "           " "              
+    ## 22  ( 1 ) " "             " "           " "              
+    ## 23  ( 1 ) " "             " "           " "              
+    ## 24  ( 1 ) " "             " "           " "              
+    ## 25  ( 1 ) " "             " "           " "              
+    ## 26  ( 1 ) " "             " "           " "              
+    ## 27  ( 1 ) " "             " "           " "              
+    ## 28  ( 1 ) " "             " "           " "              
+    ## 29  ( 1 ) " "             " "           " "              
+    ## 30  ( 1 ) " "             " "           " "              
+    ## 31  ( 1 ) " "             "*"           " "              
+    ## 32  ( 1 ) " "             "*"           " "              
+    ## 33  ( 1 ) " "             "*"           " "              
+    ## 34  ( 1 ) " "             "*"           " "              
+    ## 35  ( 1 ) " "             "*"           " "              
+    ## 36  ( 1 ) " "             "*"           " "              
+    ## 37  ( 1 ) "*"             "*"           " "              
+    ## 38  ( 1 ) "*"             "*"           " "              
+    ## 39  ( 1 ) "*"             "*"           " "              
+    ## 40  ( 1 ) "*"             "*"           " "              
+    ## 41  ( 1 ) "*"             "*"           " "              
+    ## 42  ( 1 ) "*"             "*"           " "              
+    ##           CountryLao People's Democratic Republic CountryLatvia CountryLebanon
+    ## 1  ( 1 )  " "                                     " "           " "           
+    ## 2  ( 1 )  " "                                     " "           " "           
+    ## 3  ( 1 )  " "                                     " "           " "           
+    ## 4  ( 1 )  " "                                     " "           " "           
+    ## 5  ( 1 )  " "                                     " "           " "           
+    ## 6  ( 1 )  " "                                     " "           " "           
+    ## 7  ( 1 )  " "                                     " "           " "           
+    ## 8  ( 1 )  " "                                     " "           " "           
+    ## 9  ( 1 )  " "                                     " "           " "           
+    ## 10  ( 1 ) " "                                     " "           " "           
+    ## 11  ( 1 ) " "                                     " "           " "           
+    ## 12  ( 1 ) " "                                     " "           " "           
+    ## 13  ( 1 ) " "                                     " "           " "           
+    ## 14  ( 1 ) " "                                     " "           " "           
+    ## 15  ( 1 ) " "                                     " "           " "           
+    ## 16  ( 1 ) " "                                     " "           " "           
+    ## 17  ( 1 ) " "                                     " "           " "           
+    ## 18  ( 1 ) " "                                     " "           " "           
+    ## 19  ( 1 ) " "                                     " "           " "           
+    ## 20  ( 1 ) " "                                     " "           " "           
+    ## 21  ( 1 ) " "                                     " "           " "           
+    ## 22  ( 1 ) " "                                     " "           " "           
+    ## 23  ( 1 ) " "                                     " "           " "           
+    ## 24  ( 1 ) " "                                     " "           " "           
+    ## 25  ( 1 ) " "                                     " "           " "           
+    ## 26  ( 1 ) " "                                     " "           " "           
+    ## 27  ( 1 ) " "                                     " "           " "           
+    ## 28  ( 1 ) "*"                                     " "           " "           
+    ## 29  ( 1 ) "*"                                     " "           " "           
+    ## 30  ( 1 ) "*"                                     " "           " "           
+    ## 31  ( 1 ) "*"                                     " "           " "           
+    ## 32  ( 1 ) "*"                                     " "           " "           
+    ## 33  ( 1 ) "*"                                     " "           " "           
+    ## 34  ( 1 ) "*"                                     " "           " "           
+    ## 35  ( 1 ) "*"                                     " "           " "           
+    ## 36  ( 1 ) "*"                                     " "           " "           
+    ## 37  ( 1 ) "*"                                     " "           " "           
+    ## 38  ( 1 ) "*"                                     " "           " "           
+    ## 39  ( 1 ) "*"                                     " "           " "           
+    ## 40  ( 1 ) "*"                                     " "           " "           
+    ## 41  ( 1 ) "*"                                     " "           " "           
+    ## 42  ( 1 ) "*"                                     " "           " "           
+    ##           CountryLesotho CountryLiberia CountryLibya CountryLithuania
+    ## 1  ( 1 )  " "            " "            " "          " "             
+    ## 2  ( 1 )  " "            " "            " "          " "             
+    ## 3  ( 1 )  " "            " "            " "          " "             
+    ## 4  ( 1 )  " "            " "            " "          " "             
+    ## 5  ( 1 )  " "            " "            " "          " "             
+    ## 6  ( 1 )  " "            " "            " "          " "             
+    ## 7  ( 1 )  " "            " "            " "          " "             
+    ## 8  ( 1 )  " "            " "            " "          " "             
+    ## 9  ( 1 )  " "            " "            " "          " "             
+    ## 10  ( 1 ) " "            " "            " "          " "             
+    ## 11  ( 1 ) " "            " "            " "          " "             
+    ## 12  ( 1 ) " "            " "            " "          " "             
+    ## 13  ( 1 ) " "            " "            " "          " "             
+    ## 14  ( 1 ) " "            " "            " "          " "             
+    ## 15  ( 1 ) " "            " "            " "          " "             
+    ## 16  ( 1 ) " "            " "            " "          " "             
+    ## 17  ( 1 ) " "            " "            " "          " "             
+    ## 18  ( 1 ) " "            " "            " "          " "             
+    ## 19  ( 1 ) " "            " "            " "          " "             
+    ## 20  ( 1 ) " "            " "            " "          " "             
+    ## 21  ( 1 ) " "            " "            " "          " "             
+    ## 22  ( 1 ) " "            " "            " "          " "             
+    ## 23  ( 1 ) " "            " "            " "          " "             
+    ## 24  ( 1 ) " "            " "            " "          " "             
+    ## 25  ( 1 ) " "            " "            " "          " "             
+    ## 26  ( 1 ) " "            " "            " "          " "             
+    ## 27  ( 1 ) " "            " "            " "          " "             
+    ## 28  ( 1 ) " "            " "            " "          " "             
+    ## 29  ( 1 ) " "            " "            " "          " "             
+    ## 30  ( 1 ) " "            " "            " "          " "             
+    ## 31  ( 1 ) " "            " "            " "          " "             
+    ## 32  ( 1 ) " "            " "            " "          " "             
+    ## 33  ( 1 ) " "            " "            " "          " "             
+    ## 34  ( 1 ) " "            " "            " "          " "             
+    ## 35  ( 1 ) " "            " "            " "          " "             
+    ## 36  ( 1 ) " "            " "            " "          " "             
+    ## 37  ( 1 ) " "            " "            " "          " "             
+    ## 38  ( 1 ) " "            " "            " "          " "             
+    ## 39  ( 1 ) " "            " "            " "          " "             
+    ## 40  ( 1 ) " "            " "            " "          " "             
+    ## 41  ( 1 ) " "            " "            " "          " "             
+    ## 42  ( 1 ) " "            " "            " "          " "             
+    ##           CountryLuxembourg CountryMadagascar CountryMalawi CountryMalaysia
+    ## 1  ( 1 )  " "               " "               " "           " "            
+    ## 2  ( 1 )  " "               " "               " "           " "            
+    ## 3  ( 1 )  " "               " "               " "           " "            
+    ## 4  ( 1 )  " "               " "               " "           " "            
+    ## 5  ( 1 )  " "               " "               " "           " "            
+    ## 6  ( 1 )  " "               " "               " "           " "            
+    ## 7  ( 1 )  " "               " "               " "           " "            
+    ## 8  ( 1 )  " "               " "               " "           " "            
+    ## 9  ( 1 )  " "               " "               "*"           " "            
+    ## 10  ( 1 ) " "               " "               "*"           " "            
+    ## 11  ( 1 ) " "               " "               "*"           " "            
+    ## 12  ( 1 ) " "               " "               "*"           " "            
+    ## 13  ( 1 ) " "               " "               "*"           " "            
+    ## 14  ( 1 ) " "               " "               "*"           " "            
+    ## 15  ( 1 ) " "               " "               "*"           " "            
+    ## 16  ( 1 ) " "               " "               "*"           " "            
+    ## 17  ( 1 ) " "               " "               "*"           " "            
+    ## 18  ( 1 ) " "               " "               "*"           " "            
+    ## 19  ( 1 ) " "               " "               "*"           " "            
+    ## 20  ( 1 ) " "               " "               "*"           " "            
+    ## 21  ( 1 ) " "               " "               "*"           " "            
+    ## 22  ( 1 ) " "               " "               "*"           " "            
+    ## 23  ( 1 ) " "               " "               "*"           " "            
+    ## 24  ( 1 ) " "               " "               "*"           " "            
+    ## 25  ( 1 ) " "               " "               "*"           " "            
+    ## 26  ( 1 ) " "               " "               "*"           " "            
+    ## 27  ( 1 ) " "               " "               "*"           " "            
+    ## 28  ( 1 ) " "               " "               "*"           " "            
+    ## 29  ( 1 ) " "               " "               "*"           " "            
+    ## 30  ( 1 ) " "               " "               "*"           " "            
+    ## 31  ( 1 ) " "               " "               "*"           " "            
+    ## 32  ( 1 ) " "               " "               "*"           " "            
+    ## 33  ( 1 ) " "               " "               "*"           " "            
+    ## 34  ( 1 ) " "               " "               "*"           " "            
+    ## 35  ( 1 ) " "               " "               "*"           " "            
+    ## 36  ( 1 ) " "               " "               "*"           " "            
+    ## 37  ( 1 ) " "               " "               "*"           " "            
+    ## 38  ( 1 ) " "               " "               "*"           " "            
+    ## 39  ( 1 ) " "               " "               "*"           " "            
+    ## 40  ( 1 ) " "               " "               "*"           " "            
+    ## 41  ( 1 ) " "               " "               "*"           " "            
+    ## 42  ( 1 ) " "               " "               "*"           " "            
+    ##           CountryMaldives CountryMali CountryMalta CountryMauritania
+    ## 1  ( 1 )  " "             " "         " "          " "              
+    ## 2  ( 1 )  " "             " "         " "          " "              
+    ## 3  ( 1 )  " "             " "         " "          " "              
+    ## 4  ( 1 )  " "             " "         " "          " "              
+    ## 5  ( 1 )  " "             " "         " "          " "              
+    ## 6  ( 1 )  " "             " "         " "          " "              
+    ## 7  ( 1 )  " "             " "         " "          " "              
+    ## 8  ( 1 )  " "             " "         " "          " "              
+    ## 9  ( 1 )  " "             " "         " "          " "              
+    ## 10  ( 1 ) " "             " "         " "          " "              
+    ## 11  ( 1 ) " "             " "         " "          " "              
+    ## 12  ( 1 ) " "             " "         " "          " "              
+    ## 13  ( 1 ) " "             " "         " "          " "              
+    ## 14  ( 1 ) " "             " "         " "          " "              
+    ## 15  ( 1 ) " "             " "         " "          " "              
+    ## 16  ( 1 ) " "             " "         " "          " "              
+    ## 17  ( 1 ) " "             " "         " "          " "              
+    ## 18  ( 1 ) " "             " "         " "          " "              
+    ## 19  ( 1 ) " "             " "         " "          " "              
+    ## 20  ( 1 ) " "             " "         " "          " "              
+    ## 21  ( 1 ) " "             " "         " "          " "              
+    ## 22  ( 1 ) " "             " "         " "          " "              
+    ## 23  ( 1 ) " "             " "         " "          " "              
+    ## 24  ( 1 ) " "             " "         " "          " "              
+    ## 25  ( 1 ) " "             " "         " "          " "              
+    ## 26  ( 1 ) " "             " "         " "          " "              
+    ## 27  ( 1 ) " "             " "         " "          " "              
+    ## 28  ( 1 ) " "             " "         " "          " "              
+    ## 29  ( 1 ) " "             " "         " "          " "              
+    ## 30  ( 1 ) " "             " "         " "          " "              
+    ## 31  ( 1 ) " "             " "         " "          " "              
+    ## 32  ( 1 ) " "             " "         " "          " "              
+    ## 33  ( 1 ) " "             " "         " "          " "              
+    ## 34  ( 1 ) " "             " "         " "          " "              
+    ## 35  ( 1 ) " "             " "         " "          " "              
+    ## 36  ( 1 ) " "             " "         " "          " "              
+    ## 37  ( 1 ) " "             " "         " "          " "              
+    ## 38  ( 1 ) " "             " "         " "          " "              
+    ## 39  ( 1 ) " "             " "         " "          " "              
+    ## 40  ( 1 ) " "             " "         " "          " "              
+    ## 41  ( 1 ) " "             " "         " "          " "              
+    ## 42  ( 1 ) " "             " "         " "          " "              
+    ##           CountryMauritius CountryMexico
+    ## 1  ( 1 )  " "              " "          
+    ## 2  ( 1 )  " "              " "          
+    ## 3  ( 1 )  " "              " "          
+    ## 4  ( 1 )  " "              " "          
+    ## 5  ( 1 )  " "              " "          
+    ## 6  ( 1 )  " "              " "          
+    ## 7  ( 1 )  " "              " "          
+    ## 8  ( 1 )  " "              " "          
+    ## 9  ( 1 )  " "              " "          
+    ## 10  ( 1 ) " "              " "          
+    ## 11  ( 1 ) " "              " "          
+    ## 12  ( 1 ) " "              " "          
+    ## 13  ( 1 ) " "              " "          
+    ## 14  ( 1 ) " "              " "          
+    ## 15  ( 1 ) " "              " "          
+    ## 16  ( 1 ) " "              " "          
+    ## 17  ( 1 ) " "              " "          
+    ## 18  ( 1 ) " "              " "          
+    ## 19  ( 1 ) " "              " "          
+    ## 20  ( 1 ) " "              " "          
+    ## 21  ( 1 ) " "              " "          
+    ## 22  ( 1 ) " "              " "          
+    ## 23  ( 1 ) " "              " "          
+    ## 24  ( 1 ) " "              " "          
+    ## 25  ( 1 ) " "              " "          
+    ## 26  ( 1 ) " "              " "          
+    ## 27  ( 1 ) " "              " "          
+    ## 28  ( 1 ) " "              " "          
+    ## 29  ( 1 ) " "              " "          
+    ## 30  ( 1 ) " "              " "          
+    ## 31  ( 1 ) " "              " "          
+    ## 32  ( 1 ) " "              " "          
+    ## 33  ( 1 ) " "              " "          
+    ## 34  ( 1 ) " "              " "          
+    ## 35  ( 1 ) " "              " "          
+    ## 36  ( 1 ) " "              " "          
+    ## 37  ( 1 ) " "              " "          
+    ## 38  ( 1 ) " "              " "          
+    ## 39  ( 1 ) " "              " "          
+    ## 40  ( 1 ) " "              " "          
+    ## 41  ( 1 ) " "              " "          
+    ## 42  ( 1 ) " "              " "          
+    ##           CountryMicronesia (Federated States of) CountryMongolia
+    ## 1  ( 1 )  " "                                     " "            
+    ## 2  ( 1 )  " "                                     " "            
+    ## 3  ( 1 )  " "                                     " "            
+    ## 4  ( 1 )  " "                                     " "            
+    ## 5  ( 1 )  " "                                     " "            
+    ## 6  ( 1 )  " "                                     " "            
+    ## 7  ( 1 )  " "                                     " "            
+    ## 8  ( 1 )  " "                                     " "            
+    ## 9  ( 1 )  " "                                     " "            
+    ## 10  ( 1 ) " "                                     " "            
+    ## 11  ( 1 ) " "                                     " "            
+    ## 12  ( 1 ) " "                                     " "            
+    ## 13  ( 1 ) " "                                     " "            
+    ## 14  ( 1 ) " "                                     " "            
+    ## 15  ( 1 ) " "                                     " "            
+    ## 16  ( 1 ) " "                                     " "            
+    ## 17  ( 1 ) " "                                     " "            
+    ## 18  ( 1 ) " "                                     " "            
+    ## 19  ( 1 ) " "                                     " "            
+    ## 20  ( 1 ) " "                                     " "            
+    ## 21  ( 1 ) " "                                     " "            
+    ## 22  ( 1 ) " "                                     " "            
+    ## 23  ( 1 ) " "                                     " "            
+    ## 24  ( 1 ) " "                                     " "            
+    ## 25  ( 1 ) " "                                     " "            
+    ## 26  ( 1 ) " "                                     " "            
+    ## 27  ( 1 ) " "                                     " "            
+    ## 28  ( 1 ) " "                                     " "            
+    ## 29  ( 1 ) " "                                     " "            
+    ## 30  ( 1 ) " "                                     " "            
+    ## 31  ( 1 ) " "                                     " "            
+    ## 32  ( 1 ) " "                                     " "            
+    ## 33  ( 1 ) " "                                     " "            
+    ## 34  ( 1 ) " "                                     " "            
+    ## 35  ( 1 ) " "                                     " "            
+    ## 36  ( 1 ) " "                                     " "            
+    ## 37  ( 1 ) " "                                     " "            
+    ## 38  ( 1 ) " "                                     " "            
+    ## 39  ( 1 ) " "                                     " "            
+    ## 40  ( 1 ) " "                                     " "            
+    ## 41  ( 1 ) " "                                     " "            
+    ## 42  ( 1 ) " "                                     " "            
+    ##           CountryMontenegro CountryMorocco CountryMozambique CountryMyanmar
+    ## 1  ( 1 )  " "               " "            " "               " "           
+    ## 2  ( 1 )  " "               " "            " "               " "           
+    ## 3  ( 1 )  " "               " "            " "               " "           
+    ## 4  ( 1 )  " "               " "            " "               " "           
+    ## 5  ( 1 )  " "               " "            " "               " "           
+    ## 6  ( 1 )  " "               " "            " "               " "           
+    ## 7  ( 1 )  " "               " "            " "               " "           
+    ## 8  ( 1 )  " "               " "            " "               " "           
+    ## 9  ( 1 )  " "               " "            " "               " "           
+    ## 10  ( 1 ) " "               " "            " "               " "           
+    ## 11  ( 1 ) " "               " "            " "               " "           
+    ## 12  ( 1 ) " "               " "            " "               " "           
+    ## 13  ( 1 ) " "               " "            " "               " "           
+    ## 14  ( 1 ) " "               " "            " "               " "           
+    ## 15  ( 1 ) " "               " "            " "               " "           
+    ## 16  ( 1 ) " "               " "            " "               " "           
+    ## 17  ( 1 ) " "               " "            " "               " "           
+    ## 18  ( 1 ) " "               " "            " "               " "           
+    ## 19  ( 1 ) " "               " "            " "               " "           
+    ## 20  ( 1 ) " "               " "            " "               " "           
+    ## 21  ( 1 ) " "               " "            " "               " "           
+    ## 22  ( 1 ) " "               " "            " "               " "           
+    ## 23  ( 1 ) " "               " "            " "               " "           
+    ## 24  ( 1 ) " "               " "            " "               " "           
+    ## 25  ( 1 ) " "               " "            " "               " "           
+    ## 26  ( 1 ) " "               " "            " "               " "           
+    ## 27  ( 1 ) " "               " "            " "               " "           
+    ## 28  ( 1 ) " "               " "            " "               " "           
+    ## 29  ( 1 ) " "               " "            " "               " "           
+    ## 30  ( 1 ) " "               " "            " "               " "           
+    ## 31  ( 1 ) " "               " "            " "               " "           
+    ## 32  ( 1 ) " "               " "            " "               " "           
+    ## 33  ( 1 ) " "               " "            " "               " "           
+    ## 34  ( 1 ) " "               " "            " "               " "           
+    ## 35  ( 1 ) " "               " "            " "               " "           
+    ## 36  ( 1 ) " "               " "            " "               " "           
+    ## 37  ( 1 ) " "               " "            " "               " "           
+    ## 38  ( 1 ) " "               " "            " "               " "           
+    ## 39  ( 1 ) " "               " "            " "               " "           
+    ## 40  ( 1 ) " "               " "            " "               " "           
+    ## 41  ( 1 ) " "               " "            " "               " "           
+    ## 42  ( 1 ) " "               " "            " "               " "           
+    ##           CountryNamibia CountryNepal CountryNetherlands CountryNew Zealand
+    ## 1  ( 1 )  " "            " "          " "                " "               
+    ## 2  ( 1 )  " "            " "          " "                " "               
+    ## 3  ( 1 )  " "            " "          " "                " "               
+    ## 4  ( 1 )  " "            " "          " "                " "               
+    ## 5  ( 1 )  " "            " "          " "                " "               
+    ## 6  ( 1 )  " "            " "          " "                " "               
+    ## 7  ( 1 )  " "            " "          " "                " "               
+    ## 8  ( 1 )  " "            " "          " "                " "               
+    ## 9  ( 1 )  " "            " "          " "                " "               
+    ## 10  ( 1 ) " "            " "          " "                " "               
+    ## 11  ( 1 ) " "            " "          " "                " "               
+    ## 12  ( 1 ) " "            " "          " "                " "               
+    ## 13  ( 1 ) " "            " "          " "                " "               
+    ## 14  ( 1 ) " "            " "          " "                " "               
+    ## 15  ( 1 ) " "            " "          " "                " "               
+    ## 16  ( 1 ) " "            " "          " "                " "               
+    ## 17  ( 1 ) " "            " "          " "                " "               
+    ## 18  ( 1 ) " "            " "          " "                " "               
+    ## 19  ( 1 ) " "            " "          " "                " "               
+    ## 20  ( 1 ) " "            " "          " "                " "               
+    ## 21  ( 1 ) " "            " "          " "                " "               
+    ## 22  ( 1 ) " "            " "          " "                " "               
+    ## 23  ( 1 ) " "            " "          " "                " "               
+    ## 24  ( 1 ) " "            " "          " "                " "               
+    ## 25  ( 1 ) " "            " "          " "                " "               
+    ## 26  ( 1 ) " "            " "          " "                " "               
+    ## 27  ( 1 ) " "            " "          " "                " "               
+    ## 28  ( 1 ) " "            " "          " "                " "               
+    ## 29  ( 1 ) " "            " "          " "                " "               
+    ## 30  ( 1 ) " "            " "          " "                " "               
+    ## 31  ( 1 ) " "            " "          " "                " "               
+    ## 32  ( 1 ) " "            " "          " "                " "               
+    ## 33  ( 1 ) " "            " "          " "                " "               
+    ## 34  ( 1 ) " "            " "          " "                " "               
+    ## 35  ( 1 ) " "            " "          " "                " "               
+    ## 36  ( 1 ) " "            " "          " "                " "               
+    ## 37  ( 1 ) " "            " "          " "                " "               
+    ## 38  ( 1 ) " "            " "          " "                " "               
+    ## 39  ( 1 ) " "            " "          " "                " "               
+    ## 40  ( 1 ) " "            " "          " "                " "               
+    ## 41  ( 1 ) " "            " "          " "                " "               
+    ## 42  ( 1 ) " "            " "          " "                " "               
+    ##           CountryNicaragua CountryNiger CountryNigeria CountryNorway
+    ## 1  ( 1 )  " "              " "          " "            " "          
+    ## 2  ( 1 )  " "              " "          " "            " "          
+    ## 3  ( 1 )  " "              " "          " "            " "          
+    ## 4  ( 1 )  " "              " "          " "            " "          
+    ## 5  ( 1 )  " "              " "          " "            " "          
+    ## 6  ( 1 )  " "              " "          " "            " "          
+    ## 7  ( 1 )  " "              " "          " "            " "          
+    ## 8  ( 1 )  " "              " "          " "            " "          
+    ## 9  ( 1 )  " "              " "          " "            " "          
+    ## 10  ( 1 ) " "              " "          " "            " "          
+    ## 11  ( 1 ) " "              " "          " "            " "          
+    ## 12  ( 1 ) " "              " "          " "            " "          
+    ## 13  ( 1 ) " "              " "          " "            " "          
+    ## 14  ( 1 ) " "              " "          " "            " "          
+    ## 15  ( 1 ) " "              " "          " "            " "          
+    ## 16  ( 1 ) " "              " "          " "            " "          
+    ## 17  ( 1 ) " "              " "          " "            " "          
+    ## 18  ( 1 ) " "              " "          " "            " "          
+    ## 19  ( 1 ) " "              " "          " "            " "          
+    ## 20  ( 1 ) " "              " "          " "            " "          
+    ## 21  ( 1 ) " "              " "          " "            " "          
+    ## 22  ( 1 ) " "              " "          " "            " "          
+    ## 23  ( 1 ) " "              " "          " "            " "          
+    ## 24  ( 1 ) " "              " "          " "            " "          
+    ## 25  ( 1 ) " "              " "          " "            " "          
+    ## 26  ( 1 ) " "              " "          " "            " "          
+    ## 27  ( 1 ) " "              " "          " "            " "          
+    ## 28  ( 1 ) " "              " "          " "            " "          
+    ## 29  ( 1 ) " "              " "          " "            " "          
+    ## 30  ( 1 ) " "              " "          " "            " "          
+    ## 31  ( 1 ) " "              " "          " "            " "          
+    ## 32  ( 1 ) " "              " "          " "            " "          
+    ## 33  ( 1 ) " "              " "          " "            " "          
+    ## 34  ( 1 ) " "              " "          " "            " "          
+    ## 35  ( 1 ) " "              " "          " "            " "          
+    ## 36  ( 1 ) " "              " "          " "            " "          
+    ## 37  ( 1 ) " "              " "          " "            " "          
+    ## 38  ( 1 ) " "              " "          " "            " "          
+    ## 39  ( 1 ) " "              " "          " "            " "          
+    ## 40  ( 1 ) " "              " "          " "            " "          
+    ## 41  ( 1 ) " "              " "          " "            " "          
+    ## 42  ( 1 ) " "              " "          " "            " "          
+    ##           CountryOman CountryPakistan CountryPanama CountryPapua New Guinea
+    ## 1  ( 1 )  " "         " "             " "           " "                    
+    ## 2  ( 1 )  " "         " "             " "           " "                    
+    ## 3  ( 1 )  " "         " "             " "           " "                    
+    ## 4  ( 1 )  " "         " "             " "           " "                    
+    ## 5  ( 1 )  " "         " "             " "           " "                    
+    ## 6  ( 1 )  " "         " "             " "           " "                    
+    ## 7  ( 1 )  " "         " "             " "           " "                    
+    ## 8  ( 1 )  " "         " "             " "           " "                    
+    ## 9  ( 1 )  " "         " "             " "           " "                    
+    ## 10  ( 1 ) " "         " "             " "           " "                    
+    ## 11  ( 1 ) " "         " "             " "           " "                    
+    ## 12  ( 1 ) " "         " "             " "           " "                    
+    ## 13  ( 1 ) " "         " "             " "           " "                    
+    ## 14  ( 1 ) " "         " "             " "           " "                    
+    ## 15  ( 1 ) " "         " "             " "           " "                    
+    ## 16  ( 1 ) " "         " "             " "           " "                    
+    ## 17  ( 1 ) " "         " "             " "           " "                    
+    ## 18  ( 1 ) " "         " "             " "           " "                    
+    ## 19  ( 1 ) " "         " "             " "           " "                    
+    ## 20  ( 1 ) " "         " "             " "           " "                    
+    ## 21  ( 1 ) " "         " "             " "           " "                    
+    ## 22  ( 1 ) " "         " "             " "           " "                    
+    ## 23  ( 1 ) " "         " "             " "           " "                    
+    ## 24  ( 1 ) " "         " "             " "           " "                    
+    ## 25  ( 1 ) " "         " "             " "           " "                    
+    ## 26  ( 1 ) " "         " "             " "           " "                    
+    ## 27  ( 1 ) " "         " "             " "           " "                    
+    ## 28  ( 1 ) " "         " "             " "           " "                    
+    ## 29  ( 1 ) " "         " "             " "           " "                    
+    ## 30  ( 1 ) " "         " "             " "           " "                    
+    ## 31  ( 1 ) " "         " "             " "           " "                    
+    ## 32  ( 1 ) " "         " "             " "           " "                    
+    ## 33  ( 1 ) " "         " "             " "           " "                    
+    ## 34  ( 1 ) " "         " "             " "           "*"                    
+    ## 35  ( 1 ) " "         " "             " "           "*"                    
+    ## 36  ( 1 ) " "         " "             " "           "*"                    
+    ## 37  ( 1 ) " "         " "             " "           "*"                    
+    ## 38  ( 1 ) " "         " "             " "           "*"                    
+    ## 39  ( 1 ) " "         " "             " "           "*"                    
+    ## 40  ( 1 ) " "         " "             " "           "*"                    
+    ## 41  ( 1 ) " "         " "             " "           "*"                    
+    ## 42  ( 1 ) " "         " "             " "           "*"                    
+    ##           CountryParaguay CountryPeru CountryPhilippines CountryPoland
+    ## 1  ( 1 )  " "             " "         " "                " "          
+    ## 2  ( 1 )  " "             " "         " "                " "          
+    ## 3  ( 1 )  " "             " "         " "                " "          
+    ## 4  ( 1 )  " "             " "         " "                " "          
+    ## 5  ( 1 )  " "             " "         " "                " "          
+    ## 6  ( 1 )  " "             " "         " "                " "          
+    ## 7  ( 1 )  " "             " "         " "                " "          
+    ## 8  ( 1 )  " "             " "         " "                " "          
+    ## 9  ( 1 )  " "             " "         " "                " "          
+    ## 10  ( 1 ) " "             " "         " "                " "          
+    ## 11  ( 1 ) " "             " "         " "                " "          
+    ## 12  ( 1 ) " "             " "         " "                " "          
+    ## 13  ( 1 ) " "             " "         " "                " "          
+    ## 14  ( 1 ) " "             " "         " "                " "          
+    ## 15  ( 1 ) " "             " "         " "                " "          
+    ## 16  ( 1 ) " "             " "         " "                " "          
+    ## 17  ( 1 ) " "             " "         " "                " "          
+    ## 18  ( 1 ) " "             " "         " "                " "          
+    ## 19  ( 1 ) " "             " "         " "                " "          
+    ## 20  ( 1 ) " "             " "         " "                " "          
+    ## 21  ( 1 ) " "             " "         " "                " "          
+    ## 22  ( 1 ) " "             " "         " "                " "          
+    ## 23  ( 1 ) " "             " "         " "                " "          
+    ## 24  ( 1 ) " "             " "         " "                " "          
+    ## 25  ( 1 ) " "             " "         " "                " "          
+    ## 26  ( 1 ) " "             " "         " "                " "          
+    ## 27  ( 1 ) " "             " "         " "                " "          
+    ## 28  ( 1 ) " "             " "         " "                " "          
+    ## 29  ( 1 ) " "             " "         " "                " "          
+    ## 30  ( 1 ) " "             " "         " "                " "          
+    ## 31  ( 1 ) " "             " "         " "                " "          
+    ## 32  ( 1 ) " "             " "         " "                " "          
+    ## 33  ( 1 ) " "             " "         " "                " "          
+    ## 34  ( 1 ) " "             " "         " "                " "          
+    ## 35  ( 1 ) " "             " "         " "                " "          
+    ## 36  ( 1 ) " "             " "         " "                " "          
+    ## 37  ( 1 ) " "             " "         " "                " "          
+    ## 38  ( 1 ) " "             " "         " "                " "          
+    ## 39  ( 1 ) " "             " "         " "                " "          
+    ## 40  ( 1 ) " "             " "         " "                " "          
+    ## 41  ( 1 ) " "             " "         " "                " "          
+    ## 42  ( 1 ) " "             " "         " "                " "          
+    ##           CountryPortugal CountryQatar CountryRepublic of Korea
+    ## 1  ( 1 )  " "             " "          " "                     
+    ## 2  ( 1 )  " "             " "          " "                     
+    ## 3  ( 1 )  " "             " "          " "                     
+    ## 4  ( 1 )  " "             " "          " "                     
+    ## 5  ( 1 )  " "             " "          " "                     
+    ## 6  ( 1 )  " "             " "          " "                     
+    ## 7  ( 1 )  " "             " "          " "                     
+    ## 8  ( 1 )  " "             " "          " "                     
+    ## 9  ( 1 )  " "             " "          " "                     
+    ## 10  ( 1 ) " "             " "          " "                     
+    ## 11  ( 1 ) " "             " "          " "                     
+    ## 12  ( 1 ) " "             " "          " "                     
+    ## 13  ( 1 ) " "             " "          " "                     
+    ## 14  ( 1 ) " "             " "          " "                     
+    ## 15  ( 1 ) " "             " "          " "                     
+    ## 16  ( 1 ) " "             " "          " "                     
+    ## 17  ( 1 ) " "             " "          " "                     
+    ## 18  ( 1 ) " "             " "          " "                     
+    ## 19  ( 1 ) " "             " "          " "                     
+    ## 20  ( 1 ) " "             " "          " "                     
+    ## 21  ( 1 ) " "             " "          " "                     
+    ## 22  ( 1 ) " "             " "          " "                     
+    ## 23  ( 1 ) " "             " "          " "                     
+    ## 24  ( 1 ) " "             " "          " "                     
+    ## 25  ( 1 ) " "             " "          " "                     
+    ## 26  ( 1 ) " "             " "          " "                     
+    ## 27  ( 1 ) " "             " "          " "                     
+    ## 28  ( 1 ) " "             " "          " "                     
+    ## 29  ( 1 ) " "             " "          "*"                     
+    ## 30  ( 1 ) " "             " "          "*"                     
+    ## 31  ( 1 ) " "             " "          "*"                     
+    ## 32  ( 1 ) " "             " "          "*"                     
+    ## 33  ( 1 ) " "             " "          "*"                     
+    ## 34  ( 1 ) " "             " "          "*"                     
+    ## 35  ( 1 ) " "             " "          "*"                     
+    ## 36  ( 1 ) " "             " "          "*"                     
+    ## 37  ( 1 ) " "             " "          "*"                     
+    ## 38  ( 1 ) " "             " "          "*"                     
+    ## 39  ( 1 ) " "             " "          "*"                     
+    ## 40  ( 1 ) " "             " "          "*"                     
+    ## 41  ( 1 ) " "             " "          "*"                     
+    ## 42  ( 1 ) " "             " "          "*"                     
+    ##           CountryRepublic of Moldova CountryRomania CountryRussian Federation
+    ## 1  ( 1 )  " "                        " "            " "                      
+    ## 2  ( 1 )  " "                        " "            " "                      
+    ## 3  ( 1 )  " "                        " "            " "                      
+    ## 4  ( 1 )  " "                        " "            " "                      
+    ## 5  ( 1 )  " "                        " "            " "                      
+    ## 6  ( 1 )  " "                        " "            " "                      
+    ## 7  ( 1 )  " "                        " "            " "                      
+    ## 8  ( 1 )  " "                        " "            " "                      
+    ## 9  ( 1 )  " "                        " "            " "                      
+    ## 10  ( 1 ) " "                        " "            " "                      
+    ## 11  ( 1 ) " "                        " "            " "                      
+    ## 12  ( 1 ) " "                        " "            " "                      
+    ## 13  ( 1 ) " "                        " "            " "                      
+    ## 14  ( 1 ) " "                        " "            " "                      
+    ## 15  ( 1 ) " "                        " "            " "                      
+    ## 16  ( 1 ) " "                        " "            " "                      
+    ## 17  ( 1 ) " "                        " "            " "                      
+    ## 18  ( 1 ) " "                        " "            " "                      
+    ## 19  ( 1 ) " "                        " "            " "                      
+    ## 20  ( 1 ) " "                        " "            " "                      
+    ## 21  ( 1 ) " "                        " "            " "                      
+    ## 22  ( 1 ) " "                        " "            " "                      
+    ## 23  ( 1 ) " "                        " "            " "                      
+    ## 24  ( 1 ) " "                        " "            " "                      
+    ## 25  ( 1 ) " "                        " "            " "                      
+    ## 26  ( 1 ) " "                        " "            " "                      
+    ## 27  ( 1 ) " "                        " "            " "                      
+    ## 28  ( 1 ) " "                        " "            " "                      
+    ## 29  ( 1 ) " "                        " "            " "                      
+    ## 30  ( 1 ) " "                        " "            " "                      
+    ## 31  ( 1 ) " "                        " "            " "                      
+    ## 32  ( 1 ) " "                        " "            " "                      
+    ## 33  ( 1 ) " "                        " "            " "                      
+    ## 34  ( 1 ) " "                        " "            " "                      
+    ## 35  ( 1 ) " "                        " "            " "                      
+    ## 36  ( 1 ) " "                        " "            " "                      
+    ## 37  ( 1 ) " "                        " "            " "                      
+    ## 38  ( 1 ) " "                        " "            " "                      
+    ## 39  ( 1 ) " "                        " "            " "                      
+    ## 40  ( 1 ) " "                        " "            " "                      
+    ## 41  ( 1 ) " "                        " "            " "                      
+    ## 42  ( 1 ) " "                        " "            " "                      
+    ##           CountryRwanda CountrySaint Lucia
+    ## 1  ( 1 )  " "           " "               
+    ## 2  ( 1 )  " "           " "               
+    ## 3  ( 1 )  " "           " "               
+    ## 4  ( 1 )  " "           " "               
+    ## 5  ( 1 )  " "           " "               
+    ## 6  ( 1 )  " "           " "               
+    ## 7  ( 1 )  " "           " "               
+    ## 8  ( 1 )  " "           " "               
+    ## 9  ( 1 )  " "           " "               
+    ## 10  ( 1 ) " "           " "               
+    ## 11  ( 1 ) " "           " "               
+    ## 12  ( 1 ) " "           " "               
+    ## 13  ( 1 ) " "           " "               
+    ## 14  ( 1 ) " "           " "               
+    ## 15  ( 1 ) " "           " "               
+    ## 16  ( 1 ) " "           " "               
+    ## 17  ( 1 ) " "           " "               
+    ## 18  ( 1 ) " "           " "               
+    ## 19  ( 1 ) " "           " "               
+    ## 20  ( 1 ) " "           " "               
+    ## 21  ( 1 ) " "           " "               
+    ## 22  ( 1 ) " "           " "               
+    ## 23  ( 1 ) " "           " "               
+    ## 24  ( 1 ) " "           " "               
+    ## 25  ( 1 ) " "           " "               
+    ## 26  ( 1 ) " "           " "               
+    ## 27  ( 1 ) " "           " "               
+    ## 28  ( 1 ) " "           " "               
+    ## 29  ( 1 ) " "           " "               
+    ## 30  ( 1 ) " "           " "               
+    ## 31  ( 1 ) " "           " "               
+    ## 32  ( 1 ) " "           " "               
+    ## 33  ( 1 ) " "           " "               
+    ## 34  ( 1 ) " "           " "               
+    ## 35  ( 1 ) " "           " "               
+    ## 36  ( 1 ) " "           " "               
+    ## 37  ( 1 ) " "           " "               
+    ## 38  ( 1 ) " "           " "               
+    ## 39  ( 1 ) " "           " "               
+    ## 40  ( 1 ) " "           " "               
+    ## 41  ( 1 ) " "           " "               
+    ## 42  ( 1 ) " "           " "               
+    ##           CountrySaint Vincent and the Grenadines CountrySamoa
+    ## 1  ( 1 )  " "                                     " "         
+    ## 2  ( 1 )  " "                                     " "         
+    ## 3  ( 1 )  " "                                     " "         
+    ## 4  ( 1 )  " "                                     " "         
+    ## 5  ( 1 )  " "                                     " "         
+    ## 6  ( 1 )  " "                                     " "         
+    ## 7  ( 1 )  " "                                     " "         
+    ## 8  ( 1 )  " "                                     " "         
+    ## 9  ( 1 )  " "                                     " "         
+    ## 10  ( 1 ) " "                                     " "         
+    ## 11  ( 1 ) " "                                     " "         
+    ## 12  ( 1 ) " "                                     " "         
+    ## 13  ( 1 ) " "                                     " "         
+    ## 14  ( 1 ) " "                                     " "         
+    ## 15  ( 1 ) " "                                     " "         
+    ## 16  ( 1 ) " "                                     " "         
+    ## 17  ( 1 ) " "                                     " "         
+    ## 18  ( 1 ) " "                                     " "         
+    ## 19  ( 1 ) " "                                     " "         
+    ## 20  ( 1 ) " "                                     " "         
+    ## 21  ( 1 ) " "                                     " "         
+    ## 22  ( 1 ) " "                                     " "         
+    ## 23  ( 1 ) " "                                     " "         
+    ## 24  ( 1 ) " "                                     " "         
+    ## 25  ( 1 ) " "                                     " "         
+    ## 26  ( 1 ) " "                                     " "         
+    ## 27  ( 1 ) " "                                     " "         
+    ## 28  ( 1 ) " "                                     " "         
+    ## 29  ( 1 ) " "                                     " "         
+    ## 30  ( 1 ) " "                                     " "         
+    ## 31  ( 1 ) " "                                     " "         
+    ## 32  ( 1 ) " "                                     " "         
+    ## 33  ( 1 ) " "                                     " "         
+    ## 34  ( 1 ) " "                                     " "         
+    ## 35  ( 1 ) " "                                     " "         
+    ## 36  ( 1 ) " "                                     " "         
+    ## 37  ( 1 ) " "                                     " "         
+    ## 38  ( 1 ) " "                                     " "         
+    ## 39  ( 1 ) " "                                     " "         
+    ## 40  ( 1 ) " "                                     " "         
+    ## 41  ( 1 ) " "                                     " "         
+    ## 42  ( 1 ) " "                                     " "         
+    ##           CountrySao Tome and Principe CountrySaudi Arabia CountrySenegal
+    ## 1  ( 1 )  " "                          " "                 " "           
+    ## 2  ( 1 )  " "                          " "                 " "           
+    ## 3  ( 1 )  " "                          " "                 " "           
+    ## 4  ( 1 )  " "                          " "                 " "           
+    ## 5  ( 1 )  " "                          " "                 " "           
+    ## 6  ( 1 )  " "                          " "                 " "           
+    ## 7  ( 1 )  " "                          " "                 " "           
+    ## 8  ( 1 )  " "                          " "                 " "           
+    ## 9  ( 1 )  " "                          " "                 " "           
+    ## 10  ( 1 ) " "                          " "                 " "           
+    ## 11  ( 1 ) " "                          " "                 " "           
+    ## 12  ( 1 ) " "                          " "                 " "           
+    ## 13  ( 1 ) " "                          " "                 " "           
+    ## 14  ( 1 ) " "                          " "                 " "           
+    ## 15  ( 1 ) " "                          " "                 " "           
+    ## 16  ( 1 ) " "                          " "                 " "           
+    ## 17  ( 1 ) " "                          " "                 " "           
+    ## 18  ( 1 ) " "                          " "                 " "           
+    ## 19  ( 1 ) " "                          " "                 " "           
+    ## 20  ( 1 ) " "                          " "                 " "           
+    ## 21  ( 1 ) " "                          " "                 " "           
+    ## 22  ( 1 ) " "                          " "                 " "           
+    ## 23  ( 1 ) " "                          " "                 " "           
+    ## 24  ( 1 ) " "                          " "                 " "           
+    ## 25  ( 1 ) " "                          " "                 " "           
+    ## 26  ( 1 ) " "                          " "                 " "           
+    ## 27  ( 1 ) " "                          " "                 " "           
+    ## 28  ( 1 ) " "                          " "                 " "           
+    ## 29  ( 1 ) " "                          " "                 " "           
+    ## 30  ( 1 ) " "                          " "                 " "           
+    ## 31  ( 1 ) " "                          " "                 " "           
+    ## 32  ( 1 ) " "                          " "                 " "           
+    ## 33  ( 1 ) " "                          " "                 " "           
+    ## 34  ( 1 ) " "                          " "                 " "           
+    ## 35  ( 1 ) " "                          " "                 " "           
+    ## 36  ( 1 ) " "                          " "                 " "           
+    ## 37  ( 1 ) " "                          " "                 " "           
+    ## 38  ( 1 ) " "                          " "                 " "           
+    ## 39  ( 1 ) " "                          " "                 " "           
+    ## 40  ( 1 ) "*"                          " "                 " "           
+    ## 41  ( 1 ) "*"                          " "                 " "           
+    ## 42  ( 1 ) "*"                          " "                 " "           
+    ##           CountrySerbia CountrySeychelles CountrySierra Leone CountrySingapore
+    ## 1  ( 1 )  " "           " "               " "                 " "             
+    ## 2  ( 1 )  " "           " "               " "                 " "             
+    ## 3  ( 1 )  " "           " "               " "                 " "             
+    ## 4  ( 1 )  " "           " "               " "                 " "             
+    ## 5  ( 1 )  " "           " "               " "                 " "             
+    ## 6  ( 1 )  " "           " "               " "                 " "             
+    ## 7  ( 1 )  " "           " "               " "                 " "             
+    ## 8  ( 1 )  " "           " "               " "                 " "             
+    ## 9  ( 1 )  " "           " "               " "                 " "             
+    ## 10  ( 1 ) " "           " "               " "                 " "             
+    ## 11  ( 1 ) " "           " "               " "                 " "             
+    ## 12  ( 1 ) " "           " "               " "                 " "             
+    ## 13  ( 1 ) " "           " "               " "                 " "             
+    ## 14  ( 1 ) " "           " "               " "                 " "             
+    ## 15  ( 1 ) " "           " "               " "                 " "             
+    ## 16  ( 1 ) " "           " "               " "                 " "             
+    ## 17  ( 1 ) " "           " "               " "                 " "             
+    ## 18  ( 1 ) " "           " "               " "                 " "             
+    ## 19  ( 1 ) " "           " "               " "                 " "             
+    ## 20  ( 1 ) " "           " "               " "                 " "             
+    ## 21  ( 1 ) " "           " "               " "                 " "             
+    ## 22  ( 1 ) " "           " "               " "                 " "             
+    ## 23  ( 1 ) " "           " "               " "                 "*"             
+    ## 24  ( 1 ) " "           " "               " "                 "*"             
+    ## 25  ( 1 ) " "           " "               " "                 "*"             
+    ## 26  ( 1 ) " "           " "               " "                 "*"             
+    ## 27  ( 1 ) " "           " "               " "                 "*"             
+    ## 28  ( 1 ) " "           " "               " "                 "*"             
+    ## 29  ( 1 ) " "           " "               " "                 "*"             
+    ## 30  ( 1 ) " "           " "               " "                 "*"             
+    ## 31  ( 1 ) " "           " "               " "                 "*"             
+    ## 32  ( 1 ) " "           " "               " "                 "*"             
+    ## 33  ( 1 ) " "           " "               " "                 "*"             
+    ## 34  ( 1 ) " "           " "               " "                 "*"             
+    ## 35  ( 1 ) " "           " "               " "                 "*"             
+    ## 36  ( 1 ) " "           " "               " "                 "*"             
+    ## 37  ( 1 ) " "           " "               " "                 "*"             
+    ## 38  ( 1 ) " "           " "               " "                 "*"             
+    ## 39  ( 1 ) " "           " "               " "                 "*"             
+    ## 40  ( 1 ) " "           " "               " "                 "*"             
+    ## 41  ( 1 ) " "           " "               " "                 "*"             
+    ## 42  ( 1 ) " "           " "               " "                 "*"             
+    ##           CountrySlovakia CountrySlovenia CountrySolomon Islands CountrySomalia
+    ## 1  ( 1 )  " "             " "             " "                    " "           
+    ## 2  ( 1 )  " "             " "             " "                    " "           
+    ## 3  ( 1 )  " "             " "             " "                    " "           
+    ## 4  ( 1 )  " "             " "             " "                    " "           
+    ## 5  ( 1 )  " "             " "             " "                    " "           
+    ## 6  ( 1 )  " "             " "             " "                    " "           
+    ## 7  ( 1 )  " "             " "             " "                    " "           
+    ## 8  ( 1 )  " "             " "             " "                    " "           
+    ## 9  ( 1 )  " "             " "             " "                    " "           
+    ## 10  ( 1 ) " "             " "             " "                    " "           
+    ## 11  ( 1 ) " "             " "             " "                    " "           
+    ## 12  ( 1 ) " "             " "             " "                    " "           
+    ## 13  ( 1 ) " "             " "             " "                    " "           
+    ## 14  ( 1 ) " "             " "             " "                    "*"           
+    ## 15  ( 1 ) " "             " "             " "                    "*"           
+    ## 16  ( 1 ) " "             " "             " "                    "*"           
+    ## 17  ( 1 ) " "             " "             " "                    "*"           
+    ## 18  ( 1 ) " "             " "             " "                    "*"           
+    ## 19  ( 1 ) " "             " "             " "                    "*"           
+    ## 20  ( 1 ) " "             " "             " "                    "*"           
+    ## 21  ( 1 ) " "             " "             " "                    "*"           
+    ## 22  ( 1 ) " "             " "             " "                    "*"           
+    ## 23  ( 1 ) " "             " "             " "                    "*"           
+    ## 24  ( 1 ) " "             " "             " "                    "*"           
+    ## 25  ( 1 ) " "             " "             " "                    "*"           
+    ## 26  ( 1 ) " "             " "             " "                    "*"           
+    ## 27  ( 1 ) " "             " "             " "                    "*"           
+    ## 28  ( 1 ) " "             " "             " "                    "*"           
+    ## 29  ( 1 ) " "             " "             " "                    "*"           
+    ## 30  ( 1 ) " "             " "             " "                    "*"           
+    ## 31  ( 1 ) " "             " "             " "                    "*"           
+    ## 32  ( 1 ) " "             " "             " "                    "*"           
+    ## 33  ( 1 ) " "             " "             " "                    "*"           
+    ## 34  ( 1 ) " "             " "             " "                    "*"           
+    ## 35  ( 1 ) " "             " "             " "                    "*"           
+    ## 36  ( 1 ) " "             " "             " "                    "*"           
+    ## 37  ( 1 ) " "             " "             " "                    "*"           
+    ## 38  ( 1 ) " "             " "             " "                    "*"           
+    ## 39  ( 1 ) " "             " "             " "                    "*"           
+    ## 40  ( 1 ) " "             " "             " "                    "*"           
+    ## 41  ( 1 ) " "             " "             " "                    "*"           
+    ## 42  ( 1 ) " "             " "             " "                    "*"           
+    ##           CountrySouth Africa CountrySouth Sudan CountrySpain CountrySri Lanka
+    ## 1  ( 1 )  " "                 " "                " "          " "             
+    ## 2  ( 1 )  " "                 " "                " "          " "             
+    ## 3  ( 1 )  " "                 " "                " "          " "             
+    ## 4  ( 1 )  " "                 " "                " "          " "             
+    ## 5  ( 1 )  " "                 " "                " "          " "             
+    ## 6  ( 1 )  " "                 " "                " "          " "             
+    ## 7  ( 1 )  " "                 " "                " "          " "             
+    ## 8  ( 1 )  " "                 " "                " "          " "             
+    ## 9  ( 1 )  " "                 " "                " "          " "             
+    ## 10  ( 1 ) " "                 " "                " "          " "             
+    ## 11  ( 1 ) " "                 " "                " "          " "             
+    ## 12  ( 1 ) " "                 " "                " "          " "             
+    ## 13  ( 1 ) " "                 " "                " "          " "             
+    ## 14  ( 1 ) " "                 " "                " "          " "             
+    ## 15  ( 1 ) " "                 " "                " "          " "             
+    ## 16  ( 1 ) " "                 " "                " "          " "             
+    ## 17  ( 1 ) " "                 " "                " "          " "             
+    ## 18  ( 1 ) " "                 " "                " "          " "             
+    ## 19  ( 1 ) " "                 " "                " "          " "             
+    ## 20  ( 1 ) " "                 " "                " "          " "             
+    ## 21  ( 1 ) " "                 " "                " "          " "             
+    ## 22  ( 1 ) " "                 " "                " "          " "             
+    ## 23  ( 1 ) " "                 " "                " "          " "             
+    ## 24  ( 1 ) " "                 " "                " "          " "             
+    ## 25  ( 1 ) " "                 " "                " "          " "             
+    ## 26  ( 1 ) " "                 " "                " "          " "             
+    ## 27  ( 1 ) " "                 " "                " "          " "             
+    ## 28  ( 1 ) " "                 " "                " "          " "             
+    ## 29  ( 1 ) " "                 " "                " "          " "             
+    ## 30  ( 1 ) " "                 " "                " "          " "             
+    ## 31  ( 1 ) " "                 " "                " "          " "             
+    ## 32  ( 1 ) " "                 " "                " "          " "             
+    ## 33  ( 1 ) " "                 " "                " "          " "             
+    ## 34  ( 1 ) " "                 " "                " "          " "             
+    ## 35  ( 1 ) " "                 " "                " "          " "             
+    ## 36  ( 1 ) " "                 " "                " "          " "             
+    ## 37  ( 1 ) " "                 " "                " "          " "             
+    ## 38  ( 1 ) " "                 " "                " "          " "             
+    ## 39  ( 1 ) " "                 " "                " "          " "             
+    ## 40  ( 1 ) " "                 " "                " "          " "             
+    ## 41  ( 1 ) " "                 " "                " "          " "             
+    ## 42  ( 1 ) " "                 " "                " "          " "             
+    ##           CountrySudan CountrySuriname CountrySwaziland CountrySweden
+    ## 1  ( 1 )  " "          " "             " "              " "          
+    ## 2  ( 1 )  " "          " "             " "              " "          
+    ## 3  ( 1 )  " "          " "             " "              " "          
+    ## 4  ( 1 )  " "          " "             " "              " "          
+    ## 5  ( 1 )  " "          " "             " "              " "          
+    ## 6  ( 1 )  " "          " "             " "              " "          
+    ## 7  ( 1 )  " "          " "             " "              " "          
+    ## 8  ( 1 )  " "          " "             " "              " "          
+    ## 9  ( 1 )  " "          " "             " "              " "          
+    ## 10  ( 1 ) " "          " "             " "              " "          
+    ## 11  ( 1 ) " "          " "             " "              " "          
+    ## 12  ( 1 ) " "          " "             " "              " "          
+    ## 13  ( 1 ) " "          " "             " "              " "          
+    ## 14  ( 1 ) " "          " "             " "              " "          
+    ## 15  ( 1 ) " "          " "             " "              " "          
+    ## 16  ( 1 ) " "          " "             " "              " "          
+    ## 17  ( 1 ) " "          " "             " "              " "          
+    ## 18  ( 1 ) " "          " "             " "              " "          
+    ## 19  ( 1 ) " "          " "             " "              " "          
+    ## 20  ( 1 ) " "          " "             " "              " "          
+    ## 21  ( 1 ) " "          " "             " "              " "          
+    ## 22  ( 1 ) " "          " "             " "              " "          
+    ## 23  ( 1 ) " "          " "             " "              " "          
+    ## 24  ( 1 ) " "          " "             " "              " "          
+    ## 25  ( 1 ) " "          " "             " "              " "          
+    ## 26  ( 1 ) " "          " "             " "              " "          
+    ## 27  ( 1 ) " "          " "             " "              " "          
+    ## 28  ( 1 ) " "          " "             " "              " "          
+    ## 29  ( 1 ) " "          " "             " "              " "          
+    ## 30  ( 1 ) " "          " "             " "              " "          
+    ## 31  ( 1 ) " "          " "             " "              " "          
+    ## 32  ( 1 ) " "          " "             " "              " "          
+    ## 33  ( 1 ) " "          " "             " "              " "          
+    ## 34  ( 1 ) " "          " "             " "              " "          
+    ## 35  ( 1 ) " "          " "             " "              " "          
+    ## 36  ( 1 ) " "          " "             " "              " "          
+    ## 37  ( 1 ) " "          " "             " "              " "          
+    ## 38  ( 1 ) " "          " "             " "              " "          
+    ## 39  ( 1 ) " "          " "             " "              " "          
+    ## 40  ( 1 ) " "          " "             " "              " "          
+    ## 41  ( 1 ) " "          " "             " "              " "          
+    ## 42  ( 1 ) " "          " "             " "              " "          
+    ##           CountrySwitzerland CountrySyrian Arab Republic CountryTajikistan
+    ## 1  ( 1 )  " "                " "                         " "              
+    ## 2  ( 1 )  " "                " "                         " "              
+    ## 3  ( 1 )  " "                " "                         " "              
+    ## 4  ( 1 )  " "                " "                         " "              
+    ## 5  ( 1 )  " "                " "                         " "              
+    ## 6  ( 1 )  " "                " "                         " "              
+    ## 7  ( 1 )  " "                " "                         " "              
+    ## 8  ( 1 )  " "                " "                         " "              
+    ## 9  ( 1 )  " "                " "                         " "              
+    ## 10  ( 1 ) " "                " "                         "*"              
+    ## 11  ( 1 ) " "                " "                         "*"              
+    ## 12  ( 1 ) " "                " "                         "*"              
+    ## 13  ( 1 ) " "                " "                         "*"              
+    ## 14  ( 1 ) " "                " "                         "*"              
+    ## 15  ( 1 ) " "                " "                         "*"              
+    ## 16  ( 1 ) " "                " "                         "*"              
+    ## 17  ( 1 ) " "                " "                         "*"              
+    ## 18  ( 1 ) " "                " "                         "*"              
+    ## 19  ( 1 ) " "                " "                         "*"              
+    ## 20  ( 1 ) " "                " "                         "*"              
+    ## 21  ( 1 ) " "                " "                         "*"              
+    ## 22  ( 1 ) " "                " "                         "*"              
+    ## 23  ( 1 ) " "                " "                         "*"              
+    ## 24  ( 1 ) " "                " "                         "*"              
+    ## 25  ( 1 ) " "                " "                         "*"              
+    ## 26  ( 1 ) " "                " "                         "*"              
+    ## 27  ( 1 ) " "                " "                         "*"              
+    ## 28  ( 1 ) " "                " "                         "*"              
+    ## 29  ( 1 ) " "                " "                         "*"              
+    ## 30  ( 1 ) " "                " "                         "*"              
+    ## 31  ( 1 ) " "                " "                         "*"              
+    ## 32  ( 1 ) " "                " "                         "*"              
+    ## 33  ( 1 ) " "                " "                         "*"              
+    ## 34  ( 1 ) " "                " "                         "*"              
+    ## 35  ( 1 ) " "                " "                         "*"              
+    ## 36  ( 1 ) " "                " "                         "*"              
+    ## 37  ( 1 ) " "                " "                         "*"              
+    ## 38  ( 1 ) " "                " "                         "*"              
+    ## 39  ( 1 ) " "                " "                         "*"              
+    ## 40  ( 1 ) " "                " "                         "*"              
+    ## 41  ( 1 ) " "                " "                         "*"              
+    ## 42  ( 1 ) " "                " "                         "*"              
+    ##           CountryThailand CountryThe former Yugoslav republic of Macedonia
+    ## 1  ( 1 )  " "             " "                                             
+    ## 2  ( 1 )  " "             " "                                             
+    ## 3  ( 1 )  " "             " "                                             
+    ## 4  ( 1 )  " "             " "                                             
+    ## 5  ( 1 )  " "             " "                                             
+    ## 6  ( 1 )  " "             " "                                             
+    ## 7  ( 1 )  " "             " "                                             
+    ## 8  ( 1 )  " "             " "                                             
+    ## 9  ( 1 )  " "             " "                                             
+    ## 10  ( 1 ) " "             " "                                             
+    ## 11  ( 1 ) " "             " "                                             
+    ## 12  ( 1 ) " "             " "                                             
+    ## 13  ( 1 ) " "             " "                                             
+    ## 14  ( 1 ) " "             " "                                             
+    ## 15  ( 1 ) " "             " "                                             
+    ## 16  ( 1 ) " "             " "                                             
+    ## 17  ( 1 ) " "             " "                                             
+    ## 18  ( 1 ) " "             " "                                             
+    ## 19  ( 1 ) " "             " "                                             
+    ## 20  ( 1 ) " "             " "                                             
+    ## 21  ( 1 ) " "             " "                                             
+    ## 22  ( 1 ) " "             " "                                             
+    ## 23  ( 1 ) " "             " "                                             
+    ## 24  ( 1 ) " "             " "                                             
+    ## 25  ( 1 ) " "             " "                                             
+    ## 26  ( 1 ) " "             " "                                             
+    ## 27  ( 1 ) " "             " "                                             
+    ## 28  ( 1 ) " "             " "                                             
+    ## 29  ( 1 ) " "             " "                                             
+    ## 30  ( 1 ) " "             " "                                             
+    ## 31  ( 1 ) " "             " "                                             
+    ## 32  ( 1 ) " "             " "                                             
+    ## 33  ( 1 ) " "             " "                                             
+    ## 34  ( 1 ) " "             " "                                             
+    ## 35  ( 1 ) " "             " "                                             
+    ## 36  ( 1 ) " "             " "                                             
+    ## 37  ( 1 ) " "             " "                                             
+    ## 38  ( 1 ) " "             " "                                             
+    ## 39  ( 1 ) " "             " "                                             
+    ## 40  ( 1 ) " "             " "                                             
+    ## 41  ( 1 ) " "             " "                                             
+    ## 42  ( 1 ) " "             " "                                             
+    ##           CountryTimor-Leste CountryTogo CountryTonga
+    ## 1  ( 1 )  " "                " "         " "         
+    ## 2  ( 1 )  " "                " "         " "         
+    ## 3  ( 1 )  " "                " "         " "         
+    ## 4  ( 1 )  " "                " "         " "         
+    ## 5  ( 1 )  " "                " "         " "         
+    ## 6  ( 1 )  " "                " "         " "         
+    ## 7  ( 1 )  " "                " "         " "         
+    ## 8  ( 1 )  " "                " "         " "         
+    ## 9  ( 1 )  " "                " "         " "         
+    ## 10  ( 1 ) " "                " "         " "         
+    ## 11  ( 1 ) " "                " "         " "         
+    ## 12  ( 1 ) " "                " "         " "         
+    ## 13  ( 1 ) " "                " "         " "         
+    ## 14  ( 1 ) " "                " "         " "         
+    ## 15  ( 1 ) " "                " "         " "         
+    ## 16  ( 1 ) " "                " "         " "         
+    ## 17  ( 1 ) " "                " "         " "         
+    ## 18  ( 1 ) " "                " "         " "         
+    ## 19  ( 1 ) " "                " "         " "         
+    ## 20  ( 1 ) " "                " "         " "         
+    ## 21  ( 1 ) " "                " "         " "         
+    ## 22  ( 1 ) " "                " "         " "         
+    ## 23  ( 1 ) " "                " "         " "         
+    ## 24  ( 1 ) " "                " "         " "         
+    ## 25  ( 1 ) " "                " "         " "         
+    ## 26  ( 1 ) " "                " "         " "         
+    ## 27  ( 1 ) " "                " "         " "         
+    ## 28  ( 1 ) " "                " "         " "         
+    ## 29  ( 1 ) " "                " "         " "         
+    ## 30  ( 1 ) " "                " "         " "         
+    ## 31  ( 1 ) " "                " "         " "         
+    ## 32  ( 1 ) " "                " "         " "         
+    ## 33  ( 1 ) " "                " "         " "         
+    ## 34  ( 1 ) " "                " "         " "         
+    ## 35  ( 1 ) " "                " "         " "         
+    ## 36  ( 1 ) " "                " "         " "         
+    ## 37  ( 1 ) " "                " "         " "         
+    ## 38  ( 1 ) "*"                " "         " "         
+    ## 39  ( 1 ) "*"                " "         " "         
+    ## 40  ( 1 ) "*"                " "         " "         
+    ## 41  ( 1 ) "*"                " "         " "         
+    ## 42  ( 1 ) "*"                " "         " "         
+    ##           CountryTrinidad and Tobago CountryTunisia CountryTurkey
+    ## 1  ( 1 )  " "                        " "            " "          
+    ## 2  ( 1 )  " "                        " "            " "          
+    ## 3  ( 1 )  " "                        " "            " "          
+    ## 4  ( 1 )  " "                        " "            " "          
+    ## 5  ( 1 )  " "                        " "            " "          
+    ## 6  ( 1 )  " "                        " "            " "          
+    ## 7  ( 1 )  " "                        " "            " "          
+    ## 8  ( 1 )  " "                        " "            " "          
+    ## 9  ( 1 )  " "                        " "            " "          
+    ## 10  ( 1 ) " "                        " "            " "          
+    ## 11  ( 1 ) " "                        " "            " "          
+    ## 12  ( 1 ) " "                        " "            " "          
+    ## 13  ( 1 ) " "                        " "            " "          
+    ## 14  ( 1 ) " "                        " "            " "          
+    ## 15  ( 1 ) " "                        " "            " "          
+    ## 16  ( 1 ) " "                        " "            " "          
+    ## 17  ( 1 ) " "                        " "            " "          
+    ## 18  ( 1 ) " "                        " "            " "          
+    ## 19  ( 1 ) " "                        " "            " "          
+    ## 20  ( 1 ) " "                        " "            " "          
+    ## 21  ( 1 ) " "                        " "            " "          
+    ## 22  ( 1 ) " "                        " "            " "          
+    ## 23  ( 1 ) " "                        " "            " "          
+    ## 24  ( 1 ) " "                        " "            " "          
+    ## 25  ( 1 ) " "                        " "            " "          
+    ## 26  ( 1 ) " "                        " "            " "          
+    ## 27  ( 1 ) " "                        " "            " "          
+    ## 28  ( 1 ) " "                        " "            " "          
+    ## 29  ( 1 ) " "                        " "            " "          
+    ## 30  ( 1 ) " "                        " "            " "          
+    ## 31  ( 1 ) " "                        " "            " "          
+    ## 32  ( 1 ) " "                        " "            " "          
+    ## 33  ( 1 ) " "                        " "            " "          
+    ## 34  ( 1 ) " "                        " "            " "          
+    ## 35  ( 1 ) " "                        " "            " "          
+    ## 36  ( 1 ) " "                        " "            " "          
+    ## 37  ( 1 ) " "                        " "            " "          
+    ## 38  ( 1 ) " "                        " "            " "          
+    ## 39  ( 1 ) " "                        " "            " "          
+    ## 40  ( 1 ) " "                        " "            " "          
+    ## 41  ( 1 ) " "                        " "            " "          
+    ## 42  ( 1 ) " "                        " "            " "          
+    ##           CountryTurkmenistan CountryUganda CountryUkraine
+    ## 1  ( 1 )  " "                 " "           " "           
+    ## 2  ( 1 )  " "                 " "           " "           
+    ## 3  ( 1 )  " "                 " "           " "           
+    ## 4  ( 1 )  " "                 " "           " "           
+    ## 5  ( 1 )  " "                 " "           " "           
+    ## 6  ( 1 )  " "                 " "           " "           
+    ## 7  ( 1 )  " "                 " "           " "           
+    ## 8  ( 1 )  " "                 " "           " "           
+    ## 9  ( 1 )  " "                 " "           " "           
+    ## 10  ( 1 ) " "                 " "           " "           
+    ## 11  ( 1 ) " "                 " "           " "           
+    ## 12  ( 1 ) " "                 " "           " "           
+    ## 13  ( 1 ) " "                 " "           " "           
+    ## 14  ( 1 ) " "                 " "           " "           
+    ## 15  ( 1 ) " "                 " "           " "           
+    ## 16  ( 1 ) " "                 " "           " "           
+    ## 17  ( 1 ) " "                 " "           " "           
+    ## 18  ( 1 ) " "                 " "           " "           
+    ## 19  ( 1 ) " "                 " "           " "           
+    ## 20  ( 1 ) " "                 " "           " "           
+    ## 21  ( 1 ) " "                 " "           " "           
+    ## 22  ( 1 ) " "                 " "           " "           
+    ## 23  ( 1 ) " "                 " "           " "           
+    ## 24  ( 1 ) " "                 " "           " "           
+    ## 25  ( 1 ) " "                 " "           " "           
+    ## 26  ( 1 ) " "                 " "           " "           
+    ## 27  ( 1 ) " "                 " "           " "           
+    ## 28  ( 1 ) " "                 " "           " "           
+    ## 29  ( 1 ) " "                 " "           " "           
+    ## 30  ( 1 ) " "                 " "           " "           
+    ## 31  ( 1 ) " "                 " "           " "           
+    ## 32  ( 1 ) " "                 " "           " "           
+    ## 33  ( 1 ) " "                 " "           " "           
+    ## 34  ( 1 ) " "                 " "           " "           
+    ## 35  ( 1 ) " "                 " "           " "           
+    ## 36  ( 1 ) " "                 " "           " "           
+    ## 37  ( 1 ) " "                 " "           " "           
+    ## 38  ( 1 ) " "                 " "           " "           
+    ## 39  ( 1 ) "*"                 " "           " "           
+    ## 40  ( 1 ) "*"                 " "           " "           
+    ## 41  ( 1 ) "*"                 " "           " "           
+    ## 42  ( 1 ) "*"                 " "           " "           
+    ##           CountryUnited Arab Emirates
+    ## 1  ( 1 )  " "                        
+    ## 2  ( 1 )  " "                        
+    ## 3  ( 1 )  " "                        
+    ## 4  ( 1 )  " "                        
+    ## 5  ( 1 )  " "                        
+    ## 6  ( 1 )  " "                        
+    ## 7  ( 1 )  " "                        
+    ## 8  ( 1 )  " "                        
+    ## 9  ( 1 )  " "                        
+    ## 10  ( 1 ) " "                        
+    ## 11  ( 1 ) " "                        
+    ## 12  ( 1 ) " "                        
+    ## 13  ( 1 ) " "                        
+    ## 14  ( 1 ) " "                        
+    ## 15  ( 1 ) " "                        
+    ## 16  ( 1 ) " "                        
+    ## 17  ( 1 ) " "                        
+    ## 18  ( 1 ) " "                        
+    ## 19  ( 1 ) " "                        
+    ## 20  ( 1 ) " "                        
+    ## 21  ( 1 ) " "                        
+    ## 22  ( 1 ) " "                        
+    ## 23  ( 1 ) " "                        
+    ## 24  ( 1 ) " "                        
+    ## 25  ( 1 ) " "                        
+    ## 26  ( 1 ) " "                        
+    ## 27  ( 1 ) " "                        
+    ## 28  ( 1 ) " "                        
+    ## 29  ( 1 ) " "                        
+    ## 30  ( 1 ) " "                        
+    ## 31  ( 1 ) " "                        
+    ## 32  ( 1 ) " "                        
+    ## 33  ( 1 ) " "                        
+    ## 34  ( 1 ) " "                        
+    ## 35  ( 1 ) " "                        
+    ## 36  ( 1 ) " "                        
+    ## 37  ( 1 ) " "                        
+    ## 38  ( 1 ) " "                        
+    ## 39  ( 1 ) " "                        
+    ## 40  ( 1 ) " "                        
+    ## 41  ( 1 ) " "                        
+    ## 42  ( 1 ) " "                        
+    ##           CountryUnited Kingdom of Great Britain and Northern Ireland
+    ## 1  ( 1 )  " "                                                        
+    ## 2  ( 1 )  " "                                                        
+    ## 3  ( 1 )  " "                                                        
+    ## 4  ( 1 )  " "                                                        
+    ## 5  ( 1 )  " "                                                        
+    ## 6  ( 1 )  " "                                                        
+    ## 7  ( 1 )  " "                                                        
+    ## 8  ( 1 )  " "                                                        
+    ## 9  ( 1 )  " "                                                        
+    ## 10  ( 1 ) " "                                                        
+    ## 11  ( 1 ) " "                                                        
+    ## 12  ( 1 ) " "                                                        
+    ## 13  ( 1 ) " "                                                        
+    ## 14  ( 1 ) " "                                                        
+    ## 15  ( 1 ) " "                                                        
+    ## 16  ( 1 ) " "                                                        
+    ## 17  ( 1 ) " "                                                        
+    ## 18  ( 1 ) " "                                                        
+    ## 19  ( 1 ) " "                                                        
+    ## 20  ( 1 ) " "                                                        
+    ## 21  ( 1 ) " "                                                        
+    ## 22  ( 1 ) " "                                                        
+    ## 23  ( 1 ) " "                                                        
+    ## 24  ( 1 ) " "                                                        
+    ## 25  ( 1 ) " "                                                        
+    ## 26  ( 1 ) " "                                                        
+    ## 27  ( 1 ) " "                                                        
+    ## 28  ( 1 ) " "                                                        
+    ## 29  ( 1 ) " "                                                        
+    ## 30  ( 1 ) " "                                                        
+    ## 31  ( 1 ) " "                                                        
+    ## 32  ( 1 ) " "                                                        
+    ## 33  ( 1 ) " "                                                        
+    ## 34  ( 1 ) " "                                                        
+    ## 35  ( 1 ) " "                                                        
+    ## 36  ( 1 ) " "                                                        
+    ## 37  ( 1 ) " "                                                        
+    ## 38  ( 1 ) " "                                                        
+    ## 39  ( 1 ) " "                                                        
+    ## 40  ( 1 ) " "                                                        
+    ## 41  ( 1 ) " "                                                        
+    ## 42  ( 1 ) " "                                                        
+    ##           CountryUnited Republic of Tanzania CountryUnited States of America
+    ## 1  ( 1 )  " "                                " "                            
+    ## 2  ( 1 )  " "                                " "                            
+    ## 3  ( 1 )  " "                                " "                            
+    ## 4  ( 1 )  " "                                " "                            
+    ## 5  ( 1 )  " "                                " "                            
+    ## 6  ( 1 )  " "                                " "                            
+    ## 7  ( 1 )  " "                                " "                            
+    ## 8  ( 1 )  " "                                " "                            
+    ## 9  ( 1 )  " "                                " "                            
+    ## 10  ( 1 ) " "                                " "                            
+    ## 11  ( 1 ) " "                                " "                            
+    ## 12  ( 1 ) " "                                " "                            
+    ## 13  ( 1 ) " "                                " "                            
+    ## 14  ( 1 ) " "                                " "                            
+    ## 15  ( 1 ) " "                                " "                            
+    ## 16  ( 1 ) " "                                " "                            
+    ## 17  ( 1 ) " "                                " "                            
+    ## 18  ( 1 ) " "                                " "                            
+    ## 19  ( 1 ) " "                                " "                            
+    ## 20  ( 1 ) " "                                " "                            
+    ## 21  ( 1 ) " "                                " "                            
+    ## 22  ( 1 ) " "                                " "                            
+    ## 23  ( 1 ) " "                                " "                            
+    ## 24  ( 1 ) " "                                " "                            
+    ## 25  ( 1 ) " "                                " "                            
+    ## 26  ( 1 ) " "                                " "                            
+    ## 27  ( 1 ) " "                                " "                            
+    ## 28  ( 1 ) " "                                " "                            
+    ## 29  ( 1 ) " "                                " "                            
+    ## 30  ( 1 ) " "                                " "                            
+    ## 31  ( 1 ) " "                                " "                            
+    ## 32  ( 1 ) " "                                " "                            
+    ## 33  ( 1 ) "*"                                " "                            
+    ## 34  ( 1 ) "*"                                " "                            
+    ## 35  ( 1 ) "*"                                " "                            
+    ## 36  ( 1 ) "*"                                " "                            
+    ## 37  ( 1 ) "*"                                " "                            
+    ## 38  ( 1 ) "*"                                " "                            
+    ## 39  ( 1 ) "*"                                " "                            
+    ## 40  ( 1 ) "*"                                " "                            
+    ## 41  ( 1 ) "*"                                " "                            
+    ## 42  ( 1 ) "*"                                " "                            
+    ##           CountryUruguay CountryUzbekistan CountryVanuatu CountryVenezuela
+    ## 1  ( 1 )  " "            " "               " "            " "             
+    ## 2  ( 1 )  " "            " "               " "            " "             
+    ## 3  ( 1 )  " "            " "               " "            " "             
+    ## 4  ( 1 )  " "            " "               " "            " "             
+    ## 5  ( 1 )  " "            " "               " "            " "             
+    ## 6  ( 1 )  " "            " "               " "            " "             
+    ## 7  ( 1 )  " "            " "               " "            " "             
+    ## 8  ( 1 )  " "            " "               " "            " "             
+    ## 9  ( 1 )  " "            " "               " "            " "             
+    ## 10  ( 1 ) " "            " "               " "            " "             
+    ## 11  ( 1 ) " "            " "               " "            " "             
+    ## 12  ( 1 ) " "            " "               " "            " "             
+    ## 13  ( 1 ) " "            " "               " "            " "             
+    ## 14  ( 1 ) " "            " "               " "            " "             
+    ## 15  ( 1 ) " "            " "               " "            " "             
+    ## 16  ( 1 ) " "            " "               " "            " "             
+    ## 17  ( 1 ) " "            " "               " "            " "             
+    ## 18  ( 1 ) " "            " "               " "            " "             
+    ## 19  ( 1 ) " "            " "               " "            " "             
+    ## 20  ( 1 ) " "            " "               " "            " "             
+    ## 21  ( 1 ) " "            " "               " "            " "             
+    ## 22  ( 1 ) " "            " "               " "            " "             
+    ## 23  ( 1 ) " "            " "               " "            " "             
+    ## 24  ( 1 ) " "            "*"               " "            " "             
+    ## 25  ( 1 ) " "            "*"               " "            " "             
+    ## 26  ( 1 ) " "            "*"               " "            " "             
+    ## 27  ( 1 ) " "            "*"               " "            " "             
+    ## 28  ( 1 ) " "            "*"               " "            " "             
+    ## 29  ( 1 ) " "            "*"               " "            " "             
+    ## 30  ( 1 ) " "            "*"               " "            " "             
+    ## 31  ( 1 ) " "            "*"               " "            " "             
+    ## 32  ( 1 ) " "            "*"               " "            " "             
+    ## 33  ( 1 ) " "            "*"               " "            " "             
+    ## 34  ( 1 ) " "            "*"               " "            " "             
+    ## 35  ( 1 ) " "            "*"               " "            " "             
+    ## 36  ( 1 ) " "            "*"               " "            " "             
+    ## 37  ( 1 ) " "            "*"               " "            " "             
+    ## 38  ( 1 ) " "            "*"               " "            " "             
+    ## 39  ( 1 ) " "            "*"               " "            " "             
+    ## 40  ( 1 ) " "            "*"               " "            " "             
+    ## 41  ( 1 ) " "            "*"               " "            " "             
+    ## 42  ( 1 ) " "            "*"               " "            " "             
+    ##           CountryViet Nam CountryYemen CountryZambia CountryZimbabwe Year
+    ## 1  ( 1 )  " "             " "          " "           " "             " " 
+    ## 2  ( 1 )  " "             " "          " "           " "             " " 
+    ## 3  ( 1 )  " "             " "          " "           " "             " " 
+    ## 4  ( 1 )  " "             " "          " "           " "             " " 
+    ## 5  ( 1 )  " "             " "          " "           " "             " " 
+    ## 6  ( 1 )  " "             " "          " "           " "             " " 
+    ## 7  ( 1 )  " "             " "          " "           " "             " " 
+    ## 8  ( 1 )  " "             " "          " "           " "             " " 
+    ## 9  ( 1 )  " "             " "          " "           " "             " " 
+    ## 10  ( 1 ) " "             " "          " "           " "             " " 
+    ## 11  ( 1 ) " "             " "          " "           " "             " " 
+    ## 12  ( 1 ) " "             " "          " "           " "             " " 
+    ## 13  ( 1 ) " "             " "          " "           " "             " " 
+    ## 14  ( 1 ) " "             " "          " "           " "             " " 
+    ## 15  ( 1 ) " "             " "          " "           " "             " " 
+    ## 16  ( 1 ) " "             " "          " "           " "             " " 
+    ## 17  ( 1 ) " "             " "          " "           " "             " " 
+    ## 18  ( 1 ) " "             " "          " "           " "             " " 
+    ## 19  ( 1 ) " "             " "          " "           " "             " " 
+    ## 20  ( 1 ) " "             " "          " "           " "             " " 
+    ## 21  ( 1 ) " "             " "          " "           "*"             " " 
+    ## 22  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 23  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 24  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 25  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 26  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 27  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 28  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 29  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 30  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 31  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 32  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 33  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 34  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 35  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 36  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 37  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 38  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 39  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 40  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 41  ( 1 ) "*"             " "          " "           "*"             " " 
+    ## 42  ( 1 ) "*"             " "          " "           "*"             "*" 
+    ##           StatusDeveloping Adult.Mortality infant.deaths Alcohol Hepatitis.B
+    ## 1  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 2  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 3  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 4  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 5  ( 1 )  " "              "*"             " "           "*"     " "        
+    ## 6  ( 1 )  " "              "*"             " "           "*"     " "        
+    ## 7  ( 1 )  " "              "*"             " "           "*"     " "        
+    ## 8  ( 1 )  " "              "*"             " "           "*"     " "        
+    ## 9  ( 1 )  " "              "*"             " "           "*"     " "        
+    ## 10  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 11  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 12  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 13  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 14  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 15  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 16  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 17  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 18  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 19  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 20  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 21  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 22  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 23  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 24  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 25  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 26  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 27  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 28  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 29  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 30  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 31  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 32  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 33  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 34  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 35  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 36  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 37  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 38  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 39  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 40  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 41  ( 1 ) " "              "*"             " "           "*"     " "        
+    ## 42  ( 1 ) " "              "*"             " "           "*"     " "        
+    ##           Measles BMI under.five.deaths Polio Total.expenditure Diphtheria
+    ## 1  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 2  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 3  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 4  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 5  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 6  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 7  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 8  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 9  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 10  ( 1 ) " "     " " " "               " "   " "               " "       
+    ## 11  ( 1 ) " "     " " " "               " "   " "               " "       
+    ## 12  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 13  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 14  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 15  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 16  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 17  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 18  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 19  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 20  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 21  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 22  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 23  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 24  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 25  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 26  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 27  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 28  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 29  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 30  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 31  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 32  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 33  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 34  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 35  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 36  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 37  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 38  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 39  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 40  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 41  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ## 42  ( 1 ) " "     " " " "               " "   " "               "*"       
+    ##           Population thinness..1.19.years thinness.5.9.years
+    ## 1  ( 1 )  " "        " "                  " "               
+    ## 2  ( 1 )  " "        " "                  " "               
+    ## 3  ( 1 )  " "        " "                  " "               
+    ## 4  ( 1 )  " "        " "                  " "               
+    ## 5  ( 1 )  " "        " "                  " "               
+    ## 6  ( 1 )  " "        " "                  " "               
+    ## 7  ( 1 )  " "        " "                  " "               
+    ## 8  ( 1 )  " "        " "                  " "               
+    ## 9  ( 1 )  " "        " "                  " "               
+    ## 10  ( 1 ) " "        " "                  " "               
+    ## 11  ( 1 ) " "        " "                  "*"               
+    ## 12  ( 1 ) " "        " "                  "*"               
+    ## 13  ( 1 ) " "        " "                  "*"               
+    ## 14  ( 1 ) " "        " "                  "*"               
+    ## 15  ( 1 ) " "        " "                  "*"               
+    ## 16  ( 1 ) " "        " "                  "*"               
+    ## 17  ( 1 ) " "        " "                  "*"               
+    ## 18  ( 1 ) " "        " "                  "*"               
+    ## 19  ( 1 ) " "        " "                  "*"               
+    ## 20  ( 1 ) " "        " "                  "*"               
+    ## 21  ( 1 ) " "        " "                  "*"               
+    ## 22  ( 1 ) " "        " "                  "*"               
+    ## 23  ( 1 ) " "        " "                  "*"               
+    ## 24  ( 1 ) " "        " "                  "*"               
+    ## 25  ( 1 ) " "        " "                  "*"               
+    ## 26  ( 1 ) " "        " "                  "*"               
+    ## 27  ( 1 ) " "        " "                  "*"               
+    ## 28  ( 1 ) " "        " "                  "*"               
+    ## 29  ( 1 ) " "        " "                  "*"               
+    ## 30  ( 1 ) " "        " "                  "*"               
+    ## 31  ( 1 ) " "        " "                  "*"               
+    ## 32  ( 1 ) " "        " "                  "*"               
+    ## 33  ( 1 ) " "        " "                  "*"               
+    ## 34  ( 1 ) " "        " "                  "*"               
+    ## 35  ( 1 ) " "        " "                  "*"               
+    ## 36  ( 1 ) " "        " "                  "*"               
+    ## 37  ( 1 ) " "        " "                  "*"               
+    ## 38  ( 1 ) " "        " "                  "*"               
+    ## 39  ( 1 ) " "        " "                  "*"               
+    ## 40  ( 1 ) " "        " "                  "*"               
+    ## 41  ( 1 ) " "        " "                  "*"               
+    ## 42  ( 1 ) " "        " "                  "*"               
     ##           Income.composition.of.resources Schooling
     ## 1  ( 1 )  " "                             " "      
     ## 2  ( 1 )  " "                             "*"      
     ## 3  ( 1 )  " "                             "*"      
     ## 4  ( 1 )  " "                             "*"      
     ## 5  ( 1 )  " "                             "*"      
-    ## 6  ( 1 )  "*"                             "*"      
-    ## 7  ( 1 )  "*"                             "*"      
-    ## 8  ( 1 )  "*"                             "*"      
-    ## 9  ( 1 )  "*"                             "*"      
-    ## 10  ( 1 ) "*"                             "*"      
-    ## 11  ( 1 ) "*"                             "*"      
-    ## 12  ( 1 ) "*"                             "*"      
-    ## 13  ( 1 ) "*"                             "*"      
-    ## 14  ( 1 ) "*"                             "*"      
-    ## 15  ( 1 ) "*"                             "*"      
-    ## 16  ( 1 ) "*"                             "*"      
+    ## 6  ( 1 )  " "                             "*"      
+    ## 7  ( 1 )  " "                             "*"      
+    ## 8  ( 1 )  " "                             "*"      
+    ## 9  ( 1 )  " "                             "*"      
+    ## 10  ( 1 ) " "                             "*"      
+    ## 11  ( 1 ) " "                             "*"      
+    ## 12  ( 1 ) " "                             "*"      
+    ## 13  ( 1 ) " "                             "*"      
+    ## 14  ( 1 ) " "                             "*"      
+    ## 15  ( 1 ) " "                             "*"      
+    ## 16  ( 1 ) " "                             "*"      
     ## 17  ( 1 ) "*"                             "*"      
     ## 18  ( 1 ) "*"                             "*"      
     ## 19  ( 1 ) "*"                             "*"      
@@ -2371,6 +5298,18 @@ summary(mlr.fwd.final)
     ## 28  ( 1 ) "*"                             "*"      
     ## 29  ( 1 ) "*"                             "*"      
     ## 30  ( 1 ) "*"                             "*"      
+    ## 31  ( 1 ) "*"                             "*"      
+    ## 32  ( 1 ) "*"                             "*"      
+    ## 33  ( 1 ) "*"                             "*"      
+    ## 34  ( 1 ) "*"                             "*"      
+    ## 35  ( 1 ) "*"                             "*"      
+    ## 36  ( 1 ) "*"                             "*"      
+    ## 37  ( 1 ) "*"                             "*"      
+    ## 38  ( 1 ) "*"                             "*"      
+    ## 39  ( 1 ) "*"                             "*"      
+    ## 40  ( 1 ) "*"                             "*"      
+    ## 41  ( 1 ) "*"                             "*"      
+    ## 42  ( 1 ) "*"                             "*"      
     ##           RegionAustralia and New Zealand RegionCanada RegionCaribbean
     ## 1  ( 1 )  " "                             " "          " "            
     ## 2  ( 1 )  " "                             " "          " "            
@@ -2386,22 +5325,34 @@ summary(mlr.fwd.final)
     ## 12  ( 1 ) " "                             " "          " "            
     ## 13  ( 1 ) " "                             " "          " "            
     ## 14  ( 1 ) " "                             " "          " "            
-    ## 15  ( 1 ) " "                             " "          " "            
-    ## 16  ( 1 ) " "                             " "          " "            
-    ## 17  ( 1 ) " "                             " "          " "            
-    ## 18  ( 1 ) " "                             " "          " "            
-    ## 19  ( 1 ) " "                             " "          " "            
-    ## 20  ( 1 ) "*"                             " "          " "            
-    ## 21  ( 1 ) "*"                             " "          " "            
-    ## 22  ( 1 ) "*"                             " "          " "            
-    ## 23  ( 1 ) "*"                             " "          " "            
-    ## 24  ( 1 ) "*"                             " "          " "            
-    ## 25  ( 1 ) "*"                             " "          " "            
-    ## 26  ( 1 ) "*"                             "*"          " "            
-    ## 27  ( 1 ) "*"                             "*"          " "            
-    ## 28  ( 1 ) "*"                             "*"          " "            
-    ## 29  ( 1 ) "*"                             "*"          " "            
-    ## 30  ( 1 ) "*"                             "*"          " "            
+    ## 15  ( 1 ) " "                             " "          "*"            
+    ## 16  ( 1 ) " "                             " "          "*"            
+    ## 17  ( 1 ) " "                             " "          "*"            
+    ## 18  ( 1 ) " "                             " "          "*"            
+    ## 19  ( 1 ) " "                             " "          "*"            
+    ## 20  ( 1 ) " "                             " "          "*"            
+    ## 21  ( 1 ) " "                             " "          "*"            
+    ## 22  ( 1 ) " "                             " "          "*"            
+    ## 23  ( 1 ) " "                             " "          "*"            
+    ## 24  ( 1 ) " "                             " "          "*"            
+    ## 25  ( 1 ) " "                             " "          "*"            
+    ## 26  ( 1 ) " "                             " "          "*"            
+    ## 27  ( 1 ) " "                             " "          "*"            
+    ## 28  ( 1 ) " "                             " "          "*"            
+    ## 29  ( 1 ) " "                             " "          "*"            
+    ## 30  ( 1 ) " "                             " "          "*"            
+    ## 31  ( 1 ) " "                             " "          "*"            
+    ## 32  ( 1 ) " "                             " "          "*"            
+    ## 33  ( 1 ) " "                             " "          "*"            
+    ## 34  ( 1 ) " "                             " "          "*"            
+    ## 35  ( 1 ) " "                             " "          "*"            
+    ## 36  ( 1 ) " "                             " "          "*"            
+    ## 37  ( 1 ) " "                             " "          "*"            
+    ## 38  ( 1 ) " "                             " "          "*"            
+    ## 39  ( 1 ) " "                             " "          "*"            
+    ## 40  ( 1 ) " "                             " "          "*"            
+    ## 41  ( 1 ) " "                             " "          "*"            
+    ## 42  ( 1 ) " "                             " "          "*"            
     ##           RegionCentral Africa RegionCentral Asia RegionCentral Europe
     ## 1  ( 1 )  " "                  " "                " "                 
     ## 2  ( 1 )  " "                  " "                " "                 
@@ -2413,26 +5364,38 @@ summary(mlr.fwd.final)
     ## 8  ( 1 )  " "                  " "                " "                 
     ## 9  ( 1 )  " "                  " "                " "                 
     ## 10  ( 1 ) " "                  " "                " "                 
-    ## 11  ( 1 ) " "                  "*"                " "                 
-    ## 12  ( 1 ) " "                  "*"                " "                 
-    ## 13  ( 1 ) " "                  "*"                " "                 
-    ## 14  ( 1 ) " "                  "*"                " "                 
-    ## 15  ( 1 ) " "                  "*"                " "                 
-    ## 16  ( 1 ) " "                  "*"                " "                 
-    ## 17  ( 1 ) " "                  "*"                " "                 
-    ## 18  ( 1 ) " "                  "*"                " "                 
-    ## 19  ( 1 ) " "                  "*"                "*"                 
-    ## 20  ( 1 ) " "                  "*"                "*"                 
-    ## 21  ( 1 ) " "                  "*"                "*"                 
-    ## 22  ( 1 ) " "                  "*"                "*"                 
-    ## 23  ( 1 ) " "                  "*"                "*"                 
-    ## 24  ( 1 ) " "                  "*"                "*"                 
-    ## 25  ( 1 ) " "                  "*"                "*"                 
-    ## 26  ( 1 ) " "                  "*"                "*"                 
-    ## 27  ( 1 ) " "                  "*"                "*"                 
-    ## 28  ( 1 ) "*"                  "*"                "*"                 
-    ## 29  ( 1 ) "*"                  "*"                "*"                 
-    ## 30  ( 1 ) "*"                  "*"                "*"                 
+    ## 11  ( 1 ) " "                  " "                " "                 
+    ## 12  ( 1 ) " "                  " "                " "                 
+    ## 13  ( 1 ) " "                  " "                " "                 
+    ## 14  ( 1 ) " "                  " "                " "                 
+    ## 15  ( 1 ) " "                  " "                " "                 
+    ## 16  ( 1 ) " "                  " "                " "                 
+    ## 17  ( 1 ) " "                  " "                " "                 
+    ## 18  ( 1 ) " "                  " "                " "                 
+    ## 19  ( 1 ) " "                  " "                " "                 
+    ## 20  ( 1 ) " "                  " "                " "                 
+    ## 21  ( 1 ) " "                  " "                " "                 
+    ## 22  ( 1 ) " "                  " "                " "                 
+    ## 23  ( 1 ) " "                  " "                " "                 
+    ## 24  ( 1 ) " "                  " "                " "                 
+    ## 25  ( 1 ) " "                  " "                " "                 
+    ## 26  ( 1 ) " "                  " "                " "                 
+    ## 27  ( 1 ) " "                  " "                " "                 
+    ## 28  ( 1 ) " "                  " "                " "                 
+    ## 29  ( 1 ) " "                  " "                " "                 
+    ## 30  ( 1 ) " "                  " "                " "                 
+    ## 31  ( 1 ) " "                  " "                " "                 
+    ## 32  ( 1 ) " "                  " "                " "                 
+    ## 33  ( 1 ) " "                  " "                " "                 
+    ## 34  ( 1 ) " "                  " "                " "                 
+    ## 35  ( 1 ) " "                  " "                " "                 
+    ## 36  ( 1 ) " "                  " "                " "                 
+    ## 37  ( 1 ) " "                  " "                " "                 
+    ## 38  ( 1 ) " "                  " "                " "                 
+    ## 39  ( 1 ) " "                  " "                " "                 
+    ## 40  ( 1 ) " "                  " "                " "                 
+    ## 41  ( 1 ) " "                  " "                " "                 
+    ## 42  ( 1 ) " "                  " "                " "                 
     ##           RegionEastern Africa RegionEastern Europe RegionMashriq
     ## 1  ( 1 )  " "                  " "                  " "          
     ## 2  ( 1 )  " "                  " "                  " "          
@@ -2464,6 +5427,3743 @@ summary(mlr.fwd.final)
     ## 28  ( 1 ) " "                  " "                  " "          
     ## 29  ( 1 ) " "                  " "                  " "          
     ## 30  ( 1 ) " "                  " "                  " "          
+    ## 31  ( 1 ) " "                  " "                  " "          
+    ## 32  ( 1 ) " "                  " "                  " "          
+    ## 33  ( 1 ) " "                  " "                  " "          
+    ## 34  ( 1 ) " "                  " "                  " "          
+    ## 35  ( 1 ) " "                  " "                  " "          
+    ## 36  ( 1 ) " "                  " "                  " "          
+    ## 37  ( 1 ) " "                  " "                  " "          
+    ## 38  ( 1 ) " "                  " "                  " "          
+    ## 39  ( 1 ) " "                  " "                  " "          
+    ## 40  ( 1 ) " "                  " "                  " "          
+    ## 41  ( 1 ) " "                  " "                  " "          
+    ## 42  ( 1 ) " "                  " "                  " "          
+    ##           RegionMeso-America RegionNorth Africa RegionNW Pacific and East Asia
+    ## 1  ( 1 )  " "                " "                " "                           
+    ## 2  ( 1 )  " "                " "                " "                           
+    ## 3  ( 1 )  " "                " "                " "                           
+    ## 4  ( 1 )  " "                " "                " "                           
+    ## 5  ( 1 )  " "                " "                " "                           
+    ## 6  ( 1 )  " "                " "                " "                           
+    ## 7  ( 1 )  "*"                " "                " "                           
+    ## 8  ( 1 )  "*"                " "                " "                           
+    ## 9  ( 1 )  "*"                " "                " "                           
+    ## 10  ( 1 ) "*"                " "                " "                           
+    ## 11  ( 1 ) "*"                " "                " "                           
+    ## 12  ( 1 ) "*"                " "                " "                           
+    ## 13  ( 1 ) "*"                " "                " "                           
+    ## 14  ( 1 ) "*"                " "                " "                           
+    ## 15  ( 1 ) "*"                " "                " "                           
+    ## 16  ( 1 ) "*"                " "                " "                           
+    ## 17  ( 1 ) "*"                " "                " "                           
+    ## 18  ( 1 ) "*"                " "                " "                           
+    ## 19  ( 1 ) "*"                " "                " "                           
+    ## 20  ( 1 ) "*"                " "                " "                           
+    ## 21  ( 1 ) "*"                " "                " "                           
+    ## 22  ( 1 ) "*"                " "                " "                           
+    ## 23  ( 1 ) "*"                " "                " "                           
+    ## 24  ( 1 ) "*"                " "                " "                           
+    ## 25  ( 1 ) "*"                " "                " "                           
+    ## 26  ( 1 ) "*"                " "                " "                           
+    ## 27  ( 1 ) "*"                " "                " "                           
+    ## 28  ( 1 ) "*"                " "                " "                           
+    ## 29  ( 1 ) "*"                " "                " "                           
+    ## 30  ( 1 ) "*"                " "                " "                           
+    ## 31  ( 1 ) "*"                " "                " "                           
+    ## 32  ( 1 ) "*"                " "                " "                           
+    ## 33  ( 1 ) "*"                " "                " "                           
+    ## 34  ( 1 ) "*"                " "                " "                           
+    ## 35  ( 1 ) "*"                " "                " "                           
+    ## 36  ( 1 ) "*"                " "                " "                           
+    ## 37  ( 1 ) "*"                " "                " "                           
+    ## 38  ( 1 ) "*"                " "                " "                           
+    ## 39  ( 1 ) "*"                " "                " "                           
+    ## 40  ( 1 ) "*"                " "                " "                           
+    ## 41  ( 1 ) "*"                " "                " "                           
+    ## 42  ( 1 ) "*"                " "                " "                           
+    ##           RegionSouth America RegionSouth Asia RegionSouth Pacific
+    ## 1  ( 1 )  " "                 " "              " "                
+    ## 2  ( 1 )  " "                 " "              " "                
+    ## 3  ( 1 )  " "                 " "              " "                
+    ## 4  ( 1 )  " "                 " "              " "                
+    ## 5  ( 1 )  " "                 " "              " "                
+    ## 6  ( 1 )  " "                 " "              " "                
+    ## 7  ( 1 )  " "                 " "              " "                
+    ## 8  ( 1 )  " "                 " "              " "                
+    ## 9  ( 1 )  " "                 " "              " "                
+    ## 10  ( 1 ) " "                 " "              " "                
+    ## 11  ( 1 ) " "                 " "              " "                
+    ## 12  ( 1 ) " "                 " "              " "                
+    ## 13  ( 1 ) " "                 " "              " "                
+    ## 14  ( 1 ) " "                 " "              " "                
+    ## 15  ( 1 ) " "                 " "              " "                
+    ## 16  ( 1 ) " "                 " "              " "                
+    ## 17  ( 1 ) " "                 " "              " "                
+    ## 18  ( 1 ) " "                 " "              " "                
+    ## 19  ( 1 ) " "                 " "              " "                
+    ## 20  ( 1 ) " "                 " "              " "                
+    ## 21  ( 1 ) " "                 " "              " "                
+    ## 22  ( 1 ) " "                 " "              " "                
+    ## 23  ( 1 ) " "                 " "              " "                
+    ## 24  ( 1 ) " "                 " "              " "                
+    ## 25  ( 1 ) " "                 " "              " "                
+    ## 26  ( 1 ) " "                 " "              " "                
+    ## 27  ( 1 ) " "                 " "              " "                
+    ## 28  ( 1 ) " "                 " "              " "                
+    ## 29  ( 1 ) " "                 " "              " "                
+    ## 30  ( 1 ) " "                 " "              " "                
+    ## 31  ( 1 ) " "                 " "              " "                
+    ## 32  ( 1 ) " "                 " "              " "                
+    ## 33  ( 1 ) " "                 " "              " "                
+    ## 34  ( 1 ) " "                 " "              " "                
+    ## 35  ( 1 ) " "                 " "              " "                
+    ## 36  ( 1 ) " "                 " "              " "                
+    ## 37  ( 1 ) " "                 " "              " "                
+    ## 38  ( 1 ) " "                 " "              " "                
+    ## 39  ( 1 ) " "                 " "              " "                
+    ## 40  ( 1 ) " "                 " "              " "                
+    ## 41  ( 1 ) " "                 " "              " "                
+    ## 42  ( 1 ) " "                 " "              " "                
+    ##           RegionSoutheast Asia RegionSouthern Africa RegionUS
+    ## 1  ( 1 )  " "                  " "                   " "     
+    ## 2  ( 1 )  " "                  " "                   " "     
+    ## 3  ( 1 )  " "                  " "                   " "     
+    ## 4  ( 1 )  " "                  " "                   " "     
+    ## 5  ( 1 )  " "                  " "                   " "     
+    ## 6  ( 1 )  " "                  "*"                   " "     
+    ## 7  ( 1 )  " "                  "*"                   " "     
+    ## 8  ( 1 )  " "                  "*"                   " "     
+    ## 9  ( 1 )  " "                  "*"                   " "     
+    ## 10  ( 1 ) " "                  "*"                   " "     
+    ## 11  ( 1 ) " "                  "*"                   " "     
+    ## 12  ( 1 ) " "                  "*"                   " "     
+    ## 13  ( 1 ) " "                  "*"                   " "     
+    ## 14  ( 1 ) " "                  "*"                   " "     
+    ## 15  ( 1 ) " "                  "*"                   " "     
+    ## 16  ( 1 ) " "                  "*"                   " "     
+    ## 17  ( 1 ) " "                  "*"                   " "     
+    ## 18  ( 1 ) " "                  "*"                   " "     
+    ## 19  ( 1 ) " "                  "*"                   " "     
+    ## 20  ( 1 ) " "                  "*"                   " "     
+    ## 21  ( 1 ) " "                  "*"                   " "     
+    ## 22  ( 1 ) " "                  "*"                   " "     
+    ## 23  ( 1 ) " "                  "*"                   " "     
+    ## 24  ( 1 ) " "                  "*"                   " "     
+    ## 25  ( 1 ) " "                  "*"                   " "     
+    ## 26  ( 1 ) " "                  "*"                   " "     
+    ## 27  ( 1 ) " "                  "*"                   " "     
+    ## 28  ( 1 ) " "                  "*"                   " "     
+    ## 29  ( 1 ) " "                  "*"                   " "     
+    ## 30  ( 1 ) " "                  "*"                   " "     
+    ## 31  ( 1 ) " "                  "*"                   " "     
+    ## 32  ( 1 ) " "                  "*"                   " "     
+    ## 33  ( 1 ) " "                  "*"                   " "     
+    ## 34  ( 1 ) " "                  "*"                   " "     
+    ## 35  ( 1 ) " "                  "*"                   " "     
+    ## 36  ( 1 ) " "                  "*"                   " "     
+    ## 37  ( 1 ) " "                  "*"                   " "     
+    ## 38  ( 1 ) " "                  "*"                   " "     
+    ## 39  ( 1 ) " "                  "*"                   " "     
+    ## 40  ( 1 ) " "                  "*"                   " "     
+    ## 41  ( 1 ) " "                  "*"                   " "     
+    ## 42  ( 1 ) " "                  "*"                   " "     
+    ##           RegionWestern Africa RegionWestern Europe RegionWestern Indian Ocean
+    ## 1  ( 1 )  " "                  " "                  " "                       
+    ## 2  ( 1 )  " "                  " "                  " "                       
+    ## 3  ( 1 )  "*"                  " "                  " "                       
+    ## 4  ( 1 )  "*"                  " "                  " "                       
+    ## 5  ( 1 )  "*"                  " "                  " "                       
+    ## 6  ( 1 )  "*"                  " "                  " "                       
+    ## 7  ( 1 )  "*"                  " "                  " "                       
+    ## 8  ( 1 )  "*"                  " "                  " "                       
+    ## 9  ( 1 )  "*"                  " "                  " "                       
+    ## 10  ( 1 ) "*"                  " "                  " "                       
+    ## 11  ( 1 ) "*"                  " "                  " "                       
+    ## 12  ( 1 ) "*"                  " "                  " "                       
+    ## 13  ( 1 ) "*"                  "*"                  " "                       
+    ## 14  ( 1 ) "*"                  "*"                  " "                       
+    ## 15  ( 1 ) "*"                  "*"                  " "                       
+    ## 16  ( 1 ) "*"                  "*"                  " "                       
+    ## 17  ( 1 ) "*"                  "*"                  " "                       
+    ## 18  ( 1 ) "*"                  "*"                  " "                       
+    ## 19  ( 1 ) "*"                  "*"                  " "                       
+    ## 20  ( 1 ) "*"                  "*"                  " "                       
+    ## 21  ( 1 ) "*"                  "*"                  " "                       
+    ## 22  ( 1 ) "*"                  "*"                  " "                       
+    ## 23  ( 1 ) "*"                  "*"                  " "                       
+    ## 24  ( 1 ) "*"                  "*"                  " "                       
+    ## 25  ( 1 ) "*"                  "*"                  " "                       
+    ## 26  ( 1 ) "*"                  "*"                  " "                       
+    ## 27  ( 1 ) "*"                  "*"                  " "                       
+    ## 28  ( 1 ) "*"                  "*"                  " "                       
+    ## 29  ( 1 ) "*"                  "*"                  " "                       
+    ## 30  ( 1 ) "*"                  "*"                  " "                       
+    ## 31  ( 1 ) "*"                  "*"                  " "                       
+    ## 32  ( 1 ) "*"                  "*"                  " "                       
+    ## 33  ( 1 ) "*"                  "*"                  " "                       
+    ## 34  ( 1 ) "*"                  "*"                  " "                       
+    ## 35  ( 1 ) "*"                  "*"                  " "                       
+    ## 36  ( 1 ) "*"                  "*"                  " "                       
+    ## 37  ( 1 ) "*"                  "*"                  " "                       
+    ## 38  ( 1 ) "*"                  "*"                  " "                       
+    ## 39  ( 1 ) "*"                  "*"                  " "                       
+    ## 40  ( 1 ) "*"                  "*"                  " "                       
+    ## 41  ( 1 ) "*"                  "*"                  " "                       
+    ## 42  ( 1 ) "*"                  "*"                  " "                       
+    ##           log.HIV.AIDS log.GDP log.percentage.expenditure
+    ## 1  ( 1 )  " "          " "     " "                       
+    ## 2  ( 1 )  " "          " "     " "                       
+    ## 3  ( 1 )  " "          " "     " "                       
+    ## 4  ( 1 )  " "          " "     " "                       
+    ## 5  ( 1 )  " "          " "     " "                       
+    ## 6  ( 1 )  " "          " "     " "                       
+    ## 7  ( 1 )  " "          " "     " "                       
+    ## 8  ( 1 )  " "          " "     " "                       
+    ## 9  ( 1 )  " "          " "     " "                       
+    ## 10  ( 1 ) " "          " "     " "                       
+    ## 11  ( 1 ) " "          " "     " "                       
+    ## 12  ( 1 ) " "          " "     " "                       
+    ## 13  ( 1 ) " "          " "     " "                       
+    ## 14  ( 1 ) " "          " "     " "                       
+    ## 15  ( 1 ) " "          " "     " "                       
+    ## 16  ( 1 ) " "          " "     " "                       
+    ## 17  ( 1 ) " "          " "     " "                       
+    ## 18  ( 1 ) " "          " "     " "                       
+    ## 19  ( 1 ) " "          " "     " "                       
+    ## 20  ( 1 ) " "          " "     " "                       
+    ## 21  ( 1 ) " "          " "     " "                       
+    ## 22  ( 1 ) " "          " "     " "                       
+    ## 23  ( 1 ) " "          " "     " "                       
+    ## 24  ( 1 ) " "          " "     " "                       
+    ## 25  ( 1 ) " "          " "     " "                       
+    ## 26  ( 1 ) " "          " "     " "                       
+    ## 27  ( 1 ) " "          " "     " "                       
+    ## 28  ( 1 ) " "          " "     " "                       
+    ## 29  ( 1 ) " "          " "     " "                       
+    ## 30  ( 1 ) " "          " "     " "                       
+    ## 31  ( 1 ) " "          " "     " "                       
+    ## 32  ( 1 ) " "          " "     " "                       
+    ## 33  ( 1 ) " "          " "     " "                       
+    ## 34  ( 1 ) " "          " "     " "                       
+    ## 35  ( 1 ) " "          " "     " "                       
+    ## 36  ( 1 ) " "          " "     " "                       
+    ## 37  ( 1 ) " "          " "     " "                       
+    ## 38  ( 1 ) " "          " "     " "                       
+    ## 39  ( 1 ) " "          " "     " "                       
+    ## 40  ( 1 ) " "          " "     " "                       
+    ## 41  ( 1 ) " "          " "     " "                       
+    ## 42  ( 1 ) " "          " "     " "
+
+``` r
+# Metrics RMSE; R-squared; MAE
+postResample(pred = predictions, obs = ytest)
+```
+
+    ##     RMSE Rsquared      MAE 
+    ##   2.4036   0.9295   1.6150
+
+``` r
+##### Fit Linear Model based on Forward Selection without factors to measure VIF####
+fit.fwd.lm = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+BMI+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+
+
+### Visualize VIF
+fit.fwd.lm_VIF = vif(fit.fwd.lm)
+barplot(fit.fwd.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-11.png)<!-- -->
+
+``` r
+# We can see that Forward Selection did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (under.five.deaths).
+
+##### Fit Linear Model based on FWD selection without factors to measure VIF####
+fit.fwd.lm2 = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+BMI+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+summary(fit.fwd.lm2)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + infant.deaths + 
+    ##     Alcohol + Measles + BMI + Polio + Total.expenditure + Diphtheria + 
+    ##     Population + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, 
+    ##     data = train)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -13.301  -1.603  -0.302   1.371  11.238 
+    ## 
+    ## Coefficients:
+    ##                                        Estimate      Std. Error t value
+    ## (Intercept)                     70.712438220240 24.569288532497    2.88
+    ## Year                            -0.000709504142  0.012267748448   -0.06
+    ## Adult.Mortality                 -0.057600017055  0.001019663674  -56.49
+    ## infant.deaths                   -0.002483340060  0.000698759015   -3.55
+    ## Alcohol                          0.168359653998  0.017167301629    9.81
+    ## Measles                         -0.000023867917  0.000005352619   -4.46
+    ## BMI                              0.013654981252  0.003418820470    3.99
+    ## Polio                            0.010563119750  0.003077312236    3.43
+    ## Total.expenditure                0.034768631446  0.022917773243    1.52
+    ## Diphtheria                       0.014606083614  0.003109514272    4.70
+    ## Population                       0.000000002286  0.000000000564    4.05
+    ## thinness.5.9.years              -0.045986910641  0.016231227283   -2.83
+    ## Income.composition.of.resources  2.452172125069  0.451699557986    5.43
+    ## Schooling                        0.407224773093  0.031054197128   13.11
+    ## log.HIV.AIDS                    -0.103667767365  0.067008031949   -1.55
+    ## log.GDP                          0.148213375411  0.042690746364    3.47
+    ## log.percentage.expenditure       0.059112325190  0.023639065229    2.50
+    ##                                             Pr(>|t|)    
+    ## (Intercept)                                  0.00404 ** 
+    ## Year                                         0.95388    
+    ## Adult.Mortality                 < 0.0000000000000002 ***
+    ## infant.deaths                                0.00039 ***
+    ## Alcohol                         < 0.0000000000000002 ***
+    ## Measles                                  0.000008598 ***
+    ## BMI                                      0.000066847 ***
+    ## Polio                                        0.00061 ***
+    ## Total.expenditure                            0.12937    
+    ## Diphtheria                               0.000002782 ***
+    ## Population                               0.000051813 ***
+    ## thinness.5.9.years                           0.00465 ** 
+    ## Income.composition.of.resources          0.000000062 ***
+    ## Schooling                       < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                 0.12197    
+    ## log.GDP                                      0.00053 ***
+    ## log.percentage.expenditure                   0.01246 *  
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 2.58 on 2472 degrees of freedom
+    ## Multiple R-squared:  0.928,  Adjusted R-squared:  0.928 
+    ## F-statistic: 1.99e+03 on 16 and 2472 DF,  p-value: <0.0000000000000002
+
+``` r
+### re-run Visualize VIF
+fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
+barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-12.png)<!-- -->
+
+``` r
+##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity and categorical variables####
+fit.fwd.lm3 = lm(Life.expectancy ~ Year+Adult.Mortality+Region+Status+infant.deaths+Alcohol+Measles+BMI+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+
+#### Hypothesis testing ####
+summary(fit.fwd.lm3)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Region + 
+    ##     Status + infant.deaths + Alcohol + Measles + BMI + Polio + 
+    ##     Total.expenditure + Diphtheria + Population + thinness.5.9.years + 
+    ##     Income.composition.of.resources + Schooling + log.HIV.AIDS + 
+    ##     log.GDP + log.percentage.expenditure, data = train)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -13.119  -1.289  -0.258   1.030   9.443 
+    ## 
+    ## Coefficients:
+    ##                                         Estimate       Std. Error t value
+    ## (Intercept)                     -10.448882039003  23.418378079071   -0.45
+    ## Year                              0.040790276532   0.011735348265    3.48
+    ## Adult.Mortality                  -0.055030062491   0.001048077384  -52.51
+    ## RegionAustralia and New Zealand   2.082863495683   0.658316743498    3.16
+    ## RegionCanada                      3.357840630895   0.721117647149    4.66
+    ## RegionCaribbean                   2.168715016911   0.377449601251    5.75
+    ## RegionCentral Africa             -1.271993497627   0.428845935289   -2.97
+    ## RegionCentral Asia               -1.589224349145   0.421543748689   -3.77
+    ## RegionCentral Europe              1.123094491044   0.377200011540    2.98
+    ## RegionEastern Africa             -0.326776156595   0.447548659973   -0.73
+    ## RegionEastern Europe              1.379818609597   0.420546224522    3.28
+    ## RegionMashriq                     0.622402863364   0.399396861840    1.56
+    ## RegionMeso-America                2.815672081697   0.393872411549    7.15
+    ## RegionNorth Africa               -0.033642167781   0.369357451451   -0.09
+    ## RegionNW Pacific and East Asia    1.069105926710   0.455633754516    2.35
+    ## RegionSouth America               1.570268239481   0.375733282346    4.18
+    ## RegionSouth Asia                  0.451833075333   0.404477454069    1.12
+    ## RegionSouth Pacific               0.034197882304   0.393458709231    0.09
+    ## RegionSoutheast Asia              0.720781006863   0.351909659434    2.05
+    ## RegionSouthern Africa            -0.469435087665   0.490411916888   -0.96
+    ## RegionUS                          1.377244756215   0.819361147116    1.68
+    ## RegionWestern Africa             -3.206077619116   0.405369506674   -7.91
+    ## RegionWestern Europe              2.668283879242   0.401480979409    6.65
+    ## RegionWestern Indian Ocean        0.337127196935   0.448778272390    0.75
+    ## StatusDeveloping                 -0.482883574094   0.227454765941   -2.12
+    ## infant.deaths                    -0.002548061162   0.000676086230   -3.77
+    ## Alcohol                           0.069750854637   0.020537450366    3.40
+    ## Measles                          -0.000015323290   0.000004926257   -3.11
+    ## BMI                               0.008328934429   0.003579071374    2.33
+    ## Polio                             0.012557316493   0.002824542275    4.45
+    ## Total.expenditure                -0.014335492057   0.023597457474   -0.61
+    ## Diphtheria                        0.013932292080   0.002885234908    4.83
+    ## Population                        0.000000001482   0.000000000579    2.56
+    ## thinness.5.9.years               -0.021762175075   0.020564236844   -1.06
+    ## Income.composition.of.resources   1.583336725367   0.429424051689    3.69
+    ## Schooling                         0.354213211011   0.030385963344   11.66
+    ## log.HIV.AIDS                      0.063580336425   0.083351193439    0.76
+    ## log.GDP                           0.066725985220   0.042397130839    1.57
+    ## log.percentage.expenditure        0.034673664000   0.022769580752    1.52
+    ##                                             Pr(>|t|)    
+    ## (Intercept)                                  0.65550    
+    ## Year                                         0.00052 ***
+    ## Adult.Mortality                 < 0.0000000000000002 ***
+    ## RegionAustralia and New Zealand              0.00158 ** 
+    ## RegionCanada                      0.0000033890481533 ***
+    ## RegionCaribbean                   0.0000000102881738 ***
+    ## RegionCentral Africa                         0.00305 ** 
+    ## RegionCentral Asia                           0.00017 ***
+    ## RegionCentral Europe                         0.00294 ** 
+    ## RegionEastern Africa                         0.46537    
+    ## RegionEastern Europe                         0.00105 ** 
+    ## RegionMashriq                                0.11928    
+    ## RegionMeso-America                0.0000000000011512 ***
+    ## RegionNorth Africa                           0.92743    
+    ## RegionNW Pacific and East Asia               0.01903 *  
+    ## RegionSouth America               0.0000302780710070 ***
+    ## RegionSouth Asia                             0.26407    
+    ## RegionSouth Pacific                          0.93075    
+    ## RegionSoutheast Asia                         0.04065 *  
+    ## RegionSouthern Africa                        0.33855    
+    ## RegionUS                                     0.09291 .  
+    ## RegionWestern Africa              0.0000000000000039 ***
+    ## RegionWestern Europe              0.0000000000369642 ***
+    ## RegionWestern Indian Ocean                   0.45260    
+    ## StatusDeveloping                             0.03385 *  
+    ## infant.deaths                                0.00017 ***
+    ## Alcohol                                      0.00069 ***
+    ## Measles                                      0.00189 ** 
+    ## BMI                                          0.02004 *  
+    ## Polio                             0.0000091472303320 ***
+    ## Total.expenditure                            0.54357    
+    ## Diphtheria                        0.0000014580392101 ***
+    ## Population                                   0.01053 *  
+    ## thinness.5.9.years                           0.29004    
+    ## Income.composition.of.resources              0.00023 ***
+    ## Schooling                       < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                 0.44566    
+    ## log.GDP                                      0.11566    
+    ## log.percentage.expenditure                   0.12794    
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 2.34 on 2450 degrees of freedom
+    ## Multiple R-squared:  0.941,  Adjusted R-squared:  0.94 
+    ## F-statistic: 1.04e+03 on 38 and 2450 DF,  p-value: <0.0000000000000002
+
+``` r
+# At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
+# thinness.5.9.years, Measles, BMI, Total.expenditure.
+
+# Predicting
+train_pred = predict(fit.fwd.lm3, train)
+test_pred = predict(fit.fwd.lm3, test)
+
+# Scoring the final model on Training and Test set
+residuals = resid(fit.fwd.lm3)
+postResample(pred = train_pred, obs = train$Life.expectancy)
+```
+
+    ##     RMSE Rsquared      MAE 
+    ##   2.3254   0.9414   1.6431
+
+``` r
+postResample(pred = test_pred, obs = test$Life.expectancy)
+```
+
+    ##     RMSE Rsquared      MAE 
+    ##   2.4008   0.9297   1.6108
+
+``` r
+sm = summary(fit.fwd.lm3)
+mse = mean(sm$residuals^2)
+
+### Checking Multiple Liner Regression model assumptions
+confint(fit.fwd.lm3)
+```
+
+    ##                                             2.5 %          97.5 %
+    ## (Intercept)                     -56.3707460721471 35.472981994140
+    ## Year                              0.0177780480348  0.063802505030
+    ## Adult.Mortality                  -0.0570852717368 -0.052974853246
+    ## RegionAustralia and New Zealand   0.7919486473717  3.373778343994
+    ## RegionCanada                      1.9437774352091  4.771903826581
+    ## RegionCaribbean                   1.4285617403066  2.908868293516
+    ## RegionCentral Africa             -2.1129315277935 -0.431055467460
+    ## RegionCentral Asia               -2.4158432826148 -0.762605415675
+    ## RegionCentral Europe              0.3834306430711  1.862758339016
+    ## RegionEastern Africa             -1.2043889717134  0.550836658523
+    ## RegionEastern Europe              0.5551557539136  2.204481465280
+    ## RegionMashriq                    -0.1607875148404  1.405593241568
+    ## RegionMeso-America                2.0433147788762  3.588029384517
+    ## RegionNorth Africa               -0.7579272829964  0.690642947435
+    ## RegionNW Pacific and East Asia    0.1756387850859  1.962573068334
+    ## RegionSouth America               0.8334805487884  2.307055930173
+    ## RegionSouth Asia                 -0.3413200024566  1.244986153122
+    ## RegionSouth Pacific              -0.7373481781007  0.805743942708
+    ## RegionSoutheast Asia              0.0307098380616  1.410852175664
+    ## RegionSouthern Africa            -1.4310998661372  0.492229690807
+    ## RegionUS                         -0.2294673339585  2.983956846389
+    ## RegionWestern Africa             -4.0009799520540 -2.411175286178
+    ## RegionWestern Europe              1.8810066866850  3.455561071799
+    ## RegionWestern Indian Ocean       -0.5428968054176  1.217151199287
+    ## StatusDeveloping                 -0.9289070689737 -0.036860079215
+    ## infant.deaths                    -0.0038738207777 -0.001222301547
+    ## Alcohol                           0.0294782960459  0.110023413227
+    ## Measles                          -0.0000249833497 -0.000005663231
+    ## BMI                               0.0013106162322  0.015347252626
+    ## Polio                             0.0070185791004  0.018096053885
+    ## Total.expenditure                -0.0606085187363  0.031937534622
+    ## Diphtheria                        0.0082745405190  0.019590043641
+    ## Population                        0.0000000003468  0.000000002618
+    ## thinness.5.9.years               -0.0620872601480  0.018562909999
+    ## Income.composition.of.resources   0.7412650478308  2.425408402904
+    ## Schooling                         0.2946283809891  0.413798041032
+    ## log.HIV.AIDS                     -0.0998657467819  0.227026419632
+    ## log.GDP                          -0.0164119362537  0.149863906694
+    ## log.percentage.expenditure       -0.0099759521196  0.079323280120
+
+``` r
+hist(residuals, main = "Histogram of Residuals")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-13.png)<!-- -->
+
+``` r
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-14.png)<!-- -->
+
+``` r
+plot(fit.fwd.lm3, which = 2)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-15.png)<!-- -->
+
+``` r
+plot(fit.fwd.lm3, which = 4)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-16.png)<!-- -->
+
+``` r
+##### Visualize prediction vs actual
+x_fwd = 1:dim(xtest)[1]
+plot(x_fwd, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (FWD selection)", ylab="Life expectancy")
+lines(x_fwd, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-17.png)<!-- -->
+
+``` r
+#####################################################################################
+#                               Backward Elimination                                #
+#####################################################################################
+
+mlr.bck=regsubsets(Life.expectancy~.,data=dplyr::select(train,-c(Country)),method="backward",nvmax=41)
+testASE<-c()
+for (i in 1:41){
+
+  predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
+  testASE[i] = mean((test$Life.expectancy-predictions)^2)
+}
+par(mfrow=c(1,1))
+
+plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+index<-which(testASE==min(testASE))
+points(index,testASE[index],col="red",pch=10)
+rss<-summary(mlr.bck)$rss
+lines(1:41,rss/dim(train)[1],lty=3,col="blue")  
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-18.png)<!-- -->
+
+``` r
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=41)
+```
+
+    ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
+    ## force.in, : 22 linear dependencies found
+
+    ## Reordering variables and trying again:
+
+``` r
+coef(mlr.bck.final,35)
+```
+
+    ##                             (Intercept)                           CountryAngola 
+    ##                               56.303280                              -13.885862 
+    ##                          CountryAustria                          CountryBahamas 
+    ##                               11.467101                                2.838493 
+    ##                          CountryBelarus                          CountryBelgium 
+    ##                               -0.720632                                8.796060 
+    ##                         CountryBotswana                           CountryCanada 
+    ##                              -15.570363                               11.800924 
+    ##               CountryDominican Republic                      CountryEl Salvador 
+    ##                                4.041501                                2.350477 
+    ##                          CountryEstonia                          CountryFinland 
+    ##                                3.614314                                8.914742 
+    ##                           CountryFrance                          CountryGermany 
+    ##                               10.277987                                9.778343 
+    ##                        CountryGuatemala                            CountryJapan 
+    ##                                4.156682                               10.954890 
+    ##                       CountryKazakhstan                           CountryLatvia 
+    ##                               -5.021076                                2.272278 
+    ##                          CountryLesotho                        CountryLithuania 
+    ##                              -18.312795                                2.343708 
+    ##                          CountryNamibia                      CountryNew Zealand 
+    ##                               -8.392608                               10.825136 
+    ##                         CountryPortugal               CountryRussian Federation 
+    ##                                8.307284                               -3.945141 
+    ## CountrySaint Vincent and the Grenadines                         CountrySlovenia 
+    ##                                1.567635                                8.252350 
+    ##                     CountrySouth Africa                            CountrySpain 
+    ##                               -8.778613                               10.355340 
+    ##                        CountrySwaziland                           CountrySweden 
+    ##                              -19.143855                               10.541635 
+    ##                           CountryUganda                          CountryUkraine 
+    ##                              -10.223992                                0.696220 
+    ##                           CountryZambia                         CountryZimbabwe 
+    ##                              -12.359887                              -17.633968 
+    ##                           infant.deaths                                   Polio 
+    ##                               -0.008983                                0.159429
+
+``` r
+summary(mlr.bck.final)
+```
+
+    ## Subset selection object
+    ## Call: regsubsets.formula(Life.expectancy ~ ., data = LifeExp, method = "backward", 
+    ##     nvmax = 41)
+    ## 223 Variables  (and intercept)
+    ##                                                             Forced in
+    ## CountryAlbania                                                  FALSE
+    ## CountryAlgeria                                                  FALSE
+    ## CountryAngola                                                   FALSE
+    ## CountryAntigua and Barbuda                                      FALSE
+    ## CountryArgentina                                                FALSE
+    ## CountryArmenia                                                  FALSE
+    ## CountryAustralia                                                FALSE
+    ## CountryAustria                                                  FALSE
+    ## CountryAzerbaijan                                               FALSE
+    ## CountryBahamas                                                  FALSE
+    ## CountryBahrain                                                  FALSE
+    ## CountryBangladesh                                               FALSE
+    ## CountryBarbados                                                 FALSE
+    ## CountryBelarus                                                  FALSE
+    ## CountryBelgium                                                  FALSE
+    ## CountryBelize                                                   FALSE
+    ## CountryBenin                                                    FALSE
+    ## CountryBhutan                                                   FALSE
+    ## CountryBolivia                                                  FALSE
+    ## CountryBosnia and Herzegovina                                   FALSE
+    ## CountryBotswana                                                 FALSE
+    ## CountryBrazil                                                   FALSE
+    ## CountryBrunei Darussalam                                        FALSE
+    ## CountryBulgaria                                                 FALSE
+    ## CountryBurkina Faso                                             FALSE
+    ## CountryBurundi                                                  FALSE
+    ## CountryCabo Verde                                               FALSE
+    ## CountryCambodia                                                 FALSE
+    ## CountryCameroon                                                 FALSE
+    ## CountryCanada                                                   FALSE
+    ## CountryCentral African Republic                                 FALSE
+    ## CountryChad                                                     FALSE
+    ## CountryChile                                                    FALSE
+    ## CountryChina                                                    FALSE
+    ## CountryColombia                                                 FALSE
+    ## CountryComoros                                                  FALSE
+    ## CountryCongo                                                    FALSE
+    ## CountryCosta Rica                                               FALSE
+    ## CountryCroatia                                                  FALSE
+    ## CountryCuba                                                     FALSE
+    ## CountryCyprus                                                   FALSE
+    ## CountryCzechia                                                  FALSE
+    ## CountryDemocratic People's Republic of Korea                    FALSE
+    ## CountryDemocratic Republic of the Congo                         FALSE
+    ## CountryDenmark                                                  FALSE
+    ## CountryDjibouti                                                 FALSE
+    ## CountryDominican Republic                                       FALSE
+    ## CountryEcuador                                                  FALSE
+    ## CountryEgypt                                                    FALSE
+    ## CountryEl Salvador                                              FALSE
+    ## CountryEquatorial Guinea                                        FALSE
+    ## CountryEritrea                                                  FALSE
+    ## CountryEstonia                                                  FALSE
+    ## CountryEthiopia                                                 FALSE
+    ## CountryFiji                                                     FALSE
+    ## CountryFinland                                                  FALSE
+    ## CountryFrance                                                   FALSE
+    ## CountryGabon                                                    FALSE
+    ## CountryGambia                                                   FALSE
+    ## CountryGeorgia                                                  FALSE
+    ## CountryGermany                                                  FALSE
+    ## CountryGhana                                                    FALSE
+    ## CountryGreece                                                   FALSE
+    ## CountryGrenada                                                  FALSE
+    ## CountryGuatemala                                                FALSE
+    ## CountryGuinea                                                   FALSE
+    ## CountryGuinea-Bissau                                            FALSE
+    ## CountryGuyana                                                   FALSE
+    ## CountryHaiti                                                    FALSE
+    ## CountryHonduras                                                 FALSE
+    ## CountryHungary                                                  FALSE
+    ## CountryIceland                                                  FALSE
+    ## CountryIndia                                                    FALSE
+    ## CountryIndonesia                                                FALSE
+    ## CountryIran                                                     FALSE
+    ## CountryIraq                                                     FALSE
+    ## CountryIreland                                                  FALSE
+    ## CountryIsrael                                                   FALSE
+    ## CountryItaly                                                    FALSE
+    ## CountryIvory Coast                                              FALSE
+    ## CountryJamaica                                                  FALSE
+    ## CountryJapan                                                    FALSE
+    ## CountryJordan                                                   FALSE
+    ## CountryKazakhstan                                               FALSE
+    ## CountryKenya                                                    FALSE
+    ## CountryKiribati                                                 FALSE
+    ## CountryKuwait                                                   FALSE
+    ## CountryKyrgyzstan                                               FALSE
+    ## CountryLao People's Democratic Republic                         FALSE
+    ## CountryLatvia                                                   FALSE
+    ## CountryLebanon                                                  FALSE
+    ## CountryLesotho                                                  FALSE
+    ## CountryLiberia                                                  FALSE
+    ## CountryLibya                                                    FALSE
+    ## CountryLithuania                                                FALSE
+    ## CountryLuxembourg                                               FALSE
+    ## CountryMadagascar                                               FALSE
+    ## CountryMalawi                                                   FALSE
+    ## CountryMalaysia                                                 FALSE
+    ## CountryMaldives                                                 FALSE
+    ## CountryMali                                                     FALSE
+    ## CountryMalta                                                    FALSE
+    ## CountryMauritania                                               FALSE
+    ## CountryMauritius                                                FALSE
+    ## CountryMexico                                                   FALSE
+    ## CountryMicronesia (Federated States of)                         FALSE
+    ## CountryMongolia                                                 FALSE
+    ## CountryMontenegro                                               FALSE
+    ## CountryMorocco                                                  FALSE
+    ## CountryMozambique                                               FALSE
+    ## CountryMyanmar                                                  FALSE
+    ## CountryNamibia                                                  FALSE
+    ## CountryNepal                                                    FALSE
+    ## CountryNetherlands                                              FALSE
+    ## CountryNew Zealand                                              FALSE
+    ## CountryNicaragua                                                FALSE
+    ## CountryNiger                                                    FALSE
+    ## CountryNigeria                                                  FALSE
+    ## CountryNorway                                                   FALSE
+    ## CountryOman                                                     FALSE
+    ## CountryPakistan                                                 FALSE
+    ## CountryPanama                                                   FALSE
+    ## CountryPapua New Guinea                                         FALSE
+    ## CountryParaguay                                                 FALSE
+    ## CountryPeru                                                     FALSE
+    ## CountryPhilippines                                              FALSE
+    ## CountryPoland                                                   FALSE
+    ## CountryPortugal                                                 FALSE
+    ## CountryQatar                                                    FALSE
+    ## CountryRepublic of Korea                                        FALSE
+    ## CountryRepublic of Moldova                                      FALSE
+    ## CountryRomania                                                  FALSE
+    ## CountryRussian Federation                                       FALSE
+    ## CountryRwanda                                                   FALSE
+    ## CountrySaint Lucia                                              FALSE
+    ## CountrySaint Vincent and the Grenadines                         FALSE
+    ## CountrySamoa                                                    FALSE
+    ## CountrySao Tome and Principe                                    FALSE
+    ## CountrySaudi Arabia                                             FALSE
+    ## CountrySenegal                                                  FALSE
+    ## CountrySerbia                                                   FALSE
+    ## CountrySeychelles                                               FALSE
+    ## CountrySierra Leone                                             FALSE
+    ## CountrySingapore                                                FALSE
+    ## CountrySlovakia                                                 FALSE
+    ## CountrySlovenia                                                 FALSE
+    ## CountrySolomon Islands                                          FALSE
+    ## CountrySomalia                                                  FALSE
+    ## CountrySouth Africa                                             FALSE
+    ## CountrySouth Sudan                                              FALSE
+    ## CountrySpain                                                    FALSE
+    ## CountrySri Lanka                                                FALSE
+    ## CountrySudan                                                    FALSE
+    ## CountrySuriname                                                 FALSE
+    ## CountrySwaziland                                                FALSE
+    ## CountrySweden                                                   FALSE
+    ## CountrySwitzerland                                              FALSE
+    ## CountrySyrian Arab Republic                                     FALSE
+    ## CountryTajikistan                                               FALSE
+    ## CountryThailand                                                 FALSE
+    ## CountryThe former Yugoslav republic of Macedonia                FALSE
+    ## CountryTimor-Leste                                              FALSE
+    ## CountryTogo                                                     FALSE
+    ## CountryTonga                                                    FALSE
+    ## CountryTrinidad and Tobago                                      FALSE
+    ## CountryTunisia                                                  FALSE
+    ## CountryTurkey                                                   FALSE
+    ## CountryTurkmenistan                                             FALSE
+    ## CountryUganda                                                   FALSE
+    ## CountryUkraine                                                  FALSE
+    ## CountryUnited Arab Emirates                                     FALSE
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland     FALSE
+    ## CountryUnited Republic of Tanzania                              FALSE
+    ## CountryUnited States of America                                 FALSE
+    ## CountryUruguay                                                  FALSE
+    ## CountryUzbekistan                                               FALSE
+    ## CountryVanuatu                                                  FALSE
+    ## CountryVenezuela                                                FALSE
+    ## CountryViet Nam                                                 FALSE
+    ## CountryYemen                                                    FALSE
+    ## CountryZambia                                                   FALSE
+    ## CountryZimbabwe                                                 FALSE
+    ## Year                                                            FALSE
+    ## Adult.Mortality                                                 FALSE
+    ## infant.deaths                                                   FALSE
+    ## Alcohol                                                         FALSE
+    ## Hepatitis.B                                                     FALSE
+    ## Measles                                                         FALSE
+    ## BMI                                                             FALSE
+    ## under.five.deaths                                               FALSE
+    ## Polio                                                           FALSE
+    ## Total.expenditure                                               FALSE
+    ## Diphtheria                                                      FALSE
+    ## Population                                                      FALSE
+    ## thinness..1.19.years                                            FALSE
+    ## thinness.5.9.years                                              FALSE
+    ## Income.composition.of.resources                                 FALSE
+    ## Schooling                                                       FALSE
+    ## log.HIV.AIDS                                                    FALSE
+    ## log.GDP                                                         FALSE
+    ## log.percentage.expenditure                                      FALSE
+    ## StatusDeveloping                                                FALSE
+    ## RegionAustralia and New Zealand                                 FALSE
+    ## RegionCanada                                                    FALSE
+    ## RegionCaribbean                                                 FALSE
+    ## RegionCentral Africa                                            FALSE
+    ## RegionCentral Asia                                              FALSE
+    ## RegionCentral Europe                                            FALSE
+    ## RegionEastern Africa                                            FALSE
+    ## RegionEastern Europe                                            FALSE
+    ## RegionMashriq                                                   FALSE
+    ## RegionMeso-America                                              FALSE
+    ## RegionNorth Africa                                              FALSE
+    ## RegionNW Pacific and East Asia                                  FALSE
+    ## RegionSouth America                                             FALSE
+    ## RegionSouth Asia                                                FALSE
+    ## RegionSouth Pacific                                             FALSE
+    ## RegionSoutheast Asia                                            FALSE
+    ## RegionSouthern Africa                                           FALSE
+    ## RegionUS                                                        FALSE
+    ## RegionWestern Africa                                            FALSE
+    ## RegionWestern Europe                                            FALSE
+    ## RegionWestern Indian Ocean                                      FALSE
+    ##                                                             Forced out
+    ## CountryAlbania                                                   FALSE
+    ## CountryAlgeria                                                   FALSE
+    ## CountryAngola                                                    FALSE
+    ## CountryAntigua and Barbuda                                       FALSE
+    ## CountryArgentina                                                 FALSE
+    ## CountryArmenia                                                   FALSE
+    ## CountryAustralia                                                 FALSE
+    ## CountryAustria                                                   FALSE
+    ## CountryAzerbaijan                                                FALSE
+    ## CountryBahamas                                                   FALSE
+    ## CountryBahrain                                                   FALSE
+    ## CountryBangladesh                                                FALSE
+    ## CountryBarbados                                                  FALSE
+    ## CountryBelarus                                                   FALSE
+    ## CountryBelgium                                                   FALSE
+    ## CountryBelize                                                    FALSE
+    ## CountryBenin                                                     FALSE
+    ## CountryBhutan                                                    FALSE
+    ## CountryBolivia                                                   FALSE
+    ## CountryBosnia and Herzegovina                                    FALSE
+    ## CountryBotswana                                                  FALSE
+    ## CountryBrazil                                                    FALSE
+    ## CountryBrunei Darussalam                                         FALSE
+    ## CountryBulgaria                                                  FALSE
+    ## CountryBurkina Faso                                              FALSE
+    ## CountryBurundi                                                   FALSE
+    ## CountryCabo Verde                                                FALSE
+    ## CountryCambodia                                                  FALSE
+    ## CountryCameroon                                                  FALSE
+    ## CountryCanada                                                    FALSE
+    ## CountryCentral African Republic                                  FALSE
+    ## CountryChad                                                      FALSE
+    ## CountryChile                                                     FALSE
+    ## CountryChina                                                     FALSE
+    ## CountryColombia                                                  FALSE
+    ## CountryComoros                                                   FALSE
+    ## CountryCongo                                                     FALSE
+    ## CountryCosta Rica                                                FALSE
+    ## CountryCroatia                                                   FALSE
+    ## CountryCuba                                                      FALSE
+    ## CountryCyprus                                                    FALSE
+    ## CountryCzechia                                                   FALSE
+    ## CountryDemocratic People's Republic of Korea                     FALSE
+    ## CountryDemocratic Republic of the Congo                          FALSE
+    ## CountryDenmark                                                   FALSE
+    ## CountryDjibouti                                                  FALSE
+    ## CountryDominican Republic                                        FALSE
+    ## CountryEcuador                                                   FALSE
+    ## CountryEgypt                                                     FALSE
+    ## CountryEl Salvador                                               FALSE
+    ## CountryEquatorial Guinea                                         FALSE
+    ## CountryEritrea                                                   FALSE
+    ## CountryEstonia                                                   FALSE
+    ## CountryEthiopia                                                  FALSE
+    ## CountryFiji                                                      FALSE
+    ## CountryFinland                                                   FALSE
+    ## CountryFrance                                                    FALSE
+    ## CountryGabon                                                     FALSE
+    ## CountryGambia                                                    FALSE
+    ## CountryGeorgia                                                   FALSE
+    ## CountryGermany                                                   FALSE
+    ## CountryGhana                                                     FALSE
+    ## CountryGreece                                                    FALSE
+    ## CountryGrenada                                                   FALSE
+    ## CountryGuatemala                                                 FALSE
+    ## CountryGuinea                                                    FALSE
+    ## CountryGuinea-Bissau                                             FALSE
+    ## CountryGuyana                                                    FALSE
+    ## CountryHaiti                                                     FALSE
+    ## CountryHonduras                                                  FALSE
+    ## CountryHungary                                                   FALSE
+    ## CountryIceland                                                   FALSE
+    ## CountryIndia                                                     FALSE
+    ## CountryIndonesia                                                 FALSE
+    ## CountryIran                                                      FALSE
+    ## CountryIraq                                                      FALSE
+    ## CountryIreland                                                   FALSE
+    ## CountryIsrael                                                    FALSE
+    ## CountryItaly                                                     FALSE
+    ## CountryIvory Coast                                               FALSE
+    ## CountryJamaica                                                   FALSE
+    ## CountryJapan                                                     FALSE
+    ## CountryJordan                                                    FALSE
+    ## CountryKazakhstan                                                FALSE
+    ## CountryKenya                                                     FALSE
+    ## CountryKiribati                                                  FALSE
+    ## CountryKuwait                                                    FALSE
+    ## CountryKyrgyzstan                                                FALSE
+    ## CountryLao People's Democratic Republic                          FALSE
+    ## CountryLatvia                                                    FALSE
+    ## CountryLebanon                                                   FALSE
+    ## CountryLesotho                                                   FALSE
+    ## CountryLiberia                                                   FALSE
+    ## CountryLibya                                                     FALSE
+    ## CountryLithuania                                                 FALSE
+    ## CountryLuxembourg                                                FALSE
+    ## CountryMadagascar                                                FALSE
+    ## CountryMalawi                                                    FALSE
+    ## CountryMalaysia                                                  FALSE
+    ## CountryMaldives                                                  FALSE
+    ## CountryMali                                                      FALSE
+    ## CountryMalta                                                     FALSE
+    ## CountryMauritania                                                FALSE
+    ## CountryMauritius                                                 FALSE
+    ## CountryMexico                                                    FALSE
+    ## CountryMicronesia (Federated States of)                          FALSE
+    ## CountryMongolia                                                  FALSE
+    ## CountryMontenegro                                                FALSE
+    ## CountryMorocco                                                   FALSE
+    ## CountryMozambique                                                FALSE
+    ## CountryMyanmar                                                   FALSE
+    ## CountryNamibia                                                   FALSE
+    ## CountryNepal                                                     FALSE
+    ## CountryNetherlands                                               FALSE
+    ## CountryNew Zealand                                               FALSE
+    ## CountryNicaragua                                                 FALSE
+    ## CountryNiger                                                     FALSE
+    ## CountryNigeria                                                   FALSE
+    ## CountryNorway                                                    FALSE
+    ## CountryOman                                                      FALSE
+    ## CountryPakistan                                                  FALSE
+    ## CountryPanama                                                    FALSE
+    ## CountryPapua New Guinea                                          FALSE
+    ## CountryParaguay                                                  FALSE
+    ## CountryPeru                                                      FALSE
+    ## CountryPhilippines                                               FALSE
+    ## CountryPoland                                                    FALSE
+    ## CountryPortugal                                                  FALSE
+    ## CountryQatar                                                     FALSE
+    ## CountryRepublic of Korea                                         FALSE
+    ## CountryRepublic of Moldova                                       FALSE
+    ## CountryRomania                                                   FALSE
+    ## CountryRussian Federation                                        FALSE
+    ## CountryRwanda                                                    FALSE
+    ## CountrySaint Lucia                                               FALSE
+    ## CountrySaint Vincent and the Grenadines                          FALSE
+    ## CountrySamoa                                                     FALSE
+    ## CountrySao Tome and Principe                                     FALSE
+    ## CountrySaudi Arabia                                              FALSE
+    ## CountrySenegal                                                   FALSE
+    ## CountrySerbia                                                    FALSE
+    ## CountrySeychelles                                                FALSE
+    ## CountrySierra Leone                                              FALSE
+    ## CountrySingapore                                                 FALSE
+    ## CountrySlovakia                                                  FALSE
+    ## CountrySlovenia                                                  FALSE
+    ## CountrySolomon Islands                                           FALSE
+    ## CountrySomalia                                                   FALSE
+    ## CountrySouth Africa                                              FALSE
+    ## CountrySouth Sudan                                               FALSE
+    ## CountrySpain                                                     FALSE
+    ## CountrySri Lanka                                                 FALSE
+    ## CountrySudan                                                     FALSE
+    ## CountrySuriname                                                  FALSE
+    ## CountrySwaziland                                                 FALSE
+    ## CountrySweden                                                    FALSE
+    ## CountrySwitzerland                                               FALSE
+    ## CountrySyrian Arab Republic                                      FALSE
+    ## CountryTajikistan                                                FALSE
+    ## CountryThailand                                                  FALSE
+    ## CountryThe former Yugoslav republic of Macedonia                 FALSE
+    ## CountryTimor-Leste                                               FALSE
+    ## CountryTogo                                                      FALSE
+    ## CountryTonga                                                     FALSE
+    ## CountryTrinidad and Tobago                                       FALSE
+    ## CountryTunisia                                                   FALSE
+    ## CountryTurkey                                                    FALSE
+    ## CountryTurkmenistan                                              FALSE
+    ## CountryUganda                                                    FALSE
+    ## CountryUkraine                                                   FALSE
+    ## CountryUnited Arab Emirates                                      FALSE
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland      FALSE
+    ## CountryUnited Republic of Tanzania                               FALSE
+    ## CountryUnited States of America                                  FALSE
+    ## CountryUruguay                                                   FALSE
+    ## CountryUzbekistan                                                FALSE
+    ## CountryVanuatu                                                   FALSE
+    ## CountryVenezuela                                                 FALSE
+    ## CountryViet Nam                                                  FALSE
+    ## CountryYemen                                                     FALSE
+    ## CountryZambia                                                    FALSE
+    ## CountryZimbabwe                                                  FALSE
+    ## Year                                                             FALSE
+    ## Adult.Mortality                                                  FALSE
+    ## infant.deaths                                                    FALSE
+    ## Alcohol                                                          FALSE
+    ## Hepatitis.B                                                      FALSE
+    ## Measles                                                          FALSE
+    ## BMI                                                              FALSE
+    ## under.five.deaths                                                FALSE
+    ## Polio                                                            FALSE
+    ## Total.expenditure                                                FALSE
+    ## Diphtheria                                                       FALSE
+    ## Population                                                       FALSE
+    ## thinness..1.19.years                                             FALSE
+    ## thinness.5.9.years                                               FALSE
+    ## Income.composition.of.resources                                  FALSE
+    ## Schooling                                                        FALSE
+    ## log.HIV.AIDS                                                     FALSE
+    ## log.GDP                                                          FALSE
+    ## log.percentage.expenditure                                       FALSE
+    ## StatusDeveloping                                                 FALSE
+    ## RegionAustralia and New Zealand                                  FALSE
+    ## RegionCanada                                                     FALSE
+    ## RegionCaribbean                                                  FALSE
+    ## RegionCentral Africa                                             FALSE
+    ## RegionCentral Asia                                               FALSE
+    ## RegionCentral Europe                                             FALSE
+    ## RegionEastern Africa                                             FALSE
+    ## RegionEastern Europe                                             FALSE
+    ## RegionMashriq                                                    FALSE
+    ## RegionMeso-America                                               FALSE
+    ## RegionNorth Africa                                               FALSE
+    ## RegionNW Pacific and East Asia                                   FALSE
+    ## RegionSouth America                                              FALSE
+    ## RegionSouth Asia                                                 FALSE
+    ## RegionSouth Pacific                                              FALSE
+    ## RegionSoutheast Asia                                             FALSE
+    ## RegionSouthern Africa                                            FALSE
+    ## RegionUS                                                         FALSE
+    ## RegionWestern Africa                                             FALSE
+    ## RegionWestern Europe                                             FALSE
+    ## RegionWestern Indian Ocean                                       FALSE
+    ## 1 subsets of each size up to 42
+    ## Selection Algorithm: backward
+    ##           CountryAlbania CountryAlgeria CountryAngola
+    ## 1  ( 1 )  " "            " "            " "          
+    ## 2  ( 1 )  " "            " "            "*"          
+    ## 3  ( 1 )  " "            " "            "*"          
+    ## 4  ( 1 )  " "            " "            "*"          
+    ## 5  ( 1 )  " "            " "            "*"          
+    ## 6  ( 1 )  " "            " "            "*"          
+    ## 7  ( 1 )  " "            " "            "*"          
+    ## 8  ( 1 )  " "            " "            "*"          
+    ## 9  ( 1 )  " "            " "            "*"          
+    ## 10  ( 1 ) " "            " "            "*"          
+    ## 11  ( 1 ) " "            " "            "*"          
+    ## 12  ( 1 ) " "            " "            "*"          
+    ## 13  ( 1 ) " "            " "            "*"          
+    ## 14  ( 1 ) " "            " "            "*"          
+    ## 15  ( 1 ) " "            " "            "*"          
+    ## 16  ( 1 ) " "            " "            "*"          
+    ## 17  ( 1 ) " "            " "            "*"          
+    ## 18  ( 1 ) " "            " "            "*"          
+    ## 19  ( 1 ) " "            " "            "*"          
+    ## 20  ( 1 ) " "            " "            "*"          
+    ## 21  ( 1 ) " "            " "            "*"          
+    ## 22  ( 1 ) " "            " "            "*"          
+    ## 23  ( 1 ) " "            " "            "*"          
+    ## 24  ( 1 ) " "            " "            "*"          
+    ## 25  ( 1 ) " "            " "            "*"          
+    ## 26  ( 1 ) " "            " "            "*"          
+    ## 27  ( 1 ) " "            " "            "*"          
+    ## 28  ( 1 ) " "            " "            "*"          
+    ## 29  ( 1 ) " "            " "            "*"          
+    ## 30  ( 1 ) " "            " "            "*"          
+    ## 31  ( 1 ) " "            " "            "*"          
+    ## 32  ( 1 ) " "            " "            "*"          
+    ## 33  ( 1 ) " "            " "            "*"          
+    ## 34  ( 1 ) " "            " "            "*"          
+    ## 35  ( 1 ) " "            " "            "*"          
+    ## 36  ( 1 ) " "            " "            "*"          
+    ## 37  ( 1 ) " "            " "            "*"          
+    ## 38  ( 1 ) " "            " "            "*"          
+    ## 39  ( 1 ) " "            " "            "*"          
+    ## 40  ( 1 ) " "            " "            "*"          
+    ## 41  ( 1 ) " "            " "            "*"          
+    ## 42  ( 1 ) " "            " "            "*"          
+    ##           CountryAntigua and Barbuda CountryArgentina CountryArmenia
+    ## 1  ( 1 )  " "                        " "              " "           
+    ## 2  ( 1 )  " "                        " "              " "           
+    ## 3  ( 1 )  " "                        " "              " "           
+    ## 4  ( 1 )  " "                        " "              " "           
+    ## 5  ( 1 )  " "                        " "              " "           
+    ## 6  ( 1 )  " "                        " "              " "           
+    ## 7  ( 1 )  " "                        " "              " "           
+    ## 8  ( 1 )  " "                        " "              " "           
+    ## 9  ( 1 )  " "                        " "              " "           
+    ## 10  ( 1 ) " "                        " "              " "           
+    ## 11  ( 1 ) " "                        " "              " "           
+    ## 12  ( 1 ) " "                        " "              " "           
+    ## 13  ( 1 ) " "                        " "              " "           
+    ## 14  ( 1 ) " "                        " "              " "           
+    ## 15  ( 1 ) " "                        " "              " "           
+    ## 16  ( 1 ) " "                        " "              " "           
+    ## 17  ( 1 ) " "                        " "              " "           
+    ## 18  ( 1 ) " "                        " "              " "           
+    ## 19  ( 1 ) " "                        " "              " "           
+    ## 20  ( 1 ) " "                        " "              " "           
+    ## 21  ( 1 ) " "                        " "              " "           
+    ## 22  ( 1 ) " "                        " "              " "           
+    ## 23  ( 1 ) " "                        " "              " "           
+    ## 24  ( 1 ) " "                        " "              " "           
+    ## 25  ( 1 ) " "                        " "              " "           
+    ## 26  ( 1 ) " "                        " "              " "           
+    ## 27  ( 1 ) " "                        " "              " "           
+    ## 28  ( 1 ) " "                        " "              " "           
+    ## 29  ( 1 ) " "                        " "              " "           
+    ## 30  ( 1 ) " "                        " "              " "           
+    ## 31  ( 1 ) " "                        " "              " "           
+    ## 32  ( 1 ) " "                        " "              " "           
+    ## 33  ( 1 ) " "                        " "              " "           
+    ## 34  ( 1 ) " "                        " "              " "           
+    ## 35  ( 1 ) " "                        " "              " "           
+    ## 36  ( 1 ) " "                        " "              " "           
+    ## 37  ( 1 ) " "                        " "              " "           
+    ## 38  ( 1 ) " "                        " "              " "           
+    ## 39  ( 1 ) " "                        " "              " "           
+    ## 40  ( 1 ) " "                        " "              " "           
+    ## 41  ( 1 ) " "                        " "              " "           
+    ## 42  ( 1 ) " "                        " "              " "           
+    ##           CountryAustralia CountryAustria CountryAzerbaijan CountryBahamas
+    ## 1  ( 1 )  " "              " "            " "               " "           
+    ## 2  ( 1 )  " "              " "            " "               " "           
+    ## 3  ( 1 )  " "              " "            " "               " "           
+    ## 4  ( 1 )  " "              " "            " "               " "           
+    ## 5  ( 1 )  " "              " "            " "               " "           
+    ## 6  ( 1 )  " "              " "            " "               " "           
+    ## 7  ( 1 )  " "              " "            " "               " "           
+    ## 8  ( 1 )  " "              " "            " "               " "           
+    ## 9  ( 1 )  " "              " "            " "               " "           
+    ## 10  ( 1 ) " "              " "            " "               " "           
+    ## 11  ( 1 ) " "              " "            " "               " "           
+    ## 12  ( 1 ) " "              " "            " "               " "           
+    ## 13  ( 1 ) " "              " "            " "               " "           
+    ## 14  ( 1 ) " "              " "            " "               " "           
+    ## 15  ( 1 ) " "              " "            " "               " "           
+    ## 16  ( 1 ) " "              " "            " "               " "           
+    ## 17  ( 1 ) " "              " "            " "               "*"           
+    ## 18  ( 1 ) " "              " "            " "               "*"           
+    ## 19  ( 1 ) " "              " "            " "               "*"           
+    ## 20  ( 1 ) " "              " "            " "               "*"           
+    ## 21  ( 1 ) " "              " "            " "               "*"           
+    ## 22  ( 1 ) " "              " "            " "               "*"           
+    ## 23  ( 1 ) " "              " "            " "               "*"           
+    ## 24  ( 1 ) " "              " "            " "               "*"           
+    ## 25  ( 1 ) " "              "*"            " "               "*"           
+    ## 26  ( 1 ) " "              "*"            " "               "*"           
+    ## 27  ( 1 ) " "              "*"            " "               "*"           
+    ## 28  ( 1 ) " "              "*"            " "               "*"           
+    ## 29  ( 1 ) " "              "*"            " "               "*"           
+    ## 30  ( 1 ) " "              "*"            " "               "*"           
+    ## 31  ( 1 ) " "              "*"            " "               "*"           
+    ## 32  ( 1 ) " "              "*"            " "               "*"           
+    ## 33  ( 1 ) " "              "*"            " "               "*"           
+    ## 34  ( 1 ) " "              "*"            " "               "*"           
+    ## 35  ( 1 ) " "              "*"            " "               "*"           
+    ## 36  ( 1 ) " "              "*"            " "               "*"           
+    ## 37  ( 1 ) " "              "*"            " "               "*"           
+    ## 38  ( 1 ) " "              "*"            " "               "*"           
+    ## 39  ( 1 ) " "              "*"            " "               "*"           
+    ## 40  ( 1 ) " "              "*"            " "               "*"           
+    ## 41  ( 1 ) " "              "*"            " "               "*"           
+    ## 42  ( 1 ) " "              "*"            " "               "*"           
+    ##           CountryBahrain CountryBangladesh CountryBarbados CountryBelarus
+    ## 1  ( 1 )  " "            " "               " "             " "           
+    ## 2  ( 1 )  " "            " "               " "             " "           
+    ## 3  ( 1 )  " "            " "               " "             " "           
+    ## 4  ( 1 )  " "            " "               " "             " "           
+    ## 5  ( 1 )  " "            " "               " "             " "           
+    ## 6  ( 1 )  " "            " "               " "             " "           
+    ## 7  ( 1 )  " "            " "               " "             " "           
+    ## 8  ( 1 )  " "            " "               " "             " "           
+    ## 9  ( 1 )  " "            " "               " "             " "           
+    ## 10  ( 1 ) " "            " "               " "             " "           
+    ## 11  ( 1 ) " "            " "               " "             " "           
+    ## 12  ( 1 ) " "            " "               " "             " "           
+    ## 13  ( 1 ) " "            " "               " "             " "           
+    ## 14  ( 1 ) " "            " "               " "             " "           
+    ## 15  ( 1 ) " "            " "               " "             " "           
+    ## 16  ( 1 ) " "            " "               " "             " "           
+    ## 17  ( 1 ) " "            " "               " "             " "           
+    ## 18  ( 1 ) " "            " "               " "             " "           
+    ## 19  ( 1 ) " "            " "               " "             "*"           
+    ## 20  ( 1 ) " "            " "               " "             "*"           
+    ## 21  ( 1 ) " "            " "               " "             "*"           
+    ## 22  ( 1 ) " "            " "               " "             "*"           
+    ## 23  ( 1 ) " "            " "               " "             "*"           
+    ## 24  ( 1 ) " "            " "               " "             "*"           
+    ## 25  ( 1 ) " "            " "               " "             "*"           
+    ## 26  ( 1 ) " "            " "               " "             "*"           
+    ## 27  ( 1 ) " "            " "               " "             "*"           
+    ## 28  ( 1 ) " "            " "               " "             "*"           
+    ## 29  ( 1 ) " "            " "               " "             "*"           
+    ## 30  ( 1 ) " "            " "               " "             "*"           
+    ## 31  ( 1 ) " "            " "               " "             "*"           
+    ## 32  ( 1 ) " "            " "               " "             "*"           
+    ## 33  ( 1 ) " "            " "               " "             "*"           
+    ## 34  ( 1 ) " "            " "               " "             "*"           
+    ## 35  ( 1 ) " "            " "               " "             "*"           
+    ## 36  ( 1 ) " "            " "               " "             "*"           
+    ## 37  ( 1 ) " "            " "               " "             "*"           
+    ## 38  ( 1 ) " "            " "               " "             "*"           
+    ## 39  ( 1 ) " "            " "               " "             "*"           
+    ## 40  ( 1 ) " "            " "               " "             "*"           
+    ## 41  ( 1 ) " "            " "               " "             "*"           
+    ## 42  ( 1 ) " "            " "               " "             "*"           
+    ##           CountryBelgium CountryBelize CountryBenin CountryBhutan
+    ## 1  ( 1 )  " "            " "           " "          " "          
+    ## 2  ( 1 )  " "            " "           " "          " "          
+    ## 3  ( 1 )  " "            " "           " "          " "          
+    ## 4  ( 1 )  " "            " "           " "          " "          
+    ## 5  ( 1 )  " "            " "           " "          " "          
+    ## 6  ( 1 )  " "            " "           " "          " "          
+    ## 7  ( 1 )  " "            " "           " "          " "          
+    ## 8  ( 1 )  " "            " "           " "          " "          
+    ## 9  ( 1 )  " "            " "           " "          " "          
+    ## 10  ( 1 ) " "            " "           " "          " "          
+    ## 11  ( 1 ) " "            " "           " "          " "          
+    ## 12  ( 1 ) " "            " "           " "          " "          
+    ## 13  ( 1 ) " "            " "           " "          " "          
+    ## 14  ( 1 ) " "            " "           " "          " "          
+    ## 15  ( 1 ) " "            " "           " "          " "          
+    ## 16  ( 1 ) " "            " "           " "          " "          
+    ## 17  ( 1 ) " "            " "           " "          " "          
+    ## 18  ( 1 ) " "            " "           " "          " "          
+    ## 19  ( 1 ) " "            " "           " "          " "          
+    ## 20  ( 1 ) " "            " "           " "          " "          
+    ## 21  ( 1 ) " "            " "           " "          " "          
+    ## 22  ( 1 ) " "            " "           " "          " "          
+    ## 23  ( 1 ) " "            " "           " "          " "          
+    ## 24  ( 1 ) " "            " "           " "          " "          
+    ## 25  ( 1 ) " "            " "           " "          " "          
+    ## 26  ( 1 ) " "            " "           " "          " "          
+    ## 27  ( 1 ) " "            " "           " "          " "          
+    ## 28  ( 1 ) " "            " "           " "          " "          
+    ## 29  ( 1 ) " "            " "           " "          " "          
+    ## 30  ( 1 ) "*"            " "           " "          " "          
+    ## 31  ( 1 ) "*"            " "           " "          " "          
+    ## 32  ( 1 ) "*"            " "           " "          " "          
+    ## 33  ( 1 ) "*"            " "           " "          " "          
+    ## 34  ( 1 ) "*"            " "           " "          " "          
+    ## 35  ( 1 ) "*"            " "           " "          " "          
+    ## 36  ( 1 ) "*"            " "           " "          " "          
+    ## 37  ( 1 ) "*"            " "           " "          " "          
+    ## 38  ( 1 ) "*"            " "           " "          " "          
+    ## 39  ( 1 ) "*"            " "           " "          " "          
+    ## 40  ( 1 ) "*"            " "           " "          " "          
+    ## 41  ( 1 ) "*"            " "           " "          " "          
+    ## 42  ( 1 ) "*"            " "           " "          " "          
+    ##           CountryBolivia CountryBosnia and Herzegovina CountryBotswana
+    ## 1  ( 1 )  " "            " "                           " "            
+    ## 2  ( 1 )  " "            " "                           " "            
+    ## 3  ( 1 )  " "            " "                           " "            
+    ## 4  ( 1 )  " "            " "                           " "            
+    ## 5  ( 1 )  " "            " "                           " "            
+    ## 6  ( 1 )  " "            " "                           " "            
+    ## 7  ( 1 )  " "            " "                           " "            
+    ## 8  ( 1 )  " "            " "                           "*"            
+    ## 9  ( 1 )  " "            " "                           "*"            
+    ## 10  ( 1 ) " "            " "                           "*"            
+    ## 11  ( 1 ) " "            " "                           "*"            
+    ## 12  ( 1 ) " "            " "                           "*"            
+    ## 13  ( 1 ) " "            " "                           "*"            
+    ## 14  ( 1 ) " "            " "                           "*"            
+    ## 15  ( 1 ) " "            " "                           "*"            
+    ## 16  ( 1 ) " "            " "                           "*"            
+    ## 17  ( 1 ) " "            " "                           "*"            
+    ## 18  ( 1 ) " "            " "                           "*"            
+    ## 19  ( 1 ) " "            " "                           "*"            
+    ## 20  ( 1 ) " "            " "                           "*"            
+    ## 21  ( 1 ) " "            " "                           "*"            
+    ## 22  ( 1 ) " "            " "                           "*"            
+    ## 23  ( 1 ) " "            " "                           "*"            
+    ## 24  ( 1 ) " "            " "                           "*"            
+    ## 25  ( 1 ) " "            " "                           "*"            
+    ## 26  ( 1 ) " "            " "                           "*"            
+    ## 27  ( 1 ) " "            " "                           "*"            
+    ## 28  ( 1 ) " "            " "                           "*"            
+    ## 29  ( 1 ) " "            " "                           "*"            
+    ## 30  ( 1 ) " "            " "                           "*"            
+    ## 31  ( 1 ) " "            " "                           "*"            
+    ## 32  ( 1 ) " "            " "                           "*"            
+    ## 33  ( 1 ) " "            " "                           "*"            
+    ## 34  ( 1 ) " "            " "                           "*"            
+    ## 35  ( 1 ) " "            " "                           "*"            
+    ## 36  ( 1 ) " "            " "                           "*"            
+    ## 37  ( 1 ) " "            " "                           "*"            
+    ## 38  ( 1 ) " "            " "                           "*"            
+    ## 39  ( 1 ) " "            " "                           "*"            
+    ## 40  ( 1 ) " "            " "                           "*"            
+    ## 41  ( 1 ) " "            " "                           "*"            
+    ## 42  ( 1 ) " "            " "                           "*"            
+    ##           CountryBrazil CountryBrunei Darussalam CountryBulgaria
+    ## 1  ( 1 )  " "           " "                      " "            
+    ## 2  ( 1 )  " "           " "                      " "            
+    ## 3  ( 1 )  " "           " "                      " "            
+    ## 4  ( 1 )  " "           " "                      " "            
+    ## 5  ( 1 )  " "           " "                      " "            
+    ## 6  ( 1 )  " "           " "                      " "            
+    ## 7  ( 1 )  " "           " "                      " "            
+    ## 8  ( 1 )  " "           " "                      " "            
+    ## 9  ( 1 )  " "           " "                      " "            
+    ## 10  ( 1 ) " "           " "                      " "            
+    ## 11  ( 1 ) " "           " "                      " "            
+    ## 12  ( 1 ) " "           " "                      " "            
+    ## 13  ( 1 ) " "           " "                      " "            
+    ## 14  ( 1 ) " "           " "                      " "            
+    ## 15  ( 1 ) " "           " "                      " "            
+    ## 16  ( 1 ) " "           " "                      " "            
+    ## 17  ( 1 ) " "           " "                      " "            
+    ## 18  ( 1 ) " "           " "                      " "            
+    ## 19  ( 1 ) " "           " "                      " "            
+    ## 20  ( 1 ) " "           " "                      " "            
+    ## 21  ( 1 ) " "           " "                      " "            
+    ## 22  ( 1 ) " "           " "                      " "            
+    ## 23  ( 1 ) " "           " "                      " "            
+    ## 24  ( 1 ) " "           " "                      " "            
+    ## 25  ( 1 ) " "           " "                      " "            
+    ## 26  ( 1 ) " "           " "                      " "            
+    ## 27  ( 1 ) " "           " "                      " "            
+    ## 28  ( 1 ) " "           " "                      " "            
+    ## 29  ( 1 ) " "           " "                      " "            
+    ## 30  ( 1 ) " "           " "                      " "            
+    ## 31  ( 1 ) " "           " "                      " "            
+    ## 32  ( 1 ) " "           " "                      " "            
+    ## 33  ( 1 ) " "           " "                      " "            
+    ## 34  ( 1 ) " "           " "                      " "            
+    ## 35  ( 1 ) " "           " "                      " "            
+    ## 36  ( 1 ) " "           " "                      " "            
+    ## 37  ( 1 ) " "           " "                      " "            
+    ## 38  ( 1 ) " "           " "                      " "            
+    ## 39  ( 1 ) " "           " "                      " "            
+    ## 40  ( 1 ) " "           " "                      " "            
+    ## 41  ( 1 ) " "           " "                      " "            
+    ## 42  ( 1 ) " "           " "                      " "            
+    ##           CountryBurkina Faso CountryBurundi CountryCabo Verde CountryCambodia
+    ## 1  ( 1 )  " "                 " "            " "               " "            
+    ## 2  ( 1 )  " "                 " "            " "               " "            
+    ## 3  ( 1 )  " "                 " "            " "               " "            
+    ## 4  ( 1 )  " "                 " "            " "               " "            
+    ## 5  ( 1 )  " "                 " "            " "               " "            
+    ## 6  ( 1 )  " "                 " "            " "               " "            
+    ## 7  ( 1 )  " "                 " "            " "               " "            
+    ## 8  ( 1 )  " "                 " "            " "               " "            
+    ## 9  ( 1 )  " "                 " "            " "               " "            
+    ## 10  ( 1 ) " "                 " "            " "               " "            
+    ## 11  ( 1 ) " "                 " "            " "               " "            
+    ## 12  ( 1 ) " "                 " "            " "               " "            
+    ## 13  ( 1 ) " "                 " "            " "               " "            
+    ## 14  ( 1 ) " "                 " "            " "               " "            
+    ## 15  ( 1 ) " "                 " "            " "               " "            
+    ## 16  ( 1 ) " "                 " "            " "               " "            
+    ## 17  ( 1 ) " "                 " "            " "               " "            
+    ## 18  ( 1 ) " "                 " "            " "               " "            
+    ## 19  ( 1 ) " "                 " "            " "               " "            
+    ## 20  ( 1 ) " "                 " "            " "               " "            
+    ## 21  ( 1 ) " "                 " "            " "               " "            
+    ## 22  ( 1 ) " "                 " "            " "               " "            
+    ## 23  ( 1 ) " "                 " "            " "               " "            
+    ## 24  ( 1 ) " "                 " "            " "               " "            
+    ## 25  ( 1 ) " "                 " "            " "               " "            
+    ## 26  ( 1 ) " "                 " "            " "               " "            
+    ## 27  ( 1 ) " "                 " "            " "               " "            
+    ## 28  ( 1 ) " "                 " "            " "               " "            
+    ## 29  ( 1 ) " "                 " "            " "               " "            
+    ## 30  ( 1 ) " "                 " "            " "               " "            
+    ## 31  ( 1 ) " "                 " "            " "               " "            
+    ## 32  ( 1 ) " "                 " "            " "               " "            
+    ## 33  ( 1 ) " "                 " "            " "               " "            
+    ## 34  ( 1 ) " "                 " "            " "               " "            
+    ## 35  ( 1 ) " "                 " "            " "               " "            
+    ## 36  ( 1 ) " "                 " "            " "               " "            
+    ## 37  ( 1 ) " "                 " "            " "               " "            
+    ## 38  ( 1 ) " "                 " "            " "               " "            
+    ## 39  ( 1 ) " "                 " "            " "               " "            
+    ## 40  ( 1 ) " "                 " "            " "               " "            
+    ## 41  ( 1 ) " "                 " "            " "               " "            
+    ## 42  ( 1 ) " "                 " "            " "               " "            
+    ##           CountryCameroon CountryCanada CountryCentral African Republic
+    ## 1  ( 1 )  " "             " "           " "                            
+    ## 2  ( 1 )  " "             " "           " "                            
+    ## 3  ( 1 )  " "             " "           " "                            
+    ## 4  ( 1 )  " "             " "           " "                            
+    ## 5  ( 1 )  " "             " "           " "                            
+    ## 6  ( 1 )  " "             " "           " "                            
+    ## 7  ( 1 )  " "             " "           " "                            
+    ## 8  ( 1 )  " "             " "           " "                            
+    ## 9  ( 1 )  " "             " "           " "                            
+    ## 10  ( 1 ) " "             " "           " "                            
+    ## 11  ( 1 ) " "             " "           " "                            
+    ## 12  ( 1 ) " "             " "           " "                            
+    ## 13  ( 1 ) " "             " "           " "                            
+    ## 14  ( 1 ) " "             " "           " "                            
+    ## 15  ( 1 ) " "             " "           " "                            
+    ## 16  ( 1 ) " "             " "           " "                            
+    ## 17  ( 1 ) " "             " "           " "                            
+    ## 18  ( 1 ) " "             " "           " "                            
+    ## 19  ( 1 ) " "             " "           " "                            
+    ## 20  ( 1 ) " "             " "           " "                            
+    ## 21  ( 1 ) " "             " "           " "                            
+    ## 22  ( 1 ) " "             " "           " "                            
+    ## 23  ( 1 ) " "             " "           " "                            
+    ## 24  ( 1 ) " "             " "           " "                            
+    ## 25  ( 1 ) " "             " "           " "                            
+    ## 26  ( 1 ) " "             " "           " "                            
+    ## 27  ( 1 ) " "             " "           " "                            
+    ## 28  ( 1 ) " "             " "           " "                            
+    ## 29  ( 1 ) " "             " "           " "                            
+    ## 30  ( 1 ) " "             " "           " "                            
+    ## 31  ( 1 ) " "             " "           " "                            
+    ## 32  ( 1 ) " "             "*"           " "                            
+    ## 33  ( 1 ) " "             "*"           " "                            
+    ## 34  ( 1 ) " "             "*"           " "                            
+    ## 35  ( 1 ) " "             "*"           " "                            
+    ## 36  ( 1 ) " "             "*"           " "                            
+    ## 37  ( 1 ) " "             "*"           " "                            
+    ## 38  ( 1 ) " "             "*"           " "                            
+    ## 39  ( 1 ) " "             "*"           " "                            
+    ## 40  ( 1 ) " "             "*"           " "                            
+    ## 41  ( 1 ) " "             "*"           " "                            
+    ## 42  ( 1 ) " "             "*"           " "                            
+    ##           CountryChad CountryChile CountryChina CountryColombia CountryComoros
+    ## 1  ( 1 )  " "         " "          " "          " "             " "           
+    ## 2  ( 1 )  " "         " "          " "          " "             " "           
+    ## 3  ( 1 )  " "         " "          " "          " "             " "           
+    ## 4  ( 1 )  " "         " "          " "          " "             " "           
+    ## 5  ( 1 )  " "         " "          " "          " "             " "           
+    ## 6  ( 1 )  " "         " "          " "          " "             " "           
+    ## 7  ( 1 )  " "         " "          " "          " "             " "           
+    ## 8  ( 1 )  " "         " "          " "          " "             " "           
+    ## 9  ( 1 )  " "         " "          " "          " "             " "           
+    ## 10  ( 1 ) " "         " "          " "          " "             " "           
+    ## 11  ( 1 ) " "         " "          " "          " "             " "           
+    ## 12  ( 1 ) " "         " "          " "          " "             " "           
+    ## 13  ( 1 ) " "         " "          " "          " "             " "           
+    ## 14  ( 1 ) " "         " "          " "          " "             " "           
+    ## 15  ( 1 ) " "         " "          " "          " "             " "           
+    ## 16  ( 1 ) " "         " "          " "          " "             " "           
+    ## 17  ( 1 ) " "         " "          " "          " "             " "           
+    ## 18  ( 1 ) " "         " "          " "          " "             " "           
+    ## 19  ( 1 ) " "         " "          " "          " "             " "           
+    ## 20  ( 1 ) " "         " "          " "          " "             " "           
+    ## 21  ( 1 ) " "         " "          " "          " "             " "           
+    ## 22  ( 1 ) " "         " "          " "          " "             " "           
+    ## 23  ( 1 ) " "         " "          " "          " "             " "           
+    ## 24  ( 1 ) " "         " "          " "          " "             " "           
+    ## 25  ( 1 ) " "         " "          " "          " "             " "           
+    ## 26  ( 1 ) " "         " "          " "          " "             " "           
+    ## 27  ( 1 ) " "         " "          " "          " "             " "           
+    ## 28  ( 1 ) " "         " "          " "          " "             " "           
+    ## 29  ( 1 ) " "         " "          " "          " "             " "           
+    ## 30  ( 1 ) " "         " "          " "          " "             " "           
+    ## 31  ( 1 ) " "         " "          " "          " "             " "           
+    ## 32  ( 1 ) " "         " "          " "          " "             " "           
+    ## 33  ( 1 ) " "         " "          " "          " "             " "           
+    ## 34  ( 1 ) " "         " "          " "          " "             " "           
+    ## 35  ( 1 ) " "         " "          " "          " "             " "           
+    ## 36  ( 1 ) " "         " "          " "          " "             " "           
+    ## 37  ( 1 ) " "         " "          " "          " "             " "           
+    ## 38  ( 1 ) " "         " "          " "          " "             " "           
+    ## 39  ( 1 ) " "         " "          " "          " "             " "           
+    ## 40  ( 1 ) " "         " "          " "          " "             " "           
+    ## 41  ( 1 ) " "         " "          " "          " "             " "           
+    ## 42  ( 1 ) " "         " "          " "          " "             " "           
+    ##           CountryCongo CountryCosta Rica CountryCroatia CountryCuba
+    ## 1  ( 1 )  " "          " "               " "            " "        
+    ## 2  ( 1 )  " "          " "               " "            " "        
+    ## 3  ( 1 )  " "          " "               " "            " "        
+    ## 4  ( 1 )  " "          " "               " "            " "        
+    ## 5  ( 1 )  " "          " "               " "            " "        
+    ## 6  ( 1 )  " "          " "               " "            " "        
+    ## 7  ( 1 )  " "          " "               " "            " "        
+    ## 8  ( 1 )  " "          " "               " "            " "        
+    ## 9  ( 1 )  " "          " "               " "            " "        
+    ## 10  ( 1 ) " "          " "               " "            " "        
+    ## 11  ( 1 ) " "          " "               " "            " "        
+    ## 12  ( 1 ) " "          " "               " "            " "        
+    ## 13  ( 1 ) " "          " "               " "            " "        
+    ## 14  ( 1 ) " "          " "               " "            " "        
+    ## 15  ( 1 ) " "          " "               " "            " "        
+    ## 16  ( 1 ) " "          " "               " "            " "        
+    ## 17  ( 1 ) " "          " "               " "            " "        
+    ## 18  ( 1 ) " "          " "               " "            " "        
+    ## 19  ( 1 ) " "          " "               " "            " "        
+    ## 20  ( 1 ) " "          " "               " "            " "        
+    ## 21  ( 1 ) " "          " "               " "            " "        
+    ## 22  ( 1 ) " "          " "               " "            " "        
+    ## 23  ( 1 ) " "          " "               " "            " "        
+    ## 24  ( 1 ) " "          " "               " "            " "        
+    ## 25  ( 1 ) " "          " "               " "            " "        
+    ## 26  ( 1 ) " "          " "               " "            " "        
+    ## 27  ( 1 ) " "          " "               " "            " "        
+    ## 28  ( 1 ) " "          " "               " "            " "        
+    ## 29  ( 1 ) " "          " "               " "            " "        
+    ## 30  ( 1 ) " "          " "               " "            " "        
+    ## 31  ( 1 ) " "          " "               " "            " "        
+    ## 32  ( 1 ) " "          " "               " "            " "        
+    ## 33  ( 1 ) " "          " "               " "            " "        
+    ## 34  ( 1 ) " "          " "               " "            " "        
+    ## 35  ( 1 ) " "          " "               " "            " "        
+    ## 36  ( 1 ) " "          " "               " "            " "        
+    ## 37  ( 1 ) " "          " "               " "            " "        
+    ## 38  ( 1 ) " "          " "               " "            " "        
+    ## 39  ( 1 ) " "          " "               " "            " "        
+    ## 40  ( 1 ) " "          " "               " "            " "        
+    ## 41  ( 1 ) " "          " "               " "            " "        
+    ## 42  ( 1 ) " "          " "               " "            " "        
+    ##           CountryCyprus CountryCzechia
+    ## 1  ( 1 )  " "           " "           
+    ## 2  ( 1 )  " "           " "           
+    ## 3  ( 1 )  " "           " "           
+    ## 4  ( 1 )  " "           " "           
+    ## 5  ( 1 )  " "           " "           
+    ## 6  ( 1 )  " "           " "           
+    ## 7  ( 1 )  " "           " "           
+    ## 8  ( 1 )  " "           " "           
+    ## 9  ( 1 )  " "           " "           
+    ## 10  ( 1 ) " "           " "           
+    ## 11  ( 1 ) " "           " "           
+    ## 12  ( 1 ) " "           " "           
+    ## 13  ( 1 ) " "           " "           
+    ## 14  ( 1 ) " "           " "           
+    ## 15  ( 1 ) " "           " "           
+    ## 16  ( 1 ) " "           " "           
+    ## 17  ( 1 ) " "           " "           
+    ## 18  ( 1 ) " "           " "           
+    ## 19  ( 1 ) " "           " "           
+    ## 20  ( 1 ) " "           " "           
+    ## 21  ( 1 ) " "           " "           
+    ## 22  ( 1 ) " "           " "           
+    ## 23  ( 1 ) " "           " "           
+    ## 24  ( 1 ) " "           " "           
+    ## 25  ( 1 ) " "           " "           
+    ## 26  ( 1 ) " "           " "           
+    ## 27  ( 1 ) " "           " "           
+    ## 28  ( 1 ) " "           " "           
+    ## 29  ( 1 ) " "           " "           
+    ## 30  ( 1 ) " "           " "           
+    ## 31  ( 1 ) " "           " "           
+    ## 32  ( 1 ) " "           " "           
+    ## 33  ( 1 ) " "           " "           
+    ## 34  ( 1 ) " "           " "           
+    ## 35  ( 1 ) " "           " "           
+    ## 36  ( 1 ) " "           " "           
+    ## 37  ( 1 ) " "           " "           
+    ## 38  ( 1 ) " "           " "           
+    ## 39  ( 1 ) " "           " "           
+    ## 40  ( 1 ) " "           " "           
+    ## 41  ( 1 ) " "           " "           
+    ## 42  ( 1 ) " "           " "           
+    ##           CountryDemocratic People's Republic of Korea
+    ## 1  ( 1 )  " "                                         
+    ## 2  ( 1 )  " "                                         
+    ## 3  ( 1 )  " "                                         
+    ## 4  ( 1 )  " "                                         
+    ## 5  ( 1 )  " "                                         
+    ## 6  ( 1 )  " "                                         
+    ## 7  ( 1 )  " "                                         
+    ## 8  ( 1 )  " "                                         
+    ## 9  ( 1 )  " "                                         
+    ## 10  ( 1 ) " "                                         
+    ## 11  ( 1 ) " "                                         
+    ## 12  ( 1 ) " "                                         
+    ## 13  ( 1 ) " "                                         
+    ## 14  ( 1 ) " "                                         
+    ## 15  ( 1 ) " "                                         
+    ## 16  ( 1 ) " "                                         
+    ## 17  ( 1 ) " "                                         
+    ## 18  ( 1 ) " "                                         
+    ## 19  ( 1 ) " "                                         
+    ## 20  ( 1 ) " "                                         
+    ## 21  ( 1 ) " "                                         
+    ## 22  ( 1 ) " "                                         
+    ## 23  ( 1 ) " "                                         
+    ## 24  ( 1 ) " "                                         
+    ## 25  ( 1 ) " "                                         
+    ## 26  ( 1 ) " "                                         
+    ## 27  ( 1 ) " "                                         
+    ## 28  ( 1 ) " "                                         
+    ## 29  ( 1 ) " "                                         
+    ## 30  ( 1 ) " "                                         
+    ## 31  ( 1 ) " "                                         
+    ## 32  ( 1 ) " "                                         
+    ## 33  ( 1 ) " "                                         
+    ## 34  ( 1 ) " "                                         
+    ## 35  ( 1 ) " "                                         
+    ## 36  ( 1 ) " "                                         
+    ## 37  ( 1 ) " "                                         
+    ## 38  ( 1 ) " "                                         
+    ## 39  ( 1 ) " "                                         
+    ## 40  ( 1 ) " "                                         
+    ## 41  ( 1 ) " "                                         
+    ## 42  ( 1 ) " "                                         
+    ##           CountryDemocratic Republic of the Congo CountryDenmark
+    ## 1  ( 1 )  " "                                     " "           
+    ## 2  ( 1 )  " "                                     " "           
+    ## 3  ( 1 )  " "                                     " "           
+    ## 4  ( 1 )  " "                                     " "           
+    ## 5  ( 1 )  " "                                     " "           
+    ## 6  ( 1 )  " "                                     " "           
+    ## 7  ( 1 )  " "                                     " "           
+    ## 8  ( 1 )  " "                                     " "           
+    ## 9  ( 1 )  " "                                     " "           
+    ## 10  ( 1 ) " "                                     " "           
+    ## 11  ( 1 ) " "                                     " "           
+    ## 12  ( 1 ) " "                                     " "           
+    ## 13  ( 1 ) " "                                     " "           
+    ## 14  ( 1 ) " "                                     " "           
+    ## 15  ( 1 ) " "                                     " "           
+    ## 16  ( 1 ) " "                                     " "           
+    ## 17  ( 1 ) " "                                     " "           
+    ## 18  ( 1 ) " "                                     " "           
+    ## 19  ( 1 ) " "                                     " "           
+    ## 20  ( 1 ) " "                                     " "           
+    ## 21  ( 1 ) " "                                     " "           
+    ## 22  ( 1 ) " "                                     " "           
+    ## 23  ( 1 ) " "                                     " "           
+    ## 24  ( 1 ) " "                                     " "           
+    ## 25  ( 1 ) " "                                     " "           
+    ## 26  ( 1 ) " "                                     " "           
+    ## 27  ( 1 ) " "                                     " "           
+    ## 28  ( 1 ) " "                                     " "           
+    ## 29  ( 1 ) " "                                     " "           
+    ## 30  ( 1 ) " "                                     " "           
+    ## 31  ( 1 ) " "                                     " "           
+    ## 32  ( 1 ) " "                                     " "           
+    ## 33  ( 1 ) " "                                     " "           
+    ## 34  ( 1 ) " "                                     " "           
+    ## 35  ( 1 ) " "                                     " "           
+    ## 36  ( 1 ) " "                                     " "           
+    ## 37  ( 1 ) " "                                     " "           
+    ## 38  ( 1 ) " "                                     " "           
+    ## 39  ( 1 ) " "                                     " "           
+    ## 40  ( 1 ) " "                                     " "           
+    ## 41  ( 1 ) " "                                     " "           
+    ## 42  ( 1 ) " "                                     " "           
+    ##           CountryDjibouti CountryDominican Republic CountryEcuador CountryEgypt
+    ## 1  ( 1 )  " "             " "                       " "            " "         
+    ## 2  ( 1 )  " "             " "                       " "            " "         
+    ## 3  ( 1 )  " "             " "                       " "            " "         
+    ## 4  ( 1 )  " "             " "                       " "            " "         
+    ## 5  ( 1 )  " "             " "                       " "            " "         
+    ## 6  ( 1 )  " "             " "                       " "            " "         
+    ## 7  ( 1 )  " "             " "                       " "            " "         
+    ## 8  ( 1 )  " "             " "                       " "            " "         
+    ## 9  ( 1 )  " "             " "                       " "            " "         
+    ## 10  ( 1 ) " "             " "                       " "            " "         
+    ## 11  ( 1 ) " "             " "                       " "            " "         
+    ## 12  ( 1 ) " "             " "                       " "            " "         
+    ## 13  ( 1 ) " "             " "                       " "            " "         
+    ## 14  ( 1 ) " "             " "                       " "            " "         
+    ## 15  ( 1 ) " "             " "                       " "            " "         
+    ## 16  ( 1 ) " "             " "                       " "            " "         
+    ## 17  ( 1 ) " "             " "                       " "            " "         
+    ## 18  ( 1 ) " "             " "                       " "            " "         
+    ## 19  ( 1 ) " "             " "                       " "            " "         
+    ## 20  ( 1 ) " "             "*"                       " "            " "         
+    ## 21  ( 1 ) " "             "*"                       " "            " "         
+    ## 22  ( 1 ) " "             "*"                       " "            " "         
+    ## 23  ( 1 ) " "             "*"                       " "            " "         
+    ## 24  ( 1 ) " "             "*"                       " "            " "         
+    ## 25  ( 1 ) " "             "*"                       " "            " "         
+    ## 26  ( 1 ) " "             "*"                       " "            " "         
+    ## 27  ( 1 ) " "             "*"                       " "            " "         
+    ## 28  ( 1 ) " "             "*"                       " "            " "         
+    ## 29  ( 1 ) " "             "*"                       " "            " "         
+    ## 30  ( 1 ) " "             "*"                       " "            " "         
+    ## 31  ( 1 ) " "             "*"                       " "            " "         
+    ## 32  ( 1 ) " "             "*"                       " "            " "         
+    ## 33  ( 1 ) " "             "*"                       " "            " "         
+    ## 34  ( 1 ) " "             "*"                       " "            " "         
+    ## 35  ( 1 ) " "             "*"                       " "            " "         
+    ## 36  ( 1 ) " "             "*"                       " "            " "         
+    ## 37  ( 1 ) " "             "*"                       " "            " "         
+    ## 38  ( 1 ) " "             "*"                       " "            " "         
+    ## 39  ( 1 ) " "             "*"                       " "            " "         
+    ## 40  ( 1 ) " "             "*"                       " "            " "         
+    ## 41  ( 1 ) " "             "*"                       " "            " "         
+    ## 42  ( 1 ) " "             "*"                       " "            " "         
+    ##           CountryEl Salvador CountryEquatorial Guinea CountryEritrea
+    ## 1  ( 1 )  " "                " "                      " "           
+    ## 2  ( 1 )  " "                " "                      " "           
+    ## 3  ( 1 )  " "                " "                      " "           
+    ## 4  ( 1 )  " "                " "                      " "           
+    ## 5  ( 1 )  " "                " "                      " "           
+    ## 6  ( 1 )  " "                " "                      " "           
+    ## 7  ( 1 )  " "                " "                      " "           
+    ## 8  ( 1 )  " "                " "                      " "           
+    ## 9  ( 1 )  " "                " "                      " "           
+    ## 10  ( 1 ) " "                " "                      " "           
+    ## 11  ( 1 ) " "                " "                      " "           
+    ## 12  ( 1 ) " "                " "                      " "           
+    ## 13  ( 1 ) " "                " "                      " "           
+    ## 14  ( 1 ) " "                " "                      " "           
+    ## 15  ( 1 ) " "                " "                      " "           
+    ## 16  ( 1 ) " "                " "                      " "           
+    ## 17  ( 1 ) " "                " "                      " "           
+    ## 18  ( 1 ) " "                " "                      " "           
+    ## 19  ( 1 ) " "                " "                      " "           
+    ## 20  ( 1 ) " "                " "                      " "           
+    ## 21  ( 1 ) "*"                " "                      " "           
+    ## 22  ( 1 ) "*"                " "                      " "           
+    ## 23  ( 1 ) "*"                " "                      " "           
+    ## 24  ( 1 ) "*"                " "                      " "           
+    ## 25  ( 1 ) "*"                " "                      " "           
+    ## 26  ( 1 ) "*"                " "                      " "           
+    ## 27  ( 1 ) "*"                " "                      " "           
+    ## 28  ( 1 ) "*"                " "                      " "           
+    ## 29  ( 1 ) "*"                " "                      " "           
+    ## 30  ( 1 ) "*"                " "                      " "           
+    ## 31  ( 1 ) "*"                " "                      " "           
+    ## 32  ( 1 ) "*"                " "                      " "           
+    ## 33  ( 1 ) "*"                " "                      " "           
+    ## 34  ( 1 ) "*"                " "                      " "           
+    ## 35  ( 1 ) "*"                " "                      " "           
+    ## 36  ( 1 ) "*"                " "                      " "           
+    ## 37  ( 1 ) "*"                " "                      " "           
+    ## 38  ( 1 ) "*"                " "                      " "           
+    ## 39  ( 1 ) "*"                " "                      " "           
+    ## 40  ( 1 ) "*"                " "                      " "           
+    ## 41  ( 1 ) "*"                " "                      " "           
+    ## 42  ( 1 ) "*"                " "                      " "           
+    ##           CountryEstonia CountryEthiopia CountryFiji CountryFinland
+    ## 1  ( 1 )  " "            " "             " "         " "           
+    ## 2  ( 1 )  " "            " "             " "         " "           
+    ## 3  ( 1 )  " "            " "             " "         " "           
+    ## 4  ( 1 )  " "            " "             " "         " "           
+    ## 5  ( 1 )  " "            " "             " "         " "           
+    ## 6  ( 1 )  " "            " "             " "         " "           
+    ## 7  ( 1 )  " "            " "             " "         " "           
+    ## 8  ( 1 )  " "            " "             " "         " "           
+    ## 9  ( 1 )  " "            " "             " "         " "           
+    ## 10  ( 1 ) " "            " "             " "         " "           
+    ## 11  ( 1 ) " "            " "             " "         " "           
+    ## 12  ( 1 ) " "            " "             " "         " "           
+    ## 13  ( 1 ) " "            " "             " "         " "           
+    ## 14  ( 1 ) " "            " "             " "         " "           
+    ## 15  ( 1 ) " "            " "             " "         " "           
+    ## 16  ( 1 ) " "            " "             " "         " "           
+    ## 17  ( 1 ) " "            " "             " "         " "           
+    ## 18  ( 1 ) "*"            " "             " "         " "           
+    ## 19  ( 1 ) "*"            " "             " "         " "           
+    ## 20  ( 1 ) "*"            " "             " "         " "           
+    ## 21  ( 1 ) "*"            " "             " "         " "           
+    ## 22  ( 1 ) "*"            " "             " "         " "           
+    ## 23  ( 1 ) "*"            " "             " "         " "           
+    ## 24  ( 1 ) "*"            " "             " "         "*"           
+    ## 25  ( 1 ) "*"            " "             " "         "*"           
+    ## 26  ( 1 ) "*"            " "             " "         "*"           
+    ## 27  ( 1 ) "*"            " "             " "         "*"           
+    ## 28  ( 1 ) "*"            " "             " "         "*"           
+    ## 29  ( 1 ) "*"            " "             " "         "*"           
+    ## 30  ( 1 ) "*"            " "             " "         "*"           
+    ## 31  ( 1 ) "*"            " "             " "         "*"           
+    ## 32  ( 1 ) "*"            " "             " "         "*"           
+    ## 33  ( 1 ) "*"            " "             " "         "*"           
+    ## 34  ( 1 ) "*"            " "             " "         "*"           
+    ## 35  ( 1 ) "*"            " "             " "         "*"           
+    ## 36  ( 1 ) "*"            " "             " "         "*"           
+    ## 37  ( 1 ) "*"            " "             " "         "*"           
+    ## 38  ( 1 ) "*"            " "             " "         "*"           
+    ## 39  ( 1 ) "*"            " "             " "         "*"           
+    ## 40  ( 1 ) "*"            " "             " "         "*"           
+    ## 41  ( 1 ) "*"            " "             " "         "*"           
+    ## 42  ( 1 ) "*"            " "             " "         "*"           
+    ##           CountryFrance CountryGabon CountryGambia CountryGeorgia
+    ## 1  ( 1 )  " "           " "          " "           " "           
+    ## 2  ( 1 )  " "           " "          " "           " "           
+    ## 3  ( 1 )  " "           " "          " "           " "           
+    ## 4  ( 1 )  " "           " "          " "           " "           
+    ## 5  ( 1 )  " "           " "          " "           " "           
+    ## 6  ( 1 )  " "           " "          " "           " "           
+    ## 7  ( 1 )  " "           " "          " "           " "           
+    ## 8  ( 1 )  " "           " "          " "           " "           
+    ## 9  ( 1 )  " "           " "          " "           " "           
+    ## 10  ( 1 ) " "           " "          " "           " "           
+    ## 11  ( 1 ) " "           " "          " "           " "           
+    ## 12  ( 1 ) " "           " "          " "           " "           
+    ## 13  ( 1 ) " "           " "          " "           " "           
+    ## 14  ( 1 ) " "           " "          " "           " "           
+    ## 15  ( 1 ) " "           " "          " "           " "           
+    ## 16  ( 1 ) "*"           " "          " "           " "           
+    ## 17  ( 1 ) "*"           " "          " "           " "           
+    ## 18  ( 1 ) "*"           " "          " "           " "           
+    ## 19  ( 1 ) "*"           " "          " "           " "           
+    ## 20  ( 1 ) "*"           " "          " "           " "           
+    ## 21  ( 1 ) "*"           " "          " "           " "           
+    ## 22  ( 1 ) "*"           " "          " "           " "           
+    ## 23  ( 1 ) "*"           " "          " "           " "           
+    ## 24  ( 1 ) "*"           " "          " "           " "           
+    ## 25  ( 1 ) "*"           " "          " "           " "           
+    ## 26  ( 1 ) "*"           " "          " "           " "           
+    ## 27  ( 1 ) "*"           " "          " "           " "           
+    ## 28  ( 1 ) "*"           " "          " "           " "           
+    ## 29  ( 1 ) "*"           " "          " "           " "           
+    ## 30  ( 1 ) "*"           " "          " "           " "           
+    ## 31  ( 1 ) "*"           " "          " "           " "           
+    ## 32  ( 1 ) "*"           " "          " "           " "           
+    ## 33  ( 1 ) "*"           " "          " "           " "           
+    ## 34  ( 1 ) "*"           " "          " "           " "           
+    ## 35  ( 1 ) "*"           " "          " "           " "           
+    ## 36  ( 1 ) "*"           " "          " "           " "           
+    ## 37  ( 1 ) "*"           " "          " "           " "           
+    ## 38  ( 1 ) "*"           " "          " "           " "           
+    ## 39  ( 1 ) "*"           " "          " "           " "           
+    ## 40  ( 1 ) "*"           " "          " "           " "           
+    ## 41  ( 1 ) "*"           " "          " "           " "           
+    ## 42  ( 1 ) "*"           " "          " "           " "           
+    ##           CountryGermany CountryGhana CountryGreece CountryGrenada
+    ## 1  ( 1 )  " "            " "          " "           " "           
+    ## 2  ( 1 )  " "            " "          " "           " "           
+    ## 3  ( 1 )  " "            " "          " "           " "           
+    ## 4  ( 1 )  " "            " "          " "           " "           
+    ## 5  ( 1 )  " "            " "          " "           " "           
+    ## 6  ( 1 )  " "            " "          " "           " "           
+    ## 7  ( 1 )  " "            " "          " "           " "           
+    ## 8  ( 1 )  " "            " "          " "           " "           
+    ## 9  ( 1 )  " "            " "          " "           " "           
+    ## 10  ( 1 ) " "            " "          " "           " "           
+    ## 11  ( 1 ) " "            " "          " "           " "           
+    ## 12  ( 1 ) " "            " "          " "           " "           
+    ## 13  ( 1 ) " "            " "          " "           " "           
+    ## 14  ( 1 ) " "            " "          " "           " "           
+    ## 15  ( 1 ) " "            " "          " "           " "           
+    ## 16  ( 1 ) " "            " "          " "           " "           
+    ## 17  ( 1 ) " "            " "          " "           " "           
+    ## 18  ( 1 ) " "            " "          " "           " "           
+    ## 19  ( 1 ) " "            " "          " "           " "           
+    ## 20  ( 1 ) " "            " "          " "           " "           
+    ## 21  ( 1 ) " "            " "          " "           " "           
+    ## 22  ( 1 ) " "            " "          " "           " "           
+    ## 23  ( 1 ) " "            " "          " "           " "           
+    ## 24  ( 1 ) " "            " "          " "           " "           
+    ## 25  ( 1 ) " "            " "          " "           " "           
+    ## 26  ( 1 ) " "            " "          " "           " "           
+    ## 27  ( 1 ) "*"            " "          " "           " "           
+    ## 28  ( 1 ) "*"            " "          " "           " "           
+    ## 29  ( 1 ) "*"            " "          " "           " "           
+    ## 30  ( 1 ) "*"            " "          " "           " "           
+    ## 31  ( 1 ) "*"            " "          " "           " "           
+    ## 32  ( 1 ) "*"            " "          " "           " "           
+    ## 33  ( 1 ) "*"            " "          " "           " "           
+    ## 34  ( 1 ) "*"            " "          " "           " "           
+    ## 35  ( 1 ) "*"            " "          " "           " "           
+    ## 36  ( 1 ) "*"            " "          " "           " "           
+    ## 37  ( 1 ) "*"            " "          " "           " "           
+    ## 38  ( 1 ) "*"            " "          "*"           " "           
+    ## 39  ( 1 ) "*"            " "          "*"           " "           
+    ## 40  ( 1 ) "*"            " "          "*"           " "           
+    ## 41  ( 1 ) "*"            " "          "*"           " "           
+    ## 42  ( 1 ) "*"            " "          "*"           " "           
+    ##           CountryGuatemala CountryGuinea CountryGuinea-Bissau CountryGuyana
+    ## 1  ( 1 )  " "              " "           " "                  " "          
+    ## 2  ( 1 )  " "              " "           " "                  " "          
+    ## 3  ( 1 )  " "              " "           " "                  " "          
+    ## 4  ( 1 )  " "              " "           " "                  " "          
+    ## 5  ( 1 )  " "              " "           " "                  " "          
+    ## 6  ( 1 )  " "              " "           " "                  " "          
+    ## 7  ( 1 )  " "              " "           " "                  " "          
+    ## 8  ( 1 )  " "              " "           " "                  " "          
+    ## 9  ( 1 )  " "              " "           " "                  " "          
+    ## 10  ( 1 ) " "              " "           " "                  " "          
+    ## 11  ( 1 ) " "              " "           " "                  " "          
+    ## 12  ( 1 ) " "              " "           " "                  " "          
+    ## 13  ( 1 ) " "              " "           " "                  " "          
+    ## 14  ( 1 ) " "              " "           " "                  " "          
+    ## 15  ( 1 ) " "              " "           " "                  " "          
+    ## 16  ( 1 ) " "              " "           " "                  " "          
+    ## 17  ( 1 ) " "              " "           " "                  " "          
+    ## 18  ( 1 ) " "              " "           " "                  " "          
+    ## 19  ( 1 ) " "              " "           " "                  " "          
+    ## 20  ( 1 ) " "              " "           " "                  " "          
+    ## 21  ( 1 ) " "              " "           " "                  " "          
+    ## 22  ( 1 ) " "              " "           " "                  " "          
+    ## 23  ( 1 ) " "              " "           " "                  " "          
+    ## 24  ( 1 ) " "              " "           " "                  " "          
+    ## 25  ( 1 ) " "              " "           " "                  " "          
+    ## 26  ( 1 ) " "              " "           " "                  " "          
+    ## 27  ( 1 ) " "              " "           " "                  " "          
+    ## 28  ( 1 ) " "              " "           " "                  " "          
+    ## 29  ( 1 ) " "              " "           " "                  " "          
+    ## 30  ( 1 ) " "              " "           " "                  " "          
+    ## 31  ( 1 ) " "              " "           " "                  " "          
+    ## 32  ( 1 ) " "              " "           " "                  " "          
+    ## 33  ( 1 ) "*"              " "           " "                  " "          
+    ## 34  ( 1 ) "*"              " "           " "                  " "          
+    ## 35  ( 1 ) "*"              " "           " "                  " "          
+    ## 36  ( 1 ) "*"              " "           " "                  " "          
+    ## 37  ( 1 ) "*"              " "           " "                  " "          
+    ## 38  ( 1 ) "*"              " "           " "                  " "          
+    ## 39  ( 1 ) "*"              " "           " "                  " "          
+    ## 40  ( 1 ) "*"              " "           " "                  " "          
+    ## 41  ( 1 ) "*"              " "           " "                  " "          
+    ## 42  ( 1 ) "*"              " "           " "                  " "          
+    ##           CountryHaiti CountryHonduras CountryHungary CountryIceland
+    ## 1  ( 1 )  " "          " "             " "            " "           
+    ## 2  ( 1 )  " "          " "             " "            " "           
+    ## 3  ( 1 )  " "          " "             " "            " "           
+    ## 4  ( 1 )  " "          " "             " "            " "           
+    ## 5  ( 1 )  " "          " "             " "            " "           
+    ## 6  ( 1 )  " "          " "             " "            " "           
+    ## 7  ( 1 )  " "          " "             " "            " "           
+    ## 8  ( 1 )  " "          " "             " "            " "           
+    ## 9  ( 1 )  " "          " "             " "            " "           
+    ## 10  ( 1 ) " "          " "             " "            " "           
+    ## 11  ( 1 ) " "          " "             " "            " "           
+    ## 12  ( 1 ) " "          " "             " "            " "           
+    ## 13  ( 1 ) " "          " "             " "            " "           
+    ## 14  ( 1 ) " "          " "             " "            " "           
+    ## 15  ( 1 ) " "          " "             " "            " "           
+    ## 16  ( 1 ) " "          " "             " "            " "           
+    ## 17  ( 1 ) " "          " "             " "            " "           
+    ## 18  ( 1 ) " "          " "             " "            " "           
+    ## 19  ( 1 ) " "          " "             " "            " "           
+    ## 20  ( 1 ) " "          " "             " "            " "           
+    ## 21  ( 1 ) " "          " "             " "            " "           
+    ## 22  ( 1 ) " "          " "             " "            " "           
+    ## 23  ( 1 ) " "          " "             " "            " "           
+    ## 24  ( 1 ) " "          " "             " "            " "           
+    ## 25  ( 1 ) " "          " "             " "            " "           
+    ## 26  ( 1 ) " "          " "             " "            " "           
+    ## 27  ( 1 ) " "          " "             " "            " "           
+    ## 28  ( 1 ) " "          " "             " "            " "           
+    ## 29  ( 1 ) " "          " "             " "            " "           
+    ## 30  ( 1 ) " "          " "             " "            " "           
+    ## 31  ( 1 ) " "          " "             " "            " "           
+    ## 32  ( 1 ) " "          " "             " "            " "           
+    ## 33  ( 1 ) " "          " "             " "            " "           
+    ## 34  ( 1 ) " "          " "             " "            " "           
+    ## 35  ( 1 ) " "          " "             " "            " "           
+    ## 36  ( 1 ) " "          " "             " "            " "           
+    ## 37  ( 1 ) " "          " "             " "            " "           
+    ## 38  ( 1 ) " "          " "             " "            " "           
+    ## 39  ( 1 ) " "          " "             " "            " "           
+    ## 40  ( 1 ) " "          " "             " "            "*"           
+    ## 41  ( 1 ) " "          " "             " "            "*"           
+    ## 42  ( 1 ) " "          " "             " "            "*"           
+    ##           CountryIndia CountryIndonesia CountryIran CountryIraq CountryIreland
+    ## 1  ( 1 )  " "          " "              " "         " "         " "           
+    ## 2  ( 1 )  " "          " "              " "         " "         " "           
+    ## 3  ( 1 )  " "          " "              " "         " "         " "           
+    ## 4  ( 1 )  " "          " "              " "         " "         " "           
+    ## 5  ( 1 )  " "          " "              " "         " "         " "           
+    ## 6  ( 1 )  " "          " "              " "         " "         " "           
+    ## 7  ( 1 )  " "          " "              " "         " "         " "           
+    ## 8  ( 1 )  " "          " "              " "         " "         " "           
+    ## 9  ( 1 )  " "          " "              " "         " "         " "           
+    ## 10  ( 1 ) " "          " "              " "         " "         " "           
+    ## 11  ( 1 ) " "          " "              " "         " "         " "           
+    ## 12  ( 1 ) " "          " "              " "         " "         " "           
+    ## 13  ( 1 ) " "          " "              " "         " "         " "           
+    ## 14  ( 1 ) " "          " "              " "         " "         " "           
+    ## 15  ( 1 ) " "          " "              " "         " "         " "           
+    ## 16  ( 1 ) " "          " "              " "         " "         " "           
+    ## 17  ( 1 ) " "          " "              " "         " "         " "           
+    ## 18  ( 1 ) " "          " "              " "         " "         " "           
+    ## 19  ( 1 ) " "          " "              " "         " "         " "           
+    ## 20  ( 1 ) " "          " "              " "         " "         " "           
+    ## 21  ( 1 ) " "          " "              " "         " "         " "           
+    ## 22  ( 1 ) " "          " "              " "         " "         " "           
+    ## 23  ( 1 ) " "          " "              " "         " "         " "           
+    ## 24  ( 1 ) " "          " "              " "         " "         " "           
+    ## 25  ( 1 ) " "          " "              " "         " "         " "           
+    ## 26  ( 1 ) " "          " "              " "         " "         " "           
+    ## 27  ( 1 ) " "          " "              " "         " "         " "           
+    ## 28  ( 1 ) " "          " "              " "         " "         " "           
+    ## 29  ( 1 ) " "          " "              " "         " "         " "           
+    ## 30  ( 1 ) " "          " "              " "         " "         " "           
+    ## 31  ( 1 ) " "          " "              " "         " "         " "           
+    ## 32  ( 1 ) " "          " "              " "         " "         " "           
+    ## 33  ( 1 ) " "          " "              " "         " "         " "           
+    ## 34  ( 1 ) " "          " "              " "         " "         " "           
+    ## 35  ( 1 ) " "          " "              " "         " "         " "           
+    ## 36  ( 1 ) " "          " "              " "         " "         " "           
+    ## 37  ( 1 ) " "          " "              " "         " "         " "           
+    ## 38  ( 1 ) " "          " "              " "         " "         " "           
+    ## 39  ( 1 ) " "          " "              " "         " "         " "           
+    ## 40  ( 1 ) " "          " "              " "         " "         " "           
+    ## 41  ( 1 ) " "          " "              " "         " "         " "           
+    ## 42  ( 1 ) " "          " "              " "         " "         " "           
+    ##           CountryIsrael CountryItaly CountryIvory Coast CountryJamaica
+    ## 1  ( 1 )  " "           " "          " "                " "           
+    ## 2  ( 1 )  " "           " "          " "                " "           
+    ## 3  ( 1 )  " "           " "          " "                " "           
+    ## 4  ( 1 )  " "           " "          " "                " "           
+    ## 5  ( 1 )  " "           " "          " "                " "           
+    ## 6  ( 1 )  " "           " "          " "                " "           
+    ## 7  ( 1 )  " "           " "          " "                " "           
+    ## 8  ( 1 )  " "           " "          " "                " "           
+    ## 9  ( 1 )  " "           " "          " "                " "           
+    ## 10  ( 1 ) " "           " "          " "                " "           
+    ## 11  ( 1 ) " "           " "          " "                " "           
+    ## 12  ( 1 ) " "           " "          " "                " "           
+    ## 13  ( 1 ) " "           " "          " "                " "           
+    ## 14  ( 1 ) " "           " "          " "                " "           
+    ## 15  ( 1 ) " "           " "          " "                " "           
+    ## 16  ( 1 ) " "           " "          " "                " "           
+    ## 17  ( 1 ) " "           " "          " "                " "           
+    ## 18  ( 1 ) " "           " "          " "                " "           
+    ## 19  ( 1 ) " "           " "          " "                " "           
+    ## 20  ( 1 ) " "           " "          " "                " "           
+    ## 21  ( 1 ) " "           " "          " "                " "           
+    ## 22  ( 1 ) " "           " "          " "                " "           
+    ## 23  ( 1 ) " "           " "          " "                " "           
+    ## 24  ( 1 ) " "           " "          " "                " "           
+    ## 25  ( 1 ) " "           " "          " "                " "           
+    ## 26  ( 1 ) " "           " "          " "                " "           
+    ## 27  ( 1 ) " "           " "          " "                " "           
+    ## 28  ( 1 ) " "           " "          " "                " "           
+    ## 29  ( 1 ) " "           " "          " "                " "           
+    ## 30  ( 1 ) " "           " "          " "                " "           
+    ## 31  ( 1 ) " "           " "          " "                " "           
+    ## 32  ( 1 ) " "           " "          " "                " "           
+    ## 33  ( 1 ) " "           " "          " "                " "           
+    ## 34  ( 1 ) " "           " "          " "                " "           
+    ## 35  ( 1 ) " "           " "          " "                " "           
+    ## 36  ( 1 ) " "           " "          " "                " "           
+    ## 37  ( 1 ) " "           " "          " "                " "           
+    ## 38  ( 1 ) " "           " "          " "                " "           
+    ## 39  ( 1 ) " "           "*"          " "                " "           
+    ## 40  ( 1 ) " "           "*"          " "                " "           
+    ## 41  ( 1 ) " "           "*"          " "                " "           
+    ## 42  ( 1 ) " "           "*"          " "                " "           
+    ##           CountryJapan CountryJordan CountryKazakhstan CountryKenya
+    ## 1  ( 1 )  " "          " "           " "               " "         
+    ## 2  ( 1 )  " "          " "           " "               " "         
+    ## 3  ( 1 )  " "          " "           " "               " "         
+    ## 4  ( 1 )  " "          " "           " "               " "         
+    ## 5  ( 1 )  " "          " "           " "               " "         
+    ## 6  ( 1 )  " "          " "           " "               " "         
+    ## 7  ( 1 )  " "          " "           " "               " "         
+    ## 8  ( 1 )  " "          " "           " "               " "         
+    ## 9  ( 1 )  " "          " "           " "               " "         
+    ## 10  ( 1 ) " "          " "           " "               " "         
+    ## 11  ( 1 ) " "          " "           " "               " "         
+    ## 12  ( 1 ) " "          " "           " "               " "         
+    ## 13  ( 1 ) " "          " "           " "               " "         
+    ## 14  ( 1 ) " "          " "           " "               " "         
+    ## 15  ( 1 ) " "          " "           " "               " "         
+    ## 16  ( 1 ) " "          " "           " "               " "         
+    ## 17  ( 1 ) " "          " "           " "               " "         
+    ## 18  ( 1 ) " "          " "           " "               " "         
+    ## 19  ( 1 ) " "          " "           " "               " "         
+    ## 20  ( 1 ) " "          " "           " "               " "         
+    ## 21  ( 1 ) " "          " "           " "               " "         
+    ## 22  ( 1 ) " "          " "           " "               " "         
+    ## 23  ( 1 ) " "          " "           "*"               " "         
+    ## 24  ( 1 ) " "          " "           "*"               " "         
+    ## 25  ( 1 ) " "          " "           "*"               " "         
+    ## 26  ( 1 ) " "          " "           "*"               " "         
+    ## 27  ( 1 ) " "          " "           "*"               " "         
+    ## 28  ( 1 ) " "          " "           "*"               " "         
+    ## 29  ( 1 ) "*"          " "           "*"               " "         
+    ## 30  ( 1 ) "*"          " "           "*"               " "         
+    ## 31  ( 1 ) "*"          " "           "*"               " "         
+    ## 32  ( 1 ) "*"          " "           "*"               " "         
+    ## 33  ( 1 ) "*"          " "           "*"               " "         
+    ## 34  ( 1 ) "*"          " "           "*"               " "         
+    ## 35  ( 1 ) "*"          " "           "*"               " "         
+    ## 36  ( 1 ) "*"          " "           "*"               " "         
+    ## 37  ( 1 ) "*"          " "           "*"               " "         
+    ## 38  ( 1 ) "*"          " "           "*"               " "         
+    ## 39  ( 1 ) "*"          " "           "*"               " "         
+    ## 40  ( 1 ) "*"          " "           "*"               " "         
+    ## 41  ( 1 ) "*"          " "           "*"               " "         
+    ## 42  ( 1 ) "*"          " "           "*"               " "         
+    ##           CountryKiribati CountryKuwait CountryKyrgyzstan
+    ## 1  ( 1 )  " "             " "           " "              
+    ## 2  ( 1 )  " "             " "           " "              
+    ## 3  ( 1 )  " "             " "           " "              
+    ## 4  ( 1 )  " "             " "           " "              
+    ## 5  ( 1 )  " "             " "           " "              
+    ## 6  ( 1 )  " "             " "           " "              
+    ## 7  ( 1 )  " "             " "           " "              
+    ## 8  ( 1 )  " "             " "           " "              
+    ## 9  ( 1 )  " "             " "           " "              
+    ## 10  ( 1 ) " "             " "           " "              
+    ## 11  ( 1 ) " "             " "           " "              
+    ## 12  ( 1 ) " "             " "           " "              
+    ## 13  ( 1 ) " "             " "           " "              
+    ## 14  ( 1 ) " "             " "           " "              
+    ## 15  ( 1 ) " "             " "           " "              
+    ## 16  ( 1 ) " "             " "           " "              
+    ## 17  ( 1 ) " "             " "           " "              
+    ## 18  ( 1 ) " "             " "           " "              
+    ## 19  ( 1 ) " "             " "           " "              
+    ## 20  ( 1 ) " "             " "           " "              
+    ## 21  ( 1 ) " "             " "           " "              
+    ## 22  ( 1 ) " "             " "           " "              
+    ## 23  ( 1 ) " "             " "           " "              
+    ## 24  ( 1 ) " "             " "           " "              
+    ## 25  ( 1 ) " "             " "           " "              
+    ## 26  ( 1 ) " "             " "           " "              
+    ## 27  ( 1 ) " "             " "           " "              
+    ## 28  ( 1 ) " "             " "           " "              
+    ## 29  ( 1 ) " "             " "           " "              
+    ## 30  ( 1 ) " "             " "           " "              
+    ## 31  ( 1 ) " "             " "           " "              
+    ## 32  ( 1 ) " "             " "           " "              
+    ## 33  ( 1 ) " "             " "           " "              
+    ## 34  ( 1 ) " "             " "           " "              
+    ## 35  ( 1 ) " "             " "           " "              
+    ## 36  ( 1 ) " "             " "           " "              
+    ## 37  ( 1 ) " "             " "           " "              
+    ## 38  ( 1 ) " "             " "           " "              
+    ## 39  ( 1 ) " "             " "           " "              
+    ## 40  ( 1 ) " "             " "           " "              
+    ## 41  ( 1 ) " "             " "           " "              
+    ## 42  ( 1 ) " "             " "           " "              
+    ##           CountryLao People's Democratic Republic CountryLatvia CountryLebanon
+    ## 1  ( 1 )  " "                                     " "           " "           
+    ## 2  ( 1 )  " "                                     " "           " "           
+    ## 3  ( 1 )  " "                                     " "           " "           
+    ## 4  ( 1 )  " "                                     " "           " "           
+    ## 5  ( 1 )  " "                                     " "           " "           
+    ## 6  ( 1 )  " "                                     " "           " "           
+    ## 7  ( 1 )  " "                                     " "           " "           
+    ## 8  ( 1 )  " "                                     " "           " "           
+    ## 9  ( 1 )  " "                                     " "           " "           
+    ## 10  ( 1 ) " "                                     " "           " "           
+    ## 11  ( 1 ) " "                                     " "           " "           
+    ## 12  ( 1 ) " "                                     " "           " "           
+    ## 13  ( 1 ) " "                                     " "           " "           
+    ## 14  ( 1 ) " "                                     "*"           " "           
+    ## 15  ( 1 ) " "                                     "*"           " "           
+    ## 16  ( 1 ) " "                                     "*"           " "           
+    ## 17  ( 1 ) " "                                     "*"           " "           
+    ## 18  ( 1 ) " "                                     "*"           " "           
+    ## 19  ( 1 ) " "                                     "*"           " "           
+    ## 20  ( 1 ) " "                                     "*"           " "           
+    ## 21  ( 1 ) " "                                     "*"           " "           
+    ## 22  ( 1 ) " "                                     "*"           " "           
+    ## 23  ( 1 ) " "                                     "*"           " "           
+    ## 24  ( 1 ) " "                                     "*"           " "           
+    ## 25  ( 1 ) " "                                     "*"           " "           
+    ## 26  ( 1 ) " "                                     "*"           " "           
+    ## 27  ( 1 ) " "                                     "*"           " "           
+    ## 28  ( 1 ) " "                                     "*"           " "           
+    ## 29  ( 1 ) " "                                     "*"           " "           
+    ## 30  ( 1 ) " "                                     "*"           " "           
+    ## 31  ( 1 ) " "                                     "*"           " "           
+    ## 32  ( 1 ) " "                                     "*"           " "           
+    ## 33  ( 1 ) " "                                     "*"           " "           
+    ## 34  ( 1 ) " "                                     "*"           " "           
+    ## 35  ( 1 ) " "                                     "*"           " "           
+    ## 36  ( 1 ) " "                                     "*"           " "           
+    ## 37  ( 1 ) " "                                     "*"           " "           
+    ## 38  ( 1 ) " "                                     "*"           " "           
+    ## 39  ( 1 ) " "                                     "*"           " "           
+    ## 40  ( 1 ) " "                                     "*"           " "           
+    ## 41  ( 1 ) " "                                     "*"           " "           
+    ## 42  ( 1 ) " "                                     "*"           " "           
+    ##           CountryLesotho CountryLiberia CountryLibya CountryLithuania
+    ## 1  ( 1 )  " "            " "            " "          " "             
+    ## 2  ( 1 )  " "            " "            " "          " "             
+    ## 3  ( 1 )  " "            " "            " "          " "             
+    ## 4  ( 1 )  " "            " "            " "          " "             
+    ## 5  ( 1 )  " "            " "            " "          " "             
+    ## 6  ( 1 )  "*"            " "            " "          " "             
+    ## 7  ( 1 )  "*"            " "            " "          " "             
+    ## 8  ( 1 )  "*"            " "            " "          " "             
+    ## 9  ( 1 )  "*"            " "            " "          " "             
+    ## 10  ( 1 ) "*"            " "            " "          " "             
+    ## 11  ( 1 ) "*"            " "            " "          " "             
+    ## 12  ( 1 ) "*"            " "            " "          " "             
+    ## 13  ( 1 ) "*"            " "            " "          " "             
+    ## 14  ( 1 ) "*"            " "            " "          " "             
+    ## 15  ( 1 ) "*"            " "            " "          "*"             
+    ## 16  ( 1 ) "*"            " "            " "          "*"             
+    ## 17  ( 1 ) "*"            " "            " "          "*"             
+    ## 18  ( 1 ) "*"            " "            " "          "*"             
+    ## 19  ( 1 ) "*"            " "            " "          "*"             
+    ## 20  ( 1 ) "*"            " "            " "          "*"             
+    ## 21  ( 1 ) "*"            " "            " "          "*"             
+    ## 22  ( 1 ) "*"            " "            " "          "*"             
+    ## 23  ( 1 ) "*"            " "            " "          "*"             
+    ## 24  ( 1 ) "*"            " "            " "          "*"             
+    ## 25  ( 1 ) "*"            " "            " "          "*"             
+    ## 26  ( 1 ) "*"            " "            " "          "*"             
+    ## 27  ( 1 ) "*"            " "            " "          "*"             
+    ## 28  ( 1 ) "*"            " "            " "          "*"             
+    ## 29  ( 1 ) "*"            " "            " "          "*"             
+    ## 30  ( 1 ) "*"            " "            " "          "*"             
+    ## 31  ( 1 ) "*"            " "            " "          "*"             
+    ## 32  ( 1 ) "*"            " "            " "          "*"             
+    ## 33  ( 1 ) "*"            " "            " "          "*"             
+    ## 34  ( 1 ) "*"            " "            " "          "*"             
+    ## 35  ( 1 ) "*"            " "            " "          "*"             
+    ## 36  ( 1 ) "*"            " "            " "          "*"             
+    ## 37  ( 1 ) "*"            " "            " "          "*"             
+    ## 38  ( 1 ) "*"            " "            " "          "*"             
+    ## 39  ( 1 ) "*"            " "            " "          "*"             
+    ## 40  ( 1 ) "*"            " "            " "          "*"             
+    ## 41  ( 1 ) "*"            " "            " "          "*"             
+    ## 42  ( 1 ) "*"            " "            " "          "*"             
+    ##           CountryLuxembourg CountryMadagascar CountryMalawi CountryMalaysia
+    ## 1  ( 1 )  " "               " "               " "           " "            
+    ## 2  ( 1 )  " "               " "               " "           " "            
+    ## 3  ( 1 )  " "               " "               " "           " "            
+    ## 4  ( 1 )  " "               " "               " "           " "            
+    ## 5  ( 1 )  " "               " "               " "           " "            
+    ## 6  ( 1 )  " "               " "               " "           " "            
+    ## 7  ( 1 )  " "               " "               " "           " "            
+    ## 8  ( 1 )  " "               " "               " "           " "            
+    ## 9  ( 1 )  " "               " "               " "           " "            
+    ## 10  ( 1 ) " "               " "               " "           " "            
+    ## 11  ( 1 ) " "               " "               " "           " "            
+    ## 12  ( 1 ) " "               " "               " "           " "            
+    ## 13  ( 1 ) " "               " "               " "           " "            
+    ## 14  ( 1 ) " "               " "               " "           " "            
+    ## 15  ( 1 ) " "               " "               " "           " "            
+    ## 16  ( 1 ) " "               " "               " "           " "            
+    ## 17  ( 1 ) " "               " "               " "           " "            
+    ## 18  ( 1 ) " "               " "               " "           " "            
+    ## 19  ( 1 ) " "               " "               " "           " "            
+    ## 20  ( 1 ) " "               " "               " "           " "            
+    ## 21  ( 1 ) " "               " "               " "           " "            
+    ## 22  ( 1 ) " "               " "               " "           " "            
+    ## 23  ( 1 ) " "               " "               " "           " "            
+    ## 24  ( 1 ) " "               " "               " "           " "            
+    ## 25  ( 1 ) " "               " "               " "           " "            
+    ## 26  ( 1 ) " "               " "               " "           " "            
+    ## 27  ( 1 ) " "               " "               " "           " "            
+    ## 28  ( 1 ) " "               " "               " "           " "            
+    ## 29  ( 1 ) " "               " "               " "           " "            
+    ## 30  ( 1 ) " "               " "               " "           " "            
+    ## 31  ( 1 ) " "               " "               " "           " "            
+    ## 32  ( 1 ) " "               " "               " "           " "            
+    ## 33  ( 1 ) " "               " "               " "           " "            
+    ## 34  ( 1 ) " "               " "               " "           " "            
+    ## 35  ( 1 ) " "               " "               " "           " "            
+    ## 36  ( 1 ) " "               " "               " "           " "            
+    ## 37  ( 1 ) " "               " "               " "           " "            
+    ## 38  ( 1 ) " "               " "               " "           " "            
+    ## 39  ( 1 ) " "               " "               " "           " "            
+    ## 40  ( 1 ) " "               " "               " "           " "            
+    ## 41  ( 1 ) " "               " "               " "           " "            
+    ## 42  ( 1 ) " "               " "               " "           " "            
+    ##           CountryMaldives CountryMali CountryMalta CountryMauritania
+    ## 1  ( 1 )  " "             " "         " "          " "              
+    ## 2  ( 1 )  " "             " "         " "          " "              
+    ## 3  ( 1 )  " "             " "         " "          " "              
+    ## 4  ( 1 )  " "             " "         " "          " "              
+    ## 5  ( 1 )  " "             " "         " "          " "              
+    ## 6  ( 1 )  " "             " "         " "          " "              
+    ## 7  ( 1 )  " "             " "         " "          " "              
+    ## 8  ( 1 )  " "             " "         " "          " "              
+    ## 9  ( 1 )  " "             " "         " "          " "              
+    ## 10  ( 1 ) " "             " "         " "          " "              
+    ## 11  ( 1 ) " "             " "         " "          " "              
+    ## 12  ( 1 ) " "             " "         " "          " "              
+    ## 13  ( 1 ) " "             " "         " "          " "              
+    ## 14  ( 1 ) " "             " "         " "          " "              
+    ## 15  ( 1 ) " "             " "         " "          " "              
+    ## 16  ( 1 ) " "             " "         " "          " "              
+    ## 17  ( 1 ) " "             " "         " "          " "              
+    ## 18  ( 1 ) " "             " "         " "          " "              
+    ## 19  ( 1 ) " "             " "         " "          " "              
+    ## 20  ( 1 ) " "             " "         " "          " "              
+    ## 21  ( 1 ) " "             " "         " "          " "              
+    ## 22  ( 1 ) " "             " "         " "          " "              
+    ## 23  ( 1 ) " "             " "         " "          " "              
+    ## 24  ( 1 ) " "             " "         " "          " "              
+    ## 25  ( 1 ) " "             " "         " "          " "              
+    ## 26  ( 1 ) " "             " "         " "          " "              
+    ## 27  ( 1 ) " "             " "         " "          " "              
+    ## 28  ( 1 ) " "             " "         " "          " "              
+    ## 29  ( 1 ) " "             " "         " "          " "              
+    ## 30  ( 1 ) " "             " "         " "          " "              
+    ## 31  ( 1 ) " "             " "         " "          " "              
+    ## 32  ( 1 ) " "             " "         " "          " "              
+    ## 33  ( 1 ) " "             " "         " "          " "              
+    ## 34  ( 1 ) " "             " "         " "          " "              
+    ## 35  ( 1 ) " "             " "         " "          " "              
+    ## 36  ( 1 ) " "             " "         " "          " "              
+    ## 37  ( 1 ) " "             " "         " "          " "              
+    ## 38  ( 1 ) " "             " "         " "          " "              
+    ## 39  ( 1 ) " "             " "         " "          " "              
+    ## 40  ( 1 ) " "             " "         " "          " "              
+    ## 41  ( 1 ) " "             " "         " "          " "              
+    ## 42  ( 1 ) " "             " "         " "          " "              
+    ##           CountryMauritius CountryMexico
+    ## 1  ( 1 )  " "              " "          
+    ## 2  ( 1 )  " "              " "          
+    ## 3  ( 1 )  " "              " "          
+    ## 4  ( 1 )  " "              " "          
+    ## 5  ( 1 )  " "              " "          
+    ## 6  ( 1 )  " "              " "          
+    ## 7  ( 1 )  " "              " "          
+    ## 8  ( 1 )  " "              " "          
+    ## 9  ( 1 )  " "              " "          
+    ## 10  ( 1 ) " "              " "          
+    ## 11  ( 1 ) " "              " "          
+    ## 12  ( 1 ) " "              " "          
+    ## 13  ( 1 ) " "              " "          
+    ## 14  ( 1 ) " "              " "          
+    ## 15  ( 1 ) " "              " "          
+    ## 16  ( 1 ) " "              " "          
+    ## 17  ( 1 ) " "              " "          
+    ## 18  ( 1 ) " "              " "          
+    ## 19  ( 1 ) " "              " "          
+    ## 20  ( 1 ) " "              " "          
+    ## 21  ( 1 ) " "              " "          
+    ## 22  ( 1 ) " "              " "          
+    ## 23  ( 1 ) " "              " "          
+    ## 24  ( 1 ) " "              " "          
+    ## 25  ( 1 ) " "              " "          
+    ## 26  ( 1 ) " "              " "          
+    ## 27  ( 1 ) " "              " "          
+    ## 28  ( 1 ) " "              " "          
+    ## 29  ( 1 ) " "              " "          
+    ## 30  ( 1 ) " "              " "          
+    ## 31  ( 1 ) " "              " "          
+    ## 32  ( 1 ) " "              " "          
+    ## 33  ( 1 ) " "              " "          
+    ## 34  ( 1 ) " "              " "          
+    ## 35  ( 1 ) " "              " "          
+    ## 36  ( 1 ) " "              " "          
+    ## 37  ( 1 ) " "              " "          
+    ## 38  ( 1 ) " "              " "          
+    ## 39  ( 1 ) " "              " "          
+    ## 40  ( 1 ) " "              " "          
+    ## 41  ( 1 ) " "              " "          
+    ## 42  ( 1 ) " "              " "          
+    ##           CountryMicronesia (Federated States of) CountryMongolia
+    ## 1  ( 1 )  " "                                     " "            
+    ## 2  ( 1 )  " "                                     " "            
+    ## 3  ( 1 )  " "                                     " "            
+    ## 4  ( 1 )  " "                                     " "            
+    ## 5  ( 1 )  " "                                     " "            
+    ## 6  ( 1 )  " "                                     " "            
+    ## 7  ( 1 )  " "                                     " "            
+    ## 8  ( 1 )  " "                                     " "            
+    ## 9  ( 1 )  " "                                     " "            
+    ## 10  ( 1 ) " "                                     " "            
+    ## 11  ( 1 ) " "                                     " "            
+    ## 12  ( 1 ) " "                                     " "            
+    ## 13  ( 1 ) " "                                     " "            
+    ## 14  ( 1 ) " "                                     " "            
+    ## 15  ( 1 ) " "                                     " "            
+    ## 16  ( 1 ) " "                                     " "            
+    ## 17  ( 1 ) " "                                     " "            
+    ## 18  ( 1 ) " "                                     " "            
+    ## 19  ( 1 ) " "                                     " "            
+    ## 20  ( 1 ) " "                                     " "            
+    ## 21  ( 1 ) " "                                     " "            
+    ## 22  ( 1 ) " "                                     " "            
+    ## 23  ( 1 ) " "                                     " "            
+    ## 24  ( 1 ) " "                                     " "            
+    ## 25  ( 1 ) " "                                     " "            
+    ## 26  ( 1 ) " "                                     " "            
+    ## 27  ( 1 ) " "                                     " "            
+    ## 28  ( 1 ) " "                                     " "            
+    ## 29  ( 1 ) " "                                     " "            
+    ## 30  ( 1 ) " "                                     " "            
+    ## 31  ( 1 ) " "                                     " "            
+    ## 32  ( 1 ) " "                                     " "            
+    ## 33  ( 1 ) " "                                     " "            
+    ## 34  ( 1 ) " "                                     " "            
+    ## 35  ( 1 ) " "                                     " "            
+    ## 36  ( 1 ) " "                                     " "            
+    ## 37  ( 1 ) " "                                     " "            
+    ## 38  ( 1 ) " "                                     " "            
+    ## 39  ( 1 ) " "                                     " "            
+    ## 40  ( 1 ) " "                                     " "            
+    ## 41  ( 1 ) " "                                     " "            
+    ## 42  ( 1 ) " "                                     " "            
+    ##           CountryMontenegro CountryMorocco CountryMozambique CountryMyanmar
+    ## 1  ( 1 )  " "               " "            " "               " "           
+    ## 2  ( 1 )  " "               " "            " "               " "           
+    ## 3  ( 1 )  " "               " "            " "               " "           
+    ## 4  ( 1 )  " "               " "            " "               " "           
+    ## 5  ( 1 )  " "               " "            " "               " "           
+    ## 6  ( 1 )  " "               " "            " "               " "           
+    ## 7  ( 1 )  " "               " "            " "               " "           
+    ## 8  ( 1 )  " "               " "            " "               " "           
+    ## 9  ( 1 )  " "               " "            " "               " "           
+    ## 10  ( 1 ) " "               " "            " "               " "           
+    ## 11  ( 1 ) " "               " "            " "               " "           
+    ## 12  ( 1 ) " "               " "            " "               " "           
+    ## 13  ( 1 ) " "               " "            " "               " "           
+    ## 14  ( 1 ) " "               " "            " "               " "           
+    ## 15  ( 1 ) " "               " "            " "               " "           
+    ## 16  ( 1 ) " "               " "            " "               " "           
+    ## 17  ( 1 ) " "               " "            " "               " "           
+    ## 18  ( 1 ) " "               " "            " "               " "           
+    ## 19  ( 1 ) " "               " "            " "               " "           
+    ## 20  ( 1 ) " "               " "            " "               " "           
+    ## 21  ( 1 ) " "               " "            " "               " "           
+    ## 22  ( 1 ) " "               " "            " "               " "           
+    ## 23  ( 1 ) " "               " "            " "               " "           
+    ## 24  ( 1 ) " "               " "            " "               " "           
+    ## 25  ( 1 ) " "               " "            " "               " "           
+    ## 26  ( 1 ) " "               " "            " "               " "           
+    ## 27  ( 1 ) " "               " "            " "               " "           
+    ## 28  ( 1 ) " "               " "            " "               " "           
+    ## 29  ( 1 ) " "               " "            " "               " "           
+    ## 30  ( 1 ) " "               " "            " "               " "           
+    ## 31  ( 1 ) " "               " "            " "               " "           
+    ## 32  ( 1 ) " "               " "            " "               " "           
+    ## 33  ( 1 ) " "               " "            " "               " "           
+    ## 34  ( 1 ) " "               " "            " "               " "           
+    ## 35  ( 1 ) " "               " "            " "               " "           
+    ## 36  ( 1 ) " "               " "            " "               " "           
+    ## 37  ( 1 ) " "               " "            " "               " "           
+    ## 38  ( 1 ) " "               " "            " "               " "           
+    ## 39  ( 1 ) " "               " "            " "               " "           
+    ## 40  ( 1 ) " "               " "            " "               " "           
+    ## 41  ( 1 ) " "               " "            " "               " "           
+    ## 42  ( 1 ) " "               " "            " "               " "           
+    ##           CountryNamibia CountryNepal CountryNetherlands CountryNew Zealand
+    ## 1  ( 1 )  " "            " "          " "                " "               
+    ## 2  ( 1 )  " "            " "          " "                " "               
+    ## 3  ( 1 )  " "            " "          " "                " "               
+    ## 4  ( 1 )  " "            " "          " "                " "               
+    ## 5  ( 1 )  " "            " "          " "                " "               
+    ## 6  ( 1 )  " "            " "          " "                " "               
+    ## 7  ( 1 )  "*"            " "          " "                " "               
+    ## 8  ( 1 )  "*"            " "          " "                " "               
+    ## 9  ( 1 )  "*"            " "          " "                " "               
+    ## 10  ( 1 ) "*"            " "          " "                " "               
+    ## 11  ( 1 ) "*"            " "          " "                " "               
+    ## 12  ( 1 ) "*"            " "          " "                " "               
+    ## 13  ( 1 ) "*"            " "          " "                " "               
+    ## 14  ( 1 ) "*"            " "          " "                " "               
+    ## 15  ( 1 ) "*"            " "          " "                " "               
+    ## 16  ( 1 ) "*"            " "          " "                " "               
+    ## 17  ( 1 ) "*"            " "          " "                " "               
+    ## 18  ( 1 ) "*"            " "          " "                " "               
+    ## 19  ( 1 ) "*"            " "          " "                " "               
+    ## 20  ( 1 ) "*"            " "          " "                " "               
+    ## 21  ( 1 ) "*"            " "          " "                " "               
+    ## 22  ( 1 ) "*"            " "          " "                " "               
+    ## 23  ( 1 ) "*"            " "          " "                " "               
+    ## 24  ( 1 ) "*"            " "          " "                " "               
+    ## 25  ( 1 ) "*"            " "          " "                " "               
+    ## 26  ( 1 ) "*"            " "          " "                " "               
+    ## 27  ( 1 ) "*"            " "          " "                " "               
+    ## 28  ( 1 ) "*"            " "          " "                " "               
+    ## 29  ( 1 ) "*"            " "          " "                " "               
+    ## 30  ( 1 ) "*"            " "          " "                " "               
+    ## 31  ( 1 ) "*"            " "          " "                " "               
+    ## 32  ( 1 ) "*"            " "          " "                " "               
+    ## 33  ( 1 ) "*"            " "          " "                " "               
+    ## 34  ( 1 ) "*"            " "          " "                " "               
+    ## 35  ( 1 ) "*"            " "          " "                "*"               
+    ## 36  ( 1 ) "*"            " "          " "                "*"               
+    ## 37  ( 1 ) "*"            " "          " "                "*"               
+    ## 38  ( 1 ) "*"            " "          " "                "*"               
+    ## 39  ( 1 ) "*"            " "          " "                "*"               
+    ## 40  ( 1 ) "*"            " "          " "                "*"               
+    ## 41  ( 1 ) "*"            " "          " "                "*"               
+    ## 42  ( 1 ) "*"            " "          " "                "*"               
+    ##           CountryNicaragua CountryNiger CountryNigeria CountryNorway
+    ## 1  ( 1 )  " "              " "          " "            " "          
+    ## 2  ( 1 )  " "              " "          " "            " "          
+    ## 3  ( 1 )  " "              " "          " "            " "          
+    ## 4  ( 1 )  " "              " "          " "            " "          
+    ## 5  ( 1 )  " "              " "          " "            " "          
+    ## 6  ( 1 )  " "              " "          " "            " "          
+    ## 7  ( 1 )  " "              " "          " "            " "          
+    ## 8  ( 1 )  " "              " "          " "            " "          
+    ## 9  ( 1 )  " "              " "          " "            " "          
+    ## 10  ( 1 ) " "              " "          " "            " "          
+    ## 11  ( 1 ) " "              " "          " "            " "          
+    ## 12  ( 1 ) " "              " "          " "            " "          
+    ## 13  ( 1 ) " "              " "          " "            " "          
+    ## 14  ( 1 ) " "              " "          " "            " "          
+    ## 15  ( 1 ) " "              " "          " "            " "          
+    ## 16  ( 1 ) " "              " "          " "            " "          
+    ## 17  ( 1 ) " "              " "          " "            " "          
+    ## 18  ( 1 ) " "              " "          " "            " "          
+    ## 19  ( 1 ) " "              " "          " "            " "          
+    ## 20  ( 1 ) " "              " "          " "            " "          
+    ## 21  ( 1 ) " "              " "          " "            " "          
+    ## 22  ( 1 ) " "              " "          " "            " "          
+    ## 23  ( 1 ) " "              " "          " "            " "          
+    ## 24  ( 1 ) " "              " "          " "            " "          
+    ## 25  ( 1 ) " "              " "          " "            " "          
+    ## 26  ( 1 ) " "              " "          " "            " "          
+    ## 27  ( 1 ) " "              " "          " "            " "          
+    ## 28  ( 1 ) " "              " "          " "            " "          
+    ## 29  ( 1 ) " "              " "          " "            " "          
+    ## 30  ( 1 ) " "              " "          " "            " "          
+    ## 31  ( 1 ) " "              " "          " "            " "          
+    ## 32  ( 1 ) " "              " "          " "            " "          
+    ## 33  ( 1 ) " "              " "          " "            " "          
+    ## 34  ( 1 ) " "              " "          " "            " "          
+    ## 35  ( 1 ) " "              " "          " "            " "          
+    ## 36  ( 1 ) " "              " "          " "            "*"          
+    ## 37  ( 1 ) " "              " "          " "            "*"          
+    ## 38  ( 1 ) " "              " "          " "            "*"          
+    ## 39  ( 1 ) " "              " "          " "            "*"          
+    ## 40  ( 1 ) " "              " "          " "            "*"          
+    ## 41  ( 1 ) "*"              " "          " "            "*"          
+    ## 42  ( 1 ) "*"              " "          " "            "*"          
+    ##           CountryOman CountryPakistan CountryPanama CountryPapua New Guinea
+    ## 1  ( 1 )  " "         " "             " "           " "                    
+    ## 2  ( 1 )  " "         " "             " "           " "                    
+    ## 3  ( 1 )  " "         " "             " "           " "                    
+    ## 4  ( 1 )  " "         " "             " "           " "                    
+    ## 5  ( 1 )  " "         " "             " "           " "                    
+    ## 6  ( 1 )  " "         " "             " "           " "                    
+    ## 7  ( 1 )  " "         " "             " "           " "                    
+    ## 8  ( 1 )  " "         " "             " "           " "                    
+    ## 9  ( 1 )  " "         " "             " "           " "                    
+    ## 10  ( 1 ) " "         " "             " "           " "                    
+    ## 11  ( 1 ) " "         " "             " "           " "                    
+    ## 12  ( 1 ) " "         " "             " "           " "                    
+    ## 13  ( 1 ) " "         " "             " "           " "                    
+    ## 14  ( 1 ) " "         " "             " "           " "                    
+    ## 15  ( 1 ) " "         " "             " "           " "                    
+    ## 16  ( 1 ) " "         " "             " "           " "                    
+    ## 17  ( 1 ) " "         " "             " "           " "                    
+    ## 18  ( 1 ) " "         " "             " "           " "                    
+    ## 19  ( 1 ) " "         " "             " "           " "                    
+    ## 20  ( 1 ) " "         " "             " "           " "                    
+    ## 21  ( 1 ) " "         " "             " "           " "                    
+    ## 22  ( 1 ) " "         " "             " "           " "                    
+    ## 23  ( 1 ) " "         " "             " "           " "                    
+    ## 24  ( 1 ) " "         " "             " "           " "                    
+    ## 25  ( 1 ) " "         " "             " "           " "                    
+    ## 26  ( 1 ) " "         " "             " "           " "                    
+    ## 27  ( 1 ) " "         " "             " "           " "                    
+    ## 28  ( 1 ) " "         " "             " "           " "                    
+    ## 29  ( 1 ) " "         " "             " "           " "                    
+    ## 30  ( 1 ) " "         " "             " "           " "                    
+    ## 31  ( 1 ) " "         " "             " "           " "                    
+    ## 32  ( 1 ) " "         " "             " "           " "                    
+    ## 33  ( 1 ) " "         " "             " "           " "                    
+    ## 34  ( 1 ) " "         " "             " "           " "                    
+    ## 35  ( 1 ) " "         " "             " "           " "                    
+    ## 36  ( 1 ) " "         " "             " "           " "                    
+    ## 37  ( 1 ) " "         " "             " "           " "                    
+    ## 38  ( 1 ) " "         " "             " "           " "                    
+    ## 39  ( 1 ) " "         " "             " "           " "                    
+    ## 40  ( 1 ) " "         " "             " "           " "                    
+    ## 41  ( 1 ) " "         " "             " "           " "                    
+    ## 42  ( 1 ) " "         " "             " "           " "                    
+    ##           CountryParaguay CountryPeru CountryPhilippines CountryPoland
+    ## 1  ( 1 )  " "             " "         " "                " "          
+    ## 2  ( 1 )  " "             " "         " "                " "          
+    ## 3  ( 1 )  " "             " "         " "                " "          
+    ## 4  ( 1 )  " "             " "         " "                " "          
+    ## 5  ( 1 )  " "             " "         " "                " "          
+    ## 6  ( 1 )  " "             " "         " "                " "          
+    ## 7  ( 1 )  " "             " "         " "                " "          
+    ## 8  ( 1 )  " "             " "         " "                " "          
+    ## 9  ( 1 )  " "             " "         " "                " "          
+    ## 10  ( 1 ) " "             " "         " "                " "          
+    ## 11  ( 1 ) " "             " "         " "                " "          
+    ## 12  ( 1 ) " "             " "         " "                " "          
+    ## 13  ( 1 ) " "             " "         " "                " "          
+    ## 14  ( 1 ) " "             " "         " "                " "          
+    ## 15  ( 1 ) " "             " "         " "                " "          
+    ## 16  ( 1 ) " "             " "         " "                " "          
+    ## 17  ( 1 ) " "             " "         " "                " "          
+    ## 18  ( 1 ) " "             " "         " "                " "          
+    ## 19  ( 1 ) " "             " "         " "                " "          
+    ## 20  ( 1 ) " "             " "         " "                " "          
+    ## 21  ( 1 ) " "             " "         " "                " "          
+    ## 22  ( 1 ) " "             " "         " "                " "          
+    ## 23  ( 1 ) " "             " "         " "                " "          
+    ## 24  ( 1 ) " "             " "         " "                " "          
+    ## 25  ( 1 ) " "             " "         " "                " "          
+    ## 26  ( 1 ) " "             " "         " "                " "          
+    ## 27  ( 1 ) " "             " "         " "                " "          
+    ## 28  ( 1 ) " "             " "         " "                " "          
+    ## 29  ( 1 ) " "             " "         " "                " "          
+    ## 30  ( 1 ) " "             " "         " "                " "          
+    ## 31  ( 1 ) " "             " "         " "                " "          
+    ## 32  ( 1 ) " "             " "         " "                " "          
+    ## 33  ( 1 ) " "             " "         " "                " "          
+    ## 34  ( 1 ) " "             " "         " "                " "          
+    ## 35  ( 1 ) " "             " "         " "                " "          
+    ## 36  ( 1 ) " "             " "         " "                " "          
+    ## 37  ( 1 ) " "             " "         " "                " "          
+    ## 38  ( 1 ) " "             " "         " "                " "          
+    ## 39  ( 1 ) " "             " "         " "                " "          
+    ## 40  ( 1 ) " "             " "         " "                " "          
+    ## 41  ( 1 ) " "             " "         " "                " "          
+    ## 42  ( 1 ) " "             " "         " "                " "          
+    ##           CountryPortugal CountryQatar CountryRepublic of Korea
+    ## 1  ( 1 )  " "             " "          " "                     
+    ## 2  ( 1 )  " "             " "          " "                     
+    ## 3  ( 1 )  " "             " "          " "                     
+    ## 4  ( 1 )  " "             " "          " "                     
+    ## 5  ( 1 )  " "             " "          " "                     
+    ## 6  ( 1 )  " "             " "          " "                     
+    ## 7  ( 1 )  " "             " "          " "                     
+    ## 8  ( 1 )  " "             " "          " "                     
+    ## 9  ( 1 )  " "             " "          " "                     
+    ## 10  ( 1 ) " "             " "          " "                     
+    ## 11  ( 1 ) " "             " "          " "                     
+    ## 12  ( 1 ) " "             " "          " "                     
+    ## 13  ( 1 ) " "             " "          " "                     
+    ## 14  ( 1 ) " "             " "          " "                     
+    ## 15  ( 1 ) " "             " "          " "                     
+    ## 16  ( 1 ) " "             " "          " "                     
+    ## 17  ( 1 ) " "             " "          " "                     
+    ## 18  ( 1 ) " "             " "          " "                     
+    ## 19  ( 1 ) " "             " "          " "                     
+    ## 20  ( 1 ) " "             " "          " "                     
+    ## 21  ( 1 ) " "             " "          " "                     
+    ## 22  ( 1 ) " "             " "          " "                     
+    ## 23  ( 1 ) " "             " "          " "                     
+    ## 24  ( 1 ) " "             " "          " "                     
+    ## 25  ( 1 ) " "             " "          " "                     
+    ## 26  ( 1 ) " "             " "          " "                     
+    ## 27  ( 1 ) " "             " "          " "                     
+    ## 28  ( 1 ) " "             " "          " "                     
+    ## 29  ( 1 ) " "             " "          " "                     
+    ## 30  ( 1 ) " "             " "          " "                     
+    ## 31  ( 1 ) " "             " "          " "                     
+    ## 32  ( 1 ) " "             " "          " "                     
+    ## 33  ( 1 ) " "             " "          " "                     
+    ## 34  ( 1 ) "*"             " "          " "                     
+    ## 35  ( 1 ) "*"             " "          " "                     
+    ## 36  ( 1 ) "*"             " "          " "                     
+    ## 37  ( 1 ) "*"             " "          " "                     
+    ## 38  ( 1 ) "*"             " "          " "                     
+    ## 39  ( 1 ) "*"             " "          " "                     
+    ## 40  ( 1 ) "*"             " "          " "                     
+    ## 41  ( 1 ) "*"             " "          " "                     
+    ## 42  ( 1 ) "*"             " "          "*"                     
+    ##           CountryRepublic of Moldova CountryRomania CountryRussian Federation
+    ## 1  ( 1 )  " "                        " "            " "                      
+    ## 2  ( 1 )  " "                        " "            " "                      
+    ## 3  ( 1 )  " "                        " "            " "                      
+    ## 4  ( 1 )  " "                        " "            " "                      
+    ## 5  ( 1 )  " "                        " "            " "                      
+    ## 6  ( 1 )  " "                        " "            " "                      
+    ## 7  ( 1 )  " "                        " "            " "                      
+    ## 8  ( 1 )  " "                        " "            " "                      
+    ## 9  ( 1 )  " "                        " "            " "                      
+    ## 10  ( 1 ) " "                        " "            " "                      
+    ## 11  ( 1 ) " "                        " "            "*"                      
+    ## 12  ( 1 ) " "                        " "            "*"                      
+    ## 13  ( 1 ) " "                        " "            "*"                      
+    ## 14  ( 1 ) " "                        " "            "*"                      
+    ## 15  ( 1 ) " "                        " "            "*"                      
+    ## 16  ( 1 ) " "                        " "            "*"                      
+    ## 17  ( 1 ) " "                        " "            "*"                      
+    ## 18  ( 1 ) " "                        " "            "*"                      
+    ## 19  ( 1 ) " "                        " "            "*"                      
+    ## 20  ( 1 ) " "                        " "            "*"                      
+    ## 21  ( 1 ) " "                        " "            "*"                      
+    ## 22  ( 1 ) " "                        " "            "*"                      
+    ## 23  ( 1 ) " "                        " "            "*"                      
+    ## 24  ( 1 ) " "                        " "            "*"                      
+    ## 25  ( 1 ) " "                        " "            "*"                      
+    ## 26  ( 1 ) " "                        " "            "*"                      
+    ## 27  ( 1 ) " "                        " "            "*"                      
+    ## 28  ( 1 ) " "                        " "            "*"                      
+    ## 29  ( 1 ) " "                        " "            "*"                      
+    ## 30  ( 1 ) " "                        " "            "*"                      
+    ## 31  ( 1 ) " "                        " "            "*"                      
+    ## 32  ( 1 ) " "                        " "            "*"                      
+    ## 33  ( 1 ) " "                        " "            "*"                      
+    ## 34  ( 1 ) " "                        " "            "*"                      
+    ## 35  ( 1 ) " "                        " "            "*"                      
+    ## 36  ( 1 ) " "                        " "            "*"                      
+    ## 37  ( 1 ) " "                        " "            "*"                      
+    ## 38  ( 1 ) " "                        " "            "*"                      
+    ## 39  ( 1 ) " "                        " "            "*"                      
+    ## 40  ( 1 ) " "                        " "            "*"                      
+    ## 41  ( 1 ) " "                        " "            "*"                      
+    ## 42  ( 1 ) " "                        " "            "*"                      
+    ##           CountryRwanda CountrySaint Lucia
+    ## 1  ( 1 )  " "           " "               
+    ## 2  ( 1 )  " "           " "               
+    ## 3  ( 1 )  " "           " "               
+    ## 4  ( 1 )  " "           " "               
+    ## 5  ( 1 )  " "           " "               
+    ## 6  ( 1 )  " "           " "               
+    ## 7  ( 1 )  " "           " "               
+    ## 8  ( 1 )  " "           " "               
+    ## 9  ( 1 )  " "           " "               
+    ## 10  ( 1 ) " "           " "               
+    ## 11  ( 1 ) " "           " "               
+    ## 12  ( 1 ) " "           " "               
+    ## 13  ( 1 ) " "           " "               
+    ## 14  ( 1 ) " "           " "               
+    ## 15  ( 1 ) " "           " "               
+    ## 16  ( 1 ) " "           " "               
+    ## 17  ( 1 ) " "           " "               
+    ## 18  ( 1 ) " "           " "               
+    ## 19  ( 1 ) " "           " "               
+    ## 20  ( 1 ) " "           " "               
+    ## 21  ( 1 ) " "           " "               
+    ## 22  ( 1 ) " "           " "               
+    ## 23  ( 1 ) " "           " "               
+    ## 24  ( 1 ) " "           " "               
+    ## 25  ( 1 ) " "           " "               
+    ## 26  ( 1 ) " "           " "               
+    ## 27  ( 1 ) " "           " "               
+    ## 28  ( 1 ) " "           " "               
+    ## 29  ( 1 ) " "           " "               
+    ## 30  ( 1 ) " "           " "               
+    ## 31  ( 1 ) " "           " "               
+    ## 32  ( 1 ) " "           " "               
+    ## 33  ( 1 ) " "           " "               
+    ## 34  ( 1 ) " "           " "               
+    ## 35  ( 1 ) " "           " "               
+    ## 36  ( 1 ) " "           " "               
+    ## 37  ( 1 ) " "           " "               
+    ## 38  ( 1 ) " "           " "               
+    ## 39  ( 1 ) " "           " "               
+    ## 40  ( 1 ) " "           " "               
+    ## 41  ( 1 ) " "           " "               
+    ## 42  ( 1 ) " "           " "               
+    ##           CountrySaint Vincent and the Grenadines CountrySamoa
+    ## 1  ( 1 )  " "                                     " "         
+    ## 2  ( 1 )  " "                                     " "         
+    ## 3  ( 1 )  " "                                     " "         
+    ## 4  ( 1 )  " "                                     " "         
+    ## 5  ( 1 )  " "                                     " "         
+    ## 6  ( 1 )  " "                                     " "         
+    ## 7  ( 1 )  " "                                     " "         
+    ## 8  ( 1 )  " "                                     " "         
+    ## 9  ( 1 )  " "                                     " "         
+    ## 10  ( 1 ) " "                                     " "         
+    ## 11  ( 1 ) " "                                     " "         
+    ## 12  ( 1 ) " "                                     " "         
+    ## 13  ( 1 ) " "                                     " "         
+    ## 14  ( 1 ) " "                                     " "         
+    ## 15  ( 1 ) " "                                     " "         
+    ## 16  ( 1 ) " "                                     " "         
+    ## 17  ( 1 ) " "                                     " "         
+    ## 18  ( 1 ) " "                                     " "         
+    ## 19  ( 1 ) " "                                     " "         
+    ## 20  ( 1 ) " "                                     " "         
+    ## 21  ( 1 ) " "                                     " "         
+    ## 22  ( 1 ) "*"                                     " "         
+    ## 23  ( 1 ) "*"                                     " "         
+    ## 24  ( 1 ) "*"                                     " "         
+    ## 25  ( 1 ) "*"                                     " "         
+    ## 26  ( 1 ) "*"                                     " "         
+    ## 27  ( 1 ) "*"                                     " "         
+    ## 28  ( 1 ) "*"                                     " "         
+    ## 29  ( 1 ) "*"                                     " "         
+    ## 30  ( 1 ) "*"                                     " "         
+    ## 31  ( 1 ) "*"                                     " "         
+    ## 32  ( 1 ) "*"                                     " "         
+    ## 33  ( 1 ) "*"                                     " "         
+    ## 34  ( 1 ) "*"                                     " "         
+    ## 35  ( 1 ) "*"                                     " "         
+    ## 36  ( 1 ) "*"                                     " "         
+    ## 37  ( 1 ) "*"                                     " "         
+    ## 38  ( 1 ) "*"                                     " "         
+    ## 39  ( 1 ) "*"                                     " "         
+    ## 40  ( 1 ) "*"                                     " "         
+    ## 41  ( 1 ) "*"                                     " "         
+    ## 42  ( 1 ) "*"                                     " "         
+    ##           CountrySao Tome and Principe CountrySaudi Arabia CountrySenegal
+    ## 1  ( 1 )  " "                          " "                 " "           
+    ## 2  ( 1 )  " "                          " "                 " "           
+    ## 3  ( 1 )  " "                          " "                 " "           
+    ## 4  ( 1 )  " "                          " "                 " "           
+    ## 5  ( 1 )  " "                          " "                 " "           
+    ## 6  ( 1 )  " "                          " "                 " "           
+    ## 7  ( 1 )  " "                          " "                 " "           
+    ## 8  ( 1 )  " "                          " "                 " "           
+    ## 9  ( 1 )  " "                          " "                 " "           
+    ## 10  ( 1 ) " "                          " "                 " "           
+    ## 11  ( 1 ) " "                          " "                 " "           
+    ## 12  ( 1 ) " "                          " "                 " "           
+    ## 13  ( 1 ) " "                          " "                 " "           
+    ## 14  ( 1 ) " "                          " "                 " "           
+    ## 15  ( 1 ) " "                          " "                 " "           
+    ## 16  ( 1 ) " "                          " "                 " "           
+    ## 17  ( 1 ) " "                          " "                 " "           
+    ## 18  ( 1 ) " "                          " "                 " "           
+    ## 19  ( 1 ) " "                          " "                 " "           
+    ## 20  ( 1 ) " "                          " "                 " "           
+    ## 21  ( 1 ) " "                          " "                 " "           
+    ## 22  ( 1 ) " "                          " "                 " "           
+    ## 23  ( 1 ) " "                          " "                 " "           
+    ## 24  ( 1 ) " "                          " "                 " "           
+    ## 25  ( 1 ) " "                          " "                 " "           
+    ## 26  ( 1 ) " "                          " "                 " "           
+    ## 27  ( 1 ) " "                          " "                 " "           
+    ## 28  ( 1 ) " "                          " "                 " "           
+    ## 29  ( 1 ) " "                          " "                 " "           
+    ## 30  ( 1 ) " "                          " "                 " "           
+    ## 31  ( 1 ) " "                          " "                 " "           
+    ## 32  ( 1 ) " "                          " "                 " "           
+    ## 33  ( 1 ) " "                          " "                 " "           
+    ## 34  ( 1 ) " "                          " "                 " "           
+    ## 35  ( 1 ) " "                          " "                 " "           
+    ## 36  ( 1 ) " "                          " "                 " "           
+    ## 37  ( 1 ) " "                          " "                 " "           
+    ## 38  ( 1 ) " "                          " "                 " "           
+    ## 39  ( 1 ) " "                          " "                 " "           
+    ## 40  ( 1 ) " "                          " "                 " "           
+    ## 41  ( 1 ) " "                          " "                 " "           
+    ## 42  ( 1 ) " "                          " "                 " "           
+    ##           CountrySerbia CountrySeychelles CountrySierra Leone CountrySingapore
+    ## 1  ( 1 )  " "           " "               " "                 " "             
+    ## 2  ( 1 )  " "           " "               " "                 " "             
+    ## 3  ( 1 )  " "           " "               " "                 " "             
+    ## 4  ( 1 )  " "           " "               " "                 " "             
+    ## 5  ( 1 )  " "           " "               " "                 " "             
+    ## 6  ( 1 )  " "           " "               " "                 " "             
+    ## 7  ( 1 )  " "           " "               " "                 " "             
+    ## 8  ( 1 )  " "           " "               " "                 " "             
+    ## 9  ( 1 )  " "           " "               " "                 " "             
+    ## 10  ( 1 ) " "           " "               " "                 " "             
+    ## 11  ( 1 ) " "           " "               " "                 " "             
+    ## 12  ( 1 ) " "           " "               " "                 " "             
+    ## 13  ( 1 ) " "           " "               " "                 " "             
+    ## 14  ( 1 ) " "           " "               " "                 " "             
+    ## 15  ( 1 ) " "           " "               " "                 " "             
+    ## 16  ( 1 ) " "           " "               " "                 " "             
+    ## 17  ( 1 ) " "           " "               " "                 " "             
+    ## 18  ( 1 ) " "           " "               " "                 " "             
+    ## 19  ( 1 ) " "           " "               " "                 " "             
+    ## 20  ( 1 ) " "           " "               " "                 " "             
+    ## 21  ( 1 ) " "           " "               " "                 " "             
+    ## 22  ( 1 ) " "           " "               " "                 " "             
+    ## 23  ( 1 ) " "           " "               " "                 " "             
+    ## 24  ( 1 ) " "           " "               " "                 " "             
+    ## 25  ( 1 ) " "           " "               " "                 " "             
+    ## 26  ( 1 ) " "           " "               " "                 " "             
+    ## 27  ( 1 ) " "           " "               " "                 " "             
+    ## 28  ( 1 ) " "           " "               " "                 " "             
+    ## 29  ( 1 ) " "           " "               " "                 " "             
+    ## 30  ( 1 ) " "           " "               " "                 " "             
+    ## 31  ( 1 ) " "           " "               " "                 " "             
+    ## 32  ( 1 ) " "           " "               " "                 " "             
+    ## 33  ( 1 ) " "           " "               " "                 " "             
+    ## 34  ( 1 ) " "           " "               " "                 " "             
+    ## 35  ( 1 ) " "           " "               " "                 " "             
+    ## 36  ( 1 ) " "           " "               " "                 " "             
+    ## 37  ( 1 ) " "           " "               " "                 " "             
+    ## 38  ( 1 ) " "           " "               " "                 " "             
+    ## 39  ( 1 ) " "           " "               " "                 " "             
+    ## 40  ( 1 ) " "           " "               " "                 " "             
+    ## 41  ( 1 ) " "           " "               " "                 " "             
+    ## 42  ( 1 ) " "           " "               " "                 " "             
+    ##           CountrySlovakia CountrySlovenia CountrySolomon Islands CountrySomalia
+    ## 1  ( 1 )  " "             " "             " "                    " "           
+    ## 2  ( 1 )  " "             " "             " "                    " "           
+    ## 3  ( 1 )  " "             " "             " "                    " "           
+    ## 4  ( 1 )  " "             " "             " "                    " "           
+    ## 5  ( 1 )  " "             " "             " "                    " "           
+    ## 6  ( 1 )  " "             " "             " "                    " "           
+    ## 7  ( 1 )  " "             " "             " "                    " "           
+    ## 8  ( 1 )  " "             " "             " "                    " "           
+    ## 9  ( 1 )  " "             " "             " "                    " "           
+    ## 10  ( 1 ) " "             " "             " "                    " "           
+    ## 11  ( 1 ) " "             " "             " "                    " "           
+    ## 12  ( 1 ) " "             " "             " "                    " "           
+    ## 13  ( 1 ) " "             " "             " "                    " "           
+    ## 14  ( 1 ) " "             " "             " "                    " "           
+    ## 15  ( 1 ) " "             " "             " "                    " "           
+    ## 16  ( 1 ) " "             " "             " "                    " "           
+    ## 17  ( 1 ) " "             " "             " "                    " "           
+    ## 18  ( 1 ) " "             " "             " "                    " "           
+    ## 19  ( 1 ) " "             " "             " "                    " "           
+    ## 20  ( 1 ) " "             " "             " "                    " "           
+    ## 21  ( 1 ) " "             " "             " "                    " "           
+    ## 22  ( 1 ) " "             " "             " "                    " "           
+    ## 23  ( 1 ) " "             " "             " "                    " "           
+    ## 24  ( 1 ) " "             " "             " "                    " "           
+    ## 25  ( 1 ) " "             " "             " "                    " "           
+    ## 26  ( 1 ) " "             " "             " "                    " "           
+    ## 27  ( 1 ) " "             " "             " "                    " "           
+    ## 28  ( 1 ) " "             "*"             " "                    " "           
+    ## 29  ( 1 ) " "             "*"             " "                    " "           
+    ## 30  ( 1 ) " "             "*"             " "                    " "           
+    ## 31  ( 1 ) " "             "*"             " "                    " "           
+    ## 32  ( 1 ) " "             "*"             " "                    " "           
+    ## 33  ( 1 ) " "             "*"             " "                    " "           
+    ## 34  ( 1 ) " "             "*"             " "                    " "           
+    ## 35  ( 1 ) " "             "*"             " "                    " "           
+    ## 36  ( 1 ) " "             "*"             " "                    " "           
+    ## 37  ( 1 ) " "             "*"             " "                    " "           
+    ## 38  ( 1 ) " "             "*"             " "                    " "           
+    ## 39  ( 1 ) " "             "*"             " "                    " "           
+    ## 40  ( 1 ) " "             "*"             " "                    " "           
+    ## 41  ( 1 ) " "             "*"             " "                    " "           
+    ## 42  ( 1 ) " "             "*"             " "                    " "           
+    ##           CountrySouth Africa CountrySouth Sudan CountrySpain CountrySri Lanka
+    ## 1  ( 1 )  " "                 " "                " "          " "             
+    ## 2  ( 1 )  " "                 " "                " "          " "             
+    ## 3  ( 1 )  " "                 " "                " "          " "             
+    ## 4  ( 1 )  " "                 " "                " "          " "             
+    ## 5  ( 1 )  " "                 " "                " "          " "             
+    ## 6  ( 1 )  " "                 " "                " "          " "             
+    ## 7  ( 1 )  " "                 " "                " "          " "             
+    ## 8  ( 1 )  " "                 " "                " "          " "             
+    ## 9  ( 1 )  " "                 " "                " "          " "             
+    ## 10  ( 1 ) "*"                 " "                " "          " "             
+    ## 11  ( 1 ) "*"                 " "                " "          " "             
+    ## 12  ( 1 ) "*"                 " "                " "          " "             
+    ## 13  ( 1 ) "*"                 " "                " "          " "             
+    ## 14  ( 1 ) "*"                 " "                " "          " "             
+    ## 15  ( 1 ) "*"                 " "                " "          " "             
+    ## 16  ( 1 ) "*"                 " "                " "          " "             
+    ## 17  ( 1 ) "*"                 " "                " "          " "             
+    ## 18  ( 1 ) "*"                 " "                " "          " "             
+    ## 19  ( 1 ) "*"                 " "                " "          " "             
+    ## 20  ( 1 ) "*"                 " "                " "          " "             
+    ## 21  ( 1 ) "*"                 " "                " "          " "             
+    ## 22  ( 1 ) "*"                 " "                " "          " "             
+    ## 23  ( 1 ) "*"                 " "                " "          " "             
+    ## 24  ( 1 ) "*"                 " "                " "          " "             
+    ## 25  ( 1 ) "*"                 " "                " "          " "             
+    ## 26  ( 1 ) "*"                 " "                "*"          " "             
+    ## 27  ( 1 ) "*"                 " "                "*"          " "             
+    ## 28  ( 1 ) "*"                 " "                "*"          " "             
+    ## 29  ( 1 ) "*"                 " "                "*"          " "             
+    ## 30  ( 1 ) "*"                 " "                "*"          " "             
+    ## 31  ( 1 ) "*"                 " "                "*"          " "             
+    ## 32  ( 1 ) "*"                 " "                "*"          " "             
+    ## 33  ( 1 ) "*"                 " "                "*"          " "             
+    ## 34  ( 1 ) "*"                 " "                "*"          " "             
+    ## 35  ( 1 ) "*"                 " "                "*"          " "             
+    ## 36  ( 1 ) "*"                 " "                "*"          " "             
+    ## 37  ( 1 ) "*"                 " "                "*"          " "             
+    ## 38  ( 1 ) "*"                 " "                "*"          " "             
+    ## 39  ( 1 ) "*"                 " "                "*"          " "             
+    ## 40  ( 1 ) "*"                 " "                "*"          " "             
+    ## 41  ( 1 ) "*"                 " "                "*"          " "             
+    ## 42  ( 1 ) "*"                 " "                "*"          " "             
+    ##           CountrySudan CountrySuriname CountrySwaziland CountrySweden
+    ## 1  ( 1 )  " "          " "             " "              " "          
+    ## 2  ( 1 )  " "          " "             " "              " "          
+    ## 3  ( 1 )  " "          " "             " "              " "          
+    ## 4  ( 1 )  " "          " "             " "              " "          
+    ## 5  ( 1 )  " "          " "             "*"              " "          
+    ## 6  ( 1 )  " "          " "             "*"              " "          
+    ## 7  ( 1 )  " "          " "             "*"              " "          
+    ## 8  ( 1 )  " "          " "             "*"              " "          
+    ## 9  ( 1 )  " "          " "             "*"              " "          
+    ## 10  ( 1 ) " "          " "             "*"              " "          
+    ## 11  ( 1 ) " "          " "             "*"              " "          
+    ## 12  ( 1 ) " "          " "             "*"              " "          
+    ## 13  ( 1 ) " "          " "             "*"              " "          
+    ## 14  ( 1 ) " "          " "             "*"              " "          
+    ## 15  ( 1 ) " "          " "             "*"              " "          
+    ## 16  ( 1 ) " "          " "             "*"              " "          
+    ## 17  ( 1 ) " "          " "             "*"              " "          
+    ## 18  ( 1 ) " "          " "             "*"              " "          
+    ## 19  ( 1 ) " "          " "             "*"              " "          
+    ## 20  ( 1 ) " "          " "             "*"              " "          
+    ## 21  ( 1 ) " "          " "             "*"              " "          
+    ## 22  ( 1 ) " "          " "             "*"              " "          
+    ## 23  ( 1 ) " "          " "             "*"              " "          
+    ## 24  ( 1 ) " "          " "             "*"              " "          
+    ## 25  ( 1 ) " "          " "             "*"              " "          
+    ## 26  ( 1 ) " "          " "             "*"              " "          
+    ## 27  ( 1 ) " "          " "             "*"              " "          
+    ## 28  ( 1 ) " "          " "             "*"              " "          
+    ## 29  ( 1 ) " "          " "             "*"              " "          
+    ## 30  ( 1 ) " "          " "             "*"              " "          
+    ## 31  ( 1 ) " "          " "             "*"              "*"          
+    ## 32  ( 1 ) " "          " "             "*"              "*"          
+    ## 33  ( 1 ) " "          " "             "*"              "*"          
+    ## 34  ( 1 ) " "          " "             "*"              "*"          
+    ## 35  ( 1 ) " "          " "             "*"              "*"          
+    ## 36  ( 1 ) " "          " "             "*"              "*"          
+    ## 37  ( 1 ) " "          " "             "*"              "*"          
+    ## 38  ( 1 ) " "          " "             "*"              "*"          
+    ## 39  ( 1 ) " "          " "             "*"              "*"          
+    ## 40  ( 1 ) " "          " "             "*"              "*"          
+    ## 41  ( 1 ) " "          " "             "*"              "*"          
+    ## 42  ( 1 ) " "          " "             "*"              "*"          
+    ##           CountrySwitzerland CountrySyrian Arab Republic CountryTajikistan
+    ## 1  ( 1 )  " "                " "                         " "              
+    ## 2  ( 1 )  " "                " "                         " "              
+    ## 3  ( 1 )  " "                " "                         " "              
+    ## 4  ( 1 )  " "                " "                         " "              
+    ## 5  ( 1 )  " "                " "                         " "              
+    ## 6  ( 1 )  " "                " "                         " "              
+    ## 7  ( 1 )  " "                " "                         " "              
+    ## 8  ( 1 )  " "                " "                         " "              
+    ## 9  ( 1 )  " "                " "                         " "              
+    ## 10  ( 1 ) " "                " "                         " "              
+    ## 11  ( 1 ) " "                " "                         " "              
+    ## 12  ( 1 ) " "                " "                         " "              
+    ## 13  ( 1 ) " "                " "                         " "              
+    ## 14  ( 1 ) " "                " "                         " "              
+    ## 15  ( 1 ) " "                " "                         " "              
+    ## 16  ( 1 ) " "                " "                         " "              
+    ## 17  ( 1 ) " "                " "                         " "              
+    ## 18  ( 1 ) " "                " "                         " "              
+    ## 19  ( 1 ) " "                " "                         " "              
+    ## 20  ( 1 ) " "                " "                         " "              
+    ## 21  ( 1 ) " "                " "                         " "              
+    ## 22  ( 1 ) " "                " "                         " "              
+    ## 23  ( 1 ) " "                " "                         " "              
+    ## 24  ( 1 ) " "                " "                         " "              
+    ## 25  ( 1 ) " "                " "                         " "              
+    ## 26  ( 1 ) " "                " "                         " "              
+    ## 27  ( 1 ) " "                " "                         " "              
+    ## 28  ( 1 ) " "                " "                         " "              
+    ## 29  ( 1 ) " "                " "                         " "              
+    ## 30  ( 1 ) " "                " "                         " "              
+    ## 31  ( 1 ) " "                " "                         " "              
+    ## 32  ( 1 ) " "                " "                         " "              
+    ## 33  ( 1 ) " "                " "                         " "              
+    ## 34  ( 1 ) " "                " "                         " "              
+    ## 35  ( 1 ) " "                " "                         " "              
+    ## 36  ( 1 ) " "                " "                         " "              
+    ## 37  ( 1 ) "*"                " "                         " "              
+    ## 38  ( 1 ) "*"                " "                         " "              
+    ## 39  ( 1 ) "*"                " "                         " "              
+    ## 40  ( 1 ) "*"                " "                         " "              
+    ## 41  ( 1 ) "*"                " "                         " "              
+    ## 42  ( 1 ) "*"                " "                         " "              
+    ##           CountryThailand CountryThe former Yugoslav republic of Macedonia
+    ## 1  ( 1 )  " "             " "                                             
+    ## 2  ( 1 )  " "             " "                                             
+    ## 3  ( 1 )  " "             " "                                             
+    ## 4  ( 1 )  " "             " "                                             
+    ## 5  ( 1 )  " "             " "                                             
+    ## 6  ( 1 )  " "             " "                                             
+    ## 7  ( 1 )  " "             " "                                             
+    ## 8  ( 1 )  " "             " "                                             
+    ## 9  ( 1 )  " "             " "                                             
+    ## 10  ( 1 ) " "             " "                                             
+    ## 11  ( 1 ) " "             " "                                             
+    ## 12  ( 1 ) " "             " "                                             
+    ## 13  ( 1 ) " "             " "                                             
+    ## 14  ( 1 ) " "             " "                                             
+    ## 15  ( 1 ) " "             " "                                             
+    ## 16  ( 1 ) " "             " "                                             
+    ## 17  ( 1 ) " "             " "                                             
+    ## 18  ( 1 ) " "             " "                                             
+    ## 19  ( 1 ) " "             " "                                             
+    ## 20  ( 1 ) " "             " "                                             
+    ## 21  ( 1 ) " "             " "                                             
+    ## 22  ( 1 ) " "             " "                                             
+    ## 23  ( 1 ) " "             " "                                             
+    ## 24  ( 1 ) " "             " "                                             
+    ## 25  ( 1 ) " "             " "                                             
+    ## 26  ( 1 ) " "             " "                                             
+    ## 27  ( 1 ) " "             " "                                             
+    ## 28  ( 1 ) " "             " "                                             
+    ## 29  ( 1 ) " "             " "                                             
+    ## 30  ( 1 ) " "             " "                                             
+    ## 31  ( 1 ) " "             " "                                             
+    ## 32  ( 1 ) " "             " "                                             
+    ## 33  ( 1 ) " "             " "                                             
+    ## 34  ( 1 ) " "             " "                                             
+    ## 35  ( 1 ) " "             " "                                             
+    ## 36  ( 1 ) " "             " "                                             
+    ## 37  ( 1 ) " "             " "                                             
+    ## 38  ( 1 ) " "             " "                                             
+    ## 39  ( 1 ) " "             " "                                             
+    ## 40  ( 1 ) " "             " "                                             
+    ## 41  ( 1 ) " "             " "                                             
+    ## 42  ( 1 ) " "             " "                                             
+    ##           CountryTimor-Leste CountryTogo CountryTonga
+    ## 1  ( 1 )  " "                " "         " "         
+    ## 2  ( 1 )  " "                " "         " "         
+    ## 3  ( 1 )  " "                " "         " "         
+    ## 4  ( 1 )  " "                " "         " "         
+    ## 5  ( 1 )  " "                " "         " "         
+    ## 6  ( 1 )  " "                " "         " "         
+    ## 7  ( 1 )  " "                " "         " "         
+    ## 8  ( 1 )  " "                " "         " "         
+    ## 9  ( 1 )  " "                " "         " "         
+    ## 10  ( 1 ) " "                " "         " "         
+    ## 11  ( 1 ) " "                " "         " "         
+    ## 12  ( 1 ) " "                " "         " "         
+    ## 13  ( 1 ) " "                " "         " "         
+    ## 14  ( 1 ) " "                " "         " "         
+    ## 15  ( 1 ) " "                " "         " "         
+    ## 16  ( 1 ) " "                " "         " "         
+    ## 17  ( 1 ) " "                " "         " "         
+    ## 18  ( 1 ) " "                " "         " "         
+    ## 19  ( 1 ) " "                " "         " "         
+    ## 20  ( 1 ) " "                " "         " "         
+    ## 21  ( 1 ) " "                " "         " "         
+    ## 22  ( 1 ) " "                " "         " "         
+    ## 23  ( 1 ) " "                " "         " "         
+    ## 24  ( 1 ) " "                " "         " "         
+    ## 25  ( 1 ) " "                " "         " "         
+    ## 26  ( 1 ) " "                " "         " "         
+    ## 27  ( 1 ) " "                " "         " "         
+    ## 28  ( 1 ) " "                " "         " "         
+    ## 29  ( 1 ) " "                " "         " "         
+    ## 30  ( 1 ) " "                " "         " "         
+    ## 31  ( 1 ) " "                " "         " "         
+    ## 32  ( 1 ) " "                " "         " "         
+    ## 33  ( 1 ) " "                " "         " "         
+    ## 34  ( 1 ) " "                " "         " "         
+    ## 35  ( 1 ) " "                " "         " "         
+    ## 36  ( 1 ) " "                " "         " "         
+    ## 37  ( 1 ) " "                " "         " "         
+    ## 38  ( 1 ) " "                " "         " "         
+    ## 39  ( 1 ) " "                " "         " "         
+    ## 40  ( 1 ) " "                " "         " "         
+    ## 41  ( 1 ) " "                " "         " "         
+    ## 42  ( 1 ) " "                " "         " "         
+    ##           CountryTrinidad and Tobago CountryTunisia CountryTurkey
+    ## 1  ( 1 )  " "                        " "            " "          
+    ## 2  ( 1 )  " "                        " "            " "          
+    ## 3  ( 1 )  " "                        " "            " "          
+    ## 4  ( 1 )  " "                        " "            " "          
+    ## 5  ( 1 )  " "                        " "            " "          
+    ## 6  ( 1 )  " "                        " "            " "          
+    ## 7  ( 1 )  " "                        " "            " "          
+    ## 8  ( 1 )  " "                        " "            " "          
+    ## 9  ( 1 )  " "                        " "            " "          
+    ## 10  ( 1 ) " "                        " "            " "          
+    ## 11  ( 1 ) " "                        " "            " "          
+    ## 12  ( 1 ) " "                        " "            " "          
+    ## 13  ( 1 ) " "                        " "            " "          
+    ## 14  ( 1 ) " "                        " "            " "          
+    ## 15  ( 1 ) " "                        " "            " "          
+    ## 16  ( 1 ) " "                        " "            " "          
+    ## 17  ( 1 ) " "                        " "            " "          
+    ## 18  ( 1 ) " "                        " "            " "          
+    ## 19  ( 1 ) " "                        " "            " "          
+    ## 20  ( 1 ) " "                        " "            " "          
+    ## 21  ( 1 ) " "                        " "            " "          
+    ## 22  ( 1 ) " "                        " "            " "          
+    ## 23  ( 1 ) " "                        " "            " "          
+    ## 24  ( 1 ) " "                        " "            " "          
+    ## 25  ( 1 ) " "                        " "            " "          
+    ## 26  ( 1 ) " "                        " "            " "          
+    ## 27  ( 1 ) " "                        " "            " "          
+    ## 28  ( 1 ) " "                        " "            " "          
+    ## 29  ( 1 ) " "                        " "            " "          
+    ## 30  ( 1 ) " "                        " "            " "          
+    ## 31  ( 1 ) " "                        " "            " "          
+    ## 32  ( 1 ) " "                        " "            " "          
+    ## 33  ( 1 ) " "                        " "            " "          
+    ## 34  ( 1 ) " "                        " "            " "          
+    ## 35  ( 1 ) " "                        " "            " "          
+    ## 36  ( 1 ) " "                        " "            " "          
+    ## 37  ( 1 ) " "                        " "            " "          
+    ## 38  ( 1 ) " "                        " "            " "          
+    ## 39  ( 1 ) " "                        " "            " "          
+    ## 40  ( 1 ) " "                        " "            " "          
+    ## 41  ( 1 ) " "                        " "            " "          
+    ## 42  ( 1 ) " "                        " "            " "          
+    ##           CountryTurkmenistan CountryUganda CountryUkraine
+    ## 1  ( 1 )  " "                 " "           " "           
+    ## 2  ( 1 )  " "                 " "           " "           
+    ## 3  ( 1 )  " "                 " "           " "           
+    ## 4  ( 1 )  " "                 " "           " "           
+    ## 5  ( 1 )  " "                 " "           " "           
+    ## 6  ( 1 )  " "                 " "           " "           
+    ## 7  ( 1 )  " "                 " "           " "           
+    ## 8  ( 1 )  " "                 " "           " "           
+    ## 9  ( 1 )  " "                 " "           " "           
+    ## 10  ( 1 ) " "                 " "           " "           
+    ## 11  ( 1 ) " "                 " "           " "           
+    ## 12  ( 1 ) " "                 "*"           " "           
+    ## 13  ( 1 ) " "                 "*"           "*"           
+    ## 14  ( 1 ) " "                 "*"           "*"           
+    ## 15  ( 1 ) " "                 "*"           "*"           
+    ## 16  ( 1 ) " "                 "*"           "*"           
+    ## 17  ( 1 ) " "                 "*"           "*"           
+    ## 18  ( 1 ) " "                 "*"           "*"           
+    ## 19  ( 1 ) " "                 "*"           "*"           
+    ## 20  ( 1 ) " "                 "*"           "*"           
+    ## 21  ( 1 ) " "                 "*"           "*"           
+    ## 22  ( 1 ) " "                 "*"           "*"           
+    ## 23  ( 1 ) " "                 "*"           "*"           
+    ## 24  ( 1 ) " "                 "*"           "*"           
+    ## 25  ( 1 ) " "                 "*"           "*"           
+    ## 26  ( 1 ) " "                 "*"           "*"           
+    ## 27  ( 1 ) " "                 "*"           "*"           
+    ## 28  ( 1 ) " "                 "*"           "*"           
+    ## 29  ( 1 ) " "                 "*"           "*"           
+    ## 30  ( 1 ) " "                 "*"           "*"           
+    ## 31  ( 1 ) " "                 "*"           "*"           
+    ## 32  ( 1 ) " "                 "*"           "*"           
+    ## 33  ( 1 ) " "                 "*"           "*"           
+    ## 34  ( 1 ) " "                 "*"           "*"           
+    ## 35  ( 1 ) " "                 "*"           "*"           
+    ## 36  ( 1 ) " "                 "*"           "*"           
+    ## 37  ( 1 ) " "                 "*"           "*"           
+    ## 38  ( 1 ) " "                 "*"           "*"           
+    ## 39  ( 1 ) " "                 "*"           "*"           
+    ## 40  ( 1 ) " "                 "*"           "*"           
+    ## 41  ( 1 ) " "                 "*"           "*"           
+    ## 42  ( 1 ) " "                 "*"           "*"           
+    ##           CountryUnited Arab Emirates
+    ## 1  ( 1 )  " "                        
+    ## 2  ( 1 )  " "                        
+    ## 3  ( 1 )  " "                        
+    ## 4  ( 1 )  " "                        
+    ## 5  ( 1 )  " "                        
+    ## 6  ( 1 )  " "                        
+    ## 7  ( 1 )  " "                        
+    ## 8  ( 1 )  " "                        
+    ## 9  ( 1 )  " "                        
+    ## 10  ( 1 ) " "                        
+    ## 11  ( 1 ) " "                        
+    ## 12  ( 1 ) " "                        
+    ## 13  ( 1 ) " "                        
+    ## 14  ( 1 ) " "                        
+    ## 15  ( 1 ) " "                        
+    ## 16  ( 1 ) " "                        
+    ## 17  ( 1 ) " "                        
+    ## 18  ( 1 ) " "                        
+    ## 19  ( 1 ) " "                        
+    ## 20  ( 1 ) " "                        
+    ## 21  ( 1 ) " "                        
+    ## 22  ( 1 ) " "                        
+    ## 23  ( 1 ) " "                        
+    ## 24  ( 1 ) " "                        
+    ## 25  ( 1 ) " "                        
+    ## 26  ( 1 ) " "                        
+    ## 27  ( 1 ) " "                        
+    ## 28  ( 1 ) " "                        
+    ## 29  ( 1 ) " "                        
+    ## 30  ( 1 ) " "                        
+    ## 31  ( 1 ) " "                        
+    ## 32  ( 1 ) " "                        
+    ## 33  ( 1 ) " "                        
+    ## 34  ( 1 ) " "                        
+    ## 35  ( 1 ) " "                        
+    ## 36  ( 1 ) " "                        
+    ## 37  ( 1 ) " "                        
+    ## 38  ( 1 ) " "                        
+    ## 39  ( 1 ) " "                        
+    ## 40  ( 1 ) " "                        
+    ## 41  ( 1 ) " "                        
+    ## 42  ( 1 ) " "                        
+    ##           CountryUnited Kingdom of Great Britain and Northern Ireland
+    ## 1  ( 1 )  " "                                                        
+    ## 2  ( 1 )  " "                                                        
+    ## 3  ( 1 )  " "                                                        
+    ## 4  ( 1 )  " "                                                        
+    ## 5  ( 1 )  " "                                                        
+    ## 6  ( 1 )  " "                                                        
+    ## 7  ( 1 )  " "                                                        
+    ## 8  ( 1 )  " "                                                        
+    ## 9  ( 1 )  " "                                                        
+    ## 10  ( 1 ) " "                                                        
+    ## 11  ( 1 ) " "                                                        
+    ## 12  ( 1 ) " "                                                        
+    ## 13  ( 1 ) " "                                                        
+    ## 14  ( 1 ) " "                                                        
+    ## 15  ( 1 ) " "                                                        
+    ## 16  ( 1 ) " "                                                        
+    ## 17  ( 1 ) " "                                                        
+    ## 18  ( 1 ) " "                                                        
+    ## 19  ( 1 ) " "                                                        
+    ## 20  ( 1 ) " "                                                        
+    ## 21  ( 1 ) " "                                                        
+    ## 22  ( 1 ) " "                                                        
+    ## 23  ( 1 ) " "                                                        
+    ## 24  ( 1 ) " "                                                        
+    ## 25  ( 1 ) " "                                                        
+    ## 26  ( 1 ) " "                                                        
+    ## 27  ( 1 ) " "                                                        
+    ## 28  ( 1 ) " "                                                        
+    ## 29  ( 1 ) " "                                                        
+    ## 30  ( 1 ) " "                                                        
+    ## 31  ( 1 ) " "                                                        
+    ## 32  ( 1 ) " "                                                        
+    ## 33  ( 1 ) " "                                                        
+    ## 34  ( 1 ) " "                                                        
+    ## 35  ( 1 ) " "                                                        
+    ## 36  ( 1 ) " "                                                        
+    ## 37  ( 1 ) " "                                                        
+    ## 38  ( 1 ) " "                                                        
+    ## 39  ( 1 ) " "                                                        
+    ## 40  ( 1 ) " "                                                        
+    ## 41  ( 1 ) " "                                                        
+    ## 42  ( 1 ) " "                                                        
+    ##           CountryUnited Republic of Tanzania CountryUnited States of America
+    ## 1  ( 1 )  " "                                " "                            
+    ## 2  ( 1 )  " "                                " "                            
+    ## 3  ( 1 )  " "                                " "                            
+    ## 4  ( 1 )  " "                                " "                            
+    ## 5  ( 1 )  " "                                " "                            
+    ## 6  ( 1 )  " "                                " "                            
+    ## 7  ( 1 )  " "                                " "                            
+    ## 8  ( 1 )  " "                                " "                            
+    ## 9  ( 1 )  " "                                " "                            
+    ## 10  ( 1 ) " "                                " "                            
+    ## 11  ( 1 ) " "                                " "                            
+    ## 12  ( 1 ) " "                                " "                            
+    ## 13  ( 1 ) " "                                " "                            
+    ## 14  ( 1 ) " "                                " "                            
+    ## 15  ( 1 ) " "                                " "                            
+    ## 16  ( 1 ) " "                                " "                            
+    ## 17  ( 1 ) " "                                " "                            
+    ## 18  ( 1 ) " "                                " "                            
+    ## 19  ( 1 ) " "                                " "                            
+    ## 20  ( 1 ) " "                                " "                            
+    ## 21  ( 1 ) " "                                " "                            
+    ## 22  ( 1 ) " "                                " "                            
+    ## 23  ( 1 ) " "                                " "                            
+    ## 24  ( 1 ) " "                                " "                            
+    ## 25  ( 1 ) " "                                " "                            
+    ## 26  ( 1 ) " "                                " "                            
+    ## 27  ( 1 ) " "                                " "                            
+    ## 28  ( 1 ) " "                                " "                            
+    ## 29  ( 1 ) " "                                " "                            
+    ## 30  ( 1 ) " "                                " "                            
+    ## 31  ( 1 ) " "                                " "                            
+    ## 32  ( 1 ) " "                                " "                            
+    ## 33  ( 1 ) " "                                " "                            
+    ## 34  ( 1 ) " "                                " "                            
+    ## 35  ( 1 ) " "                                " "                            
+    ## 36  ( 1 ) " "                                " "                            
+    ## 37  ( 1 ) " "                                " "                            
+    ## 38  ( 1 ) " "                                " "                            
+    ## 39  ( 1 ) " "                                " "                            
+    ## 40  ( 1 ) " "                                " "                            
+    ## 41  ( 1 ) " "                                " "                            
+    ## 42  ( 1 ) " "                                " "                            
+    ##           CountryUruguay CountryUzbekistan CountryVanuatu CountryVenezuela
+    ## 1  ( 1 )  " "            " "               " "            " "             
+    ## 2  ( 1 )  " "            " "               " "            " "             
+    ## 3  ( 1 )  " "            " "               " "            " "             
+    ## 4  ( 1 )  " "            " "               " "            " "             
+    ## 5  ( 1 )  " "            " "               " "            " "             
+    ## 6  ( 1 )  " "            " "               " "            " "             
+    ## 7  ( 1 )  " "            " "               " "            " "             
+    ## 8  ( 1 )  " "            " "               " "            " "             
+    ## 9  ( 1 )  " "            " "               " "            " "             
+    ## 10  ( 1 ) " "            " "               " "            " "             
+    ## 11  ( 1 ) " "            " "               " "            " "             
+    ## 12  ( 1 ) " "            " "               " "            " "             
+    ## 13  ( 1 ) " "            " "               " "            " "             
+    ## 14  ( 1 ) " "            " "               " "            " "             
+    ## 15  ( 1 ) " "            " "               " "            " "             
+    ## 16  ( 1 ) " "            " "               " "            " "             
+    ## 17  ( 1 ) " "            " "               " "            " "             
+    ## 18  ( 1 ) " "            " "               " "            " "             
+    ## 19  ( 1 ) " "            " "               " "            " "             
+    ## 20  ( 1 ) " "            " "               " "            " "             
+    ## 21  ( 1 ) " "            " "               " "            " "             
+    ## 22  ( 1 ) " "            " "               " "            " "             
+    ## 23  ( 1 ) " "            " "               " "            " "             
+    ## 24  ( 1 ) " "            " "               " "            " "             
+    ## 25  ( 1 ) " "            " "               " "            " "             
+    ## 26  ( 1 ) " "            " "               " "            " "             
+    ## 27  ( 1 ) " "            " "               " "            " "             
+    ## 28  ( 1 ) " "            " "               " "            " "             
+    ## 29  ( 1 ) " "            " "               " "            " "             
+    ## 30  ( 1 ) " "            " "               " "            " "             
+    ## 31  ( 1 ) " "            " "               " "            " "             
+    ## 32  ( 1 ) " "            " "               " "            " "             
+    ## 33  ( 1 ) " "            " "               " "            " "             
+    ## 34  ( 1 ) " "            " "               " "            " "             
+    ## 35  ( 1 ) " "            " "               " "            " "             
+    ## 36  ( 1 ) " "            " "               " "            " "             
+    ## 37  ( 1 ) " "            " "               " "            " "             
+    ## 38  ( 1 ) " "            " "               " "            " "             
+    ## 39  ( 1 ) " "            " "               " "            " "             
+    ## 40  ( 1 ) " "            " "               " "            " "             
+    ## 41  ( 1 ) " "            " "               " "            " "             
+    ## 42  ( 1 ) " "            " "               " "            " "             
+    ##           CountryViet Nam CountryYemen CountryZambia CountryZimbabwe Year
+    ## 1  ( 1 )  " "             " "          " "           " "             " " 
+    ## 2  ( 1 )  " "             " "          " "           " "             " " 
+    ## 3  ( 1 )  " "             " "          " "           "*"             " " 
+    ## 4  ( 1 )  " "             " "          " "           "*"             " " 
+    ## 5  ( 1 )  " "             " "          " "           "*"             " " 
+    ## 6  ( 1 )  " "             " "          " "           "*"             " " 
+    ## 7  ( 1 )  " "             " "          " "           "*"             " " 
+    ## 8  ( 1 )  " "             " "          " "           "*"             " " 
+    ## 9  ( 1 )  " "             " "          "*"           "*"             " " 
+    ## 10  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 11  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 12  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 13  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 14  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 15  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 16  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 17  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 18  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 19  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 20  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 21  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 22  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 23  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 24  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 25  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 26  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 27  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 28  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 29  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 30  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 31  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 32  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 33  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 34  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 35  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 36  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 37  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 38  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 39  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 40  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 41  ( 1 ) " "             " "          "*"           "*"             " " 
+    ## 42  ( 1 ) " "             " "          "*"           "*"             " " 
+    ##           StatusDeveloping Adult.Mortality infant.deaths Alcohol Hepatitis.B
+    ## 1  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 2  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 3  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 4  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 5  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 6  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 7  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 8  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 9  ( 1 )  " "              "*"             " "           " "     " "        
+    ## 10  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 11  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 12  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 13  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 14  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 15  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 16  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 17  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 18  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 19  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 20  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 21  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 22  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 23  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 24  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 25  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 26  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 27  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 28  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 29  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 30  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 31  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 32  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 33  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 34  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 35  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 36  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 37  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 38  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 39  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 40  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 41  ( 1 ) " "              "*"             " "           " "     " "        
+    ## 42  ( 1 ) " "              "*"             " "           " "     " "        
+    ##           Measles BMI under.five.deaths Polio Total.expenditure Diphtheria
+    ## 1  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 2  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 3  ( 1 )  " "     " " " "               " "   " "               " "       
+    ## 4  ( 1 )  " "     " " "*"               " "   " "               " "       
+    ## 5  ( 1 )  " "     " " "*"               " "   " "               " "       
+    ## 6  ( 1 )  " "     " " "*"               " "   " "               " "       
+    ## 7  ( 1 )  " "     " " "*"               " "   " "               " "       
+    ## 8  ( 1 )  " "     " " "*"               " "   " "               " "       
+    ## 9  ( 1 )  " "     " " "*"               " "   " "               " "       
+    ## 10  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 11  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 12  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 13  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 14  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 15  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 16  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 17  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 18  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 19  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 20  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 21  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 22  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 23  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 24  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 25  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 26  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 27  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 28  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 29  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 30  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 31  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 32  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 33  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 34  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 35  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 36  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 37  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 38  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 39  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 40  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 41  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ## 42  ( 1 ) " "     " " "*"               " "   " "               " "       
+    ##           Population thinness..1.19.years thinness.5.9.years
+    ## 1  ( 1 )  " "        " "                  " "               
+    ## 2  ( 1 )  " "        " "                  " "               
+    ## 3  ( 1 )  " "        " "                  " "               
+    ## 4  ( 1 )  " "        " "                  " "               
+    ## 5  ( 1 )  " "        " "                  " "               
+    ## 6  ( 1 )  " "        " "                  " "               
+    ## 7  ( 1 )  " "        " "                  " "               
+    ## 8  ( 1 )  " "        " "                  " "               
+    ## 9  ( 1 )  " "        " "                  " "               
+    ## 10  ( 1 ) " "        " "                  " "               
+    ## 11  ( 1 ) " "        " "                  " "               
+    ## 12  ( 1 ) " "        " "                  " "               
+    ## 13  ( 1 ) " "        " "                  " "               
+    ## 14  ( 1 ) " "        " "                  " "               
+    ## 15  ( 1 ) " "        " "                  " "               
+    ## 16  ( 1 ) " "        " "                  " "               
+    ## 17  ( 1 ) " "        " "                  " "               
+    ## 18  ( 1 ) " "        " "                  " "               
+    ## 19  ( 1 ) " "        " "                  " "               
+    ## 20  ( 1 ) " "        " "                  " "               
+    ## 21  ( 1 ) " "        " "                  " "               
+    ## 22  ( 1 ) " "        " "                  " "               
+    ## 23  ( 1 ) " "        " "                  " "               
+    ## 24  ( 1 ) " "        " "                  " "               
+    ## 25  ( 1 ) " "        " "                  " "               
+    ## 26  ( 1 ) " "        " "                  " "               
+    ## 27  ( 1 ) " "        " "                  " "               
+    ## 28  ( 1 ) " "        " "                  " "               
+    ## 29  ( 1 ) " "        " "                  " "               
+    ## 30  ( 1 ) " "        " "                  " "               
+    ## 31  ( 1 ) " "        " "                  " "               
+    ## 32  ( 1 ) " "        " "                  " "               
+    ## 33  ( 1 ) " "        " "                  " "               
+    ## 34  ( 1 ) " "        " "                  " "               
+    ## 35  ( 1 ) " "        " "                  " "               
+    ## 36  ( 1 ) " "        " "                  " "               
+    ## 37  ( 1 ) " "        " "                  " "               
+    ## 38  ( 1 ) " "        " "                  " "               
+    ## 39  ( 1 ) " "        " "                  " "               
+    ## 40  ( 1 ) " "        " "                  " "               
+    ## 41  ( 1 ) " "        " "                  " "               
+    ## 42  ( 1 ) " "        " "                  " "               
+    ##           Income.composition.of.resources Schooling
+    ## 1  ( 1 )  " "                             " "      
+    ## 2  ( 1 )  " "                             " "      
+    ## 3  ( 1 )  " "                             " "      
+    ## 4  ( 1 )  " "                             " "      
+    ## 5  ( 1 )  " "                             " "      
+    ## 6  ( 1 )  " "                             " "      
+    ## 7  ( 1 )  " "                             " "      
+    ## 8  ( 1 )  " "                             " "      
+    ## 9  ( 1 )  " "                             " "      
+    ## 10  ( 1 ) " "                             " "      
+    ## 11  ( 1 ) " "                             " "      
+    ## 12  ( 1 ) " "                             " "      
+    ## 13  ( 1 ) " "                             " "      
+    ## 14  ( 1 ) " "                             " "      
+    ## 15  ( 1 ) " "                             " "      
+    ## 16  ( 1 ) " "                             " "      
+    ## 17  ( 1 ) " "                             " "      
+    ## 18  ( 1 ) " "                             " "      
+    ## 19  ( 1 ) " "                             " "      
+    ## 20  ( 1 ) " "                             " "      
+    ## 21  ( 1 ) " "                             " "      
+    ## 22  ( 1 ) " "                             " "      
+    ## 23  ( 1 ) " "                             " "      
+    ## 24  ( 1 ) " "                             " "      
+    ## 25  ( 1 ) " "                             " "      
+    ## 26  ( 1 ) " "                             " "      
+    ## 27  ( 1 ) " "                             " "      
+    ## 28  ( 1 ) " "                             " "      
+    ## 29  ( 1 ) " "                             " "      
+    ## 30  ( 1 ) " "                             " "      
+    ## 31  ( 1 ) " "                             " "      
+    ## 32  ( 1 ) " "                             " "      
+    ## 33  ( 1 ) " "                             " "      
+    ## 34  ( 1 ) " "                             " "      
+    ## 35  ( 1 ) " "                             " "      
+    ## 36  ( 1 ) " "                             " "      
+    ## 37  ( 1 ) " "                             " "      
+    ## 38  ( 1 ) " "                             " "      
+    ## 39  ( 1 ) " "                             " "      
+    ## 40  ( 1 ) " "                             " "      
+    ## 41  ( 1 ) " "                             " "      
+    ## 42  ( 1 ) " "                             " "      
+    ##           RegionAustralia and New Zealand RegionCanada RegionCaribbean
+    ## 1  ( 1 )  " "                             " "          " "            
+    ## 2  ( 1 )  " "                             " "          " "            
+    ## 3  ( 1 )  " "                             " "          " "            
+    ## 4  ( 1 )  " "                             " "          " "            
+    ## 5  ( 1 )  " "                             " "          " "            
+    ## 6  ( 1 )  " "                             " "          " "            
+    ## 7  ( 1 )  " "                             " "          " "            
+    ## 8  ( 1 )  " "                             " "          " "            
+    ## 9  ( 1 )  " "                             " "          " "            
+    ## 10  ( 1 ) " "                             " "          " "            
+    ## 11  ( 1 ) " "                             " "          " "            
+    ## 12  ( 1 ) " "                             " "          " "            
+    ## 13  ( 1 ) " "                             " "          " "            
+    ## 14  ( 1 ) " "                             " "          " "            
+    ## 15  ( 1 ) " "                             " "          " "            
+    ## 16  ( 1 ) " "                             " "          " "            
+    ## 17  ( 1 ) " "                             " "          " "            
+    ## 18  ( 1 ) " "                             " "          " "            
+    ## 19  ( 1 ) " "                             " "          " "            
+    ## 20  ( 1 ) " "                             " "          " "            
+    ## 21  ( 1 ) " "                             " "          " "            
+    ## 22  ( 1 ) " "                             " "          " "            
+    ## 23  ( 1 ) " "                             " "          " "            
+    ## 24  ( 1 ) " "                             " "          " "            
+    ## 25  ( 1 ) " "                             " "          " "            
+    ## 26  ( 1 ) " "                             " "          " "            
+    ## 27  ( 1 ) " "                             " "          " "            
+    ## 28  ( 1 ) " "                             " "          " "            
+    ## 29  ( 1 ) " "                             " "          " "            
+    ## 30  ( 1 ) " "                             " "          " "            
+    ## 31  ( 1 ) " "                             " "          " "            
+    ## 32  ( 1 ) " "                             " "          " "            
+    ## 33  ( 1 ) " "                             " "          " "            
+    ## 34  ( 1 ) " "                             " "          " "            
+    ## 35  ( 1 ) " "                             " "          " "            
+    ## 36  ( 1 ) " "                             " "          " "            
+    ## 37  ( 1 ) " "                             " "          " "            
+    ## 38  ( 1 ) " "                             " "          " "            
+    ## 39  ( 1 ) " "                             " "          " "            
+    ## 40  ( 1 ) " "                             " "          " "            
+    ## 41  ( 1 ) " "                             " "          " "            
+    ## 42  ( 1 ) " "                             " "          " "            
+    ##           RegionCentral Africa RegionCentral Asia RegionCentral Europe
+    ## 1  ( 1 )  " "                  " "                " "                 
+    ## 2  ( 1 )  " "                  " "                " "                 
+    ## 3  ( 1 )  " "                  " "                " "                 
+    ## 4  ( 1 )  " "                  " "                " "                 
+    ## 5  ( 1 )  " "                  " "                " "                 
+    ## 6  ( 1 )  " "                  " "                " "                 
+    ## 7  ( 1 )  " "                  " "                " "                 
+    ## 8  ( 1 )  " "                  " "                " "                 
+    ## 9  ( 1 )  " "                  " "                " "                 
+    ## 10  ( 1 ) " "                  " "                " "                 
+    ## 11  ( 1 ) " "                  " "                " "                 
+    ## 12  ( 1 ) " "                  " "                " "                 
+    ## 13  ( 1 ) " "                  " "                " "                 
+    ## 14  ( 1 ) " "                  " "                " "                 
+    ## 15  ( 1 ) " "                  " "                " "                 
+    ## 16  ( 1 ) " "                  " "                " "                 
+    ## 17  ( 1 ) " "                  " "                " "                 
+    ## 18  ( 1 ) " "                  " "                " "                 
+    ## 19  ( 1 ) " "                  " "                " "                 
+    ## 20  ( 1 ) " "                  " "                " "                 
+    ## 21  ( 1 ) " "                  " "                " "                 
+    ## 22  ( 1 ) " "                  " "                " "                 
+    ## 23  ( 1 ) " "                  " "                " "                 
+    ## 24  ( 1 ) " "                  " "                " "                 
+    ## 25  ( 1 ) " "                  " "                " "                 
+    ## 26  ( 1 ) " "                  " "                " "                 
+    ## 27  ( 1 ) " "                  " "                " "                 
+    ## 28  ( 1 ) " "                  " "                " "                 
+    ## 29  ( 1 ) " "                  " "                " "                 
+    ## 30  ( 1 ) " "                  " "                " "                 
+    ## 31  ( 1 ) " "                  " "                " "                 
+    ## 32  ( 1 ) " "                  " "                " "                 
+    ## 33  ( 1 ) " "                  " "                " "                 
+    ## 34  ( 1 ) " "                  " "                " "                 
+    ## 35  ( 1 ) " "                  " "                " "                 
+    ## 36  ( 1 ) " "                  " "                " "                 
+    ## 37  ( 1 ) " "                  " "                " "                 
+    ## 38  ( 1 ) " "                  " "                " "                 
+    ## 39  ( 1 ) " "                  " "                " "                 
+    ## 40  ( 1 ) " "                  " "                " "                 
+    ## 41  ( 1 ) " "                  " "                " "                 
+    ## 42  ( 1 ) " "                  " "                " "                 
+    ##           RegionEastern Africa RegionEastern Europe RegionMashriq
+    ## 1  ( 1 )  " "                  " "                  " "          
+    ## 2  ( 1 )  " "                  " "                  " "          
+    ## 3  ( 1 )  " "                  " "                  " "          
+    ## 4  ( 1 )  " "                  " "                  " "          
+    ## 5  ( 1 )  " "                  " "                  " "          
+    ## 6  ( 1 )  " "                  " "                  " "          
+    ## 7  ( 1 )  " "                  " "                  " "          
+    ## 8  ( 1 )  " "                  " "                  " "          
+    ## 9  ( 1 )  " "                  " "                  " "          
+    ## 10  ( 1 ) " "                  " "                  " "          
+    ## 11  ( 1 ) " "                  " "                  " "          
+    ## 12  ( 1 ) " "                  " "                  " "          
+    ## 13  ( 1 ) " "                  " "                  " "          
+    ## 14  ( 1 ) " "                  " "                  " "          
+    ## 15  ( 1 ) " "                  " "                  " "          
+    ## 16  ( 1 ) " "                  " "                  " "          
+    ## 17  ( 1 ) " "                  " "                  " "          
+    ## 18  ( 1 ) " "                  " "                  " "          
+    ## 19  ( 1 ) " "                  " "                  " "          
+    ## 20  ( 1 ) " "                  " "                  " "          
+    ## 21  ( 1 ) " "                  " "                  " "          
+    ## 22  ( 1 ) " "                  " "                  " "          
+    ## 23  ( 1 ) " "                  " "                  " "          
+    ## 24  ( 1 ) " "                  " "                  " "          
+    ## 25  ( 1 ) " "                  " "                  " "          
+    ## 26  ( 1 ) " "                  " "                  " "          
+    ## 27  ( 1 ) " "                  " "                  " "          
+    ## 28  ( 1 ) " "                  " "                  " "          
+    ## 29  ( 1 ) " "                  " "                  " "          
+    ## 30  ( 1 ) " "                  " "                  " "          
+    ## 31  ( 1 ) " "                  " "                  " "          
+    ## 32  ( 1 ) " "                  " "                  " "          
+    ## 33  ( 1 ) " "                  " "                  " "          
+    ## 34  ( 1 ) " "                  " "                  " "          
+    ## 35  ( 1 ) " "                  " "                  " "          
+    ## 36  ( 1 ) " "                  " "                  " "          
+    ## 37  ( 1 ) " "                  " "                  " "          
+    ## 38  ( 1 ) " "                  " "                  " "          
+    ## 39  ( 1 ) " "                  " "                  " "          
+    ## 40  ( 1 ) " "                  " "                  " "          
+    ## 41  ( 1 ) " "                  " "                  " "          
+    ## 42  ( 1 ) " "                  " "                  " "          
     ##           RegionMeso-America RegionNorth Africa RegionNW Pacific and East Asia
     ## 1  ( 1 )  " "                " "                " "                           
     ## 2  ( 1 )  " "                " "                " "                           
@@ -2487,14 +9187,26 @@ summary(mlr.fwd.final)
     ## 20  ( 1 ) " "                " "                " "                           
     ## 21  ( 1 ) " "                " "                " "                           
     ## 22  ( 1 ) " "                " "                " "                           
-    ## 23  ( 1 ) " "                "*"                " "                           
-    ## 24  ( 1 ) " "                "*"                " "                           
-    ## 25  ( 1 ) " "                "*"                " "                           
-    ## 26  ( 1 ) " "                "*"                " "                           
-    ## 27  ( 1 ) " "                "*"                " "                           
-    ## 28  ( 1 ) " "                "*"                " "                           
-    ## 29  ( 1 ) " "                "*"                " "                           
-    ## 30  ( 1 ) " "                "*"                " "                           
+    ## 23  ( 1 ) " "                " "                " "                           
+    ## 24  ( 1 ) " "                " "                " "                           
+    ## 25  ( 1 ) " "                " "                " "                           
+    ## 26  ( 1 ) " "                " "                " "                           
+    ## 27  ( 1 ) " "                " "                " "                           
+    ## 28  ( 1 ) " "                " "                " "                           
+    ## 29  ( 1 ) " "                " "                " "                           
+    ## 30  ( 1 ) " "                " "                " "                           
+    ## 31  ( 1 ) " "                " "                " "                           
+    ## 32  ( 1 ) " "                " "                " "                           
+    ## 33  ( 1 ) " "                " "                " "                           
+    ## 34  ( 1 ) " "                " "                " "                           
+    ## 35  ( 1 ) " "                " "                " "                           
+    ## 36  ( 1 ) " "                " "                " "                           
+    ## 37  ( 1 ) " "                " "                " "                           
+    ## 38  ( 1 ) " "                " "                " "                           
+    ## 39  ( 1 ) " "                " "                " "                           
+    ## 40  ( 1 ) " "                " "                " "                           
+    ## 41  ( 1 ) " "                " "                " "                           
+    ## 42  ( 1 ) " "                " "                " "                           
     ##           RegionSouth America RegionSouth Asia RegionSouth Pacific
     ## 1  ( 1 )  " "                 " "              " "                
     ## 2  ( 1 )  " "                 " "              " "                
@@ -2509,23 +9221,35 @@ summary(mlr.fwd.final)
     ## 11  ( 1 ) " "                 " "              " "                
     ## 12  ( 1 ) " "                 " "              " "                
     ## 13  ( 1 ) " "                 " "              " "                
-    ## 14  ( 1 ) "*"                 " "              " "                
-    ## 15  ( 1 ) "*"                 " "              " "                
-    ## 16  ( 1 ) "*"                 " "              " "                
-    ## 17  ( 1 ) "*"                 " "              " "                
-    ## 18  ( 1 ) "*"                 " "              " "                
-    ## 19  ( 1 ) "*"                 " "              " "                
-    ## 20  ( 1 ) "*"                 " "              " "                
-    ## 21  ( 1 ) "*"                 " "              " "                
-    ## 22  ( 1 ) "*"                 " "              " "                
-    ## 23  ( 1 ) "*"                 " "              " "                
-    ## 24  ( 1 ) "*"                 " "              " "                
-    ## 25  ( 1 ) "*"                 " "              " "                
-    ## 26  ( 1 ) "*"                 " "              " "                
-    ## 27  ( 1 ) "*"                 " "              " "                
-    ## 28  ( 1 ) "*"                 " "              " "                
-    ## 29  ( 1 ) "*"                 " "              " "                
-    ## 30  ( 1 ) "*"                 " "              " "                
+    ## 14  ( 1 ) " "                 " "              " "                
+    ## 15  ( 1 ) " "                 " "              " "                
+    ## 16  ( 1 ) " "                 " "              " "                
+    ## 17  ( 1 ) " "                 " "              " "                
+    ## 18  ( 1 ) " "                 " "              " "                
+    ## 19  ( 1 ) " "                 " "              " "                
+    ## 20  ( 1 ) " "                 " "              " "                
+    ## 21  ( 1 ) " "                 " "              " "                
+    ## 22  ( 1 ) " "                 " "              " "                
+    ## 23  ( 1 ) " "                 " "              " "                
+    ## 24  ( 1 ) " "                 " "              " "                
+    ## 25  ( 1 ) " "                 " "              " "                
+    ## 26  ( 1 ) " "                 " "              " "                
+    ## 27  ( 1 ) " "                 " "              " "                
+    ## 28  ( 1 ) " "                 " "              " "                
+    ## 29  ( 1 ) " "                 " "              " "                
+    ## 30  ( 1 ) " "                 " "              " "                
+    ## 31  ( 1 ) " "                 " "              " "                
+    ## 32  ( 1 ) " "                 " "              " "                
+    ## 33  ( 1 ) " "                 " "              " "                
+    ## 34  ( 1 ) " "                 " "              " "                
+    ## 35  ( 1 ) " "                 " "              " "                
+    ## 36  ( 1 ) " "                 " "              " "                
+    ## 37  ( 1 ) " "                 " "              " "                
+    ## 38  ( 1 ) " "                 " "              " "                
+    ## 39  ( 1 ) " "                 " "              " "                
+    ## 40  ( 1 ) " "                 " "              " "                
+    ## 41  ( 1 ) " "                 " "              " "                
+    ## 42  ( 1 ) " "                 " "              " "                
     ##           RegionSoutheast Asia RegionSouthern Africa RegionUS
     ## 1  ( 1 )  " "                  " "                   " "     
     ## 2  ( 1 )  " "                  " "                   " "     
@@ -2548,108 +9272,113 @@ summary(mlr.fwd.final)
     ## 19  ( 1 ) " "                  " "                   " "     
     ## 20  ( 1 ) " "                  " "                   " "     
     ## 21  ( 1 ) " "                  " "                   " "     
-    ## 22  ( 1 ) " "                  "*"                   " "     
-    ## 23  ( 1 ) " "                  "*"                   " "     
-    ## 24  ( 1 ) " "                  "*"                   " "     
-    ## 25  ( 1 ) " "                  "*"                   " "     
-    ## 26  ( 1 ) " "                  "*"                   " "     
-    ## 27  ( 1 ) " "                  "*"                   "*"     
-    ## 28  ( 1 ) " "                  "*"                   "*"     
-    ## 29  ( 1 ) " "                  "*"                   "*"     
-    ## 30  ( 1 ) " "                  "*"                   "*"     
+    ## 22  ( 1 ) " "                  " "                   " "     
+    ## 23  ( 1 ) " "                  " "                   " "     
+    ## 24  ( 1 ) " "                  " "                   " "     
+    ## 25  ( 1 ) " "                  " "                   " "     
+    ## 26  ( 1 ) " "                  " "                   " "     
+    ## 27  ( 1 ) " "                  " "                   " "     
+    ## 28  ( 1 ) " "                  " "                   " "     
+    ## 29  ( 1 ) " "                  " "                   " "     
+    ## 30  ( 1 ) " "                  " "                   " "     
+    ## 31  ( 1 ) " "                  " "                   " "     
+    ## 32  ( 1 ) " "                  " "                   " "     
+    ## 33  ( 1 ) " "                  " "                   " "     
+    ## 34  ( 1 ) " "                  " "                   " "     
+    ## 35  ( 1 ) " "                  " "                   " "     
+    ## 36  ( 1 ) " "                  " "                   " "     
+    ## 37  ( 1 ) " "                  " "                   " "     
+    ## 38  ( 1 ) " "                  " "                   " "     
+    ## 39  ( 1 ) " "                  " "                   " "     
+    ## 40  ( 1 ) " "                  " "                   " "     
+    ## 41  ( 1 ) " "                  " "                   " "     
+    ## 42  ( 1 ) " "                  " "                   " "     
     ##           RegionWestern Africa RegionWestern Europe RegionWestern Indian Ocean
     ## 1  ( 1 )  " "                  " "                  " "                       
     ## 2  ( 1 )  " "                  " "                  " "                       
     ## 3  ( 1 )  " "                  " "                  " "                       
-    ## 4  ( 1 )  " "                  "*"                  " "                       
-    ## 5  ( 1 )  " "                  "*"                  " "                       
-    ## 6  ( 1 )  " "                  "*"                  " "                       
-    ## 7  ( 1 )  " "                  "*"                  " "                       
-    ## 8  ( 1 )  " "                  "*"                  " "                       
-    ## 9  ( 1 )  "*"                  "*"                  " "                       
-    ## 10  ( 1 ) "*"                  "*"                  " "                       
-    ## 11  ( 1 ) "*"                  "*"                  " "                       
-    ## 12  ( 1 ) "*"                  "*"                  " "                       
-    ## 13  ( 1 ) "*"                  "*"                  " "                       
-    ## 14  ( 1 ) "*"                  "*"                  " "                       
-    ## 15  ( 1 ) "*"                  "*"                  " "                       
-    ## 16  ( 1 ) "*"                  "*"                  " "                       
-    ## 17  ( 1 ) "*"                  "*"                  " "                       
-    ## 18  ( 1 ) "*"                  "*"                  " "                       
-    ## 19  ( 1 ) "*"                  "*"                  " "                       
-    ## 20  ( 1 ) "*"                  "*"                  " "                       
-    ## 21  ( 1 ) "*"                  "*"                  " "                       
-    ## 22  ( 1 ) "*"                  "*"                  " "                       
-    ## 23  ( 1 ) "*"                  "*"                  " "                       
-    ## 24  ( 1 ) "*"                  "*"                  " "                       
-    ## 25  ( 1 ) "*"                  "*"                  " "                       
-    ## 26  ( 1 ) "*"                  "*"                  " "                       
-    ## 27  ( 1 ) "*"                  "*"                  " "                       
-    ## 28  ( 1 ) "*"                  "*"                  " "                       
-    ## 29  ( 1 ) "*"                  "*"                  " "                       
-    ## 30  ( 1 ) "*"                  "*"                  " "                       
-    ##           log.HIV.AIDS log.GDP log.percentage.expenditure ContinentAmericas
-    ## 1  ( 1 )  "*"          " "     " "                        " "              
-    ## 2  ( 1 )  "*"          " "     " "                        " "              
-    ## 3  ( 1 )  "*"          " "     " "                        " "              
-    ## 4  ( 1 )  "*"          " "     " "                        " "              
-    ## 5  ( 1 )  "*"          " "     " "                        "*"              
-    ## 6  ( 1 )  "*"          " "     " "                        "*"              
-    ## 7  ( 1 )  "*"          " "     " "                        "*"              
-    ## 8  ( 1 )  "*"          "*"     " "                        "*"              
-    ## 9  ( 1 )  "*"          "*"     " "                        "*"              
-    ## 10  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 11  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 12  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 13  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 14  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 15  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 16  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 17  ( 1 ) "*"          "*"     " "                        "*"              
-    ## 18  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 19  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 20  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 21  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 22  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 23  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 24  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 25  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 26  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 27  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 28  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 29  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 30  ( 1 ) "*"          "*"     "*"                        "*"              
-    ##           ContinentAsia ContinentEurope ContinentOceania
-    ## 1  ( 1 )  " "           " "             " "             
-    ## 2  ( 1 )  " "           " "             " "             
-    ## 3  ( 1 )  " "           " "             " "             
-    ## 4  ( 1 )  " "           " "             " "             
-    ## 5  ( 1 )  " "           " "             " "             
-    ## 6  ( 1 )  " "           " "             " "             
-    ## 7  ( 1 )  " "           " "             " "             
-    ## 8  ( 1 )  " "           " "             " "             
-    ## 9  ( 1 )  " "           " "             " "             
-    ## 10  ( 1 ) " "           " "             " "             
-    ## 11  ( 1 ) " "           " "             " "             
-    ## 12  ( 1 ) " "           " "             " "             
-    ## 13  ( 1 ) " "           " "             " "             
-    ## 14  ( 1 ) " "           " "             " "             
-    ## 15  ( 1 ) " "           " "             " "             
-    ## 16  ( 1 ) "*"           " "             " "             
-    ## 17  ( 1 ) "*"           " "             " "             
-    ## 18  ( 1 ) "*"           " "             " "             
-    ## 19  ( 1 ) "*"           " "             " "             
-    ## 20  ( 1 ) "*"           " "             " "             
-    ## 21  ( 1 ) "*"           " "             " "             
-    ## 22  ( 1 ) "*"           " "             " "             
-    ## 23  ( 1 ) "*"           " "             " "             
-    ## 24  ( 1 ) "*"           " "             " "             
-    ## 25  ( 1 ) "*"           " "             " "             
-    ## 26  ( 1 ) "*"           " "             " "             
-    ## 27  ( 1 ) "*"           " "             " "             
-    ## 28  ( 1 ) "*"           " "             " "             
-    ## 29  ( 1 ) "*"           " "             " "             
-    ## 30  ( 1 ) "*"           " "             " "
+    ## 4  ( 1 )  " "                  " "                  " "                       
+    ## 5  ( 1 )  " "                  " "                  " "                       
+    ## 6  ( 1 )  " "                  " "                  " "                       
+    ## 7  ( 1 )  " "                  " "                  " "                       
+    ## 8  ( 1 )  " "                  " "                  " "                       
+    ## 9  ( 1 )  " "                  " "                  " "                       
+    ## 10  ( 1 ) " "                  " "                  " "                       
+    ## 11  ( 1 ) " "                  " "                  " "                       
+    ## 12  ( 1 ) " "                  " "                  " "                       
+    ## 13  ( 1 ) " "                  " "                  " "                       
+    ## 14  ( 1 ) " "                  " "                  " "                       
+    ## 15  ( 1 ) " "                  " "                  " "                       
+    ## 16  ( 1 ) " "                  " "                  " "                       
+    ## 17  ( 1 ) " "                  " "                  " "                       
+    ## 18  ( 1 ) " "                  " "                  " "                       
+    ## 19  ( 1 ) " "                  " "                  " "                       
+    ## 20  ( 1 ) " "                  " "                  " "                       
+    ## 21  ( 1 ) " "                  " "                  " "                       
+    ## 22  ( 1 ) " "                  " "                  " "                       
+    ## 23  ( 1 ) " "                  " "                  " "                       
+    ## 24  ( 1 ) " "                  " "                  " "                       
+    ## 25  ( 1 ) " "                  " "                  " "                       
+    ## 26  ( 1 ) " "                  " "                  " "                       
+    ## 27  ( 1 ) " "                  " "                  " "                       
+    ## 28  ( 1 ) " "                  " "                  " "                       
+    ## 29  ( 1 ) " "                  " "                  " "                       
+    ## 30  ( 1 ) " "                  " "                  " "                       
+    ## 31  ( 1 ) " "                  " "                  " "                       
+    ## 32  ( 1 ) " "                  " "                  " "                       
+    ## 33  ( 1 ) " "                  " "                  " "                       
+    ## 34  ( 1 ) " "                  " "                  " "                       
+    ## 35  ( 1 ) " "                  " "                  " "                       
+    ## 36  ( 1 ) " "                  " "                  " "                       
+    ## 37  ( 1 ) " "                  " "                  " "                       
+    ## 38  ( 1 ) " "                  " "                  " "                       
+    ## 39  ( 1 ) " "                  " "                  " "                       
+    ## 40  ( 1 ) " "                  " "                  " "                       
+    ## 41  ( 1 ) " "                  " "                  " "                       
+    ## 42  ( 1 ) " "                  " "                  " "                       
+    ##           log.HIV.AIDS log.GDP log.percentage.expenditure
+    ## 1  ( 1 )  " "          " "     " "                       
+    ## 2  ( 1 )  " "          " "     " "                       
+    ## 3  ( 1 )  " "          " "     " "                       
+    ## 4  ( 1 )  " "          " "     " "                       
+    ## 5  ( 1 )  " "          " "     " "                       
+    ## 6  ( 1 )  " "          " "     " "                       
+    ## 7  ( 1 )  " "          " "     " "                       
+    ## 8  ( 1 )  " "          " "     " "                       
+    ## 9  ( 1 )  " "          " "     " "                       
+    ## 10  ( 1 ) " "          " "     " "                       
+    ## 11  ( 1 ) " "          " "     " "                       
+    ## 12  ( 1 ) " "          " "     " "                       
+    ## 13  ( 1 ) " "          " "     " "                       
+    ## 14  ( 1 ) " "          " "     " "                       
+    ## 15  ( 1 ) " "          " "     " "                       
+    ## 16  ( 1 ) " "          " "     " "                       
+    ## 17  ( 1 ) " "          " "     " "                       
+    ## 18  ( 1 ) " "          " "     " "                       
+    ## 19  ( 1 ) " "          " "     " "                       
+    ## 20  ( 1 ) " "          " "     " "                       
+    ## 21  ( 1 ) " "          " "     " "                       
+    ## 22  ( 1 ) " "          " "     " "                       
+    ## 23  ( 1 ) " "          " "     " "                       
+    ## 24  ( 1 ) " "          " "     " "                       
+    ## 25  ( 1 ) " "          " "     " "                       
+    ## 26  ( 1 ) " "          " "     " "                       
+    ## 27  ( 1 ) " "          " "     " "                       
+    ## 28  ( 1 ) " "          " "     " "                       
+    ## 29  ( 1 ) " "          " "     " "                       
+    ## 30  ( 1 ) " "          " "     " "                       
+    ## 31  ( 1 ) " "          " "     " "                       
+    ## 32  ( 1 ) " "          " "     " "                       
+    ## 33  ( 1 ) " "          " "     " "                       
+    ## 34  ( 1 ) " "          " "     " "                       
+    ## 35  ( 1 ) " "          " "     " "                       
+    ## 36  ( 1 ) " "          " "     " "                       
+    ## 37  ( 1 ) " "          " "     " "                       
+    ## 38  ( 1 ) " "          " "     " "                       
+    ## 39  ( 1 ) " "          " "     " "                       
+    ## 40  ( 1 ) " "          " "     " "                       
+    ## 41  ( 1 ) " "          " "     " "                       
+    ## 42  ( 1 ) " "          " "     " "
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -2657,360 +9386,95 @@ postResample(pred = predictions, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##    3.096    0.883    2.341
-
-``` r
-##### Fit Linear Model based on FOrward Selection without factors to measure VIF####
-fit.fwd.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Measles + under.five.deaths + Polio + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
-
-### Visualize VIF
-fit.fwd.lm_VIF = vif(fit.fwd.lm)
-barplot(fit.fwd.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-abline(v=10, col="red")
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-10.png)<!-- -->
-
-``` r
-############################################################################
-# same as before, no longer have perfect correlation for num vars          #
-# will comment out second model for now but leave in just in case          #
-############################################################################
-
-
-# We can see that Forward Selection did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (under.five.deaths).
-
-##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-#fit.fwd.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
-#summary(fit.fwd.lm2)
-
-### re-run Visualize VIF
-#fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
-#barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-#abline(v=10, col="red")
-
-##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity####
-fit.fwd.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + Measles + under.five.deaths + Polio + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
-
-#### Hypothesis testing ####
-summary(fit.fwd.lm3)
-```
-
-    ## 
-    ## Call:
-    ## lm(formula = Life.expectancy ~ Year + Status + Adult.Mortality + 
-    ##     Alcohol + Measles + under.five.deaths + Polio + Diphtheria + 
-    ##     Population + thinness.5.9.years + Income.composition.of.resources + 
-    ##     Schooling + Region + log.HIV.AIDS + log.GDP + log.percentage.expenditure, 
-    ##     data = train)
-    ## 
-    ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -23.038  -1.773  -0.125   1.764  13.488 
-    ## 
-    ## Coefficients:
-    ##                                          Estimate        Std. Error t value
-    ## (Intercept)                     -157.018608364632   32.116140118509   -4.89
-    ## Year                               0.106462509869    0.016113870124    6.61
-    ## StatusDeveloping                  -0.971546560452    0.315114615674   -3.08
-    ## Adult.Mortality                   -0.011604113567    0.000733140271  -15.83
-    ## Alcohol                           -0.086214139210    0.028161491372   -3.06
-    ## Measles                           -0.000018704873    0.000006877154   -2.72
-    ## under.five.deaths                 -0.003204332038    0.000658506642   -4.87
-    ## Polio                              0.020171299878    0.003914086249    5.15
-    ## Diphtheria                         0.022139392280    0.003997652494    5.54
-    ## Population                         0.000000003833    0.000000000767    5.00
-    ## thinness.5.9.years                -0.041226124408    0.028406692657   -1.45
-    ## Income.composition.of.resources    4.546752400730    0.586948732060    7.75
-    ## Schooling                          0.451132646775    0.041962475889   10.75
-    ## RegionAustralia and New Zealand    3.817335927764    0.899364756081    4.24
-    ## RegionCanada                       5.444339457973    0.991387448194    5.49
-    ## RegionCaribbean                    3.182629937136    0.517501837771    6.15
-    ## RegionCentral Africa              -1.936386735055    0.580940878771   -3.33
-    ## RegionCentral Asia                -3.106743457254    0.581544007044   -5.34
-    ## RegionCentral Europe               1.153165178120    0.514466943984    2.24
-    ## RegionEastern Africa              -0.979919729088    0.602738994239   -1.63
-    ## RegionEastern Europe              -0.243487392141    0.575466431282   -0.42
-    ## RegionMashriq                      0.396540308341    0.551780112739    0.72
-    ## RegionMeso-America                 3.425899968914    0.533547148381    6.42
-    ## RegionNorth Africa                -0.277748790000    0.511208320649   -0.54
-    ## RegionNW Pacific and East Asia     0.316258922436    0.618084349620    0.51
-    ## RegionSouth America                1.588714061541    0.513147960860    3.10
-    ## RegionSouth Asia                  -0.481007842515    0.548421694445   -0.88
-    ## RegionSouth Pacific               -1.230375494596    0.539483480004   -2.28
-    ## RegionSoutheast Asia               0.226917426000    0.470339729323    0.48
-    ## RegionSouthern Africa             -4.129662026770    0.656758646668   -6.29
-    ## RegionUS                           0.826329920118    1.064585265715    0.78
-    ## RegionWestern Africa              -3.673911814292    0.545466932507   -6.74
-    ## RegionWestern Europe               4.502873401318    0.541337809675    8.32
-    ## RegionWestern Indian Ocean        -1.519471204773    0.608936964882   -2.50
-    ## log.HIV.AIDS                      -1.924819420445    0.100082372384  -19.23
-    ## log.GDP                            0.124637228587    0.058808797644    2.12
-    ## log.percentage.expenditure         0.138154975567    0.031470920602    4.39
-    ##                                             Pr(>|t|)    
-    ## (Intercept)                        0.000001078547642 ***
-    ## Year                               0.000000000047974 ***
-    ## StatusDeveloping                             0.00207 ** 
-    ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                      0.00223 ** 
-    ## Measles                                      0.00658 ** 
-    ## under.five.deaths                  0.000001210704402 ***
-    ## Polio                              0.000000276032266 ***
-    ## Diphtheria                         0.000000033835557 ***
-    ## Population                         0.000000621379600 ***
-    ## thinness.5.9.years                           0.14683    
-    ## Income.composition.of.resources    0.000000000000014 ***
-    ## Schooling                       < 0.0000000000000002 ***
-    ## RegionAustralia and New Zealand    0.000022725028453 ***
-    ## RegionCanada                       0.000000043923323 ***
-    ## RegionCaribbean                    0.000000000902042 ***
-    ## RegionCentral Africa                         0.00087 ***
-    ## RegionCentral Asia                 0.000000100265214 ***
-    ## RegionCentral Europe                         0.02508 *  
-    ## RegionEastern Africa                         0.10413    
-    ## RegionEastern Europe                         0.67225    
-    ## RegionMashriq                                0.47242    
-    ## RegionMeso-America                 0.000000000162037 ***
-    ## RegionNorth Africa                           0.58696    
-    ## RegionNW Pacific and East Asia               0.60892    
-    ## RegionSouth America                          0.00198 ** 
-    ## RegionSouth Asia                             0.38053    
-    ## RegionSouth Pacific                          0.02265 *  
-    ## RegionSoutheast Asia                         0.62953    
-    ## RegionSouthern Africa              0.000000000379637 ***
-    ## RegionUS                                     0.43771    
-    ## RegionWestern Africa               0.000000000020303 ***
-    ## RegionWestern Europe            < 0.0000000000000002 ***
-    ## RegionWestern Indian Ocean                   0.01265 *  
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                      0.03416 *  
-    ## log.percentage.expenditure         0.000011819589863 ***
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-    ## 
-    ## Residual standard error: 3.25 on 2452 degrees of freedom
-    ## Multiple R-squared:  0.887,  Adjusted R-squared:  0.885 
-    ## F-statistic:  534 on 36 and 2452 DF,  p-value: <0.0000000000000002
-
-``` r
-# At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
-# Alcohol, Measles, BMI, Total.expenditure.
-
-# Predicting
-train_pred = predict(fit.fwd.lm3, train)
-test_pred = predict(fit.fwd.lm3, test)
-
-# Scoring the final model on Training and Test set
-residuals = resid(fit.fwd.lm3)
-postResample(pred = train_pred, obs = train$Life.expectancy)
-```
-
-    ##     RMSE Rsquared      MAE 
-    ##   3.2301   0.8869   2.3796
-
-``` r
-postResample(pred = test_pred, obs = test$Life.expectancy)
-```
-
-    ##     RMSE Rsquared      MAE 
-    ##   3.1119   0.8824   2.3782
-
-``` r
-sm = summary(fit.fwd.lm3)
-mse = mean(sm$residuals^2)
-
-### Checking Multiple Liner Regression model assumptions
-confint(fit.fwd.lm3)
-```
-
-    ##                                             2.5 %           97.5 %
-    ## (Intercept)                     -219.996173259724 -94.041043469540
-    ## Year                               0.074864307293   0.138060712445
-    ## StatusDeveloping                  -1.589464874570  -0.353628246334
-    ## Adult.Mortality                   -0.013041751739  -0.010166475394
-    ## Alcohol                           -0.141436907073  -0.030991371347
-    ## Measles                           -0.000032190504  -0.000005219242
-    ## under.five.deaths                 -0.004495618745  -0.001913045332
-    ## Polio                              0.012496043143   0.027846556612
-    ## Diphtheria                         0.014300267826   0.029978516734
-    ## Population                         0.000000002329   0.000000005337
-    ## thinness.5.9.years                -0.096929715302   0.014477466485
-    ## Income.composition.of.resources    3.395785885857   5.697718915604
-    ## Schooling                          0.368847087592   0.533418205958
-    ## RegionAustralia and New Zealand    2.053742853334   5.580929002195
-    ## RegionCanada                       3.500296147525   7.388382768420
-    ## RegionCaribbean                    2.167844055293   4.197415818978
-    ## RegionCentral Africa              -3.075572258535  -0.797201211576
-    ## RegionCentral Asia                -4.247111674226  -1.966375240281
-    ## RegionCentral Europe               0.144330516434   2.161999839806
-    ## RegionEastern Africa              -2.161849873383   0.202010415208
-    ## RegionEastern Europe              -1.371937896692   0.884963112411
-    ## RegionMashriq                     -0.685462937680   1.478543554361
-    ## RegionMeso-America                 2.379650325036   4.472149612792
-    ## RegionNorth Africa                -1.280193513113   0.724695933114
-    ## RegionNW Pacific and East Asia    -0.895762419332   1.528280264204
-    ## RegionSouth America                0.582465835989   2.594962287093
-    ## RegionSouth Asia                  -1.556425458839   0.594409773810
-    ## RegionSouth Pacific               -2.288265880751  -0.172485108442
-    ## RegionSoutheast Asia              -0.695386771107   1.149221623107
-    ## RegionSouthern Africa             -5.417521032812  -2.841803020727
-    ## RegionUS                          -1.261249328526   2.913909168762
-    ## RegionWestern Africa              -4.743535343562  -2.604288285021
-    ## RegionWestern Europe               3.441346800887   5.564400001748
-    ## RegionWestern Indian Ocean        -2.713555147656  -0.325387261891
-    ## log.HIV.AIDS                      -2.121074140919  -1.728564699971
-    ## log.GDP                            0.009317179030   0.239957278144
-    ## log.percentage.expenditure         0.076442642229   0.199867308905
-
-``` r
-hist(residuals, main = "Histogram of Residuals")
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-11.png)<!-- -->
-
-``` r
-plot(residuals, main = "Residuals plot") 
-abline(h=0, col="blue")
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-12.png)<!-- -->
-
-``` r
-plot(fit.fwd.lm3, which = 2)
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-13.png)<!-- -->
-
-``` r
-plot(fit.fwd.lm3, which = 4)
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-14.png)<!-- -->
-
-``` r
-#####################################################################################
-#                               Backward Elimination                                #
-#####################################################################################
-
-mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=44)
-```
-
-    ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
-    ## force.in, : 3 linear dependencies found
-
-    ## Reordering variables and trying again:
-
-``` r
-testASE<-c()
-for (i in 1:44){
-
-  predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
-  testASE[i] = mean((test$Life.expectancy-predictions)^2)
-}
-par(mfrow=c(1,1))
-
-plot(1:44,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
-index<-which(testASE==min(testASE))
-points(index,testASE[index],col="red",pch=10)
-rss<-summary(mlr.bck)$rss
-lines(1:45,rss/dim(train)[1],lty=3,col="blue")  
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-15.png)<!-- -->
-
-``` r
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=44)
-```
-
-    ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
-    ## force.in, : 3 linear dependencies found
-
-    ## Reordering variables and trying again:
-
-``` r
-coef(mlr.bck.final,42)
-```
-
-    ##                     (Intercept)                            Year 
-    ##               -128.126465484744                  0.092223100625 
-    ##                StatusDeveloping                 Adult.Mortality 
-    ##                 -0.808600106896                 -0.010777494540 
-    ##                   infant.deaths                         Alcohol 
-    ##                  0.013772325686                 -0.073782934323 
-    ##          percentage.expenditure                         Measles 
-    ##                 -0.000003835046                 -0.000016555755 
-    ##                             BMI               under.five.deaths 
-    ##                  0.004781492524                 -0.013223134165 
-    ##                           Polio               Total.expenditure 
-    ##                  0.020543927510                 -0.038881958753 
-    ##                      Diphtheria                        HIV.AIDS 
-    ##                  0.020890019530                 -0.132417039867 
-    ##                             GDP                      Population 
-    ##                  0.000007876767                  0.000000003002 
-    ##              thinness.5.9.years Income.composition.of.resources 
-    ##                 -0.045711953110                  4.492831876467 
-    ##                       Schooling RegionAustralia and New Zealand 
-    ##                  0.475168294378                  3.326096325960 
-    ##                    RegionCanada                 RegionCaribbean 
-    ##                  5.374147723064                  2.837750045050 
-    ##            RegionCentral Africa              RegionCentral Asia 
-    ##                 -2.373678088153                 -3.045579914013 
-    ##            RegionCentral Europe            RegionEastern Africa 
-    ##                  1.121304461375                 -1.469632292864 
-    ##            RegionEastern Europe                   RegionMashriq 
-    ##                 -0.573587794888                  0.334456289277 
-    ##              RegionMeso-America              RegionNorth Africa 
-    ##                  3.080159159729                 -0.544283451323 
-    ##  RegionNW Pacific and East Asia             RegionSouth America 
-    ##                  0.841043134511                  1.310642676690 
-    ##                RegionSouth Asia             RegionSouth Pacific 
-    ##                 -0.179296416553                 -1.311761372508 
-    ##           RegionSouthern Africa                        RegionUS 
-    ##                 -3.473880619932                  0.872321790270 
-    ##            RegionWestern Africa            RegionWestern Europe 
-    ##                 -3.953085133659                  4.307473415575 
-    ##      RegionWestern Indian Ocean                    log.HIV.AIDS 
-    ##                 -1.529166050938                 -1.606371320339 
-    ##                         log.GDP      log.percentage.expenditure 
-    ##                  0.131374259649                  0.123756858635 
-    ##               ContinentAmericas 
-    ##                  0.000000000000
-
-``` r
-# Metrics RMSE; R-squared; MAE
-postResample(pred = predictions, obs = ytest)
-```
-
-    ##     RMSE Rsquared      MAE 
-    ##   3.1186   0.8814   2.3798
+    ##   2.4036   0.9295   1.6150
 
 ``` r
 ##different result now, will repeat steps from earlier model
 
-fit.bck.lm <- lm(Life.expectancy ~Year + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP,data = train)
+fit.bck.lm <- lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure,data = train)
 
+summary(fit.bck.lm)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + infant.deaths + 
+    ##     Alcohol + Measles + under.five.deaths + Polio + Total.expenditure + 
+    ##     Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, 
+    ##     data = train)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -13.436  -1.577  -0.306   1.278  10.735 
+    ## 
+    ## Coefficients:
+    ##                                         Estimate       Std. Error t value
+    ## (Intercept)                     65.7471932394382 24.5073637708673    2.68
+    ## Year                             0.0020343969993  0.0122377462790    0.17
+    ## Adult.Mortality                 -0.0575942178442  0.0010164128891  -56.66
+    ## infant.deaths                    0.0370927847227  0.0070386392188    5.27
+    ## Alcohol                          0.1811577645068  0.0173115924537   10.46
+    ## Measles                         -0.0000169827315  0.0000055065933   -3.08
+    ## under.five.deaths               -0.0279584417931  0.0049780015608   -5.62
+    ## Polio                            0.0104490187638  0.0030677317056    3.41
+    ## Total.expenditure                0.0417788044362  0.0228211324536    1.83
+    ## Diphtheria                       0.0131896626633  0.0031083255479    4.24
+    ## Population                       0.0000000000965  0.0000000006659    0.14
+    ## thinness.5.9.years              -0.0746275347521  0.0153628052992   -4.86
+    ## Income.composition.of.resources  2.4501758541600  0.4497668224255    5.45
+    ## Schooling                        0.4096090461078  0.0309002296461   13.26
+    ## log.HIV.AIDS                    -0.0964844445845  0.0666036382053   -1.45
+    ## log.GDP                          0.1699633533956  0.0423039296261    4.02
+    ## log.percentage.expenditure       0.0597110789141  0.0235649392617    2.53
+    ##                                             Pr(>|t|)    
+    ## (Intercept)                                  0.00735 ** 
+    ## Year                                         0.86798    
+    ## Adult.Mortality                 < 0.0000000000000002 ***
+    ## infant.deaths                            0.000000148 ***
+    ## Alcohol                         < 0.0000000000000002 ***
+    ## Measles                                      0.00206 ** 
+    ## under.five.deaths                        0.000000022 ***
+    ## Polio                                        0.00067 ***
+    ## Total.expenditure                            0.06726 .  
+    ## Diphtheria                               0.000022834 ***
+    ## Population                                   0.88483    
+    ## thinness.5.9.years                       0.000001262 ***
+    ## Income.composition.of.resources          0.000000056 ***
+    ## Schooling                       < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                 0.14757    
+    ## log.GDP                                  0.000060531 ***
+    ## log.percentage.expenditure                   0.01134 *  
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 2.58 on 2472 degrees of freedom
+    ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.928 
+    ## F-statistic: 2.01e+03 on 16 and 2472 DF,  p-value: <0.0000000000000002
+
+``` r
 ### Visualize VIF
 fit.bck.lm_VIF = vif(fit.bck.lm)
 barplot(fit.bck.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-16.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-19.png)<!-- -->
 
 ``` r
 #two are correlated and giving a high VIF it's under.five and infant.deaths
-fit.bck.lm2 <- lm(Life.expectancy ~Year + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP,data = train)
+fit.bck.lm2 <- lm(Life.expectancy ~ Year+Adult.Mortality+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure,data = train)
 
 fit.bck.lm2_VIF <- vif(fit.bck.lm2)
 barplot(fit.bck.lm2_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-17.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-20.png)<!-- -->
 
 ``` r
 ##fit model with categorical variables and removed colinearity
-fit.bck.lm3 <- lm(Life.expectancy ~Year + Status + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + Region,data = train)
+fit.bck.lm3 <- lm(Life.expectancy ~ Year+Adult.Mortality+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure + Status + Region,data = train)
 
 
 #### Hypothesis testing ####
@@ -3019,103 +9483,101 @@ summary(fit.bck.lm3)
 
     ## 
     ## Call:
-    ## lm(formula = Life.expectancy ~ Year + Status + Adult.Mortality + 
-    ##     infant.deaths + Alcohol + percentage.expenditure + Measles + 
-    ##     BMI + Polio + Total.expenditure + Diphtheria + Population + 
-    ##     thinness.5.9.years + Income.composition.of.resources + Schooling + 
-    ##     log.HIV.AIDS + log.GDP + Region, data = train)
+    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Alcohol + 
+    ##     Measles + under.five.deaths + Polio + Total.expenditure + 
+    ##     Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + 
+    ##     Status + Region, data = train)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -22.669  -1.788  -0.125   1.696  13.259 
+    ## -13.264  -1.293  -0.261   1.043   9.434 
     ## 
     ## Coefficients:
-    ##                                          Estimate        Std. Error t value
-    ## (Intercept)                     -130.036755977454   31.621942481064   -4.11
-    ## Year                               0.092878751186    0.015869195534    5.85
-    ## StatusDeveloping                  -0.960683180074    0.318531975161   -3.02
-    ## Adult.Mortality                   -0.011811740262    0.000733598784  -16.10
-    ## infant.deaths                     -0.004634786727    0.000940118055   -4.93
-    ## Alcohol                           -0.095313591898    0.028171577569   -3.38
-    ## percentage.expenditure             0.000093082758    0.000046142508    2.02
-    ## Measles                           -0.000020619731    0.000006868822   -3.00
-    ## BMI                                0.003765772273    0.004983150775    0.76
-    ## Polio                              0.020013973806    0.003928041130    5.10
-    ## Total.expenditure                 -0.046319148758    0.032875503203   -1.41
-    ## Diphtheria                         0.023242294106    0.004008161339    5.80
-    ## Population                         0.000000004263    0.000000000802    5.31
-    ## thinness.5.9.years                -0.042346800766    0.028651255912   -1.48
-    ## Income.composition.of.resources    4.501613346003    0.592354010665    7.60
-    ## Schooling                          0.470844968217    0.042203829703   11.16
-    ## log.HIV.AIDS                      -1.891720803314    0.099860011121  -18.94
-    ## log.GDP                            0.196245183454    0.056897075712    3.45
-    ## RegionAustralia and New Zealand    3.959060793102    0.923104356326    4.29
-    ## RegionCanada                       5.562558299765    1.012762633052    5.49
-    ## RegionCaribbean                    3.280478163470    0.524670206038    6.25
-    ## RegionCentral Africa              -1.787346522772    0.597247172972   -2.99
-    ## RegionCentral Asia                -3.004172703727    0.587824998763   -5.11
-    ## RegionCentral Europe               1.353135412524    0.525680755304    2.57
-    ## RegionEastern Africa              -0.730802568292    0.625190953472   -1.17
-    ## RegionEastern Europe              -0.025739909099    0.584583579617   -0.04
-    ## RegionMashriq                      0.526716698948    0.556237133582    0.95
-    ## RegionMeso-America                 3.814528016621    0.546846531487    6.98
-    ## RegionNorth Africa                -0.209887664501    0.515034183495   -0.41
-    ## RegionNW Pacific and East Asia     0.308290837495    0.634195688978    0.49
-    ## RegionSouth America                1.798684144026    0.523762736848    3.43
-    ## RegionSouth Asia                  -0.179063805291    0.562780857000   -0.32
-    ## RegionSouth Pacific               -1.031270753128    0.546714454069   -1.89
-    ## RegionSoutheast Asia               0.341799817573    0.490544471992    0.70
-    ## RegionSouthern Africa             -3.854560863132    0.676993828236   -5.69
-    ## RegionUS                           0.552454839286    1.123290942973    0.49
-    ## RegionWestern Africa              -3.449951187040    0.565005197989   -6.11
-    ## RegionWestern Europe               4.641766946363    0.563005751015    8.24
-    ## RegionWestern Indian Ocean        -1.221591424236    0.622766661157   -1.96
+    ##                                         Estimate       Std. Error t value
+    ## (Intercept)                     -14.128311721850  23.387900933067   -0.60
+    ## Year                              0.042752608551   0.011716780364    3.65
+    ## Adult.Mortality                  -0.054955067734   0.001048482569  -52.41
+    ## Alcohol                           0.070621741781   0.020563893598    3.43
+    ## Measles                          -0.000014859539   0.000004950579   -3.00
+    ## under.five.deaths                -0.001833326547   0.000475972417   -3.85
+    ## Polio                             0.012702732599   0.002825910799    4.50
+    ## Total.expenditure                -0.014454318475   0.023615907041   -0.61
+    ## Diphtheria                        0.013775201279   0.002888951593    4.77
+    ## Population                        0.000000001357   0.000000000555    2.44
+    ## thinness.5.9.years               -0.026439893751   0.020460349102   -1.29
+    ## Income.composition.of.resources   1.660900583242   0.428181136023    3.88
+    ## Schooling                         0.358543029425   0.030354888865   11.81
+    ## log.HIV.AIDS                      0.065442419738   0.083412241374    0.78
+    ## log.GDP                           0.072670707586   0.042352042375    1.72
+    ## log.percentage.expenditure        0.034220066419   0.022781063704    1.50
+    ## StatusDeveloping                 -0.459512126427   0.227423365575   -2.02
+    ## RegionAustralia and New Zealand   2.073957104472   0.658741435771    3.15
+    ## RegionCanada                      3.339762084029   0.721588414484    4.63
+    ## RegionCaribbean                   2.101532254992   0.376804463098    5.58
+    ## RegionCentral Africa             -1.491142209565   0.419623171166   -3.55
+    ## RegionCentral Asia               -1.691872461874   0.419622830495   -4.03
+    ## RegionCentral Europe              1.122395493261   0.377409734929    2.97
+    ## RegionEastern Africa             -0.541107466691   0.437813003240   -1.24
+    ## RegionEastern Europe              1.341359823383   0.420615406836    3.19
+    ## RegionMashriq                     0.635881552561   0.399619826622    1.59
+    ## RegionMeso-America                2.750934983784   0.393209945871    7.00
+    ## RegionNorth Africa               -0.003621074386   0.369402901735   -0.01
+    ## RegionNW Pacific and East Asia    0.881520096446   0.447807810145    1.97
+    ## RegionSouth America               1.524603653632   0.375533221672    4.06
+    ## RegionSouth Asia                  0.266688615290   0.397752995657    0.67
+    ## RegionSouth Pacific               0.063673268740   0.393476691611    0.16
+    ## RegionSoutheast Asia              0.491820192651   0.338831064714    1.45
+    ## RegionSouthern Africa            -0.675615202660   0.483197080601   -1.40
+    ## RegionUS                          1.411494934818   0.819366343086    1.72
+    ## RegionWestern Africa             -3.391147782808   0.396566973197   -8.55
+    ## RegionWestern Europe              2.652742066425   0.401683220651    6.60
+    ## RegionWestern Indian Ocean        0.124069622468   0.440013945570    0.28
     ##                                             Pr(>|t|)    
-    ## (Intercept)                      0.00004047634847432 ***
-    ## Year                             0.00000000548091985 ***
-    ## StatusDeveloping                             0.00259 ** 
+    ## (Intercept)                                  0.54584    
+    ## Year                                         0.00027 ***
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## infant.deaths                    0.00000087727205956 ***
-    ## Alcohol                                      0.00073 ***
-    ## percentage.expenditure                       0.04377 *  
+    ## Alcohol                                      0.00060 ***
     ## Measles                                      0.00271 ** 
-    ## BMI                                          0.44990    
-    ## Polio                            0.00000037502752355 ***
-    ## Total.expenditure                            0.15898    
-    ## Diphtheria                       0.00000000754128740 ***
-    ## Population                       0.00000011726772024 ***
-    ## thinness.5.9.years                           0.13953    
-    ## Income.composition.of.resources  0.00000000000004203 ***
+    ## under.five.deaths                            0.00012 ***
+    ## Polio                                0.0000072772876 ***
+    ## Total.expenditure                            0.54056    
+    ## Diphtheria                           0.0000019673654 ***
+    ## Population                                   0.01460 *  
+    ## thinness.5.9.years                           0.19639    
+    ## Income.composition.of.resources              0.00011 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                      0.00057 ***
-    ## RegionAustralia and New Zealand  0.00001865568025393 ***
-    ## RegionCanada                     0.00000004372487367 ***
-    ## RegionCaribbean                  0.00000000047516465 ***
-    ## RegionCentral Africa                         0.00279 ** 
-    ## RegionCentral Asia               0.00000034581541548 ***
-    ## RegionCentral Europe                         0.01011 *  
-    ## RegionEastern Africa                         0.24255    
-    ## RegionEastern Europe                         0.96488    
-    ## RegionMashriq                                0.34377    
-    ## RegionMeso-America               0.00000000000390640 ***
-    ## RegionNorth Africa                           0.68366    
-    ## RegionNW Pacific and East Asia               0.62693    
-    ## RegionSouth America                          0.00060 ***
-    ## RegionSouth Asia                             0.75038    
-    ## RegionSouth Pacific                          0.05937 .  
-    ## RegionSoutheast Asia                         0.48601    
-    ## RegionSouthern Africa            0.00000001392049825 ***
-    ## RegionUS                                     0.62289    
-    ## RegionWestern Africa             0.00000000118403070 ***
-    ## RegionWestern Europe             0.00000000000000027 ***
-    ## RegionWestern Indian Ocean                   0.04993 *  
+    ## log.HIV.AIDS                                 0.43278    
+    ## log.GDP                                      0.08631 .  
+    ## log.percentage.expenditure                   0.13319    
+    ## StatusDeveloping                             0.04344 *  
+    ## RegionAustralia and New Zealand              0.00166 ** 
+    ## RegionCanada                         0.0000038780784 ***
+    ## RegionCaribbean                      0.0000000271157 ***
+    ## RegionCentral Africa                         0.00039 ***
+    ## RegionCentral Asia                   0.0000570196965 ***
+    ## RegionCentral Europe                         0.00297 ** 
+    ## RegionEastern Africa                         0.21660    
+    ## RegionEastern Europe                         0.00145 ** 
+    ## RegionMashriq                                0.11169    
+    ## RegionMeso-America                   0.0000000000034 ***
+    ## RegionNorth Africa                           0.99218    
+    ## RegionNW Pacific and East Asia               0.04912 *  
+    ## RegionSouth America                  0.0000506465281 ***
+    ## RegionSouth Asia                             0.50261    
+    ## RegionSouth Pacific                          0.87146    
+    ## RegionSoutheast Asia                         0.14676    
+    ## RegionSouthern Africa                        0.16217    
+    ## RegionUS                                     0.08507 .  
+    ## RegionWestern Africa            < 0.0000000000000002 ***
+    ## RegionWestern Europe                 0.0000000000489 ***
+    ## RegionWestern Indian Ocean                   0.77799    
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.26 on 2450 degrees of freedom
-    ## Multiple R-squared:  0.886,  Adjusted R-squared:  0.885 
-    ## F-statistic:  503 on 38 and 2450 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.35 on 2451 degrees of freedom
+    ## Multiple R-squared:  0.941,  Adjusted R-squared:  0.94 
+    ## F-statistic: 1.06e+03 on 37 and 2451 DF,  p-value: <0.0000000000000002
 
 ``` r
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
@@ -3131,14 +9593,14 @@ postResample(pred = train_pred, obs = train$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.2392   0.8863   2.3912
+    ##   2.3277   0.9413   1.6453
 
 ``` r
 postResample(pred = test_pred, obs = test$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.1073   0.8825   2.3793
+    ##   2.4006   0.9296   1.6082
 
 ``` r
 sm = summary(fit.bck.lm3)
@@ -3148,79 +9610,78 @@ mse = mean(sm$residuals^2)
 confint(fit.bck.lm3)
 ```
 
-    ##                                            2.5 %           97.5 %
-    ## (Intercept)                     -192.04525794015 -68.028254014755
-    ## Year                               0.06176032628   0.123997176090
-    ## StatusDeveloping                  -1.58530295537  -0.336063404776
-    ## Adult.Mortality                   -0.01325027813  -0.010373202397
-    ## infant.deaths                     -0.00647829499  -0.002791278464
-    ## Alcohol                           -0.15055616038  -0.040071023419
-    ## percentage.expenditure             0.00000260040   0.000183565112
-    ## Measles                           -0.00003408903  -0.000007150433
-    ## BMI                               -0.00600585117   0.013537395721
-    ## Polio                              0.01231134939   0.027716598218
-    ## Total.expenditure                 -0.11078579897   0.018147501451
-    ## Diphtheria                         0.01538255935   0.031102028858
-    ## Population                         0.00000000269   0.000000005836
-    ## thinness.5.9.years                -0.09852998621   0.013836384677
-    ## Income.composition.of.resources    3.34004697939   5.663179712614
-    ## Schooling                          0.38808609727   0.553603839168
-    ## log.HIV.AIDS                      -2.08753956743  -1.695902039198
-    ## log.GDP                            0.08467384551   0.307816521397
-    ## RegionAustralia and New Zealand    2.14891524859   5.769206337617
-    ## RegionCanada                       3.57659890600   7.548517693529
-    ## RegionCaribbean                    2.25163518457   4.309321142371
-    ## RegionCentral Africa              -2.95850805150  -0.616184994045
-    ## RegionCentral Asia                -4.15685798267  -1.851487424783
-    ## RegionCentral Europe               0.32231081449   2.383960010555
-    ## RegionEastern Africa              -1.95675997077   0.495154834187
-    ## RegionEastern Europe              -1.17206898315   1.120589164954
-    ## RegionMashriq                     -0.56402690133   1.617460299220
-    ## RegionMeso-America                 2.74219875534   4.886857277902
-    ## RegionNorth Africa                -1.21983505142   0.800059722420
-    ## RegionNW Pacific and East Asia    -0.93532424555   1.551905920543
-    ## RegionSouth America                0.77162065116   2.825747636892
-    ## RegionSouth Asia                  -1.28263920698   0.924511596402
-    ## RegionSouth Pacific               -2.10334101948   0.040799513221
-    ## RegionSoutheast Asia              -0.62012489254   1.303724527687
-    ## RegionSouthern Africa             -5.18210021819  -2.527021508076
-    ## RegionUS                          -1.65024313487   2.755152813445
-    ## RegionWestern Africa              -4.55788837178  -2.342014002301
-    ## RegionWestern Europe               3.53775054264   5.745783350091
-    ## RegionWestern Indian Ocean        -2.44279495257  -0.000387895903
+    ##                                             2.5 %          97.5 %
+    ## (Intercept)                     -59.9904028734826 31.733779429783
+    ## Year                              0.0197767950915  0.065728422010
+    ## Adult.Mortality                  -0.0570110711051 -0.052899064363
+    ## Alcohol                           0.0302973379220  0.110946145640
+    ## Measles                          -0.0000245672895 -0.000005151788
+    ## under.five.deaths                -0.0027666762495 -0.000899976844
+    ## Polio                             0.0071613127420  0.018244152456
+    ## Total.expenditure                -0.0607635141763  0.031854877225
+    ## Diphtheria                        0.0081101626904  0.019440239867
+    ## Population                        0.0000000002682  0.000000002445
+    ## thinness.5.9.years               -0.0665612538596  0.013681466357
+    ## Income.composition.of.resources   0.8212663490323  2.500534817452
+    ## Schooling                         0.2990191463717  0.418066912479
+    ## log.HIV.AIDS                     -0.0981233413800  0.229008180856
+    ## log.GDP                          -0.0103787816957  0.155720196867
+    ## log.percentage.expenditure       -0.0104520579890  0.078892190826
+    ## StatusDeveloping                 -0.9054739573693 -0.013550295485
+    ## RegionAustralia and New Zealand   0.7822097236738  3.365704485271
+    ## RegionCanada                      1.9247760306110  4.754748137447
+    ## RegionCaribbean                   1.3626441999074  2.840420310076
+    ## RegionCentral Africa             -2.3139948537777 -0.668289565353
+    ## RegionCentral Asia               -2.5147244380528 -0.869020485695
+    ## RegionCentral Europe              0.3823205410729  1.862470445449
+    ## RegionEastern Africa             -1.3996291407578  0.317414207375
+    ## RegionEastern Europe              0.5165614721632  2.166158174603
+    ## RegionMashriq                    -0.1477458865582  1.419508991680
+    ## RegionMeso-America                1.9798768870833  3.521993080485
+    ## RegionNorth Africa               -0.7279951684757  0.720753019703
+    ## RegionNW Pacific and East Asia    0.0033992823530  1.759640910538
+    ## RegionSouth America               0.7882084169635  2.260998890300
+    ## RegionSouth Asia                 -0.5132780946279  1.046655325208
+    ## RegionSouth Pacific              -0.7079078983061  0.835254435786
+    ## RegionSoutheast Asia             -0.1726045977301  1.156244983033
+    ## RegionSouthern Africa            -1.6231319814481  0.271901576127
+    ## RegionUS                         -0.1952270202959  3.018216889932
+    ## RegionWestern Africa             -4.1687887829357 -2.613506782681
+    ## RegionWestern Europe              1.8650684512390  3.440415681611
+    ## RegionWestern Indian Ocean       -0.7387679505783  0.986907195515
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-18.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-21.png)<!-- -->
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-19.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-22.png)<!-- -->
 
 ``` r
 plot(fit.fwd.lm3, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-20.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-23.png)<!-- -->
 
 ``` r
 plot(fit.fwd.lm3, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-21.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-24.png)<!-- -->
 
 ``` r
 #####################################################################################
 #                                  Ridge regression                                 #
 #####################################################################################
-x=model.matrix(Life.expectancy~.,train)[,-1]
+x=model.matrix(Life.expectancy~.,dplyr::select(train, -c(Country)))[,-1]
 y=train$Life.expectancy
-xtest = model.matrix(Life.expectancy~.,test)[,-1]
+xtest = model.matrix(Life.expectancy~.,dplyr::select(test, -c(Country)))[,-1]
 ytest = test$Life.expectancy
 
 grid=10^seq(10,-2, length =100)
@@ -3229,7 +9690,7 @@ cv.out=cv.glmnet(x,y,alpha=0)
 plot(cv.out)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-22.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-25.png)<!-- -->
 
 ``` r
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
@@ -3239,63 +9700,56 @@ testMSE_RIDGE<-mean((ytest-ridge.pred)^2)
 testMSE_RIDGE
 ```
 
-    ## [1] 9.551
+    ## [1] 5.868
 
 ``` r
 coef(ridge.mod,s=bestlambda)
 ```
 
-    ## 49 x 1 sparse Matrix of class "dgCMatrix"
-    ##                                                s1
-    ## (Intercept)                     -113.505283526518
-    ## Year                               0.084482098182
-    ## StatusDeveloping                  -1.049422516436
-    ## Adult.Mortality                   -0.011074829979
-    ## infant.deaths                     -0.001429935031
-    ## Alcohol                           -0.021392856140
-    ## percentage.expenditure             0.000043300288
-    ## Hepatitis.B                        0.002217291759
-    ## Measles                           -0.000018264657
-    ## BMI                                0.011116190220
-    ## under.five.deaths                 -0.002019179454
-    ## Polio                              0.021943934825
-    ## Total.expenditure                 -0.004393876540
-    ## Diphtheria                         0.022409524045
-    ## HIV.AIDS                          -0.176041095211
-    ## GDP                                0.000003316440
-    ## Population                         0.000000003517
-    ## thinness..1.19.years              -0.026949927676
-    ## thinness.5.9.years                -0.051480604337
-    ## Income.composition.of.resources    4.691737371805
-    ## Schooling                          0.448993253457
-    ## RegionAustralia and New Zealand    3.418351198710
-    ## RegionCanada                       3.889401156043
-    ## RegionCaribbean                    1.651822713120
-    ## RegionCentral Africa              -1.880887400303
-    ## RegionCentral Asia                -3.256078437365
-    ## RegionCentral Europe               0.985617418695
-    ## RegionEastern Africa              -0.952752443385
-    ## RegionEastern Europe              -0.567790521093
-    ## RegionMashriq                      0.235354536949
-    ## RegionMeso-America                 2.103694137141
-    ## RegionNorth Africa                 0.475123720708
-    ## RegionNW Pacific and East Asia     0.079798381911
-    ## RegionSouth America                0.441277208937
-    ## RegionSouth Asia                   0.079796063679
-    ## RegionSouth Pacific               -0.529329847487
-    ## RegionSoutheast Asia               0.085223568531
-    ## RegionSouthern Africa             -2.945926895819
-    ## RegionUS                          -0.586151023753
-    ## RegionWestern Africa              -3.461866442718
-    ## RegionWestern Europe               3.828777096802
-    ## RegionWestern Indian Ocean        -0.419943994191
-    ## log.HIV.AIDS                      -1.251469746511
-    ## log.GDP                            0.168934798768
-    ## log.percentage.expenditure         0.115162163493
-    ## ContinentAmericas                  1.519656801404
-    ## ContinentAsia                      1.227495154882
-    ## ContinentEurope                    0.395467161155
-    ## ContinentOceania                   0.116166434544
+    ## 42 x 1 sparse Matrix of class "dgCMatrix"
+    ##                                               s1
+    ## (Intercept)                     -47.971662994022
+    ## Year                              0.056873616203
+    ## StatusDeveloping                 -0.757897933210
+    ## Adult.Mortality                  -0.037752241884
+    ## infant.deaths                    -0.001040963885
+    ## Alcohol                           0.042590900104
+    ## Hepatitis.B                      -0.000564322258
+    ## Measles                          -0.000013609822
+    ## BMI                               0.011090297329
+    ## under.five.deaths                -0.001242747614
+    ## Polio                             0.015723989070
+    ## Total.expenditure                 0.002076858003
+    ## Diphtheria                        0.017476873190
+    ## Population                        0.000000001993
+    ## thinness..1.19.years             -0.021582708431
+    ## thinness.5.9.years               -0.045805607645
+    ## Income.composition.of.resources   3.067872501233
+    ## Schooling                         0.339970690665
+    ## RegionAustralia and New Zealand   1.893522578539
+    ## RegionCanada                      3.138852168449
+    ## RegionCaribbean                   1.940474290097
+    ## RegionCentral Africa             -1.583397181292
+    ## RegionCentral Asia               -2.339910872873
+    ## RegionCentral Europe              0.517732138773
+    ## RegionEastern Africa             -0.870388407726
+    ## RegionEastern Europe              0.184249302767
+    ## RegionMashriq                     0.287494916932
+    ## RegionMeso-America                2.326265233459
+    ## RegionNorth Africa               -0.439542620308
+    ## RegionNW Pacific and East Asia    0.447941579134
+    ## RegionSouth America               0.998419570165
+    ## RegionSouth Asia                  0.324573736639
+    ## RegionSouth Pacific              -0.793966574932
+    ## RegionSoutheast Asia              0.455717422375
+    ## RegionSouthern Africa            -2.089620054863
+    ## RegionUS                          0.443895789349
+    ## RegionWestern Africa             -3.290170137315
+    ## RegionWestern Europe              2.424489722884
+    ## RegionWestern Indian Ocean       -0.438037332512
+    ## log.HIV.AIDS                     -0.639180085719
+    ## log.GDP                           0.120343310181
+    ## log.percentage.expenditure        0.077886024474
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -3303,7 +9757,20 @@ postResample(pred = ridge.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0905   0.8828   2.3275
+    ##   2.4223   0.9278   1.7327
+
+``` r
+##### Visualize prediction vs actual
+x_ridge = 1:dim(xtest)[1]
+plot(x_fwd, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (Ridge Regression)", ylab="Life expectancy")
+lines(x_fwd, ridge.pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-26.png)<!-- -->
 
 ``` r
 #####################################################################################
@@ -3325,7 +9792,7 @@ cva.out = cva.glmnet(x,y)
 plot(cva.out)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-23.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-27.png)<!-- -->
 
 ``` r
 alpha = cva.out$alpha
@@ -3337,7 +9804,7 @@ cva.min
 ```
 
     ##   alpha lambdaMin   mse
-    ## 1 0.512   0.02482 10.61
+    ## 1 0.729    0.0151 5.598
 
 ``` r
 elastic.mod = glmnet(x,y, alpha = cva.min$alpha, lambda = cva.min$lambdaMin)
@@ -3348,7 +9815,7 @@ testMSE_ELASTIC<-mean((ytest-elastic.pred)^2)
 testMSE_ELASTIC
 ```
 
-    ## [1] 9.565
+    ## [1] 5.782
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -3356,11 +9823,24 @@ postResample(pred = elastic.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0927   0.8831   2.3321
+    ##   2.4046   0.9293   1.6091
+
+``` r
+##### Visualize prediction vs actual
+x_eNET = 1:dim(xtest)[1]
+plot(x_eNET, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (ElasticNet Regression)", ylab="Life expectancy")
+lines(x_fwd, elastic.pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-28.png)<!-- -->
 
 ``` r
 #####################################################################################
-#                                      Manual MLR                                   #
+#                                      Manual MLR - Tamas                           #
 #####################################################################################
 # 5-fold cross validation
 cv <- trainControl(
@@ -3370,9 +9850,10 @@ cv <- trainControl(
 )
 
 MLRT = train(
-  Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality,
+  Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths,
   data = train,
   method = "lm",
+   preProcess = c("center", "scale"),
   trControl = cv)
 
 ### Visualize VIF
@@ -3381,7 +9862,7 @@ barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-24.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-29.png)<!-- -->
 
 ``` r
 ### Hypothesis testing
@@ -3394,52 +9875,84 @@ summary(MLRT$finalModel)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -20.877  -2.038   0.013   1.823  15.364 
+    ## -12.990  -1.266  -0.201   0.988   9.675 
     ## 
     ## Coefficients:
-    ##                                    Estimate  Std. Error t value
-    ## (Intercept)                     -146.456805   34.140537   -4.29
-    ## StatusDeveloping                  -2.135260    0.287632   -7.42
-    ## ContinentAmericas                  3.764104    0.284927   13.21
-    ## ContinentAsia                      1.187955    0.277995    4.27
-    ## ContinentEurope                    1.992013    0.352913    5.64
-    ## ContinentOceania                   0.221231    0.405818    0.55
-    ## Income.composition.of.resources    5.833500    0.631967    9.23
-    ## Schooling                          0.509646    0.041794   12.19
-    ## log.HIV.AIDS                      -2.350421    0.079783  -29.46
-    ## log.GDP                            0.186962    0.059559    3.14
-    ## log.percentage.expenditure         0.222219    0.032729    6.79
-    ## BMI                                0.012915    0.004738    2.73
-    ## Year                               0.101032    0.017073    5.92
-    ## Adult.Mortality                   -0.013590    0.000778  -17.47
-    ##                                             Pr(>|t|)    
-    ## (Intercept)                         0.00001856819056 ***
-    ## StatusDeveloping                    0.00000000000016 ***
-    ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                       0.00001998876310 ***
-    ## ContinentEurope                     0.00000001845670 ***
-    ## ContinentOceania                              0.5857    
-    ## Income.composition.of.resources < 0.0000000000000002 ***
-    ## Schooling                       < 0.0000000000000002 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                       0.0017 ** 
-    ## log.percentage.expenditure          0.00000000001402 ***
-    ## BMI                                           0.0065 ** 
-    ## Year                                0.00000000371605 ***
-    ## Adult.Mortality                 < 0.0000000000000002 ***
+    ##                                   Estimate Std. Error t value
+    ## (Intercept)                       69.14427    0.04823 1433.54
+    ## StatusDeveloping                  -0.26968    0.08360   -3.23
+    ## `RegionAustralia and New Zealand`  0.16318    0.06020    2.71
+    ## RegionCanada                       0.26714    0.05278    5.06
+    ## RegionCaribbean                    0.61861    0.08354    7.40
+    ## `RegionCentral Africa`            -0.38845    0.09210   -4.22
+    ## `RegionCentral Asia`              -0.21712    0.06749   -3.22
+    ## `RegionCentral Europe`             0.43817    0.10182    4.30
+    ## `RegionEastern Africa`            -0.09468    0.08958   -1.06
+    ## `RegionEastern Europe`             0.31166    0.07052    4.42
+    ## RegionMashriq                      0.04726    0.06569    0.72
+    ## `RegionMeso-America`               0.61744    0.07408    8.34
+    ## `RegionNorth Africa`               0.01560    0.07263    0.21
+    ## `RegionNW Pacific and East Asia`   0.23235    0.06592    3.52
+    ## `RegionSouth America`              0.43111    0.08305    5.19
+    ## `RegionSouth Asia`                 0.01311    0.08018    0.16
+    ## `RegionSouth Pacific`             -0.02612    0.07480   -0.35
+    ## `RegionSoutheast Asia`             0.08667    0.08131    1.07
+    ## `RegionSouthern Africa`           -0.06683    0.11391   -0.59
+    ## RegionUS                           0.14544    0.05574    2.61
+    ## `RegionWestern Africa`            -0.96647    0.10763   -8.98
+    ## `RegionWestern Europe`             0.91017    0.11467    7.94
+    ## `RegionWestern Indian Ocean`       0.00189    0.06325    0.03
+    ## Income.composition.of.resources    0.44302    0.09111    4.86
+    ## Schooling                          1.41062    0.10037   14.05
+    ## log.HIV.AIDS                       0.01537    0.13741    0.11
+    ## log.percentage.expenditure         0.16175    0.05687    2.84
+    ## Year                               0.21820    0.05341    4.09
+    ## Adult.Mortality                   -6.48285    0.12098  -53.59
+    ## infant.deaths                     -0.32498    0.05385   -6.03
+    ##                                               Pr(>|t|)    
+    ## (Intercept)                       < 0.0000000000000002 ***
+    ## StatusDeveloping                               0.00127 ** 
+    ## `RegionAustralia and New Zealand`              0.00676 ** 
+    ## RegionCanada                        0.0000004462397013 ***
+    ## RegionCaribbean                     0.0000000000001796 ***
+    ## `RegionCentral Africa`              0.0000255720327197 ***
+    ## `RegionCentral Asia`                           0.00131 ** 
+    ## `RegionCentral Europe`              0.0000174952527167 ***
+    ## `RegionEastern Africa`                         0.29061    
+    ## `RegionEastern Europe`              0.0000103383447609 ***
+    ## RegionMashriq                                  0.47194    
+    ## `RegionMeso-America`              < 0.0000000000000002 ***
+    ## `RegionNorth Africa`                           0.82996    
+    ## `RegionNW Pacific and East Asia`               0.00043 ***
+    ## `RegionSouth America`               0.0000002260039231 ***
+    ## `RegionSouth Asia`                             0.87015    
+    ## `RegionSouth Pacific`                          0.72698    
+    ## `RegionSoutheast Asia`                         0.28658    
+    ## `RegionSouthern Africa`                        0.55746    
+    ## RegionUS                                       0.00913 ** 
+    ## `RegionWestern Africa`            < 0.0000000000000002 ***
+    ## `RegionWestern Europe`              0.0000000000000031 ***
+    ## `RegionWestern Indian Ocean`                   0.97614    
+    ## Income.composition.of.resources     0.0000012324926844 ***
+    ## Schooling                         < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                   0.91095    
+    ## log.percentage.expenditure                     0.00449 ** 
+    ## Year                                0.0000453847071531 ***
+    ## Adult.Mortality                   < 0.0000000000000002 ***
+    ## infant.deaths                       0.0000000018336029 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.61 on 2475 degrees of freedom
-    ## Multiple R-squared:  0.859,  Adjusted R-squared:  0.859 
-    ## F-statistic: 1.16e+03 on 13 and 2475 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.41 on 2459 degrees of freedom
+    ## Multiple R-squared:  0.938,  Adjusted R-squared:  0.937 
+    ## F-statistic: 1.28e+03 on 29 and 2459 DF,  p-value: <0.0000000000000002
 
 ``` r
 # Predicting
 train_pred = predict(MLRT, train)
 test_pred = predict(MLRT, test)
 
-# Scoring the final model on Training and Validation set
+# Scoring the final model on Training and Test set
 summary(MLRT$finalModel)
 ```
 
@@ -3449,45 +9962,77 @@ summary(MLRT$finalModel)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -20.877  -2.038   0.013   1.823  15.364 
+    ## -12.990  -1.266  -0.201   0.988   9.675 
     ## 
     ## Coefficients:
-    ##                                    Estimate  Std. Error t value
-    ## (Intercept)                     -146.456805   34.140537   -4.29
-    ## StatusDeveloping                  -2.135260    0.287632   -7.42
-    ## ContinentAmericas                  3.764104    0.284927   13.21
-    ## ContinentAsia                      1.187955    0.277995    4.27
-    ## ContinentEurope                    1.992013    0.352913    5.64
-    ## ContinentOceania                   0.221231    0.405818    0.55
-    ## Income.composition.of.resources    5.833500    0.631967    9.23
-    ## Schooling                          0.509646    0.041794   12.19
-    ## log.HIV.AIDS                      -2.350421    0.079783  -29.46
-    ## log.GDP                            0.186962    0.059559    3.14
-    ## log.percentage.expenditure         0.222219    0.032729    6.79
-    ## BMI                                0.012915    0.004738    2.73
-    ## Year                               0.101032    0.017073    5.92
-    ## Adult.Mortality                   -0.013590    0.000778  -17.47
-    ##                                             Pr(>|t|)    
-    ## (Intercept)                         0.00001856819056 ***
-    ## StatusDeveloping                    0.00000000000016 ***
-    ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                       0.00001998876310 ***
-    ## ContinentEurope                     0.00000001845670 ***
-    ## ContinentOceania                              0.5857    
-    ## Income.composition.of.resources < 0.0000000000000002 ***
-    ## Schooling                       < 0.0000000000000002 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                       0.0017 ** 
-    ## log.percentage.expenditure          0.00000000001402 ***
-    ## BMI                                           0.0065 ** 
-    ## Year                                0.00000000371605 ***
-    ## Adult.Mortality                 < 0.0000000000000002 ***
+    ##                                   Estimate Std. Error t value
+    ## (Intercept)                       69.14427    0.04823 1433.54
+    ## StatusDeveloping                  -0.26968    0.08360   -3.23
+    ## `RegionAustralia and New Zealand`  0.16318    0.06020    2.71
+    ## RegionCanada                       0.26714    0.05278    5.06
+    ## RegionCaribbean                    0.61861    0.08354    7.40
+    ## `RegionCentral Africa`            -0.38845    0.09210   -4.22
+    ## `RegionCentral Asia`              -0.21712    0.06749   -3.22
+    ## `RegionCentral Europe`             0.43817    0.10182    4.30
+    ## `RegionEastern Africa`            -0.09468    0.08958   -1.06
+    ## `RegionEastern Europe`             0.31166    0.07052    4.42
+    ## RegionMashriq                      0.04726    0.06569    0.72
+    ## `RegionMeso-America`               0.61744    0.07408    8.34
+    ## `RegionNorth Africa`               0.01560    0.07263    0.21
+    ## `RegionNW Pacific and East Asia`   0.23235    0.06592    3.52
+    ## `RegionSouth America`              0.43111    0.08305    5.19
+    ## `RegionSouth Asia`                 0.01311    0.08018    0.16
+    ## `RegionSouth Pacific`             -0.02612    0.07480   -0.35
+    ## `RegionSoutheast Asia`             0.08667    0.08131    1.07
+    ## `RegionSouthern Africa`           -0.06683    0.11391   -0.59
+    ## RegionUS                           0.14544    0.05574    2.61
+    ## `RegionWestern Africa`            -0.96647    0.10763   -8.98
+    ## `RegionWestern Europe`             0.91017    0.11467    7.94
+    ## `RegionWestern Indian Ocean`       0.00189    0.06325    0.03
+    ## Income.composition.of.resources    0.44302    0.09111    4.86
+    ## Schooling                          1.41062    0.10037   14.05
+    ## log.HIV.AIDS                       0.01537    0.13741    0.11
+    ## log.percentage.expenditure         0.16175    0.05687    2.84
+    ## Year                               0.21820    0.05341    4.09
+    ## Adult.Mortality                   -6.48285    0.12098  -53.59
+    ## infant.deaths                     -0.32498    0.05385   -6.03
+    ##                                               Pr(>|t|)    
+    ## (Intercept)                       < 0.0000000000000002 ***
+    ## StatusDeveloping                               0.00127 ** 
+    ## `RegionAustralia and New Zealand`              0.00676 ** 
+    ## RegionCanada                        0.0000004462397013 ***
+    ## RegionCaribbean                     0.0000000000001796 ***
+    ## `RegionCentral Africa`              0.0000255720327197 ***
+    ## `RegionCentral Asia`                           0.00131 ** 
+    ## `RegionCentral Europe`              0.0000174952527167 ***
+    ## `RegionEastern Africa`                         0.29061    
+    ## `RegionEastern Europe`              0.0000103383447609 ***
+    ## RegionMashriq                                  0.47194    
+    ## `RegionMeso-America`              < 0.0000000000000002 ***
+    ## `RegionNorth Africa`                           0.82996    
+    ## `RegionNW Pacific and East Asia`               0.00043 ***
+    ## `RegionSouth America`               0.0000002260039231 ***
+    ## `RegionSouth Asia`                             0.87015    
+    ## `RegionSouth Pacific`                          0.72698    
+    ## `RegionSoutheast Asia`                         0.28658    
+    ## `RegionSouthern Africa`                        0.55746    
+    ## RegionUS                                       0.00913 ** 
+    ## `RegionWestern Africa`            < 0.0000000000000002 ***
+    ## `RegionWestern Europe`              0.0000000000000031 ***
+    ## `RegionWestern Indian Ocean`                   0.97614    
+    ## Income.composition.of.resources     0.0000012324926844 ***
+    ## Schooling                         < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                   0.91095    
+    ## log.percentage.expenditure                     0.00449 ** 
+    ## Year                                0.0000453847071531 ***
+    ## Adult.Mortality                   < 0.0000000000000002 ***
+    ## infant.deaths                       0.0000000018336029 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.61 on 2475 degrees of freedom
-    ## Multiple R-squared:  0.859,  Adjusted R-squared:  0.859 
-    ## F-statistic: 1.16e+03 on 13 and 2475 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.41 on 2459 degrees of freedom
+    ## Multiple R-squared:  0.938,  Adjusted R-squared:  0.937 
+    ## F-statistic: 1.28e+03 on 29 and 2459 DF,  p-value: <0.0000000000000002
 
 ``` r
 residuals = resid(MLRT$finalModel)
@@ -3495,68 +10040,309 @@ postResample(pred = train_pred, obs = train$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.6024   0.8594   2.6576
+    ##    2.392    0.938    1.657
 
 ``` r
 postResample(pred = test_pred, obs = test$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.3403   0.8633   2.5128
+    ##   2.4618   0.9259   1.6154
 
 ``` r
 ### Checking Multiple Liner Regression model assumptions
-fit = lm(Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality, train)
+fit = lm(Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths, data = train)
 confint(fit)
 ```
 
-    ##                                       2.5 %    97.5 %
-    ## (Intercept)                     -213.403767 -79.50984
-    ## StatusDeveloping                  -2.699284  -1.57124
-    ## ContinentAmericas                  3.205385   4.32282
-    ## ContinentAsia                      0.642828   1.73308
-    ## ContinentEurope                    1.299978   2.68405
-    ## ContinentOceania                  -0.574546   1.01701
-    ## Income.composition.of.resources    4.594261   7.07274
-    ## Schooling                          0.427691   0.59160
-    ## log.HIV.AIDS                      -2.506869  -2.19397
-    ## log.GDP                            0.070171   0.30375
-    ## log.percentage.expenditure         0.158040   0.28640
-    ## BMI                                0.003624   0.02221
-    ## Year                               0.067553   0.13451
-    ## Adult.Mortality                   -0.015116  -0.01206
+    ##                                      2.5 %    97.5 %
+    ## (Intercept)                     -67.418895 23.848184
+    ## StatusDeveloping                 -1.145729 -0.279408
+    ## RegionAustralia and New Zealand   0.482202  3.003913
+    ## RegionCanada                      2.187743  4.954788
+    ## RegionCaribbean                   1.887318  3.247004
+    ## RegionCentral Africa             -2.585502 -0.944370
+    ## RegionCentral Asia               -2.098869 -0.509128
+    ## RegionCentral Europe              0.809344  2.164509
+    ## RegionEastern Africa             -1.298323  0.388863
+    ## RegionEastern Europe              0.943737  2.449376
+    ## RegionMashriq                    -0.496613  1.072173
+    ## RegionMeso-America                2.306977  3.726412
+    ## RegionNorth Africa               -0.648852  0.808472
+    ## RegionNW Pacific and East Asia    0.636746  2.233917
+    ## RegionSouth America               1.096781  2.428364
+    ## RegionSouth Asia                 -0.664781  0.785710
+    ## RegionSouth Pacific              -0.840618  0.586491
+    ## RegionSoutheast Asia             -0.305747  1.033955
+    ## RegionSouthern Africa            -1.230752  0.663886
+    ## RegionUS                          0.483071  3.405511
+    ## RegionWestern Africa             -4.263531 -2.735130
+    ## RegionWestern Europe              2.175269  3.602682
+    ## RegionWestern Indian Ocean       -0.853797  0.880248
+    ## Income.composition.of.resources   1.263744  2.971885
+    ## Schooling                         0.362794  0.480455
+    ## log.HIV.AIDS                     -0.156408  0.175331
+    ## log.percentage.expenditure        0.018244  0.099259
+    ## Year                              0.024710  0.070322
+    ## Adult.Mortality                  -0.057931 -0.053840
+    ## infant.deaths                    -0.003534 -0.001801
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-25.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-30.png)<!-- -->
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-26.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-31.png)<!-- -->
 
 ``` r
 plot(fit, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-27.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-32.png)<!-- -->
 
 ``` r
 plot(fit, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-28.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-33.png)<!-- -->
+
+``` r
+##### Visualize prediction vs actual
+x_TMLR = 1:dim(xtest)[1]
+plot(x_TMLR, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (Manual MLR)", ylab="Life expectancy")
+lines(x_fwd, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-34.png)<!-- -->
 
 ``` r
 #####################################################################################
 #                                      Objective 2                                  #
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
+fit_interaction = lm(Life.expectancy ~ Status + Region + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, train)
+
+#fit_interaction = lm(Life.expectancy ~ Status + Region + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + country:infant.mortality.rate, train)
+
+interact_pred_train = predict(fit_interaction, train)
+postResample(pred = interact_pred_train, obs = train$Life.expectancy)
 ```
+
+    ##     RMSE Rsquared      MAE 
+    ##   2.3901   0.9381   1.6548
+
+``` r
+interact_pred = predict(fit_interaction, test)
+postResample(pred = interact_pred, obs = test$Life.expectancy)
+```
+
+    ##     RMSE Rsquared      MAE 
+    ##   2.4654   0.9257   1.6171
+
+``` r
+summary(fit_interaction)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = Life.expectancy ~ Status + Region + Schooling + 
+    ##     log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + 
+    ##     infant.deaths + Income.composition.of.resources:Status, data = train)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -12.974  -1.244  -0.199   0.984   9.727 
+    ## 
+    ## Coefficients:
+    ##                                                    Estimate Std. Error t value
+    ## (Intercept)                                      -19.391355  23.293213   -0.83
+    ## StatusDeveloping                                   3.999836   2.491552    1.61
+    ## RegionAustralia and New Zealand                    1.406995   0.666574    2.11
+    ## RegionCanada                                       3.589490   0.705236    5.09
+    ## RegionCaribbean                                    2.578220   0.346560    7.44
+    ## RegionCentral Africa                              -1.754136   0.418275   -4.19
+    ## RegionCentral Asia                                -1.307152   0.405143   -3.23
+    ## RegionCentral Europe                               1.618064   0.352196    4.59
+    ## RegionEastern Africa                              -0.447643   0.429989   -1.04
+    ## RegionEastern Europe                               1.692785   0.383711    4.41
+    ## RegionMashriq                                      0.291320   0.399803    0.73
+    ## RegionMeso-America                                 3.025030   0.361764    8.36
+    ## RegionNorth Africa                                 0.081201   0.371394    0.22
+    ## RegionNW Pacific and East Asia                     1.398167   0.407503    3.43
+    ## RegionSouth America                                1.768688   0.339364    5.21
+    ## RegionSouth Asia                                   0.056089   0.369659    0.15
+    ## RegionSouth Pacific                               -0.127161   0.363693   -0.35
+    ## RegionSoutheast Asia                               0.353644   0.341462    1.04
+    ## RegionSouthern Africa                             -0.269607   0.482896   -0.56
+    ## RegionUS                                           1.315393   0.815097    1.61
+    ## RegionWestern Africa                              -3.489960   0.389538   -8.96
+    ## RegionWestern Europe                               2.746321   0.371448    7.39
+    ## RegionWestern Indian Ocean                         0.011781   0.441915    0.03
+    ## Schooling                                          0.418931   0.030019   13.96
+    ## log.HIV.AIDS                                      -0.003012   0.084797   -0.04
+    ## log.percentage.expenditure                         0.057221   0.020662    2.77
+    ## Year                                               0.043956   0.011774    3.73
+    ## Adult.Mortality                                   -0.055732   0.001046  -53.31
+    ## infant.deaths                                     -0.002668   0.000442   -6.04
+    ## StatusDeveloped:Income.composition.of.resources    7.763171   3.004782    2.58
+    ## StatusDeveloping:Income.composition.of.resources   2.158873   0.435850    4.95
+    ##                                                              Pr(>|t|)    
+    ## (Intercept)                                                   0.40521    
+    ## StatusDeveloping                                              0.10854    
+    ## RegionAustralia and New Zealand                               0.03489 *  
+    ## RegionCanada                                         0.00000038562329 ***
+    ## RegionCaribbean                                      0.00000000000014 ***
+    ## RegionCentral Africa                                 0.00002841102849 ***
+    ## RegionCentral Asia                                            0.00127 ** 
+    ## RegionCentral Europe                                 0.00000456323195 ***
+    ## RegionEastern Africa                                          0.29795    
+    ## RegionEastern Europe                                 0.00001070269435 ***
+    ## RegionMashriq                                                 0.46628    
+    ## RegionMeso-America                               < 0.0000000000000002 ***
+    ## RegionNorth Africa                                            0.82695    
+    ## RegionNW Pacific and East Asia                                0.00061 ***
+    ## RegionSouth America                                  0.00000020260638 ***
+    ## RegionSouth Asia                                              0.87941    
+    ## RegionSouth Pacific                                           0.72664    
+    ## RegionSoutheast Asia                                          0.30046    
+    ## RegionSouthern Africa                                         0.57668    
+    ## RegionUS                                                      0.10670    
+    ## RegionWestern Africa                             < 0.0000000000000002 ***
+    ## RegionWestern Europe                                 0.00000000000019 ***
+    ## RegionWestern Indian Ocean                                    0.97873    
+    ## Schooling                                        < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                                  0.97167    
+    ## log.percentage.expenditure                                    0.00566 ** 
+    ## Year                                                          0.00019 ***
+    ## Adult.Mortality                                  < 0.0000000000000002 ***
+    ## infant.deaths                                        0.00000000178997 ***
+    ## StatusDeveloped:Income.composition.of.resources               0.00983 ** 
+    ## StatusDeveloping:Income.composition.of.resources     0.00000077941530 ***
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 2.41 on 2458 degrees of freedom
+    ## Multiple R-squared:  0.938,  Adjusted R-squared:  0.937 
+    ## F-statistic: 1.24e+03 on 30 and 2458 DF,  p-value: <0.0000000000000002
+
+``` r
+confint(fit_interaction)
+```
+
+    ##                                                       2.5 %    97.5 %
+    ## (Intercept)                                      -65.067704 26.284995
+    ## StatusDeveloping                                  -0.885921  8.885593
+    ## RegionAustralia and New Zealand                    0.099891  2.714099
+    ## RegionCanada                                       2.206572  4.972409
+    ## RegionCaribbean                                    1.898641  3.257800
+    ## RegionCentral Africa                              -2.574343 -0.933929
+    ## RegionCentral Asia                                -2.101609 -0.512695
+    ## RegionCentral Europe                               0.927432  2.308697
+    ## RegionEastern Africa                              -1.290821  0.395536
+    ## RegionEastern Europe                               0.940354  2.445216
+    ## RegionMashriq                                     -0.492667  1.075306
+    ## RegionMeso-America                                 2.315636  3.734424
+    ## RegionNorth Africa                                -0.647077  0.809479
+    ## RegionNW Pacific and East Asia                     0.599082  2.197252
+    ## RegionSouth America                                1.103219  2.434158
+    ## RegionSouth Asia                                  -0.668786  0.780965
+    ## RegionSouth Pacific                               -0.840338  0.586015
+    ## RegionSoutheast Asia                              -0.315940  1.023228
+    ## RegionSouthern Africa                             -1.216532  0.677319
+    ## RegionUS                                          -0.282955  2.913740
+    ## RegionWestern Africa                              -4.253817 -2.726103
+    ## RegionWestern Europe                               2.017938  3.474703
+    ## RegionWestern Indian Ocean                        -0.854784  0.878345
+    ## Schooling                                          0.360065  0.477796
+    ## log.HIV.AIDS                                      -0.169293  0.163269
+    ## log.percentage.expenditure                         0.016703  0.097738
+    ## Year                                               0.020868  0.067045
+    ## Adult.Mortality                                   -0.057782 -0.053681
+    ## infant.deaths                                     -0.003534 -0.001801
+    ## StatusDeveloped:Income.composition.of.resources    1.871005 13.655338
+    ## StatusDeveloping:Income.composition.of.resources   1.304202  3.013544
+
+``` r
+hist(residuals, main = "Histogram of Residuals")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-1.png)<!-- -->
+
+``` r
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-2.png)<!-- -->
+
+``` r
+plot(fit_interaction, which = 2)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-3.png)<!-- -->
+
+``` r
+plot(fit_interaction, which = 4)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-4.png)<!-- -->
+
+``` r
+#resplit here for now
+index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
+train = LifeExp[index,]
+test = LifeExp[-index,]
+#duplicate dataframe
+LifeExp2 <- LifeExp
+#create cat variables for HIV and Meas as binary No/Yes
+LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>log(.1),1,0),
+                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0))
+
+train_custom <- LifeExp2[index,]
+test_custom <- LifeExp2[index,]
+```
+
+``` r
+#retrain/fit/test/predict and measure accuracy
+fit.custom <- lm(Life.expectancy ~Adult.Mortality + infant.deaths + log.GDP +Measles + HIV_cat + Country + Country:infant.deaths +Country:Adult.Mortality + Adult.Mortality:infant.deaths:Country,data = train_custom)
+#model has interactions between HIV and Measles variables and their respective
+#binary categories to have a sort of conditional
+#interaction between Country:infant.deaths
+
+#check model performance on the test set and test set prediction
+test_custom_pred <- predict(fit.custom,test_custom) #rank deficient warning comes from the self-interactions (ex. HIV_cat:HIV)
+```
+
+    ## Warning in predict.lm(fit.custom, test_custom): prediction from a rank-deficient
+    ## fit may be misleading
+
+``` r
+caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
+```
+
+    ##     RMSE Rsquared      MAE 
+    ##   1.2444   0.9828   0.6874
+
+``` r
+forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
+```
+
+    ## Registered S3 method overwritten by 'quantmod':
+    ##   method            from
+    ##   as.zoo.data.frame zoo
+
+    ##                          ME  RMSE    MAE      MPE   MAPE
+    ## Test set 0.0000000000004744 1.244 0.6874 -0.03111 0.9852
 
 ``` r
 #####################################################################################
@@ -3580,40 +10366,81 @@ cat("No variable with zero variance in the selected list of variables.")
 
 ``` r
 # Scale the numerical variables as KNN is sensitive to that
-LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
+#LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
 
 ### KNN Data Preparation
 index<-sample(1:dim(LifeExpKNN)[1],round(dim(LifeExpKNN)[1]*0.85),replace=F)
 KNNtrain = LifeExpKNN[index,]
 KNNtest = LifeExpKNN[-index,]
-x=KNNtrain[,-4]
+x=KNNtrain[,c(-4, -23)]
 y=KNNtrain$Life.expectancy
-xtest = KNNtest[,-4]
+xtest = KNNtest[,c(-4,-23)]
 ytest = KNNtest$Life.expectancy
+KNN_drop = c(-23,-12, -1)
 
 # Search for optimal k
-k_grid = expand.grid(k = seq(2, 25, by = 1))
+k_grid = expand.grid(k = seq(3, 25, by = 2))
 
 # Model Training
 KNNRegressor = train(
   Life.expectancy~.,
-  data = KNNtrain,
+  data = KNNtrain[,KNN_drop],
   method = "knn",
   preProcess = c("center", "scale"), 
   tuneGrid = k_grid,
+  metric     = "RMSE",
   trControl = cv
   )
 
-KNNRegressor$finalModel
+prediction_test = predict(KNNRegressor, KNNtrain[,KNN_drop])
+postResample(pred = prediction_test, obs = KNNtrain[,KNN_drop]$Life.expectancy)
 ```
 
-    ## 2-nearest neighbor regression model
+    ##     RMSE Rsquared      MAE 
+    ##   1.6100   0.9715   0.9720
 
 ``` r
-prediction_train = predict(KNNRegressor, KNNtrain)
-prediction_test = predict(KNNRegressor, KNNtest)
+prediction_test = predict(KNNRegressor, KNNtest[,KNN_drop])
+postResample(pred = prediction_test, obs = KNNtest[,KNN_drop]$Life.expectancy)
+```
 
+    ##     RMSE Rsquared      MAE 
+    ##   2.3316   0.9394   1.4906
 
+``` r
+plot(KNNRegressor)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20KNN-1.png)<!-- -->
+
+``` r
+varImp(KNNRegressor)
+```
+
+    ## loess r-squared variable importance
+    ## 
+    ##                                 Overall
+    ## Adult.Mortality                  100.00
+    ## Income.composition.of.resources   85.31
+    ## HIV.AIDS                          76.75
+    ## Schooling                         75.52
+    ## thinness.5.9.years                56.73
+    ## thinness..1.19.years              55.93
+    ## infant.deaths                     51.51
+    ## Diphtheria                        49.40
+    ## Polio                             49.01
+    ## BMI                               45.96
+    ## GDP                               44.53
+    ## Hepatitis.B                       38.91
+    ## percentage.expenditure            29.73
+    ## Status                            25.39
+    ## Alcohol                           19.73
+    ## Total.expenditure                 11.94
+    ## Year                               2.83
+    ## Population                         0.00
+    ## Measles                            0.00
+
+``` r
 x = 1:length(KNNtest$Life.expectancy)
 plot(x, KNNtest$Life.expectancy, col = "red", type = "l", lwd=2,
      main = "Life Expectancy prediction")
@@ -3623,7 +10450,7 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20KNN-1.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20KNN-2.png)<!-- -->
 
 ### Visualize ‘k’ and the most important features
 

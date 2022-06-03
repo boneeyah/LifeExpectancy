@@ -21,7 +21,7 @@ output:
   keep_html: TRUE
 always_allow_html: true
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -674,9 +674,9 @@ predict.regsubsets =function (object , newdata ,id ,...){
 #                                       Lasso                                       #
 #####################################################################################
 library(glmnet)
-x=model.matrix(Life.expectancy~.,train)[,-1]
+x=model.matrix(Life.expectancy~.,dplyr::select(train, -c(Country)))[,-1]
 y=train$Life.expectancy
-xtest = model.matrix(Life.expectancy~.,test)[,-1]
+xtest = model.matrix(Life.expectancy~.,dplyr::select(test, -c(Country)))[,-1]
 ytest = test$Life.expectancy
 
 grid=10^seq(10,-2, length =100)
@@ -769,7 +769,7 @@ grid()
 #                                  Forward Selection                                #
 #####################################################################################
 library(leaps)
-mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=41)
+mlr.fwd=regsubsets(Life.expectancy~.,data=dplyr::select(train, -c(Country)),method="forward",nvmax=41)
 testASE<-c()
 for (i in 1:41){
   predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
@@ -851,7 +851,7 @@ grid()
 #                               Backward Elimination                                #
 #####################################################################################
 
-mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=41)
+mlr.bck=regsubsets(Life.expectancy~.,data=dplyr::select(train,-c(Country)),method="backward",nvmax=41)
 testASE<-c()
 for (i in 1:41){
 
@@ -923,9 +923,9 @@ plot(fit.fwd.lm3, which = 4)
 #####################################################################################
 #                                  Ridge regression                                 #
 #####################################################################################
-x=model.matrix(Life.expectancy~.,train)[,-1]
+x=model.matrix(Life.expectancy~.,dplyr::select(train, -c(Country)))[,-1]
 y=train$Life.expectancy
-xtest = model.matrix(Life.expectancy~.,test)[,-1]
+xtest = model.matrix(Life.expectancy~.,dplyr::select(test, -c(Country)))[,-1]
 ytest = test$Life.expectancy
 
 grid=10^seq(10,-2, length =100)
@@ -1075,7 +1075,7 @@ test = LifeExp[-index,]
 #duplicate dataframe
 LifeExp2 <- LifeExp
 #create cat variables for HIV and Meas as binary No/Yes
-LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$HIV.AIDS>0.1,1,0),
+LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>log(.1),1,0),
                                        Meas_cat= if_else(LifeExp2$Measles>0,1,0))
 
 train_custom <- LifeExp2[index,]
