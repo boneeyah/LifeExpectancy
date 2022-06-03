@@ -55,7 +55,6 @@ library(Hmisc)
 library(DataExplorer)
 library(selectiveInference)
 library(dlookr)
-library(forecast) #for getting RMSE comparing actual value to predicted value
 ```
 ```{r message = FALSE}
 # Turn off scientific notation
