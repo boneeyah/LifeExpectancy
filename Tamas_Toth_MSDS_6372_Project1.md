@@ -124,271 +124,135 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Australia
+Panama
 </td>
 <td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-82.7
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-9.71
-</td>
-<td style="text-align:right;">
-10769.4
-</td>
-<td style="text-align:right;">
-91
-</td>
-<td style="text-align:right;">
-340
-</td>
-<td style="text-align:right;">
-66.1
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-92
-</td>
-<td style="text-align:right;">
-9.42
-</td>
-<td style="text-align:right;">
-92
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-62215
-</td>
-<td style="text-align:right;">
-2346694
-</td>
-<td style="text-align:right;">
-0.6
-</td>
-<td style="text-align:right;">
-0.6
-</td>
-<td style="text-align:right;">
-0.936
-</td>
-<td style="text-align:right;">
-20.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Saint Vincent and the Grenadines
-</td>
-<td style="text-align:right;">
-2015
+2006
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-73.2
+76.2
 </td>
 <td style="text-align:right;">
-156
+125
 </td>
 <td style="text-align:right;">
-0
+1
 </td>
 <td style="text-align:right;">
-NA
+5.72
 </td>
 <td style="text-align:right;">
-0.0
+631.1
 </td>
 <td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-54.1
+88
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-3.5
-</td>
-<td style="text-align:right;">
-3.4
-</td>
-<td style="text-align:right;">
-0.720
-</td>
-<td style="text-align:right;">
-13.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Lithuania
-</td>
-<td style="text-align:right;">
-2000
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-71.6
+51.1
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-9.87
-</td>
-<td style="text-align:right;">
-373.3
-</td>
-<td style="text-align:right;">
 98
 </td>
 <td style="text-align:right;">
-19
+7.00
 </td>
 <td style="text-align:right;">
-56.9
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-92
-</td>
-<td style="text-align:right;">
-6.46
-</td>
-<td style="text-align:right;">
-94
+88
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-3297
+5349
 </td>
 <td style="text-align:right;">
-3499536
+339195
 </td>
 <td style="text-align:right;">
-3.4
+2.1
 </td>
 <td style="text-align:right;">
-3.4
+2.0
 </td>
 <td style="text-align:right;">
-0.745
+0.744
 </td>
 <td style="text-align:right;">
-14.0
+12.9
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Singapore
+Austria
 </td>
 <td style="text-align:right;">
-2011
+2007
 </td>
 <td style="text-align:left;">
 Developed
 </td>
 <td style="text-align:right;">
-82.2
+81.0
 </td>
 <td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-1.80
-</td>
-<td style="text-align:right;">
-638.0
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-148
-</td>
-<td style="text-align:right;">
-32.1
+8
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-96
+12.50
 </td>
 <td style="text-align:right;">
-3.93
+7453.9
 </td>
 <td style="text-align:right;">
-96
+85
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+53.7
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+85
+</td>
+<td style="text-align:right;">
+1.40
+</td>
+<td style="text-align:right;">
+85
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-53167
+46587
 </td>
 <td style="text-align:right;">
-NA
+8295487
 </td>
 <td style="text-align:right;">
-2.1
+1.7
 </td>
 <td style="text-align:right;">
-2.1
+1.9
 </td>
 <td style="text-align:right;">
-0.911
+0.860
 </td>
 <td style="text-align:right;">
 15.2
@@ -396,7 +260,7 @@ NA
 </tr>
 <tr>
 <td style="text-align:left;">
-South Sudan
+Dominican Republic
 </td>
 <td style="text-align:right;">
 2010
@@ -405,19 +269,75 @@ South Sudan
 Developing
 </td>
 <td style="text-align:right;">
-55.0
+72.7
 </td>
 <td style="text-align:right;">
-359
+166
 </td>
 <td style="text-align:right;">
-27
+6
+</td>
+<td style="text-align:right;">
+6.02
+</td>
+<td style="text-align:right;">
+664.6
+</td>
+<td style="text-align:right;">
+83
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+53.6
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+85
+</td>
+<td style="text-align:right;">
+4.60
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+0.9
+</td>
+<td style="text-align:right;">
+5452
+</td>
+<td style="text-align:right;">
+9897985
+</td>
+<td style="text-align:right;">
+3.3
+</td>
+<td style="text-align:right;">
+3.3
+</td>
+<td style="text-align:right;">
+0.697
+</td>
+<td style="text-align:right;">
+12.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Monaco
+</td>
+<td style="text-align:right;">
+2013
+</td>
+<td style="text-align:left;">
+Developing
 </td>
 <td style="text-align:right;">
 NA
-</td>
-<td style="text-align:right;">
-0.0
 </td>
 <td style="text-align:right;">
 NA
@@ -426,40 +346,120 @@ NA
 0
 </td>
 <td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-41
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-4.0
-</td>
-<td style="text-align:right;">
-1562
-</td>
-<td style="text-align:right;">
-167192
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-0.000
+0.01
 </td>
 <td style="text-align:right;">
 0.0
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+4.30
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Iceland
+</td>
+<td style="text-align:right;">
+2013
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+82.4
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+7.31
+</td>
+<td style="text-align:right;">
+764.5
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6.2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+8.75
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+4781
+</td>
+<td style="text-align:right;">
+323764
+</td>
+<td style="text-align:right;">
+1.0
+</td>
+<td style="text-align:right;">
+0.9
+</td>
+<td style="text-align:right;">
+0.907
+</td>
+<td style="text-align:right;">
+19.0
 </td>
 </tr>
 </tbody>
@@ -10298,6 +10298,9 @@ plot(fit_interaction, which = 4)
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-4.png)<!-- -->
 
 ``` r
+#######################################################################################
+#                               Manual MLR Miguel                                     #
+#######################################################################################
 #resplit here for now
 index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
 train = LifeExp[index,]
