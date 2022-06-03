@@ -282,10 +282,27 @@ pop_all$Country <- replace(pop_all$Country, pop_all$Country == "North Macedonia"
 pop_all$Country <- replace(pop_all$Country, pop_all$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
 pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Venezuela (Bolivarian Republic of)", "Venezuela")
 LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Population = Population2)
+
+#replace adult.mortality since there are clear mistakes with the data that could
+#not be resolved with transformation of the variable
+adlt_mort <- read.csv('Adult_mort.csv',header = TRUE)
+adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Venezuela (Bolivarian Republic of)","Venezuela")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Iran (Islamic Republic of)", "Iran")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Eswatini", "Swaziland")
+adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "The former Yugoslav Republic of Macedonia", "The former Yugoslav republic of Macedonia")
+
+LifeExp <- left_join(LifeExp,adlt_mort, by=c("Country","Year"))
+LifeExp <- LifeExp %>% 
+  dplyr::mutate("Adult.Mortality" = Adult.Mort2)
 #drop new variables
-drop = c("GDP2","Schooling2","comp2", "Population2")
+drop = c("GDP2","Schooling2","comp2", "Population2","Adult.Mort2")
 LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 LifeExpKNN = LifeExp
+
+
 ```
 
 ### Full Correlation Matrix for Linear Regression (Life.expectancy)
@@ -547,8 +564,8 @@ LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "coun
 LifeExp$Continent = as.factor(LifeExp$Continent)
 LifeExp$Status = as.factor(LifeExp$Status)
 
-drop = c('Country')#,'HIV.AIDS', 'percentage.expenditure')
-LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
+#drop = c('Country')#,'HIV.AIDS', 'percentage.expenditure')
+#LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
 
 ```
 
@@ -969,18 +986,21 @@ test = LifeExp[-index,]
 #duplicate dataframe
 LifeExp2 <- LifeExp
 #create cat variables for HIV and Meas as binary No/Yes
-LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIVcat = if_else(LifeExp2$HIV.AIDS>0.1,1,0),
-                                       Meascat= if_else(LifeExp2$Measles>0,1,0))
-LifeExp2$Meascat <- as.factor(LifeExp2$Meascat)
-LifeExp2$HIVcat <- as.factor(LifeExp2$HIVcat)
-#retrain/fit/test/predict and measure accuracy
-train_cus <- LifeExp2[index,]
-test_cu <- LifeExp2[index,]
-fit.custom <- lm(Life.expectancy ~Year + Status + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + Region + Meascat:Measles + HIVcat:log.HIV.AIDS +HIVcat +Meascat,data = train_cus)
-#RMSE performs slightly better. 
+LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$HIV.AIDS>0.1,1,0),
+                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0))
 
-train_cus_pred <- predict(fit.custom,test_cu)
-accuracy(train_cus_pred,test_cu$Life.expectancy)
+#retrain/fit/test/predict and measure accuracy
+train_custom <- LifeExp2[index,]
+test_custom <- LifeExp2[index,]
+fit.custom <- lm(Life.expectancy ~Year + Status + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + Meas_cat:Measles + HIV_cat:log.HIV.AIDS +HIV_cat +Meas_cat + Country +Country:infant.deaths,data = train_custom)
+#model has interactions between HIV and Measles variables and their respective
+#binary categories to have a sort of conditional
+#interaction between Country:infant.deaths
+
+#check model performance on the test set and test set prediction
+test_custom_pred <- predict(fit.custom,test_custom)
+accuracy(test_custom_pred,test_custom$Life.expectancy)
+
 ```
 
 ```{r Objective 2 KNN}
