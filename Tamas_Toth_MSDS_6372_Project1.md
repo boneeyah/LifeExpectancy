@@ -124,342 +124,342 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Solomon Islands
+Brazil
 </td>
 <td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-68.8
-</td>
-<td style="text-align:right;">
-183
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0.01
-</td>
-<td style="text-align:right;">
-3.718
-</td>
-<td style="text-align:right;">
-88
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-49.7
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-94
-</td>
-<td style="text-align:right;">
-5.50
-</td>
-<td style="text-align:right;">
-88
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-29.65
-</td>
-<td style="text-align:right;">
-57554
-</td>
-<td style="text-align:right;">
-1.1
-</td>
-<td style="text-align:right;">
-1.2
-</td>
-<td style="text-align:right;">
-0.512
-</td>
-<td style="text-align:right;">
-9.6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Malawi
-</td>
-<td style="text-align:right;">
-2004
+2005
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-45.1
+72.7
 </td>
 <td style="text-align:right;">
-615
+163
 </td>
 <td style="text-align:right;">
-40
+75
 </td>
 <td style="text-align:right;">
-1.11
+6.97
 </td>
 <td style="text-align:right;">
-58.136
-</td>
-<td style="text-align:right;">
-89
-</td>
-<td style="text-align:right;">
-1116
-</td>
-<td style="text-align:right;">
-15.5
-</td>
-<td style="text-align:right;">
-65
-</td>
-<td style="text-align:right;">
-94
-</td>
-<td style="text-align:right;">
-7.82
-</td>
-<td style="text-align:right;">
-89
-</td>
-<td style="text-align:right;">
-23.4
-</td>
-<td style="text-align:right;">
-274.23
-</td>
-<td style="text-align:right;">
-1267638
-</td>
-<td style="text-align:right;">
-7.5
-</td>
-<td style="text-align:right;">
-7.4
-</td>
-<td style="text-align:right;">
-0.366
-</td>
-<td style="text-align:right;">
-10.0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Mali
-</td>
-<td style="text-align:right;">
-2003
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-52.0
-</td>
-<td style="text-align:right;">
-299
-</td>
-<td style="text-align:right;">
-59
-</td>
-<td style="text-align:right;">
-0.54
-</td>
-<td style="text-align:right;">
-6.660
-</td>
-<td style="text-align:right;">
-79
-</td>
-<td style="text-align:right;">
-232
-</td>
-<td style="text-align:right;">
-17.0
-</td>
-<td style="text-align:right;">
-106
-</td>
-<td style="text-align:right;">
-67
-</td>
-<td style="text-align:right;">
-6.25
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-2.2
-</td>
-<td style="text-align:right;">
-391.79
-</td>
-<td style="text-align:right;">
-125128
-</td>
-<td style="text-align:right;">
-1.3
-</td>
-<td style="text-align:right;">
-1.2
-</td>
-<td style="text-align:right;">
-0.318
-</td>
-<td style="text-align:right;">
-5.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Israel
-</td>
-<td style="text-align:right;">
-2009
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-81.5
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-2.55
-</td>
-<td style="text-align:right;">
-508.664
+23.76
 </td>
 <td style="text-align:right;">
 98
 </td>
 <td style="text-align:right;">
-5
+6
 </td>
 <td style="text-align:right;">
-62.6
+47.8
 </td>
 <td style="text-align:right;">
-1
+85
 </td>
 <td style="text-align:right;">
-96
+99
 </td>
 <td style="text-align:right;">
-7.46
+8.27
 </td>
 <td style="text-align:right;">
-96
+99
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-27795.88
+477.2
 </td>
 <td style="text-align:right;">
-74856
+186917361
 </td>
 <td style="text-align:right;">
-1.2
+3.2
 </td>
 <td style="text-align:right;">
-1.1
+3.1
 </td>
 <td style="text-align:right;">
-0.876
+0.694
 </td>
 <td style="text-align:right;">
-15.6
+13.8
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Grenada
+Switzerland
 </td>
 <td style="text-align:right;">
-2012
+2005
 </td>
 <td style="text-align:left;">
-Developing
+Developed
 </td>
 <td style="text-align:right;">
-73.1
+81.1
 </td>
 <td style="text-align:right;">
-146
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-8.07
-</td>
-<td style="text-align:right;">
-866.000
-</td>
-<td style="text-align:right;">
-97
+66
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-45.6
+10.15
 </td>
 <td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-6.36
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-7583.19
+10055.35
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-3.8
+60
 </td>
 <td style="text-align:right;">
-3.8
+53.2
 </td>
 <td style="text-align:right;">
-0.744
+0
 </td>
 <td style="text-align:right;">
-15.8
+94
+</td>
+<td style="text-align:right;">
+1.86
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+54797.5
+</td>
+<td style="text-align:right;">
+7437115
+</td>
+<td style="text-align:right;">
+0.6
+</td>
+<td style="text-align:right;">
+0.4
+</td>
+<td style="text-align:right;">
+0.899
+</td>
+<td style="text-align:right;">
+15.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Italy
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+82.0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+7.49
+</td>
+<td style="text-align:right;">
+4793.90
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+376
+</td>
+<td style="text-align:right;">
+62.1
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+9.28
+</td>
+<td style="text-align:right;">
+97
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+34814.1
+</td>
+<td style="text-align:right;">
+59539717
+</td>
+<td style="text-align:right;">
+0.5
+</td>
+<td style="text-align:right;">
+0.6
+</td>
+<td style="text-align:right;">
+0.877
+</td>
+<td style="text-align:right;">
+16.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Samoa
+</td>
+<td style="text-align:right;">
+2015
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+74.0
+</td>
+<td style="text-align:right;">
+125
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+74.7
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+66
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+4149.4
+</td>
+<td style="text-align:right;">
+193759
+</td>
+<td style="text-align:right;">
+0.2
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+0.702
+</td>
+<td style="text-align:right;">
+12.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thailand
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+73.0
+</td>
+<td style="text-align:right;">
+168
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+6.18
+</td>
+<td style="text-align:right;">
+433.92
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+3588
+</td>
+<td style="text-align:right;">
+23.6
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+3.49
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+0.5
+</td>
+<td style="text-align:right;">
+3369.0
+</td>
+<td style="text-align:right;">
+65824164
+</td>
+<td style="text-align:right;">
+8.7
+</td>
+<td style="text-align:right;">
+8.9
+</td>
+<td style="text-align:right;">
+0.686
+</td>
+<td style="text-align:right;">
+12.4
 </td>
 </tr>
 </tbody>
@@ -1212,8 +1212,24 @@ US_Inc$Country <- replace(US_Inc$Country,US_Inc$Country == "United States", "Uni
 LifeExp <- left_join(LifeExp,US_Inc,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(LifeExp$Country == "United States of America", LifeExp$comp2,LifeExp$Income.composition.of.resources))
 
+#Add population from external source
+#data from UN in thousands 
+pop_all <- read.csv('WPP2019_TotalPopulationBySex.csv')
+pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
+
+#clean country names to match before merge
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Bolivia (Plurinational State of)", "Bolivia")
+pop_all$Country <- replace(pop_all$Country,pop_all$Country == "Côte d'Ivoire", "Ivory Coast")
+pop_all$Country <- replace(pop_all$Country,pop_all$Country == "Dem. People's Republic of Korea","Democratic People's Republic of Korea")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Iran (Islamic Republic of)", "Iran")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Micronesia (Fed. States of)", "Micronesia (Federated States of)")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Eswatini", "Swaziland")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "North Macedonia", "The former Yugoslav republic of Macedonia")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
+pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Venezuela (Bolivarian Republic of)", "Venezuela")
+LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Population = Population2)
 #drop new variables
-drop = c("GDP2","Schooling2","comp2", "Population")
+drop = c("GDP2","Schooling2","comp2", "Population2")
 LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 LifeExpKNN = LifeExp
 ```
@@ -1291,7 +1307,219 @@ egg::ggarrange(hist_p, box_p, heights = 2:1)
 }
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-18.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-10-19.png" angle=90 style="display: block; margin: auto;" />
+
+### Categorical data plots
+
+``` r
+#####################################################################################
+#                               Categorical data plots                              #
+#####################################################################################
+num_var = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+cat_cols = LifeExp %>% dplyr::select(where(is.factor)) %>% colnames()
+num_ex = c('Year')
+num_var_plots = noquote(unlist(num_var[!( num_var %in% num_ex)]))
+# Plot all categorical variables
+for (c in cat_cols)
+{
+  cat_plot = LifeExp %>% ggplot(aes(x= .data[[c]], group = 1)) + 
+    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
+    geom_text(aes( label = scales::percent(..prop..),
+                   y= ..prop.. ), stat= "count", vjust = -.5) +
+    labs(y = "Percent") +
+    scale_y_continuous(labels = scales::percent) + theme(legend.position = "none") +
+    ggtitle(paste(c, "Categorical Analysis")) + 
+    theme(plot.title = element_text(hjust = 0.5)) + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # +
+    #scale_fill_brewer(palette="Oranges")
+    egg::ggarrange(cat_plot, ncol=2) 
+}
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-2.png" angle=90 style="display: block; margin: auto;" />
+
+## Bi-variate analysis with Status variable
+
+``` r
+#####################################################################################
+#                     Bi-variate analysis with Status variable                      #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Status, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Status") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Status bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-12-19.png" angle=90 style="display: block; margin: auto;" />
+
+## Bi-variate analysis with Region variable
+
+``` r
+#####################################################################################
+#                     Bi-variate analysis with Region variable                   #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Region, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Region") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Region bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+    scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-19.png" angle=90 style="display: block; margin: auto;" />
+\## Overall life expectancy over time
+
+``` r
+#####################################################################################
+#                          Overall life expectancy over time                        #
+#####################################################################################
+
+mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+
+#Overall life expectancy
+ggplot(data=mean_LifeExp, aes(x=Year, y=meanle)) +
+  geom_line()+
+  geom_point() +
+   ggtitle("Mean life expactancy by year") +
+  theme(plot.title = element_text(hjust = 0.5))+
+   xlab("Year") + ylab("Average Life Expectancy")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-14-1.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+#Overall life expectancy by Region
+ggplot(data=mean_LifeExp_reg, aes(x=Year, y=meanle, group = Region)) +
+  geom_line(aes(color=Region))+
+  geom_point(aes(color=Region)) +
+  ggtitle("Mean life expactancy by year by region") +
+theme(plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("Average Life Expectancy")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-14-2.png" angle=90 style="display: block; margin: auto;" />
+
+### Categorical data plots
+
+``` r
+#####################################################################################
+#                               Categorical data plots                              #
+#####################################################################################
+num_var = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+cat_cols = LifeExp %>% dplyr::select(where(is.factor)) %>% colnames()
+num_ex = c('Year')
+num_var_plots = noquote(unlist(num_var[!( num_var %in% num_ex)]))
+# Plot all categorical variables
+for (c in cat_cols)
+{
+  cat_plot = LifeExp %>% ggplot(aes(x= .data[[c]], group = 1)) + 
+    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
+    geom_text(aes( label = scales::percent(..prop..),
+                   y= ..prop.. ), stat= "count", vjust = -.5) +
+    labs(y = "Percent") +
+    scale_y_continuous(labels = scales::percent) + theme(legend.position = "none") +
+    ggtitle(paste(c, "Categorical Analysis")) + 
+    theme(plot.title = element_text(hjust = 0.5)) + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # +
+    #scale_fill_brewer(palette="Oranges")
+    egg::ggarrange(cat_plot, ncol=2) 
+}
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-2.png" angle=90 style="display: block; margin: auto;" />
+
+## Bi-variate analysis with Status variable
+
+``` r
+#####################################################################################
+#                     Bi-variate analysis with Status variable                      #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Status, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Status") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Status bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-19.png" angle=90 style="display: block; margin: auto;" />
+
+## Bi-variate analysis with Region variable
+
+``` r
+#####################################################################################
+#                     Bi-variate analysis with Region variable                   #
+#####################################################################################
+for (i in num_var_plots)
+{
+multibox = LifeExp %>%
+  ggplot(aes(x=Region, y = .data[[i]])) +
+  geom_boxplot(fill = "sandybrown", color = "black") + 
+  xlab("Region") +
+  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
+  ggtitle(paste(i, "vs Region bi-variate analysis")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+    scale_fill_brewer(palette = "Oranges")  
+egg::ggarrange(multibox, ncol=2)
+}
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-17-19.png" angle=90 style="display: block; margin: auto;" />
+\## Overall life expectancy over time
+
+``` r
+#####################################################################################
+#                          Overall life expectancy over time                        #
+#####################################################################################
+
+mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
+
+#Overall life expectancy
+ggplot(data=mean_LifeExp, aes(x=Year, y=meanle)) +
+  geom_line()+
+  geom_point() +
+   ggtitle("Mean life expactancy by year") +
+  theme(plot.title = element_text(hjust = 0.5))+
+   xlab("Year") + ylab("Average Life Expectancy")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-18-1.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+#Overall life expectancy by Region
+ggplot(data=mean_LifeExp_reg, aes(x=Year, y=meanle, group = Region)) +
+  geom_line(aes(color=Region))+
+  geom_point(aes(color=Region)) +
+  ggtitle("Mean life expactancy by year by region") +
+theme(plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + ylab("Average Life Expectancy")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-18-2.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #####################################################################################
@@ -1331,7 +1559,7 @@ test = LifeExp[-index,]
 describe(train)
 ```
 
-    ## # A tibble: 22 × 26
+    ## # A tibble: 23 × 26
     ##    described_variabl…     n    na   mean     sd se_mean    IQR skewness kurtosis
     ##    <chr>              <int> <int>  <dbl>  <dbl>   <dbl>  <dbl>    <dbl>    <dbl>
     ##  1 Year                2489     0 2.01e3 4.59e0 9.20e-2   7    -0.00819   -1.20 
@@ -1344,7 +1572,7 @@ describe(train)
     ##  8 Measles             2489     0 2.54e3 1.18e4 2.37e+2 410     9.27     111.   
     ##  9 BMI                 2489     0 3.80e1 2.00e1 4.01e-1  36.7  -0.227     -1.32 
     ## 10 under.five.deaths   2489     0 4.41e1 1.66e2 3.33e+0  30     9.09     101.   
-    ## # … with 12 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>, p05 <dbl>,
+    ## # … with 13 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>, p05 <dbl>,
     ## #   p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>, p50 <dbl>,
     ## #   p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>, p95 <dbl>,
     ## #   p99 <dbl>, p100 <dbl>
@@ -1360,7 +1588,7 @@ skewness can be identified in Population
 normality(train) 
 ```
 
-    ## # A tibble: 22 × 4
+    ## # A tibble: 23 × 4
     ##    vars                   statistic  p_value sample
     ##    <chr>                      <dbl>    <dbl>  <dbl>
     ##  1 Year                       0.948 7.20e-29   2489
@@ -1373,7 +1601,7 @@ normality(train)
     ##  8 Measles                    0.212 4.17e-73   2489
     ##  9 BMI                        0.926 2.73e-33   2489
     ## 10 under.five.deaths          0.247 3.40e-72   2489
-    ## # … with 12 more rows
+    ## # … with 13 more rows
 
 ``` r
 #Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
@@ -1386,27 +1614,27 @@ train %>%
   arrange(abs(p_value))
 ```
 
-    ## # A tibble: 22 × 4
+    ## # A tibble: 23 × 4
     ##    vars                   statistic  p_value sample
     ##    <chr>                      <dbl>    <dbl>  <dbl>
     ##  1 Measles                    0.212 4.17e-73   2489
-    ##  2 infant.deaths              0.239 2.12e-72   2489
-    ##  3 under.five.deaths          0.247 3.40e-72   2489
-    ##  4 HIV.AIDS                   0.359 5.46e-69   2489
-    ##  5 percentage.expenditure     0.399 9.65e-68   2489
-    ##  6 GDP                        0.543 1.47e-62   2489
-    ##  7 Diphtheria                 0.690 1.58e-55   2489
-    ##  8 Polio                      0.692 2.12e-55   2489
-    ##  9 log.HIV.AIDS               0.712 3.11e-54   2489
-    ## 10 Hepatitis.B                0.723 1.44e-53   2489
-    ## # … with 12 more rows
+    ##  2 Population                 0.226 9.42e-73   2489
+    ##  3 infant.deaths              0.239 2.12e-72   2489
+    ##  4 under.five.deaths          0.247 3.40e-72   2489
+    ##  5 HIV.AIDS                   0.359 5.46e-69   2489
+    ##  6 percentage.expenditure     0.399 9.65e-68   2489
+    ##  7 GDP                        0.543 1.47e-62   2489
+    ##  8 Diphtheria                 0.690 1.58e-55   2489
+    ##  9 Polio                      0.692 2.12e-55   2489
+    ## 10 log.HIV.AIDS               0.712 3.11e-54   2489
+    ## # … with 13 more rows
 
 ``` r
 # Verify non normality and transformation options of the variability 
 plot_normality(train)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-1.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-2.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-3.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-4.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-5.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-6.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-7.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-8.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-9.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-10.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-11.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-12.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-13.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-14.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-15.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-16.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-17.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-18.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-19.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-20.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-21.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-22.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-1.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-2.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-3.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-4.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-5.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-6.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-7.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-8.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-9.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-10.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-11.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-12.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-13.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-14.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-15.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-16.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-17.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-18.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-19.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-20.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-21.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-22.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-23.png)<!-- -->
 
 ## Observations
 
@@ -1481,55 +1709,56 @@ testMSE_LASSO
 coef(lasso.mod,s=bestlambda)
 ```
 
-    ## 48 x 1 sparse Matrix of class "dgCMatrix"
-    ##                                             s1
-    ## (Intercept)                     -130.681803403
-    ## Year                               0.092671721
-    ## StatusDeveloping                  -0.918150949
-    ## Adult.Mortality                   -0.011254070
-    ## infant.deaths                      .          
-    ## Alcohol                           -0.027440284
-    ## percentage.expenditure             0.000022150
-    ## Hepatitis.B                        .          
-    ## Measles                           -0.000008764
-    ## BMI                                0.006043653
-    ## under.five.deaths                 -0.001439040
-    ## Polio                              0.021601927
-    ## Total.expenditure                 -0.013616481
-    ## Diphtheria                         0.023179633
-    ## HIV.AIDS                          -0.143044587
-    ## GDP                                0.000001651
-    ## thinness..1.19.years               .          
-    ## thinness.5.9.years                -0.038911002
-    ## Income.composition.of.resources    4.461773689
-    ## Schooling                          0.486773138
-    ## RegionAustralia and New Zealand    4.216713636
-    ## RegionCanada                       3.456209772
-    ## RegionCaribbean                    1.249773727
-    ## RegionCentral Africa              -1.014557501
-    ## RegionCentral Asia                -3.360908286
-    ## RegionCentral Europe               1.763767162
-    ## RegionEastern Africa               .          
-    ## RegionEastern Europe               .          
-    ## RegionMashriq                      0.171912087
-    ## RegionMeso-America                 1.766367649
-    ## RegionNorth Africa                 0.856697648
-    ## RegionNW Pacific and East Asia     0.907931205
-    ## RegionSouth America                .          
-    ## RegionSouth Asia                  -0.335227120
-    ## RegionSouth Pacific                .          
-    ## RegionSoutheast Asia               0.038523364
-    ## RegionSouthern Africa             -1.914286934
-    ## RegionUS                           0.006416786
-    ## RegionWestern Africa              -2.862602854
-    ## RegionWestern Europe               5.082035845
-    ## RegionWestern Indian Ocean        -0.258232846
-    ## log.HIV.AIDS                      -1.633137413
-    ## log.GDP                            0.102354552
-    ## log.percentage.expenditure         0.128893259
-    ## ContinentAmericas                  2.574306571
-    ## ContinentAsia                      1.425398345
-    ## ContinentEurope                    .          
+    ## 49 x 1 sparse Matrix of class "dgCMatrix"
+    ##                                               s1
+    ## (Intercept)                     -120.14327346318
+    ## Year                               0.08750529491
+    ## StatusDeveloping                  -0.94632375192
+    ## Adult.Mortality                   -0.01112238578
+    ## infant.deaths                      .            
+    ## Alcohol                           -0.03079196830
+    ## percentage.expenditure             0.00004106166
+    ## Hepatitis.B                        0.00000078399
+    ## Measles                           -0.00001786203
+    ## BMI                                0.00616366644
+    ## under.five.deaths                 -0.00334059322
+    ## Polio                              0.02102923336
+    ## Total.expenditure                 -0.01929565325
+    ## Diphtheria                         0.02205563345
+    ## HIV.AIDS                          -0.14729822668
+    ## GDP                                .            
+    ## Population                         0.00000000372
+    ## thinness..1.19.years               .            
+    ## thinness.5.9.years                -0.04223255378
+    ## Income.composition.of.resources    4.34871417174
+    ## Schooling                          0.49399422121
+    ## RegionAustralia and New Zealand    4.19352305715
+    ## RegionCanada                       3.49560169034
+    ## RegionCaribbean                    1.36797908786
+    ## RegionCentral Africa              -0.95436529961
+    ## RegionCentral Asia                -3.36511760547
+    ## RegionCentral Europe               1.80754934977
+    ## RegionEastern Africa               .            
+    ## RegionEastern Europe               .            
+    ## RegionMashriq                      0.18153042423
+    ## RegionMeso-America                 1.85640652781
+    ## RegionNorth Africa                 0.87052427119
+    ## RegionNW Pacific and East Asia     .            
+    ## RegionSouth America                .            
+    ## RegionSouth Asia                  -0.34653278637
+    ## RegionSouth Pacific                .            
+    ## RegionSoutheast Asia               .            
+    ## RegionSouthern Africa             -1.89355097364
+    ## RegionUS                          -0.45974958846
+    ## RegionWestern Africa              -2.73932758290
+    ## RegionWestern Europe               5.06571615217
+    ## RegionWestern Indian Ocean        -0.22048042099
+    ## log.HIV.AIDS                      -1.60288207592
+    ## log.GDP                            0.11070598425
+    ## log.percentage.expenditure         0.12191491203
+    ## ContinentAmericas                  2.49409765176
+    ## ContinentAsia                      1.44743164878
+    ## ContinentEurope                    .            
     ## ContinentOceania                   .
 
 ``` r
@@ -1552,71 +1781,71 @@ postResample(pred = lasso.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0919   0.8833   2.3356
+    ##   3.0919   0.8832   2.3310
 
 ``` r
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + infant.deaths + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP, data = train)
 summary(fit.lasso.lm)
 ```
 
     ## 
     ## Call:
-    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + infant.deaths + 
-    ##     Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + 
-    ##     Polio + Total.expenditure + Diphtheria + thinness.5.9.years + 
-    ##     Income.composition.of.resources + Schooling + log.HIV.AIDS + 
-    ##     log.GDP + log.percentage.expenditure, data = train)
+    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Alcohol + 
+    ##     log.percentage.expenditure + Hepatitis.B + Measles + BMI + 
+    ##     under.five.deaths + Polio + Total.expenditure + Diphtheria + 
+    ##     log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + log.GDP, data = train)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -18.922  -1.999  -0.048   1.983  16.182 
+    ## -18.869  -2.023  -0.043   1.966  16.346 
     ## 
     ## Coefficients:
-    ##                                     Estimate   Std. Error t value
-    ## (Intercept)                     -72.84662267  34.47820374   -2.11
-    ## Year                              0.06286390   0.01724224    3.65
-    ## Adult.Mortality                  -0.01510695   0.00078449  -19.26
-    ## infant.deaths                     0.04945701   0.00806933    6.13
-    ## Alcohol                           0.13065718   0.02440115    5.35
-    ## Hepatitis.B                      -0.00409920   0.00375702   -1.09
-    ## Measles                          -0.00001453   0.00000721   -2.02
-    ## BMI                               0.00879275   0.00480580    1.83
-    ## under.five.deaths                -0.03702410   0.00593310   -6.24
-    ## Polio                             0.01634813   0.00438005    3.73
-    ## Total.expenditure                 0.03868571   0.03226278    1.20
-    ## Diphtheria                        0.02187874   0.00473501    4.62
-    ## thinness.5.9.years               -0.10854302   0.02285959   -4.75
-    ## Income.composition.of.resources   5.92110182   0.63021061    9.40
-    ## Schooling                         0.46046697   0.04385247   10.50
-    ## log.HIV.AIDS                     -2.36205237   0.06923422  -34.12
-    ## log.GDP                           0.27673098   0.06011828    4.60
-    ## log.percentage.expenditure        0.20030991   0.03308232    6.05
+    ##                                         Estimate       Std. Error t value
+    ## (Intercept)                     -65.816869664578  34.568489373985   -1.90
+    ## Year                              0.059213650381   0.017286016352    3.43
+    ## Adult.Mortality                  -0.014947631507   0.000785990378  -19.02
+    ## Alcohol                           0.114313628030   0.024244207641    4.72
+    ## log.percentage.expenditure        0.200532992556   0.033167260950    6.05
+    ## Hepatitis.B                      -0.005040358472   0.003759889757   -1.34
+    ## Measles                          -0.000027043682   0.000007612304   -3.55
+    ## BMI                               0.010138195221   0.004828773006    2.10
+    ## under.five.deaths                -0.002844508349   0.000702763055   -4.05
+    ## Polio                             0.016561770548   0.004389774026    3.77
+    ## Total.expenditure                 0.032548163639   0.032382693943    1.01
+    ## Diphtheria                        0.023298365019   0.004729613285    4.93
+    ## log.HIV.AIDS                     -2.409272907985   0.068385919287  -35.23
+    ## Population                        0.000000003919   0.000000000765    5.13
+    ## thinness.5.9.years               -0.092905779016   0.022832000254   -4.07
+    ## Income.composition.of.resources   6.006774382857   0.631112751439    9.52
+    ## Schooling                         0.468967192787   0.043943061997   10.67
+    ## log.GDP                           0.267173823302   0.060277170365    4.43
     ##                                             Pr(>|t|)    
-    ## (Intercept)                                  0.03472 *  
-    ## Year                                         0.00027 ***
+    ## (Intercept)                                  0.05703 .  
+    ## Year                                         0.00062 ***
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## infant.deaths                          0.00000000103 ***
-    ## Alcohol                                0.00000009368 ***
-    ## Hepatitis.B                                  0.27535    
-    ## Measles                                      0.04388 *  
-    ## BMI                                          0.06743 .  
-    ## under.five.deaths                      0.00000000051 ***
-    ## Polio                                        0.00019 ***
-    ## Total.expenditure                            0.23061    
-    ## Diphtheria                             0.00000402227 ***
-    ## thinness.5.9.years                     0.00000216913 ***
+    ## Alcohol                                 0.0000025504 ***
+    ## log.percentage.expenditure              0.0000000017 ***
+    ## Hepatitis.B                                  0.18019    
+    ## Measles                                      0.00039 ***
+    ## BMI                                          0.03587 *  
+    ## under.five.deaths                       0.0000533344 ***
+    ## Polio                                        0.00017 ***
+    ## Total.expenditure                            0.31494    
+    ## Diphtheria                              0.0000008945 ***
+    ## log.HIV.AIDS                    < 0.0000000000000002 ***
+    ## Population                              0.0000003188 ***
+    ## thinness.5.9.years                      0.0000486747 ***
     ## Income.composition.of.resources < 0.0000000000000002 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                0.00000437292 ***
-    ## log.percentage.expenditure             0.00000000162 ***
+    ## log.GDP                                 0.0000097249 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.64 on 2471 degrees of freedom
+    ## Residual standard error: 3.65 on 2471 degrees of freedom
     ## Multiple R-squared:  0.857,  Adjusted R-squared:  0.856 
-    ## F-statistic:  872 on 17 and 2471 DF,  p-value: <0.0000000000000002
+    ## F-statistic:  868 on 17 and 2471 DF,  p-value: <0.0000000000000002
 
 ``` r
 ### Visualize VIF
@@ -1628,81 +1857,28 @@ abline(v=10, col="red")
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-4.png)<!-- -->
 
 ``` r
+######################################################################################################
+#Tamas I believe that with the new data set there is no colinearity based on VIF unless we go with 4 #
+# I'm commenting out the next section of code for now                                                #
+######################################################################################################
+
+
 # We can see that LASSO did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (infant.death).
 
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-fit.lasso.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
-summary(fit.lasso.lm2)
-```
+#fit.lasso.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+#summary(fit.lasso.lm2)
 
-    ## 
-    ## Call:
-    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Alcohol + 
-    ##     Hepatitis.B + Measles + BMI + under.five.deaths + Polio + 
-    ##     Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + 
-    ##     Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, 
-    ##     data = train)
-    ## 
-    ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -18.874  -2.043  -0.023   1.973  16.389 
-    ## 
-    ## Coefficients:
-    ##                                     Estimate   Std. Error t value
-    ## (Intercept)                     -70.85633377  34.73072041   -2.04
-    ## Year                              0.06157424   0.01736800    3.55
-    ## Adult.Mortality                  -0.01497611   0.00078998  -18.96
-    ## Alcohol                           0.11048194   0.02435626    4.54
-    ## Hepatitis.B                      -0.00544586   0.00377823   -1.44
-    ## Measles                          -0.00001473   0.00000726   -2.03
-    ## BMI                               0.00834564   0.00484065    1.72
-    ## under.five.deaths                -0.00083548   0.00058630   -1.42
-    ## Polio                             0.01755367   0.00440787    3.98
-    ## Total.expenditure                 0.04189082   0.03249624    1.29
-    ## Diphtheria                        0.02505805   0.00474119    5.29
-    ## thinness.5.9.years               -0.09624228   0.02293911   -4.20
-    ## Income.composition.of.resources   6.22476459   0.63288947    9.84
-    ## Schooling                         0.46649384   0.04416449   10.56
-    ## log.HIV.AIDS                     -2.44676788   0.06834035  -35.80
-    ## log.GDP                           0.27577744   0.06056107    4.55
-    ## log.percentage.expenditure        0.19328041   0.03330606    5.80
-    ##                                             Pr(>|t|)    
-    ## (Intercept)                                   0.0414 *  
-    ## Year                                          0.0004 ***
-    ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                 0.0000060046 ***
-    ## Hepatitis.B                                   0.1496    
-    ## Measles                                       0.0425 *  
-    ## BMI                                           0.0848 .  
-    ## under.five.deaths                             0.1543    
-    ## Polio                                   0.0000702084 ***
-    ## Total.expenditure                             0.1975    
-    ## Diphtheria                              0.0000001366 ***
-    ## thinness.5.9.years                      0.0000281806 ***
-    ## Income.composition.of.resources < 0.0000000000000002 ***
-    ## Schooling                       < 0.0000000000000002 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                 0.0000055264 ***
-    ## log.percentage.expenditure              0.0000000073 ***
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-    ## 
-    ## Residual standard error: 3.67 on 2472 degrees of freedom
-    ## Multiple R-squared:  0.855,  Adjusted R-squared:  0.854 
-    ## F-statistic:  911 on 16 and 2472 DF,  p-value: <0.0000000000000002
-
-``` r
 ### re-run Visualize VIF
-fit.lasso.lm_VIF2 = vif(fit.lasso.lm2)
-barplot(fit.lasso.lm_VIF2, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-abline(v=10, col="red")
-```
+#fit.lasso.lm_VIF2 = vif(fit.lasso.lm2)
+#barplot(fit.lasso.lm_VIF2, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+#abline(v=10, col="red")
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-5.png)<!-- -->
-
-``` r
 ##### Fit Linear Model based on LASSO regularization and removed multicollinearity####
-fit.lasso.lm3 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + Status + Continent, data = train)
+
+##### Continent and Region are correlated, dropped Continent for now, because the lasso coef was closer to 0###
+
+fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP, data = train)
 
 #### Hypothesis testing ####
 summary(fit.lasso.lm3)
@@ -1710,69 +1886,105 @@ summary(fit.lasso.lm3)
 
     ## 
     ## Call:
-    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Alcohol + 
-    ##     Hepatitis.B + Measles + BMI + under.five.deaths + Polio + 
-    ##     Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + 
-    ##     Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + 
-    ##     Status + Continent, data = train)
+    ## lm(formula = Life.expectancy ~ Year + Status + Adult.Mortality + 
+    ##     Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + 
+    ##     BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + 
+    ##     log.HIV.AIDS + Population + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + Region + log.GDP, data = train)
     ## 
     ## Residuals:
-    ##    Min     1Q Median     3Q    Max 
-    ## -20.65  -2.05  -0.01   1.79  13.94 
+    ##     Min      1Q  Median      3Q     Max 
+    ## -22.869  -1.771  -0.131   1.744  13.539 
     ## 
     ## Coefficients:
-    ##                                      Estimate    Std. Error t value
-    ## (Intercept)                     -123.72633350   33.74050262   -3.67
-    ## Year                               0.08930557    0.01688388    5.29
-    ## Adult.Mortality                   -0.01359206    0.00076280  -17.82
-    ## Alcohol                           -0.07418233    0.02927015   -2.53
-    ## Hepatitis.B                       -0.00549576    0.00363940   -1.51
-    ## Measles                           -0.00000598    0.00000699   -0.86
-    ## BMI                                0.00591399    0.00477235    1.24
-    ## under.five.deaths                 -0.00139386    0.00056445   -2.47
-    ## Polio                              0.02005324    0.00422888    4.74
-    ## Total.expenditure                 -0.03255967    0.03203590   -1.02
-    ## Diphtheria                         0.02198214    0.00456580    4.81
-    ## thinness.5.9.years                -0.04960993    0.02369547   -2.09
-    ## Income.composition.of.resources    5.33415870    0.62095129    8.59
-    ## Schooling                          0.45918850    0.04267197   10.76
-    ## log.HIV.AIDS                      -2.18660817    0.07964517  -27.45
-    ## log.GDP                            0.21335303    0.05874364    3.63
-    ## log.percentage.expenditure         0.19910280    0.03205963    6.21
-    ## StatusDeveloping                  -2.38572016    0.29315748   -8.14
-    ## ContinentAmericas                  3.90175290    0.29929323   13.04
-    ## ContinentAsia                      1.30157229    0.27615619    4.71
-    ## ContinentEurope                    2.27857213    0.37270708    6.11
-    ## ContinentOceania                   0.46538212    0.40595854    1.15
+    ##                                          Estimate        Std. Error t value
+    ## (Intercept)                     -158.518141271197   32.256218233928   -4.91
+    ## Year                               0.107192375808    0.016191817726    6.62
+    ## StatusDeveloping                  -0.982396312017    0.316224032880   -3.11
+    ## Adult.Mortality                   -0.011607620459    0.000733370080  -15.83
+    ## Alcohol                           -0.085416957638    0.028166237860   -3.03
+    ## log.percentage.expenditure         0.139464108677    0.031483008520    4.43
+    ## Hepatitis.B                        0.001300631368    0.003500240494    0.37
+    ## Measles                           -0.000018869502    0.000006882617   -2.74
+    ## BMI                                0.004166567053    0.004973746437    0.84
+    ## under.five.deaths                 -0.003230876609    0.000662746115   -4.87
+    ## Polio                              0.020009346889    0.003947823309    5.07
+    ## Total.expenditure                 -0.046788699417    0.032771545941   -1.43
+    ## Diphtheria                         0.021798719709    0.004300703992    5.07
+    ## log.HIV.AIDS                      -1.928057600167    0.100287433983  -19.23
+    ## Population                         0.000000003842    0.000000000767    5.01
+    ## thinness.5.9.years                -0.038372298937    0.028565663934   -1.34
+    ## Income.composition.of.resources    4.462168222963    0.591340160357    7.55
+    ## Schooling                          0.451031129200    0.042270421830   10.67
+    ## RegionAustralia and New Zealand    4.059784446712    0.914320028060    4.44
+    ## RegionCanada                       5.711923573954    1.023759209028    5.58
+    ## RegionCaribbean                    3.312337176041    0.523162904267    6.33
+    ## RegionCentral Africa              -1.776454253756    0.595331457536   -2.98
+    ## RegionCentral Asia                -3.008543156088    0.585485933254   -5.14
+    ## RegionCentral Europe               1.298366208665    0.524247266394    2.48
+    ## RegionEastern Africa              -0.756149823605    0.623967226208   -1.21
+    ## RegionEastern Europe              -0.093339039134    0.583120160348   -0.16
+    ## RegionMashriq                      0.470067651943    0.554696021886    0.85
+    ## RegionMeso-America                 3.615843206096    0.546870369209    6.61
+    ## RegionNorth Africa                -0.227061402146    0.513523490805   -0.44
+    ## RegionNW Pacific and East Asia     0.505237103571    0.632239949647    0.80
+    ## RegionSouth America                1.745711725045    0.522250010747    3.34
+    ## RegionSouth Asia                  -0.309558588540    0.560764248895   -0.55
+    ## RegionSouth Pacific               -1.125515132316    0.546171760555   -2.06
+    ## RegionSoutheast Asia               0.340871540898    0.488903198757    0.70
+    ## RegionSouthern Africa             -3.892959693272    0.675133901725   -5.77
+    ## RegionUS                           1.410211257693    1.138763643111    1.24
+    ## RegionWestern Africa              -3.473772477607    0.563851688343   -6.16
+    ## RegionWestern Europe               4.699230811539    0.557054689372    8.44
+    ## RegionWestern Indian Ocean        -1.380873681729    0.622072961442   -2.22
+    ## log.GDP                            0.120531331302    0.058932618337    2.05
     ##                                             Pr(>|t|)    
-    ## (Intercept)                                  0.00025 ***
-    ## Year                             0.00000013351168870 ***
+    ## (Intercept)                        0.000000949662338 ***
+    ## Year                               0.000000000043938 ***
+    ## StatusDeveloping                             0.00191 ** 
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                      0.01133 *  
-    ## Hepatitis.B                                  0.13115    
-    ## Measles                                      0.39233    
-    ## BMI                                          0.21538    
-    ## under.five.deaths                            0.01360 *  
-    ## Polio                            0.00000223696297166 ***
-    ## Total.expenditure                            0.30956    
-    ## Diphtheria                       0.00000156474917922 ***
-    ## thinness.5.9.years                           0.03639 *  
-    ## Income.composition.of.resources < 0.0000000000000002 ***
-    ## Schooling                       < 0.0000000000000002 ***
+    ## Alcohol                                      0.00245 ** 
+    ## log.percentage.expenditure         0.000009845681775 ***
+    ## Hepatitis.B                                  0.71024    
+    ## Measles                                      0.00616 ** 
+    ## BMI                                          0.40227    
+    ## under.five.deaths                  0.000001157819982 ***
+    ## Polio                              0.000000431026503 ***
+    ## Total.expenditure                            0.15350    
+    ## Diphtheria                         0.000000430602347 ***
     ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                      0.00029 ***
-    ## log.percentage.expenditure       0.00000000061830034 ***
-    ## StatusDeveloping                 0.00000000000000063 ***
-    ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                    0.00000257449114797 ***
-    ## ContinentEurope                  0.00000000112917977 ***
-    ## ContinentOceania                             0.25175    
+    ## Population                         0.000000592223096 ***
+    ## thinness.5.9.years                           0.17930    
+    ## Income.composition.of.resources    0.000000000000063 ***
+    ## Schooling                       < 0.0000000000000002 ***
+    ## RegionAustralia and New Zealand    0.000009385241543 ***
+    ## RegionCanada                       0.000000026794682 ***
+    ## RegionCaribbean                    0.000000000288111 ***
+    ## RegionCentral Africa                         0.00287 ** 
+    ## RegionCentral Asia                 0.000000298728457 ***
+    ## RegionCentral Europe                         0.01333 *  
+    ## RegionEastern Africa                         0.22569    
+    ## RegionEastern Europe                         0.87284    
+    ## RegionMashriq                                0.39684    
+    ## RegionMeso-America                 0.000000000046420 ***
+    ## RegionNorth Africa                           0.65841    
+    ## RegionNW Pacific and East Asia               0.42430    
+    ## RegionSouth America                          0.00084 ***
+    ## RegionSouth Asia                             0.58098    
+    ## RegionSouth Pacific                          0.03943 *  
+    ## RegionSoutheast Asia                         0.48573    
+    ## RegionSouthern Africa              0.000000009127720 ***
+    ## RegionUS                                     0.21570    
+    ## RegionWestern Africa               0.000000000843629 ***
+    ## RegionWestern Europe            < 0.0000000000000002 ***
+    ## RegionWestern Indian Ocean                   0.02652 *  
+    ## log.GDP                                      0.04094 *  
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.52 on 2467 degrees of freedom
-    ## Multiple R-squared:  0.867,  Adjusted R-squared:  0.866 
-    ## F-statistic:  768 on 21 and 2467 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 3.25 on 2449 degrees of freedom
+    ## Multiple R-squared:  0.887,  Adjusted R-squared:  0.885 
+    ## F-statistic:  493 on 39 and 2449 DF,  p-value: <0.0000000000000002
 
 ``` r
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
@@ -1788,14 +2000,14 @@ postResample(pred = train_pred, obs = train$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.4997   0.8673   2.5942
+    ##   3.2282   0.8871   2.3780
 
 ``` r
 postResample(pred = test_pred, obs = test$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.2673   0.8693   2.4816
+    ##   3.1113   0.8824   2.3810
 
 ``` r
 sm = summary(fit.lasso.lm3)
@@ -1805,61 +2017,79 @@ mse = mean(sm$residuals^2)
 confint(fit.lasso.lm3)
 ```
 
-    ##                                         2.5 %        97.5 %
-    ## (Intercept)                     -189.88896403 -57.563702972
-    ## Year                               0.05619753   0.122413616
-    ## Adult.Mortality                   -0.01508785  -0.012096266
-    ## Alcohol                           -0.13157893  -0.016785722
-    ## Hepatitis.B                       -0.01263236   0.001640842
-    ## Measles                           -0.00001969   0.000007729
-    ## BMI                               -0.00344424   0.015272226
-    ## under.five.deaths                 -0.00250069  -0.000287019
-    ## Polio                              0.01176072   0.028345750
-    ## Total.expenditure                 -0.09537970   0.030260367
-    ## Diphtheria                         0.01302895   0.030935337
-    ## thinness.5.9.years                -0.09607500  -0.003144869
-    ## Income.composition.of.resources    4.11651914   6.551798267
-    ## Schooling                          0.37551192   0.542865085
-    ## log.HIV.AIDS                      -2.34278645  -2.030429885
-    ## log.GDP                            0.09816109   0.328544973
-    ## log.percentage.expenditure         0.13623623   0.261969369
-    ## StatusDeveloping                  -2.96058030  -1.810860010
-    ## ContinentAmericas                  3.31486102   4.488644782
-    ## ContinentAsia                      0.76005042   1.843094147
-    ## ContinentEurope                    1.54772111   3.009423140
-    ## ContinentOceania                  -0.33067256   1.261436794
+    ##                                             2.5 %           97.5 %
+    ## (Intercept)                     -221.770428082547 -95.265854459848
+    ## Year                               0.075441304079   0.138943447536
+    ## StatusDeveloping                  -1.602490492907  -0.362302131127
+    ## Adult.Mortality                   -0.013045710142  -0.010169530777
+    ## Alcohol                           -0.140649066456  -0.030184848821
+    ## log.percentage.expenditure         0.077728034405   0.201200182948
+    ## Hepatitis.B                       -0.005563106161   0.008164368897
+    ## Measles                           -0.000032365854  -0.000005373150
+    ## BMI                               -0.005586617089   0.013919751196
+    ## under.five.deaths                 -0.004530477418  -0.001931275799
+    ## Polio                              0.012267929391   0.027750764387
+    ## Total.expenditure                 -0.111051509399   0.017474110565
+    ## Diphtheria                         0.013365326792   0.030232112626
+    ## log.HIV.AIDS                      -2.124714551452  -1.731400648882
+    ## Population                         0.000000002337   0.000000005346
+    ## thinness.5.9.years                -0.094387655573   0.017643057698
+    ## Income.composition.of.resources    3.302589714574   5.621746731352
+    ## Schooling                          0.368141658840   0.533920599560
+    ## RegionAustralia and New Zealand    2.266864017143   5.852704876281
+    ## RegionCanada                       3.704400229290   7.719446918619
+    ## RegionCaribbean                    2.286449707469   4.338224644614
+    ## RegionCentral Africa              -2.943859428994  -0.609049078519
+    ## RegionCentral Asia                -4.156641916632  -1.860444395545
+    ## RegionCentral Europe               0.270352378478   2.326380038852
+    ## RegionEastern Africa              -1.979707826182   0.467408178972
+    ## RegionEastern Europe              -1.236798677221   1.050120598953
+    ## RegionMashriq                     -0.617654151493   1.557789455379
+    ## RegionMeso-America                 2.543466984216   4.688219427976
+    ## RegionNorth Africa                -1.234046625559   0.779923821268
+    ## RegionNW Pacific and East Asia    -0.734543156428   1.745017363571
+    ## RegionSouth America                0.721614379615   2.769809070475
+    ## RegionSouth Asia                  -1.409179779326   0.790062602245
+    ## RegionSouth Pacific               -2.196521429345  -0.054508835288
+    ## RegionSoutheast Asia              -0.617834936300   1.299578018096
+    ## RegionSouthern Africa             -5.216852124750  -2.569067261795
+    ## RegionUS                          -0.822828091248   3.643250606634
+    ## RegionWestern Africa              -4.579447930677  -2.368097024537
+    ## RegionWestern Europe               3.606883818899   5.791577804178
+    ## RegionWestern Indian Ocean        -2.600717157779  -0.161030205678
+    ## log.GDP                            0.004968407881   0.236094254723
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-6.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-5.png)<!-- -->
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-7.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-6.png)<!-- -->
 
 ``` r
 plot(fit.lasso.lm3, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-8.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-7.png)<!-- -->
 
 ``` r
 plot(fit.lasso.lm3, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-9.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-8.png)<!-- -->
 
 ``` r
 #####################################################################################
 #                                  Forward Selection                                #
 #####################################################################################
 library(leaps)
-mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=43)
+mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=44)
 ```
 
     ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
@@ -1869,22 +2099,22 @@ mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=43)
 
 ``` r
 testASE<-c()
-for (i in 1:43){
+for (i in 1:44){
   predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:43,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:44,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.fwd)$rss
-lines(1:44,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:45,rss/dim(train)[1],lty=3,col="blue")  
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-10.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-9.png)<!-- -->
 
 ``` r
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=43)
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=29)
 ```
 
     ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
@@ -1893,45 +2123,39 @@ mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=4
     ## Reordering variables and trying again:
 
 ``` r
-coef(mlr.fwd.final,35)
+coef(mlr.fwd.final,29)
 ```
 
     ##                     (Intercept)                            Year 
-    ##                  -139.988949080                     0.097409819 
+    ##               -127.908493368914                  0.091274334529 
     ##                StatusDeveloping                 Adult.Mortality 
-    ##                    -0.843229351                    -0.010667873 
-    ##                   infant.deaths                         Alcohol 
-    ##                     0.032897287                    -0.034420962 
-    ##                         Measles                             BMI 
-    ##                    -0.000008990                     0.006225001 
+    ##                 -0.930348336007                 -0.010529755464 
+    ##                         Alcohol                         Measles 
+    ##                 -0.052985867888                 -0.000019235711 
     ##               under.five.deaths                           Polio 
-    ##                    -0.025699185                     0.021121145 
-    ##               Total.expenditure                      Diphtheria 
-    ##                    -0.030970887                     0.020385451 
-    ##                        HIV.AIDS                             GDP 
-    ##                    -0.136204728                     0.000006465 
-    ##              thinness.5.9.years Income.composition.of.resources 
-    ##                    -0.058343981                     4.199510652 
-    ##                       Schooling RegionAustralia and New Zealand 
-    ##                     0.488677777                     4.434436666 
-    ##                    RegionCanada            RegionCentral Africa 
-    ##                     2.600944467                    -1.013230250 
-    ##              RegionCentral Asia            RegionCentral Europe 
-    ##                    -3.352161841                     2.136841343 
-    ##              RegionMeso-America              RegionNorth Africa 
-    ##                     0.358015052                     1.010414530 
-    ##  RegionNW Pacific and East Asia             RegionSouth America 
-    ##                     1.067521983                    -1.458144235 
-    ##                RegionSouth Asia           RegionSouthern Africa 
-    ##                    -0.319803540                    -2.092356648 
+    ##                 -0.003597935171                  0.021059641698 
+    ##                      Diphtheria                        HIV.AIDS 
+    ##                  0.020544905673                 -0.134491381357 
+    ##                      Population              thinness.5.9.years 
+    ##                  0.000000004138                 -0.075021425467 
+    ## Income.composition.of.resources                       Schooling 
+    ##                  4.404625784218                  0.488791773413 
+    ## RegionAustralia and New Zealand                    RegionCanada 
+    ##                  4.389381627531                  2.417687476177 
+    ##            RegionCentral Africa              RegionCentral Asia 
+    ##                 -0.854655075325                 -3.352281595088 
+    ##            RegionCentral Europe              RegionNorth Africa 
+    ##                  2.133936855638                  1.091403645714 
+    ##             RegionSouth America           RegionSouthern Africa 
+    ##                 -1.662071000598                 -2.080372230434 
     ##                        RegionUS            RegionWestern Africa 
-    ##                    -1.219986857                    -2.429269293 
+    ##                 -2.682942123018                 -2.530676410145 
     ##            RegionWestern Europe                    log.HIV.AIDS 
-    ##                     5.423710548                    -1.578915043 
+    ##                  5.401462746037                 -1.607077118451 
     ##                         log.GDP      log.percentage.expenditure 
-    ##                     0.119873335                     0.127554306 
+    ##                  0.166899529709                  0.119892288665 
     ##                   ContinentAsia               ContinentAmericas 
-    ##                     1.717595733                     4.102566971
+    ##                  1.775117393340                  4.293057384888
 
 ``` r
 summary(mlr.fwd.final)
@@ -1939,8 +2163,8 @@ summary(mlr.fwd.final)
 
     ## Subset selection object
     ## Call: regsubsets.formula(Life.expectancy ~ ., data = LifeExp, method = "forward", 
-    ##     nvmax = 43)
-    ## 47 Variables  (and intercept)
+    ##     nvmax = 29)
+    ## 48 Variables  (and intercept)
     ##                                 Forced in Forced out
     ## Year                                FALSE      FALSE
     ## StatusDeveloping                    FALSE      FALSE
@@ -1957,6 +2181,7 @@ summary(mlr.fwd.final)
     ## Diphtheria                          FALSE      FALSE
     ## HIV.AIDS                            FALSE      FALSE
     ## GDP                                 FALSE      FALSE
+    ## Population                          FALSE      FALSE
     ## thinness..1.19.years                FALSE      FALSE
     ## thinness.5.9.years                  FALSE      FALSE
     ## Income.composition.of.resources     FALSE      FALSE
@@ -1989,7 +2214,7 @@ summary(mlr.fwd.final)
     ## ContinentAmericas                   FALSE      FALSE
     ## ContinentEurope                     FALSE      FALSE
     ## ContinentOceania                    FALSE      FALSE
-    ## 1 subsets of each size up to 44
+    ## 1 subsets of each size up to 30
     ## Selection Algorithm: forward
     ##           Year StatusDeveloping Adult.Mortality infant.deaths Alcohol
     ## 1  ( 1 )  " "  " "              " "             " "           " "    
@@ -2012,30 +2237,16 @@ summary(mlr.fwd.final)
     ## 18  ( 1 ) "*"  "*"              "*"             " "           " "    
     ## 19  ( 1 ) "*"  "*"              "*"             " "           " "    
     ## 20  ( 1 ) "*"  "*"              "*"             " "           " "    
-    ## 21  ( 1 ) "*"  "*"              "*"             "*"           " "    
-    ## 22  ( 1 ) "*"  "*"              "*"             "*"           " "    
-    ## 23  ( 1 ) "*"  "*"              "*"             "*"           " "    
-    ## 24  ( 1 ) "*"  "*"              "*"             "*"           " "    
-    ## 25  ( 1 ) "*"  "*"              "*"             "*"           " "    
-    ## 26  ( 1 ) "*"  "*"              "*"             "*"           " "    
-    ## 27  ( 1 ) "*"  "*"              "*"             "*"           " "    
-    ## 28  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 29  ( 1 ) "*"  "*"              "*"             "*"           "*"    
+    ## 21  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 22  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 23  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 24  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 25  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 26  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 27  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 28  ( 1 ) "*"  "*"              "*"             " "           " "    
+    ## 29  ( 1 ) "*"  "*"              "*"             " "           "*"    
     ## 30  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 31  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 32  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 33  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 34  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 35  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 36  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 37  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 38  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 39  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 40  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 41  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 42  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 43  ( 1 ) "*"  "*"              "*"             "*"           "*"    
-    ## 44  ( 1 ) "*"  "*"              "*"             "*"           "*"    
     ##           percentage.expenditure Hepatitis.B Measles BMI under.five.deaths
     ## 1  ( 1 )  " "                    " "         " "     " " " "              
     ## 2  ( 1 )  " "                    " "         " "     " " " "              
@@ -2061,116 +2272,105 @@ summary(mlr.fwd.final)
     ## 22  ( 1 ) " "                    " "         " "     " " "*"              
     ## 23  ( 1 ) " "                    " "         " "     " " "*"              
     ## 24  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 25  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 26  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 27  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 28  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 29  ( 1 ) " "                    " "         " "     " " "*"              
-    ## 30  ( 1 ) " "                    " "         " "     "*" "*"              
-    ## 31  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 32  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 33  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 34  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 35  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 36  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 37  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 38  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 39  ( 1 ) " "                    " "         "*"     "*" "*"              
-    ## 40  ( 1 ) "*"                    " "         "*"     "*" "*"              
-    ## 41  ( 1 ) "*"                    " "         "*"     "*" "*"              
-    ## 42  ( 1 ) "*"                    "*"         "*"     "*" "*"              
-    ## 43  ( 1 ) "*"                    "*"         "*"     "*" "*"              
-    ## 44  ( 1 ) "*"                    "*"         "*"     "*" "*"              
-    ##           Polio Total.expenditure Diphtheria HIV.AIDS GDP thinness..1.19.years
-    ## 1  ( 1 )  " "   " "               " "        " "      " " " "                 
-    ## 2  ( 1 )  " "   " "               " "        " "      " " " "                 
-    ## 3  ( 1 )  " "   " "               " "        " "      " " " "                 
-    ## 4  ( 1 )  " "   " "               " "        " "      " " " "                 
-    ## 5  ( 1 )  " "   " "               " "        " "      " " " "                 
-    ## 6  ( 1 )  " "   " "               " "        " "      " " " "                 
-    ## 7  ( 1 )  " "   " "               "*"        " "      " " " "                 
-    ## 8  ( 1 )  " "   " "               "*"        " "      " " " "                 
-    ## 9  ( 1 )  " "   " "               "*"        " "      " " " "                 
-    ## 10  ( 1 ) " "   " "               "*"        "*"      " " " "                 
-    ## 11  ( 1 ) " "   " "               "*"        "*"      " " " "                 
-    ## 12  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 13  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 14  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 15  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 16  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 17  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 18  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 19  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 20  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 21  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 22  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 23  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 24  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 25  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 26  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 27  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 28  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 29  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 30  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 31  ( 1 ) "*"   " "               "*"        "*"      " " " "                 
-    ## 32  ( 1 ) "*"   "*"               "*"        "*"      " " " "                 
-    ## 33  ( 1 ) "*"   "*"               "*"        "*"      " " " "                 
-    ## 34  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 35  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 36  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 37  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 38  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 39  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 40  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 41  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 42  ( 1 ) "*"   "*"               "*"        "*"      "*" " "                 
-    ## 43  ( 1 ) "*"   "*"               "*"        "*"      "*" "*"                 
-    ## 44  ( 1 ) "*"   "*"               "*"        "*"      "*" "*"                 
-    ##           thinness.5.9.years Income.composition.of.resources Schooling
-    ## 1  ( 1 )  " "                " "                             " "      
-    ## 2  ( 1 )  " "                " "                             "*"      
-    ## 3  ( 1 )  " "                " "                             "*"      
-    ## 4  ( 1 )  " "                " "                             "*"      
-    ## 5  ( 1 )  " "                " "                             "*"      
-    ## 6  ( 1 )  " "                "*"                             "*"      
-    ## 7  ( 1 )  " "                "*"                             "*"      
-    ## 8  ( 1 )  " "                "*"                             "*"      
-    ## 9  ( 1 )  " "                "*"                             "*"      
-    ## 10  ( 1 ) " "                "*"                             "*"      
-    ## 11  ( 1 ) " "                "*"                             "*"      
-    ## 12  ( 1 ) " "                "*"                             "*"      
-    ## 13  ( 1 ) " "                "*"                             "*"      
-    ## 14  ( 1 ) " "                "*"                             "*"      
-    ## 15  ( 1 ) " "                "*"                             "*"      
-    ## 16  ( 1 ) " "                "*"                             "*"      
-    ## 17  ( 1 ) " "                "*"                             "*"      
-    ## 18  ( 1 ) " "                "*"                             "*"      
-    ## 19  ( 1 ) " "                "*"                             "*"      
-    ## 20  ( 1 ) " "                "*"                             "*"      
-    ## 21  ( 1 ) " "                "*"                             "*"      
-    ## 22  ( 1 ) "*"                "*"                             "*"      
-    ## 23  ( 1 ) "*"                "*"                             "*"      
-    ## 24  ( 1 ) "*"                "*"                             "*"      
-    ## 25  ( 1 ) "*"                "*"                             "*"      
-    ## 26  ( 1 ) "*"                "*"                             "*"      
-    ## 27  ( 1 ) "*"                "*"                             "*"      
-    ## 28  ( 1 ) "*"                "*"                             "*"      
-    ## 29  ( 1 ) "*"                "*"                             "*"      
-    ## 30  ( 1 ) "*"                "*"                             "*"      
-    ## 31  ( 1 ) "*"                "*"                             "*"      
-    ## 32  ( 1 ) "*"                "*"                             "*"      
-    ## 33  ( 1 ) "*"                "*"                             "*"      
-    ## 34  ( 1 ) "*"                "*"                             "*"      
-    ## 35  ( 1 ) "*"                "*"                             "*"      
-    ## 36  ( 1 ) "*"                "*"                             "*"      
-    ## 37  ( 1 ) "*"                "*"                             "*"      
-    ## 38  ( 1 ) "*"                "*"                             "*"      
-    ## 39  ( 1 ) "*"                "*"                             "*"      
-    ## 40  ( 1 ) "*"                "*"                             "*"      
-    ## 41  ( 1 ) "*"                "*"                             "*"      
-    ## 42  ( 1 ) "*"                "*"                             "*"      
-    ## 43  ( 1 ) "*"                "*"                             "*"      
-    ## 44  ( 1 ) "*"                "*"                             "*"      
+    ## 25  ( 1 ) " "                    " "         "*"     " " "*"              
+    ## 26  ( 1 ) " "                    " "         "*"     " " "*"              
+    ## 27  ( 1 ) " "                    " "         "*"     " " "*"              
+    ## 28  ( 1 ) " "                    " "         "*"     " " "*"              
+    ## 29  ( 1 ) " "                    " "         "*"     " " "*"              
+    ## 30  ( 1 ) " "                    " "         "*"     " " "*"              
+    ##           Polio Total.expenditure Diphtheria HIV.AIDS GDP Population
+    ## 1  ( 1 )  " "   " "               " "        " "      " " " "       
+    ## 2  ( 1 )  " "   " "               " "        " "      " " " "       
+    ## 3  ( 1 )  " "   " "               " "        " "      " " " "       
+    ## 4  ( 1 )  " "   " "               " "        " "      " " " "       
+    ## 5  ( 1 )  " "   " "               " "        " "      " " " "       
+    ## 6  ( 1 )  " "   " "               " "        " "      " " " "       
+    ## 7  ( 1 )  " "   " "               "*"        " "      " " " "       
+    ## 8  ( 1 )  " "   " "               "*"        " "      " " " "       
+    ## 9  ( 1 )  " "   " "               "*"        " "      " " " "       
+    ## 10  ( 1 ) " "   " "               "*"        "*"      " " " "       
+    ## 11  ( 1 ) " "   " "               "*"        "*"      " " " "       
+    ## 12  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 13  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 14  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 15  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 16  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 17  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 18  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 19  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 20  ( 1 ) "*"   " "               "*"        "*"      " " " "       
+    ## 21  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 22  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 23  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 24  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 25  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 26  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 27  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 28  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 29  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ## 30  ( 1 ) "*"   " "               "*"        "*"      " " "*"       
+    ##           thinness..1.19.years thinness.5.9.years
+    ## 1  ( 1 )  " "                  " "               
+    ## 2  ( 1 )  " "                  " "               
+    ## 3  ( 1 )  " "                  " "               
+    ## 4  ( 1 )  " "                  " "               
+    ## 5  ( 1 )  " "                  " "               
+    ## 6  ( 1 )  " "                  " "               
+    ## 7  ( 1 )  " "                  " "               
+    ## 8  ( 1 )  " "                  " "               
+    ## 9  ( 1 )  " "                  " "               
+    ## 10  ( 1 ) " "                  " "               
+    ## 11  ( 1 ) " "                  " "               
+    ## 12  ( 1 ) " "                  " "               
+    ## 13  ( 1 ) " "                  " "               
+    ## 14  ( 1 ) " "                  " "               
+    ## 15  ( 1 ) " "                  " "               
+    ## 16  ( 1 ) " "                  " "               
+    ## 17  ( 1 ) " "                  " "               
+    ## 18  ( 1 ) " "                  " "               
+    ## 19  ( 1 ) " "                  " "               
+    ## 20  ( 1 ) " "                  " "               
+    ## 21  ( 1 ) " "                  " "               
+    ## 22  ( 1 ) " "                  " "               
+    ## 23  ( 1 ) " "                  " "               
+    ## 24  ( 1 ) " "                  "*"               
+    ## 25  ( 1 ) " "                  "*"               
+    ## 26  ( 1 ) " "                  "*"               
+    ## 27  ( 1 ) " "                  "*"               
+    ## 28  ( 1 ) " "                  "*"               
+    ## 29  ( 1 ) " "                  "*"               
+    ## 30  ( 1 ) " "                  "*"               
+    ##           Income.composition.of.resources Schooling
+    ## 1  ( 1 )  " "                             " "      
+    ## 2  ( 1 )  " "                             "*"      
+    ## 3  ( 1 )  " "                             "*"      
+    ## 4  ( 1 )  " "                             "*"      
+    ## 5  ( 1 )  " "                             "*"      
+    ## 6  ( 1 )  "*"                             "*"      
+    ## 7  ( 1 )  "*"                             "*"      
+    ## 8  ( 1 )  "*"                             "*"      
+    ## 9  ( 1 )  "*"                             "*"      
+    ## 10  ( 1 ) "*"                             "*"      
+    ## 11  ( 1 ) "*"                             "*"      
+    ## 12  ( 1 ) "*"                             "*"      
+    ## 13  ( 1 ) "*"                             "*"      
+    ## 14  ( 1 ) "*"                             "*"      
+    ## 15  ( 1 ) "*"                             "*"      
+    ## 16  ( 1 ) "*"                             "*"      
+    ## 17  ( 1 ) "*"                             "*"      
+    ## 18  ( 1 ) "*"                             "*"      
+    ## 19  ( 1 ) "*"                             "*"      
+    ## 20  ( 1 ) "*"                             "*"      
+    ## 21  ( 1 ) "*"                             "*"      
+    ## 22  ( 1 ) "*"                             "*"      
+    ## 23  ( 1 ) "*"                             "*"      
+    ## 24  ( 1 ) "*"                             "*"      
+    ## 25  ( 1 ) "*"                             "*"      
+    ## 26  ( 1 ) "*"                             "*"      
+    ## 27  ( 1 ) "*"                             "*"      
+    ## 28  ( 1 ) "*"                             "*"      
+    ## 29  ( 1 ) "*"                             "*"      
+    ## 30  ( 1 ) "*"                             "*"      
     ##           RegionAustralia and New Zealand RegionCanada RegionCaribbean
     ## 1  ( 1 )  " "                             " "          " "            
     ## 2  ( 1 )  " "                             " "          " "            
@@ -2196,26 +2396,12 @@ summary(mlr.fwd.final)
     ## 22  ( 1 ) "*"                             " "          " "            
     ## 23  ( 1 ) "*"                             " "          " "            
     ## 24  ( 1 ) "*"                             " "          " "            
-    ## 25  ( 1 ) "*"                             "*"          " "            
+    ## 25  ( 1 ) "*"                             " "          " "            
     ## 26  ( 1 ) "*"                             "*"          " "            
     ## 27  ( 1 ) "*"                             "*"          " "            
     ## 28  ( 1 ) "*"                             "*"          " "            
     ## 29  ( 1 ) "*"                             "*"          " "            
     ## 30  ( 1 ) "*"                             "*"          " "            
-    ## 31  ( 1 ) "*"                             "*"          " "            
-    ## 32  ( 1 ) "*"                             "*"          " "            
-    ## 33  ( 1 ) "*"                             "*"          " "            
-    ## 34  ( 1 ) "*"                             "*"          " "            
-    ## 35  ( 1 ) "*"                             "*"          " "            
-    ## 36  ( 1 ) "*"                             "*"          " "            
-    ## 37  ( 1 ) "*"                             "*"          " "            
-    ## 38  ( 1 ) "*"                             "*"          " "            
-    ## 39  ( 1 ) "*"                             "*"          " "            
-    ## 40  ( 1 ) "*"                             "*"          " "            
-    ## 41  ( 1 ) "*"                             "*"          " "            
-    ## 42  ( 1 ) "*"                             "*"          " "            
-    ## 43  ( 1 ) "*"                             "*"          " "            
-    ## 44  ( 1 ) "*"                             "*"          " "            
     ##           RegionCentral Africa RegionCentral Asia RegionCentral Europe
     ## 1  ( 1 )  " "                  " "                " "                 
     ## 2  ( 1 )  " "                  " "                " "                 
@@ -2242,25 +2428,11 @@ summary(mlr.fwd.final)
     ## 23  ( 1 ) " "                  "*"                "*"                 
     ## 24  ( 1 ) " "                  "*"                "*"                 
     ## 25  ( 1 ) " "                  "*"                "*"                 
-    ## 26  ( 1 ) "*"                  "*"                "*"                 
-    ## 27  ( 1 ) "*"                  "*"                "*"                 
+    ## 26  ( 1 ) " "                  "*"                "*"                 
+    ## 27  ( 1 ) " "                  "*"                "*"                 
     ## 28  ( 1 ) "*"                  "*"                "*"                 
     ## 29  ( 1 ) "*"                  "*"                "*"                 
     ## 30  ( 1 ) "*"                  "*"                "*"                 
-    ## 31  ( 1 ) "*"                  "*"                "*"                 
-    ## 32  ( 1 ) "*"                  "*"                "*"                 
-    ## 33  ( 1 ) "*"                  "*"                "*"                 
-    ## 34  ( 1 ) "*"                  "*"                "*"                 
-    ## 35  ( 1 ) "*"                  "*"                "*"                 
-    ## 36  ( 1 ) "*"                  "*"                "*"                 
-    ## 37  ( 1 ) "*"                  "*"                "*"                 
-    ## 38  ( 1 ) "*"                  "*"                "*"                 
-    ## 39  ( 1 ) "*"                  "*"                "*"                 
-    ## 40  ( 1 ) "*"                  "*"                "*"                 
-    ## 41  ( 1 ) "*"                  "*"                "*"                 
-    ## 42  ( 1 ) "*"                  "*"                "*"                 
-    ## 43  ( 1 ) "*"                  "*"                "*"                 
-    ## 44  ( 1 ) "*"                  "*"                "*"                 
     ##           RegionEastern Africa RegionEastern Europe RegionMashriq
     ## 1  ( 1 )  " "                  " "                  " "          
     ## 2  ( 1 )  " "                  " "                  " "          
@@ -2292,20 +2464,6 @@ summary(mlr.fwd.final)
     ## 28  ( 1 ) " "                  " "                  " "          
     ## 29  ( 1 ) " "                  " "                  " "          
     ## 30  ( 1 ) " "                  " "                  " "          
-    ## 31  ( 1 ) " "                  " "                  " "          
-    ## 32  ( 1 ) " "                  " "                  " "          
-    ## 33  ( 1 ) " "                  " "                  " "          
-    ## 34  ( 1 ) " "                  " "                  " "          
-    ## 35  ( 1 ) " "                  " "                  " "          
-    ## 36  ( 1 ) " "                  " "                  " "          
-    ## 37  ( 1 ) " "                  " "                  "*"          
-    ## 38  ( 1 ) " "                  "*"                  "*"          
-    ## 39  ( 1 ) " "                  "*"                  "*"          
-    ## 40  ( 1 ) " "                  "*"                  "*"          
-    ## 41  ( 1 ) " "                  "*"                  "*"          
-    ## 42  ( 1 ) " "                  "*"                  "*"          
-    ## 43  ( 1 ) " "                  "*"                  "*"          
-    ## 44  ( 1 ) " "                  "*"                  "*"          
     ##           RegionMeso-America RegionNorth Africa RegionNW Pacific and East Asia
     ## 1  ( 1 )  " "                " "                " "                           
     ## 2  ( 1 )  " "                " "                " "                           
@@ -2329,28 +2487,14 @@ summary(mlr.fwd.final)
     ## 20  ( 1 ) " "                " "                " "                           
     ## 21  ( 1 ) " "                " "                " "                           
     ## 22  ( 1 ) " "                " "                " "                           
-    ## 23  ( 1 ) " "                " "                " "                           
+    ## 23  ( 1 ) " "                "*"                " "                           
     ## 24  ( 1 ) " "                "*"                " "                           
     ## 25  ( 1 ) " "                "*"                " "                           
     ## 26  ( 1 ) " "                "*"                " "                           
-    ## 27  ( 1 ) " "                "*"                "*"                           
-    ## 28  ( 1 ) " "                "*"                "*"                           
-    ## 29  ( 1 ) " "                "*"                "*"                           
-    ## 30  ( 1 ) " "                "*"                "*"                           
-    ## 31  ( 1 ) " "                "*"                "*"                           
-    ## 32  ( 1 ) " "                "*"                "*"                           
-    ## 33  ( 1 ) "*"                "*"                "*"                           
-    ## 34  ( 1 ) "*"                "*"                "*"                           
-    ## 35  ( 1 ) "*"                "*"                "*"                           
-    ## 36  ( 1 ) "*"                "*"                "*"                           
-    ## 37  ( 1 ) "*"                "*"                "*"                           
-    ## 38  ( 1 ) "*"                "*"                "*"                           
-    ## 39  ( 1 ) "*"                "*"                "*"                           
-    ## 40  ( 1 ) "*"                "*"                "*"                           
-    ## 41  ( 1 ) "*"                "*"                "*"                           
-    ## 42  ( 1 ) "*"                "*"                "*"                           
-    ## 43  ( 1 ) "*"                "*"                "*"                           
-    ## 44  ( 1 ) "*"                "*"                "*"                           
+    ## 27  ( 1 ) " "                "*"                " "                           
+    ## 28  ( 1 ) " "                "*"                " "                           
+    ## 29  ( 1 ) " "                "*"                " "                           
+    ## 30  ( 1 ) " "                "*"                " "                           
     ##           RegionSouth America RegionSouth Asia RegionSouth Pacific
     ## 1  ( 1 )  " "                 " "              " "                
     ## 2  ( 1 )  " "                 " "              " "                
@@ -2382,20 +2526,6 @@ summary(mlr.fwd.final)
     ## 28  ( 1 ) "*"                 " "              " "                
     ## 29  ( 1 ) "*"                 " "              " "                
     ## 30  ( 1 ) "*"                 " "              " "                
-    ## 31  ( 1 ) "*"                 " "              " "                
-    ## 32  ( 1 ) "*"                 " "              " "                
-    ## 33  ( 1 ) "*"                 " "              " "                
-    ## 34  ( 1 ) "*"                 " "              " "                
-    ## 35  ( 1 ) "*"                 "*"              " "                
-    ## 36  ( 1 ) "*"                 "*"              "*"                
-    ## 37  ( 1 ) "*"                 "*"              "*"                
-    ## 38  ( 1 ) "*"                 "*"              "*"                
-    ## 39  ( 1 ) "*"                 "*"              "*"                
-    ## 40  ( 1 ) "*"                 "*"              "*"                
-    ## 41  ( 1 ) "*"                 "*"              "*"                
-    ## 42  ( 1 ) "*"                 "*"              "*"                
-    ## 43  ( 1 ) "*"                 "*"              "*"                
-    ## 44  ( 1 ) "*"                 "*"              "*"                
     ##           RegionSoutheast Asia RegionSouthern Africa RegionUS
     ## 1  ( 1 )  " "                  " "                   " "     
     ## 2  ( 1 )  " "                  " "                   " "     
@@ -2418,29 +2548,15 @@ summary(mlr.fwd.final)
     ## 19  ( 1 ) " "                  " "                   " "     
     ## 20  ( 1 ) " "                  " "                   " "     
     ## 21  ( 1 ) " "                  " "                   " "     
-    ## 22  ( 1 ) " "                  " "                   " "     
+    ## 22  ( 1 ) " "                  "*"                   " "     
     ## 23  ( 1 ) " "                  "*"                   " "     
     ## 24  ( 1 ) " "                  "*"                   " "     
     ## 25  ( 1 ) " "                  "*"                   " "     
     ## 26  ( 1 ) " "                  "*"                   " "     
-    ## 27  ( 1 ) " "                  "*"                   " "     
-    ## 28  ( 1 ) " "                  "*"                   " "     
+    ## 27  ( 1 ) " "                  "*"                   "*"     
+    ## 28  ( 1 ) " "                  "*"                   "*"     
     ## 29  ( 1 ) " "                  "*"                   "*"     
     ## 30  ( 1 ) " "                  "*"                   "*"     
-    ## 31  ( 1 ) " "                  "*"                   "*"     
-    ## 32  ( 1 ) " "                  "*"                   "*"     
-    ## 33  ( 1 ) " "                  "*"                   "*"     
-    ## 34  ( 1 ) " "                  "*"                   "*"     
-    ## 35  ( 1 ) " "                  "*"                   "*"     
-    ## 36  ( 1 ) " "                  "*"                   "*"     
-    ## 37  ( 1 ) " "                  "*"                   "*"     
-    ## 38  ( 1 ) " "                  "*"                   "*"     
-    ## 39  ( 1 ) " "                  "*"                   "*"     
-    ## 40  ( 1 ) " "                  "*"                   "*"     
-    ## 41  ( 1 ) "*"                  "*"                   "*"     
-    ## 42  ( 1 ) "*"                  "*"                   "*"     
-    ## 43  ( 1 ) "*"                  "*"                   "*"     
-    ## 44  ( 1 ) "*"                  "*"                   "*"     
     ##           RegionWestern Africa RegionWestern Europe RegionWestern Indian Ocean
     ## 1  ( 1 )  " "                  " "                  " "                       
     ## 2  ( 1 )  " "                  " "                  " "                       
@@ -2472,20 +2588,6 @@ summary(mlr.fwd.final)
     ## 28  ( 1 ) "*"                  "*"                  " "                       
     ## 29  ( 1 ) "*"                  "*"                  " "                       
     ## 30  ( 1 ) "*"                  "*"                  " "                       
-    ## 31  ( 1 ) "*"                  "*"                  " "                       
-    ## 32  ( 1 ) "*"                  "*"                  " "                       
-    ## 33  ( 1 ) "*"                  "*"                  " "                       
-    ## 34  ( 1 ) "*"                  "*"                  " "                       
-    ## 35  ( 1 ) "*"                  "*"                  " "                       
-    ## 36  ( 1 ) "*"                  "*"                  " "                       
-    ## 37  ( 1 ) "*"                  "*"                  " "                       
-    ## 38  ( 1 ) "*"                  "*"                  " "                       
-    ## 39  ( 1 ) "*"                  "*"                  " "                       
-    ## 40  ( 1 ) "*"                  "*"                  " "                       
-    ## 41  ( 1 ) "*"                  "*"                  " "                       
-    ## 42  ( 1 ) "*"                  "*"                  " "                       
-    ## 43  ( 1 ) "*"                  "*"                  " "                       
-    ## 44  ( 1 ) "*"                  "*"                  "*"                       
     ##           log.HIV.AIDS log.GDP log.percentage.expenditure ContinentAmericas
     ## 1  ( 1 )  "*"          " "     " "                        " "              
     ## 2  ( 1 )  "*"          " "     " "                        " "              
@@ -2517,20 +2619,6 @@ summary(mlr.fwd.final)
     ## 28  ( 1 ) "*"          "*"     "*"                        "*"              
     ## 29  ( 1 ) "*"          "*"     "*"                        "*"              
     ## 30  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 31  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 32  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 33  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 34  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 35  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 36  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 37  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 38  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 39  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 40  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 41  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 42  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 43  ( 1 ) "*"          "*"     "*"                        "*"              
-    ## 44  ( 1 ) "*"          "*"     "*"                        "*"              
     ##           ContinentAsia ContinentEurope ContinentOceania
     ## 1  ( 1 )  " "           " "             " "             
     ## 2  ( 1 )  " "           " "             " "             
@@ -2561,21 +2649,7 @@ summary(mlr.fwd.final)
     ## 27  ( 1 ) "*"           " "             " "             
     ## 28  ( 1 ) "*"           " "             " "             
     ## 29  ( 1 ) "*"           " "             " "             
-    ## 30  ( 1 ) "*"           " "             " "             
-    ## 31  ( 1 ) "*"           " "             " "             
-    ## 32  ( 1 ) "*"           " "             " "             
-    ## 33  ( 1 ) "*"           " "             " "             
-    ## 34  ( 1 ) "*"           " "             " "             
-    ## 35  ( 1 ) "*"           " "             " "             
-    ## 36  ( 1 ) "*"           " "             " "             
-    ## 37  ( 1 ) "*"           " "             " "             
-    ## 38  ( 1 ) "*"           " "             " "             
-    ## 39  ( 1 ) "*"           "*"             " "             
-    ## 40  ( 1 ) "*"           "*"             " "             
-    ## 41  ( 1 ) "*"           "*"             " "             
-    ## 42  ( 1 ) "*"           "*"             " "             
-    ## 43  ( 1 ) "*"           "*"             " "             
-    ## 44  ( 1 ) "*"           "*"             " "
+    ## 30  ( 1 ) "*"           " "             " "
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -2583,11 +2657,11 @@ postResample(pred = predictions, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0938   0.8832   2.3395
+    ##    3.096    0.883    2.341
 
 ``` r
 ##### Fit Linear Model based on FOrward Selection without factors to measure VIF####
-fit.fwd.lm = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Hepatitis.B+under.five.deaths+Polio+Diphtheria+thinness.5.9.years+Income.composition.of.resources +Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+fit.fwd.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Measles + under.five.deaths + Polio + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
 
 ### Visualize VIF
 fit.fwd.lm_VIF = vif(fit.fwd.lm)
@@ -2595,82 +2669,28 @@ barplot(fit.fwd.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-11.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-10.png)<!-- -->
 
 ``` r
+############################################################################
+# same as before, no longer have perfect correlation for num vars          #
+# will comment out second model for now but leave in just in case          #
+############################################################################
+
+
 # We can see that Forward Selection did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (under.five.deaths).
 
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-fit.fwd.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
-summary(fit.fwd.lm2)
-```
+#fit.fwd.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+#summary(fit.fwd.lm2)
 
-    ## 
-    ## Call:
-    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Alcohol + 
-    ##     Hepatitis.B + Measles + BMI + Polio + Total.expenditure + 
-    ##     Diphtheria + thinness.5.9.years + Income.composition.of.resources + 
-    ##     Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, 
-    ##     data = train)
-    ## 
-    ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -18.827  -2.053  -0.037   1.984  16.322 
-    ## 
-    ## Coefficients:
-    ##                                     Estimate   Std. Error t value
-    ## (Intercept)                     -68.40799479  34.69542305   -1.97
-    ## Year                              0.06033760   0.01734992    3.48
-    ## Adult.Mortality                  -0.01494962   0.00078992  -18.93
-    ## Alcohol                           0.10646755   0.02419783    4.40
-    ## Hepatitis.B                      -0.00461855   0.00373413   -1.24
-    ## Measles                          -0.00001940   0.00000648   -2.99
-    ## BMI                               0.00800548   0.00483577    1.66
-    ## Polio                             0.01767859   0.00440792    4.01
-    ## Total.expenditure                 0.04113193   0.03249865    1.27
-    ## Diphtheria                        0.02503983   0.00474216    5.28
-    ## thinness.5.9.years               -0.10999775   0.02081352   -5.28
-    ## Income.composition.of.resources   6.18892015   0.63252116    9.78
-    ## Schooling                         0.46951115   0.04412289   10.64
-    ## log.HIV.AIDS                     -2.44195578   0.06827109  -35.77
-    ## log.GDP                           0.28000049   0.06050112    4.63
-    ## log.percentage.expenditure        0.19170006   0.03329452    5.76
-    ##                                             Pr(>|t|)    
-    ## (Intercept)                                  0.04876 *  
-    ## Year                                         0.00051 ***
-    ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                 0.0000112902 ***
-    ## Hepatitis.B                                  0.21626    
-    ## Measles                                      0.00279 ** 
-    ## BMI                                          0.09796 .  
-    ## Polio                                   0.0000623489 ***
-    ## Total.expenditure                            0.20576    
-    ## Diphtheria                              0.0000001402 ***
-    ## thinness.5.9.years                      0.0000001368 ***
-    ## Income.composition.of.resources < 0.0000000000000002 ***
-    ## Schooling                       < 0.0000000000000002 ***
-    ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                 0.0000038824 ***
-    ## log.percentage.expenditure              0.0000000096 ***
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-    ## 
-    ## Residual standard error: 3.67 on 2473 degrees of freedom
-    ## Multiple R-squared:  0.855,  Adjusted R-squared:  0.854 
-    ## F-statistic:  971 on 15 and 2473 DF,  p-value: <0.0000000000000002
-
-``` r
 ### re-run Visualize VIF
-fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
-barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-abline(v=10, col="red")
-```
+#fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
+#barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+#abline(v=10, col="red")
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-12.png)<!-- -->
-
-``` r
 ##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity####
-fit.fwd.lm3 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + Status + Continent, data = train)
+fit.fwd.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + Measles + under.five.deaths + Polio + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
 
 #### Hypothesis testing ####
 summary(fit.fwd.lm3)
@@ -2678,67 +2698,99 @@ summary(fit.fwd.lm3)
 
     ## 
     ## Call:
-    ## lm(formula = Life.expectancy ~ Year + Adult.Mortality + Alcohol + 
-    ##     Hepatitis.B + Measles + BMI + Polio + Total.expenditure + 
-    ##     Diphtheria + thinness.5.9.years + Income.composition.of.resources + 
-    ##     Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + 
-    ##     Status + Continent, data = train)
+    ## lm(formula = Life.expectancy ~ Year + Status + Adult.Mortality + 
+    ##     Alcohol + Measles + under.five.deaths + Polio + Diphtheria + 
+    ##     Population + thinness.5.9.years + Income.composition.of.resources + 
+    ##     Schooling + Region + log.HIV.AIDS + log.GDP + log.percentage.expenditure, 
+    ##     data = train)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -20.637  -2.044  -0.035   1.788  13.856 
+    ## -23.038  -1.773  -0.125   1.764  13.488 
     ## 
     ## Coefficients:
-    ##                                      Estimate    Std. Error t value
-    ## (Intercept)                     -118.97376830   33.72034261   -3.53
-    ## Year                               0.08689878    0.01687313    5.15
-    ## Adult.Mortality                   -0.01356241    0.00076349  -17.76
-    ## Alcohol                           -0.07871394    0.02924273   -2.69
-    ## Hepatitis.B                       -0.00416779    0.00360317   -1.16
-    ## Measles                           -0.00001384    0.00000623   -2.22
-    ## BMI                                0.00552920    0.00477473    1.16
-    ## Polio                              0.02022429    0.00423267    4.78
-    ## Total.expenditure                 -0.03235652    0.03206887   -1.01
-    ## Diphtheria                         0.02191699    0.00457044    4.80
-    ## thinness.5.9.years                -0.07405744    0.02155043   -3.44
-    ## Income.composition.of.resources    5.27334416    0.62110325    8.49
-    ## Schooling                          0.46518885    0.04264671   10.91
-    ## log.HIV.AIDS                      -2.18341145    0.07971685  -27.39
-    ## log.GDP                            0.22012611    0.05874015    3.75
-    ## log.percentage.expenditure         0.19679200    0.03207905    6.13
-    ## StatusDeveloping                  -2.35302973    0.29316075   -8.03
-    ## ContinentAmericas                  3.84452160    0.29870258   12.87
-    ## ContinentAsia                      1.28661730    0.27637478    4.66
-    ## ContinentEurope                    2.23960025    0.37275720    6.01
-    ## ContinentOceania                   0.38997288    0.40522625    0.96
+    ##                                          Estimate        Std. Error t value
+    ## (Intercept)                     -157.018608364632   32.116140118509   -4.89
+    ## Year                               0.106462509869    0.016113870124    6.61
+    ## StatusDeveloping                  -0.971546560452    0.315114615674   -3.08
+    ## Adult.Mortality                   -0.011604113567    0.000733140271  -15.83
+    ## Alcohol                           -0.086214139210    0.028161491372   -3.06
+    ## Measles                           -0.000018704873    0.000006877154   -2.72
+    ## under.five.deaths                 -0.003204332038    0.000658506642   -4.87
+    ## Polio                              0.020171299878    0.003914086249    5.15
+    ## Diphtheria                         0.022139392280    0.003997652494    5.54
+    ## Population                         0.000000003833    0.000000000767    5.00
+    ## thinness.5.9.years                -0.041226124408    0.028406692657   -1.45
+    ## Income.composition.of.resources    4.546752400730    0.586948732060    7.75
+    ## Schooling                          0.451132646775    0.041962475889   10.75
+    ## RegionAustralia and New Zealand    3.817335927764    0.899364756081    4.24
+    ## RegionCanada                       5.444339457973    0.991387448194    5.49
+    ## RegionCaribbean                    3.182629937136    0.517501837771    6.15
+    ## RegionCentral Africa              -1.936386735055    0.580940878771   -3.33
+    ## RegionCentral Asia                -3.106743457254    0.581544007044   -5.34
+    ## RegionCentral Europe               1.153165178120    0.514466943984    2.24
+    ## RegionEastern Africa              -0.979919729088    0.602738994239   -1.63
+    ## RegionEastern Europe              -0.243487392141    0.575466431282   -0.42
+    ## RegionMashriq                      0.396540308341    0.551780112739    0.72
+    ## RegionMeso-America                 3.425899968914    0.533547148381    6.42
+    ## RegionNorth Africa                -0.277748790000    0.511208320649   -0.54
+    ## RegionNW Pacific and East Asia     0.316258922436    0.618084349620    0.51
+    ## RegionSouth America                1.588714061541    0.513147960860    3.10
+    ## RegionSouth Asia                  -0.481007842515    0.548421694445   -0.88
+    ## RegionSouth Pacific               -1.230375494596    0.539483480004   -2.28
+    ## RegionSoutheast Asia               0.226917426000    0.470339729323    0.48
+    ## RegionSouthern Africa             -4.129662026770    0.656758646668   -6.29
+    ## RegionUS                           0.826329920118    1.064585265715    0.78
+    ## RegionWestern Africa              -3.673911814292    0.545466932507   -6.74
+    ## RegionWestern Europe               4.502873401318    0.541337809675    8.32
+    ## RegionWestern Indian Ocean        -1.519471204773    0.608936964882   -2.50
+    ## log.HIV.AIDS                      -1.924819420445    0.100082372384  -19.23
+    ## log.GDP                            0.124637228587    0.058808797644    2.12
+    ## log.percentage.expenditure         0.138154975567    0.031470920602    4.39
     ##                                             Pr(>|t|)    
-    ## (Intercept)                                  0.00043 ***
-    ## Year                              0.0000002808692258 ***
+    ## (Intercept)                        0.000001078547642 ***
+    ## Year                               0.000000000047974 ***
+    ## StatusDeveloping                             0.00207 ** 
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                      0.00716 ** 
-    ## Hepatitis.B                                  0.24751    
-    ## Measles                                      0.02641 *  
-    ## BMI                                          0.24697    
-    ## Polio                             0.0000018730673635 ***
-    ## Total.expenditure                            0.31309    
-    ## Diphtheria                        0.0000017202653699 ***
-    ## thinness.5.9.years                           0.00060 ***
-    ## Income.composition.of.resources < 0.0000000000000002 ***
+    ## Alcohol                                      0.00223 ** 
+    ## Measles                                      0.00658 ** 
+    ## under.five.deaths                  0.000001210704402 ***
+    ## Polio                              0.000000276032266 ***
+    ## Diphtheria                         0.000000033835557 ***
+    ## Population                         0.000000621379600 ***
+    ## thinness.5.9.years                           0.14683    
+    ## Income.composition.of.resources    0.000000000000014 ***
     ## Schooling                       < 0.0000000000000002 ***
+    ## RegionAustralia and New Zealand    0.000022725028453 ***
+    ## RegionCanada                       0.000000043923323 ***
+    ## RegionCaribbean                    0.000000000902042 ***
+    ## RegionCentral Africa                         0.00087 ***
+    ## RegionCentral Asia                 0.000000100265214 ***
+    ## RegionCentral Europe                         0.02508 *  
+    ## RegionEastern Africa                         0.10413    
+    ## RegionEastern Europe                         0.67225    
+    ## RegionMashriq                                0.47242    
+    ## RegionMeso-America                 0.000000000162037 ***
+    ## RegionNorth Africa                           0.58696    
+    ## RegionNW Pacific and East Asia               0.60892    
+    ## RegionSouth America                          0.00198 ** 
+    ## RegionSouth Asia                             0.38053    
+    ## RegionSouth Pacific                          0.02265 *  
+    ## RegionSoutheast Asia                         0.62953    
+    ## RegionSouthern Africa              0.000000000379637 ***
+    ## RegionUS                                     0.43771    
+    ## RegionWestern Africa               0.000000000020303 ***
+    ## RegionWestern Europe            < 0.0000000000000002 ***
+    ## RegionWestern Indian Ocean                   0.01265 *  
     ## log.HIV.AIDS                    < 0.0000000000000002 ***
-    ## log.GDP                                      0.00018 ***
-    ## log.percentage.expenditure        0.0000000009914412 ***
-    ## StatusDeveloping                  0.0000000000000015 ***
-    ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                     0.0000034058151147 ***
-    ## ContinentEurope                   0.0000000021533137 ***
-    ## ContinentOceania                             0.33596    
+    ## log.GDP                                      0.03416 *  
+    ## log.percentage.expenditure         0.000011819589863 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 3.52 on 2468 degrees of freedom
-    ## Multiple R-squared:  0.867,  Adjusted R-squared:  0.866 
-    ## F-statistic:  804 on 20 and 2468 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 3.25 on 2452 degrees of freedom
+    ## Multiple R-squared:  0.887,  Adjusted R-squared:  0.885 
+    ## F-statistic:  534 on 36 and 2452 DF,  p-value: <0.0000000000000002
 
 ``` r
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
@@ -2754,14 +2806,14 @@ postResample(pred = train_pred, obs = train$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.5040   0.8669   2.5996
+    ##   3.2301   0.8869   2.3796
 
 ``` r
 postResample(pred = test_pred, obs = test$Life.expectancy)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.2726   0.8689   2.4938
+    ##   3.1119   0.8824   2.3782
 
 ``` r
 sm = summary(fit.fwd.lm3)
@@ -2771,60 +2823,76 @@ mse = mean(sm$residuals^2)
 confint(fit.fwd.lm3)
 ```
 
-    ##                                         2.5 %        97.5 %
-    ## (Intercept)                     -185.09685339 -52.850683215
-    ## Year                               0.05381183   0.119985726
-    ## Adult.Mortality                   -0.01505956  -0.012065260
-    ## Alcohol                           -0.13605675  -0.021371127
-    ## Hepatitis.B                       -0.01123333   0.002897759
-    ## Measles                           -0.00002607  -0.000001624
-    ## BMI                               -0.00383369   0.014892100
-    ## Polio                              0.01192433   0.028524249
-    ## Total.expenditure                 -0.09524119   0.030528144
-    ## Diphtheria                         0.01295470   0.030879271
-    ## thinness.5.9.years                -0.11631622  -0.031798651
-    ## Income.composition.of.resources    4.05540687   6.491281449
-    ## Schooling                          0.38156182   0.548815889
-    ## log.HIV.AIDS                      -2.33973027  -2.027092627
-    ## log.GDP                            0.10494104   0.335311177
-    ## log.percentage.expenditure         0.13388736   0.259696638
-    ## StatusDeveloping                  -2.92789618  -1.778163292
-    ## ContinentAmericas                  3.25878804   4.430255162
-    ## ContinentAsia                      0.74466690   1.828567704
-    ## ContinentEurope                    1.50865110   2.970549404
-    ## ContinentOceania                  -0.40464568   1.184591438
+    ##                                             2.5 %           97.5 %
+    ## (Intercept)                     -219.996173259724 -94.041043469540
+    ## Year                               0.074864307293   0.138060712445
+    ## StatusDeveloping                  -1.589464874570  -0.353628246334
+    ## Adult.Mortality                   -0.013041751739  -0.010166475394
+    ## Alcohol                           -0.141436907073  -0.030991371347
+    ## Measles                           -0.000032190504  -0.000005219242
+    ## under.five.deaths                 -0.004495618745  -0.001913045332
+    ## Polio                              0.012496043143   0.027846556612
+    ## Diphtheria                         0.014300267826   0.029978516734
+    ## Population                         0.000000002329   0.000000005337
+    ## thinness.5.9.years                -0.096929715302   0.014477466485
+    ## Income.composition.of.resources    3.395785885857   5.697718915604
+    ## Schooling                          0.368847087592   0.533418205958
+    ## RegionAustralia and New Zealand    2.053742853334   5.580929002195
+    ## RegionCanada                       3.500296147525   7.388382768420
+    ## RegionCaribbean                    2.167844055293   4.197415818978
+    ## RegionCentral Africa              -3.075572258535  -0.797201211576
+    ## RegionCentral Asia                -4.247111674226  -1.966375240281
+    ## RegionCentral Europe               0.144330516434   2.161999839806
+    ## RegionEastern Africa              -2.161849873383   0.202010415208
+    ## RegionEastern Europe              -1.371937896692   0.884963112411
+    ## RegionMashriq                     -0.685462937680   1.478543554361
+    ## RegionMeso-America                 2.379650325036   4.472149612792
+    ## RegionNorth Africa                -1.280193513113   0.724695933114
+    ## RegionNW Pacific and East Asia    -0.895762419332   1.528280264204
+    ## RegionSouth America                0.582465835989   2.594962287093
+    ## RegionSouth Asia                  -1.556425458839   0.594409773810
+    ## RegionSouth Pacific               -2.288265880751  -0.172485108442
+    ## RegionSoutheast Asia              -0.695386771107   1.149221623107
+    ## RegionSouthern Africa             -5.417521032812  -2.841803020727
+    ## RegionUS                          -1.261249328526   2.913909168762
+    ## RegionWestern Africa              -4.743535343562  -2.604288285021
+    ## RegionWestern Europe               3.441346800887   5.564400001748
+    ## RegionWestern Indian Ocean        -2.713555147656  -0.325387261891
+    ## log.HIV.AIDS                      -2.121074140919  -1.728564699971
+    ## log.GDP                            0.009317179030   0.239957278144
+    ## log.percentage.expenditure         0.076442642229   0.199867308905
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-13.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-11.png)<!-- -->
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-14.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-12.png)<!-- -->
 
 ``` r
 plot(fit.fwd.lm3, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-15.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-13.png)<!-- -->
 
 ``` r
 plot(fit.fwd.lm3, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-16.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-14.png)<!-- -->
 
 ``` r
 #####################################################################################
 #                               Backward Elimination                                #
 #####################################################################################
 
-mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=43)
+mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=44)
 ```
 
     ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
@@ -2834,24 +2902,24 @@ mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=43)
 
 ``` r
 testASE<-c()
-for (i in 1:43){
+for (i in 1:44){
 
   predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
 
-plot(1:43,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:44,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.bck)$rss
-lines(1:44,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:45,rss/dim(train)[1],lty=3,col="blue")  
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-17.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-15.png)<!-- -->
 
 ``` r
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=43)
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=44)
 ```
 
     ## Warning in leaps.setup(x, y, wt = wt, nbest = nbest, nvmax = nvmax, force.in =
@@ -2860,49 +2928,53 @@ mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=
     ## Reordering variables and trying again:
 
 ``` r
-coef(mlr.bck.final,39)
+coef(mlr.bck.final,42)
 ```
 
     ##                     (Intercept)                            Year 
-    ##                  -131.239736685                     0.093562430 
+    ##               -128.126465484744                  0.092223100625 
     ##                StatusDeveloping                 Adult.Mortality 
-    ##                    -0.800031015                    -0.011068913 
+    ##                 -0.808600106896                 -0.010777494540 
     ##                   infant.deaths                         Alcohol 
-    ##                     0.031830930                    -0.072093350 
-    ##                         Measles                             BMI 
-    ##                    -0.000008923                     0.005744281 
-    ##               under.five.deaths                           Polio 
-    ##                    -0.024968586                     0.020757720 
-    ##               Total.expenditure                      Diphtheria 
-    ##                    -0.044577173                     0.021111278 
-    ##                        HIV.AIDS                             GDP 
-    ##                    -0.130126312                     0.000007676 
+    ##                  0.013772325686                 -0.073782934323 
+    ##          percentage.expenditure                         Measles 
+    ##                 -0.000003835046                 -0.000016555755 
+    ##                             BMI               under.five.deaths 
+    ##                  0.004781492524                 -0.013223134165 
+    ##                           Polio               Total.expenditure 
+    ##                  0.020543927510                 -0.038881958753 
+    ##                      Diphtheria                        HIV.AIDS 
+    ##                  0.020890019530                 -0.132417039867 
+    ##                             GDP                      Population 
+    ##                  0.000007876767                  0.000000003002 
     ##              thinness.5.9.years Income.composition.of.resources 
-    ##                    -0.037317746                     4.673355590 
+    ##                 -0.045711953110                  4.492831876467 
     ##                       Schooling RegionAustralia and New Zealand 
-    ##                     0.465821167                     3.687010067 
+    ##                  0.475168294378                  3.326096325960 
     ##                    RegionCanada                 RegionCaribbean 
-    ##                     5.730289556                     3.145784142 
+    ##                  5.374147723064                  2.837750045050 
     ##            RegionCentral Africa              RegionCentral Asia 
-    ##                    -2.104051868                    -2.702563682 
+    ##                 -2.373678088153                 -3.045579914013 
     ##            RegionCentral Europe            RegionEastern Africa 
-    ##                     1.445229768                    -1.059612995 
+    ##                  1.121304461375                 -1.469632292864 
     ##            RegionEastern Europe                   RegionMashriq 
-    ##                    -0.188549704                     0.623238978 
+    ##                 -0.573587794888                  0.334456289277 
     ##              RegionMeso-America              RegionNorth Africa 
-    ##                     3.425407702                    -0.241520323 
+    ##                  3.080159159729                 -0.544283451323 
     ##  RegionNW Pacific and East Asia             RegionSouth America 
-    ##                     1.715611209                     1.680966426 
+    ##                  0.841043134511                  1.310642676690 
     ##                RegionSouth Asia             RegionSouth Pacific 
-    ##                    -0.028624333                    -0.960129827 
+    ##                 -0.179296416553                 -1.311761372508 
     ##           RegionSouthern Africa                        RegionUS 
-    ##                    -3.118514805                     1.977657249 
+    ##                 -3.473880619932                  0.872321790270 
     ##            RegionWestern Africa            RegionWestern Europe 
-    ##                    -3.537304999                     4.648209117 
-    ##                    log.HIV.AIDS                         log.GDP 
-    ##                    -1.601265688                     0.140887604 
-    ##      log.percentage.expenditure               ContinentAmericas 
-    ##                     0.122331243                     0.000000000
+    ##                 -3.953085133659                  4.307473415575 
+    ##      RegionWestern Indian Ocean                    log.HIV.AIDS 
+    ##                 -1.529166050938                 -1.606371320339 
+    ##                         log.GDP      log.percentage.expenditure 
+    ##                  0.131374259649                  0.123756858635 
+    ##               ContinentAmericas 
+    ##                  0.000000000000
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -2910,11 +2982,239 @@ postResample(pred = predictions, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.1150   0.8817   2.3777
+    ##   3.1186   0.8814   2.3798
 
 ``` r
-##### Result is the same as the forward model therefore does not need to fit another linear model ###### 
+##different result now, will repeat steps from earlier model
 
+fit.bck.lm <- lm(Life.expectancy ~Year + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP,data = train)
+
+### Visualize VIF
+fit.bck.lm_VIF = vif(fit.bck.lm)
+barplot(fit.bck.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-16.png)<!-- -->
+
+``` r
+#two are correlated and giving a high VIF it's under.five and infant.deaths
+fit.bck.lm2 <- lm(Life.expectancy ~Year + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP,data = train)
+
+fit.bck.lm2_VIF <- vif(fit.bck.lm2)
+barplot(fit.bck.lm2_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-17.png)<!-- -->
+
+``` r
+##fit model with categorical variables and removed colinearity
+fit.bck.lm3 <- lm(Life.expectancy ~Year + Status + Adult.Mortality + infant.deaths + Alcohol + percentage.expenditure + Measles + BMI +  Polio + Total.expenditure + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + Region,data = train)
+
+
+#### Hypothesis testing ####
+summary(fit.bck.lm3)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = Life.expectancy ~ Year + Status + Adult.Mortality + 
+    ##     infant.deaths + Alcohol + percentage.expenditure + Measles + 
+    ##     BMI + Polio + Total.expenditure + Diphtheria + Population + 
+    ##     thinness.5.9.years + Income.composition.of.resources + Schooling + 
+    ##     log.HIV.AIDS + log.GDP + Region, data = train)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -22.669  -1.788  -0.125   1.696  13.259 
+    ## 
+    ## Coefficients:
+    ##                                          Estimate        Std. Error t value
+    ## (Intercept)                     -130.036755977454   31.621942481064   -4.11
+    ## Year                               0.092878751186    0.015869195534    5.85
+    ## StatusDeveloping                  -0.960683180074    0.318531975161   -3.02
+    ## Adult.Mortality                   -0.011811740262    0.000733598784  -16.10
+    ## infant.deaths                     -0.004634786727    0.000940118055   -4.93
+    ## Alcohol                           -0.095313591898    0.028171577569   -3.38
+    ## percentage.expenditure             0.000093082758    0.000046142508    2.02
+    ## Measles                           -0.000020619731    0.000006868822   -3.00
+    ## BMI                                0.003765772273    0.004983150775    0.76
+    ## Polio                              0.020013973806    0.003928041130    5.10
+    ## Total.expenditure                 -0.046319148758    0.032875503203   -1.41
+    ## Diphtheria                         0.023242294106    0.004008161339    5.80
+    ## Population                         0.000000004263    0.000000000802    5.31
+    ## thinness.5.9.years                -0.042346800766    0.028651255912   -1.48
+    ## Income.composition.of.resources    4.501613346003    0.592354010665    7.60
+    ## Schooling                          0.470844968217    0.042203829703   11.16
+    ## log.HIV.AIDS                      -1.891720803314    0.099860011121  -18.94
+    ## log.GDP                            0.196245183454    0.056897075712    3.45
+    ## RegionAustralia and New Zealand    3.959060793102    0.923104356326    4.29
+    ## RegionCanada                       5.562558299765    1.012762633052    5.49
+    ## RegionCaribbean                    3.280478163470    0.524670206038    6.25
+    ## RegionCentral Africa              -1.787346522772    0.597247172972   -2.99
+    ## RegionCentral Asia                -3.004172703727    0.587824998763   -5.11
+    ## RegionCentral Europe               1.353135412524    0.525680755304    2.57
+    ## RegionEastern Africa              -0.730802568292    0.625190953472   -1.17
+    ## RegionEastern Europe              -0.025739909099    0.584583579617   -0.04
+    ## RegionMashriq                      0.526716698948    0.556237133582    0.95
+    ## RegionMeso-America                 3.814528016621    0.546846531487    6.98
+    ## RegionNorth Africa                -0.209887664501    0.515034183495   -0.41
+    ## RegionNW Pacific and East Asia     0.308290837495    0.634195688978    0.49
+    ## RegionSouth America                1.798684144026    0.523762736848    3.43
+    ## RegionSouth Asia                  -0.179063805291    0.562780857000   -0.32
+    ## RegionSouth Pacific               -1.031270753128    0.546714454069   -1.89
+    ## RegionSoutheast Asia               0.341799817573    0.490544471992    0.70
+    ## RegionSouthern Africa             -3.854560863132    0.676993828236   -5.69
+    ## RegionUS                           0.552454839286    1.123290942973    0.49
+    ## RegionWestern Africa              -3.449951187040    0.565005197989   -6.11
+    ## RegionWestern Europe               4.641766946363    0.563005751015    8.24
+    ## RegionWestern Indian Ocean        -1.221591424236    0.622766661157   -1.96
+    ##                                             Pr(>|t|)    
+    ## (Intercept)                      0.00004047634847432 ***
+    ## Year                             0.00000000548091985 ***
+    ## StatusDeveloping                             0.00259 ** 
+    ## Adult.Mortality                 < 0.0000000000000002 ***
+    ## infant.deaths                    0.00000087727205956 ***
+    ## Alcohol                                      0.00073 ***
+    ## percentage.expenditure                       0.04377 *  
+    ## Measles                                      0.00271 ** 
+    ## BMI                                          0.44990    
+    ## Polio                            0.00000037502752355 ***
+    ## Total.expenditure                            0.15898    
+    ## Diphtheria                       0.00000000754128740 ***
+    ## Population                       0.00000011726772024 ***
+    ## thinness.5.9.years                           0.13953    
+    ## Income.composition.of.resources  0.00000000000004203 ***
+    ## Schooling                       < 0.0000000000000002 ***
+    ## log.HIV.AIDS                    < 0.0000000000000002 ***
+    ## log.GDP                                      0.00057 ***
+    ## RegionAustralia and New Zealand  0.00001865568025393 ***
+    ## RegionCanada                     0.00000004372487367 ***
+    ## RegionCaribbean                  0.00000000047516465 ***
+    ## RegionCentral Africa                         0.00279 ** 
+    ## RegionCentral Asia               0.00000034581541548 ***
+    ## RegionCentral Europe                         0.01011 *  
+    ## RegionEastern Africa                         0.24255    
+    ## RegionEastern Europe                         0.96488    
+    ## RegionMashriq                                0.34377    
+    ## RegionMeso-America               0.00000000000390640 ***
+    ## RegionNorth Africa                           0.68366    
+    ## RegionNW Pacific and East Asia               0.62693    
+    ## RegionSouth America                          0.00060 ***
+    ## RegionSouth Asia                             0.75038    
+    ## RegionSouth Pacific                          0.05937 .  
+    ## RegionSoutheast Asia                         0.48601    
+    ## RegionSouthern Africa            0.00000001392049825 ***
+    ## RegionUS                                     0.62289    
+    ## RegionWestern Africa             0.00000000118403070 ***
+    ## RegionWestern Europe             0.00000000000000027 ***
+    ## RegionWestern Indian Ocean                   0.04993 *  
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 3.26 on 2450 degrees of freedom
+    ## Multiple R-squared:  0.886,  Adjusted R-squared:  0.885 
+    ## F-statistic:  503 on 38 and 2450 DF,  p-value: <0.0000000000000002
+
+``` r
+# At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
+# BMI, Total.expenditure, thinness.5.9.years
+
+# Predicting
+train_pred = predict(fit.bck.lm3, train)
+test_pred = predict(fit.bck.lm3, test)
+
+# Scoring the final model on Training and Test set
+residuals = resid(fit.bck.lm3)
+postResample(pred = train_pred, obs = train$Life.expectancy)
+```
+
+    ##     RMSE Rsquared      MAE 
+    ##   3.2392   0.8863   2.3912
+
+``` r
+postResample(pred = test_pred, obs = test$Life.expectancy)
+```
+
+    ##     RMSE Rsquared      MAE 
+    ##   3.1073   0.8825   2.3793
+
+``` r
+sm = summary(fit.bck.lm3)
+mse = mean(sm$residuals^2)
+
+### Checking Multiple Liner Regression model assumptions
+confint(fit.bck.lm3)
+```
+
+    ##                                            2.5 %           97.5 %
+    ## (Intercept)                     -192.04525794015 -68.028254014755
+    ## Year                               0.06176032628   0.123997176090
+    ## StatusDeveloping                  -1.58530295537  -0.336063404776
+    ## Adult.Mortality                   -0.01325027813  -0.010373202397
+    ## infant.deaths                     -0.00647829499  -0.002791278464
+    ## Alcohol                           -0.15055616038  -0.040071023419
+    ## percentage.expenditure             0.00000260040   0.000183565112
+    ## Measles                           -0.00003408903  -0.000007150433
+    ## BMI                               -0.00600585117   0.013537395721
+    ## Polio                              0.01231134939   0.027716598218
+    ## Total.expenditure                 -0.11078579897   0.018147501451
+    ## Diphtheria                         0.01538255935   0.031102028858
+    ## Population                         0.00000000269   0.000000005836
+    ## thinness.5.9.years                -0.09852998621   0.013836384677
+    ## Income.composition.of.resources    3.34004697939   5.663179712614
+    ## Schooling                          0.38808609727   0.553603839168
+    ## log.HIV.AIDS                      -2.08753956743  -1.695902039198
+    ## log.GDP                            0.08467384551   0.307816521397
+    ## RegionAustralia and New Zealand    2.14891524859   5.769206337617
+    ## RegionCanada                       3.57659890600   7.548517693529
+    ## RegionCaribbean                    2.25163518457   4.309321142371
+    ## RegionCentral Africa              -2.95850805150  -0.616184994045
+    ## RegionCentral Asia                -4.15685798267  -1.851487424783
+    ## RegionCentral Europe               0.32231081449   2.383960010555
+    ## RegionEastern Africa              -1.95675997077   0.495154834187
+    ## RegionEastern Europe              -1.17206898315   1.120589164954
+    ## RegionMashriq                     -0.56402690133   1.617460299220
+    ## RegionMeso-America                 2.74219875534   4.886857277902
+    ## RegionNorth Africa                -1.21983505142   0.800059722420
+    ## RegionNW Pacific and East Asia    -0.93532424555   1.551905920543
+    ## RegionSouth America                0.77162065116   2.825747636892
+    ## RegionSouth Asia                  -1.28263920698   0.924511596402
+    ## RegionSouth Pacific               -2.10334101948   0.040799513221
+    ## RegionSoutheast Asia              -0.62012489254   1.303724527687
+    ## RegionSouthern Africa             -5.18210021819  -2.527021508076
+    ## RegionUS                          -1.65024313487   2.755152813445
+    ## RegionWestern Africa              -4.55788837178  -2.342014002301
+    ## RegionWestern Europe               3.53775054264   5.745783350091
+    ## RegionWestern Indian Ocean        -2.44279495257  -0.000387895903
+
+``` r
+hist(residuals, main = "Histogram of Residuals")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-18.png)<!-- -->
+
+``` r
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-19.png)<!-- -->
+
+``` r
+plot(fit.fwd.lm3, which = 2)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-20.png)<!-- -->
+
+``` r
+plot(fit.fwd.lm3, which = 4)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-21.png)<!-- -->
+
+``` r
 #####################################################################################
 #                                  Ridge regression                                 #
 #####################################################################################
@@ -2929,7 +3229,7 @@ cv.out=cv.glmnet(x,y,alpha=0)
 plot(cv.out)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-18.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-22.png)<!-- -->
 
 ``` r
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
@@ -2939,62 +3239,63 @@ testMSE_RIDGE<-mean((ytest-ridge.pred)^2)
 testMSE_RIDGE
 ```
 
-    ## [1] 9.557
+    ## [1] 9.551
 
 ``` r
 coef(ridge.mod,s=bestlambda)
 ```
 
-    ## 48 x 1 sparse Matrix of class "dgCMatrix"
-    ##                                             s1
-    ## (Intercept)                     -124.231031702
-    ## Year                               0.089764190
-    ## StatusDeveloping                  -1.011504204
-    ## Adult.Mortality                   -0.011179998
-    ## infant.deaths                      0.000376113
-    ## Alcohol                           -0.020270749
-    ## percentage.expenditure             0.000034856
-    ## Hepatitis.B                        0.001897002
-    ## Measles                           -0.000010154
-    ## BMI                                0.010930550
-    ## under.five.deaths                 -0.001579187
-    ## Polio                              0.022617948
-    ## Total.expenditure                 -0.003625395
-    ## Diphtheria                         0.023432679
-    ## HIV.AIDS                          -0.173780593
-    ## GDP                                0.000003482
-    ## thinness..1.19.years              -0.024306514
-    ## thinness.5.9.years                -0.051023149
-    ## Income.composition.of.resources    4.742344899
-    ## Schooling                          0.445491152
-    ## RegionAustralia and New Zealand    3.492912278
-    ## RegionCanada                       3.937052058
-    ## RegionCaribbean                    1.615529757
-    ## RegionCentral Africa              -1.953855082
-    ## RegionCentral Asia                -3.269326642
-    ## RegionCentral Europe               0.959042019
-    ## RegionEastern Africa              -1.002626078
-    ## RegionEastern Europe              -0.529922814
-    ## RegionMashriq                      0.234817794
-    ## RegionMeso-America                 2.095585640
-    ## RegionNorth Africa                 0.484471767
-    ## RegionNW Pacific and East Asia     0.896095972
-    ## RegionSouth America                0.476821437
-    ## RegionSouth Asia                   0.073734513
-    ## RegionSouth Pacific               -0.535077375
-    ## RegionSoutheast Asia               0.142614699
-    ## RegionSouthern Africa             -2.978189862
-    ## RegionUS                           0.336391543
-    ## RegionWestern Africa              -3.567493779
-    ## RegionWestern Europe               3.857464276
-    ## RegionWestern Indian Ocean        -0.448700623
-    ## log.HIV.AIDS                      -1.263741177
-    ## log.GDP                            0.161899274
-    ## log.percentage.expenditure         0.121878278
-    ## ContinentAmericas                  1.554340676
-    ## ContinentAsia                      1.236108597
-    ## ContinentEurope                    0.449052794
-    ## ContinentOceania                   0.127164303
+    ## 49 x 1 sparse Matrix of class "dgCMatrix"
+    ##                                                s1
+    ## (Intercept)                     -113.505283526518
+    ## Year                               0.084482098182
+    ## StatusDeveloping                  -1.049422516436
+    ## Adult.Mortality                   -0.011074829979
+    ## infant.deaths                     -0.001429935031
+    ## Alcohol                           -0.021392856140
+    ## percentage.expenditure             0.000043300288
+    ## Hepatitis.B                        0.002217291759
+    ## Measles                           -0.000018264657
+    ## BMI                                0.011116190220
+    ## under.five.deaths                 -0.002019179454
+    ## Polio                              0.021943934825
+    ## Total.expenditure                 -0.004393876540
+    ## Diphtheria                         0.022409524045
+    ## HIV.AIDS                          -0.176041095211
+    ## GDP                                0.000003316440
+    ## Population                         0.000000003517
+    ## thinness..1.19.years              -0.026949927676
+    ## thinness.5.9.years                -0.051480604337
+    ## Income.composition.of.resources    4.691737371805
+    ## Schooling                          0.448993253457
+    ## RegionAustralia and New Zealand    3.418351198710
+    ## RegionCanada                       3.889401156043
+    ## RegionCaribbean                    1.651822713120
+    ## RegionCentral Africa              -1.880887400303
+    ## RegionCentral Asia                -3.256078437365
+    ## RegionCentral Europe               0.985617418695
+    ## RegionEastern Africa              -0.952752443385
+    ## RegionEastern Europe              -0.567790521093
+    ## RegionMashriq                      0.235354536949
+    ## RegionMeso-America                 2.103694137141
+    ## RegionNorth Africa                 0.475123720708
+    ## RegionNW Pacific and East Asia     0.079798381911
+    ## RegionSouth America                0.441277208937
+    ## RegionSouth Asia                   0.079796063679
+    ## RegionSouth Pacific               -0.529329847487
+    ## RegionSoutheast Asia               0.085223568531
+    ## RegionSouthern Africa             -2.945926895819
+    ## RegionUS                          -0.586151023753
+    ## RegionWestern Africa              -3.461866442718
+    ## RegionWestern Europe               3.828777096802
+    ## RegionWestern Indian Ocean        -0.419943994191
+    ## log.HIV.AIDS                      -1.251469746511
+    ## log.GDP                            0.168934798768
+    ## log.percentage.expenditure         0.115162163493
+    ## ContinentAmericas                  1.519656801404
+    ## ContinentAsia                      1.227495154882
+    ## ContinentEurope                    0.395467161155
+    ## ContinentOceania                   0.116166434544
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -3002,7 +3303,7 @@ postResample(pred = ridge.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0914   0.8828   2.3296
+    ##   3.0905   0.8828   2.3275
 
 ``` r
 #####################################################################################
@@ -3024,7 +3325,7 @@ cva.out = cva.glmnet(x,y)
 plot(cva.out)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-19.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-23.png)<!-- -->
 
 ``` r
 alpha = cva.out$alpha
@@ -3036,7 +3337,7 @@ cva.min
 ```
 
     ##   alpha lambdaMin   mse
-    ## 1 0.216  0.004773 10.69
+    ## 1 0.512   0.02482 10.61
 
 ``` r
 elastic.mod = glmnet(x,y, alpha = cva.min$alpha, lambda = cva.min$lambdaMin)
@@ -3047,7 +3348,7 @@ testMSE_ELASTIC<-mean((ytest-elastic.pred)^2)
 testMSE_ELASTIC
 ```
 
-    ## [1] 9.56
+    ## [1] 9.565
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -3055,7 +3356,7 @@ postResample(pred = elastic.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   3.0919   0.8834   2.3388
+    ##   3.0927   0.8831   2.3321
 
 ``` r
 #####################################################################################
@@ -3080,7 +3381,7 @@ barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-20.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-24.png)<!-- -->
 
 ``` r
 ### Hypothesis testing
@@ -3229,26 +3530,26 @@ confint(fit)
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-21.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-25.png)<!-- -->
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-22.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-26.png)<!-- -->
 
 ``` r
 plot(fit, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-23.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-27.png)<!-- -->
 
 ``` r
 plot(fit, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-24.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-28.png)<!-- -->
 
 ``` r
 #####################################################################################
@@ -3332,11 +3633,11 @@ ggplot(KNNRegressor) + ggtitle("Optimal k value for the highest accuracy") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-1.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-19-1.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 KNNvarImp = varImp(KNNRegressor)
 plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-2.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-19-2.png" angle=90 style="display: block; margin: auto;" />
