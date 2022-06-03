@@ -1074,7 +1074,7 @@ test_custom <- LifeExp2[index,]
 ```
 ```{r run custom model}
 #retrain/fit/test/predict and measure accuracy
-fit.custom <- lm(Life.expectancy ~Adult.Mortality + infant.deaths + log.GDP + Meas_cat:Measles + HIV_cat:log.HIV.AIDS + Country +Country:infant.deaths +Country:Adult.Mortality,data = train_custom)
+fit.custom <- lm(Life.expectancy ~Adult.Mortality + infant.deaths + log.GDP +Measles + HIV_cat + Country + Country:infant.deaths +Country:Adult.Mortality + Adult.Mortality:infant.deaths:Country,data = train_custom)
 #model has interactions between HIV and Measles variables and their respective
 #binary categories to have a sort of conditional
 #interaction between Country:infant.deaths
