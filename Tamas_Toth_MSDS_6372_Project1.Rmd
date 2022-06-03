@@ -1049,6 +1049,15 @@ grid()
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
 fit_interaction = lm(Life.expectancy ~ Status + Region + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, train)
+
+#fit_interaction = lm(Life.expectancy ~ Status + Region + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + country:infant.mortality.rate, train)
+
+interact_pred_train = predict(fit_interaction, train)
+postResample(pred = interact_pred_train, obs = train$Life.expectancy)
+
+interact_pred = predict(fit_interaction, test)
+postResample(pred = interact_pred, obs = test$Life.expectancy)
+
 summary(fit_interaction)
 confint(fit_interaction)
 hist(residuals, main = "Histogram of Residuals")
@@ -1108,32 +1117,30 @@ x=KNNtrain[,c(-4, -23)]
 y=KNNtrain$Life.expectancy
 xtest = KNNtest[,c(-4,-23)]
 ytest = KNNtest$Life.expectancy
+KNN_drop = c(-23,-12, -1)
 
 # Search for optimal k
-k_grid = expand.grid(k = seq(2, 25, by = 1))
+k_grid = expand.grid(k = seq(3, 25, by = 2))
 
 # Model Training
 KNNRegressor = train(
   Life.expectancy~.,
-  data = KNNtrain[,-23],
+  data = KNNtrain[,KNN_drop],
   method = "knn",
   preProcess = c("center", "scale"), 
   tuneGrid = k_grid,
+  metric     = "RMSE",
   trControl = cv
   )
 
-KNNRegressor$finalModel
+prediction_test = predict(KNNRegressor, KNNtrain[,KNN_drop])
+postResample(pred = prediction_test, obs = KNNtrain[,KNN_drop]$Life.expectancy)
 
-KNNRegressor$pred
-prediction_train = predict(KNNRegressor, KNNtrain[,-23])
-prediction_test = predict(KNNRegressor, KNNtest[,-23])
+prediction_test = predict(KNNRegressor, KNNtest[,KNN_drop])
+postResample(pred = prediction_test, obs = KNNtest[,KNN_drop]$Life.expectancy)
 
-#print(paste("RMSE:", KNNRegressor$resample$RMSE[1]))
-#print(paste("R-squared:",KNNRegressor$resample$Rsquared[1]))
-#print(paste("MAE:",KNNRegressor$resample$MAE[1]))
-
-mse.knn  = mean((prediction_test - ytest)^2) 
-
+plot(KNNRegressor)
+varImp(KNNRegressor)
 
 x = 1:length(KNNtest$Life.expectancy)
 plot(x, KNNtest$Life.expectancy, col = "red", type = "l", lwd=2,
