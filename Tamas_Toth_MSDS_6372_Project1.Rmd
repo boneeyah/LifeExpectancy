@@ -55,7 +55,6 @@ library(Hmisc)
 library(DataExplorer)
 library(selectiveInference)
 library(dlookr)
-library(forecast) #for getting RMSE comparing actual value to predicted value
 ```
 ```{r message = FALSE}
 # Turn off scientific notation
@@ -1079,8 +1078,9 @@ fit.custom <- lm(Life.expectancy ~Year + Status + Adult.Mortality + infant.death
 #interaction between Country:infant.deaths
 
 #check model performance on the test set and test set prediction
-test_custom_pred <- predict(fit.custom,test_custom)
-accuracy(test_custom_pred,test_custom$Life.expectancy)
+test_custom_pred <- predict(fit.custom,test_custom) #rank deficient warning comes from the self-interactions (ex. HIV_cat:HIV)
+
+postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
 
 ```
 
