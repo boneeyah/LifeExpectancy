@@ -217,6 +217,7 @@ LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Income.composition.of.r
 LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Schooling = replace(Schooling,is.na(Schooling), median(Schooling, na.rm = TRUE)))
 # convert the tibble to data frame
 LifeExp = as.data.frame(LifeExp)
+LifeExpKNN = LifeExp
 
 #impute USA values
 #USA GDP
