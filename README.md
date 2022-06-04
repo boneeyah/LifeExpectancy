@@ -28,8 +28,10 @@ Packages:
 * ggplot2
 * ggpubr
 * ggthemes
+* glment
 * Hmisc
 * knitr
+* leaps
 * naivebayes
 * plyr
 * reshape2
