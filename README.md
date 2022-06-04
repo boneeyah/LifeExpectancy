@@ -1,8 +1,8 @@
 # LifeExpectancy
 MSDS 6372 Project 1
 
-## Team Members
-Tamas Toth | Reuven Derner | Miguel Bonilla | Milan Patel ![Github](https://img.shields.io/badge/Contributors-4-brightgreen)
+## Team Members![Github](https://img.shields.io/badge/Contributors-4-brightgreen)
+Tamas Toth | Reuven Derner | Miguel Bonilla | Milan Patel 
 
 ## Contents
 * [Data Files](https://github.com/boneeyah/LifeExpectancy/tree/main/Data%20Files)
