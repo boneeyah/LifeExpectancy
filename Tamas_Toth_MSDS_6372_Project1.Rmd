@@ -64,7 +64,7 @@ options(scipen = 100, digits = 4)
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Life_Expectancy_Data.csv',header = TRUE, sep = ",",encoding = "UTF-8")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -125,7 +125,7 @@ summary(LifeExp)
 
 
 ### Scatterplots
-```{r Linear regression}
+```{r Linear regression, eval=FALSE, include=FALSE}
 #####################################################################################
 #                        Scatter plots for checking linearity                       #
 #####################################################################################
@@ -293,7 +293,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv')
+pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv',encoding = "UTF-8")
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -310,7 +310,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Adult_mort.csv',header = TRUE)
+adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Adult_mort.csv',header = TRUE,encoding = "UTF-8")
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
@@ -320,8 +320,7 @@ adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Eswatini", 
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "The former Yugoslav Republic of Macedonia", "The former Yugoslav republic of Macedonia")
 
 LifeExp <- left_join(LifeExp,adlt_mort, by=c("Country","Year"))
-LifeExp <- LifeExp %>% 
-  dplyr::mutate("Adult.Mortality" = Adult.Mort2)
+LifeExp <- LifeExp %>% dplyr::mutate("Adult.Mortality" = Adult.Mort2)
 #drop new variables
 drop = c("GDP2","Schooling2","comp2", "Population2","Adult.Mort2")
 LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
