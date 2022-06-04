@@ -1101,11 +1101,11 @@ eval_train_df = rbind(eval_train_df, c('MLR - Tamas', format(round(mse_trndf,4),
 #####################################################################################
 fit_interaction = lm(Life.expectancy ~ Continent + Status + Schooling + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status + Schooling:Status + I(GDP^2) ,data = train)
 
-interact_pred_train = predict(fit_interaction, rtrain)
-train_score = postResample(pred = interact_pred_train, obs = rtrain$Life.expectancy)
+interact_pred_train = predict(fit_interaction, train)
+train_score = postResample(pred = interact_pred_train, obs = train$Life.expectancy)
 
-interact_pred = predict(fit_interaction, rtest)
-test_score = postResample(pred = interact_pred, obs = rtest$Life.expectancy)
+interact_pred = predict(fit_interaction, test)
+test_score = postResample(pred = interact_pred, obs = test$Life.expectancy)
 
 summary(fit_interaction)
 confint(fit_interaction)
@@ -1198,16 +1198,24 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 
 #### Scatter plot
-plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
-
+plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Reuven)", xlab = 'Original observations', ylab='Predicted values')
 #### Model test scores
 rmse = test_score[1]
 rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+sm = summary(MLRT$finalModel)
+mse_trn = mean(sm$residuals^2)
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+eval_test_df = rbind(eval_test_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Reuven', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
 
 ```
 
@@ -1310,8 +1318,8 @@ varImp(KNNRegressor)
 #KNNRegressor.sorted <- KNNRegressor$results[order(KNNRegressor$results$Rsquared),]
 #KNNRegressor.sorted[1,'Rsquared']
 
-x = 1:length(ktest$Life.expectancy)
-plot(x, ktest$Life.expectancy, col = "red", type = "l", lwd=2,
+x_knn = 1:length(ktest$Life.expectancy)
+plot(x_knn, ktest$Life.expectancy, col = "red", type = "l", lwd=2,
      main = "Life Expectancy prediction")
 lines(x_knn, prediction_test, col = "blue", lwd=2)
 legend("topright",  legend = c("original observation", "predicted life expectancy"), 
