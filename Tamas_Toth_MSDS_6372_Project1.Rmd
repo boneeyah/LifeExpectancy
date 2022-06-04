@@ -50,11 +50,6 @@ library(corrplot)
 library(naivebayes)
 library(car)
 library(egg)
-library(rworldmap)
-library(Hmisc)
-library(DataExplorer)
-library(selectiveInference)
-library(dlookr)
 ```
 ```{r message = FALSE}
 # Turn off scientific notation
@@ -64,7 +59,7 @@ options(scipen = 100, digits = 4)
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -129,19 +124,6 @@ summary(LifeExp)
 #####################################################################################
 #                        Scatter plots for checking linearity                       #
 #####################################################################################
-
-################### Linear - Linear ###################
-LifeExp$Status = as.factor(LifeExp$Status)
-#num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
-#MLR_num_LE = LifeExp[, num_cols]
-pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(Life.expectancy~HIV.AIDS+GDP+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-
-
-################### Linear - Log transformation ###################
 LifeExp$Status = as.factor(LifeExp$Status)
 #num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 #MLR_num_LE = LifeExp[, num_cols]
@@ -150,19 +132,6 @@ pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=
 pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
 pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
 pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-
-################### Log - Log transformation ###################
-LifeExp$Status = as.factor(LifeExp$Status)
-#num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
-#MLR_num_LE = LifeExp[, num_cols]
-pairs(log(Life.expectancy)~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(log(Life.expectancy)~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(log(Life.expectancy)~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(log(Life.expectancy)~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-pairs(log(Life.expectancy)~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
-
-
-
 ```
 ### Observations
 We can observe linear relationship between Life Expectancy and the following variables
@@ -179,7 +148,7 @@ We can observe linear relationship between Life Expectancy and the following var
 #adding region column to do regional imputation
 ```{r adding region column}
 ###rename ivory coast and remove parenthesis from country names
-LifeExp$Country <- replace(LifeExp$Country,LifeExp$Country == "Côte d'Ivoire","Ivory Coast")
+LifeExp$Country <- replace(LifeExp$Country,LifeExp$Country == "CÃ´te d'Ivoire","Ivory Coast")
 LifeExp$Country <-  str_replace(LifeExp$Country,"\\(.*\\)","")
 LifeExp$Country <- trimws(LifeExp$Country,"right")
 
@@ -248,10 +217,11 @@ LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Income.composition.of.r
 LifeExp = LifeExp %>% group_by(Region) %>% dplyr::mutate(Schooling = replace(Schooling,is.na(Schooling), median(Schooling, na.rm = TRUE)))
 # convert the tibble to data frame
 LifeExp = as.data.frame(LifeExp)
+LifeExpKNN = LifeExp
 
 #impute USA values
 #USA GDP
-US_GDP <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
+US_GDP <- read.csv('API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -263,7 +233,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-US_Scho <- read.csv("https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
+US_Scho <- read.csv("Expected years of schooling (years).csv",skip = 6,header = FALSE)
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -278,7 +248,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-US_Inc <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE)
+US_Inc <- read.csv('Income index.csv',skip = 5, header = FALSE)
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -291,43 +261,9 @@ US_Inc$Country <- replace(US_Inc$Country,US_Inc$Country == "United States", "Uni
 LifeExp <- left_join(LifeExp,US_Inc,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(LifeExp$Country == "United States of America", LifeExp$comp2,LifeExp$Income.composition.of.resources))
 
-#Add population from external source
-#data from UN in thousands 
-pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv')
-pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
-
-#clean country names to match before merge
-pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Bolivia (Plurinational State of)", "Bolivia")
-pop_all$Country <- replace(pop_all$Country,pop_all$Country == "Côte d'Ivoire", "Ivory Coast")
-pop_all$Country <- replace(pop_all$Country,pop_all$Country == "Dem. People's Republic of Korea","Democratic People's Republic of Korea")
-pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Iran (Islamic Republic of)", "Iran")
-pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Micronesia (Fed. States of)", "Micronesia (Federated States of)")
-pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Eswatini", "Swaziland")
-pop_all$Country <- replace(pop_all$Country, pop_all$Country == "North Macedonia", "The former Yugoslav republic of Macedonia")
-pop_all$Country <- replace(pop_all$Country, pop_all$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
-pop_all$Country <- replace(pop_all$Country, pop_all$Country == "Venezuela (Bolivarian Republic of)", "Venezuela")
-LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Population = Population2)
-
-#replace adult.mortality since there are clear mistakes with the data that could
-#not be resolved with transformation of the variable
-adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Adult_mort.csv',header = TRUE)
-adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
-adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
-adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
-adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Venezuela (Bolivarian Republic of)","Venezuela")
-adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Iran (Islamic Republic of)", "Iran")
-adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Eswatini", "Swaziland")
-adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "The former Yugoslav Republic of Macedonia", "The former Yugoslav republic of Macedonia")
-
-LifeExp <- left_join(LifeExp,adlt_mort, by=c("Country","Year"))
-LifeExp <- LifeExp %>% 
-  dplyr::mutate("Adult.Mortality" = Adult.Mort2)
 #drop new variables
-drop = c("GDP2","Schooling2","comp2", "Population2","Adult.Mort2")
+drop = c("GDP2","Schooling2","comp2", "Population")
 LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
-LifeExpKNN = LifeExp
-
-
 ```
 
 ### Full Correlation Matrix for Linear Regression (Life.expectancy)
@@ -336,19 +272,15 @@ LifeExpKNN = LifeExp
 #      Full Correlation Matrix for Linear Regression (Life.expectancy)              #
 #####################################################################################
 # Filter for data to be included
-num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 LifeExpcorr = LifeExp[,num_cols]
 corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
          cl.pos = 'n', col = COL2('BrBG'))
-
-plot_correlate(LifeExp)
-
 ```
 
 ### Observations
 * Under five death and infant death are perfectly correlated. They are describing the same thing. One of the variable is redundant.
 * GDP and percentage expenditure are perfectly correlated. They are describing the same thing. One of the variable is redundant.
-* Schooling and Income Composition of Resources have a strong positive correlation
 * Life Expectancy and Adult Mortality are highly negatively correlated
 * Life Expectancy and HIV.AIDS are moderately correlated
 * Life Expectancy and BMI are moderately correlated
@@ -362,7 +294,7 @@ plot_correlate(LifeExp)
 #####################################################################################
 # Let's plot the summary statistics
 # Univariate analysis
-num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 num_cols_exclude = c('Year')
 num_cols_plots = noquote(unlist(num_cols[!( num_cols %in% num_cols_exclude)]))
 nrows = length(num_cols_plots)
@@ -388,190 +320,6 @@ egg::ggarrange(hist_p, box_p, heights = 2:1)
 
 ```
 
-### Categorical data plots
-```{r,fig.align='center',out.extra='angle=90', fig.dim = c(8, 6)}
-#####################################################################################
-#                               Categorical data plots                              #
-#####################################################################################
-num_var = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
-cat_cols = LifeExp %>% dplyr::select(where(is.factor)) %>% colnames()
-num_ex = c('Year')
-num_var_plots = noquote(unlist(num_var[!( num_var %in% num_ex)]))
-# Plot all categorical variables
-for (c in cat_cols)
-{
-  cat_plot = LifeExp %>% ggplot(aes(x= .data[[c]], group = 1)) + 
-    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
-    geom_text(aes( label = scales::percent(..prop..),
-                   y= ..prop.. ), stat= "count", vjust = -.5) +
-    labs(y = "Percent") +
-    scale_y_continuous(labels = scales::percent) + theme(legend.position = "none") +
-    ggtitle(paste(c, "Categorical Analysis")) + 
-    theme(plot.title = element_text(hjust = 0.5)) + 
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # +
-    #scale_fill_brewer(palette="Oranges")
-    egg::ggarrange(cat_plot, ncol=2) 
-}
-```
-
-## Bi-variate analysis with Status variable
-```{r,fig.align='center',out.extra='angle=90'}
-#####################################################################################
-#                     Bi-variate analysis with Status variable                      #
-#####################################################################################
-for (i in num_var_plots)
-{
-multibox = LifeExp %>%
-  ggplot(aes(x=Status, y = .data[[i]])) +
-  geom_boxplot(fill = "sandybrown", color = "black") + 
-  xlab("Status") +
-  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
-  ggtitle(paste(i, "vs Status bi-variate analysis")) +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  scale_fill_brewer(palette = "Oranges")  
-egg::ggarrange(multibox, ncol=2)
-}
-```
-
-## Bi-variate analysis with Region variable
-```{r,fig.align='center',out.extra='angle=90'}
-#####################################################################################
-#                     Bi-variate analysis with Region variable                   #
-#####################################################################################
-for (i in num_var_plots)
-{
-multibox = LifeExp %>%
-  ggplot(aes(x=Region, y = .data[[i]])) +
-  geom_boxplot(fill = "sandybrown", color = "black") + 
-  xlab("Region") +
-  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
-  ggtitle(paste(i, "vs Region bi-variate analysis")) +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-    scale_fill_brewer(palette = "Oranges")  
-egg::ggarrange(multibox, ncol=2)
-}
-```
-## Overall life expectancy over time
-```{r,fig.align='center',out.extra='angle=90'}
-#####################################################################################
-#                          Overall life expectancy over time                        #
-#####################################################################################
-
-mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
-mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
-
-#Overall life expectancy
-ggplot(data=mean_LifeExp, aes(x=Year, y=meanle)) +
-  geom_line()+
-  geom_point() +
-   ggtitle("Mean life expactancy by year") +
-  theme(plot.title = element_text(hjust = 0.5))+
-   xlab("Year") + ylab("Average Life Expectancy")
-  
-
-#Overall life expectancy by Region
-ggplot(data=mean_LifeExp_reg, aes(x=Year, y=meanle, group = Region)) +
-  geom_line(aes(color=Region))+
-  geom_point(aes(color=Region)) +
-  ggtitle("Mean life expactancy by year by region") +
-theme(plot.title = element_text(hjust = 0.5)) +
-  xlab("Year") + ylab("Average Life Expectancy")
-```
-
-
-### Categorical data plots
-```{r,fig.align='center',out.extra='angle=90', fig.dim = c(8, 6)}
-#####################################################################################
-#                               Categorical data plots                              #
-#####################################################################################
-num_var = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
-cat_cols = LifeExp %>% dplyr::select(where(is.factor)) %>% colnames()
-num_ex = c('Year')
-num_var_plots = noquote(unlist(num_var[!( num_var %in% num_ex)]))
-# Plot all categorical variables
-for (c in cat_cols)
-{
-  cat_plot = LifeExp %>% ggplot(aes(x= .data[[c]], group = 1)) + 
-    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
-    geom_text(aes( label = scales::percent(..prop..),
-                   y= ..prop.. ), stat= "count", vjust = -.5) +
-    labs(y = "Percent") +
-    scale_y_continuous(labels = scales::percent) + theme(legend.position = "none") +
-    ggtitle(paste(c, "Categorical Analysis")) + 
-    theme(plot.title = element_text(hjust = 0.5)) + 
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # +
-    #scale_fill_brewer(palette="Oranges")
-    egg::ggarrange(cat_plot, ncol=2) 
-}
-```
-
-## Bi-variate analysis with Status variable
-```{r,fig.align='center',out.extra='angle=90'}
-#####################################################################################
-#                     Bi-variate analysis with Status variable                      #
-#####################################################################################
-for (i in num_var_plots)
-{
-multibox = LifeExp %>%
-  ggplot(aes(x=Status, y = .data[[i]])) +
-  geom_boxplot(fill = "sandybrown", color = "black") + 
-  xlab("Status") +
-  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
-  ggtitle(paste(i, "vs Status bi-variate analysis")) +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  scale_fill_brewer(palette = "Oranges")  
-egg::ggarrange(multibox, ncol=2)
-}
-```
-
-## Bi-variate analysis with Region variable
-```{r,fig.align='center',out.extra='angle=90'}
-#####################################################################################
-#                     Bi-variate analysis with Region variable                   #
-#####################################################################################
-for (i in num_var_plots)
-{
-multibox = LifeExp %>%
-  ggplot(aes(x=Region, y = .data[[i]])) +
-  geom_boxplot(fill = "sandybrown", color = "black") + 
-  xlab("Region") +
-  ylab(i) + stat_summary(fun=mean, geom="point", shape=20, size=7, color="red", fill="red") +
-  ggtitle(paste(i, "vs Region bi-variate analysis")) +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-    scale_fill_brewer(palette = "Oranges")  
-egg::ggarrange(multibox, ncol=2)
-}
-```
-## Overall life expectancy over time
-```{r,fig.align='center',out.extra='angle=90'}
-#####################################################################################
-#                          Overall life expectancy over time                        #
-#####################################################################################
-
-mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
-mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
-
-#Overall life expectancy
-ggplot(data=mean_LifeExp, aes(x=Year, y=meanle)) +
-  geom_line()+
-  geom_point() +
-   ggtitle("Mean life expactancy by year") +
-  theme(plot.title = element_text(hjust = 0.5))+
-   xlab("Year") + ylab("Average Life Expectancy")
-  
-
-#Overall life expectancy by Region
-ggplot(data=mean_LifeExp_reg, aes(x=Year, y=meanle, group = Region)) +
-  geom_line(aes(color=Region))+
-  geom_point(aes(color=Region)) +
-  ggtitle("Mean life expactancy by year by region") +
-theme(plot.title = element_text(hjust = 0.5)) +
-  xlab("Year") + ylab("Average Life Expectancy")
-```
-
-
 ```{r transform variables in the dataframe}
 #####################################################################################
 #                                     Data Preparation                              #
@@ -584,15 +332,13 @@ LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expendi
 
 
 ### Transform countries to continents
-#library(countrycode)
-#LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
-#LifeExp$Continent = as.factor(LifeExp$Continent)
-#LifeExp$Status = as.factor(LifeExp$Status)
+library(countrycode)
+LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
+LifeExp$Continent = as.factor(LifeExp$Continent)
+LifeExp$Status = as.factor(LifeExp$Status)
 
-
-drop = c('HIV.AIDS', 'percentage.expenditure', 'GDP')#keeping country in
+drop = c('Country')#,'HIV.AIDS', 'percentage.expenditure')
 LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
-
 
 ```
 
@@ -606,53 +352,6 @@ index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
 train = LifeExp[index,]
 test = LifeExp[-index,]
 ```
-
-
-
-```{r EDA on Training Data}
-#####################################################################################
-#                             EDA on Train sets                                    #
-#####################################################################################
-
-describe(train)
-```
-
-## Observations
-
-** A High degree of skewness can be identified in Infant Deaths
-** A High degree of skewness can be identified in Measles
-** A High degree of skewness can be identified in under.five.deaths	
-** A High degree of skewness can be identified in Population
-
-
-```{r normality}
-normality(train) 
-#Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
-
-#Find Features that are not normally distributed 
-
-train %>%
-  normality() %>%
-  filter(p_value < 0.05) %>%
-  arrange(abs(p_value))
-
-# Verify non normality and transformation options of the variability 
-plot_normality(train)
-
-```
-
-## Observations
-
-** The p-value of the Population is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.	
-** The p-value of the Measles is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the infant.deaths is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the under.five.deaths is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the Hepatitis.B is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the Diphtheria is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the Polio is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the log.HIV.AIDS is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the thinness.5.9.years is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
-** The p-value of the thinness..1.19.years is less than 0.0001 signifying it is non normally and should be transformed if utilized in the following models.
 
 
 
@@ -674,16 +373,15 @@ predict.regsubsets =function (object , newdata ,id ,...){
 #                                       Lasso                                       #
 #####################################################################################
 library(glmnet)
-x=model.matrix(Life.expectancy~.,dplyr::select(train, -c(Country)))[,-1]
+x=model.matrix(Life.expectancy~.,train)[,-1]
 y=train$Life.expectancy
-xtest = model.matrix(Life.expectancy~.,dplyr::select(test, -c(Country)))[,-1]
+xtest = model.matrix(Life.expectancy~.,test)[,-1]
 ytest = test$Life.expectancy
 
 grid=10^seq(10,-2, length =100)
 lasso.mod=glmnet(x,y,alpha=1, lambda =grid)
 cv.out=cv.glmnet(x,y,alpha=1)
 plot(cv.out)
-title('Lasso Cross Validation',line = 2.5)
 
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
 lasso.pred=predict(lasso.mod ,s=bestlambda ,newx=xtest)
@@ -701,37 +399,27 @@ abline(h=0, col="blue")
 postResample(pred = lasso.pred, obs = ytest)
 
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP + Population, data = train)
+fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + infant.deaths + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
 summary(fit.lasso.lm)
 
 ### Visualize VIF
 fit.lasso.lm_VIF = vif(fit.lasso.lm)
-barplot(fit.lasso.lm_VIF, main = 'Lasso VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+barplot(fit.lasso.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
-
-
-######################################################################################################
-#Tamas I believe that with the new data set there is no colinearity based on VIF unless we go with 4 #
-# I'm commenting out the next section of code for now                                                #
-######################################################################################################
-
 
 # We can see that LASSO did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (infant.death).
 
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-#fit.lasso.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
-#summary(fit.lasso.lm2)
+fit.lasso.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
+summary(fit.lasso.lm2)
 
 ### re-run Visualize VIF
-#fit.lasso.lm_VIF2 = vif(fit.lasso.lm2)
-#barplot(fit.lasso.lm_VIF2, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-#abline(v=10, col="red")
+fit.lasso.lm_VIF2 = vif(fit.lasso.lm2)
+barplot(fit.lasso.lm_VIF2, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
 
 ##### Fit Linear Model based on LASSO regularization and removed multicollinearity####
-
-##### Continent and Region are correlated, dropped Continent for now, because the lasso coef was closer to 0###
-
-fit.lasso.lm3 = lm(Life.expectancy ~ Year + Status + Adult.Mortality + Alcohol + log.percentage.expenditure + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + log.HIV.AIDS + thinness.5.9.years + Income.composition.of.resources + Schooling + Region + log.GDP+Population, data = train)
+fit.lasso.lm3 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + Status + Continent, data = train)
 
 #### Hypothesis testing ####
 summary(fit.lasso.lm3)
@@ -751,74 +439,64 @@ mse = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.lasso.lm3)
-hist(residuals, main = "Lasso without multicolinearity \nHistogram of Residuals")
-plot(residuals, main = "Lasso without multicolinearity \nResiduals plot") 
+hist(residuals, main = "Histogram of Residuals")
+plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 plot(fit.lasso.lm3, which = 2)
 plot(fit.lasso.lm3, which = 4)
 
-##### Visualize prediction vs actual
-x_lasso = 1:dim(xtest)[1]
-plot(x_lasso, ytest, col = "red", type = "l", lwd=2,
-     main = "Life Expectancy prediction (LASSO)", ylab="Life expectancy")
-lines(x_lasso, test_pred, col = "blue", lwd=2)
-legend("topright",  legend = c("original observation", "predicted life expectancy"), 
-       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
-grid()
 
 #####################################################################################
 #                                  Forward Selection                                #
 #####################################################################################
 library(leaps)
-mlr.fwd=regsubsets(Life.expectancy~.,data=dplyr::select(train, -c(Country)),method="forward",nvmax=41)
+mlr.fwd=regsubsets(Life.expectancy~.,data=train,method="forward",nvmax=43)
 testASE<-c()
-for (i in 1:41){
+for (i in 1:43){
   predictions = predict.regsubsets(object=mlr.fwd,newdata=test,id=i) 
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE",ylim = c(5.5,11.7))
+plot(1:43,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.fwd)$rss
-lines(1:41,rss/dim(train)[1],lty=3,col="blue")  
+lines(1:44,rss/dim(train)[1],lty=3,col="blue")  
 
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=41)
-coef(mlr.fwd.final,37)
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp,method="forward",nvmax=43)
+coef(mlr.fwd.final,35)
 summary(mlr.fwd.final)
 
 
 # Metrics RMSE; R-squared; MAE
 postResample(pred = predictions, obs = ytest)
 
-##### Fit Linear Model based on Forward Selection without factors to measure VIF####
-fit.fwd.lm = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+BMI+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
-
+##### Fit Linear Model based on FOrward Selection without factors to measure VIF####
+fit.fwd.lm = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Hepatitis.B+under.five.deaths+Polio+Diphtheria+thinness.5.9.years+Income.composition.of.resources +Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
 
 ### Visualize VIF
 fit.fwd.lm_VIF = vif(fit.fwd.lm)
-barplot(fit.fwd.lm_VIF, main = 'Forward Selection VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+barplot(fit.fwd.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
-
 
 # We can see that Forward Selection did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (under.five.deaths).
 
-##### Fit Linear Model based on FWD selection without factors to measure VIF####
-fit.fwd.lm2 = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+BMI+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
+fit.fwd.lm2 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure, data = train)
 summary(fit.fwd.lm2)
 
 ### re-run Visualize VIF
 fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
-barplot(fit.fwd.lm2_VIF, main = 'Forward Selection Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 
-##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity and categorical variables####
-fit.fwd.lm3 = lm(Life.expectancy ~ Year+Adult.Mortality+Region+Status+infant.deaths+Alcohol+Measles+BMI+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure, data = train)
+##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity####
+fit.fwd.lm3 = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + Polio + Total.expenditure + Diphtheria + thinness.5.9.years + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + Status + Continent, data = train)
 
 #### Hypothesis testing ####
 summary(fit.fwd.lm3)
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
-# thinness.5.9.years, Measles, BMI, Total.expenditure.
+# Alcohol, Measles, BMI, Total.expenditure.
 
 # Predicting
 train_pred = predict(fit.fwd.lm3, train)
@@ -833,100 +511,44 @@ mse = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.fwd.lm3)
-hist(residuals, main = "Forward Selection \nHistogram of Residuals")
-plot(residuals, main = "Forward Selection \nResiduals plot") 
-abline(h=0, col="blue")
-plot(fit.fwd.lm3, which = 2)
-plot(fit.fwd.lm3, which = 4)
-
-##### Visualize prediction vs actual
-x_fwd = 1:dim(xtest)[1]
-plot(x_fwd, ytest, col = "red", type = "l", lwd=2,
-     main = "Life Expectancy prediction (FWD selection)", ylab="Life expectancy")
-lines(x_fwd, test_pred, col = "blue", lwd=2)
-legend("topright",  legend = c("original observation", "predicted life expectancy"), 
-       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
-grid()
-
-#####################################################################################
-#                               Backward Elimination                                #
-#####################################################################################
-
-mlr.bck=regsubsets(Life.expectancy~.,data=dplyr::select(train,-c(Country)),method="backward",nvmax=41)
-testASE<-c()
-for (i in 1:41){
-
-  predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
-  testASE[i] = mean((test$Life.expectancy-predictions)^2)
-}
-par(mfrow=c(1,1))
-
-plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
-index<-which(testASE==min(testASE))
-points(index,testASE[index],col="red",pch=10)
-rss<-summary(mlr.bck)$rss
-lines(1:41,rss/dim(train)[1],lty=3,col="blue")  
-
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=41)
-coef(mlr.bck.final,35)
-
-summary(mlr.bck.final)
-
-# Metrics RMSE; R-squared; MAE
-postResample(pred = predictions, obs = ytest)
-
-##different result now, will repeat steps from earlier model
-
-fit.bck.lm <- lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure,data = train)
-
-summary(fit.bck.lm)
-
-### Visualize VIF
-fit.bck.lm_VIF = vif(fit.bck.lm)
-barplot(fit.bck.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-abline(v=10, col="red")
-
-#two are correlated and giving a high VIF it's under.five and infant.deaths
-fit.bck.lm2 <- lm(Life.expectancy ~ Year+Adult.Mortality+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure,data = train)
-
-fit.bck.lm2_VIF <- vif(fit.bck.lm2)
-barplot(fit.bck.lm2_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-abline(v=10, col="red")
-
-##fit model with categorical variables and removed colinearity
-fit.bck.lm3 <- lm(Life.expectancy ~ Year+Adult.Mortality+Alcohol+Measles+under.five.deaths+Polio+Total.expenditure+Diphtheria+Population+thinness.5.9.years+Income.composition.of.resources+Schooling+log.HIV.AIDS+log.GDP+log.percentage.expenditure + Status + Region,data = train)
-
-
-#### Hypothesis testing ####
-summary(fit.bck.lm3)
-# At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
-# BMI, Total.expenditure, thinness.5.9.years
-
-# Predicting
-train_pred = predict(fit.bck.lm3, train)
-test_pred = predict(fit.bck.lm3, test)
-
-# Scoring the final model on Training and Test set
-residuals = resid(fit.bck.lm3)
-postResample(pred = train_pred, obs = train$Life.expectancy)
-postResample(pred = test_pred, obs = test$Life.expectancy)
-sm = summary(fit.bck.lm3)
-mse = mean(sm$residuals^2)
-
-### Checking Multiple Liner Regression model assumptions
-confint(fit.bck.lm3)
 hist(residuals, main = "Histogram of Residuals")
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 plot(fit.fwd.lm3, which = 2)
 plot(fit.fwd.lm3, which = 4)
 
+
+#####################################################################################
+#                               Backward Elimination                                #
+#####################################################################################
+
+mlr.bck=regsubsets(Life.expectancy~.,data=train,method="backward",nvmax=43)
+testASE<-c()
+for (i in 1:43){
+  predictions = predict.regsubsets(object=mlr.bck,newdata=test,id=i) 
+  testASE[i] = mean((test$Life.expectancy-predictions)^2)
+}
+par(mfrow=c(1,1))
+plot(1:43,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+index<-which(testASE==min(testASE))
+points(index,testASE[index],col="red",pch=10)
+rss<-summary(mlr.bck)$rss
+lines(1:44,rss/dim(train)[1],lty=3,col="blue")  
+
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp,method="backward",nvmax=43)
+coef(mlr.bck.final,39)
+
+# Metrics RMSE; R-squared; MAE
+postResample(pred = predictions, obs = ytest)
+
+##### Result is the same as the forward model therefore does not need to fit another linear model ###### 
+
 #####################################################################################
 #                                  Ridge regression                                 #
 #####################################################################################
-x=model.matrix(Life.expectancy~.,dplyr::select(train, -c(Country)))[,-1]
+x=model.matrix(Life.expectancy~.,train)[,-1]
 y=train$Life.expectancy
-xtest = model.matrix(Life.expectancy~.,dplyr::select(test, -c(Country)))[,-1]
+xtest = model.matrix(Life.expectancy~.,test)[,-1]
 ytest = test$Life.expectancy
 
 grid=10^seq(10,-2, length =100)
@@ -943,15 +565,6 @@ coef(ridge.mod,s=bestlambda)
 
 # Metrics RMSE; R-squared; MAE
 postResample(pred = ridge.pred, obs = ytest)
-
-##### Visualize prediction vs actual
-x_ridge = 1:dim(xtest)[1]
-plot(x_fwd, ytest, col = "red", type = "l", lwd=2,
-     main = "Life Expectancy prediction (Ridge Regression)", ylab="Life expectancy")
-lines(x_fwd, ridge.pred, col = "blue", lwd=2)
-legend("topright",  legend = c("original observation", "predicted life expectancy"), 
-       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
-grid()
 
 
 #####################################################################################
@@ -979,17 +592,8 @@ testMSE_ELASTIC
 # Metrics RMSE; R-squared; MAE
 postResample(pred = elastic.pred, obs = ytest)
 
-##### Visualize prediction vs actual
-x_eNET = 1:dim(xtest)[1]
-plot(x_eNET, ytest, col = "red", type = "l", lwd=2,
-     main = "Life Expectancy prediction (ElasticNet Regression)", ylab="Life expectancy")
-lines(x_fwd, elastic.pred, col = "blue", lwd=2)
-legend("topright",  legend = c("original observation", "predicted life expectancy"), 
-       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
-grid()
-
 #####################################################################################
-#                                      Manual MLR - Tamas                           #
+#                                      Manual MLR                                   #
 #####################################################################################
 # 5-fold cross validation
 cv <- trainControl(
@@ -999,10 +603,9 @@ cv <- trainControl(
 )
 
 MLRT = train(
-  Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths,
+  Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality,
   data = train,
   method = "lm",
-   preProcess = c("center", "scale"),
   trControl = cv)
 
 ### Visualize VIF
@@ -1017,88 +620,26 @@ summary(MLRT$finalModel)
 train_pred = predict(MLRT, train)
 test_pred = predict(MLRT, test)
 
-# Scoring the final model on Training and Test set
+# Scoring the final model on Training and Validation set
 summary(MLRT$finalModel)
 residuals = resid(MLRT$finalModel)
 postResample(pred = train_pred, obs = train$Life.expectancy)
 postResample(pred = test_pred, obs = test$Life.expectancy)
 
 ### Checking Multiple Liner Regression model assumptions
-fit = lm(Life.expectancy ~ Status + Region + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths, data = train)
+fit = lm(Life.expectancy ~ Status + Continent + Income.composition.of.resources + Schooling + log.HIV.AIDS + log.GDP + log.percentage.expenditure + BMI + Year + Adult.Mortality, train)
 confint(fit)
 hist(residuals, main = "Histogram of Residuals")
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 plot(fit, which = 2)
 plot(fit, which = 4)
-
-
-##### Visualize prediction vs actual
-x_TMLR = 1:dim(xtest)[1]
-plot(x_TMLR, ytest, col = "red", type = "l", lwd=2,
-     main = "Life Expectancy prediction (Manual MLR)", ylab="Life expectancy")
-lines(x_fwd, test_pred, col = "blue", lwd=2)
-legend("topright",  legend = c("original observation", "predicted life expectancy"), 
-       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
-grid()
 ```
-
-
 ```{r Objective 2 interaction}
 #####################################################################################
 #                                      Objective 2                                  #
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
-fit_interaction = lm(Life.expectancy ~ Status + Region + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, train)
-
-#fit_interaction = lm(Life.expectancy ~ Status + Region + Schooling + log.HIV.AIDS + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + country:infant.mortality.rate, train)
-
-interact_pred_train = predict(fit_interaction, train)
-postResample(pred = interact_pred_train, obs = train$Life.expectancy)
-
-interact_pred = predict(fit_interaction, test)
-postResample(pred = interact_pred, obs = test$Life.expectancy)
-
-summary(fit_interaction)
-confint(fit_interaction)
-hist(residuals, main = "Histogram of Residuals")
-plot(residuals, main = "Residuals plot") 
-abline(h=0, col="blue")
-plot(fit_interaction, which = 2)
-plot(fit_interaction, which = 4)
-```
-
-```{r creating binary categorical variables}
-#######################################################################################
-#                               Manual MLR Miguel                                     #
-#######################################################################################
-#resplit here for now
-index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
-train = LifeExp[index,]
-test = LifeExp[-index,]
-#duplicate dataframe
-LifeExp2 <- LifeExp
-#create cat variables for HIV and Meas as binary No/Yes
-LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>log(.1),1,0),
-                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0),
-                                       log.Adult.Mortality = log(Adult.Mortality),
-                                       log.infant.deaths = log(infant.deaths))
-
-train_custom <- LifeExp2[index,]
-test_custom <- LifeExp2[index,]
-```
-```{r run custom model}
-#retrain/fit/test/predict and measure accuracy
-fit.custom <- lm(Life.expectancy ~log.Adult.Mortality + infant.deaths + log.GDP + Measles + HIV_cat + Country + Country:infant.deaths +Country:log.Adult.Mortality + log.Adult.Mortality:infant.deaths:Country,data = train_custom)
-#model has interactions between HIV and Measles variables and their respective
-#binary categories to have a sort of conditional
-#interaction between Country:infant.deaths
-
-#check model performance on the test set and test set prediction
-test_custom_pred <- predict(fit.custom,test_custom) #rank deficient warning comes from the self-interactions (ex. HIV_cat:HIV)
-
-caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
-forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
 ```
 
 ```{r Objective 2 KNN}
@@ -1107,47 +648,34 @@ forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
 #                                     KNN - regression                              #
 #####################################################################################
 # Check for zero variance
-caret::nearZeroVar(LifeExpKNN %>% dplyr::select(where(is.numeric)), saveMetrics = TRUE) %>% 
+caret::nearZeroVar(LifeExpKNN %>% select(where(is.numeric)), saveMetrics = TRUE) %>% 
   tibble::rownames_to_column() %>% 
   filter(nzv)
 cat("No variable with zero variance in the selected list of variables.") 
-
 # Scale the numerical variables as KNN is sensitive to that
-#LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
-
+LifeExpKNN_scale = LifeExpKNN %>% mutate_if(is.numeric, scale)
 ### KNN Data Preparation
 index<-sample(1:dim(LifeExpKNN)[1],round(dim(LifeExpKNN)[1]*0.85),replace=F)
 KNNtrain = LifeExpKNN[index,]
 KNNtest = LifeExpKNN[-index,]
-x=KNNtrain[,c(-4, -23)]
+x=KNNtrain[,-4]
 y=KNNtrain$Life.expectancy
-xtest = KNNtest[,c(-4,-23)]
+xtest = KNNtest[,-4]
 ytest = KNNtest$Life.expectancy
-KNN_drop = c(-23,-12, -1)
-
 # Search for optimal k
-k_grid = expand.grid(k = seq(3, 25, by = 2))
-
+k_grid = expand.grid(k = seq(2, 25, by = 1))
 # Model Training
 KNNRegressor = train(
   Life.expectancy~.,
-  data = KNNtrain[,KNN_drop],
+  data = KNNtrain,
   method = "knn",
   preProcess = c("center", "scale"), 
   tuneGrid = k_grid,
-  metric     = "RMSE",
   trControl = cv
   )
-
-prediction_test = predict(KNNRegressor, KNNtrain[,KNN_drop])
-postResample(pred = prediction_test, obs = KNNtrain[,KNN_drop]$Life.expectancy)
-
-prediction_test = predict(KNNRegressor, KNNtest[,KNN_drop])
-postResample(pred = prediction_test, obs = KNNtest[,KNN_drop]$Life.expectancy)
-
-plot(KNNRegressor)
-varImp(KNNRegressor)
-
+KNNRegressor$finalModel
+prediction_train = predict(KNNRegressor, KNNtrain)
+prediction_test = predict(KNNRegressor, KNNtest)
 x = 1:length(KNNtest$Life.expectancy)
 plot(x, KNNtest$Life.expectancy, col = "red", type = "l", lwd=2,
      main = "Life Expectancy prediction")
