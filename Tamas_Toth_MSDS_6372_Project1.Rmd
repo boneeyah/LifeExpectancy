@@ -537,10 +537,6 @@ ytest = rtest$Life.expectancy
 incl_for_knn = c("Country", "Life.expectancy", "Adult.Mortality" , "Alcohol", "HIV.AIDS", "thinness.5.9.years" , "Status", "Income.composition.of.resources", "percentage.expenditure", "infant.deaths", "GDP")
 ktrain = train[,incl_for_knn]
 ktest = test[,incl_for_knn]
-#kx=ktrain[,-4]
-#ky=ktrain$Life.expectancy
-#kxtest = ktest[,-4]
-#kytest = ktest$Life.expectancy
 ```
 
 
@@ -608,8 +604,11 @@ predict.regsubsets =function (object , newdata ,id ,...){
 
 ### Evaluation Data Frame
 ### test_ASE, R-squared/Adjusted R-squared
-eval_df = data.frame()
-eval_df = eval_df %>% dplyr::mutate(ID = row_number())
+eval_train_df = data.frame()
+eval_train_df = eval_train_df %>% dplyr::mutate(ID = row_number())
+
+eval_test_df = data.frame()
+eval_test_df = eval_test_df %>% dplyr::mutate(ID = row_number())
 
 #####################################################################################
 #                                       Lasso                                       #
@@ -669,8 +668,14 @@ residuals = resid(fit.lasso.lm3)
 train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
 sm = summary(fit.lasso.lm3)
-#mse = mean(sm$residuals^2)
-#print(paste("Lasso MLR MSE:", mse))
+mse_trn = mean(sm$residuals^2)
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+
 
 ## Test scores
 rmse = test_score[1]
@@ -701,9 +706,11 @@ grid()
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (LASSO MLR fit)", xlab = 'Original observations', ylab='Predicted values')
 
 ### Evaluation Data Frame
-### test_ASE, R-squared/Adjusted R-squared, AIC, and BIC
-eval_df = data.frame(model_name = 'LASSO', MSE=format(round(mse,4),nsmall=4), R_Squared=format(round(rsqd,4),nsmall=4), AdjR_Squared=format(round(adjrsqd,4),nsmall=4), RMSE = format(round(rmse,4),nsmall=4))
+### test_ASE, R-squared/Adjusted R-squared, RMSE
+eval_test_df = data.frame(model_name = 'LASSO', MSE=format(round(mse,4),nsmall=4), R_Squared=format(round(rsqd,4),nsmall=4), AdjR_Squared=format(round(adjrsqd,4),nsmall=4), RMSE = format(round(rmse,4),nsmall=4))
 
+### train_ASE, R-squared/Adjusted R-squared, RMSE
+eval_train_df = data.frame(model_name = 'LASSO', MSE=format(round(mse_trndf,4),nsmall=4), R_Squared=format(round(rsqd_trn,4),nsmall=4), AdjR_Squared=format(round(adjrsqd_trn,4),nsmall=4), RMSE = format(round(rmse_trn,4),nsmall=4))
 
 
 #####################################################################################
@@ -777,7 +784,7 @@ residuals = resid(fit.fwd.lm3)
 train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
 sm = summary(fit.fwd.lm3)
-mse = mean(sm$residuals^2)
+mse_trn = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.fwd.lm3)
@@ -806,7 +813,16 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.lasso.lm3$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('FWD Selection', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+
+eval_test_df = rbind(eval_test_df, c('FWD Selection', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+eval_train_df = rbind(eval_train_df, c('FWD Selection', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 #####################################################################################
 #                               Backward Elimination                                #
 #####################################################################################
@@ -874,7 +890,7 @@ residuals = resid(fit.bck.lm3)
 train_score = postResample(pred = train_pred, obs = train$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = test$Life.expectancy)
 sm = summary(fit.bck.lm3)
-mse = mean(sm$residuals^2)
+mse_trn = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.bck.lm3)
@@ -904,7 +920,20 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.bck.lm3$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('Backward Elim.', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+
+
+
+
+eval_test_df = rbind(eval_test_df, c('Backward Elim.', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+eval_train_df = rbind(eval_train_df, c('Backward Elim.', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
+
 
 #####################################################################################
 #                                  Ridge regression                                 #
@@ -916,6 +945,7 @@ cv.out=cv.glmnet(x,y,alpha=0)
 plot(cv.out)
 
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
+ridge.pred_trn=predict(ridge.mod ,s=bestlambda ,newx=x)
 ridge.pred=predict(ridge.mod ,s=bestlambda ,newx=xtest)
 
 testMSE_RIDGE<-mean((ytest-ridge.pred)^2)
@@ -924,6 +954,8 @@ coef(ridge.mod,s=bestlambda)
 
 # Metrics RMSE; R-squared; MAE
 test_score = postResample(pred = ridge.pred, obs = ytest)
+train_score = postResample(pred = ridge.pred_trn, obs = rtrain$Life.expectancy)
+
 
 ##### Visualize prediction vs actual
 x_ridge = 1:dim(xtest)[1]
@@ -944,7 +976,18 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(coef(ridge.mod,s=bestlambda))-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('Ridge', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = rmse_trn^2
+n=dim(x)[1]
+p = length(coef(ridge.mod,s=bestlambda))-1
+adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
+
+eval_test_df = rbind(eval_test_df, c('Ridge', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('Ridge', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
 
 #####################################################################################
 #                            Elastic Net Regression                                 #
@@ -962,6 +1005,7 @@ cva.min = data.frame(alpha = alpha[min_mse], lambdaMin = lambdaMin[min_mse], mse
 cva.min
 
 elastic.mod = glmnet(x,y, alpha = cva.min$alpha, lambda = cva.min$lambdaMin)
+elastic.pred_trn=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=x)
 elastic.pred=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=xtest)
 elastic.pred_coef=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=xtest, type = "coef")
 
@@ -969,6 +1013,7 @@ testMSE_ELASTIC<-mean((ytest-elastic.pred)^2)
 testMSE_ELASTIC
 
 # Metrics RMSE; R-squared; MAE
+train_score = postResample(pred = elastic.pred_trn, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = elastic.pred, obs = ytest)
 
 ##### Visualize prediction vs actual
@@ -990,7 +1035,19 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(coef(elastic.mod))-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('ElasticNet', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = rmse_trn^2
+n=dim(x)[1]
+p = length(coef(elastic.mod,s=bestlambda))-1
+adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
+
+
+eval_test_df = rbind(eval_test_df, c('ElasticNet', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+eval_train_df = rbind(eval_train_df, c('ElasticNet', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 #####################################################################################
 #                                      Manual MLR - Tamas                           #
@@ -1017,12 +1074,15 @@ abline(v=10, col="red")
 ### Hypothesis testing
 summary(MLRT$finalModel)
 
+
 # Predicting
 train_pred = predict(MLRT, rtrain)
 test_pred = predict(MLRT, rtest)
 
 # Scoring the final model on Training and Test set
 summary(MLRT$finalModel)
+sm=summary(MLRT$finalModel)
+mse_trn = mean(sm$residuals^2)
 residuals = resid(MLRT$finalModel)
 train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
@@ -1056,7 +1116,19 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+
+
+eval_test_df = rbind(eval_test_df, c('MLR - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+eval_train_df = rbind(eval_train_df, c('MLR - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+
 ```
 
 
@@ -1100,13 +1172,24 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit_interaction$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR Interact - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+sm = summary(fit_interaction)
+mse_trn = mean(sm$residuals^2)
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+
+eval_test_df = rbind(eval_test_df, c('MLR Interact - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 ```
 
 ```{r}
 #####################################################################################
-#                                    Reuven's  Manual MLR                           #
+#                                    Reuven's  Manual MLR Interaction                           #
 #####################################################################################
 
 # 5-fold cross validation
@@ -1167,7 +1250,19 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+
+## Train scores
+sm = summary(MLRT$finalModel)
+mse_trn = mean(sm$residuals^2)
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+
+eval_test_df = rbind(eval_test_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Reuven', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 ```
 
@@ -1194,7 +1289,7 @@ LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>l
                                        log.Adult.Mortality = log(Adult.Mortality),
                                        log.infant.deaths = log(infant.deaths))
 train_custom <- LifeExp2[index,]
-test_custom <- LifeExp2[index,]
+test_custom <- LifeExp2[-index,]
 ```
 ```{r run custom model}
 #retrain/fit/test/predict and measure accuracy
@@ -1203,8 +1298,10 @@ fit.custom <- lm(Life.expectancy ~log.Adult.Mortality + infant.deaths + log.GDP 
 #binary categories to have a sort of conditional
 #interaction between Country:infant.deaths
 #check model performance on the test set and test set prediction
+train_custom_pred <- predict(fit.custom,train_custom)
 test_custom_pred <- predict(fit.custom,test_custom) #rank deficient warning comes from the self-interactions (ex. HIV_cat:HIV)
 test_score = caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
+train_score = caret::postResample(pred = train_custom_pred,obs = train_custom$Life.expectancy)
 forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
 
 
@@ -1218,7 +1315,19 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.custom$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+sm=summary(fit.custom)
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trn = rmse_trn^2
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+
+eval_test_df = rbind(eval_test_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
 
 ```
 
@@ -1265,10 +1374,10 @@ varImp(KNNRegressor)
 #KNNRegressor.sorted <- KNNRegressor$results[order(KNNRegressor$results$Rsquared),]
 #KNNRegressor.sorted[1,'Rsquared']
 
-x = 1:length(ktest$Life.expectancy)
-plot(x, ktest$Life.expectancy, col = "red", type = "l", lwd=2,
+x_knn = 1:length(ktest$Life.expectancy)
+plot(x_knn, ktest$Life.expectancy, col = "red", type = "l", lwd=2,
      main = "Life Expectancy prediction")
-lines(x, prediction_test, col = "blue", lwd=2)
+lines(x_knn, prediction_test, col = "blue", lwd=2)
 legend("topright",  legend = c("original observation", "predicted life expectancy"), 
        fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
 grid()
@@ -1280,7 +1389,19 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(KNNRegressor$coefnames)
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('KNN', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trn = rmse^2
+mse_trndf = mse_trn
+n=dim(xtest)[1]
+p = length(KNNRegressor$coefnames)
+adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
+
+eval_test_df = rbind(eval_test_df, c('KNN', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
 ```
 
 ### Visualize 'k' and the most important features
@@ -1292,6 +1413,13 @@ KNNvarImp = varImp(KNNRegressor)
 plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
 
+# Training set scores
 ```{r}
-knitr::kable(eval_df, "html")
+knitr::kable(eval_train_df, "html")
+```
+
+
+# Test set scores
+```{r}
+knitr::kable(eval_test_df, "html")
 ```
