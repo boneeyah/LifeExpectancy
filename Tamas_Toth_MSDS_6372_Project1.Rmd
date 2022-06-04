@@ -64,7 +64,7 @@ options(scipen = 100, digits = 4)
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Life_Expectancy_Data.csv',header = TRUE, sep = ",", encoding = "UTF-8")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -248,7 +248,7 @@ LifeExp = as.data.frame(LifeExp)
 
 #impute USA values
 #USA GDP
-US_GDP <- read.csv('API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
+US_GDP <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE,encoding = "UTF-8")
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -260,7 +260,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-US_Scho <- read.csv("Expected years of schooling (years).csv",skip = 6,header = FALSE)
+US_Scho <- read.csv("https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -275,7 +275,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-US_Inc <- read.csv('Income index.csv',skip = 5, header = FALSE)
+US_Inc <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Income%20index.csv',skip = 5, header = FALSE)
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -290,7 +290,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-pop_all <- read.csv('WPP2019_TotalPopulationBySex.csv')
+pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/WPP2019_TotalPopulationBySex.csv',encoding = "UTF-8")
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -307,7 +307,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-adlt_mort <- read.csv('Adult_mort.csv',header = TRUE)
+adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Adult_mort.csv',header = TRUE,encoding = "UTF-8")
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
