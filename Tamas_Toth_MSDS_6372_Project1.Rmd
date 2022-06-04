@@ -533,10 +533,9 @@ xtest = model.matrix(Life.expectancy~.,rtest)[,-1]
 ytest = rtest$Life.expectancy
 
 # Create training and test set for KNN model
-
-incl_for_knn = c("Country", "Life.expectancy", "Adult.Mortality" , "Alcohol", "HIV.AIDS", "thinness.5.9.years" , "Status", "Income.composition.of.resources", "percentage.expenditure", "infant.deaths", "GDP")
-ktrain = train[,incl_for_knn]
-ktest = test[,incl_for_knn]
+drop_for_knn = c("log.HIV.AIDS", "log.GDP", "log.percentage.expenditure", "Region" ,"Continent")
+ktrain = train[,!colnames(train) %in% drop_for_knn]
+ktest = test[,!colnames(train) %in% drop_for_knn]
 ```
 
 
@@ -1360,18 +1359,15 @@ KNNRegressor = train(
   trControl = cv
   )
 
-prediction_test = predict(KNNRegressor, ktrain)
-train_score = postResample(pred = prediction_test, obs = ktrain$Life.expectancy)
+
+prediction_train = predict(KNNRegressor, ktrain)
+train_score = postResample(pred = prediction_train, obs = ktrain$Life.expectancy)
 
 prediction_test = predict(KNNRegressor, ktest)
 test_score = postResample(pred = prediction_test, obs = ktest$Life.expectancy)
 
 plot(KNNRegressor)
 varImp(KNNRegressor)
-
-#KNNRegressor$results$Rsquared
-#KNNRegressor.sorted <- KNNRegressor$results[order(KNNRegressor$results$Rsquared),]
-#KNNRegressor.sorted[1,'Rsquared']
 
 x_knn = 1:length(ktest$Life.expectancy)
 plot(x_knn, ktest$Life.expectancy, col = "red", type = "l", lwd=2,
@@ -1380,6 +1376,10 @@ lines(x_knn, prediction_test, col = "blue", lwd=2)
 legend("topright",  legend = c("original observation", "predicted life expectancy"), 
        fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
 grid()
+
+#### Scatter plot
+plot(prediction_test ~ ytest, main = "Original vs Predicted scatter plot (KNN)", xlab = 'Original observations', ylab='Predicted values')
+
 
 #### Model test scores
 rmse = test_score[1]
@@ -1394,7 +1394,7 @@ rmse_trn = train_score[1]
 rsqd_trn = train_score[2]
 mse_trn = rmse^2
 mse_trndf = mse_trn
-n=dim(xtest)[1]
+n=dim(ktrain)[1]
 p = length(KNNRegressor$coefnames)
 adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
 
@@ -1406,11 +1406,97 @@ eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4
 ### Visualize 'k' and the most important features
 ```{r, fig.align='center',out.extra='angle=90'}
 # Visualize 'k' and the most important features
-ggplot(KNNRegressor) + ggtitle("Optimal k value for the highest accuracy") +
+ggplot(KNNRegressor) + ggtitle("Optimal k value for the lowest RMSE") +
   theme(plot.title = element_text(hjust = 0.5))
 KNNvarImp = varImp(KNNRegressor)
 plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
+
+## KNN without cross validation
+```{r KNN without cross validation}
+#####################################################################################
+#                              KNN without cross validation                         #
+#####################################################################################
+
+# Scale the numerical variables as KNN is sensitive to that
+drop_for_knn = c("log.HIV.AIDS", "log.GDP", "log.percentage.expenditure", "Region" ,"Continent")
+KNN_scale = LifeExp[,!colnames(LifeExp) %in% drop_for_knn] %>% mutate_if(is.numeric, scale)
+index<-sample(1:dim(KNN_scale)[1],round(dim(KNN_scale)[1]*0.85),replace=F)
+trainKNN = KNN_scale[index,]
+testKNN = KNN_scale[-index,]
+
+x_knn=model.matrix(Life.expectancy~.,trainKNN)[,-4]
+y_knn=trainKNN$Life.expectancy
+xtest_knn = model.matrix(Life.expectancy~.,testKNN)[,-4]
+ytest_knn = testKNN$Life.expectancy
+
+knn_eval = data.frame(RMSE = numeric(30), k = numeric(30))
+
+for(i in 1:30)
+{
+  regressions = knnmodel = knnreg(x_knn, y_knn, ytest_knn, k=i)
+  pred_xy = predict(regressions, data.frame(x_knn))
+  train_score = postResample(pred = pred_xy, obs = y_knn)
+  rmse = train_score[1]
+  knn_eval$RMSE[i] = rmse
+  knn_eval$k[i] = i
+}
+
+plot(knn_eval$k,knn_eval$RMSE, type = "l", xlab = "k", main = "Optimal k value for the lowest RMSE" )
+
+index = min(knn_eval[2:30,]$RMSE)
+k = knn_eval[index==knn_eval$RMSE,]$k
+
+knnmodel = knnreg(x_knn, y_knn, ytest_knn, k=k)
+
+pred_xy = predict(knnmodel, data.frame(x_knn))
+train_score = postResample(pred = pred_xy, obs = y_knn)
+pred_y = predict(knnmodel, data.frame(xtest_knn))
+test_score = postResample(pred = pred_y, obs = ytest_knn)
+
+print(paste("Training score: ", train_score))
+print(paste("Test score: ", test_score))
+
+
+plot(pred_y ~ ytest_knn, main = "Original vs Predicted scatter plot (KNN)", xlab = 'Original observations', ylab='Predicted values')
+
+x_knn_plot = 1:length(ktest$Life.expectancy)
+plot(x_knn_plot, ytest_knn, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction")
+lines(x_knn_plot, pred_y, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+
+mse = mean((ytest_knn - pred_y)^2)
+print(paste("Test MSE: ", mse))
+
+#### Model test scores
+rmse = test_score[1]
+rsqd = test_score[2]
+mse = rmse^2
+n=dim(xtest_knn)[1]
+p = dim(knnmodel$learn$X)[2]-1
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trn = rmse^2
+mse_trndf = mse_trn
+n=dim(x_knn)[1]
+p = dim(knnmodel$learn$X)[2]-1
+adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
+
+eval_test_df = rbind(eval_test_df, c('KNN w/o CV', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('KNN w/o CV', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+
+```
+
+
+
+## KNN regression Observations:
+KNN is a non-parametric regression or classification algorithm. In our case we used the regression version. The algorithm uses similaroty 
 
 # Training set scores
 ```{r}
