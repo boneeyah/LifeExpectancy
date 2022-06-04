@@ -124,143 +124,75 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Chad
+The former Yugoslav republic of Macedonia
 </td>
 <td style="text-align:right;">
-2002
+2000
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-48.1
+72.6
 </td>
 <td style="text-align:right;">
-43
+125
 </td>
 <td style="text-align:right;">
-43
+0
 </td>
 <td style="text-align:right;">
-0.36
+2.86
 </td>
 <td style="text-align:right;">
-3.04
+0.000
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-7277
+36
 </td>
 <td style="text-align:right;">
-14.4
+52.7
 </td>
 <td style="text-align:right;">
-76
+0
 </td>
 <td style="text-align:right;">
-31
+96
 </td>
 <td style="text-align:right;">
-8.33
+8.52
 </td>
 <td style="text-align:right;">
-25
+95
 </td>
 <td style="text-align:right;">
-5.0
+0.1
 </td>
 <td style="text-align:right;">
-22.85
+NA
 </td>
 <td style="text-align:right;">
-91689
+NA
 </td>
 <td style="text-align:right;">
-11.1
+2.8
 </td>
 <td style="text-align:right;">
-11.0
+2.8
 </td>
 <td style="text-align:right;">
-0.303
+0.000
 </td>
 <td style="text-align:right;">
-5.1
+11.7
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Mozambique
-</td>
-<td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-56.7
-</td>
-<td style="text-align:right;">
-375
-</td>
-<td style="text-align:right;">
-61
-</td>
-<td style="text-align:right;">
-0.01
-</td>
-<td style="text-align:right;">
-54.91
-</td>
-<td style="text-align:right;">
-79
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-22.2
-</td>
-<td style="text-align:right;">
-84
-</td>
-<td style="text-align:right;">
-79
-</td>
-<td style="text-align:right;">
-6.98
-</td>
-<td style="text-align:right;">
-79
-</td>
-<td style="text-align:right;">
-4.1
-</td>
-<td style="text-align:right;">
-623.29
-</td>
-<td style="text-align:right;">
-27212382
-</td>
-<td style="text-align:right;">
-3.6
-</td>
-<td style="text-align:right;">
-3.5
-</td>
-<td style="text-align:right;">
-0.409
-</td>
-<td style="text-align:right;">
-9.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Uganda
+Angola
 </td>
 <td style="text-align:right;">
 2009
@@ -269,197 +201,265 @@ Uganda
 Developing
 </td>
 <td style="text-align:right;">
-57.5
+49.1
 </td>
 <td style="text-align:right;">
-378
+369
 </td>
 <td style="text-align:right;">
-82
+81
 </td>
 <td style="text-align:right;">
-9.63
+7.01
 </td>
 <td style="text-align:right;">
-87.05
+212.923
 </td>
 <td style="text-align:right;">
-79
+61
 </td>
 <td style="text-align:right;">
-1601
+2807
 </td>
 <td style="text-align:right;">
-15.9
+19.8
 </td>
 <td style="text-align:right;">
-124
+127
 </td>
 <td style="text-align:right;">
-78
+63
 </td>
 <td style="text-align:right;">
-8.43
+4.37
 </td>
 <td style="text-align:right;">
-79
+6
 </td>
 <td style="text-align:right;">
-8.1
+2.5
 </td>
 <td style="text-align:right;">
-647.18
+3347.84
 </td>
 <td style="text-align:right;">
-32771895
+22549547
 </td>
 <td style="text-align:right;">
-6.1
+9.3
 </td>
 <td style="text-align:right;">
-6.1
+9.2
 </td>
 <td style="text-align:right;">
-0.464
+0.480
 </td>
 <td style="text-align:right;">
-10.8
+8.5
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Trinidad and Tobago
+Togo
 </td>
 <td style="text-align:right;">
-2013
+2001
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-71.0
+54.6
 </td>
 <td style="text-align:right;">
-172
+345
 </td>
 <td style="text-align:right;">
-0
+14
 </td>
 <td style="text-align:right;">
-6.71
+0.95
 </td>
 <td style="text-align:right;">
-167.27
+2.049
 </td>
 <td style="text-align:right;">
-92
+NA
 </td>
 <td style="text-align:right;">
-0
+1833
 </td>
 <td style="text-align:right;">
-45.0
+17.1
 </td>
 <td style="text-align:right;">
-0
+22
 </td>
 <td style="text-align:right;">
-94
+51
 </td>
 <td style="text-align:right;">
-5.98
+4.29
 </td>
 <td style="text-align:right;">
-92
+5
 </td>
 <td style="text-align:right;">
-0.3
+5.3
 </td>
 <td style="text-align:right;">
-1967.83
+26.64
 </td>
 <td style="text-align:right;">
-1348248
+511177
 </td>
 <td style="text-align:right;">
-5.8
+9.2
 </td>
 <td style="text-align:right;">
-6.0
+9.1
 </td>
 <td style="text-align:right;">
-0.773
+0.426
 </td>
 <td style="text-align:right;">
-12.7
+9.4
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Sao Tome and Principe
+Denmark
 </td>
 <td style="text-align:right;">
-2008
+2002
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+77.0
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+11.34
+</td>
+<td style="text-align:right;">
+4801.546
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+32
+</td>
+<td style="text-align:right;">
+53.3
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+9.33
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+33228.69
+</td>
+<td style="text-align:right;">
+5375931
+</td>
+<td style="text-align:right;">
+1.2
+</td>
+<td style="text-align:right;">
+1.0
+</td>
+<td style="text-align:right;">
+0.875
+</td>
+<td style="text-align:right;">
+16.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+China
+</td>
+<td style="text-align:right;">
+2005
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-65.4
-</td>
-<td style="text-align:right;">
-215
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-4.36
-</td>
-<td style="text-align:right;">
-62.86
+73.9
 </td>
 <td style="text-align:right;">
 99
 </td>
 <td style="text-align:right;">
-0
+332
 </td>
 <td style="text-align:right;">
-25.4
+2.92
 </td>
 <td style="text-align:right;">
-0
+171.660
 </td>
 <td style="text-align:right;">
-99
+84
 </td>
 <td style="text-align:right;">
-5.66
+124219
 </td>
 <td style="text-align:right;">
-99
+24.1
 </td>
 <td style="text-align:right;">
-0.9
+392
 </td>
 <td style="text-align:right;">
-1126.46
+87
 </td>
 <td style="text-align:right;">
-166913
+4.66
 </td>
 <td style="text-align:right;">
-6.5
+87
 </td>
 <td style="text-align:right;">
-6.4
+0.1
 </td>
 <td style="text-align:right;">
-0.531
+1753.42
 </td>
 <td style="text-align:right;">
-10.4
+13372
+</td>
+<td style="text-align:right;">
+5.0
+</td>
+<td style="text-align:right;">
+4.4
+</td>
+<td style="text-align:right;">
+0.634
+</td>
+<td style="text-align:right;">
+10.6
 </td>
 </tr>
 </tbody>
@@ -3425,78 +3425,123 @@ eval_train_df = rbind(eval_train_df, c('MLR - Tamas', format(round(mse_trndf,4),
 #                                      Objective 2                                  #
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
-fit_interaction = lm(Life.expectancy ~ Continent + Schooling + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, train)
+#####################################################################################
+#                        Tamas's  Manual MLR Interaction                            #
+#####################################################################################
+fit_interaction = lm(Life.expectancy ~ Continent + Status + Schooling + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status + Schooling:Status + I(GDP^2) ,data = train)
 
-interact_pred_train = predict(fit_interaction, rtrain)
-train_score = postResample(pred = interact_pred_train, obs = rtrain$Life.expectancy)
+interact_pred_train = predict(fit_interaction, train)
+train_score = postResample(pred = interact_pred_train, obs = train$Life.expectancy)
 
-interact_pred = predict(fit_interaction, rtest)
-test_score = postResample(pred = interact_pred, obs = rtest$Life.expectancy)
+interact_pred = predict(fit_interaction, test)
+test_score = postResample(pred = interact_pred, obs = test$Life.expectancy)
 
 summary(fit_interaction)
 ```
 
     ## 
     ## Call:
-    ## lm(formula = Life.expectancy ~ Continent + Schooling + log.percentage.expenditure + 
-    ##     Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, 
-    ##     data = train)
+    ## lm(formula = Life.expectancy ~ Continent + Status + Schooling + 
+    ##     log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + 
+    ##     Income.composition.of.resources:Status + Schooling:Status + 
+    ##     I(GDP^2), data = train)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -11.950  -1.479  -0.271   1.140  10.824 
+    ## -11.921  -1.449  -0.264   1.123  10.858 
     ## 
     ## Coefficients:
-    ##                                                   Estimate Std. Error t value
-    ## (Intercept)                                      11.828876  24.329370    0.49
-    ## ContinentAmericas                                 3.294628   0.193541   17.02
-    ## ContinentAsia                                     1.333031   0.179469    7.43
-    ## ContinentEurope                                   2.685283   0.229854   11.68
-    ## ContinentOceania                                  1.083966   0.266069    4.07
-    ## Schooling                                         0.477428   0.029510   16.18
-    ## log.percentage.expenditure                        0.100902   0.020850    4.84
-    ## Year                                              0.029253   0.012128    2.41
-    ## Adult.Mortality                                  -0.056042   0.000705  -79.48
-    ## infant.deaths                                    -0.002849   0.000438   -6.50
-    ## Income.composition.of.resources:StatusDeveloped   4.043146   0.475581    8.50
-    ## Income.composition.of.resources:StatusDeveloping  2.937192   0.448537    6.55
+    ##                                                          Estimate
+    ## (Intercept)                                      10.7033082346203
+    ## ContinentAmericas                                 3.2826482894549
+    ## ContinentAsia                                     1.3433954944256
+    ## ContinentEurope                                   2.8742205130719
+    ## ContinentOceania                                  1.2158854223812
+    ## StatusDeveloping                                  7.0484793649483
+    ## Schooling                                         0.1659690005870
+    ## log.percentage.expenditure                        0.1003444071425
+    ## Year                                              0.0262331580264
+    ## Adult.Mortality                                  -0.0557935517321
+    ## infant.deaths                                    -0.0028297012772
+    ## I(GDP^2)                                         -0.0000000000292
+    ## StatusDeveloped:Income.composition.of.resources  17.9984512984908
+    ## StatusDeveloping:Income.composition.of.resources  2.7437970019810
+    ## StatusDeveloping:Schooling                        0.3277235556393
+    ##                                                        Std. Error t value
+    ## (Intercept)                                      24.3158065637234    0.44
+    ## ContinentAmericas                                 0.1937051489887   16.95
+    ## ContinentAsia                                     0.1799249993177    7.47
+    ## ContinentEurope                                   0.2361877077023   12.17
+    ## ContinentOceania                                  0.2684700565321    4.53
+    ## StatusDeveloping                                  2.2570156972723    3.12
+    ## Schooling                                         0.1026710494270    1.62
+    ## log.percentage.expenditure                        0.0215399783688    4.66
+    ## Year                                              0.0121336829563    2.16
+    ## Adult.Mortality                                   0.0007051036737  -79.13
+    ## infant.deaths                                     0.0004375361514   -6.47
+    ## I(GDP^2)                                          0.0000000000772   -0.38
+    ## StatusDeveloped:Income.composition.of.resources   3.4357348691848    5.24
+    ## StatusDeveloping:Income.composition.of.resources  0.4530203089306    6.06
+    ## StatusDeveloping:Schooling                        0.1063609578972    3.08
     ##                                                              Pr(>|t|)    
-    ## (Intercept)                                                     0.627    
+    ## (Intercept)                                                    0.6598    
     ## ContinentAmericas                                < 0.0000000000000002 ***
-    ## ContinentAsia                                        0.00000000000015 ***
+    ## ContinentAsia                                        0.00000000000011 ***
     ## ContinentEurope                                  < 0.0000000000000002 ***
-    ## ContinentOceania                                     0.00004766289016 ***
-    ## Schooling                                        < 0.0000000000000002 ***
-    ## log.percentage.expenditure                           0.00000138162929 ***
-    ## Year                                                            0.016 *  
+    ## ContinentOceania                                     0.00000620910741 ***
+    ## StatusDeveloping                                               0.0018 ** 
+    ## Schooling                                                      0.1061    
+    ## log.percentage.expenditure                           0.00000335360281 ***
+    ## Year                                                           0.0307 *  
     ## Adult.Mortality                                  < 0.0000000000000002 ***
-    ## infant.deaths                                        0.00000000009481 ***
-    ## Income.composition.of.resources:StatusDeveloped  < 0.0000000000000002 ***
-    ## Income.composition.of.resources:StatusDeveloping     0.00000000007048 ***
+    ## infant.deaths                                        0.00000000011978 ***
+    ## I(GDP^2)                                                       0.7057    
+    ## StatusDeveloped:Income.composition.of.resources      0.00000017544447 ***
+    ## StatusDeveloping:Income.composition.of.resources     0.00000000160155 ***
+    ## StatusDeveloping:Schooling                                     0.0021 ** 
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.57 on 2477 degrees of freedom
+    ## Residual standard error: 2.56 on 2474 degrees of freedom
     ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.929 
-    ## F-statistic: 2.94e+03 on 11 and 2477 DF,  p-value: <0.0000000000000002
+    ## F-statistic: 2.33e+03 on 14 and 2474 DF,  p-value: <0.0000000000000002
 
 ``` r
 confint(fit_interaction)
 ```
 
-    ##                                                       2.5 %   97.5 %
-    ## (Intercept)                                      -35.879125 59.53688
-    ## ContinentAmericas                                  2.915110  3.67415
-    ## ContinentAsia                                      0.981106  1.68496
-    ## ContinentEurope                                    2.234558  3.13601
-    ## ContinentOceania                                   0.562227  1.60571
-    ## Schooling                                          0.419561  0.53529
-    ## log.percentage.expenditure                         0.060017  0.14179
-    ## Year                                               0.005471  0.05303
-    ## Adult.Mortality                                   -0.057425 -0.05466
-    ## infant.deaths                                     -0.003708 -0.00199
-    ## Income.composition.of.resources:StatusDeveloped    3.110568  4.97572
-    ## Income.composition.of.resources:StatusDeveloping   2.057645  3.81674
+    ##                                                              2.5 %
+    ## (Intercept)                                      -36.9781240637955
+    ## ContinentAmericas                                  2.9028073443004
+    ## ContinentAsia                                      0.9905763662064
+    ## ContinentEurope                                    2.4110745275578
+    ## ContinentOceania                                   0.6894362260060
+    ## StatusDeveloping                                   2.6226446354310
+    ## Schooling                                         -0.0353610552116
+    ## log.percentage.expenditure                         0.0581061611025
+    ## Year                                               0.0024399360787
+    ## Adult.Mortality                                   -0.0571762059736
+    ## infant.deaths                                     -0.0036876761227
+    ## I(GDP^2)                                          -0.0000000001805
+    ## StatusDeveloped:Income.composition.of.resources   11.2612386491377
+    ## StatusDeveloping:Income.composition.of.resources   1.8554589107285
+    ## StatusDeveloping:Schooling                         0.1191578722481
+    ##                                                            97.5 %
+    ## (Intercept)                                      58.3847405330361
+    ## ContinentAmericas                                 3.6624892346094
+    ## ContinentAsia                                     1.6962146226448
+    ## ContinentEurope                                   3.3373664985860
+    ## ContinentOceania                                  1.7423346187564
+    ## StatusDeveloping                                 11.4743140944657
+    ## Schooling                                         0.3672990563856
+    ## log.percentage.expenditure                        0.1425826531826
+    ## Year                                              0.0500263799741
+    ## Adult.Mortality                                  -0.0544108974906
+    ## infant.deaths                                    -0.0019717264317
+    ## I(GDP^2)                                          0.0000000001222
+    ## StatusDeveloped:Income.composition.of.resources  24.7356639478440
+    ## StatusDeveloping:Income.composition.of.resources  3.6321350932335
+    ## StatusDeveloping:Schooling                        0.5362892390305
 
 ``` r
 hist(residuals, main = "Histogram of Residuals (Interaction)")
@@ -3567,7 +3612,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Tamas', format(round(mse_
 
 ``` r
 #####################################################################################
-#                                    Reuven's  Manual MLR Interaction                           #
+#                        Reuven's  Manual MLR Interaction                           #
 #####################################################################################
 
 # 5-fold cross validation
@@ -4175,16 +4220,16 @@ MLR - Tamas
 MLR Interact - Tamas
 </td>
 <td style="text-align:left;">
-6.5654
+6.5135
 </td>
 <td style="text-align:left;">
-0.9289
+0.9294
 </td>
 <td style="text-align:left;">
-0.9285
+0.9290
 </td>
 <td style="text-align:left;">
-2.5329
+2.5264
 </td>
 </tr>
 <tr>
@@ -4407,16 +4452,16 @@ MLR - Tamas
 MLR Interact - Tamas
 </td>
 <td style="text-align:left;">
-6.4158
+6.3827
 </td>
 <td style="text-align:left;">
-0.9214
+0.9218
 </td>
 <td style="text-align:left;">
-0.9194
+0.9192
 </td>
 <td style="text-align:left;">
-2.5329
+2.5264
 </td>
 </tr>
 <tr>

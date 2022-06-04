@@ -1137,13 +1137,16 @@ eval_train_df = rbind(eval_train_df, c('MLR - Tamas', format(round(mse_trndf,4),
 #                                      Objective 2                                  #
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
-fit_interaction = lm(Life.expectancy ~ Continent + Schooling + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, train)
+#####################################################################################
+#                        Tamas's  Manual MLR Interaction                            #
+#####################################################################################
+fit_interaction = lm(Life.expectancy ~ Continent + Status + Schooling + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status + Schooling:Status + I(GDP^2) ,data = train)
 
-interact_pred_train = predict(fit_interaction, rtrain)
-train_score = postResample(pred = interact_pred_train, obs = rtrain$Life.expectancy)
+interact_pred_train = predict(fit_interaction, train)
+train_score = postResample(pred = interact_pred_train, obs = train$Life.expectancy)
 
-interact_pred = predict(fit_interaction, rtest)
-test_score = postResample(pred = interact_pred, obs = rtest$Life.expectancy)
+interact_pred = predict(fit_interaction, test)
+test_score = postResample(pred = interact_pred, obs = test$Life.expectancy)
 
 summary(fit_interaction)
 confint(fit_interaction)
@@ -1189,7 +1192,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Tamas', format(round(mse_
 
 ```{r}
 #####################################################################################
-#                                    Reuven's  Manual MLR Interaction                           #
+#                        Reuven's  Manual MLR Interaction                           #
 #####################################################################################
 
 # 5-fold cross validation
@@ -1328,11 +1331,7 @@ eval_test_df = rbind(eval_test_df, c('MLR Interact - Miguel', format(round(mse,4
 
 eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
-
 ```
-
-
-
 
 
 ```{r Objective 2 KNN}
