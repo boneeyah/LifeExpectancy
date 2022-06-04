@@ -126,7 +126,7 @@ summary(LifeExp)
 
 
 ### Scatterplots
-```{r Linear regression, eval=FALSE, include=FALSE}
+```{r Linear regression}
 #####################################################################################
 #                        Scatter plots for checking linearity                       #
 #####################################################################################
@@ -1354,7 +1354,6 @@ KNNvarImp = varImp(KNNRegressor)
 plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
 
-```
 
 # Training set scores
 ```{r}
