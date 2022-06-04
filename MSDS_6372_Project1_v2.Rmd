@@ -524,9 +524,9 @@ test = LifeExp[-index,]
 # Create training and test set for regression models
 # Droping the variables which were log transformed, as well as country and region or countinent
 #drop_for_reg = c(-1, -8, -16, -17, -27)
-drop_for_reg = c("Country", "HIV.AIDS", "GDP", "percentage.expenditure", "Region")
-rtrain = train[,!colnames(train) %in% drop_for_reg]
-rtest = test[,!colnames(train) %in% drop_for_reg]
+drop_for_reg = c(-1, -8, -16, -17, -23)
+rtrain = train[,drop_for_reg]
+rtest = test[,drop_for_reg]
 x=model.matrix(Life.expectancy~.,rtrain)[,-1]
 y=rtrain$Life.expectancy
 xtest = model.matrix(Life.expectancy~.,rtest)[,-1]
@@ -724,7 +724,7 @@ points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.fwd)$rss
 lines(1:24,rss/dim(rtrain)[1],lty=3,col="blue")  
 
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp[,!colnames(train) %in% drop_for_reg],method="forward",nvmax=24)
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp[,drop_for_reg],method="forward",nvmax=24)
 coef(mlr.fwd.final,14)
 summary(mlr.fwd.final)
 
@@ -826,7 +826,7 @@ points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.bck)$rss
 lines(1:24,rss/dim(rtrain)[1],lty=3,col="blue")  
 
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp[,!colnames(train) %in% drop_for_reg],method="backward",nvmax=24)
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp[,drop_for_reg],method="backward",nvmax=24)
 coef(mlr.bck.final,14)
 
 summary(mlr.bck.final)
@@ -1104,84 +1104,7 @@ eval_df = rbind(eval_df, c('MLR Interact - Tamas', format(round(mse,4),nsmall=4)
 
 ```
 
-```{r}
-#####################################################################################
-#                                    Reuven's  Manual MLR                           #
-#####################################################################################
-
-# 5-fold cross validation
-cv <- trainControl(
-  method = "cv", 
-  number = 5,
-  savePredictions = TRUE
-)
-MLRT = train(
-  Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
-  data = rtrain,
-  method = "lm",
-  trControl = cv)
-
-### Visualize VIF
-MLR_VIF = vif(MLRT$finalModel)
-barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
-abline(v=10, col="red")
-
-### Hypothesis testing
-summary(MLRT$finalModel)
-# Predicting
-train_pred = predict(MLRT, rtrain)
-test_pred = predict(MLRT, rtest)
-
-# Scoring the final model on Training and Validation set
-summary(MLRT$finalModel)
-residuals = resid(MLRT$finalModel)
-train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
-test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
-
-### Checking Multiple Liner Regression model assumptions
-fit = lm(Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality, rtrain)
-confint(fit)
-hist(residuals, main = "Histogram of Residuals")
-plot(residuals, main = "Residuals plot") 
-abline(h=0, col="blue")
-plot(fit, which = 2)
-plot(fit, which = 4)
-
-anova(fit)
-
-x_TMLR = 1:dim(xtest)[1]
-plot(x_TMLR, ytest, col = "red", type = "l", lwd=2,
-     main = "Life Expectancy prediction (Manual MLR)", ylab="Life expectancy")
-lines(x_fwd, test_pred, col = "blue", lwd=2)
-legend("topright",  legend = c("original observation", "predicted life expectancy"), 
-       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
-grid()
-
-#### Scatter plot
-plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
-
-#### Model test scores
-rmse = test_score[1]
-rsqd = test_score[2]
-mse = rmse^2
-n=dim(xtest)[1]
-p = length(fit$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-
-```
-
-## Observations
-* The interaction of Schooling:log.percentage.expenditure is not statistically significant (p-value=0.48) at the .05 alpha level, this indicates that the effect of schooling does not depend on the linear log of percentage expenditure as it relates to Life expectancy holding all other variables constant
-
-* The interaction of Status:Continent is statistically significant (p-value < 0.0001) at the .05 alpha level, this indicates that the effect of whether a continent is developed or not does directly correspond to a higher Life expectancy holding all other variables constant.
-
-* All other variables are statistically signficant for the model with an R-Squared on our prediction set of 0.8566.
-
 ```{r creating binary categorical variables}
-#######################################################################################
-#                               Manual MLR Miguel                                     #
-#######################################################################################
 #resplit here for now
 index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
 train = LifeExp[index,]
@@ -1189,41 +1112,25 @@ test = LifeExp[-index,]
 #duplicate dataframe
 LifeExp2 <- LifeExp
 #create cat variables for HIV and Meas as binary No/Yes
-LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>log(.1),1,0),
-                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0),
-                                       log.Adult.Mortality = log(Adult.Mortality),
-                                       log.infant.deaths = log(infant.deaths))
+LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$HIV.AIDS>0.1,1,0),
+                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0))
+
 train_custom <- LifeExp2[index,]
 test_custom <- LifeExp2[index,]
 ```
 ```{r run custom model}
 #retrain/fit/test/predict and measure accuracy
-fit.custom <- lm(Life.expectancy ~log.Adult.Mortality + infant.deaths + log.GDP + Measles + HIV_cat + Country + Country:infant.deaths +Country:log.Adult.Mortality + log.Adult.Mortality:infant.deaths:Country,data = train_custom)
+fit.custom <- lm(Life.expectancy ~Adult.Mortality + infant.deaths + log.GDP + Meas_cat:Measles + HIV_cat:log.HIV.AIDS + Country +Country:infant.deaths +Country:Adult.Mortality,data = train_custom)
 #model has interactions between HIV and Measles variables and their respective
 #binary categories to have a sort of conditional
 #interaction between Country:infant.deaths
+
 #check model performance on the test set and test set prediction
 test_custom_pred <- predict(fit.custom,test_custom) #rank deficient warning comes from the self-interactions (ex. HIV_cat:HIV)
-test_score = caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
+
+caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
 forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
-
-#### Scatter plot
-plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
-
-#### Model test scores
-rmse = test_score[1]
-rsqd = test_score[2]
-mse = rmse^2
-n=dim(xtest)[1]
-p = length(fit.custom$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-
 ```
-
-
-
-
 
 ```{r Objective 2 KNN}
 #####################################################################################

@@ -1,6 +1,6 @@
-Tamas_Toth_MSDS_6372_Project1
+MSDS_6372_Project1
 ================
-Tamas Toth
+Miguel Bonilla, Reuven Derner, Milan Patel, Tamas Toth
 2022-05-27
 
 #### Loading the necessary R libraries for the analysis
@@ -124,10 +124,10 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Malawi
+Benin
 </td>
 <td style="text-align:right;">
-2014
+2008
 </td>
 <td style="text-align:left;">
 Developing
@@ -136,330 +136,330 @@ Developing
 57.6
 </td>
 <td style="text-align:right;">
-377
+278
 </td>
 <td style="text-align:right;">
-27
+25
 </td>
 <td style="text-align:right;">
-0.01
+1.28
 </td>
 <td style="text-align:right;">
-59.49
+7.615
 </td>
 <td style="text-align:right;">
-91
+75
 </td>
 <td style="text-align:right;">
-3
+928
 </td>
 <td style="text-align:right;">
-19.2
+22.0
 </td>
 <td style="text-align:right;">
-40
+39
 </td>
 <td style="text-align:right;">
-87
+77
 </td>
 <td style="text-align:right;">
-11.38
+4.20
 </td>
 <td style="text-align:right;">
-91
+75
 </td>
 <td style="text-align:right;">
-5.1
+1.8
 </td>
 <td style="text-align:right;">
-354.7
+82.15
 </td>
 <td style="text-align:right;">
-1768838
+8696916
 </td>
 <td style="text-align:right;">
-6.5
+8.1
 </td>
 <td style="text-align:right;">
-6.3
+8.0
 </td>
 <td style="text-align:right;">
-0.466
+0.444
 </td>
 <td style="text-align:right;">
-10.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Samoa
-</td>
-<td style="text-align:right;">
-2005
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-71.6
-</td>
-<td style="text-align:right;">
-16
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-3.63
-</td>
-<td style="text-align:right;">
-287.47
-</td>
-<td style="text-align:right;">
-41
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-69.7
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-55
-</td>
-<td style="text-align:right;">
-4.47
-</td>
-<td style="text-align:right;">
-49
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-2571.3
-</td>
-<td style="text-align:right;">
-179929
-</td>
-<td style="text-align:right;">
-0.2
-</td>
-<td style="text-align:right;">
-0.2
-</td>
-<td style="text-align:right;">
-0.671
-</td>
-<td style="text-align:right;">
-12.6
+9.1
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Indonesia
+Spain
 </td>
 <td style="text-align:right;">
-2009
+2011
 </td>
 <td style="text-align:left;">
-Developing
+Developed
 </td>
 <td style="text-align:right;">
-67.9
+82.1
 </td>
 <td style="text-align:right;">
-189
-</td>
-<td style="text-align:right;">
-143
-</td>
-<td style="text-align:right;">
-0.08
-</td>
-<td style="text-align:right;">
-125.80
-</td>
-<td style="text-align:right;">
-82
-</td>
-<td style="text-align:right;">
-20818
-</td>
-<td style="text-align:right;">
-22.1
-</td>
-<td style="text-align:right;">
-174
-</td>
-<td style="text-align:right;">
-85
-</td>
-<td style="text-align:right;">
-2.83
-</td>
-<td style="text-align:right;">
-78
-</td>
-<td style="text-align:right;">
-0.3
-</td>
-<td style="text-align:right;">
-2254.4
-</td>
-<td style="text-align:right;">
-23934478
-</td>
-<td style="text-align:right;">
-1.7
-</td>
-<td style="text-align:right;">
-1.6
-</td>
-<td style="text-align:right;">
-0.645
-</td>
-<td style="text-align:right;">
-11.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Finland
-</td>
-<td style="text-align:right;">
-2010
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-79.9
-</td>
-<td style="text-align:right;">
-89
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-9.72
-</td>
-<td style="text-align:right;">
-591.67
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-6.2
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-9.50
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-4622.4
-</td>
-<td style="text-align:right;">
-5363352
-</td>
-<td style="text-align:right;">
-0.9
-</td>
-<td style="text-align:right;">
-0.8
-</td>
-<td style="text-align:right;">
-0.874
-</td>
-<td style="text-align:right;">
-16.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Albania
-</td>
-<td style="text-align:right;">
-2013
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-77.2
-</td>
-<td style="text-align:right;">
-84
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-4.76
-</td>
-<td style="text-align:right;">
-430.88
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-56.5
+63
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-99
+9.62
 </td>
 <td style="text-align:right;">
-5.66
+4873.819
 </td>
 <td style="text-align:right;">
-99
+97
+</td>
+<td style="text-align:right;">
+3802
+</td>
+<td style="text-align:right;">
+64.1
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+97
+</td>
+<td style="text-align:right;">
+9.48
+</td>
+<td style="text-align:right;">
+97
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-4414.7
+31834.22
 </td>
 <td style="text-align:right;">
-289592
+46742697
 </td>
 <td style="text-align:right;">
-1.3
+0.6
+</td>
+<td style="text-align:right;">
+0.5
+</td>
+<td style="text-align:right;">
+0.867
+</td>
+<td style="text-align:right;">
+16.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bhutan
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+62.5
+</td>
+<td style="text-align:right;">
+282
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0.29
+</td>
+<td style="text-align:right;">
+151.976
+</td>
+<td style="text-align:right;">
+83
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+14.9
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+7.75
+</td>
+<td style="text-align:right;">
+86
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+885.64
+</td>
+<td style="text-align:right;">
+66399
+</td>
+<td style="text-align:right;">
+18.6
+</td>
+<td style="text-align:right;">
+19.4
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+8.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Papua New Guinea
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+59.6
+</td>
+<td style="text-align:right;">
+321
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+0.59
+</td>
+<td style="text-align:right;">
+124.379
+</td>
+<td style="text-align:right;">
+67
+</td>
+<td style="text-align:right;">
+3863
+</td>
+<td style="text-align:right;">
+39.6
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+62
+</td>
+<td style="text-align:right;">
+6.79
+</td>
+<td style="text-align:right;">
+68
 </td>
 <td style="text-align:right;">
 1.4
 </td>
 <td style="text-align:right;">
-0.759
+588.36
 </td>
 <td style="text-align:right;">
-14.2
+61724
+</td>
+<td style="text-align:right;">
+1.5
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+0.433
+</td>
+<td style="text-align:right;">
+7.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Democratic Republic of the Congo
+</td>
+<td style="text-align:right;">
+2001
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+51.8
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+227
+</td>
+<td style="text-align:right;">
+1.90
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+8072
+</td>
+<td style="text-align:right;">
+15.3
+</td>
+<td style="text-align:right;">
+332
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+2.67
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+2.4
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+12.2
+</td>
+<td style="text-align:right;">
+12.1
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
 </td>
 </tr>
 </tbody>
@@ -1551,9 +1551,9 @@ test = LifeExp[-index,]
 # Create training and test set for regression models
 # Droping the variables which were log transformed, as well as country and region or countinent
 #drop_for_reg = c(-1, -8, -16, -17, -27)
-drop_for_reg = c(-1, -8, -16, -17, -23)
-rtrain = train[,drop_for_reg]
-rtest = test[,drop_for_reg]
+drop_for_reg = c("Country", "HIV.AIDS", "GDP", "percentage.expenditure", "Region")
+rtrain = train[,!colnames(train) %in% drop_for_reg]
+rtest = test[,!colnames(train) %in% drop_for_reg]
 x=model.matrix(Life.expectancy~.,rtrain)[,-1]
 y=rtrain$Life.expectancy
 xtest = model.matrix(Life.expectancy~.,rtest)[,-1]
@@ -1700,6 +1700,7 @@ predict.regsubsets =function (object , newdata ,id ,...){
 ### Evaluation Data Frame
 ### test_ASE, R-squared/Adjusted R-squared
 eval_df = data.frame()
+eval_df = eval_df %>% dplyr::mutate(ID = row_number())
 
 #####################################################################################
 #                                       Lasso                                       #
@@ -2029,7 +2030,7 @@ plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (LASSO MLR fi
 ``` r
 ### Evaluation Data Frame
 ### test_ASE, R-squared/Adjusted R-squared, AIC, and BIC
-eval_df = data.frame(model_name = 'LASSO', MSE=mse, R_Squared=rsqd, AdjR_Squared=adjrsqd, RMSE = rmse)
+eval_df = data.frame(model_name = 'LASSO', MSE=format(round(mse,4),nsmall=4), R_Squared=format(round(rsqd,4),nsmall=4), AdjR_Squared=format(round(adjrsqd,4),nsmall=4), RMSE = format(round(rmse,4),nsmall=4))
 
 
 
@@ -2055,7 +2056,7 @@ lines(1:24,rss/dim(rtrain)[1],lty=3,col="blue")
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-11.png)<!-- -->
 
 ``` r
-mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp[,drop_for_reg],method="forward",nvmax=24)
+mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp[,!colnames(train) %in% drop_for_reg],method="forward",nvmax=24)
 coef(mlr.fwd.final,14)
 ```
 
@@ -2081,8 +2082,8 @@ summary(mlr.fwd.final)
 ```
 
     ## Subset selection object
-    ## Call: regsubsets.formula(Life.expectancy ~ ., data = LifeExp[, drop_for_reg], 
-    ##     method = "forward", nvmax = 24)
+    ## Call: regsubsets.formula(Life.expectancy ~ ., data = LifeExp[, !colnames(train) %in% 
+    ##     drop_for_reg], method = "forward", nvmax = 24)
     ## 24 Variables  (and intercept)
     ##                                 Forced in Forced out
     ## Year                                FALSE      FALSE
@@ -2530,7 +2531,7 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.lasso.lm3$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('FWD Selection', mse, rsqd, adjrsqd, rmse))
+eval_df = rbind(eval_df, c('FWD Selection', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 #####################################################################################
 #                               Backward Elimination                                #
 #####################################################################################
@@ -2554,7 +2555,7 @@ lines(1:24,rss/dim(rtrain)[1],lty=3,col="blue")
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-20.png)<!-- -->
 
 ``` r
-mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp[,drop_for_reg],method="backward",nvmax=24)
+mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp[,!colnames(train) %in% drop_for_reg],method="backward",nvmax=24)
 coef(mlr.bck.final,14)
 ```
 
@@ -2580,8 +2581,8 @@ summary(mlr.bck.final)
 ```
 
     ## Subset selection object
-    ## Call: regsubsets.formula(Life.expectancy ~ ., data = LifeExp[, drop_for_reg], 
-    ##     method = "backward", nvmax = 24)
+    ## Call: regsubsets.formula(Life.expectancy ~ ., data = LifeExp[, !colnames(train) %in% 
+    ##     drop_for_reg], method = "backward", nvmax = 24)
     ## 24 Variables  (and intercept)
     ##                                 Forced in Forced out
     ## Year                                FALSE      FALSE
@@ -2985,7 +2986,7 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.bck.lm3$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('Backward Elim.', mse, rsqd, adjrsqd, rmse))
+eval_df = rbind(eval_df, c('Backward Elim.', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 #####################################################################################
 #                                  Ridge regression                                 #
@@ -3072,7 +3073,7 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(coef(ridge.mod,s=bestlambda))-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('Ridge', mse, rsqd, adjrsqd, rmse))
+eval_df = rbind(eval_df, c('Ridge', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 #####################################################################################
 #                            Elastic Net Regression                                 #
@@ -3149,7 +3150,7 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(coef(elastic.mod))-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('ElasticNet', mse, rsqd, adjrsqd, rmse))
+eval_df = rbind(eval_df, c('ElasticNet', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 #####################################################################################
 #                                      Manual MLR - Tamas                           #
@@ -3351,7 +3352,7 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR - Tamas', mse, rsqd, adjrsqd, rmse))
+eval_df = rbind(eval_df, c('MLR - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ``` r
@@ -3485,10 +3486,254 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit_interaction$coefficients)-1
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('MLR Interact - Tamas', mse, rsqd, adjrsqd, rmse))
+eval_df = rbind(eval_df, c('MLR Interact - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ``` r
+#####################################################################################
+#                                    Reuven's  Manual MLR                           #
+#####################################################################################
+
+# 5-fold cross validation
+cv <- trainControl(
+  method = "cv", 
+  number = 5,
+  savePredictions = TRUE
+)
+MLRT = train(
+  Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
+  data = rtrain,
+  method = "lm",
+  trControl = cv)
+
+### Visualize VIF
+MLR_VIF = vif(MLRT$finalModel)
+barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+
+``` r
+### Hypothesis testing
+summary(MLRT$finalModel)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = .outcome ~ ., data = dat)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -12.932  -1.648  -0.253   1.290  12.389 
+    ## 
+    ## Coefficients:
+    ##                                         Estimate Std. Error t value
+    ## (Intercept)                            112.71600   25.31631    4.45
+    ## Income.composition.of.resources          3.00378    0.47323    6.35
+    ## Schooling                                0.63430    0.03923   16.17
+    ## log.percentage.expenditure               0.20986    0.08758    2.40
+    ## log.HIV.AIDS                            -0.05812    0.07013   -0.83
+    ## log.GDP                                  0.23494    0.04415    5.32
+    ## BMI                                      0.02178    0.00335    6.51
+    ## Year                                    -0.02215    0.01263   -1.75
+    ## Adult.Mortality                         -0.05829    0.00107  -54.72
+    ## `Schooling:log.percentage.expenditure`  -0.01233    0.00639   -1.93
+    ##                                                    Pr(>|t|)    
+    ## (Intercept)                                  0.000008871388 ***
+    ## Income.composition.of.resources              0.000000000260 ***
+    ## Schooling                              < 0.0000000000000002 ***
+    ## log.percentage.expenditure                            0.017 *  
+    ## log.HIV.AIDS                                          0.407    
+    ## log.GDP                                      0.000000112469 ***
+    ## BMI                                          0.000000000092 ***
+    ## Year                                                  0.080 .  
+    ## Adult.Mortality                        < 0.0000000000000002 ***
+    ## `Schooling:log.percentage.expenditure`                0.054 .  
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 2.73 on 2479 degrees of freedom
+    ## Multiple R-squared:  0.92,   Adjusted R-squared:  0.919 
+    ## F-statistic: 3.15e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
+
+``` r
+# Predicting
+train_pred = predict(MLRT, rtrain)
+test_pred = predict(MLRT, rtest)
+
+# Scoring the final model on Training and Validation set
+summary(MLRT$finalModel)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = .outcome ~ ., data = dat)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -12.932  -1.648  -0.253   1.290  12.389 
+    ## 
+    ## Coefficients:
+    ##                                         Estimate Std. Error t value
+    ## (Intercept)                            112.71600   25.31631    4.45
+    ## Income.composition.of.resources          3.00378    0.47323    6.35
+    ## Schooling                                0.63430    0.03923   16.17
+    ## log.percentage.expenditure               0.20986    0.08758    2.40
+    ## log.HIV.AIDS                            -0.05812    0.07013   -0.83
+    ## log.GDP                                  0.23494    0.04415    5.32
+    ## BMI                                      0.02178    0.00335    6.51
+    ## Year                                    -0.02215    0.01263   -1.75
+    ## Adult.Mortality                         -0.05829    0.00107  -54.72
+    ## `Schooling:log.percentage.expenditure`  -0.01233    0.00639   -1.93
+    ##                                                    Pr(>|t|)    
+    ## (Intercept)                                  0.000008871388 ***
+    ## Income.composition.of.resources              0.000000000260 ***
+    ## Schooling                              < 0.0000000000000002 ***
+    ## log.percentage.expenditure                            0.017 *  
+    ## log.HIV.AIDS                                          0.407    
+    ## log.GDP                                      0.000000112469 ***
+    ## BMI                                          0.000000000092 ***
+    ## Year                                                  0.080 .  
+    ## Adult.Mortality                        < 0.0000000000000002 ***
+    ## `Schooling:log.percentage.expenditure`                0.054 .  
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 2.73 on 2479 degrees of freedom
+    ## Multiple R-squared:  0.92,   Adjusted R-squared:  0.919 
+    ## F-statistic: 3.15e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
+
+``` r
+residuals = resid(MLRT$finalModel)
+train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
+test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
+
+### Checking Multiple Liner Regression model assumptions
+fit = lm(Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality, rtrain)
+confint(fit)
+```
+
+    ##                                         2.5 %      97.5 %
+    ## (Intercept)                          63.07271 162.3592821
+    ## Income.composition.of.resources       2.07581   3.9317423
+    ## Schooling                             0.55737   0.7112318
+    ## log.percentage.expenditure            0.03813   0.3815934
+    ## log.HIV.AIDS                         -0.19564   0.0793929
+    ## log.GDP                               0.14836   0.3215254
+    ## BMI                                   0.01522   0.0283421
+    ## Year                                 -0.04691   0.0026159
+    ## Adult.Mortality                      -0.06038  -0.0562056
+    ## Schooling:log.percentage.expenditure -0.02486   0.0001915
+
+``` r
+hist(residuals, main = "Histogram of Residuals")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-2.png)<!-- -->
+
+``` r
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-3.png)<!-- -->
+
+``` r
+plot(fit, which = 2)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-4.png)<!-- -->
+
+``` r
+plot(fit, which = 4)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-5.png)<!-- -->
+
+``` r
+anova(fit)
+```
+
+    ## Analysis of Variance Table
+    ## 
+    ## Response: Life.expectancy
+    ##                                        Df Sum Sq Mean Sq  F value
+    ## Income.composition.of.resources         1 122886  122886 16500.47
+    ## Schooling                               1  18332   18332  2461.47
+    ## log.percentage.expenditure              1   1105    1105   148.39
+    ## log.HIV.AIDS                            1  45526   45526  6112.92
+    ## log.GDP                                 1    596     596    80.05
+    ## BMI                                     1    361     361    48.48
+    ## Year                                    1    106     106    14.27
+    ## Adult.Mortality                         1  22284   22284  2992.18
+    ## Schooling:log.percentage.expenditure    1     28      28     3.73
+    ## Residuals                            2479  18462       7         
+    ##                                                    Pr(>F)    
+    ## Income.composition.of.resources      < 0.0000000000000002 ***
+    ## Schooling                            < 0.0000000000000002 ***
+    ## log.percentage.expenditure           < 0.0000000000000002 ***
+    ## log.HIV.AIDS                         < 0.0000000000000002 ***
+    ## log.GDP                              < 0.0000000000000002 ***
+    ## BMI                                       0.0000000000043 ***
+    ## Year                                              0.00016 ***
+    ## Adult.Mortality                      < 0.0000000000000002 ***
+    ## Schooling:log.percentage.expenditure              0.05360 .  
+    ## Residuals                                                    
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+``` r
+x_TMLR = 1:dim(xtest)[1]
+plot(x_TMLR, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (Manual MLR)", ylab="Life expectancy")
+lines(x_fwd, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-6.png)<!-- -->
+
+``` r
+#### Scatter plot
+plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-7.png)<!-- -->
+
+``` r
+#### Model test scores
+rmse = test_score[1]
+rsqd = test_score[2]
+mse = rmse^2
+n=dim(xtest)[1]
+p = length(fit$coefficients)-1
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+eval_df = rbind(eval_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+```
+
+## Observations
+
+-   The interaction of Schooling:log.percentage.expenditure is not
+    statistically significant (p-value=0.48) at the .05 alpha level,
+    this indicates that the effect of schooling does not depend on the
+    linear log of percentage expenditure as it relates to Life
+    expectancy holding all other variables constant
+
+-   The interaction of Status:Continent is statistically significant
+    (p-value \< 0.0001) at the .05 alpha level, this indicates that the
+    effect of whether a continent is developed or not does directly
+    correspond to a higher Life expectancy holding all other variables
+    constant.
+
+-   All other variables are statistically signficant for the model with
+    an R-Squared on our prediction set of 0.8566.
+
+``` r
+#######################################################################################
+#                               Manual MLR Miguel                                     #
+#######################################################################################
 #resplit here for now
 index<-sample(1:dim(LifeExp)[1],round(dim(LifeExp)[1]*0.85),replace=F)
 train = LifeExp[index,]
@@ -3496,20 +3741,20 @@ test = LifeExp[-index,]
 #duplicate dataframe
 LifeExp2 <- LifeExp
 #create cat variables for HIV and Meas as binary No/Yes
-LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$HIV.AIDS>0.1,1,0),
-                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0))
-
+LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>log(.1),1,0),
+                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0),
+                                       log.Adult.Mortality = log(Adult.Mortality),
+                                       log.infant.deaths = log(infant.deaths))
 train_custom <- LifeExp2[index,]
 test_custom <- LifeExp2[index,]
 ```
 
 ``` r
 #retrain/fit/test/predict and measure accuracy
-fit.custom <- lm(Life.expectancy ~Adult.Mortality + infant.deaths + log.GDP + Meas_cat:Measles + HIV_cat:log.HIV.AIDS + Country +Country:infant.deaths +Country:Adult.Mortality,data = train_custom)
+fit.custom <- lm(Life.expectancy ~log.Adult.Mortality + infant.deaths + log.GDP + Measles + HIV_cat + Country + Country:infant.deaths +Country:log.Adult.Mortality + log.Adult.Mortality:infant.deaths:Country,data = train_custom)
 #model has interactions between HIV and Measles variables and their respective
 #binary categories to have a sort of conditional
 #interaction between Country:infant.deaths
-
 #check model performance on the test set and test set prediction
 test_custom_pred <- predict(fit.custom,test_custom) #rank deficient warning comes from the self-interactions (ex. HIV_cat:HIV)
 ```
@@ -3518,13 +3763,7 @@ test_custom_pred <- predict(fit.custom,test_custom) #rank deficient warning come
     ## fit may be misleading
 
 ``` r
-caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
-```
-
-    ##     RMSE Rsquared      MAE 
-    ##   1.3008   0.9813   0.7346
-
-``` r
+test_score = caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
 forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
 ```
 
@@ -3532,8 +3771,26 @@ forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
     ##   method            from
     ##   as.zoo.data.frame zoo
 
-    ##                          ME  RMSE    MAE      MPE  MAPE
-    ## Test set 0.0000000000002539 1.301 0.7346 -0.03442 1.055
+    ##                         ME  RMSE    MAE      MPE   MAPE
+    ## Test set 0.000000000001163 1.207 0.6611 -0.02953 0.9493
+
+``` r
+#### Scatter plot
+plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-1.png)<!-- -->
+
+``` r
+#### Model test scores
+rmse = test_score[1]
+rsqd = test_score[2]
+mse = rmse^2
+n=dim(xtest)[1]
+p = length(fit.custom$coefficients)-1
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+eval_df = rbind(eval_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+```
 
 ``` r
 #####################################################################################
@@ -3632,7 +3889,7 @@ mse = rmse^2
 n=dim(xtest)[1]
 p = length(KNNRegressor$coefnames)
 adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-eval_df = rbind(eval_df, c('KNN', mse, rsqd, adjrsqd, rmse))
+eval_df = rbind(eval_df, c('KNN', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ### Visualize ‘k’ and the most important features
@@ -3643,14 +3900,14 @@ ggplot(KNNRegressor) + ggtitle("Optimal k value for the highest accuracy") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-1.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-1.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 KNNvarImp = varImp(KNNRegressor)
 plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-2.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-2.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 knitr::kable(eval_df, "html")
@@ -3687,16 +3944,16 @@ RMSE
 LASSO
 </td>
 <td style="text-align:left;">
-6.10350073479043
+6.1035
 </td>
 <td style="text-align:left;">
-0.925319265286605
+0.9253
 </td>
 <td style="text-align:left;">
-0.921558364977297
+0.9216
 </td>
 <td style="text-align:left;">
-2.47052640843817
+2.4705
 </td>
 </tr>
 <tr>
@@ -3707,16 +3964,16 @@ LASSO
 FWD Selection
 </td>
 <td style="text-align:left;">
-6.09300092172562
+6.0930
 </td>
 <td style="text-align:left;">
-0.925452974927973
+0.9255
 </td>
 <td style="text-align:left;">
-0.921698808197727
+0.9217
 </td>
 <td style="text-align:left;">
-2.46840047839195
+2.4684
 </td>
 </tr>
 <tr>
@@ -3727,16 +3984,16 @@ FWD Selection
 Backward Elim.
 </td>
 <td style="text-align:left;">
-6.09300092172562
+6.0930
 </td>
 <td style="text-align:left;">
-0.925452974927973
+0.9255
 </td>
 <td style="text-align:left;">
-0.923172712984594
+0.9232
 </td>
 <td style="text-align:left;">
-2.46840047839195
+2.4684
 </td>
 </tr>
 <tr>
@@ -3747,16 +4004,16 @@ Backward Elim.
 Ridge
 </td>
 <td style="text-align:left;">
-6.30770524533105
+6.3077
 </td>
 <td style="text-align:left;">
-0.922507205998581
+0.9225
 </td>
 <td style="text-align:left;">
-0.918014870114441
+0.9180
 </td>
 <td style="text-align:left;">
-2.51151453217596
+2.5115
 </td>
 </tr>
 <tr>
@@ -3767,16 +4024,16 @@ Ridge
 ElasticNet
 </td>
 <td style="text-align:left;">
-6.10921875147104
+6.1092
 </td>
 <td style="text-align:left;">
-0.9251937973158
+0.9252
 </td>
 <td style="text-align:left;">
-0.920857205855847
+0.9209
 </td>
 <td style="text-align:left;">
-2.47168338414754
+2.4717
 </td>
 </tr>
 <tr>
@@ -3787,16 +4044,16 @@ ElasticNet
 MLR - Tamas
 </td>
 <td style="text-align:left;">
-6.41924790320334
+6.4192
 </td>
 <td style="text-align:left;">
-0.921360512973874
+0.9214
 </td>
 <td style="text-align:left;">
-0.919334671387721
+0.9193
 </td>
 <td style="text-align:left;">
-2.53362347305264
+2.5336
 </td>
 </tr>
 <tr>
@@ -3807,16 +4064,16 @@ MLR - Tamas
 MLR Interact - Tamas
 </td>
 <td style="text-align:left;">
-6.41577857626083
+6.4158
 </td>
 <td style="text-align:left;">
-0.921403822211255
+0.9214
 </td>
 <td style="text-align:left;">
-0.919379096319742
+0.9194
 </td>
 <td style="text-align:left;">
-2.53293872335294
+2.5329
 </td>
 </tr>
 <tr>
@@ -3824,19 +4081,59 @@ MLR Interact - Tamas
 8
 </td>
 <td style="text-align:left;">
+MLR Interact - Reuven
+</td>
+<td style="text-align:left;">
+7.2968
+</td>
+<td style="text-align:left;">
+0.9110
+</td>
+<td style="text-align:left;">
+0.9092
+</td>
+<td style="text-align:left;">
+2.7013
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+9
+</td>
+<td style="text-align:left;">
+MLR Interact - Miguel
+</td>
+<td style="text-align:left;">
+1.4579
+</td>
+<td style="text-align:left;">
+0.9838
+</td>
+<td style="text-align:left;">
+1.0240
+</td>
+<td style="text-align:left;">
+1.2074
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+10
+</td>
+<td style="text-align:left;">
 KNN
 </td>
 <td style="text-align:left;">
-2.85314097696786
+2.8531
 </td>
 <td style="text-align:left;">
-0.967126566794734
+0.9671
 </td>
 <td style="text-align:left;">
-0.942405745024373
+0.9424
 </td>
 <td style="text-align:left;">
-1.68912432253161
+1.6891
 </td>
 </tr>
 </tbody>
