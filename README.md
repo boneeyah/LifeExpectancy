@@ -11,7 +11,7 @@ Tamas Toth | Reuven Derner | Miguel Bonilla | Milan Patel ![Github](https://img.
 
 ## Technology
 Project was created with:
-* R 4.1.3
+* R 4.1.3 ![Github](https://img.shields.io/badge/R-v4.1.3-blue)
 
 Packages:
 * class
