@@ -9,18 +9,8 @@ Miguel Bonilla, Reuven Derner, Milan Patel, Tamas Toth
 # Load the necessary libraries
 library(knitr)
 library(rmarkdown)
-```
-
-    ## Warning: package 'rmarkdown' was built under R version 4.1.3
-
-``` r
 library(forecast)
 library(ggpubr)
-```
-
-    ## Warning: package 'ggpubr' was built under R version 4.1.3
-
-``` r
 library(dplyr)
 library(tidyr)
 library(plyr)
@@ -30,71 +20,20 @@ library(ggthemes)
 library(e1071)
 library(class)
 library(caret)
-```
-
-    ## Warning: package 'caret' was built under R version 4.1.3
-
-``` r
 library(stringr)
 library(sjPlot)
-```
-
-    ## Warning: package 'sjPlot' was built under R version 4.1.3
-
-``` r
 library(data.table)
 library(reshape2)
 library(corrplot)
-```
-
-    ## Warning: package 'corrplot' was built under R version 4.1.3
-
-``` r
 library(naivebayes)
-```
-
-    ## Warning: package 'naivebayes' was built under R version 4.1.3
-
-``` r
 library(car)
 library(egg)
-```
-
-    ## Warning: package 'egg' was built under R version 4.1.3
-
-``` r
 library(rworldmap)
-```
-
-    ## Warning: package 'rworldmap' was built under R version 4.1.3
-
-``` r
 library(Hmisc)
-```
-
-    ## Warning: package 'Hmisc' was built under R version 4.1.3
-
-``` r
 library(DataExplorer)
-```
-
-    ## Warning: package 'DataExplorer' was built under R version 4.1.3
-
-``` r
 library(selectiveInference)
-```
-
-    ## Warning: package 'selectiveInference' was built under R version 4.1.3
-
-    ## Warning: package 'glmnet' was built under R version 4.1.3
-
-    ## Warning: package 'adaptMCMC' was built under R version 4.1.3
-
-``` r
 library(dlookr)
 ```
-
-    ## Warning: package 'dlookr' was built under R version 4.1.3
 
 ``` r
 # Turn off scientific notation
@@ -106,7 +45,7 @@ options(scipen = 100, digits = 4)
 ``` r
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Life_Expectancy_Data.csv',header = TRUE, sep = ",", encoding = "UTF-8")
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Life_Expectancy_Data.csv',header = TRUE, sep = ",", encoding = "UTF-8")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -186,143 +125,75 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Sao Tome and Principe
+Kiribati
 </td>
 <td style="text-align:right;">
-2012
+2003
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-66.9
+64.7
 </td>
 <td style="text-align:right;">
-194
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0.01
-</td>
-<td style="text-align:right;">
-8.198
-</td>
-<td style="text-align:right;">
-96
+215
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-28.5
+0.50
+</td>
+<td style="text-align:right;">
+1.765
+</td>
+<td style="text-align:right;">
+73
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-96
+7.6
 </td>
 <td style="text-align:right;">
-8.60
+0
 </td>
 <td style="text-align:right;">
-96
+79
 </td>
 <td style="text-align:right;">
-0.5
+9.98
 </td>
 <td style="text-align:right;">
-138.9
+7
 </td>
 <td style="text-align:right;">
-182889
+0.1
 </td>
 <td style="text-align:right;">
-5.9
+115.4
 </td>
 <td style="text-align:right;">
-5.7
+88895
 </td>
 <td style="text-align:right;">
-0.553
+0.2
 </td>
 <td style="text-align:right;">
-10.8
+0.2
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+11.6
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Dominican Republic
-</td>
-<td style="text-align:right;">
-2008
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-73.3
-</td>
-<td style="text-align:right;">
-161
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-6.12
-</td>
-<td style="text-align:right;">
-49.092
-</td>
-<td style="text-align:right;">
-81
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-51.5
-</td>
-<td style="text-align:right;">
-8
-</td>
-<td style="text-align:right;">
-86
-</td>
-<td style="text-align:right;">
-4.20
-</td>
-<td style="text-align:right;">
-82
-</td>
-<td style="text-align:right;">
-1.4
-</td>
-<td style="text-align:right;">
-511.4
-</td>
-<td style="text-align:right;">
-963652
-</td>
-<td style="text-align:right;">
-3.4
-</td>
-<td style="text-align:right;">
-3.3
-</td>
-<td style="text-align:right;">
-0.692
-</td>
-<td style="text-align:right;">
-12.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Morocco
+Panama
 </td>
 <td style="text-align:right;">
 2001
@@ -331,197 +202,265 @@ Morocco
 Developing
 </td>
 <td style="text-align:right;">
-69.0
+75.5
 </td>
 <td style="text-align:right;">
-155
-</td>
-<td style="text-align:right;">
-26
-</td>
-<td style="text-align:right;">
-0.46
-</td>
-<td style="text-align:right;">
-71.116
-</td>
-<td style="text-align:right;">
-84
-</td>
-<td style="text-align:right;">
-2724
-</td>
-<td style="text-align:right;">
-45.7
-</td>
-<td style="text-align:right;">
-30
-</td>
-<td style="text-align:right;">
-93
-</td>
-<td style="text-align:right;">
-4.44
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-1336.8
-</td>
-<td style="text-align:right;">
-29181832
-</td>
-<td style="text-align:right;">
-6.7
-</td>
-<td style="text-align:right;">
-6.5
-</td>
-<td style="text-align:right;">
-0.530
-</td>
-<td style="text-align:right;">
-8.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Croatia
-</td>
-<td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-77.8
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-12.14
-</td>
-<td style="text-align:right;">
-1884.099
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-63.1
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-7.80
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-13467.5
-</td>
-<td style="text-align:right;">
-4238389
-</td>
-<td style="text-align:right;">
-1.5
-</td>
-<td style="text-align:right;">
-1.5
-</td>
-<td style="text-align:right;">
-0.820
-</td>
-<td style="text-align:right;">
-15.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Swaziland
-</td>
-<td style="text-align:right;">
-2010
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-53.6
-</td>
-<td style="text-align:right;">
-459
+124
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-4.93
+5.43
 </td>
 <td style="text-align:right;">
-56.937
+7.321
 </td>
 <td style="text-align:right;">
-89
+98
 </td>
 <td style="text-align:right;">
-313
+0
 </td>
 <td style="text-align:right;">
-29.7
+46.9
 </td>
 <td style="text-align:right;">
-4
+2
 </td>
 <td style="text-align:right;">
-89
+95
 </td>
 <td style="text-align:right;">
-8.47
+7.72
 </td>
 <td style="text-align:right;">
-89
+99
 </td>
 <td style="text-align:right;">
-21.6
+0.1
 </td>
 <td style="text-align:right;">
-369.2
+446.4
 </td>
 <td style="text-align:right;">
-122843
+389684
 </td>
 <td style="text-align:right;">
-5.4
+2.3
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+0.721
+</td>
+<td style="text-align:right;">
+12.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Guyana
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+66.3
+</td>
+<td style="text-align:right;">
+218
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+7.32
+</td>
+<td style="text-align:right;">
+493.328
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4.9
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+7.46
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+0.8
+</td>
+<td style="text-align:right;">
+2576.1
+</td>
+<td style="text-align:right;">
+746314
 </td>
 <td style="text-align:right;">
 5.6
 </td>
 <td style="text-align:right;">
-0.523
+5.4
 </td>
 <td style="text-align:right;">
-11.0
+0.618
+</td>
+<td style="text-align:right;">
+10.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+France
+</td>
+<td style="text-align:right;">
+2005
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+81.0
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+12.20
+</td>
+<td style="text-align:right;">
+5451.701
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+36
+</td>
+<td style="text-align:right;">
+57.5
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+1.60
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+34879.7
+</td>
+<td style="text-align:right;">
+63179356
+</td>
+<td style="text-align:right;">
+0.6
+</td>
+<td style="text-align:right;">
+0.6
+</td>
+<td style="text-align:right;">
+0.860
+</td>
+<td style="text-align:right;">
+15.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Panama
+</td>
+<td style="text-align:right;">
+2000
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+75.7
+</td>
+<td style="text-align:right;">
+121
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+5.58
+</td>
+<td style="text-align:right;">
+9.871
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+45.9
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+7.76
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+0.2
+</td>
+<td style="text-align:right;">
+46.3
+</td>
+<td style="text-align:right;">
+33347
+</td>
+<td style="text-align:right;">
+2.4
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+0.716
+</td>
+<td style="text-align:right;">
+12.1
 </td>
 </tr>
 </tbody>
@@ -1102,7 +1041,7 @@ summary(LifeExp)
 -   Column names have spaces and special characters that has been
     replaced by R with “.”
 -   There are missing values or empty strings in the dataset
--   ????? duplicated records????????
+-   No duplicated records
 -   ‘Life.expectancy’ is the dependent variable - There are 10 missing
     observations in the dependent variable
 -   We need to predict Salary however there is no salary variable in the
@@ -1125,7 +1064,7 @@ following variables
 -   Year
 -   Adult.Mortality
 
-#adding region column to do regional imputation
+\#adding region column to do regional imputation
 
 ``` r
 ###rename ivory coast and remove parenthesis from country names
@@ -1155,7 +1094,6 @@ regions$Country <- replace(regions$Country, regions$Country == "Macedonia", "The
 regions$Country <- replace(regions$Country, regions$Country == "East Timor", "Timor-Leste")
 regions$Country <- replace(regions$Country, regions$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
 regions$Country <- replace(regions$Country, regions$Country == "Vietnam", "Viet Nam")
-
 LifeExp <-  join(LifeExp,regions,by = "Country", type = 'left')
 LifeExp$Country <- replace(LifeExp$Country, LifeExp$Country == "Micronesia", "Micronesia (Federated States of)")
 LifeExp$Region <- as.factor(LifeExp$Region)
@@ -1200,7 +1138,7 @@ LifeExp = as.data.frame(LifeExp)
 
 #impute USA values
 #USA GDP
-US_GDP <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE,encoding = "UTF-8")
+US_GDP <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE,encoding = "UTF-8")
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -1212,7 +1150,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-US_Scho <- read.csv("https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
+US_Scho <- read.csv("https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -1227,7 +1165,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-US_Inc <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE)
+US_Inc <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Income%20index.csv',skip = 5, header = FALSE)
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -1242,7 +1180,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv',encoding = "UTF-8")
+pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/WPP2019_TotalPopulationBySex.csv',encoding = "UTF-8")
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -1259,7 +1197,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Adult_mort.csv',header = TRUE,encoding = "UTF-8")
+adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Adult_mort.csv',header = TRUE,encoding = "UTF-8")
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
@@ -1277,11 +1215,6 @@ LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 
 ### Transform countries to continents
 library(countrycode)
-```
-
-    ## Warning: package 'countrycode' was built under R version 4.1.3
-
-``` r
 LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
 LifeExp$Continent = as.factor(LifeExp$Continent)
 
@@ -1295,15 +1228,11 @@ LifeExp$Continent = as.factor(LifeExp$Continent)
 #      Full Correlation Matrix for Linear Regression (Life.expectancy)              #
 #####################################################################################
 # Filter for data to be included
-num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
-LifeExpcorr = LifeExp[,num_cols]
-corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
-         cl.pos = 'n', col = COL2('BrBG'))
-```
+#num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+#LifeExpcorr = LifeExp[,num_cols]
+#corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
+#         cl.pos = 'n', col = COL2('BrBG'))
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-1.png" angle=90 style="display: block; margin: auto;" />
-
-``` r
 plot_correlate(LifeExp)
 ```
 
@@ -1311,7 +1240,7 @@ plot_correlate(LifeExp)
     ## Use 'plot.correlate' instead.
     ## See help("Deprecated")
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-2.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-1.png" angle=90 style="display: block; margin: auto;" />
 
 ### Observations
 
@@ -1436,7 +1365,7 @@ egg::ggarrange(multibox, ncol=2)
 ```
 
 <img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-19.png" angle=90 style="display: block; margin: auto;" />
-## Overall life expectancy over time
+\## Overall life expectancy over time
 
 ``` r
 #####################################################################################
@@ -1475,7 +1404,7 @@ theme(plot.title = element_text(hjust = 0.5)) +
 ggplot(data=mean_LifeExp_cont, aes(x=Year, y=meanle, group = Continent)) +
   geom_line(aes(color=Continent))+
   geom_point(aes(color=Continent)) +
-  ggtitle("Mean life expactancy by year by Continent") +
+  ggtitle("Mean life expactancy by year by continent") +
 theme(plot.title = element_text(hjust = 0.5)) +
   xlab("Year") + ylab("Average Life Expectancy")
 ```
@@ -1491,8 +1420,6 @@ theme(plot.title = element_text(hjust = 0.5)) +
 LifeExp = mutate(LifeExp, log.HIV.AIDS = ifelse(HIV.AIDS==0, log(HIV.AIDS+1), log(HIV.AIDS)))
 LifeExp = mutate(LifeExp, log.GDP = ifelse(GDP==0, log(GDP+1), log(GDP)))
 LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expenditure==0, log(percentage.expenditure+1), log(percentage.expenditure)))
-
-
 
 ### Make country as factor
 LifeExp$Country = as.factor(LifeExp$Country)
@@ -1519,16 +1446,10 @@ x=model.matrix(Life.expectancy~.,rtrain)[,-1]
 y=rtrain$Life.expectancy
 xtest = model.matrix(Life.expectancy~.,rtest)[,-1]
 ytest = rtest$Life.expectancy
-
 # Create training and test set for KNN model
-
-incl_for_knn = c(1, 5, 7, 16, 18, 3, 21, 4)
+incl_for_knn = c("Country", "Life.expectancy", "Adult.Mortality" , "Alcohol", "HIV.AIDS", "thinness.5.9.years" , "Status", "Income.composition.of.resources", "percentage.expenditure", "infant.deaths", "GDP")
 ktrain = train[,incl_for_knn]
 ktest = test[,incl_for_knn]
-kx=ktrain[,-4]
-ky=ktrain$Life.expectancy
-kxtest = ktest[,-4]
-kytest = ktest$Life.expectancy
 ```
 
 ``` r
@@ -1539,23 +1460,23 @@ kytest = ktest$Life.expectancy
 describe(train)
 ```
 
-    ## # A tibble: 23 x 26
-    ##    described_variabl~     n    na   mean     sd se_mean    IQR skewness kurtosis
+    ## # A tibble: 23 × 26
+    ##    described_variabl…     n    na   mean     sd se_mean    IQR skewness kurtosis
     ##    <chr>              <int> <int>  <dbl>  <dbl>   <dbl>  <dbl>    <dbl>    <dbl>
     ##  1 Year                2489     0 2.01e3 4.59e0 9.20e-2   7    -0.00819   -1.20 
     ##  2 Life.expectancy     2489     0 6.91e1 9.61e0 1.93e-1  12.7  -0.629     -0.253
     ##  3 Adult.Mortality     2489     0 1.96e2 1.16e2 2.33e+0 146.    1.33       1.85 
     ##  4 infant.deaths       2489     0 3.18e1 1.22e2 2.44e+0  23     9.33     105.   
     ##  5 Alcohol             2489     0 4.56e0 4.04e0 8.09e-2   6.71  0.621     -0.748
-    ##  6 percentage.expend~  2489     0 7.16e2 1.96e3 3.92e+1 419.    4.80      28.7  
+    ##  6 percentage.expend…  2489     0 7.16e2 1.96e3 3.92e+1 419.    4.80      28.7  
     ##  7 Hepatitis.B         2489     0 8.02e1 2.45e1 4.91e-1  21    -1.82       2.44 
     ##  8 Measles             2489     0 2.54e3 1.18e4 2.37e+2 410     9.27     111.   
     ##  9 BMI                 2489     0 3.80e1 2.00e1 4.01e-1  36.7  -0.227     -1.32 
     ## 10 under.five.deaths   2489     0 4.41e1 1.66e2 3.33e+0  30     9.09     101.   
-    ## # ... with 13 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>,
-    ## #   p05 <dbl>, p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>,
-    ## #   p50 <dbl>, p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>,
-    ## #   p95 <dbl>, p99 <dbl>, p100 <dbl>
+    ## # … with 13 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>, p05 <dbl>,
+    ## #   p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>, p50 <dbl>,
+    ## #   p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>, p95 <dbl>,
+    ## #   p99 <dbl>, p100 <dbl>
 
 ## Observations
 
@@ -1568,7 +1489,7 @@ skewness can be identified in Population
 normality(train) 
 ```
 
-    ## # A tibble: 23 x 4
+    ## # A tibble: 23 × 4
     ##    vars                   statistic  p_value sample
     ##    <chr>                      <dbl>    <dbl>  <dbl>
     ##  1 Year                       0.948 7.20e-29   2489
@@ -1581,7 +1502,7 @@ normality(train)
     ##  8 Measles                    0.212 4.17e-73   2489
     ##  9 BMI                        0.926 2.73e-33   2489
     ## 10 under.five.deaths          0.247 3.40e-72   2489
-    ## # ... with 13 more rows
+    ## # … with 13 more rows
 
 ``` r
 #Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
@@ -1594,7 +1515,7 @@ train %>%
   arrange(abs(p_value))
 ```
 
-    ## # A tibble: 23 x 4
+    ## # A tibble: 23 × 4
     ##    vars                   statistic  p_value sample
     ##    <chr>                      <dbl>    <dbl>  <dbl>
     ##  1 Measles                    0.212 4.17e-73   2489
@@ -1607,7 +1528,7 @@ train %>%
     ##  8 Diphtheria                 0.690 1.58e-55   2489
     ##  9 Polio                      0.692 2.12e-55   2489
     ## 10 log.HIV.AIDS               0.712 3.11e-54   2489
-    ## # ... with 13 more rows
+    ## # … with 13 more rows
 
 ``` r
 # Verify non normality and transformation options of the variability 
@@ -1660,8 +1581,10 @@ predict.regsubsets =function (object , newdata ,id ,...){
 
 ### Evaluation Data Frame
 ### test_ASE, R-squared/Adjusted R-squared
-eval_df = data.frame()
-eval_df = eval_df %>% dplyr::mutate(ID = row_number())
+eval_train_df = data.frame()
+eval_train_df = eval_train_df %>% dplyr::mutate(ID = row_number())
+eval_test_df = data.frame()
+eval_test_df = eval_test_df %>% dplyr::mutate(ID = row_number())
 
 #####################################################################################
 #                                       Lasso                                       #
@@ -1839,7 +1762,7 @@ summary(fit.lasso.lm3)
     ## 
     ## Coefficients:
     ##                                        Estimate      Std. Error t value
-    ## (Intercept)                     26.701702526521 24.042250034403    1.11
+    ## (Intercept)                     26.701702526519 24.042250034403    1.11
     ## StatusDeveloping                -0.731227025190  0.207556926596   -3.52
     ## ContinentAmericas                2.737744817628  0.207040167773   13.22
     ## ContinentAsia                    1.148916818553  0.178604538637    6.43
@@ -1877,7 +1800,7 @@ summary(fit.lasso.lm3)
     ## under.five.deaths                0.00000048733102222 ***
     ## Polio                            0.00001528655356616 ***
     ## Diphtheria                       0.00000153088929503 ***
-    ## Population                       0.00006576862056827 ***
+    ## Population                       0.00006576862056826 ***
     ## thinness..1.19.years                         0.97515    
     ## thinness.5.9.years                           0.68587    
     ## Income.composition.of.resources  0.00000063881649327 ***
@@ -1904,23 +1827,27 @@ residuals = resid(fit.lasso.lm3)
 train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
 sm = summary(fit.lasso.lm3)
-#mse = mean(sm$residuals^2)
-#print(paste("Lasso MLR MSE:", mse))
+mse_trn = mean(sm$residuals^2)
 
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
 ## Test scores
 rmse = test_score[1]
 rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.lasso.lm3$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.lasso.lm3)
 ```
 
     ##                                            2.5 %          97.5 %
-    ## (Intercept)                     -20.443371869108 73.846776922150
+    ## (Intercept)                     -20.443371869110 73.846776922148
     ## StatusDeveloping                 -1.138230809433 -0.324223240947
     ## ContinentAmericas                 2.331754359223  3.143735276032
     ## ContinentAsia                     0.798686526073  1.499147111033
@@ -1990,9 +1917,10 @@ plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (LASSO MLR fi
 
 ``` r
 ### Evaluation Data Frame
-### test_ASE, R-squared/Adjusted R-squared, AIC, and BIC
-eval_df = data.frame(model_name = 'LASSO', MSE=format(round(mse,4),nsmall=4), R_Squared=format(round(rsqd,4),nsmall=4), AdjR_Squared=format(round(adjrsqd,4),nsmall=4), RMSE = format(round(rmse,4),nsmall=4))
-
+### test_ASE, R-squared/Adjusted R-squared, RMSE
+eval_test_df = data.frame(model_name = 'LASSO', MSE=format(round(mse,4),nsmall=4), R_Squared=format(round(rsqd,4),nsmall=4), AdjR_Squared=format(round(adjrsqd,4),nsmall=4), RMSE = format(round(rmse,4),nsmall=4))
+### train_ASE, R-squared/Adjusted R-squared, RMSE
+eval_train_df = data.frame(model_name = 'LASSO', MSE=format(round(mse_trndf,4),nsmall=4), R_Squared=format(round(rsqd_trn,4),nsmall=4), AdjR_Squared=format(round(adjrsqd_trn,4),nsmall=4), RMSE = format(round(rmse_trn,4),nsmall=4))
 
 
 #####################################################################################
@@ -2417,7 +2345,7 @@ residuals = resid(fit.fwd.lm3)
 train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
 sm = summary(fit.fwd.lm3)
-mse = mean(sm$residuals^2)
+mse_trn = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.fwd.lm3)
@@ -2491,8 +2419,14 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.lasso.lm3$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('FWD Selection', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+eval_test_df = rbind(eval_test_df, c('FWD Selection', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('FWD Selection', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 #####################################################################################
 #                               Backward Elimination                                #
 #####################################################################################
@@ -2872,7 +2806,7 @@ residuals = resid(fit.bck.lm3)
 train_score = postResample(pred = train_pred, obs = train$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = test$Life.expectancy)
 sm = summary(fit.bck.lm3)
-mse = mean(sm$residuals^2)
+mse_trn = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.bck.lm3)
@@ -2946,8 +2880,16 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.bck.lm3$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('Backward Elim.', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+eval_test_df = rbind(eval_test_df, c('Backward Elim.', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('Backward Elim.', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
+
 
 #####################################################################################
 #                                  Ridge regression                                 #
@@ -2963,6 +2905,7 @@ plot(cv.out)
 
 ``` r
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
+ridge.pred_trn=predict(ridge.mod ,s=bestlambda ,newx=x)
 ridge.pred=predict(ridge.mod ,s=bestlambda ,newx=xtest)
 
 testMSE_RIDGE<-mean((ytest-ridge.pred)^2)
@@ -3006,6 +2949,7 @@ coef(ridge.mod,s=bestlambda)
 ``` r
 # Metrics RMSE; R-squared; MAE
 test_score = postResample(pred = ridge.pred, obs = ytest)
+train_score = postResample(pred = ridge.pred_trn, obs = rtrain$Life.expectancy)
 
 ##### Visualize prediction vs actual
 x_ridge = 1:dim(xtest)[1]
@@ -3033,8 +2977,16 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(coef(ridge.mod,s=bestlambda))-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('Ridge', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = rmse_trn^2
+n=dim(x)[1]
+p = length(coef(ridge.mod,s=bestlambda))-1
+adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
+eval_test_df = rbind(eval_test_df, c('Ridge', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('Ridge', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 #####################################################################################
 #                            Elastic Net Regression                                 #
@@ -3042,8 +2994,6 @@ eval_df = rbind(eval_df, c('Ridge', format(round(mse,4),nsmall=4), format(round(
 
 library(glmnetUtils)
 ```
-
-    ## Warning: package 'glmnetUtils' was built under R version 4.1.3
 
     ## 
     ## Attaching package: 'glmnetUtils'
@@ -3073,6 +3023,7 @@ cva.min
 
 ``` r
 elastic.mod = glmnet(x,y, alpha = cva.min$alpha, lambda = cva.min$lambdaMin)
+elastic.pred_trn=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=x)
 elastic.pred=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=xtest)
 elastic.pred_coef=predict(elastic.mod ,s=cva.min$lambdaMin ,newx=xtest, type = "coef")
 
@@ -3084,6 +3035,7 @@ testMSE_ELASTIC
 
 ``` r
 # Metrics RMSE; R-squared; MAE
+train_score = postResample(pred = elastic.pred_trn, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = elastic.pred, obs = ytest)
 
 ##### Visualize prediction vs actual
@@ -3112,8 +3064,16 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(coef(elastic.mod))-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('ElasticNet', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = rmse_trn^2
+n=dim(x)[1]
+p = length(coef(elastic.mod,s=bestlambda))-1
+adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
+eval_test_df = rbind(eval_test_df, c('ElasticNet', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('ElasticNet', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 #####################################################################################
 #                                      Manual MLR - Tamas                           #
@@ -3314,8 +3274,14 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('MLR - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+eval_test_df = rbind(eval_test_df, c('MLR - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ``` r
@@ -3323,78 +3289,123 @@ eval_df = rbind(eval_df, c('MLR - Tamas', format(round(mse,4),nsmall=4), format(
 #                                      Objective 2                                  #
 #                   Model with complexity (adding interaction terms)                #
 #####################################################################################
-fit_interaction = lm(Life.expectancy ~ Continent + Schooling + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, train)
+#####################################################################################
+#                        Tamas's  Manual MLR Interaction                            #
+#####################################################################################
+fit_interaction = lm(Life.expectancy ~ Continent + Status + Schooling + log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status + Schooling:Status + I(GDP^2) ,data = train)
 
-interact_pred_train = predict(fit_interaction, rtrain)
-train_score = postResample(pred = interact_pred_train, obs = rtrain$Life.expectancy)
+interact_pred_train = predict(fit_interaction, train)
+train_score = postResample(pred = interact_pred_train, obs = train$Life.expectancy)
 
-interact_pred = predict(fit_interaction, rtest)
-test_score = postResample(pred = interact_pred, obs = rtest$Life.expectancy)
+interact_pred = predict(fit_interaction, test)
+test_score = postResample(pred = interact_pred, obs = test$Life.expectancy)
 
 summary(fit_interaction)
 ```
 
     ## 
     ## Call:
-    ## lm(formula = Life.expectancy ~ Continent + Schooling + log.percentage.expenditure + 
-    ##     Year + Adult.Mortality + infant.deaths + Income.composition.of.resources:Status, 
-    ##     data = train)
+    ## lm(formula = Life.expectancy ~ Continent + Status + Schooling + 
+    ##     log.percentage.expenditure + Year + Adult.Mortality + infant.deaths + 
+    ##     Income.composition.of.resources:Status + Schooling:Status + 
+    ##     I(GDP^2), data = train)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -11.950  -1.479  -0.271   1.140  10.824 
+    ## -11.921  -1.449  -0.264   1.123  10.858 
     ## 
     ## Coefficients:
-    ##                                                   Estimate Std. Error t value
-    ## (Intercept)                                      11.828876  24.329370    0.49
-    ## ContinentAmericas                                 3.294628   0.193541   17.02
-    ## ContinentAsia                                     1.333031   0.179469    7.43
-    ## ContinentEurope                                   2.685283   0.229854   11.68
-    ## ContinentOceania                                  1.083966   0.266069    4.07
-    ## Schooling                                         0.477428   0.029510   16.18
-    ## log.percentage.expenditure                        0.100902   0.020850    4.84
-    ## Year                                              0.029253   0.012128    2.41
-    ## Adult.Mortality                                  -0.056042   0.000705  -79.48
-    ## infant.deaths                                    -0.002849   0.000438   -6.50
-    ## Income.composition.of.resources:StatusDeveloped   4.043146   0.475581    8.50
-    ## Income.composition.of.resources:StatusDeveloping  2.937192   0.448537    6.55
+    ##                                                          Estimate
+    ## (Intercept)                                      10.7033082346207
+    ## ContinentAmericas                                 3.2826482894550
+    ## ContinentAsia                                     1.3433954944255
+    ## ContinentEurope                                   2.8742205130722
+    ## ContinentOceania                                  1.2158854223811
+    ## StatusDeveloping                                  7.0484793649486
+    ## Schooling                                         0.1659690005870
+    ## log.percentage.expenditure                        0.1003444071425
+    ## Year                                              0.0262331580264
+    ## Adult.Mortality                                  -0.0557935517321
+    ## infant.deaths                                    -0.0028297012772
+    ## I(GDP^2)                                         -0.0000000000292
+    ## StatusDeveloped:Income.composition.of.resources  17.9984512984912
+    ## StatusDeveloping:Income.composition.of.resources  2.7437970019810
+    ## StatusDeveloping:Schooling                        0.3277235556393
+    ##                                                        Std. Error t value
+    ## (Intercept)                                      24.3158065637234    0.44
+    ## ContinentAmericas                                 0.1937051489887   16.95
+    ## ContinentAsia                                     0.1799249993177    7.47
+    ## ContinentEurope                                   0.2361877077023   12.17
+    ## ContinentOceania                                  0.2684700565321    4.53
+    ## StatusDeveloping                                  2.2570156972724    3.12
+    ## Schooling                                         0.1026710494270    1.62
+    ## log.percentage.expenditure                        0.0215399783688    4.66
+    ## Year                                              0.0121336829563    2.16
+    ## Adult.Mortality                                   0.0007051036737  -79.13
+    ## infant.deaths                                     0.0004375361514   -6.47
+    ## I(GDP^2)                                          0.0000000000772   -0.38
+    ## StatusDeveloped:Income.composition.of.resources   3.4357348691848    5.24
+    ## StatusDeveloping:Income.composition.of.resources  0.4530203089306    6.06
+    ## StatusDeveloping:Schooling                        0.1063609578972    3.08
     ##                                                              Pr(>|t|)    
-    ## (Intercept)                                                     0.627    
+    ## (Intercept)                                                    0.6598    
     ## ContinentAmericas                                < 0.0000000000000002 ***
-    ## ContinentAsia                                        0.00000000000015 ***
+    ## ContinentAsia                                        0.00000000000011 ***
     ## ContinentEurope                                  < 0.0000000000000002 ***
-    ## ContinentOceania                                     0.00004766289016 ***
-    ## Schooling                                        < 0.0000000000000002 ***
-    ## log.percentage.expenditure                           0.00000138162929 ***
-    ## Year                                                            0.016 *  
+    ## ContinentOceania                                     0.00000620910741 ***
+    ## StatusDeveloping                                               0.0018 ** 
+    ## Schooling                                                      0.1061    
+    ## log.percentage.expenditure                           0.00000335360281 ***
+    ## Year                                                           0.0307 *  
     ## Adult.Mortality                                  < 0.0000000000000002 ***
-    ## infant.deaths                                        0.00000000009481 ***
-    ## Income.composition.of.resources:StatusDeveloped  < 0.0000000000000002 ***
-    ## Income.composition.of.resources:StatusDeveloping     0.00000000007048 ***
+    ## infant.deaths                                        0.00000000011978 ***
+    ## I(GDP^2)                                                       0.7057    
+    ## StatusDeveloped:Income.composition.of.resources      0.00000017544447 ***
+    ## StatusDeveloping:Income.composition.of.resources     0.00000000160155 ***
+    ## StatusDeveloping:Schooling                                     0.0021 ** 
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.57 on 2477 degrees of freedom
+    ## Residual standard error: 2.56 on 2474 degrees of freedom
     ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.929 
-    ## F-statistic: 2.94e+03 on 11 and 2477 DF,  p-value: <0.0000000000000002
+    ## F-statistic: 2.33e+03 on 14 and 2474 DF,  p-value: <0.0000000000000002
 
 ``` r
 confint(fit_interaction)
 ```
 
-    ##                                                       2.5 %   97.5 %
-    ## (Intercept)                                      -35.879125 59.53688
-    ## ContinentAmericas                                  2.915110  3.67415
-    ## ContinentAsia                                      0.981106  1.68496
-    ## ContinentEurope                                    2.234558  3.13601
-    ## ContinentOceania                                   0.562227  1.60571
-    ## Schooling                                          0.419561  0.53529
-    ## log.percentage.expenditure                         0.060017  0.14179
-    ## Year                                               0.005471  0.05303
-    ## Adult.Mortality                                   -0.057425 -0.05466
-    ## infant.deaths                                     -0.003708 -0.00199
-    ## Income.composition.of.resources:StatusDeveloped    3.110568  4.97572
-    ## Income.composition.of.resources:StatusDeveloping   2.057645  3.81674
+    ##                                                              2.5 %
+    ## (Intercept)                                      -36.9781240637951
+    ## ContinentAmericas                                  2.9028073443005
+    ## ContinentAsia                                      0.9905763662064
+    ## ContinentEurope                                    2.4110745275580
+    ## ContinentOceania                                   0.6894362260059
+    ## StatusDeveloping                                   2.6226446354312
+    ## Schooling                                         -0.0353610552116
+    ## log.percentage.expenditure                         0.0581061611025
+    ## Year                                               0.0024399360787
+    ## Adult.Mortality                                   -0.0571762059736
+    ## infant.deaths                                     -0.0036876761227
+    ## I(GDP^2)                                          -0.0000000001805
+    ## StatusDeveloped:Income.composition.of.resources   11.2612386491380
+    ## StatusDeveloping:Income.composition.of.resources   1.8554589107285
+    ## StatusDeveloping:Schooling                         0.1191578722481
+    ##                                                            97.5 %
+    ## (Intercept)                                      58.3847405330364
+    ## ContinentAmericas                                 3.6624892346095
+    ## ContinentAsia                                     1.6962146226447
+    ## ContinentEurope                                   3.3373664985863
+    ## ContinentOceania                                  1.7423346187563
+    ## StatusDeveloping                                 11.4743140944660
+    ## Schooling                                         0.3672990563856
+    ## log.percentage.expenditure                        0.1425826531826
+    ## Year                                              0.0500263799741
+    ## Adult.Mortality                                  -0.0544108974906
+    ## infant.deaths                                    -0.0019717264317
+    ## I(GDP^2)                                          0.0000000001222
+    ## StatusDeveloped:Income.composition.of.resources  24.7356639478444
+    ## StatusDeveloping:Income.composition.of.resources  3.6321350932335
+    ## StatusDeveloping:Schooling                        0.5362892390305
 
 ``` r
 hist(residuals, main = "Histogram of Residuals (Interaction)")
@@ -3448,8 +3459,16 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit_interaction$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('MLR Interact - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+sm = summary(fit_interaction)
+mse_trn = mean(sm$residuals^2)
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+eval_test_df = rbind(eval_test_df, c('MLR Interact - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ``` r
@@ -3660,7 +3679,7 @@ grid()
 
 ``` r
 #### Scatter plot
-plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
+plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Reuven)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-7.png)<!-- -->
@@ -3672,8 +3691,16 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+sm = summary(MLRT$finalModel)
+mse_trn = mean(sm$residuals^2)
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+eval_test_df = rbind(eval_test_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Reuven', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ## Observations
@@ -3708,16 +3735,21 @@ LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>l
                                        Meas_cat= if_else(LifeExp2$Measles>0,1,0),
                                        log.Adult.Mortality = log(Adult.Mortality))
 train_custom <- LifeExp2[index,]
-test_custom <- LifeExp2[index,]
+test_custom <- LifeExp2[-index,]
 ```
 
 ``` r
 #retrain/fit/test/predict and measure accuracy
-fit.custom <- lm(Life.expectancy ~log.Adult.Mortality + infant.deaths + log.GDP + Measles + HIV_cat + Country + Country:infant.deaths +Country:log.Adult.Mortality + log.Adult.Mortality:infant.deaths,data = train_custom)
-#model has interactions between HIV and Measles variables and their respective
-#binary categories to have a sort of conditional
-#interaction between Country:infant.deaths
+fit.custom <- lm(Life.expectancy ~log.Adult.Mortality + infant.deaths + log.GDP + Measles + HIV_cat + Country + Country:infant.deaths +Country:log.Adult.Mortality + log.Adult.Mortality:infant.deaths:Country,data = train_custom)
+
 #check model performance on the test set and test set prediction
+train_custom_pred <- predict(fit.custom,train_custom)
+```
+
+    ## Warning in predict.lm(fit.custom, train_custom): prediction from a rank-
+    ## deficient fit may be misleading
+
+``` r
 test_custom_pred <- predict(fit.custom,test_custom)
 ```
 
@@ -3726,15 +3758,16 @@ test_custom_pred <- predict(fit.custom,test_custom)
 
 ``` r
 test_score = caret::postResample(pred = test_custom_pred,obs = test_custom$Life.expectancy)
+train_score = caret::postResample(pred = train_custom_pred,obs = train_custom$Life.expectancy)
 forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
 ```
 
-    ##                           ME  RMSE    MAE      MPE  MAPE
-    ## Test set 0.00000000000002636 1.269 0.7122 -0.03328 1.027
+    ##               ME  RMSE    MAE     MPE MAPE
+    ## Test set -0.1458 1.673 0.9427 -0.2657 1.38
 
 ``` r
 #### Scatter plot
-plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
+plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Miguel)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-1.png)<!-- -->
@@ -3746,8 +3779,16 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(fit.custom$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * (n - 1)/(n - p - 1)
-eval_df = rbind(eval_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+sm=summary(fit.custom)
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trn = rmse_trn^2
+mse_trndf = mse_trn
+adjrsqd_trn = sm$adj.r.squared
+eval_test_df = rbind(eval_test_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ``` r
@@ -3771,18 +3812,6 @@ cat("No variable with zero variance in the selected list of variables.")
     ## No variable with zero variance in the selected list of variables.
 
 ``` r
-# Create training and test set for KNN model
-
-
-#incl_for_knn = c(3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23)
-#ktrain = train[,incl_for_knn]
-#ktest = test[,incl_for_knn]
-#x=ktrain[,-4]
-#y=ktrain$Life.expectancy
-#xtest = ktest[,-4]
-#ytest = ktest$Life.expectancy
-
-
 # Search for optimal k
 k_grid = expand.grid(k = seq(3, 25, by = 2))
 
@@ -3815,23 +3844,26 @@ varImp(KNNRegressor)
     ## loess r-squared variable importance
     ## 
     ##                                 Overall
-    ## Country                           100.0
-    ## Adult.Mortality                    96.9
-    ## Income.composition.of.resources    82.5
-    ## HIV.AIDS                           73.9
-    ## Status                             25.2
-    ## Alcohol                            20.3
-    ## Population                          0.0
+    ## Country                          100.00
+    ## Adult.Mortality                   96.15
+    ## Income.composition.of.resources   78.06
+    ## HIV.AIDS                          67.21
+    ## thinness.5.9.years                43.59
+    ## infant.deaths                     37.32
+    ## GDP                               26.82
+    ## percentage.expenditure             9.39
+    ## Status                             6.14
+    ## Alcohol                            0.00
 
 ``` r
 #KNNRegressor$results$Rsquared
 #KNNRegressor.sorted <- KNNRegressor$results[order(KNNRegressor$results$Rsquared),]
 #KNNRegressor.sorted[1,'Rsquared']
 
-x = 1:length(ktest$Life.expectancy)
-plot(x, ktest$Life.expectancy, col = "red", type = "l", lwd=2,
+x_knn = 1:length(ktest$Life.expectancy)
+plot(x_knn, ktest$Life.expectancy, col = "red", type = "l", lwd=2,
      main = "Life Expectancy prediction")
-lines(x, prediction_test, col = "blue", lwd=2)
+lines(x_knn, prediction_test, col = "blue", lwd=2)
 legend("topright",  legend = c("original observation", "predicted life expectancy"), 
        fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
 grid()
@@ -3846,8 +3878,17 @@ rsqd = test_score[2]
 mse = rmse^2
 n=dim(xtest)[1]
 p = length(KNNRegressor$coefnames)
-adjrsqd = 1 - ((1-rsqd)*(n-1)/(n-p-1))
-eval_df = rbind(eval_df, c('KNN', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
+## Train scores
+rmse_trn = train_score[1]
+rsqd_trn = train_score[2]
+mse_trn = rmse^2
+mse_trndf = mse_trn
+n=dim(xtest)[1]
+p = length(KNNRegressor$coefnames)
+adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
+eval_test_df = rbind(eval_test_df, c('KNN', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 ```
 
 ### Visualize ‘k’ and the most important features
@@ -3867,8 +3908,242 @@ plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 
 <img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-16-2.png" angle=90 style="display: block; margin: auto;" />
 
+
+    # Training set scores
+
+    ```r
+    knitr::kable(eval_train_df, "html")
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:left;">
+model_name
+</th>
+<th style="text-align:left;">
+MSE
+</th>
+<th style="text-align:left;">
+R_Squared
+</th>
+<th style="text-align:left;">
+AdjR_Squared
+</th>
+<th style="text-align:left;">
+RMSE
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Rsquared
+</td>
+<td style="text-align:left;">
+LASSO
+</td>
+<td style="text-align:left;">
+6.1668
+</td>
+<td style="text-align:left;">
+0.9332
+</td>
+<td style="text-align:left;">
+0.9326
+</td>
+<td style="text-align:left;">
+2.4833
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2
+</td>
+<td style="text-align:left;">
+FWD Selection
+</td>
+<td style="text-align:left;">
+6.2796
+</td>
+<td style="text-align:left;">
+0.9320
+</td>
+<td style="text-align:left;">
+0.9316
+</td>
+<td style="text-align:left;">
+2.5059
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+3
+</td>
+<td style="text-align:left;">
+Backward Elim.
+</td>
+<td style="text-align:left;">
+6.2796
+</td>
+<td style="text-align:left;">
+0.9320
+</td>
+<td style="text-align:left;">
+0.9316
+</td>
+<td style="text-align:left;">
+2.5059
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+4
+</td>
+<td style="text-align:left;">
+Ridge
+</td>
+<td style="text-align:left;">
+6.8023
+</td>
+<td style="text-align:left;">
+0.9272
+</td>
+<td style="text-align:left;">
+0.9265
+</td>
+<td style="text-align:left;">
+2.5115
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+5
+</td>
+<td style="text-align:left;">
+ElasticNet
+</td>
+<td style="text-align:left;">
+6.1723
+</td>
+<td style="text-align:left;">
+0.9331
+</td>
+<td style="text-align:left;">
+0.9325
+</td>
+<td style="text-align:left;">
+2.4717
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+6
+</td>
+<td style="text-align:left;">
+MLR - Tamas
+</td>
+<td style="text-align:left;">
+6.2796
+</td>
+<td style="text-align:left;">
+0.9288
+</td>
+<td style="text-align:left;">
+0.9316
+</td>
+<td style="text-align:left;">
+2.5336
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+7
+</td>
+<td style="text-align:left;">
+MLR Interact - Tamas
+</td>
+<td style="text-align:left;">
+6.5135
+</td>
+<td style="text-align:left;">
+0.9294
+</td>
+<td style="text-align:left;">
+0.9290
+</td>
+<td style="text-align:left;">
+2.5264
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+8
+</td>
+<td style="text-align:left;">
+MLR Interact - Reuven
+</td>
+<td style="text-align:left;">
+7.4175
+</td>
+<td style="text-align:left;">
+0.9196
+</td>
+<td style="text-align:left;">
+0.9193
+</td>
+<td style="text-align:left;">
+2.7013
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+9
+</td>
+<td style="text-align:left;">
+MLR Interact - Miguel
+</td>
+<td style="text-align:left;">
+1.4579
+</td>
+<td style="text-align:left;">
+0.9838
+</td>
+<td style="text-align:left;">
+0.9787
+</td>
+<td style="text-align:left;">
+1.6731
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+10
+</td>
+<td style="text-align:left;">
+KNN
+</td>
+<td style="text-align:left;">
+3.2191
+</td>
+<td style="text-align:left;">
+0.9839
+</td>
+<td style="text-align:left;">
+0.9715
+</td>
+<td style="text-align:left;">
+1.7942
+</td>
+</tr>
+</tbody>
+</table>
+
+# Test set scores
+
 ``` r
-knitr::kable(eval_df, "html")
+knitr::kable(eval_test_df, "html")
 ```
 
 <table>
@@ -4022,16 +4297,16 @@ MLR - Tamas
 MLR Interact - Tamas
 </td>
 <td style="text-align:left;">
-6.4158
+6.3827
 </td>
 <td style="text-align:left;">
-0.9214
+0.9218
 </td>
 <td style="text-align:left;">
-0.9194
+0.9192
 </td>
 <td style="text-align:left;">
-2.5329
+2.5264
 </td>
 </tr>
 <tr>
@@ -4062,16 +4337,16 @@ MLR Interact - Reuven
 MLR Interact - Miguel
 </td>
 <td style="text-align:left;">
-1.6099
+2.7993
 </td>
 <td style="text-align:left;">
-0.9821
+0.9705
 </td>
 <td style="text-align:left;">
-1.0687
+1.0436
 </td>
 <td style="text-align:left;">
-1.2688
+1.6731
 </td>
 </tr>
 <tr>
@@ -4082,16 +4357,16 @@ MLR Interact - Miguel
 KNN
 </td>
 <td style="text-align:left;">
-2.8531
+3.2191
 </td>
 <td style="text-align:left;">
-0.9671
+0.9621
 </td>
 <td style="text-align:left;">
-0.9424
+0.9328
 </td>
 <td style="text-align:left;">
-1.6891
+1.7942
 </td>
 </tr>
 </tbody>
