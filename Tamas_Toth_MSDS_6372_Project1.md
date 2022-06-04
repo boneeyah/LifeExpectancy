@@ -124,7 +124,7 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Benin
+Republic of Korea
 </td>
 <td style="text-align:right;">
 2008
@@ -133,333 +133,333 @@ Benin
 Developing
 </td>
 <td style="text-align:right;">
-57.6
-</td>
-<td style="text-align:right;">
-278
-</td>
-<td style="text-align:right;">
-25
-</td>
-<td style="text-align:right;">
-1.28
-</td>
-<td style="text-align:right;">
-7.615
+83.0
 </td>
 <td style="text-align:right;">
 75
-</td>
-<td style="text-align:right;">
-928
-</td>
-<td style="text-align:right;">
-22.0
-</td>
-<td style="text-align:right;">
-39
-</td>
-<td style="text-align:right;">
-77
-</td>
-<td style="text-align:right;">
-4.20
-</td>
-<td style="text-align:right;">
-75
-</td>
-<td style="text-align:right;">
-1.8
-</td>
-<td style="text-align:right;">
-82.15
-</td>
-<td style="text-align:right;">
-8696916
-</td>
-<td style="text-align:right;">
-8.1
-</td>
-<td style="text-align:right;">
-8.0
-</td>
-<td style="text-align:right;">
-0.444
-</td>
-<td style="text-align:right;">
-9.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Spain
-</td>
-<td style="text-align:right;">
-2011
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-82.1
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-9.62
-</td>
-<td style="text-align:right;">
-4873.819
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-3802
-</td>
-<td style="text-align:right;">
-64.1
 </td>
 <td style="text-align:right;">
 2
 </td>
 <td style="text-align:right;">
-97
+9.31
 </td>
 <td style="text-align:right;">
-9.48
+0.00
 </td>
 <td style="text-align:right;">
-97
+94
 </td>
 <td style="text-align:right;">
-0.1
+2
 </td>
 <td style="text-align:right;">
-31834.22
+28.6
 </td>
 <td style="text-align:right;">
-46742697
+2
 </td>
 <td style="text-align:right;">
-0.6
+92
 </td>
 <td style="text-align:right;">
-0.5
+6.16
 </td>
 <td style="text-align:right;">
-0.867
-</td>
-<td style="text-align:right;">
-16.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bhutan
-</td>
-<td style="text-align:right;">
-2002
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-62.5
-</td>
-<td style="text-align:right;">
-282
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-0.29
-</td>
-<td style="text-align:right;">
-151.976
-</td>
-<td style="text-align:right;">
-83
-</td>
-<td style="text-align:right;">
-27
-</td>
-<td style="text-align:right;">
-14.9
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-89
-</td>
-<td style="text-align:right;">
-7.75
-</td>
-<td style="text-align:right;">
-86
+94
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-885.64
+NA
 </td>
 <td style="text-align:right;">
-66399
-</td>
-<td style="text-align:right;">
-18.6
-</td>
-<td style="text-align:right;">
-19.4
-</td>
-<td style="text-align:right;">
-0.000
-</td>
-<td style="text-align:right;">
-8.0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Papua New Guinea
-</td>
-<td style="text-align:right;">
-2003
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-59.6
-</td>
-<td style="text-align:right;">
-321
-</td>
-<td style="text-align:right;">
-11
-</td>
-<td style="text-align:right;">
-0.59
-</td>
-<td style="text-align:right;">
-124.379
-</td>
-<td style="text-align:right;">
-67
-</td>
-<td style="text-align:right;">
-3863
-</td>
-<td style="text-align:right;">
-39.6
-</td>
-<td style="text-align:right;">
-14
-</td>
-<td style="text-align:right;">
-62
-</td>
-<td style="text-align:right;">
-6.79
-</td>
-<td style="text-align:right;">
-68
-</td>
-<td style="text-align:right;">
-1.4
-</td>
-<td style="text-align:right;">
-588.36
-</td>
-<td style="text-align:right;">
-61724
+NA
 </td>
 <td style="text-align:right;">
 1.5
 </td>
 <td style="text-align:right;">
-1.4
+1.0
 </td>
 <td style="text-align:right;">
-0.433
+NA
 </td>
 <td style="text-align:right;">
-7.2
+NA
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Democratic Republic of the Congo
+Burkina Faso
 </td>
 <td style="text-align:right;">
-2001
+2005
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-51.8
+53.3
 </td>
 <td style="text-align:right;">
-34
+313
 </td>
 <td style="text-align:right;">
-227
+48
 </td>
 <td style="text-align:right;">
-1.90
+4.88
+</td>
+<td style="text-align:right;">
+8.77
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+253
+</td>
+<td style="text-align:right;">
+14.2
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+6.87
+</td>
+<td style="text-align:right;">
+82
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+47.0
+</td>
+<td style="text-align:right;">
+1342193
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+9.8
 </td>
 <td style="text-align:right;">
 0.000
 </td>
 <td style="text-align:right;">
-NA
+4.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rwanda
 </td>
 <td style="text-align:right;">
-8072
+2000
+</td>
+<td style="text-align:left;">
+Developing
 </td>
 <td style="text-align:right;">
-15.3
+48.3
 </td>
 <td style="text-align:right;">
-332
+426
 </td>
 <td style="text-align:right;">
-3
+34
 </td>
 <td style="text-align:right;">
-2.67
+7.13
 </td>
 <td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-2.4
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-12.2
-</td>
-<td style="text-align:right;">
-12.1
+18.42
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
+2095
+</td>
+<td style="text-align:right;">
+13.2
+</td>
+<td style="text-align:right;">
+57
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+4.22
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+8.5
+</td>
+<td style="text-align:right;">
+216.2
+</td>
+<td style="text-align:right;">
+82573
+</td>
+<td style="text-align:right;">
+7.6
+</td>
+<td style="text-align:right;">
+7.7
+</td>
+<td style="text-align:right;">
+0.318
+</td>
+<td style="text-align:right;">
+6.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Estonia
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+76.3
+</td>
+<td style="text-align:right;">
+135
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0.01
+</td>
+<td style="text-align:right;">
+2263.10
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+58.5
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+6.36
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+17421.9
+</td>
+<td style="text-align:right;">
+1322696
+</td>
+<td style="text-align:right;">
+1.9
+</td>
+<td style="text-align:right;">
+1.9
+</td>
+<td style="text-align:right;">
+0.850
+</td>
+<td style="text-align:right;">
+16.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cuba
+</td>
+<td style="text-align:right;">
+2011
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+78.8
+</td>
+<td style="text-align:right;">
+92
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+4.14
+</td>
+<td style="text-align:right;">
+102.06
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+58.4
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+1.60
+</td>
+<td style="text-align:right;">
+97
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+675.9
+</td>
+<td style="text-align:right;">
 NA
+</td>
+<td style="text-align:right;">
+3.4
+</td>
+<td style="text-align:right;">
+3.2
+</td>
+<td style="text-align:right;">
+0.780
+</td>
+<td style="text-align:right;">
+16.5
 </td>
 </tr>
 </tbody>
@@ -1040,7 +1040,7 @@ summary(LifeExp)
 -   Column names have spaces and special characters that has been
     replaced by R with “.”
 -   There are missing values or empty strings in the dataset
--   ????? duplicated records????????
+-   No duplicated records
 -   ‘Life.expectancy’ is the dependent variable - There are 10 missing
     observations in the dependent variable
 -   We need to predict Salary however there is no salary variable in the
@@ -1058,31 +1058,31 @@ summary(LifeExp)
 LifeExp$Status = as.factor(LifeExp$Status)
 #num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 #MLR_num_LE = LifeExp[, num_cols]
-pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-1.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-2.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-3.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~HIV.AIDS+GDP+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~HIV.AIDS+GDP+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-4.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-5.png)<!-- -->
@@ -1092,31 +1092,31 @@ pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooli
 LifeExp$Status = as.factor(LifeExp$Status)
 #num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 #MLR_num_LE = LifeExp[, num_cols]
-pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-6.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-7.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-8.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-9.png)<!-- -->
 
 ``` r
-pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-10.png)<!-- -->
@@ -1126,31 +1126,31 @@ pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooli
 LifeExp$Status = as.factor(LifeExp$Status)
 #num_cols = LifeExp %>% select(where(is.numeric)) %>% colnames()
 #MLR_num_LE = LifeExp[, num_cols]
-pairs(log(Life.expectancy)~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-11.png)<!-- -->
 
 ``` r
-pairs(log(Life.expectancy)~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-12.png)<!-- -->
 
 ``` r
-pairs(log(Life.expectancy)~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-13.png)<!-- -->
 
 ``` r
-pairs(log(Life.expectancy)~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-14.png)<!-- -->
 
 ``` r
-pairs(log(Life.expectancy)~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"))
+pairs(log(Life.expectancy)~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear%20regression-15.png)<!-- -->
@@ -1334,15 +1334,11 @@ LifeExp$Continent = as.factor(LifeExp$Continent)
 #      Full Correlation Matrix for Linear Regression (Life.expectancy)              #
 #####################################################################################
 # Filter for data to be included
-num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
-LifeExpcorr = LifeExp[,num_cols]
-corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
-         cl.pos = 'n', col = COL2('BrBG'))
-```
+#num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
+#LifeExpcorr = LifeExp[,num_cols]
+#corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
+#         cl.pos = 'n', col = COL2('BrBG'))
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-1.png" angle=90 style="display: block; margin: auto;" />
-
-``` r
 plot_correlate(LifeExp)
 ```
 
@@ -1350,7 +1346,7 @@ plot_correlate(LifeExp)
     ## Use 'plot.correlate' instead.
     ## See help("Deprecated")
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-2.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-1.png" angle=90 style="display: block; margin: auto;" />
 
 ### Observations
 
@@ -1514,7 +1510,7 @@ theme(plot.title = element_text(hjust = 0.5)) +
 ggplot(data=mean_LifeExp_cont, aes(x=Year, y=meanle, group = Continent)) +
   geom_line(aes(color=Continent))+
   geom_point(aes(color=Continent)) +
-  ggtitle("Mean life expactancy by year by Continent") +
+  ggtitle("Mean life expactancy by year by continent") +
 theme(plot.title = element_text(hjust = 0.5)) +
   xlab("Year") + ylab("Average Life Expectancy")
 ```
@@ -1561,13 +1557,13 @@ ytest = rtest$Life.expectancy
 
 # Create training and test set for KNN model
 
-incl_for_knn = c(1, 5, 7, 16, 18, 3, 21, 4)
+incl_for_knn = c("Country", "Life.expectancy", "Adult.Mortality" , "Alcohol", "HIV.AIDS", "thinness.5.9.years" , "Status", "Income.composition.of.resources", "percentage.expenditure", "infant.deaths", "GDP")
 ktrain = train[,incl_for_knn]
 ktest = test[,incl_for_knn]
-kx=ktrain[,-4]
-ky=ktrain$Life.expectancy
-kxtest = ktest[,-4]
-kytest = ktest$Life.expectancy
+#kx=ktrain[,-4]
+#ky=ktrain$Life.expectancy
+#kxtest = ktest[,-4]
+#kytest = ktest$Life.expectancy
 ```
 
 ``` r
@@ -3697,7 +3693,7 @@ grid()
 
 ``` r
 #### Scatter plot
-plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
+plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Reuven)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-7.png)<!-- -->
@@ -3776,7 +3772,7 @@ forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
 
 ``` r
 #### Scatter plot
-plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
+plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Miguel)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-1.png)<!-- -->
@@ -3813,18 +3809,6 @@ cat("No variable with zero variance in the selected list of variables.")
     ## No variable with zero variance in the selected list of variables.
 
 ``` r
-# Create training and test set for KNN model
-
-
-#incl_for_knn = c(3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23)
-#ktrain = train[,incl_for_knn]
-#ktest = test[,incl_for_knn]
-#x=ktrain[,-4]
-#y=ktrain$Life.expectancy
-#xtest = ktest[,-4]
-#ytest = ktest$Life.expectancy
-
-
 # Search for optimal k
 k_grid = expand.grid(k = seq(3, 25, by = 2))
 
@@ -3856,14 +3840,17 @@ varImp(KNNRegressor)
 
     ## loess r-squared variable importance
     ## 
-    ##                                  Overall
-    ## Adult.Mortality                 100.0000
-    ## Income.composition.of.resources  85.1323
-    ## HIV.AIDS                         34.3617
-    ## Status                           26.0152
-    ## Alcohol                          20.9686
-    ## Country                           0.0583
-    ## Population                        0.0000
+    ##                                 Overall
+    ## Adult.Mortality                  100.00
+    ## Income.composition.of.resources   85.12
+    ## GDP                               42.98
+    ## HIV.AIDS                          34.32
+    ## percentage.expenditure            28.65
+    ## Status                            25.97
+    ## thinness.5.9.years                24.24
+    ## Alcohol                           20.92
+    ## infant.deaths                      4.18
+    ## Country                            0.00
 
 ``` r
 #KNNRegressor$results$Rsquared
@@ -4124,16 +4111,16 @@ MLR Interact - Miguel
 KNN
 </td>
 <td style="text-align:left;">
-2.8531
+3.2191
 </td>
 <td style="text-align:left;">
-0.9671
+0.9621
 </td>
 <td style="text-align:left;">
-0.9424
+0.9328
 </td>
 <td style="text-align:left;">
-1.6891
+1.7942
 </td>
 </tr>
 </tbody>
