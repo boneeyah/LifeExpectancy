@@ -64,7 +64,7 @@ options(scipen = 100, digits = 4)
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Life_Expectancy_Data.csv',header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -251,7 +251,7 @@ LifeExp = as.data.frame(LifeExp)
 
 #impute USA values
 #USA GDP
-US_GDP <- read.csv('API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
+US_GDP <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -263,7 +263,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-US_Scho <- read.csv("Expected years of schooling (years).csv",skip = 6,header = FALSE)
+US_Scho <- read.csv("https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -278,7 +278,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-US_Inc <- read.csv('Income index.csv',skip = 5, header = FALSE)
+US_Inc <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE)
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -293,7 +293,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-pop_all <- read.csv('WPP2019_TotalPopulationBySex.csv')
+pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv')
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -310,7 +310,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-adlt_mort <- read.csv('Adult_mort.csv',header = TRUE)
+adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Adult_mort.csv',header = TRUE)
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
@@ -683,6 +683,7 @@ grid=10^seq(10,-2, length =100)
 lasso.mod=glmnet(x,y,alpha=1, lambda =grid)
 cv.out=cv.glmnet(x,y,alpha=1)
 plot(cv.out)
+title('Lasso Cross Validation',line = 2.5)
 
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
 lasso.pred=predict(lasso.mod ,s=bestlambda ,newx=xtest)
@@ -705,7 +706,7 @@ summary(fit.lasso.lm)
 
 ### Visualize VIF
 fit.lasso.lm_VIF = vif(fit.lasso.lm)
-barplot(fit.lasso.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+barplot(fit.lasso.lm_VIF, main = 'Lasso VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 
 
@@ -750,8 +751,8 @@ mse = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.lasso.lm3)
-hist(residuals, main = "Histogram of Residuals")
-plot(residuals, main = "Residuals plot") 
+hist(residuals, main = "Lasso without multicolinearity \nHistogram of Residuals")
+plot(residuals, main = "Lasso without multicolinearity \nResiduals plot") 
 abline(h=0, col="blue")
 plot(fit.lasso.lm3, which = 2)
 plot(fit.lasso.lm3, which = 4)
@@ -776,7 +777,7 @@ for (i in 1:41){
   testASE[i] = mean((test$Life.expectancy-predictions)^2)
 }
 par(mfrow=c(1,1))
-plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE")
+plot(1:41,testASE,type="l",xlab="# of predictors",ylab="test vs train ASE",ylim = c(5.5,11.7))
 index<-which(testASE==min(testASE))
 points(index,testASE[index],col="red",pch=10)
 rss<-summary(mlr.fwd)$rss
@@ -796,7 +797,7 @@ fit.fwd.lm = lm(Life.expectancy ~ Year+Adult.Mortality+infant.deaths+Alcohol+Mea
 
 ### Visualize VIF
 fit.fwd.lm_VIF = vif(fit.fwd.lm)
-barplot(fit.fwd.lm_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+barplot(fit.fwd.lm_VIF, main = 'Forward Selection VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 
 
@@ -808,7 +809,7 @@ summary(fit.fwd.lm2)
 
 ### re-run Visualize VIF
 fit.fwd.lm2_VIF = vif(fit.fwd.lm2)
-barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+barplot(fit.fwd.lm2_VIF, main = 'Forward Selection Re-test of VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 
 ##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity and categorical variables####
@@ -832,8 +833,8 @@ mse = mean(sm$residuals^2)
 
 ### Checking Multiple Liner Regression model assumptions
 confint(fit.fwd.lm3)
-hist(residuals, main = "Histogram of Residuals")
-plot(residuals, main = "Residuals plot") 
+hist(residuals, main = "Forward Selection \nHistogram of Residuals")
+plot(residuals, main = "Forward Selection \nResiduals plot") 
 abline(h=0, col="blue")
 plot(fit.fwd.lm3, which = 2)
 plot(fit.fwd.lm3, which = 4)
@@ -1079,14 +1080,16 @@ test = LifeExp[-index,]
 LifeExp2 <- LifeExp
 #create cat variables for HIV and Meas as binary No/Yes
 LifeExp2 <- LifeExp2 %>% dplyr::mutate(HIV_cat = if_else(LifeExp2$log.HIV.AIDS>log(.1),1,0),
-                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0))
+                                       Meas_cat= if_else(LifeExp2$Measles>0,1,0),
+                                       log.Adult.Mortality = log(Adult.Mortality),
+                                       log.infant.deaths = log(infant.deaths))
 
 train_custom <- LifeExp2[index,]
 test_custom <- LifeExp2[index,]
 ```
 ```{r run custom model}
 #retrain/fit/test/predict and measure accuracy
-fit.custom <- lm(Life.expectancy ~Adult.Mortality + infant.deaths + log.GDP +Measles + HIV_cat + Country + Country:infant.deaths +Country:Adult.Mortality + Adult.Mortality:infant.deaths:Country,data = train_custom)
+fit.custom <- lm(Life.expectancy ~log.Adult.Mortality + infant.deaths + log.GDP + Measles + HIV_cat + Country + Country:infant.deaths +Country:log.Adult.Mortality + log.Adult.Mortality:infant.deaths:Country,data = train_custom)
 #model has interactions between HIV and Measles variables and their respective
 #binary categories to have a sort of conditional
 #interaction between Country:infant.deaths
