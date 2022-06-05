@@ -1201,7 +1201,7 @@ cv <- trainControl(
   savePredictions = TRUE
 )
 MLRT = train(
-  Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
+  Life.expectancy ~ Income.composition.of.resources + Schooling:log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
   data = rtrain,
   method = "lm",
   trControl = cv)

@@ -185,117 +185,117 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Kazakhstan
+Tonga
 </td>
 <td style="text-align:right;">
-2010
+2002
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-67.8
+71.9
 </td>
 <td style="text-align:right;">
-236
+155
 </td>
 <td style="text-align:right;">
-7
+0
 </td>
 <td style="text-align:right;">
-6.83
+1.51
 </td>
 <td style="text-align:right;">
-11.152
+310.8203
 </td>
 <td style="text-align:right;">
-99
+88
 </td>
 <td style="text-align:right;">
-4
+0
 </td>
 <td style="text-align:right;">
-49.2
+67.0
 </td>
 <td style="text-align:right;">
-8
+0
 </td>
 <td style="text-align:right;">
-98
+85
 </td>
 <td style="text-align:right;">
-4.42
+5.30
 </td>
 <td style="text-align:right;">
-99
+84
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-97.65
+1842.44
 </td>
 <td style="text-align:right;">
-16321581
+99184
 </td>
 <td style="text-align:right;">
-2.3
+0.1
 </td>
 <td style="text-align:right;">
-2.5
+0.1
 </td>
 <td style="text-align:right;">
-0.763
+0.679
 </td>
 <td style="text-align:right;">
-14.5
+13.5
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-The former Yugoslav republic of Macedonia
+Venezuela (Bolivarian Republic of)
 </td>
 <td style="text-align:right;">
-2000
+2014
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-72.6
+73.9
 </td>
 <td style="text-align:right;">
-125
+158
 </td>
 <td style="text-align:right;">
-0
+9
 </td>
 <td style="text-align:right;">
-2.86
+6.47
 </td>
 <td style="text-align:right;">
-0.000
+0.0000
 </td>
 <td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-36
-</td>
-<td style="text-align:right;">
-52.7
+78
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-96
+61.5
 </td>
 <td style="text-align:right;">
-8.52
+10
 </td>
 <td style="text-align:right;">
-95
+79
+</td>
+<td style="text-align:right;">
+5.26
+</td>
+<td style="text-align:right;">
+78
 </td>
 <td style="text-align:right;">
 0.1
@@ -307,21 +307,89 @@ NA
 NA
 </td>
 <td style="text-align:right;">
-2.8
+1.6
 </td>
 <td style="text-align:right;">
-2.8
+1.5
 </td>
 <td style="text-align:right;">
-0.000
+0.771
 </td>
 <td style="text-align:right;">
-11.7
+14.2
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Niger
+Serbia
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+75.4
+</td>
+<td style="text-align:right;">
+123
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+9.09
+</td>
+<td style="text-align:right;">
+8.6172
+</td>
+<td style="text-align:right;">
+92
+</td>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+59.4
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+1.37
+</td>
+<td style="text-align:right;">
+93
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+62.17
+</td>
+<td style="text-align:right;">
+713576
+</td>
+<td style="text-align:right;">
+2.1
+</td>
+<td style="text-align:right;">
+2.1
+</td>
+<td style="text-align:right;">
+0.771
+</td>
+<td style="text-align:right;">
+14.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+India
 </td>
 <td style="text-align:right;">
 2009
@@ -330,197 +398,129 @@ Niger
 Developing
 </td>
 <td style="text-align:right;">
-57.1
+66.0
 </td>
 <td style="text-align:right;">
-263
+2
 </td>
 <td style="text-align:right;">
-51
+1300
 </td>
 <td style="text-align:right;">
-0.11
+2.50
 </td>
 <td style="text-align:right;">
-5.665
+0.8442
 </td>
 <td style="text-align:right;">
-71
+37
 </td>
 <td style="text-align:right;">
-801
+56188
 </td>
 <td style="text-align:right;">
-16.9
+15.4
 </td>
 <td style="text-align:right;">
-99
+1700
 </td>
 <td style="text-align:right;">
-71
+73
 </td>
 <td style="text-align:right;">
-6.98
+4.38
 </td>
 <td style="text-align:right;">
-71
+74
 </td>
 <td style="text-align:right;">
-1.1
+0.2
 </td>
 <td style="text-align:right;">
-341.29
+19.32
 </td>
 <td style="text-align:right;">
-15813913
+121427132
 </td>
 <td style="text-align:right;">
-11.0
+27.0
 </td>
 <td style="text-align:right;">
-1.8
+27.8
 </td>
 <td style="text-align:right;">
-0.307
+0.563
 </td>
 <td style="text-align:right;">
-4.2
+10.5
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-The former Yugoslav republic of Macedonia
+Comoros
 </td>
 <td style="text-align:right;">
-2004
+2015
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-73.5
+63.5
 </td>
 <td style="text-align:right;">
-12
+227
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0.0000
+</td>
+<td style="text-align:right;">
+91
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-2.07
+24.2
 </td>
 <td style="text-align:right;">
-0.000
+2
 </td>
 <td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-54.5
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-8.64
-</td>
-<td style="text-align:right;">
-94
-</td>
-<td style="text-align:right;">
-0.1
+92
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-NA
+91
 </td>
 <td style="text-align:right;">
-2.6
+0.8
 </td>
 <td style="text-align:right;">
-2.6
+727.65
 </td>
 <td style="text-align:right;">
-0.000
+777424
 </td>
 <td style="text-align:right;">
-11.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-France
+6.7
 </td>
 <td style="text-align:right;">
-2008
-</td>
-<td style="text-align:left;">
-Developing
+6.5
 </td>
 <td style="text-align:right;">
-89.0
+0.498
 </td>
 <td style="text-align:right;">
-88
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-11.90
-</td>
-<td style="text-align:right;">
-7002.786
-</td>
-<td style="text-align:right;">
-47
-</td>
-<td style="text-align:right;">
-604
-</td>
-<td style="text-align:right;">
-59.1
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-1.57
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-45413.66
-</td>
-<td style="text-align:right;">
-6437499
-</td>
-<td style="text-align:right;">
-0.6
-</td>
-<td style="text-align:right;">
-0.6
-</td>
-<td style="text-align:right;">
-0.877
-</td>
-<td style="text-align:right;">
-16.1
+11.1
 </td>
 </tr>
 </tbody>
@@ -3583,7 +3583,7 @@ cv <- trainControl(
   savePredictions = TRUE
 )
 MLRT = train(
-  Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
+  Life.expectancy ~ Income.composition.of.resources + Schooling:log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
   data = rtrain,
   method = "lm",
   trControl = cv)
@@ -3607,37 +3607,33 @@ summary(MLRT$finalModel)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -12.932  -1.648  -0.253   1.290  12.389 
+    ## -13.062  -1.771  -0.243   1.463  16.422 
     ## 
     ## Coefficients:
     ##                                         Estimate Std. Error t value
-    ## (Intercept)                            112.71600   25.31631    4.45
-    ## Income.composition.of.resources          3.00378    0.47323    6.35
-    ## Schooling                                0.63430    0.03923   16.17
-    ## log.percentage.expenditure               0.20986    0.08758    2.40
-    ## log.HIV.AIDS                            -0.05812    0.07013   -0.83
-    ## log.GDP                                  0.23494    0.04415    5.32
-    ## BMI                                      0.02178    0.00335    6.51
-    ## Year                                    -0.02215    0.01263   -1.75
-    ## Adult.Mortality                         -0.05829    0.00107  -54.72
-    ## `Schooling:log.percentage.expenditure`  -0.01233    0.00639   -1.93
+    ## (Intercept)                            72.485657  26.887099    2.70
+    ## Income.composition.of.resources         8.086783   0.410264   19.71
+    ## log.HIV.AIDS                           -0.193307   0.074332   -2.60
+    ## log.GDP                                 0.299205   0.046630    6.42
+    ## BMI                                     0.030037   0.003537    8.49
+    ## Year                                   -0.000564   0.013407   -0.04
+    ## Adult.Mortality                        -0.058634   0.001135  -51.65
+    ## `Schooling:log.percentage.expenditure`  0.012255   0.001843    6.65
     ##                                                    Pr(>|t|)    
-    ## (Intercept)                                  0.000008871388 ***
-    ## Income.composition.of.resources              0.000000000260 ***
-    ## Schooling                              < 0.0000000000000002 ***
-    ## log.percentage.expenditure                            0.017 *  
-    ## log.HIV.AIDS                                          0.407    
-    ## log.GDP                                      0.000000112469 ***
-    ## BMI                                          0.000000000092 ***
-    ## Year                                                  0.080 .  
+    ## (Intercept)                                          0.0071 ** 
+    ## Income.composition.of.resources        < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                         0.0094 ** 
+    ## log.GDP                                      0.000000000166 ***
+    ## BMI                                    < 0.0000000000000002 ***
+    ## Year                                                 0.9664    
     ## Adult.Mortality                        < 0.0000000000000002 ***
-    ## `Schooling:log.percentage.expenditure`                0.054 .  
+    ## `Schooling:log.percentage.expenditure`       0.000000000036 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.73 on 2479 degrees of freedom
-    ## Multiple R-squared:  0.92,   Adjusted R-squared:  0.919 
-    ## F-statistic: 3.15e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.91 on 2481 degrees of freedom
+    ## Multiple R-squared:  0.909,  Adjusted R-squared:  0.908 
+    ## F-statistic: 3.52e+03 on 7 and 2481 DF,  p-value: <0.0000000000000002
 
 ``` r
 # Predicting
@@ -3654,37 +3650,33 @@ summary(MLRT$finalModel)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -12.932  -1.648  -0.253   1.290  12.389 
+    ## -13.062  -1.771  -0.243   1.463  16.422 
     ## 
     ## Coefficients:
     ##                                         Estimate Std. Error t value
-    ## (Intercept)                            112.71600   25.31631    4.45
-    ## Income.composition.of.resources          3.00378    0.47323    6.35
-    ## Schooling                                0.63430    0.03923   16.17
-    ## log.percentage.expenditure               0.20986    0.08758    2.40
-    ## log.HIV.AIDS                            -0.05812    0.07013   -0.83
-    ## log.GDP                                  0.23494    0.04415    5.32
-    ## BMI                                      0.02178    0.00335    6.51
-    ## Year                                    -0.02215    0.01263   -1.75
-    ## Adult.Mortality                         -0.05829    0.00107  -54.72
-    ## `Schooling:log.percentage.expenditure`  -0.01233    0.00639   -1.93
+    ## (Intercept)                            72.485657  26.887099    2.70
+    ## Income.composition.of.resources         8.086783   0.410264   19.71
+    ## log.HIV.AIDS                           -0.193307   0.074332   -2.60
+    ## log.GDP                                 0.299205   0.046630    6.42
+    ## BMI                                     0.030037   0.003537    8.49
+    ## Year                                   -0.000564   0.013407   -0.04
+    ## Adult.Mortality                        -0.058634   0.001135  -51.65
+    ## `Schooling:log.percentage.expenditure`  0.012255   0.001843    6.65
     ##                                                    Pr(>|t|)    
-    ## (Intercept)                                  0.000008871388 ***
-    ## Income.composition.of.resources              0.000000000260 ***
-    ## Schooling                              < 0.0000000000000002 ***
-    ## log.percentage.expenditure                            0.017 *  
-    ## log.HIV.AIDS                                          0.407    
-    ## log.GDP                                      0.000000112469 ***
-    ## BMI                                          0.000000000092 ***
-    ## Year                                                  0.080 .  
+    ## (Intercept)                                          0.0071 ** 
+    ## Income.composition.of.resources        < 0.0000000000000002 ***
+    ## log.HIV.AIDS                                         0.0094 ** 
+    ## log.GDP                                      0.000000000166 ***
+    ## BMI                                    < 0.0000000000000002 ***
+    ## Year                                                 0.9664    
     ## Adult.Mortality                        < 0.0000000000000002 ***
-    ## `Schooling:log.percentage.expenditure`                0.054 .  
+    ## `Schooling:log.percentage.expenditure`       0.000000000036 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.73 on 2479 degrees of freedom
-    ## Multiple R-squared:  0.92,   Adjusted R-squared:  0.919 
-    ## F-statistic: 3.15e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.91 on 2481 degrees of freedom
+    ## Multiple R-squared:  0.909,  Adjusted R-squared:  0.908 
+    ## F-statistic: 3.52e+03 on 7 and 2481 DF,  p-value: <0.0000000000000002
 
 ``` r
 residuals = resid(MLRT$finalModel)
@@ -7824,16 +7816,16 @@ MLR Interact - Tamas
 MLR Interact - Reuven
 </td>
 <td style="text-align:left;">
-7.4175
+8.4399
 </td>
 <td style="text-align:left;">
-0.9196
+0.9085
 </td>
 <td style="text-align:left;">
-0.9193
+0.9083
 </td>
 <td style="text-align:left;">
-2.7235
+2.9052
 </td>
 </tr>
 <tr>
@@ -8036,16 +8028,16 @@ MLR Interact - Tamas
 MLR Interact - Reuven
 </td>
 <td style="text-align:left;">
-7.2968
+8.3690
 </td>
 <td style="text-align:left;">
-0.9110
+0.8989
 </td>
 <td style="text-align:left;">
-0.9092
+0.8968
 </td>
 <td style="text-align:left;">
-2.7013
+2.8929
 </td>
 </tr>
 <tr>
